@@ -1,0 +1,142 @@
+--- [1] 2609.08275v1 ---
+Title: Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation
+Authors: Tianyi Zeng, Junchao Liao, Yujie Wei, Ziying Zhang, Litao Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Recent multi-shot audio-video generators can produce increasingly coherent and cinematic outputs, but coherence does not imply the ability to execute editing techniques. Professional editing depends on shot structure, transition grammar, audio-video cut relations, and montage, yet existing benchmarks largely rely on proxies such as content quality, synchronization, or physical plausibility, system...
+
+--- [2] 2608.24329v1 ---
+Title: How Do Professional Editors Evaluate the Editing Quality of AI-Generated Cinematic Video Ads?
+Authors: Po-Ming Law, Weizhi Li, Arpit Narechania
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-25
+Summary: On social media, we often encounter short-form video ads that employ cinematic editing techniques to evoke an emotional response. While AI tools are beginning to generate such cinematic ads automatically, we lack a fine-grained framework for evaluating these ads. In this paper, we first characterize social media video ad formats and identify cinematic ads as a recurring format in our corpus. We th...
+
+--- [3] 2608.23820v1 ---
+Title: From Anonymous Shapes to Named Places: A Tool for Braille and Place-Semantic Annotation of Tactile Maps
+Authors: Li Liu, Ashmita Dua, Jiaming Qu, David T. Lee, Leilani H. Gilpin
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-24
+Summary: On a 3D-printed tactile map, a building felt under the finger is an anonymous shape: touch alone cannot tell which footprint is which, and a spoken description cannot reliably point to one shape at one place. We present a web-based tool that lets a sighted helper click to add on-shape Braille labels to an already-generated map model, downstream of the geometry generator so that whoever knows the r...
+
+--- [4] 2608.18832v1 ---
+Title: EfficientSync: Real-Time Lip Synchronization via Deformation-Based Reference Texture Mixing
+Authors: Fa-Ting Hong, Runzhen Liu, Luchuan Song, Hongmin Cai, Chuhua Xian
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-19
+Summary: Audio-driven lip synchronization manipulates the mouth region of a talking-face video to match the driving audio while preserving head pose, identity, and background. Although the task is inherently local editing, prevailing approaches reconstruct the entire lower face with heavy GAN- or diffusion-based decoders, incurring substantial latency and, more critically, hallucinating intra-oral details ...
+
+--- [5] 2608.08349v1 ---
+Title: Dramarrator: Object-Based Audio Editing for Audio Drama Production from Books
+Authors: Karim Benharrak, Oriol Nieto, Bryan Wang, Zeyu Jin, Amy Pavel
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.MM
+Published: 2026-08-08
+Summary: Audio dramas weave dialogue, sound effects, and music into immersive stories. Creators often adapt books into audio dramas, but this process remains labor-intensive, requiring them to interpret source material, author scripts, generate audio assets, and assemble them on a timeline. Because story elements like characters and scenes manifest across many interdependent assets, a single change can rip...
+
+--- [6] 2607.23588v1 ---
+Title: JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents
+Authors: Yunlong Lin, Zixu Lin, Zhaohu Xing, Biqiang Li, Chenxin Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Creative AI is moving from single-step asset generation toward long-horizon multimodal production. Although recent generative models can synthesize high-quality images, videos, audio clips, UI elements, storyboards, slides, and other creative assets, real-world creative work requires more than isolated prompt-output interactions. It involves references, drafts, alternatives, edits, failed attempts...
+
+--- [7] 2607.21857v1 ---
+Title: SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision
+Authors: Hao Zhang, Yiwen Zhao, Yixuan Zhang, Yiwen Shao, Steve Yves
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-23
+Summary: We present an agentic soundscape construction framework for controllable compositional audio generation that makes explicit the scene planning, source selection, temporal layout, and rendering steps typically handled implicitly by single-shot text-to-audio models. An LLM-based agent converts user intent into an executable scene plan, acquires assets through retrieval and on-demand generation, rend...
+
+--- [8] 2607.19605v2 ---
+Title: RIME: Enabling Large-Scale Agentic Music Post-Production
+Authors: Noah Schaffer, Nikhil Singh
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-21
+Summary: Almost every piece of recorded music you have ever heard was modified before it reached you; commercial releases rarely spring fully-formed from the mind of a musician. Despite the promise of music generation models for one-shot output, such fine-grained iterative refinement workflows are a complementary problem, and largely out of their reach. There is also a gap for musicians: while they can exp...
+
+--- [9] 2607.19339v1 ---
+Title: OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
+Authors: Yu Chen, Caorui Li, Ziyu Xiong, Yidong Wang, Mingqi Gao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-21
+Summary: Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs learn, via supervised fine-tuning and reinforcement learning, to decide whether and where to call a ...
+
+--- [10] 2607.24821v1 ---
+Title: AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities
+Authors: Yuqing Wen, Yukai Huang, Qianqian Xie, Jiangtao Wu, Yibin Lin et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-07-17
+Summary: While instruction-based video editing has advanced rapidly, real-world videos contain tightly coupled audio and visual signals, and editing one modality often requires coordinated changes in the other. Existing benchmarks primarily evaluate visual transformations on silent clips or isolated audio editing, leaving complex audio-visual editing and cross-modal consistency underexplored. We introduce ...
+
+--- [11] 2607.14749v4 ---
+Title: WanSong v1.0 Technical Report
+Authors: Binghui Chen, Pandeng Li, Yu Liu, Jingren Zhou
+Primary cat: eess.AS | All cats: eess.AS, cs.CV
+Published: 2026-07-16
+Summary: Music generation foundation models have recently attracted significant industry attention. However, achieving efficient generation and high-fidelity long-form audio while supporting controllability remains challenging. To address these needs, we present \textbf{WanSong}, a simple yet powerful approach for long-form, commercial-grade song generation. Unlike autoregressive (AR) and cascaded multi-st...
+
+--- [12] 2607.08705v2 ---
+Title: HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales
+Authors: Wenbo Xu, Zhimin Chen, Xiaojie Liang, Hengrui Liu, Ziqi Sheng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-09
+Summary: Rapid advancements in video diffusion models and temporal editing tools have enabled the generation of highly realistic human-centric videos, presenting unprecedented challenges to digital content forensics. Existing benchmarks primarily focus on face-swapping or global text-to-video synthesis, overlooking the crucial dimensions of multimodal alignment and complex human-object or human-human inter...
+
+--- [13] 2608.20379v1 ---
+Title: A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications
+Authors: Neel Mokaria, Rishie Raj, Dheeraj Baiju, Xiaoqian Shen, Shraman Pramanick et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-28
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aedit+AND+(abs%3Atool+OR+abs%3Amulti-step+OR+abs%3Aagent)&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video...
+
+--- [14] 2606.26842v1 ---
+Title: voxmap-studio: An open-source speaker diarization annotation tool with built-in cost instrumentation
+Authors: Fumiaki Yamaguchi
+Primary cat: eess.AS | All cats: eess.AS, cs.HC, cs.SD
+Published: 2026-06-25
+Summary: Labeling speaker diarization data is costly, yet annotation tools rarely measure that cost. We present voxmap-studio, an open-source, React-based diarization annotation tool integrated with the pyannote-based diarization ecosystem. Its canvas is initialized by a fast stride-accelerated diarization engine so that the annotator corrects a hypothesis rather than drawing every speaker turn by hand, an...
+
+--- [15] 2606.23139v1 ---
+Title: Audio Editing in the Era of Foundation Models: A Survey
+Authors: Changhao Pan, Yifei Fan, Fan Zhuo, Yifu Chen, Wenxiang Guo et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-22
+Summary: Audio editing aims to modify a given synthetic or real-world audio signal to satisfy specific user needs. As a promising yet challenging direction in AIGC, it has attracted increasing attention. Recent advances in audio generation have made powerful generative models central to modern audio editing systems. This rapid progress has created a growing need to organize emerging tasks, methods, and res...
+
+--- [16] 2606.22708v1 ---
+Title: Libretto: Giving LLM Agents a Sense of Musical Structure
+Authors: Yichen Xu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-21
+Summary: Generative music systems can now produce impressive audio from text prompts, but audio outputs are difficult to inspect, edit, and diagnose as musical structure. We introduce Libretto, an agent-facing framework for symbolic music generation and revision. Libretto uses an LLM-native grammar with explicit onset slots, voices, and bar-level organization, then evaluates each piece in a corpus-calibrat...
+
+--- [17] 2606.13193v1 ---
+Title: A Dual-Mode Faust-to-CLAP Compilation System
+Authors: Facundo Franchino, Stéphane Letz, Jatin Chowdhury
+Primary cat: eess.AS | All cats: eess.AS, cs.PL, cs.SD
+Published: 2026-06-11
+Summary: We describe faust2clap, a framework establishing the first officially maintained compilation pathway from Faust DSP specifications to the CLAP format. The system operates in two different modes. A static mode employs ahead-of-time compilation to yield native binaries of optimal efficiency, while a dynamic mode uses runtime interpretation to permit DSP code modification without interrupting the hos...
+
+--- [18] 2606.07229v1 ---
+Title: MMAE: A Massive Multitask Audio Editing Benchmark
+Authors: Ziyang Ma, Ruiqi Yan, Ruiyang Xu, Jie Fang, Zhikang Niu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-06-05
+Summary: We introduce MMAE, a Massive Multitask Audio Editing benchmark, serving as the first comprehensive evaluation testbed designed for general-purpose instruction-based audio editing. Spurred by the shift toward intelligent creation, interactive editing has rapidly expanded from visual domains, pioneered by models like Nano-banana 2 for images and Gemini-Omni for video, into audio. However, the curren...
+
+--- [19] 2606.03168v1 ---
+Title: JAVEDIT: Joint Audio-Visual Instruction-Guided Video Editing with Agentic Data Curation
+Authors: Yinan Chen, Chuming Lin, Zhennan Chen, Yuxiang Zeng, Junwei Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-02
+Summary: While instruction-based video editing has seen significant progress, joint audio-visual editing remains constrained by the absence of dedicated datasets and benchmarks. To bridge this gap, we present JAVEdit-100k, the first large-scale, high-quality dataset tailored for instruction-guided joint audio-visual editing. Focusing on human-centric videos, JAVEdit-100k comprises approximately 100K editin...
+
+--- [20] 2605.08750v1 ---
+Title: Communicating Sound Through Natural Language
+Authors: Emanuele Rossi, Emanuele Rodolà
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL, cs.MA
+Published: 2026-05-09
+Summary: Natural language is widely used to describe, prompt, and control audio systems, but rarely serves as the representation carrying audio itself. We introduce lexical acoustic coding (LAC), a framework in which pre-trained LLM sender and receiver agents transmit sound through natural language. Under fixed system prompts, the agents write their own analysis and synthesis code, communicating only throu...
+

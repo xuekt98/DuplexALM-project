@@ -1,0 +1,177 @@
+--- [1] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [2] 2609.07594v1 ---
+Title: Large-Scale User Behavior Analysis in Multimodal AI-Assisted Manual Task Execution
+Authors: Rafael Ferreira, Diogo Tavares, Diogo Glória-Silva, David Semedo, João Magalhães
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CL
+Published: 2026-09-07
+Summary: Conversational Task Assistants (CTAs) are multimodal dialogue systems that support users in complex real-world tasks such as cooking and DIY through voice, text, image, and video interactions. Prior user studies have focused on controlled settings, leaving limited understanding of real-world CTA usage at scale. In this work, we present a large-scale study of CTA usage based on thousands of users i...
+
+--- [3] 2609.05361v1 ---
+Title: Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction
+Authors: Thang Tran Viet, Thanh Nguyen Canh, Huy Uong Gia, Phuc Dinh Van, Son Tran Duc et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-04
+Summary: Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This paper introduces a humanoid robot prototype designed as a flexible testbed for developing and integrating artificial intelligence (AI) modules in HRI tasks. The system features a 12 degree-of-freedom (DOFs) dual-arm mechanism and a 2 DOFs head with an expressive ...
+
+--- [4] 2609.04438v2 ---
+Title: ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory
+Authors: Shidu Ren, Yunze Liu, Xing Liu, Chi-Hao Wu, Enmin Zhou et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Long-horizon multimodal agents should remember not only what happened but also who participated. This capability depends on linking recurring faces, voices, names, person-associated objects, events, and social relations to consistent identities over time. Existing long-video and multimodal-agent benchmarks measure broad memory question answering, but they do not isolate the ability to maintain rec...
+
+--- [5] 2609.03502v1 ---
+Title: Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech
+Authors: Kunat Pipatanakul, Potsawee Manakul, Warit Sirichotedumrong, Sittipong Sripaisarnmongkol, Pakorn Nathong et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-03
+Summary: In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus. We study a third route: using a large voice-cloning model as a programmable data source to turn a short voice reference (e.g., 15 seconds) into a compact fixed-voice student trained entirely on synthet...
+
+--- [6] 2609.03363v1 ---
+Title: PACodec: A Low-bitrate Neural Speech Codec with Parallel Additive Vector Quantization
+Authors: Fei Liu, Yang Ai, Xiao-Hang Jiang, Zhen-Hua Ling
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-03
+Summary: This paper proposes PACodec, a novel low-bitrate neural speech codec based on parallel additive vector quantization (PAVQ). Unlike the mainstream residual vector quantization (RVQ) used in most neural speech codecs, where vector quantizers (VQs) are sequentially dependent, the PAVQ strategy adopted in PACodec aggregates parallel quantization results to optimize bitrate usage. Specifically, the PAV...
+
+--- [7] 2609.04262v1 ---
+Title: Low-Latency Spell Correction for Japanese Music Search Queries
+Authors: Anshul Garg, Pavni Tandon, Karan Bhukar, Tanmay Khandelwal, Ujjal Kumar Dutta
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-09-02
+Summary: Spell correction for Japanese search queries presents unique challenges due to the co-existence of four writing scripts (Latin/romaji, hiragana, katakana, and kanji) and the distinct error patterns each script induces. We present a compact BART-based sequence-to-sequence model (3 encoder + 3 decoder layers) designed for low-latency spell correction of Japanese music search queries. The core contri...
+
+--- [8] 2609.01723v1 ---
+Title: Hearing the Whispers: Black-Box Membership Inference Attacks on Finetuned TTS Models
+Authors: Kunlin Cai, Kaiyuan Zhang, Zihang Xiang, Jinghuai Zhang, Abeer Alwan et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.LG, cs.SD, eess.AS
+Published: 2026-09-01
+Summary: Text-to-Speech (TTS) foundation models are increasingly fine-tuned on private datasets to synthesize highly personalized voices, introducing severe privacy risks by exposing both biometric identities and sensitive speech content. Existing black-box membership inference attacks (MIAs) follow a two-stage pipeline of query generation and representation engineering, both of which face unique challenge...
+
+--- [9] 2609.00987v1 ---
+Title: On the Human and Computer Alignment of Attribute-Based Music Matches
+Authors: Roser Batlle-Roca, Woosung Choi, Joan Serrà, Fabio Morreale, Wei-Hsiang Liao et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-01
+Summary: Recent advances in generative AI are raising ethical concerns regarding the originality of generated content and the potential replication of training data, with further implications for transparency, attribution, and intellectual property. In music, several computational approaches have been proposed to identify potential replication, using audio-based similarity metrics. Yet, their alignment wit...
+
+--- [10] 2608.30793v1 ---
+Title: LipCoder: Voice-Enabled Coding Toolkit
+Authors: Hayoon Kim, Sungho Lee, Juhwi Kim, Bongwon Suh, Kyogu Lee
+Primary cat: cs.HC | All cats: cs.HC, cs.SD
+Published: 2026-08-31
+Summary: AI-assisted programming environments have accelerated software development, giving rise to new paradigms like vibe coding. However, their benefits remain largely inaccessible to visually impaired programmers, as existing screen readers and assistive tools offer limited support for these emerging workflows. We introduce LipCoder, a voice-centric programming toolkit designed to deliver editor-level ...
+
+--- [11] 2608.30738v1 ---
+Title: Not All Fallbacks Are Failures: Understanding and Recovering from Fallbacks in Mobile Voice Assistants
+Authors: Phillip Schneider, Alexandre Mercier, Joshua Oehms, Kristiina Jokinen, Florian Matthes
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-31
+Summary: Robust understanding of user input is a core requirement for voice assistants deployed in real-world environments. In practice, these systems encounter heterogeneous fallback situations caused by noisy audio input, transcription errors, ambiguous requests, incomplete utterances, or unintended activations. Existing systems typically respond with generic fallback messages, which do not resolve the u...
+
+--- [12] 2608.30526v1 ---
+Title: User Experience in Human-Machine Interaction: Insights from Field Studies in Autonomous Mobility
+Authors: Helen Schneider, Svetlana Pavlitska, J. Marius Zöllner
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-31
+Summary: Autonomous vehicles (AVs) promise safer, cleaner, and more inclusive mobility, yet large-scale adoption is hindered by user acceptance rather than by technical challenges. Prior studies on acceptance and user experience largely rely on surveys, simulators or Wizard-of-Oz setups, often over-representing technologically enthusiastic participants and focusing on drivers instead of passengers. We addr...
+
+--- [13] 2608.28921v1 ---
+Title: Identity by Design, Demographics by Accident: Demographic Leakage and Suppression in Behavioral Biometric Embeddings
+Authors: Iyadh Khan, Patrick Nilackshan, Mohamed Aathif, Mohamed Theesan, Sandareka Wickramanayake et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-08-28
+Summary: Behavioral biometric authentication (BBA) systems use deep learning models to transform biometric signals, such as eye movements, voice, keystroke/touchstroke dynamics, and gait, into identity embeddings for user authentication. While designed to encode identity, these embeddings may inadvertently reveal sensitive demographic attributes, including gender, age, and height. Consequently, an adversar...
+
+--- [14] 2608.26566v1 ---
+Title: EmoSay: Artificial Intelligence-Driven Text-to-Emotional-Speech System for Affective Communication in Extended Reality
+Authors: Sikiru Ademola Adewale, Sunday D. Ubur, Nikitha Donekal Chandrashekar, Onyeka Emebo, Denis Gračanin
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-27
+Summary: While contemporary neural text-to-speech (TTS) systems have achieved high levels of intelligibility, they frequently lack the emotional nuance required for authentic affective communication. This limitation is particularly critical in Extended Reality (XR), where the absence of emotionally expressive audio can diminish user presence and spatial immersion. We present EmoSay, an Artificial Intellige...
+
+--- [15] 2608.25222v1 ---
+Title: Development of a Voice-Controlled Tendon-Driven Bionic Hand
+Authors: Urja Kohli, Shagata Chanda, Kritika Gandhi, Charu Nigam, Aditi Surya Kamal et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.HC, eess.SY
+Published: 2026-08-25
+Summary: The impairment of the hands can seriously affect the abilities of every individual to perform the every-day activity, so the design of stable and controllable support devices is a significant field of study. This paper is about the design and implementation of an automated bionic hand which is dedicated to the coordinated finger movement through the simplified and efficient actuation mechanism. Th...
+
+--- [16] 2608.23437v1 ---
+Title: AT-ADD: A Benchmark and Challenge for Robust and All-Type Audio Deepfake Detection
+Authors: Yuankun Xie, Haonan Cheng, Jiayi Zhou, Xiaoxuan Guo, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-24
+Summary: Recent audio generation models can synthesize high-fidelity speech, environmental sound, singing voice, and music, creating new risks for multimedia trust. Existing audio deepfake detection (ADD) benchmarks remain predominantly speech-centric and often underrepresent realistic channel variation and diverse audio types. This paper presents AT-ADD, a large-scale benchmark and challenge designed to e...
+
+--- [17] 2608.22459v1 ---
+Title: "I want to be pushed, I want to grow": Enabling social workers to design evaluations of LLM augmentation in their work
+Authors: Anna Kawakami, Chloe Qianhui Zhao, Renee Shelby, Fernando Diaz, Haiyi Zhu et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-23
+Summary: Workers are increasingly asked to adopt AI systems to assist their work, yet are rarely given a voice in defining what meaningful AI augmentation should look like or how to evaluate for it. In this paper, we propose worker-driven AI measurement---a bottom-up approach to AI evaluation where workers collaboratively shape decisions about which tasks AI should augment, what "successful" augmentation l...
+
+--- [18] 2608.26185v1 ---
+Title: Can You Say This for Me? Speaking Up by Proxy in Co-Located Discussion
+Authors: Yue Shen, Rehema Abulikemu, Ryan P. McMahan, Yan Chen
+Primary cat: cs.AI | All cats: cs.AI, cs.ET, cs.HC
+Published: 2026-08-22
+Summary: Equal participation in co-located discussion is important for effective collaboration, yet people often hold back when they anticipate negative interpersonal or professional consequences, especially when raising a point requires voicing it themselves. We present SecondVoice, a mixed-reality system that enables people to speak up through an embodied virtual proxy. By separating what is said from wh...
+
+--- [19] 2608.19826v1 ---
+Title: Calming Robot Pitches? Exploring the Influence of Robot Voice Pitch on Children's Stress Levels
+Authors: Nina G. M. van Roij, Emilia I. Barakova, Briana Isaila, Aoju Chen
+Primary cat: cs.HC | All cats: cs.HC, cs.RO
+Published: 2026-08-20
+Summary: This study examined whether variations in robot speech pitch influence children's stress levels during a robot-guided game. Although lower-pitched voices have been shown to facilitate stress regulation in human communication, it remains unclear whether this effect generalizes to synthetic voices in child-robot interactions. Twenty-seven Dutch children aged 8-12 years were randomly assigned to inte...
+
+--- [20] 2608.19554v1 ---
+Title: Empirical Evaluation of Cross-Carrier MCPTT & OTT MCX Interoperability in High-Density Environments
+Authors: Eman Hammad, Derek Ladd, Sridhar Kowdley, Walt Magnussen, Michael Fox
+Primary cat: cs.NI | All cats: cs.NI
+Published: 2026-08-20
+Summary: Deploying broadband Mission-Critical Push-To-Talk (MCPTT) services over shared commercial infrastructures introduces resource contention during multi-agency responses in mass-crowd events. This study evaluates cross-carrier interoperability and standard versus prioritized quality of service (QoS) frameworks under real-world saturation constraints. We design an empirical multi-carrier field experim...
+
+--- [21] 2608.17492v2 ---
+Title: FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations
+Authors: Feiyu Shen, Kun Xie, Yichen Wu, Ziqi Dai, Yichen Han et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-18
+Summary: Recent continuous autoregressive TTS models operate directly on continuous speech representations, preserving rich acoustic details while leveraging the instruction-following capabilities of text LLMs. This paradigm opens new possibilities for voice cloning, instruction-controlled voice design, and speech editing, but remains susceptible to error accumulation during autoregressive generation. Exis...
+
+--- [22] 2608.15273v2 ---
+Title: RemiVoice: Supporting Reminiscence Therapy for Older Adults with Mild Dementia Through Voice-First Conversational AI
+Authors: Aaryan Gajula, Soumay Agarwal, Shaoze Zhou, Lingyao Li, Renkai Ma et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-15
+Summary: With the global population aging and increasing prevalence of dementia, there is an urgent need for effective solutions to support patients across various stages of Alzheimer's Disease and Related Dementias (ADRD). Reminiscence Therapy (RT) is a validated intervention designed to trigger memories and is widely used for various stages of dementia. We present our preliminary prototype and exploratio...
+
+--- [23] 2608.15048v1 ---
+Title: Beyond Overt Reactions: Analyzing Subtle User Emotional Response to Unexpected In-Vehicle System Behavior
+Authors: Huy Quyen Ngo, Suresh Kumaar Jayaraman, Brian Mok, Ken Friedl, Oliver Krause et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-15
+Summary: Modern vehicles, with advanced AI voice and autonomous navigation features, extend beyond traditional driving but, like any autonomous system, can potentially make mistakes or behave in ways unexpected by users. Although providing real-time explanations can alleviate some confusion, constant information can overwhelm users and potentially cause unnecessary distractions. Some situations may require...
+
+--- [24] 2608.14249v1 ---
+Title: AT-ADD: All-Type Audio Deepfake Detection Challenge Summary
+Authors: Yuankun Xie, Haonan Cheng, Jiayi Zhou, Xiaoxuan Guo, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-14
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Avoice+AND+abs%3Adesign&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: This paper summarizes the ACM Multimedia 2026 AT-ADD Grand Challenge on all-type audio deepfake detection. AT-ADD contains two tracks: robust speech deepfake detection under realistic acoustic and channel variations, and type-agnostic detection over speech, environmental sound, singing voice, and music. We describe the challenge tasks, dataset and evaluation-set design, official leaderboard result...
+
+--- [25] 2608.13613v1 ---
+Title: VoiceDesigner: Text-to-Voice Generation and Editing via Unified Diffusion Modeling and Data Augmentation
+Authors: Jiarui Hai, Karan Thakkar, Ke Chen, Yunyun Wang, Jiaqi Su et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.LG
+Published: 2026-08-12
+Summary: Recent breakthroughs in generative models have made text-to-voice generation (TTV) possible, enabling the synthesis of speech directly from textual voice descriptions. However, existing systems face two key challenges. First, they struggle to generate a diverse range of voices, spanning real-world human speakers and fictional characters. Second, they lack robust and flexible voice editing capabili...
+

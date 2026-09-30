@@ -1,0 +1,177 @@
+--- [1] 2609.33774v1 ---
+Title: Tokens Change, Structure Endures: Spectral Watermarking for Generated Speech
+Authors: Kanghwi Lee, Kyeongseok Jeong, Jeongmin Liu
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.CR, cs.LG, eess.AS
+Published: 2026-09-27
+Summary: Watermarking is a promising tool for establishing the provenance of AI-generated speech. While many neural audio watermarking methods rely on a separately trained watermark generator, token-level watermarking is a training-free alternative that operates directly during generation. Its main weakness is retokenization: decoding generated speech to a waveform and encoding it again can change token id...
+
+--- [2] 2609.31948v1 ---
+Title: Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue
+Authors: Chengqian Ma, Wenhao Feng, Weixuan Jin, Gaole Dai, Tianyu Xie et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-25
+Summary: Real-time full-duplex speech models can listen while speaking, enabling natural interaction without rigid turn boundaries. Existing benchmarks evaluate turn-taking, interruption handling and multi-round dialogue, but largely centre on a designated user rather than an assistant participating in a shared conversation among several people. We introduce Duplex-MPE to evaluate when such an assistant sh...
+
+--- [3] 2609.30773v1 ---
+Title: Learning Natural Conversational Behavior in Tandem Speech-to-Speech Models with Randomized Guidance
+Authors: Manato Yaguchi, Yotaro Kubo, Hikaru Asano, So Kuroki
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-25
+Summary: Tandem speech-to-speech architectures couple a responsive speech frontend with an asynchronous text backend. In KAME, a large language model (LLM) serves as the backend, supplying candidate responses as guidance to the speech frontend while the user is still speaking. Ordinary conversation recordings capture the eventual response but not the guidance the backend would supply during the user's utte...
+
+--- [4] 2609.28806v1 ---
+Title: A Harness for Synthesizing Diverse Naturalistic Full-Duplex Conversations
+Authors: Matthew Sun, Vinay Kothapally, Meng Yu, Chao Huang, Hao Zhang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-09-23
+Summary: Full-duplex dialogue systems, which listen while speaking, must distinguish a completed turn from a pause within a turn and an interruption that requests a turn from a brief acknowledgment or speech addressed to a third party. Yet existing conversational corpora provide limited control over these events and limited labels for their intent. We present a pipeline for synthesizing intent-labeled, two...
+
+--- [5] 2609.27378v1 ---
+Title: Psychoacoustically Aligned Latent Smoothing for Adversarial Robustness of Full-Duplex Speech-to-Speech Dialogue Models
+Authors: Kian Shamsaie, Iman Modarressi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.HC
+Published: 2026-09-23
+Summary: End-to-end speech-to-speech dialogue models listen and speak simultaneously, so a continuously open acoustic channel is exposed to adversarial manipulation. We formalize imperceptible attacks on full-duplex agents as optimization over additive perturbations confined beneath the psychoacoustic masking threshold of the carrier speech, under three goals: targeted semantic hijacking, response suppress...
+
+--- [6] 2609.19596v1 ---
+Title: Full-Duplex Speech Models Take the Floor When Asked, Not When Needed
+Authors: Linkai Peng, Baorian Nuchged, Kaiqi Fu, Yuyang Yao
+Primary cat: cs.CL | All cats: cs.CL, cs.HC
+Published: 2026-09-17
+Summary: Full-duplex speech models listen and speak at once, promising always-on assistants. Yet they must also decide when they should speak. Human listeners speak when addressed or when the speaker stops, but also self-select to correct a false claim, supply a missing word, or warn of danger. We ask whether full-duplex models do the same. To separate the reason to speak from the opportunity, we construct...
+
+--- [7] 2609.13445v2 ---
+Title: Causal Analysis and Mitigation of Spurious Onsets in Full-Duplex Speech LLMs
+Authors: Kento Nishi
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-11
+Summary: Speech-to-speech LLMs like Moshi, and its derivative PersonaPlex, can listen and speak concurrently through full-duplex generation. However, they can begin speaking inappropriately during prolonged user silence: under digital-zero input, Moshi and PersonaPlex initiate speech in 30% and 27.5% of five-minute continuations, respectively. What causes this spurious speech? We investigate two hypotheses...
+
+--- [8] 2609.12623v1 ---
+Title: SteerDuplex: Steerable Duplex Speech Dialogue Models
+Authors: Utkarsh Tyagi, Ramaneswaran Selvakumar, Advait Gosai, Sonal Kumar, Nikhil Barhate et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-09-11
+Summary: Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident...
+
+--- [9] 2609.11864v1 ---
+Title: RetroThinker: Enabling Retrospective Thinking in Speech LLMs
+Authors: Yi-Jen Shih, Puyuan Peng, Abdelrahman Mohamed, David Harwath
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL
+Published: 2026-09-10
+Summary: Speech large language models (SpeechLLMs) offer reduced latency and retain paralinguistic nuances that are typically lost in cascaded automatic speech recognition (ASR) and text-based LM architectures. However, they continue to lag behind text-only LLMs on complex reasoning tasks, while real-time spoken interaction imposes strict latency constraints. Although prior works employ Chain-of-Thought (C...
+
+--- [10] 2609.08390v1 ---
+Title: Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models
+Authors: Bella Godiva, Yeonju Kim, Yong Man Ro
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.HC
+Published: 2026-09-08
+Summary: Full-duplex spoken dialogue systems enable simultaneous listening and speaking, but their audio-only perception often fails under background noise and overlapping speech, leading to incoherent responses. Recent audio-visual dialogue approaches show that incorporating visual cues such as lip movements improve robustness under audio corruption. However, existing approaches often adapt the large spee...
+
+--- [11] 2608.15799v1 ---
+Title: Using the Mimi codec for metalinguistic representations
+Authors: Artem Saloev, Erin Pacquetet, Nicolas Ballier
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-16
+Summary: In this paper, we focus on the dictionary of 2048 tokens used in Mimi semantic token codebook, the neural codec of the Moshi language model. We show that the ABX experiment carried out with Mimi fails to capture the mapping of the semantic tokens to phone realisations. By realigning Mimi representations to the TIMIT corpus transcriptions, we show that the 2048 tokens IDs of the semantic codebook m...
+
+--- [12] 2607.16870v1 ---
+Title: Do Speech Tokens Leak Voiceprints? Speaker Inversion Attacks Against End-to-End Speech Language Models
+Authors: Ye Lu, Yihan Yan, Zhaoyang Zhang, Zhitao Ou, Runze Liu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR
+Published: 2026-07-18
+Summary: End-to-end speech language models increasingly represent user speech with speech tokens rather than relying exclusively on cascaded ASR--LLM--TTS pipelines. Although these tokens support expressive and low-latency spoken interaction, they may also preserve sensitive speaker characteristics. We investigate whether exposed speech tokens leak voiceprints and formulate this risk as a speaker inversion...
+
+--- [13] 2607.02640v1 ---
+Title: Metronome: Bound the Cache, Keep the Beat for Real-Time Interaction Model Serving
+Authors: Jiaying Meng, Bojie Li
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.NI
+Published: 2026-07-02
+Summary: Real-time interaction models -- Moshi, MiniCPM-o, Qwen-Omni -- turn serving into a periodic real-time task: on every frame a session ingests streaming audio and must respond by a recurring wall-clock deadline, while its KV cache grows monotonically and stays pinned for the whole conversation. This regime hides a dangerous failure mode. On a real full-duplex stack, sustained load does not degrade s...
+
+--- [14] 2606.21970v1 ---
+Title: Integrating Facial Generation into Full-Duplex Spoken Dialogue Systems
+Authors: Jingjing Jiang, Atsumoto Ohashi, Ryuichiro Higashinaka
+Primary cat: cs.HC | All cats: cs.HC, cs.CL, cs.CV, eess.AS
+Published: 2026-06-20
+Summary: Full-duplex spoken dialogue models, such as Moshi, enable natural, low-latency voice conversations. However, they remain limited to the audio modality, lacking the facial expressions that are integral to human communication. We present Moshi-Face, the first full-duplex dialogue model that jointly processes the user's audio and facial input while simultaneously generating speech and facial motion. ...
+
+--- [15] 2606.14528v1 ---
+Title: BayLing-Duplex: Native Full-Duplex Speech Dialogue with a Single Autoregressive LLM
+Authors: Qingkai Fang, Shoutao Guo, Yang Feng
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-06-12
+Summary: Real-time, full-duplex speech interaction is a key feature of next-generation spoken chatbots, allowing the model to listen and speak at the same time and to handle natural phenomena such as overlap, hesitation, and barge-in. Existing speech language models (SpeechLMs) such as LLaMA-Omni and GLM-4-Voice are still turn-based and rely on an external Voice Activity Detection (VAD) module to mark the ...
+
+--- [16] 2606.11167v2 ---
+Title: Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models
+Authors: Atsumoto Ohashi, Neil Zeghidour, Alexandre Défossez, Eugene Kharitonov
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-06-09
+Summary: Full-duplex spoken dialogue models can listen and speak simultaneously, making them a promising architecture for natural conversation. However, current models are trained solely with supervised learning through token-level likelihood maximization, which does not directly optimize interaction-level behaviors, causing interactivity issues such as excessive silence and ill-timed turn-taking. Recent w...
+
+--- [17] 2605.20356v1 ---
+Title: Synchronization and Turn-Taking in Full-Duplex Speech Dialogue Models
+Authors: Pablo Riera, Pablo Brusco, Cristina Kuo, Marcelo Sancinetti, S. R. K. Branavan
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-05-19
+Summary: Full-duplex spoken dialogue models (SDMs) can listen and speak simultaneously, enabling interaction dynamics closer to human conversation than turn-based systems. Inspired by neural coupling in human communication, we study how such models coordinate their internal representations during interaction. We simulate full-duplex dialogues between two instances of the pretrained \textit{Moshi} model und...
+
+--- [18] 2604.23295v3 ---
+Title: Human-1 by Josh Talks: A Full-Duplex Conversational Modeling Framework in Hindi using Real-World Conversations
+Authors: Bhaskar Singh, Manas Dhir, Shobhit Banga, Pranav Sharma
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-04-25
+Summary: Full-duplex spoken dialogue systems can model natural conversational behaviours such as interruptions, overlaps, and backchannels, yet such systems remain largely unexplored for Indian languages. We present the first open, reproducible full-duplex spoken dialogue system for Hindi by adapting Moshi, a state-of-the-art duplex speech architecture, using a custom Hindi tokeniser and training on 26,000...
+
+--- [19] 2604.11154v1 ---
+Title: Environmental Footprint of GenAI Research: Insights from the Moshi Foundation Model
+Authors: Marta López-Rauhut, Loic Landrieu, Mathieu Aubry, Anne-Laure Ligozat
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-04-13
+Summary: New multi-modal large language models (MLLMs) are continuously being trained and deployed, following rapid development cycles. This generative AI frenzy is driving steady increases in energy consumption, greenhouse gas emissions, and a plethora of other environmental impacts linked to datacenter construction and hardware manufacturing. Mitigating the environmental consequences of GenAI remains cha...
+
+--- [20] 2603.08179v1 ---
+Title: Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models
+Authors: Nikita Kuzmin, Tao Zhong, Jiajun Deng, Yingke Zhu, Tristan Tsoi et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, eess.SP
+Published: 2026-03-09
+Summary: End-to-end full-duplex speech models feed user audio through an always-on LLM backbone, yet the speaker privacy implications of their hidden representations remain unexamined. Following the VoicePrivacy 2024 protocol with a lazy-informed attacker, we show that the hidden states of SALM-Duplex and Moshi leak substantial speaker identity across all transformer layers. Layer-wise and turn-wise analys...
+
+--- [21] 2512.04711v1 ---
+Title: Large Speech Model Enabled Semantic Communication
+Authors: Yun Tian, Zhijin Qin, Guocheng Lv, Ye Jin, Kaibin Huang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2025-12-04
+Summary: Existing speech semantic communication systems mainly based on Joint Source-Channel Coding (JSCC) architectures have demonstrated impressive performance, but their effectiveness remains limited by model structures specifically designed for particular tasks and datasets. Recent advances indicate that generative large models pre-trained on massive datasets, can achieve outstanding performance arexhi...
+
+--- [22] 2507.19040v1 ---
+Title: FD-Bench: A Full-Duplex Benchmarking Pipeline Designed for Full Duplex Spoken Dialogue Systems
+Authors: Yizhou Peng, Yi-Wen Chao, Dianwen Ng, Yukun Ma, Chongjia Ni et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2025-07-25
+Summary: Full-duplex spoken dialogue systems (FDSDS) enable more natural human-machine interactions by allowing real-time user interruptions and backchanneling, compared to traditional SDS that rely on turn-taking. However, existing benchmarks lack metrics for FD scenes, e.g., evaluating model performance during user interruptions. In this paper, we present a comprehensive FD benchmarking pipeline utilizin...
+
+--- [23] 2506.02979v1 ---
+Title: Towards a Japanese Full-duplex Spoken Dialogue System
+Authors: Atsumoto Ohashi, Shinya Iizuka, Jingjing Jiang, Ryuichiro Higashinaka
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2025-06-03
+Summary: Full-duplex spoken dialogue systems, which can model simultaneous bidirectional features of human conversations such as speech overlaps and backchannels, have attracted significant attention recently. However, the study of full-duplex spoken dialogue systems for the Japanese language has been limited, and the research on their development in Japanese remains scarce. In this paper, we present the f...
+
+--- [24] 2505.17060v1 ---
+Title: SALMONN-omni: A Standalone Speech LLM without Codec Injection for Full-duplex Conversation
+Authors: Wenyi Yu, Siyin Wang, Xiaoyu Yang, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2025-05-17
+Summary: In order to enable fluid and natural human-machine speech interaction, existing full-duplex conversational systems often adopt modular architectures with auxiliary components such as voice activity detectors, interrupters, conversation state predictors, or multiple LLMs. These systems, however, suffer from error accumulation across modules and struggle with key challenges such as context-dependent...
+
+--- [25] 2503.15633v1 ---
+Title: Vision-Speech Models: Teaching Speech Models to Converse about Images
+Authors: Amélie Royer, Moritz Böhle, Gabriel de Marmiesse, Laurent Mazaré, Neil Zeghidour et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-03-19
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Amoshi&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: The recent successes of Vision-Language models raise the question of how to equivalently imbue a pretrained speech model with vision understanding, an important milestone towards building a multimodal speech model able to freely converse about images. Building such a conversational Vision-Speech model brings its unique challenges: (i) paired image-speech datasets are much scarcer than their image-...
+

@@ -1,0 +1,2 @@
+# Total entries: 0
+# URL: https://export.arxiv.org/api/query?search_query=(all%3A%22speech+LLM%22+OR+all%3A%22spoken+language+model%22)+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending

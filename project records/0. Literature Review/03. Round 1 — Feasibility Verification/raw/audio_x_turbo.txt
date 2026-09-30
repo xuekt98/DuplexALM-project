@@ -1,0 +1,23 @@
+# Total entries: 3
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AAudioX-Turbo+OR+abs%3AAudioX&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.09973v1 ---
+Title: A Production-Oriented Framework for Evaluation of SFX Generation
+Authors: Mélodie Desbos, Yara Bahram, Eric Granger, Mohammadhadi Shateri
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS, eess.SP, eess.SY
+Published: 2026-07-10
+Summary: Industrial sound design requires audio generation systems that not only produce realistic audio, but also preserve the perceptual identity of a reference, support controllable variation, and remain efficient for practical workflows. Existing evaluations are usually tied to text-to-audio (TTA), unconditional, or task-specific settings, limiting assessment for reference-guided sound effects (SFX) va...
+
+--- [2] 2606.12555v2 ---
+Title: AudioX-Turbo: A Unified Framework for Efficient Anything-to-Audio Generation
+Authors: Zeyue Tian, Lei Ke, Zhaoyang Liu, Ruibin Yuan, Liumeng Xue et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.MM
+Published: 2026-06-10
+Summary: Audio and music generation based on flexible multimodal control signals is a widely applicable topic, with the following key challenges: 1) a unified multimodal modeling framework, 2) large-scale, high-quality training data, and 3) the prohibitive inference cost of multi-step diffusion sampling. As such, we propose AudioX-Turbo, a unified and efficient framework for anything-to-audio generation th...
+
+--- [3] 2503.10522v4 ---
+Title: AudioX: A Unified Framework for Anything-to-Audio Generation
+Authors: Zeyue Tian, Zhaoyang Liu, Yizhu Jin, Ruibin Yuan, Liumeng Xue et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.LG, cs.SD, eess.AS
+Published: 2025-03-13
+Summary: Audio and music generation based on flexible multimodal control signals is a widely applicable topic, with the following key challenges: 1) a unified multimodal modeling framework, and 2) large-scale, high-quality training data. As such, we propose AudioX, a unified framework for anything-to-audio generation that integrates varied multimodal conditions (i.e., text, video, and audio signals) in thi...
+

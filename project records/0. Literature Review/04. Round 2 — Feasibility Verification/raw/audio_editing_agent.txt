@@ -1,0 +1,142 @@
+--- [1] 2609.08275v1 ---
+Title: Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation
+Authors: Tianyi Zeng, Junchao Liao, Yujie Wei, Ziying Zhang, Litao Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Recent multi-shot audio-video generators can produce increasingly coherent and cinematic outputs, but coherence does not imply the ability to execute editing techniques. Professional editing depends on shot structure, transition grammar, audio-video cut relations, and montage, yet existing benchmarks largely rely on proxies such as content quality, synchronization, or physical plausibility, system...
+
+--- [2] 2607.23588v1 ---
+Title: JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents
+Authors: Yunlong Lin, Zixu Lin, Zhaohu Xing, Biqiang Li, Chenxin Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Creative AI is moving from single-step asset generation toward long-horizon multimodal production. Although recent generative models can synthesize high-quality images, videos, audio clips, UI elements, storyboards, slides, and other creative assets, real-world creative work requires more than isolated prompt-output interactions. It involves references, drafts, alternatives, edits, failed attempts...
+
+--- [3] 2607.21857v1 ---
+Title: SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision
+Authors: Hao Zhang, Yiwen Zhao, Yixuan Zhang, Yiwen Shao, Steve Yves
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-23
+Summary: We present an agentic soundscape construction framework for controllable compositional audio generation that makes explicit the scene planning, source selection, temporal layout, and rendering steps typically handled implicitly by single-shot text-to-audio models. An LLM-based agent converts user intent into an executable scene plan, acquires assets through retrieval and on-demand generation, rend...
+
+--- [4] 2607.19605v2 ---
+Title: RIME: Enabling Large-Scale Agentic Music Post-Production
+Authors: Noah Schaffer, Nikhil Singh
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-21
+Summary: Almost every piece of recorded music you have ever heard was modified before it reached you; commercial releases rarely spring fully-formed from the mind of a musician. Despite the promise of music generation models for one-shot output, such fine-grained iterative refinement workflows are a complementary problem, and largely out of their reach. There is also a gap for musicians: while they can exp...
+
+--- [5] 2607.24821v1 ---
+Title: AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities
+Authors: Yuqing Wen, Yukai Huang, Qianqian Xie, Jiangtao Wu, Yibin Lin et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-07-17
+Summary: While instruction-based video editing has advanced rapidly, real-world videos contain tightly coupled audio and visual signals, and editing one modality often requires coordinated changes in the other. Existing benchmarks primarily evaluate visual transformations on silent clips or isolated audio editing, leaving complex audio-visual editing and cross-modal consistency underexplored. We introduce ...
+
+--- [6] 2607.08705v2 ---
+Title: HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales
+Authors: Wenbo Xu, Zhimin Chen, Xiaojie Liang, Hengrui Liu, Ziqi Sheng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-09
+Summary: Rapid advancements in video diffusion models and temporal editing tools have enabled the generation of highly realistic human-centric videos, presenting unprecedented challenges to digital content forensics. Existing benchmarks primarily focus on face-swapping or global text-to-video synthesis, overlooking the crucial dimensions of multimodal alignment and complex human-object or human-human inter...
+
+--- [7] 2608.20379v1 ---
+Title: A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications
+Authors: Neel Mokaria, Rishie Raj, Dheeraj Baiju, Xiaoqian Shen, Shraman Pramanick et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-28
+Summary: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video...
+
+--- [8] 2606.22708v1 ---
+Title: Libretto: Giving LLM Agents a Sense of Musical Structure
+Authors: Yichen Xu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-21
+Summary: Generative music systems can now produce impressive audio from text prompts, but audio outputs are difficult to inspect, edit, and diagnose as musical structure. We introduce Libretto, an agent-facing framework for symbolic music generation and revision. Libretto uses an LLM-native grammar with explicit onset slots, voices, and bar-level organization, then evaluates each piece in a corpus-calibrat...
+
+--- [9] 2606.07229v1 ---
+Title: MMAE: A Massive Multitask Audio Editing Benchmark
+Authors: Ziyang Ma, Ruiqi Yan, Ruiyang Xu, Jie Fang, Zhikang Niu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-06-05
+Summary: We introduce MMAE, a Massive Multitask Audio Editing benchmark, serving as the first comprehensive evaluation testbed designed for general-purpose instruction-based audio editing. Spurred by the shift toward intelligent creation, interactive editing has rapidly expanded from visual domains, pioneered by models like Nano-banana 2 for images and Gemini-Omni for video, into audio. However, the curren...
+
+--- [10] 2606.03168v1 ---
+Title: JAVEDIT: Joint Audio-Visual Instruction-Guided Video Editing with Agentic Data Curation
+Authors: Yinan Chen, Chuming Lin, Zhennan Chen, Yuxiang Zeng, Junwei Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-02
+Summary: While instruction-based video editing has seen significant progress, joint audio-visual editing remains constrained by the absence of dedicated datasets and benchmarks. To bridge this gap, we present JAVEdit-100k, the first large-scale, high-quality dataset tailored for instruction-guided joint audio-visual editing. Focusing on human-centric videos, JAVEdit-100k comprises approximately 100K editin...
+
+--- [11] 2605.08750v1 ---
+Title: Communicating Sound Through Natural Language
+Authors: Emanuele Rossi, Emanuele Rodolà
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL, cs.MA
+Published: 2026-05-09
+Summary: Natural language is widely used to describe, prompt, and control audio systems, but rarely serves as the representation carrying audio itself. We introduce lexical acoustic coding (LAC), a framework in which pre-trained LLM sender and receiver agents transmit sound through natural language. Under fixed system prompts, the agents write their own analysis and synthesis code, communicating only throu...
+
+--- [12] 2604.04875v1 ---
+Title: DIRECT: Video Mashup Creation via Hierarchical Multi-Agent Planning and Intent-Guided Editing
+Authors: Ke Li, Maoliang Li, Jialiang Chen, Jiayu Chen, Zihao Zheng et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2026-04-06
+Summary: Video mashup creation represents a complex video editing paradigm that recomposes existing footage to craft engaging audio-visual experiences, demanding intricate orchestration across semantic, visual, and auditory dimensions and multiple levels. However, existing automated editing frameworks often overlook the cross-level multimodal orchestration to achieve professional-grade fluidity, resulting ...
+
+--- [13] 2603.29664v1 ---
+Title: CutClaw: Agentic Hours-Long Video Editing via Music Synchronization
+Authors: Shifang Zhao, Yihan Hu, Ying Shan, Yunchao Wei, Xiaodong Cun
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-31
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aediting+AND+abs%3Aagent&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Editing the video content with audio alignment forms a digital human-made art in current social media. However, the time-consuming and repetitive nature of manual video editing has long been a challenge for filmmakers and professional content creators alike. In this paper, we introduce CutClaw, an autonomous multi-agent framework designed to edit hours-long raw footage into meaningful short videos...
+
+--- [14] 2602.17097v1 ---
+Title: AudioChat: Unified Audio Storytelling, Editing, and Understanding with Transfusion Forcing
+Authors: William Chen, Prem Seetharaman, Rithesh Kumar, Oriol Nieto, Shinji Watanabe et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-02-19
+Summary: Despite recent breakthroughs, audio foundation models struggle in processing complex multi-source acoustic scenes. We refer to this challenging domain as audio stories, which can have multiple speakers and background/foreground sound effects. Compared to traditional audio processing tasks, audio stories introduce new layers of semantic, temporal, and physical complexity. To address this challenge,...
+
+--- [15] 2602.11790v2 ---
+Title: Beyond End-to-End Video Models: An LLM-Based Multi-Agent System for Educational Video Generation
+Authors: Lingyong Yan, Jiulong Wu, Dong Xie, Weixian Shi, Deguo Xia et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-02-12
+Summary: Although recent end-to-end video generation models demonstrate impressive performance in visually oriented content creation, they remain limited in scenarios that require strict logical rigor and precise knowledge representation, such as instructional and educational media. To address this problem, we propose LASEV, a hierarchical LLM-based multi-agent system for generating high-quality instructio...
+
+--- [16] 2602.07266v1 ---
+Title: ADCanvas: Accessible and Conversational Audio Description Authoring for Blind and Low Vision Creators
+Authors: Franklin Mingzhe Li, Michael Xieyang Liu, Cynthia L. Bennett, Shaun K. Kane
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-02-06
+Summary: Audio Description (AD) provides essential access to visual media for blind and low vision (BLV) audiences. Yet current AD production tools remain largely inaccessible to BLV video creators, who possess valuable expertise but face barriers due to visually-driven interfaces. We present ADCanvas, a multimodal authoring system that supports non-visual control over audio description (AD) creation. ADCa...
+
+--- [17] 2601.03250v1 ---
+Title: A Versatile Multimodal Agent for Multimedia Content Generation
+Authors: Daoan Zhang, Wenlin Yao, Xiaoyang Wang, Yebowen Hu, Jiebo Luo et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-01-06
+Summary: With the advancement of AIGC (AI-generated content) technologies, an increasing number of generative models are revolutionizing fields such as video editing, music generation, and even film production. However, due to the limitations of current AIGC models, most models can only serve as individual components within specific application scenarios and are not capable of completing tasks end-to-end i...
+
+--- [18] 2512.24731v2 ---
+Title: EchoFoley: Event-Centric Hierarchical Control for Video Grounded Creative Sound Generation
+Authors: Bingxuan Li, Yiming Cui, Yicheng He, Yiwei Wang, Shu Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-12-31
+Summary: Sound effects build an essential layer of multimodal storytelling, shaping the emotional atmosphere and the narrative semantics of videos. Despite recent advancement in video-text-to-audio (VT2A), the current formulation faces three key limitations: First, an imbalance between visual and textual conditioning that leads to visual dominance; Second, the absence of a concrete definition for fine-grai...
+
+--- [19] 2512.14865v1 ---
+Title: Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction
+Authors: Advait Gosai, Tyler Vuong, Utkarsh Tyagi, Steven Li, Wenjia You et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2025-12-16
+Summary: End-to-end (E2E) spoken dialogue systems are increasingly replacing cascaded pipelines for voice-based human-AI interaction, processing raw audio directly without intermediate transcription. Existing benchmarks primarily evaluate these models on synthetic speech and single-turn tasks, leaving realistic multi-turn conversational ability underexplored. We introduce Audio MultiChallenge, an open-sour...
+
+--- [20] 2512.10571v4 ---
+Title: AVI-Edit: Audio-sync Video Instance Editing with Granularity-Aware Mask Refiner
+Authors: Haojie Zheng, Shuchen Weng, Jingqi Liu, Siqi Yang, Boxin Shi et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-12-11
+Summary: Recent advancements in video generation highlight that realistic audio-visual synchronization is crucial for engaging content creation. However, existing video editing methods largely overlook audio-visual synchronization and lack the fine-grained spatial and temporal controllability required for precise instance-level edits. In this paper, we propose AVI-Edit, a framework for audio-sync video ins...
+

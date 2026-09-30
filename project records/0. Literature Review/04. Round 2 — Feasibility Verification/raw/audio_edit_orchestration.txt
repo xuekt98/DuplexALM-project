@@ -1,0 +1,44 @@
+# Total entries: 6
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aedit+AND+abs%3Aorchestration&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.08705v2 ---
+Title: HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales
+Authors: Wenbo Xu, Zhimin Chen, Xiaojie Liang, Hengrui Liu, Ziqi Sheng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-09
+Summary: Rapid advancements in video diffusion models and temporal editing tools have enabled the generation of highly realistic human-centric videos, presenting unprecedented challenges to digital content forensics. Existing benchmarks primarily focus on face-swapping or global text-to-video synthesis, overlooking the crucial dimensions of multimodal alignment and complex human-object or human-human inter...
+
+--- [2] 2608.20379v1 ---
+Title: A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications
+Authors: Neel Mokaria, Rishie Raj, Dheeraj Baiju, Xiaoqian Shen, Shraman Pramanick et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-28
+Summary: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video...
+
+--- [3] 2604.04875v1 ---
+Title: DIRECT: Video Mashup Creation via Hierarchical Multi-Agent Planning and Intent-Guided Editing
+Authors: Ke Li, Maoliang Li, Jialiang Chen, Jiayu Chen, Zihao Zheng et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2026-04-06
+Summary: Video mashup creation represents a complex video editing paradigm that recomposes existing footage to craft engaging audio-visual experiences, demanding intricate orchestration across semantic, visual, and auditory dimensions and multiple levels. However, existing automated editing frameworks often overlook the cross-level multimodal orchestration to achieve professional-grade fluidity, resulting ...
+
+--- [4] 2603.29664v1 ---
+Title: CutClaw: Agentic Hours-Long Video Editing via Music Synchronization
+Authors: Shifang Zhao, Yihan Hu, Ying Shan, Yunchao Wei, Xiaodong Cun
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-31
+Summary: Editing the video content with audio alignment forms a digital human-made art in current social media. However, the time-consuming and repetitive nature of manual video editing has long been a challenge for filmmakers and professional content creators alike. In this paper, we introduce CutClaw, an autonomous multi-agent framework designed to edit hours-long raw footage into meaningful short videos...
+
+--- [5] 2602.11790v2 ---
+Title: Beyond End-to-End Video Models: An LLM-Based Multi-Agent System for Educational Video Generation
+Authors: Lingyong Yan, Jiulong Wu, Dong Xie, Weixian Shi, Deguo Xia et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-02-12
+Summary: Although recent end-to-end video generation models demonstrate impressive performance in visually oriented content creation, they remain limited in scenarios that require strict logical rigor and precise knowledge representation, such as instructional and educational media. To address this problem, we propose LASEV, a hierarchical LLM-based multi-agent system for generating high-quality instructio...
+
+--- [6] 2411.12641v2 ---
+Title: Improving Controllability and Editability for Pretrained Text-to-Music Generation Models
+Authors: Yixiao Zhang
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-11-19
+Summary: The field of AI-assisted music creation has made significant strides, yet existing systems often struggle to meet the demands of iterative and nuanced music production. These challenges include providing sufficient control over the generated content and allowing for flexible, precise edits. This thesis tackles these issues by introducing a series of advancements that progressively build upon each ...
+

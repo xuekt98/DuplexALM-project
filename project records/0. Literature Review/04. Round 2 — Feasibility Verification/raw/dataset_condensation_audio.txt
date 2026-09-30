@@ -1,0 +1,72 @@
+# Total entries: 10
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Adataset+AND+abs%3Acondensation+AND+abs%3Aaudio&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2505.13338v2 ---
+Title: Contextual Paralinguistic Data Creation for Multi-Modal Speech-LLM: Data Condensation and Spoken QA Generation
+Authors: Qiongqiong Wang, Hardik B. Sailor, Tianchi Liu, Ai Ti Aw
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, eess.AS
+Published: 2025-05-19
+Summary: Current speech-LLMs exhibit limited capability in contextual reasoning alongside paralinguistic understanding, primarily due to the lack of Question-Answer (QA) datasets that cover both aspects. We propose a novel framework for dataset generation from in-the-wild speech data, that integrates contextual reasoning with paralinguistic information. It consists of a pseudo paralinguistic label-based da...
+
+--- [2] 2502.05673v3 ---
+Title: The Evolution of Dataset Distillation: Toward Scalable and Generalizable Solutions
+Authors: Ping Liu, Jiawei Du
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-02-08
+Summary: Dataset distillation, which condenses large-scale datasets into compact synthetic representations, has emerged as a critical solution for training modern deep learning models efficiently. While prior surveys focus on developments before 2023, this work comprehensively reviews recent advances, emphasizing scalability to large-scale datasets such as ImageNet-1K and ImageNet-21K. We categorize progre...
+
+--- [3] 2405.05130v1 ---
+Title: Multi-scale Bottleneck Transformer for Weakly Supervised Multimodal Violence Detection
+Authors: Shengyang Sun, Xiaojin Gong
+Primary cat: cs.CV | All cats: cs.CV, cs.MM
+Published: 2024-05-08
+Summary: Weakly supervised multimodal violence detection aims to learn a violence detection model by leveraging multiple modalities such as RGB, optical flow, and audio, while only video-level annotations are available. In the pursuit of effective multimodal violence detection (MVD), information redundancy, modality imbalance, and modality asynchrony are identified as three key challenges. In this work, we...
+
+--- [4] 2401.15164v1 ---
+Title: AMuSE: Adaptive Multimodal Analysis for Speaker Emotion Recognition in Group Conversations
+Authors: Naresh Kumar Devulapally, Sidharth Anand, Sreyasee Das Bhattacharjee, Junsong Yuan, Yu-Ping Chang
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.LG, cs.MM, eess.AS
+Published: 2024-01-26
+Summary: Analyzing individual emotions during group conversation is crucial in developing intelligent agents capable of natural human-machine interaction. While reliable emotion recognition techniques depend on different modalities (text, audio, video), the inherent heterogeneity between these modalities and the dynamic cross-modal interactions influenced by an individual's unique behavioral patterns make ...
+
+--- [5] 2401.11102v1 ---
+Title: ASM: Audio Spectrogram Mixer
+Authors: Qingfeng Ji, Jicun Zhang, Yuxin Wang
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-01-20
+Summary: Transformer structures have demonstrated outstanding skills in the deep learning space recently, significantly increasing the accuracy of models across a variety of domains. Researchers have started to question whether such a sophisticated network structure is actually necessary and whether equally outstanding results can be reached with reduced inference cost due to its complicated network topolo...
+
+--- [6] 2310.18709v4 ---
+Title: Audio-Visual Instance Segmentation
+Authors: Ruohao Guo, Xianghua Ying, Yaru Chen, Dantong Niu, Guangyao Li et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.MM, cs.SD, eess.AS
+Published: 2023-10-28
+Summary: In this paper, we propose a new multi-modal task, termed audio-visual instance segmentation (AVIS), which aims to simultaneously identify, segment and track individual sounding object instances in audible videos. To facilitate this research, we introduce a high-quality benchmark named AVISeg, containing over 90K instance masks from 26 semantic categories in 926 long videos. Additionally, we propos...
+
+--- [7] 2211.00982v2 ---
+Title: SpectroMap: Peak detection algorithm for audio fingerprinting
+Authors: Aarón López-García
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2022-11-02
+Summary: Audio fingerprinting is a technique used to identify and match audio recordings based on their unique characteristics. It involves creating a condensed representation of an audio signal that can be used to quickly compare and match against other audio recordings. The fingerprinting process involves analyzing the audio signal to extract certain features, such as spectral content, tempo, and rhythm,...
+
+--- [8] 2203.13281v2 ---
+Title: Movie Genre Classification by Language Augmentation and Shot Sampling
+Authors: Zhongping Zhang, Yiwen Gu, Bryan A. Plummer, Xin Miao, Jiayi Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2022-03-24
+Summary: Video-based movie genre classification has garnered considerable attention due to its various applications in recommendation systems. Prior work has typically addressed this task by adapting models from traditional video classification tasks, such as action recognition or event detection. However, these models often neglect language elements (e.g., narrations or conversations) present in videos, w...
+
+--- [9] 2203.09132v2 ---
+Title: Feature-informed Latent Space Regularization for Music Source Separation
+Authors: Yun-Ning Hung, Alexander Lerch
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2022-03-17
+Summary: The integration of additional side information to improve music source separation has been investigated numerous times, e.g., by adding features to the input or by adding learning targets in a multi-task learning scenario. These approaches, however, require additional annotations such as musical scores, instrument labels, etc. in training and possibly during inference. The available datasets for s...
+
+--- [10] 2111.01300v2 ---
+Title: Masking Modalities for Cross-modal Video Retrieval
+Authors: Valentin Gabeur, Arsha Nagrani, Chen Sun, Karteek Alahari, Cordelia Schmid
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2021-11-01
+Summary: Pre-training on large scale unlabelled datasets has shown impressive performance improvements in the fields of computer vision and natural language processing. Given the advent of large-scale instructional video datasets, a common strategy for pre-training video encoders is to use the accompanying speech as weak supervision. However, as speech is used to supervise the pre-training, it is never see...
+

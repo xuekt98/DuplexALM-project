@@ -1,0 +1,142 @@
+--- [1] 2609.09100v1 ---
+Title: Weak synchronisation for McKean--Vlasov SDEs
+Authors: Benjamin Gess, Rishabh S. Gvalani, Shanshan Hu
+Primary cat: math.PR | All cats: math.PR
+Published: 2026-09-08
+Summary: Synchronisation by noise for McKean--Vlasov stochastic differential equations is investigated. A transfer principle is introduced by which synchronisation by noise and diagonal mixing can be transferred from an associated limiting frozen-diffusion SDE to a genuinely law-dependent McKean--Vlasov SDE. The usefulness of this principle is demonstrated through an application to ensemble Kalman sampling...
+
+--- [2] 2609.09062v1 ---
+Title: Multi-Task Learning for Sparsely-Labeled Time Series: A Case Study on Cold-Hardiness Modeling
+Authors: Aseem Saxena, Paola Pesántez-Cabrera, Jonathan Magby, Markus Keller, Alan Fern
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-09-08
+Summary: We present a real-world case study of multi-task learning (MTL) for temporal process modeling from limited data with temporally sparse labels. Specifically, we investigate multi-task learning for the important agricultural problem of predicting grape cold hardiness, which is the temperature at which lethal freezing occurs. Cold hardiness changes in response to weather and is difficult to measure d...
+
+--- [3] 2609.09056v1 ---
+Title: Time-Varying Data as Sheaves: an Invitation to Narratives
+Authors: Wilmer Leal, Benjamin Merlin Bumpus, Jana K. Nickel, Johan García, James Fairbanks et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.MA, eess.SY, math.CT
+Published: 2026-09-08
+Summary: Modern science and engineering increasingly rely on time-varying data, yet the mathematical tools used to model temporal phenomena are often developed within separate disciplines, obscuring common principles and limiting the transfer of ideas across fields. This chapter presents the theory of narratives, an abstract framework for time-varying objects of any mathematical kind that supports both the...
+
+--- [4] 2609.09013v1 ---
+Title: Preparation of a Bell state in an analogue device hosting the transverse-field Ising model
+Authors: Ana Palacios
+Primary cat: quant-ph | All cats: quant-ph
+Published: 2026-09-08
+Summary: We propose a protocol for preparing the singlet Bell state in an analogue device implementing the transverse-field Ising model with ZZ interactions and local X and Z fields, which can be engineered within the superconducting platform, among others. This protocol is performed by direct control of the terms of the Hamiltonian alone. The method exploits the fact that the singlet state is the first ex...
+
+--- [5] 2609.09003v1 ---
+Title: Simultaneous sub-Doppler laser cooling and optical trapping of bosonic $^{39}$K-$^{133}$Cs and $^{41}$K-$^{133}$Cs mixtures
+Authors: Mateusz Bocheński, Jakub Dobosz, Koray Dinçer, Paweł Arciszewski, Mariusz Semczuk
+Primary cat: physics.atom-ph | All cats: physics.atom-ph, cond-mat.quant-gas
+Published: 2026-09-08
+Summary: We report simultaneous sub-Doppler cooling and optical dipole trapping of $^{39}$K-Cs and $^{41}$K-Cs mixtures. Both mixtures are cooled to temperatures $\sim10$ $\mathrmμ$K, achieving performance comparable to that obtained with each species individually. To the best of our knowledge, this constitutes the first realization of a laser-cooled and optically trapped $^{41}$K-Cs mixture. For the $^{39...
+
+--- [6] 2609.08999v1 ---
+Title: Concentrate After Imagination: Text-Conditioned Evidence Grounding for Partially Relevant Video Retrieval
+Authors: Shuaiqi Cheng, Siyu You, Yanbi Wu, Yuxi Chen, Jiahao Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Partially Relevant Video Retrieval (PRVR) retrieves untrimmed videos when queries describe only short moments. Although recent methods improve local representations, uncertainty modeling, and global context, final ranking often still trusts the strongest local response; a coincidentally similar fragment can therefore produce an unsupported peak. We identify this failure as the query-agnostic conce...
+
+--- [7] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [8] 2609.08975v1 ---
+Title: On the Two-Weight Problem for One-Sided Maximal Operators in Higher Dimensions
+Authors: Dinghuai Wang
+Primary cat: math.CA | All cats: math.CA
+Published: 2026-09-08
+Summary: For the one-sided Hardy--Littlewood maximal operator $M_d^+$ on $\mathbb R^d$, the natural two-weight Muckenhoupt condition was shown by Sawyer in 1986 to characterize the weak $(p,p)$ inequality in dimension one, and by Forzani, Martín-Reyes and Ombrosi in 2011 in dimension two. At the endpoint $p=1$ in dimension three, Ombrosi and Nazarov have recently given negative answers to both the Fefferma...
+
+--- [9] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [10] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [11] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [12] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [13] 2609.08914v1 ---
+Title: CoSA: Correlation-Guided Change A ttention with Learnable Residual Gating for Remote Sensing Change Detection
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Astyle+transfer+audio&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Abdirashid Omar, Jonghyuk Park
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Pixel-level annotation of fixed traffic-camera imagery is expensive, while crosswalk models trained from street-level imagery face a substantial viewpoint and appearance shift when applied to elevated CCTV. We investigate a data-efficient target-domain pipeline using 241 manually annotated CCTV images and 5,926 unlabeled CCTV frames. A source-domain experiment trains a 31.0M-parameter custom U-Net...
+
+--- [14] 2609.08899v1 ---
+Title: From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection
+Authors: Mengzhe Geng, Yujia Lu, Patrick Littell, Manuela Kunz, Xie Chen
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-08
+Summary: Speech deepfakes can mimic a speaker's voice convincingly enough to deceive listeners and automated systems. This has driven strong progress in speech deepfake detection, but most detectors still end with one score per utterance. That score is useful for ranking systems, yet it says little about why a borderline item should be trusted, deferred, or reviewed. Two utterances can fall in the same sco...
+
+--- [15] 2609.08861v1 ---
+Title: API Benchmark Scores Do Not Reliably Transfer to Chatbot Interfaces
+Authors: Jennifer Wang, Joachim Baumann, Daniel E. Ho, Sanmi Koyejo
+Primary cat: cs.AI | All cats: cs.AI, cs.SE
+Published: 2026-09-08
+Summary: Benchmark scores are a central currency in model releases: they inform purchasing decisions, shape public trust, and influence policy. Yet, a key assumption underlying benchmark scores is that the model performance measured through APIs faithfully reflects the behavior of deployed systems. We challenge this assumption by auditing ChatGPT, Claude, and Gemini across seven systems and nine benchmarks...
+
+--- [16] 2609.08853v1 ---
+Title: CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning
+Authors: Pietro Noah Crestaz, Mohamed Yassine Kabouri, Nicolas Mansard, Andrea Del Prete
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Model-based reinforcement learning (MBRL) is a family of RL methods that learn a model of the environment and use it for action selection, making it well suited to robotics due to its sample efficiency. Combining learned models with online planning can further improve action selection, as the planner can exploit the model to find better actions than the learned policy alone. Recent methods combini...
+
+--- [17] 2609.08835v1 ---
+Title: Hyperfine-driven polarization effects in elastic muon scattering by atomic nuclei
+Authors: Ivan A. Moiseev, Daria M. Vasileva, Konstantin N. Lyashchenko, Igor A. Zhosan, Deyang Yu et al.
+Primary cat: physics.atom-ph | All cats: physics.atom-ph
+Published: 2026-09-08
+Summary: We present a theoretical study of polarization dynamics in the elastic scattering of muons and antimuons by high-magnetic-moment atomic nuclei, using ${}_{83}^{209}$Bi as a benchmark. The analysis tracks the evolution of (anti)muon polarization and its transfer to the nucleus, emphasizing nuclear-structure corrections. These corrections significantly alter both the differential cross sections and ...
+
+--- [18] 2609.08834v1 ---
+Title: From Local Context to Climate Science: Low-Cost Experimentation in the Initial Training of Physics Teachers
+Authors: André A. A. Marinho, Edson R. L. Lopes, Jhon KF V. Silva, Mariana S. Costa, Maria A. Morais
+Primary cat: physics.ed-ph | All cats: physics.ed-ph, cond-mat.stat-mech
+Published: 2026-09-08
+Summary: Climate change poses a major scientific, environmental, and educational challenge, requiring approaches that connect physical concepts, empirical evidence, and socially relevant environmental issues. This study presents and analyzes a low-cost experimental investigation developed within the "Physics and the Environment" course of a Physics teacher training program at the State University of the To...
+
+--- [19] 2609.08833v1 ---
+Title: A New Backscattering Dual-Polarized Rectenna for Wireless Power Transfer and IoT Applications
+Authors: Taki Eddine Djidjekh, Quentin Bernyer, Alexandru Takacs
+Primary cat: cs.CR | All cats: cs.CR, cs.NI
+Published: 2026-09-08
+Summary: This paper proposes an innovative dual-polarized backscattering rectenna that operates in two distinct modesenergy harvesting and backscattering modulation-driven by two-bit digital control signals. By utilizing two orthogonal (co-and cross-) polarizations, the design represents a versatile candidate for IoT applications such as battery-free wireless sensing, identification, localization, and comm...
+
+--- [20] 2609.08798v1 ---
+Title: Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation
+Authors: Youngrok Park, Sangmin Bae, Hojung Jung, Jongwoo Ko, Yunseon Choi et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.CL
+Published: 2026-09-08
+Summary: Weak-to-strong generalization asks whether stronger models can learn from weaker supervisors and surpass them. This question is particularly important for successive model generations and multi-domain consolidation, where repeating frontier-scale post-training from scratch can be prohibitively expensive. Yet conventional distillation treats the weak teacher as an optimization target, potentially i...
+

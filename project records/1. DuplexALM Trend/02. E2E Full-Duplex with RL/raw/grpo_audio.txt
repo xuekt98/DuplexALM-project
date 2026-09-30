@@ -1,0 +1,177 @@
+--- [1] 2609.33338v1 ---
+Title: OPERA: A Unified Omnimodal Progressive Spatio-Temporal Reasoning Agent for Referring Video Segmentation
+Authors: Jingchen Ni, Yuji Wang, Shannan Yan, Haoru Li, Sitong Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-27
+Summary: Referring video segmentation with heterogeneous multimodal queries---spanning text, audio, and reference images---demands both robust cross-modal understanding and precise spatio-temporal reasoning. We propose OPERA (Omnimodal Progressive spatio-tEmporal Reasoning Agent), a unified reasoning agent built on a single MLLM that performs dual-axis progressive reasoning via three specialized stages. Al...
+
+--- [2] 2609.32536v1 ---
+Title: Do Audio LLMs Listen Before They Act? Diagnosing Acoustic-Context Gating in Voice Agents
+Authors: Yanjie Zhang, Nanchen Hu, Yushi Sun
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.MM, eess.AS
+Published: 2026-09-26
+Summary: Audio language models can recognize spoken commands and invoke tools, but an agent must first decide whether the acoustic and conversational context warrants action. We introduce VGBench, a 1,018-item diagnostic benchmark for action-level addressedness across side-talk, self-talk, and speaker-switch scenarios. Each item uses a shared action space comprising silence, a tool call, and a natural-lang...
+
+--- [3] 2609.31892v1 ---
+Title: NVAlign: Direct-Gradient Optimization for Non-Verbal Control in Continuous Autoregressive Flow Matching Text-to-Speech
+Authors: Qiaolin Wang, Pedro Sandoval-Segura, Anunaya Joshi, Edvardas Jurkonis, Jake Downie
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-09-25
+Summary: While modern text-to-speech (TTS) systems generate highly natural speech and support inline non-verbal vocalization (NVV) tags, accurate control over these events remains challenging. A key gap is the lack of established post-training methods for non-verbal control in continuous autoregressive flow-matching TTS. To this end, we present NVAlign, a direct-gradient post-training framework for NVV tag...
+
+--- [4] 2609.30029v1 ---
+Title: TEMA: Evidence-Grounded Temporal Question Answering in Multi-Turn Multi-Audio Dialogs
+Authors: Kaidi Yang, Hualei Wang, Zhaohui Wang, Chenxuan Wang, Hong Liu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-24
+Summary: Multi-turn, multi-audio temporal question answering requires models to track target events across follow-up questions, recording switches, and historical references, recovering complete instances and their boundaries for temporal calculation and comparison. We propose TEMA, which connects event perception with evidence-based answering through Route, specifying the audio scope, and Span, describing...
+
+--- [5] 2609.29816v3 ---
+Title: AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation
+Authors: Zhiyu Xu, Weilong Yan, Yufei Shi, Shiyang Li, Yihao Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-09-24
+Summary: Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising remedy, directly adapting it to joint audio-video generation is challenging. Heterogeneous multimodal rewards entangle lea...
+
+--- [6] 2609.28757v1 ---
+Title: Small yet Assistive: Spatially-Aware Post-Training for Low Vision
+Authors: Rishabh Choudhary, Shreyansh Raj, Umesh Goyal, Shubh Kashyap, Shrestha Kumar et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.CL
+Published: 2026-09-23
+Summary: An estimated 1 billion people worldwide live with vision impairment, yet current vision-language models (VLMs) produce descriptions too vague for safe navigation by blind and low-vision (BLV) users. Large VLMs can generate high-quality audio-description-compliant narrations but cannot run on mobile devices; small VLMs offer competitive latency but lack spatial detail, directional cues, and hazard ...
+
+--- [7] 2609.28206v2 ---
+Title: UNITE-AUDIO: Joint Learning of Continuous Tokenization and Latent Flow Matching for Text-to-Audio Generation
+Authors: Runwu Shi, Kai Li, Yujin Wang, Dong Yang, Jiahui Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-23
+Summary: Text-to-audio (TTA) generation aims to synthesize realistic audio that faithfully reflects natural-language descriptions. Most TTA systems adopt a two-stage latent paradigm: an audio tokenizer is optimized for reconstruction and then frozen, after which a generative model is trained in the resulting latent space. However, reconstruction-oriented representations may be suboptimal for generation, mo...
+
+--- [8] 2609.25176v2 ---
+Title: Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction
+Authors: Lujia Bao, Qian Chen, Luyao Cheng, Chong Deng, Yuxiang Kong et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2026-09-21
+Summary: Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning with Multimodality and Multi-Teacher On-Policy Distillation (M$^{2}$-OPD) to transfer language capabilities and develop native aud...
+
+--- [9] 2609.21738v1 ---
+Title: GenTraceBench: A Benchmark for Tracing Audio Deepfakes Across Pre- and Post-training Stages
+Authors: Li Wang, Kunyu Feng, Wan Lin, Dekun Chen, Qinke Ni et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-18
+Summary: Modern text-to-speech (TTS) systems are rarely deployed as unchanged pre-trained models. They are often adapted through supervised fine-tuning (SFT) or preference optimization such as DPO and GRPO. This raises a practical question for audio deepfake forensics: do fingerprints learned from a foundation generator remain valid after adaptation? We present GenTraceBench, a controlled benchmark spannin...
+
+--- [10] 2609.18333v1 ---
+Title: Look Less, Hear Better: Jointly Rewarded GRPO for Streaming ASR
+Authors: Xiuwen Zheng
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-16
+Summary: Streaming automatic speech recognition (ASR) must be judged jointly on what it transcribes and on how quickly it commits each word. Delayed streams modeling (DSM) has become the dominant paradigm for streaming large audio-language models, exposing a structural delay $τ$ that bounds the decoder's lookahead. We show that $τ$ is a poor proxy for user-perceived latency, and that the alignment-based su...
+
+--- [11] 2609.14455v1 ---
+Title: Grounded in Sound: Reinforcement Learning with a Frozen Acoustic Judge to Curb ASR Insertion Hallucinations
+Authors: Tingzhen Xiong, Rilin Chen, Weiwei Li, Wentao Zhang, Qicong Xie
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2026-09-13
+Summary: When reinforcement learning (RL) is used for post-training automatic speech recognition (ASR), the reward almost always lives in the text space: it compares a hypothesis with the reference and never checks whether the hypothesis is supported by the audio. On highly regular speech this licenses a shortcut - guessing from a strong language prior rather than listening. Once the acoustics degrade, the...
+
+--- [12] 2609.12607v1 ---
+Title: Direct Preference Density Alignment for Conversational Audio Equalization
+Authors: Ioannis Stylianou, Sven Ewan Shepstone, Jon Francombe, Pablo Martinez Nuevo, Zheng-Hua Tan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-11
+Summary: Large Language Model alignment typically relies on learned proxy reward models, which significantly increase the memory footprint during training and are notoriously prone to instability and reward hacking. While offline methods like Direct Preference Optimization (DPO) bypass the reward model, they lose the ability to perform online exploration. If no optimization constraints are applied, this ca...
+
+--- [13] 2608.30559v1 ---
+Title: SPHERE: Automatic Music Upmixing via Audio Language Model Post-Training with Spatial Heuristic Rewards
+Authors: Zixun Guo, Calvin Murdock, Sanjeel Parekh, W Owen Brimijoin, Simon Dixon et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-31
+Summary: In this paper, we study the task of automatic music upmixing, wherein a system predicts spatial mixing parameters from a multi-stem recording. Different from existing methods that rely on task-specific music encoders, we approach this task via audio language model (ALM) post-training, leveraging rich representations from existing ALMs, which encode both music semantics and mixing knowledge. Specif...
+
+--- [14] 2608.29999v1 ---
+Title: TEMPO: Temporally-grounded Multi-task Post-training for Large Audio-Language Models
+Authors: Apoorva Kulkarni, Kaousheik Jayakumar, Sreyan Ghosh, Utathya Aich, Ramani Duraiswami et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-08-30
+Summary: Large audio-language models (LALMs) describe audio at the clip level but cannot assign timestamps to the events, speakers, or sounds they identify. Despite being essential for downstream tasks like speech recognition and dense audio captioning, timestamping remains a key limitation of most LALMs. We present TEMPO (Temporally-grounded Multi-task Post-training), the first unified model to handle aud...
+
+--- [15] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [16] 2608.20958v1 ---
+Title: TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming
+Authors: Yibo Hu, Yu Qian, Mao Gu, Yingfan Tao, Yuhao Chen et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-08-21
+Summary: E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts are distributed across speech, video frames, product images, overlaid text, and user queries. We present TLive-Omni, an omni-modal understanding model tailored to live-commerce scenarios. It maps image, video, audio, and text inputs into a unified representation space. For long-fo...
+
+--- [17] 2608.16539v1 ---
+Title: Listen, Reason, and Segment: Aligning LALMs with Editorial Judgment for Media Chapterization
+Authors: Tony Alex, Wish Suharitdamrong, Sara Atito, Armin Mustafa, Muhammad Awais et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-08-17
+Summary: Large Audio Language Models (LALMs) have made rapid progress on standardized benchmarks, yet their deployment in practical media workflows, curation, archival indexing, and content distribution remains largely unrealized. We identify automated audio chapterization, the task of segmenting continuous audio streams into thematically coherent chapters, as a demanding and commercially consequential set...
+
+--- [18] 2608.16162v2 ---
+Title: ACE-Cap: Active Evidence Acquisition via Agentic Co-Evolution for Long-Paragraph Fine-Grained Audio Captioning
+Authors: Fengji Ma, Yan Rong, Xu Li, Xuenan Xu, Chen Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-17
+Summary: Long-paragraph fine-grained audio captioning requires models to recover diverse acoustic facts while avoiding omissions and unsupported details. However, prevailing captioners remain passive one-shot generators: once a detail is overlooked, they cannot identify the evidence gap, query the audio for targeted information, or decide when sufficient evidence has been collected. We formulate this task ...
+
+--- [19] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+
+--- [20] 2608.09227v1 ---
+Title: Omni2LoRA: Coherence-Preserving Parametric Memory for Efficient Omni Language Models
+Authors: Puneet Mathur, Manan Suri, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-10
+Summary: Omnimodal language models (OLMs) enable unified audio-visual understanding, but processing long joint token sequences makes inference computationally prohibitive. While recent token compression methods attempt to alleviate this burden, compressing modalities in isolation often destroys the temporal cross-modal anchors necessary for coherent reasoning. We introduce Omni2LoRA, a two-stage framework ...
+
+--- [21] 2608.09189v1 ---
+Title: EmoS: A Theory-Grounded Framework for Evaluating and Aligning Emotional Intelligence in Spoken Language Models
+Authors: Junyu Wang, Siyuan Zhang, Peiyuan Jiang, Jian Zong, Jingyu Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-10
+Summary: Despite significant advances in instruction-following and auditory comprehension, the evaluation of Emotional Intelligence (EI) in Spoken Language Models (SLMs) remains confined to rudimentary paralinguistic perception, lacking a systematic, theory-driven cognitive framework. We introduce EmoSBench, the first comprehensive EI evaluation benchmark for SLMs constructed upon the four-branch theoretic...
+
+--- [22] 2608.06930v1 ---
+Title: AVCap: Reinforcing Audio-Video Joint Caption with Detail-Aware Reward
+Authors: Mingyang Wu, Kaituo Feng, Bohao Li, Kaixiong Gong, Zihao Yin et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-07
+Summary: Detailed audio-video joint captioning is essential for multimodal video understanding and generation. However, prior works are constrained by three main limitations: (1) the scarcity of high-quality public datasets with fine-grained audio-visual joint captions; (2) reinforcement-learning methods that rely on coarse reward signals; and (3) the lack of a benchmark and metric for evaluating detailed ...
+
+--- [23] 2608.03032v1 ---
+Title: DDSynth-RL: Audio Synthesizer Inversion via Discrete Diffusion with Reinforcement Learning
+Authors: Tristan Wu, Daniel Chin, Junan Zhang, Junyan Jiang, Yansen Jing et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-04
+Summary: Synthesizer inversion is challenging for two main reasons: 1) Distinct parameter configurations can produce perceptually similar sounds. 2) Parameter-space losses often fail to reflect rendered audio similarity, while the synthesizer being a non-differentiable black box prevents simple audio-domain supervision. To address the one-to-many mapping induced by the first challenge, we formulate synthes...
+
+--- [24] 2608.02023v2 ---
+Title: SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks
+Authors: Yu Zhang, Ruiqi Li, Changhao Pan, Ke Lei, Xiang Yin et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-03
+Summary: Speech and audio generation is often needed in animation dubbing, audio drama, movies, advertising, games, podcasts, and short-video production. In these scenarios, creators may need to design voices without reference recordings, control speaker styles with natural language, support acoustic scenes with environments and audio effects, and later reuse the designed voices. Therefore, it is important...
+
+--- [25] 2607.20253v3 ---
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Agrpo+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Title: Pushing the Frontier of Full-Song Generation: Hierarchical Autoregressive Planning Meets Flow-Matching Rendering
+Authors: Junyu Dai, Xinyue Fan, Weiqin Li, Xiangang Li, Yunjia Li et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-07-22
+Summary: In this report, we present a unified song generation framework capable of producing high-quality full-length music from lyrics, text descriptions, and musical attributes. The proposed framework supports three tasks: Lyrics-to-Song Generation, which generates complete songs from text descriptions, lyrics, and musical attributes; Instrumental Music Generation, which creates music without vocals; and...
+

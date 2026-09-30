@@ -1,0 +1,44 @@
+# Total entries: 6
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22speech%22+AND+abs%3A%22vision%22+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.30475v1 ---
+Title: ImageEval 2026: Culturally Grounded Arabic Multimodal Evaluation
+Authors: Samir Abdaljalil, Hunzalah Hassan Bhatti, Ahlam Bashiti, Farina Amir, Md Arid Hasan et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-08-31
+Summary: We present an overview of the ImageEval 2026 shared task on culturally grounded Arabic multimodal evaluation. It includes two tasks: (i) AynVQA, covering spoken visual question answering and image-grounded hallucination detection in English and Modern Standard Arabic (MSA), and (ii) CRAI-Bench, evaluating the cultural accuracy of text-to-image generation. A total of 14 teams participated in the te...
+
+--- [2] 2607.28637v1 ---
+Title: ZeroR@CHiPSAL 2026: Two-Stage Vision-Language Adaptation with Contrastive Learning for Nepali Meme Classification
+Authors: Nitiz Khanal
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-05-19
+Summary: This paper presents our system for the CHiPSAL 2026 shared task on multimodal hate speech and sentiment detection in Nepali memes. We address both subtasks: binary hate speech classification and three-class sentiment analysis. Our approach adapts the Robust Adaptation of Hateful Meme Detection (RA-HMD) framework using Qwen3-VL-8B-Instruct, a state-of-the-art vision-language model with native Devan...
+
+--- [3] 2605.09795v1 ---
+Title: cantnlp@DravidianLangTech 2026: organic domain adaptation improves multi-class hope speech detection in Tulu
+Authors: Andrew Li, Sidney Wong
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-05-10
+Summary: This paper presents our systems and results for the Hope Speech Detection in Code-Mixed Tulu Language shared task at the Sixth Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech-2026). We trained an XLM-RoBERTa-based text classification system for detecting hope speech in code-mixed Tulu social media comments. We compared this organically adapted hope ...
+
+--- [4] 2604.24179v2 ---
+Title: MemeScouts@LT-EDI 2026: Asking the Right Questions -- Prompted Weak Supervision for Meme Hate Speech Detection
+Authors: Ivo Bueno, Lea Hirlimann, Enkelejda Kasneci
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-04-27
+Summary: Detecting hate speech in memes is challenging due to their multimodal nature and subtle, culturally grounded cues such as sarcasm and context. While recent vision-language models (VLMs) enable joint reasoning over text and images, end-to-end prompting can be brittle, as a single prediction must resolve target, stance, implicitness, and irony. These challenges are amplified in multilingual settings...
+
+--- [5] 2604.14218v1 ---
+Title: MEME-Fusion@CHiPSAL 2026: Multimodal Ablation Study of Hate Detection and Sentiment Analysis on Nepali Memes
+Authors: Samir Wagle, Reewaj Khanal, Abiral Adhikari
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-04-13
+Summary: Hate speech detection in Devanagari-scripted social media memes presents compounded challenges: multimodal content structure, script-specific linguistic complexity, and extreme data scarcity in low-resource settings. This paper presents our system for the CHiPSAL 2026 shared task, addressing both Subtask A (binary hate speech detection) and Subtask B (three-class sentiment classification: positive...
+
+--- [6] 2603.01096v1 ---
+Title: Unified Vision-Language Modeling via Concept Space Alignment
+Authors: Yifu Qiu, Paul-Ambroise Duquenne, Holger Schwenk
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.LG
+Published: 2026-03-01
+Summary: We introduce V-SONAR, a vision-language embedding space extended from the text-only embedding space SONAR (Omnilingual Embeddings Team et al., 2026), which supports 1500 text languages and 177 speech languages. To construct V-SONAR, we propose a post-hoc alignment pipeline that maps the representations of an existing vision encoder into the SONAR space. We thoroughly evaluate V-SONAR and show that...
+

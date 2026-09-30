@@ -1,0 +1,177 @@
+--- [1] 2609.21738v1 ---
+Title: GenTraceBench: A Benchmark for Tracing Audio Deepfakes Across Pre- and Post-training Stages
+Authors: Li Wang, Kunyu Feng, Wan Lin, Dekun Chen, Qinke Ni et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-18
+Summary: Modern text-to-speech (TTS) systems are rarely deployed as unchanged pre-trained models. They are often adapted through supervised fine-tuning (SFT) or preference optimization such as DPO and GRPO. This raises a practical question for audio deepfake forensics: do fingerprints learned from a foundation generator remain valid after adaptation? We present GenTraceBench, a controlled benchmark spannin...
+
+--- [2] 2609.14740v1 ---
+Title: Bridging Data, Reasoning, and Alignment: A Unified Framework for Context-Aware Instruction-Following TTS
+Authors: Jingbin Hu, Luyu Wang, Wenjie Tian, Kangxiang Xia, Qirui Zhan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-13
+Summary: The ISCSLP 2026 CoT-TTS Challenge requires TTS systems to generate Chain-of-Thought (CoT) reasoning from dialogue history before synthesizing contextually appropriate speech. While the official baseline establishes a unified architecture, it remains constrained by limited contextual comprehension, weak instruction fidelity, and suboptimal audio quality. We present a systematic optimization pipelin...
+
+--- [3] 2609.12855v1 ---
+Title: AlignDPO: Preference-Gated Alignment for Reducing Hallucination in Decoder-Only TTS
+Authors: Xiao Zhou, Oisín Turbitt, Kit Bower-Morris, Jonathan Carlton, Jamie Stacey et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-11
+Summary: Decoder-only text-to-speech (TTS) models scale efficiently but remain prone to content hallucinations that arise from weak text-speech alignment during autoregressive generation. We find that robustness is governed by a non-monotone relation to the sharpness of the alignment-bearing attention heads: a moderate degree is best, whereas over-sharpening is no better than the unaligned backbone and eve...
+
+--- [4] 2609.16034v1 ---
+Title: StepAudio 3 Music Technical Report
+Authors: Chengli Feng, Zhiyue Wu, Jiahao Song, Zheqi Dai, Boyang Wang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-11
+Summary: We introduce StepAudio 3 Music, a large-scale, long-form music generation model that supports explicit musical planning and open-domain text-controlled generation. The StepAudio Music Tokenizer represents audio as a 50-Hz stream from a 65536-entry single codebook, using semantically informed self-supervised and multi-task training to preserve musical structure and reconstruction-relevant informati...
+
+--- [5] 2609.12607v1 ---
+Title: Direct Preference Density Alignment for Conversational Audio Equalization
+Authors: Ioannis Stylianou, Sven Ewan Shepstone, Jon Francombe, Pablo Martinez Nuevo, Zheng-Hua Tan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-11
+Summary: Large Language Model alignment typically relies on learned proxy reward models, which significantly increase the memory footprint during training and are notoriously prone to instability and reward hacking. While offline methods like Direct Preference Optimization (DPO) bypass the reward model, they lose the ability to perform online exploration. If no optimization constraints are applied, this ca...
+
+--- [6] 2609.11260v2 ---
+Title: Preference Optimization with LALM Feedback for Continuous Autoregressive Non-Verbal Vocalization Generation
+Authors: Jingbin Hu, Qirui Zhan, Yuang Cao, Ziyu Zhang, Yunxiang Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-10
+Summary: We propose a preference optimization framework with Large Audio-Language Model (LALM) feedback for controllable non-verbal vocalization (NVV) generation in continuous autoregressive speech models. To construct preference data without human preference annotation, we build a bilingual prompt corpus by combining NVV-injected real transcripts with LLM-generated semantically aligned prompts, perform st...
+
+--- [7] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [8] 2608.11913v1 ---
+Title: HarmoniDPO: Video-guided Audio Generation via Preference-Optimized Diffusion
+Authors: Wenshuo Peng, Kaipeng Zhang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-12
+Summary: Video-to-audio (V2A) generation faces significant challenges in achieving precise temporal synchronization and high perceptual quality due to the complex, ambiguous relationship between visual and auditory cues. Existing methods typically compress video inputs into single feature representations, leading to significant loss of temporal dynamics and fine-grained visual information. These approaches...
+
+--- [9] 2607.20253v3 ---
+Title: Pushing the Frontier of Full-Song Generation: Hierarchical Autoregressive Planning Meets Flow-Matching Rendering
+Authors: Junyu Dai, Xinyue Fan, Weiqin Li, Xiangang Li, Yunjia Li et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-07-22
+Summary: In this report, we present a unified song generation framework capable of producing high-quality full-length music from lyrics, text descriptions, and musical attributes. The proposed framework supports three tasks: Lyrics-to-Song Generation, which generates complete songs from text descriptions, lyrics, and musical attributes; Instrumental Music Generation, which creates music without vocals; and...
+
+--- [10] 2607.11699v3 ---
+Title: Qwen-Music Technical Report
+Authors: Jin Xu, Kangdi Wang, Ruibin Yuan, Shun Lei, Xiong Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-13
+Summary: We introduce Qwen-Music, a music generation model that produces high-fidelity songs with complete vocals. It supports text-to-music generation from descriptions, lyrics, and musical attributes, and cover song generation with different styles and vocal characteristics. Qwen-Music comprises three components: Qwen-Music-Tokenizer, Qwen-Music-LLM, and Qwen-Music-Render. The tokenizer compresses audio ...
+
+--- [11] 2607.10191v1 ---
+Title: Breaking the Quality--Intelligibility Trade-off in Streaming Target Speaker Extraction via Deep-Feature-Anchored Preference Optimization
+Authors: Shuhai Peng, Jinjiang Liu, Hui Lu, Liyang Chen, Guiping Zhong et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-11
+Summary: Generative streaming models for Target Speaker Extraction (TSE) commonly exhibit a quality--intelligibility trade-off, wherein naive optimization for perceptual audio quality tends to degrade speech intelligibility, and conversely. We reveal that this trade-off arises not from the constraints of streaming architectures, but from an inappropriate choice of optimization anchor. Directly optimizing a...
+
+--- [12] 2609.04222v1 ---
+Title: GEPARD - Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue
+Authors: Denis Pavlov, Ulanbek Abdurazakov, Nursultan Bakashov
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2026-07-04
+Summary: We present GEPARD (Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue), a streaming text-to-speech model for real-time spoken dialogue. GEPARD generates speech autoregressively with an LLM backbone - text and audio embeddings are trained together in a single decoder-only model - and decodes it to a waveform with an FSQ-based neural codec, streaming audio chunk-by-...
+
+--- [13] 2605.27772v1 ---
+Title: Do Audio LLMs Listen or Read? Analyzing and Mitigating Paralinguistic Failures with VoxParadox
+Authors: Jiacheng Pang, Ashutosh Chaubey, Mohammad Soleymani
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-05-26
+Summary: Audio large language models (Audio LLMs) demonstrate strong performance on speech understanding tasks, yet their ability to understand paralinguistic information remains limited. To systematically quantify this issue, we introduce VoxParadox, an adversarial benchmark with 2,000 verified examples, spanning 10 paralinguistic tasks, created with controlled speech synthesis to intentionally mismatch t...
+
+--- [14] 2605.23975v2 ---
+Title: Direct Preference Optimization for English-Mandarin Code-Switching Speech Recognition in Audio LLMs
+Authors: Trung Nguyen Quang, Cheng Yi Lewis Won, Minh Duc Pham, Yingxu He, Shuo Sun et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-05-13
+Summary: Audio large language models (Audio LLMs) exhibit systematic failures in transcribing code-switching speech despite strong multilingual capabilities. Focusing on English-Mandarin, we identify three failure modes: language omission, translation-instead-of-transcription, and hallucination. We apply Direct Preference Optimization (DPO) to align models, constructing preference pairs in which chosen res...
+
+--- [15] 2605.12179v1 ---
+Title: SyncDPO: Enhancing Temporal Synchronization in Video-Audio Joint Generation via Preference Learning
+Authors: Xin Cheng, Xihua Wang, Ying Ba, Yuyue Wang, Kaisi Guan et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-12
+Summary: Recent advancements in video-audio joint generation have achieved remarkable success in semantic correspondence. However, achieving precise temporal synchronization, which requires fine-grained alignment between audio events and their visual triggers, remains a challenging problem. The post-training method for joint generation is largely dominated by Supervised Fine-Tuning, but the commonly used M...
+
+--- [16] 2604.18489v1 ---
+Title: Aligning Language Models for Lyric-to-Melody Generation with Rule-Based Musical Constraints
+Authors: Hao Meng, Siyuan Zheng, Shuran Zhou, Qiangqiang Wang, Yang Song
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-04-20
+Summary: Large Language Models (LLMs) show promise in lyric-to-melody generation, but models trained with Supervised Fine-Tuning (SFT) often produce musically implausible melodies with issues like poor rhythm and unsuitable vocal ranges, a phenomenon we term "constraint violation". To address this, we propose a novel alignment framework that instills musical knowledge without human annotation. We define ru...
+
+--- [17] 2603.11661v1 ---
+Title: Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models
+Authors: Xiquan Li, Junxi Liu, Wenxi Chen, Haina Zhu, Ziyang Ma et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-12
+Summary: Reinforcement Learning (RL) has become an effective paradigm for enhancing Large Language Models (LLMs) and visual generative models. However, its application in text-to-audio (TTA) generation remains largely under-explored. Prior work typically employs offline methods like Direct Preference Optimization (DPO) and leverages Contrastive Language-Audio Pretraining (CLAP) models as reward functions. ...
+
+--- [18] 2603.11089v1 ---
+Title: V2A-DPO: Omni-Preference Optimization for Video-to-Audio Generation
+Authors: Nolan Chan, Timmy Gang, Yongqian Wang, Yuzhe Liang, Dingdong Wang
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2026-03-11
+Summary: This paper introduces V2A-DPO, a novel Direct Preference Optimization (DPO) framework tailored for flow-based video-to-audio generation (V2A) models, incorporating key adaptations to effectively align generated audio with human preferences. Our approach incorporates three core innovations: (1) AudioScore-a comprehensive human preference-aligned scoring system for assessing semantic consistency, te...
+
+--- [19] 2603.08230v1 ---
+Title: Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction
+Authors: Xiaofeng Yu, Jiaheng Dong, Jean Honorio, Abhirup Ghosh, Hong Jia et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-03-09
+Summary: Speech emotion recognition plays an important role in various applications. However, most existing approaches predict a single emotion label, oversimplifying the inherently ambiguous nature of human emotional expression. Recent large audio-language models show promise in generating richer outputs, but their reasoning ability for ambiguous emotional understanding remains limited. In this work, we r...
+
+--- [20] 2602.19163v1 ---
+Title: JavisDiT++: Unified Modeling and Optimization for Joint Audio-Video Generation
+Authors: Kai Liu, Yanhao Zheng, Kai Wang, Shengqiong Wu, Rongjunchen Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-02-22
+Summary: AIGC has rapidly expanded from text-to-image generation toward high-quality multimodal synthesis across video and audio. Within this context, joint audio-video generation (JAVG) has emerged as a fundamental task that produces synchronized and semantically aligned sound and vision from textual descriptions. However, compared with advanced commercial models such as Veo3, existing open-source methods...
+
+--- [21] 2601.19063v1 ---
+Title: Optimizing Conversational Quality in Spoken Dialogue Systems with Reinforcement Learning from AI Feedback
+Authors: Siddhant Arora, Jinchuan Tian, Jiatong Shi, Hayato Futami, Yosuke Kashiwagi et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-01-27
+Summary: Reinforcement learning from human or AI feedback (RLHF/RLAIF) for speech-in/speech-out dialogue systems (SDS) remains underexplored, with prior work largely limited to single semantic rewards applied at the utterance level. Such setups overlook the multi-dimensional and multi-modal nature of conversational quality, which encompasses semantic coherence, audio naturalness, speaker consistency, emoti...
+
+--- [22] 2601.16483v1 ---
+Title: FlowSE-GRPO: Training Flow Matching Speech Enhancement via Online Reinforcement Learning
+Authors: Haoxu Wang, Biao Tian, Yiheng Jiang, Zexu Pan, Shengkui Zhao et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-01-23
+Summary: Generative speech enhancement offers a promising alternative to traditional discriminative methods by modeling the distribution of clean speech conditioned on noisy inputs. Post-training alignment via reinforcement learning (RL) effectively aligns generative models with human preferences and downstream metrics in domains such as natural language processing, but its use in speech enhancement remain...
+
+--- [23] 2601.13629v1 ---
+Title: S$^2$Voice: Style-Aware Autoregressive Modeling with Enhanced Conditioning for Singing Style Conversion
+Authors: Ziqian Wang, Xianjun Xia, Chuanzeng Huang, Lei Xie
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-01-20
+Summary: We present S$^2$Voice, the winning system of the Singing Voice Conversion Challenge (SVCC) 2025 for both the in-domain and zero-shot singing style conversion tracks. Built on the strong two-stage Vevo baseline, S$^2$Voice advances style control and robustness through several contributions. First, we integrate style embeddings into the autoregressive large language model (AR LLM) via a FiLM-style l...
+
+--- [24] 2601.04656v1 ---
+Title: FlexiVoice: Enabling Flexible Style Control in Zero-Shot TTS with Natural Language Instructions
+Authors: Dekun Chen, Xueyao Zhang, Yuancheng Wang, Kenan Dai, Li Ma et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-01-08
+Summary: This study proposes FlexiVoice, a text-to-speech (TTS) synthesis system capable of flexible style control with zero-shot voice cloning. The speaking style is controlled by a natural-language instruction and the voice timbre is provided by a speech reference in zero-shot manner. FlexiVoice is built with an LLM core, which takes text as input, and also takes an optional natural language instruction ...
+
+--- [25] 2512.20156v4 ---
+Title: Fun-Audio-Chat Technical Report
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Adpo+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Authors:  Tongyi Fun Team, Qian Chen, Luyao Cheng, Chong Deng, Xiangang Li et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2025-12-23
+Summary: Recent advancements in joint speech-text models show great potential for seamless voice interactions. However, existing models face critical challenges: temporal resolution mismatch between speech tokens (25Hz) and text tokens (~3Hz) dilutes semantic information, incurs high computational costs, and causes catastrophic forgetting of text LLM knowledge. We introduce Fun-Audio-Chat, a Large Audio La...
+

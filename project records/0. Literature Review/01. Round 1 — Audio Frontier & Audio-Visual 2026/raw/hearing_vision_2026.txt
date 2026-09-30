@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22vision%22+AND+abs%3A%22audio%22+AND+abs%3A%222026%22&max_results=30&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.16635v1 ---
+Title: TellTale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot LLM Judge for Ambivalence/Hesitancy Recognition in Videos
+Authors: Abdel-Karim Al-Tamimi, Ali Rodan
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-18
+Summary: We present TellTale, a text-only approach to ambivalence/hesitancy (A/H) recognition in interview videos, evaluated on the BAH dataset as part of the 3rd A/H Video Recognition Challenge (11th ABAW Workshop, ECCV 2026). Although the dataset provides video, audio, facial crops, and transcripts, TellTale relies on the transcript alone and combines three probability streams. Two text encoders, multili...
+
+--- [2] 2604.25455v1 ---
+Title: Generative UI as an Accessibility Bridge: Lessons from C2C E-Commerce
+Authors: Bektur Ryskeldiev
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CY
+Published: 2026-04-28
+Summary: Web accessibility rests on static standards and developer compliance. That model frays in platforms where content is user-generated: photos arrive blurry or off-frame, descriptions skip size and condition, and page structure shifts from listing to listing. Drawing on six studies conducted between 2022 and 2025 with blind, low-vision, and older adult users of customer-to-customer (C2C) marketplaces...
+

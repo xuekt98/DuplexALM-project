@@ -1,0 +1,177 @@
+--- [1] 2607.17499v2 ---
+Title: Pailitao-MMSearch: Building Native E-Commerce Multimodal Search Foundation
+Authors: Xiaohan Ye, Xu Chen, Zihan Gong, Jian Ding, Lianyu Du et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-20
+Summary: The evolution of e-commerce has fundamentally transformed how users search for products, shifting from simple text-based keyword queries to complex multimodal interactions that seamlessly combine product images, natural language descriptions, and mixed-intent instructions. However, existing approaches face a critical dilemma: single-modal specialist models, deployed independently for text retrieva...
+
+--- [2] 2607.05276v1 ---
+Title: ProPS: Prompted Profile Synthesis for Natural Language-Conditioned Speaker Embedding Distributions
+Authors: Thomas Thebaud, Junhyeok Lee, Laureano Moro-Velazquez, Jesus Villalba Lopez, Najim Dehak
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-07-06
+Summary: Speaker embeddings, or x-vectors, are widely used to represent speaker identity and speaker-related attributes, but existing embedding extractors are typically descriptive rather than generative: they map an observed speech segment to an x-vector, which is then used for downstream applications. We introduce ProPS, Prompted Profile Synthesis, a framework for generating distributions of speaker embe...
+
+--- [3] 2606.19325v1 ---
+Title: Reference-Driven Multi-Speaker Audio Scene Generation from In-the-Wild Priors
+Authors: Michael Finkelson, Daniel Segal, Eitan Richardson, Shahar Armon, Nani Goldring et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CV
+Published: 2026-06-17
+Summary: Existing multi-speaker dialogue systems bind speakers to utterances through structured supervision: per-turn tags, multi-stream transcriptions, or learnable speaker embeddings. These systems operate within speech-only pipelines that produce clean vocal sequences without the ambient texture of real conversations. We take a different approach. Our method, ScenA, conditions a text-to-audio flow-match...
+
+--- [4] 2605.15044v1 ---
+Title: SpeakerLLM: A Speaker-Specialized Audio-LLM for Speaker Understanding and Verification Reasoning
+Authors: KiHyun Nam, Jungwoo Heo, Siu Bae, Ha-Jin Yu, Joon Son Chung
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS
+Published: 2026-05-14
+Summary: As audio-first agents become increasingly common in physical AI, conversational robots, and screenless wearables, audio large language models (audio-LLMs) must integrate speaker-specific understanding to support user authorization, personalization, and context-aware interaction. This requires modeling who is speaking, how the voice sounds, and how recording conditions affect speaker cues. Conventi...
+
+--- [5] 2604.08363v1 ---
+Title: CapTalk: Unified Voice Design for Single-Utterance and Dialogue Speech Generation
+Authors: Xiaosu Su, Zihan Sun, Peilei Jia, Jun Gao
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-04-09
+Summary: Voice design from natural language descriptions is emerging as a new task in text-to-speech multimodal generation, aiming to synthesize speech with target timbre and speaking style without relying on reference audio. However, existing methods mainly focus on single-utterance generation, leaving conversational voice design largely unexplored. In this work, we extend voice design to dialogue, enabli...
+
+--- [6] 2603.28086v1 ---
+Title: MOSS-VoiceGenerator: Create Realistic Voices with Natural Language Descriptions
+Authors: Kexin Huang, Liwei Fan, Botian Jiang, Yaozhou Jiang, Qian Tu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-03-30
+Summary: Voice design from natural language aims to generate speaker timbres directly from free-form textual descriptions, allowing users to create voices tailored to specific roles, personalities, and emotions. Such controllable voice creation benefits a wide range of downstream applications-including storytelling, game dubbing, role-play agents, and conversational assistants, making it a significant task...
+
+--- [7] 2603.08823v2 ---
+Title: Fish Audio S2 Technical Report
+Authors: Shijia Liao, Yuxuan Wang, Songting Liu, Yifan Cheng, Ruoyi Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-03-09
+Summary: We introduce Fish Audio S2, an open-sourced text-to-speech system featuring multi-speaker, multi-turn generation, and, most importantly, instruction-following control via natural-language descriptions. To scale training, we develop a multi-stage training recipe together with a staged data pipeline covering video captioning and speech captioning, voice-quality assessment, and reward modeling. To pu...
+
+--- [8] 2602.12597v1 ---
+Title: PISHYAR: A Socially Intelligent Smart Cane for Indoor Social Navigation and Multimodal Human-Robot Interaction for Visually Impaired People
+Authors: Mahdi Haghighat Joo, Maryam Karimi Jafari, Alireza Taheri
+Primary cat: cs.RO | All cats: cs.RO, cs.HC
+Published: 2026-02-13
+Summary: This paper presents PISHYAR, a socially intelligent smart cane designed by our group to combine socially aware navigation with multimodal human-AI interaction to support both physical mobility and interactive assistance. The system consists of two components: (1) a social navigation framework implemented on a Raspberry Pi 5 that integrates real-time RGB-D perception using an OAK-D Lite camera, YOL...
+
+--- [9] 2601.10629v2 ---
+Title: VoiceSculptor: Your Voice, Designed By You
+Authors: Jingbin Hu, Huakang Chen, Linhan Ma, Dake Guo, Qirui Zhan et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-01-15
+Summary: Despite rapid progress in text-to-speech (TTS), open-source systems still lack truly instruction-following, fine-grained control over core speech attributes (e.g., pitch, speaking rate, age, emotion, and style). We present VoiceSculptor, an open-source unified system that bridges this gap by integrating instruction-based voice design and high-fidelity voice cloning in a single framework. It genera...
+
+--- [10] 2510.01860v1 ---
+Title: SLAP: Learning Speaker and Health-Related Representations from Natural Language Supervision
+Authors: Angelika Ando, Auguste Crabeil, Adrien Lesage, Rachid Riad
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-10-02
+Summary: Speech encodes paralinguistic information such as demographics, voice quality, and health. Yet no audio foundation model supports zero-shot or out-of-distribution (OOD) generalization to these tasks. We introduce SLAP (Speaker contrastive Language-Audio Pretraining), the first model aligning speech with natural language descriptions of speaker and health metadata through contrastive learning. SLAP...
+
+--- [11] 2509.24570v1 ---
+Title: ISSE: An Instruction-Guided Speech Style Editing Dataset And Benchmark
+Authors: Yun Chen, Qi Chen, Zheqi Dai, Arshdeep Singh, Philip J. B. Jackson et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-29
+Summary: Speech style editing refers to modifying the stylistic properties of speech while preserving its linguistic content and speaker identity. However, most existing approaches depend on explicit labels or reference audio, which limits both flexibility and scalability. More recent attempts to use natural language descriptions remain constrained by oversimplified instructions and coarse style control. T...
+
+--- [12] 2509.14627v1 ---
+Title: Towards Human-like Multimodal Conversational Agent by Generating Engaging Speech
+Authors: Taesoo Kim, Yongsik Jo, Hyunmin Song, Taehwan Kim
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CL
+Published: 2025-09-18
+Summary: Human conversation involves language, speech, and visual cues, with each medium providing complementary information. For instance, speech conveys a vibe or tone not fully captured by text alone. While multimodal LLMs focus on generating text responses from diverse inputs, less attention has been paid to generating natural and engaging speech. We propose a human-like agent that generates speech res...
+
+--- [13] 2508.17124v1 ---
+Title: Towards Deeper Understanding of Natural User Interactions in Virtual Reality Based Assembly Tasks
+Authors: Ryan Ghamandi, Yahya Hmaiti, Mykola Maslych, Ravi Kiran Kattoju, Joseph J. LaViola
+Primary cat: cs.HC | All cats: cs.HC, eess.SY
+Published: 2025-08-23
+Summary: We explore natural user interactions using a virtual reality simulation of a robot arm for assembly tasks. Using a Wizard-of-Oz study, participants completed collaborative LEGO and instructive PCB assembly tasks, with the robot responding under experimenter control. We collected voice, hand tracking, and gaze data from users. Statistical analyses revealed that instructive and collaborative scenari...
+
+--- [14] 2506.05688v3 ---
+Title: Voice Impression Control in Zero-Shot TTS
+Authors: Kenichi Fujita, Shota Horiguchi, Yusuke Ijima
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2025-06-06
+Summary: Para-/non-linguistic information in speech is pivotal in shaping the listeners' impression. Although zero-shot text-to-speech (TTS) has achieved high speaker fidelity, modulating subtle para-/non-linguistic information to control perceived voice characteristics, i.e., impressions, remains challenging. We have therefore developed a voice impression control method in zero-shot TTS that utilizes a lo...
+
+--- [15] 2505.20678v1 ---
+Title: PromptEVC: Controllable Emotional Voice Conversion with Natural Language Prompts
+Authors: Tianhua Qi, Shiyan Wang, Cheng Lu, Tengfei Song, Hao Yang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD, eess.SP
+Published: 2025-05-27
+Summary: Controllable emotional voice conversion (EVC) aims to manipulate emotional expressions to increase the diversity of synthesized speech. Existing methods typically rely on predefined labels, reference audios, or prespecified factor values, often overlooking individual differences in emotion perception and expression. In this paper, we introduce PromptEVC that utilizes natural language prompts for p...
+
+--- [16] 2504.01708v1 ---
+Title: TransforMerger: Transformer-based Voice-Gesture Fusion for Robust Human-Robot Communication
+Authors: Petr Vanc, Karla Stepanova
+Primary cat: cs.RO | All cats: cs.RO, cs.HC, cs.LG
+Published: 2025-04-02
+Summary: As human-robot collaboration advances, natural and flexible communication methods are essential for effective robot control. Traditional methods relying on a single modality or rigid rules struggle with noisy or misaligned data as well as with object descriptions that do not perfectly fit the predefined object names (e.g. 'Pick that red object'). We introduce TransforMerger, a transformer-based re...
+
+--- [17] 2409.17452v1 ---
+Title: Description-based Controllable Text-to-Speech with Cross-Lingual Voice Control
+Authors: Ryuichi Yamamoto, Yuma Shirahata, Masaya Kawamura, Kentaro Tachibana
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2024-09-26
+Summary: We propose a novel description-based controllable text-to-speech (TTS) method with cross-lingual control capability. To address the lack of audio-description paired data in the target language, we combine a TTS model trained on the target language with a description control model trained on another language, which maps input text descriptions to the conditional features of the TTS model. These two...
+
+--- [18] 2406.07497v3 ---
+Title: A methodological framework and exemplar protocol for the collection and analysis of repeated speech samples
+Authors: Nicholas Cummins, Lauren L. White, Zahia Rahman, Catriona Lucas, Tian Pan et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-06-11
+Summary: Speech and language biomarkers have the potential to be regular, objective assessments of symptom severity in several health conditions, both in-clinic and remotely using mobile devices. However, the complex nature of speech and often subtle changes associated with health mean that findings are highly dependent on methodological and cohort choices. These are often not reported adequately in studie...
+
+--- [19] 2404.05103v1 ---
+Title: Chart What I Say: Exploring Cross-Modality Prompt Alignment in AI-Assisted Chart Authoring
+Authors: Nazar Ponochevnyi, Anastasia Kuzminykh
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2024-04-07
+Summary: Recent chart-authoring systems, such as Amazon Q in QuickSight and Copilot for Power BI, demonstrate an emergent focus on supporting natural language input to share meaningful insights from data through chart creation. Currently, chart-authoring systems tend to integrate voice input capabilities by relying on speech-to-text transcription, processing spoken and typed input similarly. However, cross...
+
+--- [20] 2404.15320v2 ---
+Title: Using Large Language Models to Enrich the Documentation of Datasets for Machine Learning
+Authors: Joan Giner-Miguelez, Abel Gómez, Jordi Cabot
+Primary cat: cs.DL | All cats: cs.DL, cs.AI, cs.CL
+Published: 2024-04-04
+Summary: Recent regulatory initiatives like the European AI Act and relevant voices in the Machine Learning (ML) community stress the need to describe datasets along several key dimensions for trustworthy AI, such as the provenance processes and social concerns. However, this information is typically presented as unstructured text in accompanying documentation, hampering their automated analysis and proces...
+
+--- [21] 2309.08140v2 ---
+Title: PromptTTS++: Controlling Speaker Identity in Prompt-Based Text-to-Speech Using Natural Language Descriptions
+Authors: Reo Shimizu, Ryuichi Yamamoto, Masaya Kawamura, Yuma Shirahata, Hironori Doi et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2023-09-15
+Summary: We propose PromptTTS++, a prompt-based text-to-speech (TTS) synthesis system that allows control over speaker identity using natural language descriptions. To control speaker identity within the prompt-based TTS framework, we introduce the concept of speaker prompt, which describes voice characteristics (e.g., gender-neutral, young, old, and muffled) designed to be approximately independent of spe...
+
+--- [22] 2305.13137v2 ---
+Title: EMNS /Imz/ Corpus: An emotive single-speaker dataset for narrative storytelling in games, television and graphic novels
+Authors: Kari Ali Noriy, Xiaosong Yang, Jian Jun Zhang
+Primary cat: cs.CL | All cats: cs.CL, cs.LG, cs.MM
+Published: 2023-05-22
+Summary: The increasing adoption of text-to-speech technologies has led to a growing demand for natural and emotive voices that adapt to a conversation's context and emotional tone. The Emotive Narrative Storytelling (EMNS) corpus is a unique speech dataset created to enhance conversations' expressiveness and emotive quality in interactive narrative-driven systems. The corpus consists of a 2.3-hour recordi...
+
+--- [23] 2201.05609v2 ---
+Title: Multilingual Open Text Release 1: Public Domain News in 44 Languages
+Authors: Chester Palen-Michel, June Kim, Constantine Lignos
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2022-01-14
+Summary: We present Multilingual Open Text (MOT), a new multilingual corpus containing text in 44 languages, many of which have limited existing text resources for natural language processing. The first release of the corpus contains over 2.8 million news articles and an additional 1 million short snippets (photo captions, video descriptions, etc.) published between 2001--2022 and collected from Voice of A...
+
+--- [24] 2111.15298v1 ---
+Title: Generating Rich Product Descriptions for Conversational E-commerce Systems
+Authors: Shashank Kedia, Aditya Mantha, Sneha Gupta, Stephen Guo, Kannan Achan
+Primary cat: cs.CL | All cats: cs.CL, cs.LG
+Published: 2021-11-30
+Summary: Through recent advancements in speech technologies and introduction of smart assistants, such as Amazon Alexa, Apple Siri and Google Home, increasing number of users are interacting with various applications through voice commands. E-commerce companies typically display short product titles on their webpages, either human-curated or algorithmically generated, when brevity is required. However, the...
+
+--- [25] 2011.11071v2 ---
+Title: QuerYD: A video dataset with high-quality text and audio narrations
+Authors: Andreea-Maria Oncescu, João F. Henriques, Yang Liu, Andrew Zisserman, Samuel Albanie
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Anatural+AND+abs%3Alanguage+AND+abs%3Avoice+AND+abs%3Adescription&max_results=25&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2020-11-22
+Summary: We introduce QuerYD, a new large-scale dataset for retrieval and event localisation in video. A unique feature of our dataset is the availability of two audio tracks for each video: the original audio, and a high-quality spoken description of the visual content. The dataset is based on YouDescribe, a volunteer project that assists visually-impaired people by attaching voiced narrations to existing...
+

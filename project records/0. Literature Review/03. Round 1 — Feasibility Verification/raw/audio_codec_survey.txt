@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Acodec+AND+abs%3Asurvey+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2009.12164v1 ---
+Title: A Comprehensive Survey of the Tactile Internet: State of the art and Research Directions
+Authors: N. Promwongsa, A. Ebrahimzadeh, D. Naboulsi, S. Kianpisheh, F. Belqasmi et al.
+Primary cat: eess.SP | All cats: eess.SP, cs.NI
+Published: 2020-09-22
+Summary: The Internet has made several giant leaps over the years, from a fixed to a mobile Internet, then to the Internet of Things, and now to a Tactile Internet. The Tactile Internet goes far beyond data, audio and video delivery over fixed and mobile networks, and even beyond allowing communication and collaboration among things. It is expected to enable haptic communication and allow skill set deliver...
+

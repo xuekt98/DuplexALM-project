@@ -1,0 +1,30 @@
+# Total entries: 4
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Asilent+AND+abs%3Aaudio+AND+abs%3Aprobing&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.21943v2 ---
+Title: Listen, Do Not Copy: Internalizing Audio-Grounded Scaffold Context for Robust Omni-Model Speech Understanding
+Authors: Pengfei Zhang, Biao Tian, Tianxin Xie, Minghao Yang, Xiangang Li et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-24
+Summary: Omni models transcribe clean, single-speaker speech well, but their accuracy drops sharply when speakers overlap and the scene is noisy, exactly where knowing who said what matters most. A natural fix is a short scene description. We show why this is risky: answer-bearing text lets the model copy instead of listen, so the score rises although nothing has been heard; a silent test exposes this shor...
+
+--- [2] 2607.18718v1 ---
+Title: Summary of DCASE 2026 Task 5: Audio-Dependent Question Answering
+Authors: Haolin He, Renhe Sun, Zheqi Dai, Xingjian Du, Chunyat Wu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-21
+Summary: DCASE~2026 Task~5 introduces Audio-Dependent Question Answering (ADQA), which tests whether large audio-language models answer from the audio rather than from textual priors. An Audio-Dependency Filtering (ADF) pipeline combines silent-audio probing, per-option perplexity, a large language model (LLM) commonsense check, and human review to remove items solvable from text alone. The 3000 items that...
+
+--- [3] 2607.02640v1 ---
+Title: Metronome: Bound the Cache, Keep the Beat for Real-Time Interaction Model Serving
+Authors: Jiaying Meng, Bojie Li
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.NI
+Published: 2026-07-02
+Summary: Real-time interaction models -- Moshi, MiniCPM-o, Qwen-Omni -- turn serving into a periodic real-time task: on every frame a session ingests streaming audio and must respond by a recurring wall-clock deadline, while its KV cache grows monotonically and stays pinned for the whole conversation. This regime hides a dangerous failure mode. On a real full-duplex stack, sustained load does not degrade s...
+
+--- [4] 2510.12851v2 ---
+Title: Silence is Golden: Mitigating Hallucinations in Large Audio-Language Models via Layer-Weighted Vector Steering
+Authors: Tsung-En Lin, Kuan-Yi Lee, Hung-Yi Lee
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2025-10-14
+Summary: Large Audio-Language Models (LALMs) excel in Audio QA but often suffer from hallucinations ungrounded in the audio. To our knowledge, we are the first to propose applying vector steering to the audio domain to mitigate this. Unlike text-based steering, our silence-anchored contrastive approach steers the model away from hallucinations by contrasting active audio against a silent baseline. Probing ...
+

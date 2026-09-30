@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Adpo+AND+abs%3Avoice+AND+abs%3Aagent&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.06632v1 ---
+Title: Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation
+Authors: Ziyun Xu, Bosen Ding, Yue Zhang, Ji Qi, Qingyuan Song et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-06
+Summary: Industrial recommendation systems predominantly adopt a passive ranking paradigm that infers user preferences from implicit behavioral signals (e.g., clicks, dwell time) rather than explicit, natural language inputs. As a result, users experience a persistent discrepancy between their explicit interests and what passive behavioral algorithms deliver, limiting their ability to express nuanced prefe...
+
+--- [2] 2510.07497v1 ---
+Title: Can Speech LLMs Think while Listening?
+Authors: Yi-Jen Shih, Desh Raj, Chunyang Wu, Wei Zhou, SK Bong et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, eess.AS
+Published: 2025-10-08
+Summary: Recent advances in speech large language models (speech LLMs) have enabled seamless spoken interactions, but these systems still struggle with complex reasoning tasks. Previously, chain-of-thought (CoT) prompting or fine-tuning has been to shown to significantly improve the reasoning abilities of text-based LLMs. In this work, we investigate the effect of CoT fine-tuning for multi-stream speech LL...
+

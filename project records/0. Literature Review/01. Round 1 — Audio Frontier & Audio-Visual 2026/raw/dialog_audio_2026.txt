@@ -1,0 +1,44 @@
+# Total entries: 6
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22dialogue%22+AND+abs%3A%22audio%22+AND+abs%3A%222026%22&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.12034v1 ---
+Title: The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models
+Authors: Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao, Yuhang Dai et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-12
+Summary: Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity ...
+
+--- [2] 2608.24909v1 ---
+Title: Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans
+Authors: Wentao Jiang, Youchen Xie, Haidi Fan, Yajing Chen, Xin Wang et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.CV, cs.SD
+Published: 2026-07-22
+Summary: Existing co-speech gesture generation methods are predominantly studied in offline settings, where gestures are synthesized from complete speech segments. However, interactive digital humans in real-world scenarios are required to generate speech-synchronous gestures online, using only currently available response audio under strict latency constraints. As a result, prior methods are unsuitable fo...
+
+--- [3] 2607.17867v1 ---
+Title: The tttAI System for the TSA-ASR Task of the SmartGlasses Challenge 2026
+Authors: Xuanji He, Gaoyang Dong, Xiaoxiao Li, Minchuan Chen, Fengjie Zhu
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-20
+Summary: This paper presents the tttAI system submitted to the TSA-ASR task of the SmartGlasses Challenge 2026, evaluated on both two-person dialogues (Track 1) and multi-party meetings (Track 2). The task requires time-stamped speaker-attributed speech recognition from smart-glasses recordings. This is particularly challenging due to long-form audio, multiple speakers, and frequent overlapping speech. We ...
+
+--- [4] 2606.21933v1 ---
+Title: ISCSLP 2026 CoT-TTS Challenge: Chain-of-Thought Reasoning for Context-Aware Text-to-Speech
+Authors: Wei Xue, Junlan Feng, Shilei Zhang, Yue Wang, Ruosong Yang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-20
+Summary: Recent advances in text-to-speech (TTS) have greatly improved speech naturalness, speaker similarity, and controllability. However, most existing controllable TTS systems still rely on explicit user-provided style prompts, making it difficult to automatically determine how a sentence should be spoken in long and complex conversational scenarios. This proposal introduces the ISCSLP 2026 CoT-TTS Cha...
+
+--- [5] 2604.11594v2 ---
+Title: HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence Benchmark for Audio Language Models
+Authors: Shuiyuan Wang, Zhixian Zhao, Hongfei Xue, Chengyou Wang, Shuai Wang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-04-13
+Summary: Evaluating the emotional intelligence (EI) of audio language models (ALMs) is critical. However, existing benchmarks mostly rely on synthesized speech, are limited to single-turn interactions, and depend heavily on open-ended scoring. This paper proposes HumDial-EIBench, a comprehensive benchmark for evaluating ALMs' EI. Using real-recorded human dialogues from the ICASSP 2026 HumDial Challenge, i...
+
+--- [6] 2601.05564v2 ---
+Title: The ICASSP 2026 HumDial Challenge: Benchmarking Human-like Spoken Dialogue Systems in the LLM Era
+Authors: Zhixian Zhao, Shuiyuan Wang, Guojian Li, Hongfei Xue, Chengyou Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.HC, eess.AS
+Published: 2026-01-09
+Summary: Driven by the rapid advancement of Large Language Models (LLMs), particularly Audio-LLMs and Omni-models, spoken dialogue systems have evolved significantly, progressively narrowing the gap between human-machine and human-human interactions. Achieving truly ``human-like'' communication necessitates a dual capability: emotional intelligence to perceive and resonate with users' emotional states, and...
+

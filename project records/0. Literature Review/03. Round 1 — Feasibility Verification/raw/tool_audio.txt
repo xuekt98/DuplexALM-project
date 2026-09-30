@@ -1,0 +1,142 @@
+--- [1] 2609.09105v1 ---
+Title: A hypercontractive proof of the sharp bound for cancellative pairs
+Authors: Fan Chang
+Primary cat: math.CO | All cats: math.CO
+Published: 2026-09-08
+Summary: Fang and Huang proved that every cancellative pair $(\mathcal{A},\mathcal{B})$ of families of subsets of $[n]$ satisfies $|\mathcal{A}|\cdot|\mathcal{B}|\leq(\frac{9}{4})^n$. Their proof uses entropy. We give a Fourier-analytic proof based on Lifshitz's one-sided noise operator $\mathrm{T}^{1/4\to1/2}$. The main tool is a near-$L^1$ hypercontractive estimate for this operator.
+
+--- [2] 2609.09094v1 ---
+Title: The Surprising Effectiveness of Approximate Value Iteration in Self-Play
+Authors: Raphael Boige, Amine Boumaza, Bruno Scherrer
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Combining search with function approximation has driven major advances in game-playing programs, making self-play algorithms more competitive than ever. Still, the computational overhead of the most popular methods, based on Monte Carlo Tree Search (MCTS), can be substantial. In this work, we investigate whether simpler methods remain competitive in non-trivial, moderately sized games such as Conn...
+
+--- [3] 2609.09087v1 ---
+Title: PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation
+Authors: Yixuan Liu, Zilong Zhen, Yin Wu, Yi Li
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-09-08
+Summary: As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local post-exploitation tasks remains inadequately quantified. Among these, Linux privilege escalation is a key step between initial access and full system compromise. However, existing evaluations for this task are limited by small sample sizes (fewer than 15 scen...
+
+--- [4] 2609.09072v1 ---
+Title: ToolLoop: Closed-Loop Tool-Use Data Synthesis via Decomposed Generation and Dynamic Self-Feedback
+Authors: Min Zeng, Yuzhou Liu, Zhenyu Cao, Hanxiu Chen, Heng Li et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-08
+Summary: High-quality tool-use data is critical for training language models to interact effectively with external tools. However, existing synthetic approaches typically follow a generate-then-filter paradigm with static post-hoc verification, often yielding inefficient data with imbalanced feature distributions. We propose ToolLoop, a closed-loop framework that decomposes synthesis into three progressive...
+
+--- [5] 2609.09056v1 ---
+Title: Time-Varying Data as Sheaves: an Invitation to Narratives
+Authors: Wilmer Leal, Benjamin Merlin Bumpus, Jana K. Nickel, Johan García, James Fairbanks et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.MA, eess.SY, math.CT
+Published: 2026-09-08
+Summary: Modern science and engineering increasingly rely on time-varying data, yet the mathematical tools used to model temporal phenomena are often developed within separate disciplines, obscuring common principles and limiting the transfer of ideas across fields. This chapter presents the theory of narratives, an abstract framework for time-varying objects of any mathematical kind that supports both the...
+
+--- [6] 2609.09046v1 ---
+Title: Going Beyond the In-/Out-Group Dichotomy: Investigating Altruism towards Middle-Groups
+Authors: Leon Houf, Christiane Schwieren
+Primary cat: econ.GN | All cats: econ.GN
+Published: 2026-09-08
+Summary: In-group favouritism and out-group hostility are well-documented, but real-world group settings rarely fit a simple dichotomy. Often, a "middle-group" shares some identity markers with the in-group without fully belonging to it. How do people treat such intermediate groups? We address this question using a formal identity marker framework and a multi-lab online experiment (N = 376) with a private ...
+
+--- [7] 2609.08995v1 ---
+Title: Second-order Teukolsky calculations for nonspinning, quasicircular binaries
+Authors: Benjamin Leather, Andrew Spiers, Adam Pound, Samuel D. Upton, Barry Wardell et al.
+Primary cat: gr-qc | All cats: gr-qc
+Published: 2026-09-08
+Summary: Currently, the only second-order gravitational self-force calculations have been based on directly solving the perturbative Einstein equations in the Lorenz gauge. That method relied on the complete separability of the Einstein equations in a Schwarzschild background. In this paper, we present a new scheme based on the second-order Teukolsky equation. Crucially, this method promises to extend (rea...
+
+--- [8] 2609.08989v1 ---
+Title: TARTARUS: A High-Performance Python Code for Ray Tracing in Curved Spacetimes
+Authors: David F. Bambague, Alexis Larrañaga
+Primary cat: gr-qc | All cats: gr-qc, astro-ph.IM
+Published: 2026-09-08
+Summary: The recent observations of the supermassive black holes M87* and Sagittarius A* by the Event Horizon Telescope collaboration (EHT) have shown the need for robust, efficient, and accessible numerical tools to model light propagation in strongly curved spacetimes. Comparing theoretical accretion models with observational data relies heavily on ray-tracing algorithms that calculate the trajectories o...
+
+--- [9] 2609.08979v1 ---
+Title: TEMPUS: Relativistic coordinate time scales for any solar-system body from arbitrary ephemerides
+Authors: Yan Seyffert, Agnès Fienga
+Primary cat: astro-ph.EP | All cats: astro-ph.EP
+Published: 2026-09-08
+Summary: Precise time-scale transformations between solar-system bodies are an essential requirement for deep-space science and solar system navigation. The post-Newtonian relativistic expression relating a body-centered coordinate time TCX to the Barycentric Coordinate Time TCB depends on the gravitational environment and velocity of the target body, and must be evaluated consistently with the chosen plan...
+
+--- [10] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [11] 2609.08965v1 ---
+Title: PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving
+Authors: Yuan Gao, Sebastian Müller, Mattia Piccinini, Marc Kaufeld, Yuchen Zhang et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.RO
+Published: 2026-09-08
+Summary: Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which scenario generation, retrieval, modification, ADS execution, and results analysis are performed by separate tools with little interaction. Large Language Model (LLM) agents have sh...
+
+--- [12] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [13] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+tool&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [14] 2609.08941v1 ---
+Title: FINALLY: A Dataset Recommender System for Recommender-Systems Research
+Authors: Louis Owie
+Primary cat: cs.IR | All cats: cs.IR
+Published: 2026-09-08
+Summary: Dataset selection shapes the empirical conditions under which recommender-system algorithms are evaluated, yet existing tools provide limited support for constructing complete dataset sets that jointly satisfy experimental constraints and set-level selection objectives. To address this problem, I developed FINALLY, a web-based dataset recommender for constructing configurable dataset sets for offl...
+
+--- [15] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [16] 2609.08933v1 ---
+Title: Unifying Power Flow and Electromagnetic Transient Modeling
+Authors: Tina Gao, Aayushya Agarwala, Timothy McNamara, Lawrence Pileggi
+Primary cat: eess.SY | All cats: eess.SY
+Published: 2026-09-08
+Summary: Grid tools are separated by timescales: steady-state analysis is performed by power flow (PF), whereas the fastest dynamics are captured by electromagnetic transient (EMT) simulation. Although operating at varying timescales, different tools should produce consistent results when analyzing the same grid conditions. However, the PF steady-state solution does not match the time-to-infinity EMT respo...
+
+--- [17] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [18] 2609.08909v1 ---
+Title: To Stop or Not to Stop: Exploring the Intention-Behavior Gaps in Smartphone Usage
+Authors: Jian Zheng, Eun Kyoung Choe
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-08
+Summary: As smartphones become integral to daily life, researchers have sought to identify when the use becomes problematic. Previous studies have operationalized problematic smartphone usage (PSU) from either an intention or a behavior perspective. Both risk delivering interventions not welcomed by users. We propose a novel approach to operationalizing PSU as the intention-behavior gap (IBG). We collected...
+
+--- [19] 2609.08890v1 ---
+Title: Healthcare Utilization, Chronic Condition Management, and Workplace Functioning Among Users of a Purpose-Built Mental Health AI (Ash): Cross-Sectional Study
+Authors: Kristen M. Van Swearingen, Thomas D. Hull, Jeffrey Swigert, Caitlin A. Stamatis
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-08
+Summary: Mental health challenges can exacerbate physical symptoms and complicate management of chronic conditions. Purpose-built artificial intelligence (AI) tools may offer scalable support for co-occurring mental and physical health concerns. This cross-sectional study compared past-6-month healthcare utilization, chronic condition management, physical health behaviors, mental health change, and workpla...
+
+--- [20] 2609.08879v1 ---
+Title: Medical AI Encodes a "Feeling of Error": Verifying Cancer Segmentation via Internal Concepts
+Authors: Mengmeng Ma, Yunxiang Peng, Tang Li, Lu Lin, Binsheng Zhao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Cancer segmentation models can fail silently, generating plausible but incorrect masks that risk missed findings or unnecessary biopsies. A critical question arises: Do AI models "know" when they are wrong, and if so, can we use the signal to predict their own failures? Humans do have a "Feeling of Error" (FOE): a spontaneous sense of unease that flags a potential error during thinking. We investi...
+

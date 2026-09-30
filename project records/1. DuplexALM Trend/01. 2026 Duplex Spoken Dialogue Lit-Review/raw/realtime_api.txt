@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Arealtime+AND+abs%3Aapi+AND+abs%3Avoice&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2603.05413v2 ---
+Title: Building Enterprise Realtime Voice Agents from Scratch: A Technical Tutorial
+Authors: Jielin Qiu, Zixiang Chen, Liangwei Yang, Ming Zhu, Zhiwei Liu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-05
+Summary: We present a technical tutorial for building enterprise-grade realtime voice agents from first principles. While end-to-end speech-to-speech models may ultimately provide the best latency for voice agents, fully self-hosted end-to-end solutions are not yet available. We evaluate the closest candidate, Qwen3-Omni, across three configurations: its cloud-only DashScope Realtime API achieves $\sim$702...
+
+--- [2] 2509.10596v1 ---
+Title: GenAI Voice Mode in Programming Education
+Authors: Sven Jacobs, Natalie Kiesler
+Primary cat: cs.CY | All cats: cs.CY, cs.AI, cs.HC
+Published: 2025-09-12
+Summary: Real-time voice interfaces using multimodal Generative AI (GenAI) can potentially address the accessibility needs of novice programmers with disabilities (e.g., related to vision). Yet, little is known about how novices interact with GenAI tools and their feedback quality in the form of audio output. This paper analyzes audio dialogues from nine 9th-grade students using a voice-enabled tutor (powe...
+

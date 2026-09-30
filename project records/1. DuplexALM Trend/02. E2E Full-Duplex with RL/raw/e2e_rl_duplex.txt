@@ -1,0 +1,177 @@
+--- [1] 2609.34461v1 ---
+Title: CharDuplex: Building Character-Consistent Full-Duplex Spoken Dialogue Models
+Authors: Donghang Wu, Yisi Liu, Chen Chen, Hexin Liu, Eng Siong Chng
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech models are moving voice interaction beyond conventional turn-taking, yet natural conversation is shaped not only by when an agent speaks, but also by how it behaves as a conversational character. We present CharDuplex, a character-driven full-duplex speech model that combines real-time spoken interaction with persona-conditioned behavior. We first adapt GLM-4-Voice to an always-...
+
+--- [2] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [3] 2609.12623v1 ---
+Title: SteerDuplex: Steerable Duplex Speech Dialogue Models
+Authors: Utkarsh Tyagi, Ramaneswaran Selvakumar, Advait Gosai, Sonal Kumar, Nikhil Barhate et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-09-11
+Summary: Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident...
+
+--- [4] 2607.07148v1 ---
+Title: Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning
+Authors: Yuxin Li, Donghang Wu, Guan-Ting Lin, Hung-yi Lee, Chengwei Qin et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-08
+Summary: Recent full-duplex spoken dialogue models have demonstrated compelling progress toward human-like interaction, enabling agents to respond with low latency, produce backchannels, and handle user barge-ins. Yet these improvements in conversational dynamics often come with weaker reasoning and instruction-following abilities, revealing a potential tension between interactive dynamics and intelligence...
+
+--- [5] 2606.11167v2 ---
+Title: Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models
+Authors: Atsumoto Ohashi, Neil Zeghidour, Alexandre Défossez, Eugene Kharitonov
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-06-09
+Summary: Full-duplex spoken dialogue models can listen and speak simultaneously, making them a promising architecture for natural conversation. However, current models are trained solely with supervised learning through token-level likelihood maximization, which does not directly optimize interaction-level behaviors, causing interactivity issues such as excessive silence and ill-timed turn-taking. Recent w...
+
+--- [6] 2605.14339v1 ---
+Title: Sub-Band Full Duplex Resource Allocation: A Predictive Deep Reinforcement Learning Approach
+Authors: Abhiram D, Aiswarya Rajan, Arin Shemeem, Vipindev Adat Vasudevan, Abdulla P
+Primary cat: cs.NI | All cats: cs.NI
+Published: 2026-05-14
+Summary: This paper presents a predictive deep learning framework for dynamic sub-band allocation in Sub-Band Full Duplex (SBFD) systems, addressing the challenge of balancing uplink (UL) and downlink (DL) performance under highly dynamic traffic conditions. The key contribution lies in integrating a hybrid Bidirectional Long Short-Term Memory (Bi-LSTM) model for traffic forecasting with a Double Deep Q-Ne...
+
+--- [7] 2604.14920v1 ---
+Title: Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models
+Authors: Yifu Chen, Shengpeng Ji, Zhengqing Liu, Qian Chen, Wen Wang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-04-16
+Summary: Achieving seamless, human-like interaction remains a key challenge for full-duplex spoken dialogue models (SDMs). Reinforcement learning (RL) has substantially enhanced text- and vision-language models, while well-designed reward signals are crucial for the performance of RL. We consider RL a promising strategy to address the key challenge for SDMs. However, a fundamental barrier persists: prevail...
+
+--- [8] 2604.14309v2 ---
+Title: Aerial Multi-Functional RIS in Fluid Antennas-Aided Full-Duplex Networks: A Self-Optimized Hybrid Deep Reinforcement Learning Approach
+Authors: Li-Hsiang Shen, Yu-Quan Zheng
+Primary cat: cs.IT | All cats: cs.IT, cs.AI, eess.SP
+Published: 2026-04-15
+Summary: To address high data traffic demands of sixth-generation (6G) networks, this paper proposes a novel architecture that integrates autonomous aerial vehicles (AAVs) and multi-functional reconfigurable intelligent surfaces (MF-RISs) as AM-RIS in fluid antenna (FA)-assisted full-duplex (FD) networks. The AM-RIS provides hybrid functionalities, including signal reflection, amplification, and energy har...
+
+--- [9] 2604.10065v1 ---
+Title: ASPIRin: Action Space Projection for Interactivity-Optimized Reinforcement Learning in Full-Duplex Speech Language Models
+Authors: Chi-Yuan Hsiao, Ke-Han Lu, Yu-Kuan Fu, Guan-Ting Lin, Hsiao-Tsung Hung et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2026-04-11
+Summary: End-to-end full-duplex Speech Language Models (SLMs) require precise turn-taking for natural interaction. However, optimizing temporal dynamics via standard raw-token reinforcement learning (RL) degrades semantic quality, causing severe generative collapse and repetition. We propose ASPIRin, an interactivity-optimized RL framework that explicitly decouples when to speak from what to say. Using Act...
+
+--- [10] 2601.19063v1 ---
+Title: Optimizing Conversational Quality in Spoken Dialogue Systems with Reinforcement Learning from AI Feedback
+Authors: Siddhant Arora, Jinchuan Tian, Jiatong Shi, Hayato Futami, Yosuke Kashiwagi et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-01-27
+Summary: Reinforcement learning from human or AI feedback (RLHF/RLAIF) for speech-in/speech-out dialogue systems (SDS) remains underexplored, with prior work largely limited to single semantic rewards applied at the utterance level. Such setups overlook the multi-dimensional and multi-modal nature of conversational quality, which encompasses semantic coherence, audio naturalness, speaker consistency, emoti...
+
+--- [11] 2601.08491v1 ---
+Title: AUV Trajectory Learning for Underwater Acoustic Energy Transfer and Age Minimization
+Authors: Mohamed Afouene Melki, Mohammad Shehab, Mohamed-Slim Alouini
+Primary cat: cs.RO | All cats: cs.RO, cs.LG, eess.SY
+Published: 2026-01-13
+Summary: Internet of underwater things (IoUT) is increasingly gathering attention with the aim of monitoring sea life and deep ocean environment, underwater surveillance as well as maintenance of underwater installments. However, conventional IoUT devices, reliant on battery power, face limitations in lifespan and pose environmental hazards upon disposal. This paper introduces a sustainable approach for si...
+
+--- [12] 2510.15796v1 ---
+Title: Cavity Duplexer Tuning with 1d Resnet-like Neural Networks
+Authors: Anton Raskovalov
+Primary cat: cs.LG | All cats: cs.LG, eess.SY
+Published: 2025-10-17
+Summary: This paper presents machine learning method for tuning of cavity duplexer with a large amount of adjustment screws. After testing we declined conventional reinforcement learning approach and reformulated our task in the supervised learning setup. The suggested neural network architecture includes 1d ResNet-like backbone and processing of some additional information about S-parameters, like the sha...
+
+--- [13] 2509.11117v1 ---
+Title: Nonreciprocal RIS-Aided Covert Channel Reciprocity Attacks and Countermeasures
+Authors: Haoyu Wang, Jiawei Hu, Jiaqi Xu, Ying Ju, A. Lee Swindlehurst
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2025-09-14
+Summary: Reconfigurable intelligent surface (RIS) technology enhances wireless communication performance, but it also introduces new vulnerabilities that can be exploited by adversaries. This paper investigates channel reciprocity attack (CRACK) threats in multi-antenna wireless systems operating in time-division duplexing mode using a physically consistent non-reciprocal RIS (NR-RIS) model. CRACK can degr...
+
+--- [14] 2508.02447v2 ---
+Title: Secure Energy Efficient Wireless Transmission: A Finite v/s Infinite-Horizon RL Solution
+Authors: Shalini Tripathi, Ankur Bansal, Holger Claussen, Lester Ho, Chinmoy Kundu
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2025-08-04
+Summary: In this paper, a joint optimal allocation of transmit power at the source and jamming power at the destination is proposed to maximize the average secrecy energy efficiency (SEE) of a wireless network within a finite time duration. The destination transmits the jamming signal to improve secrecy by utilizing full-duplex capability. The source and destination both have energy harvesting (EH) capabil...
+
+--- [15] 2507.17527v3 ---
+Title: Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice
+Authors: Shanbo Cheng, Yu Bao, Zhichao Huang, Yu Lu, Ningxin Peng et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-07-23
+Summary: Simultaneous Interpretation (SI) represents one of the most daunting frontiers in the translation industry, with product-level automatic systems long plagued by intractable challenges: subpar transcription and translation quality, lack of real-time speech generation, multi-speaker confusion, and translated speech inflation, especially in long-form discourses. In this study, we introduce Seed-LiveI...
+
+--- [16] 2507.06981v1 ---
+Title: Optimizing Cognitive Networks: Reinforcement Learning Meets Energy Harvesting Over Cascaded Channels
+Authors: Deemah H. Tashman, Soumaya Cherkaoui, Walaa Hamouda
+Primary cat: cs.ET | All cats: cs.ET, cs.NI, eess.SP
+Published: 2025-07-09
+Summary: This paper presents a reinforcement learning (RL) based approach to improve the physical layer security (PLS) of an underlay cognitive radio network (CRN) over cascaded channels. These channels are utilized in highly mobile networks such as cognitive vehicular networks (CVN). In addition, an eavesdropper aims to intercept the communications between secondary users (SUs). The SU receiver has full-d...
+
+--- [17] 2506.06344v4 ---
+Title: A Fairness-Aware Strategy for B5G Physical-layer Security Leveraging Reconfigurable Intelligent Surfaces
+Authors: Alex Pierron, Michel Barbeau, Luca De Cicco, Jose Rubio-Hernan, Joaquin Garcia-Alfaro
+Primary cat: eess.SP | All cats: eess.SP, cs.AI, cs.LG
+Published: 2025-06-01
+Summary: Reconfigurable Intelligent Surfaces are composed of physical elements that can dynamically alter electromagnetic wave properties to enhance beamforming and lead to improvements in areas with low coverage properties. When combined with Reinforcement Learning techniques, they have the potential to enhance both system behavior and physical-layer security hardening. In addition to security improvement...
+
+--- [18] 2505.17060v1 ---
+Title: SALMONN-omni: A Standalone Speech LLM without Codec Injection for Full-duplex Conversation
+Authors: Wenyi Yu, Siyin Wang, Xiaoyu Yang, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2025-05-17
+Summary: In order to enable fluid and natural human-machine speech interaction, existing full-duplex conversational systems often adopt modular architectures with auxiliary components such as voice activity detectors, interrupters, conversation state predictors, or multiple LLMs. These systems, however, suffer from error accumulation across modules and struggle with key challenges such as context-dependent...
+
+--- [19] 2501.02271v2 ---
+Title: Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning
+Authors: Milad Tatar Mamaghani, Xiangyun Zhou, Nan Yang, A. Lee Swindlehurst
+Primary cat: cs.IT | All cats: cs.IT, eess.SP
+Published: 2025-01-04
+Summary: In this paper, we study a secure integrated sensing and communication (ISAC) system employing a full-duplex base station with sensing capabilities against a mobile proactive adversarial target$\unicode{x2014}$a malicious unmanned aerial vehicle (M-UAV). We develop a game-theoretic model to enhance communication security, radar sensing accuracy, and power efficiency. The interaction between the leg...
+
+--- [20] 2412.15312v2 ---
+Title: PCA-Featured Transformer for Jamming Detection in 5G UAV Networks
+Authors: Joseanne Viana, Hamed Farkhari, Pedro Sebastiao, Victor P Gil Jimenez
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2024-12-19
+Summary: Unmanned Aerial Vehicles (UAVs) face significant security risks from jamming attacks, which can compromise network functionality. Traditional detection methods often fall short when confronting AI-powered jamming that dynamically modifies its behavior, while contemporary machine learning approaches frequently demand substantial feature engineering and struggle with temporal patterns in attack sign...
+
+--- [21] 2407.17435v2 ---
+Title: Joint Transmit and Jamming Power Optimization for Secrecy in Energy Harvesting Networks: A Reinforcement Learning Approach
+Authors: Shalini Tripathi, Chinmoy Kundu, Animesh Yadav, Ankur Bansal, Holger Claussen et al.
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2024-07-24
+Summary: In this paper, we address the problem of joint allocation of transmit and jamming power at the source and destination, respectively, to enhance the long-term cumulative secrecy performance of an energy-harvesting wireless communication system until it stops functioning in the presence of an eavesdropper. The source and destination have energy-harvesting devices with limited battery capacities. The...
+
+--- [22] 2404.00631v1 ---
+Title: Network-Assisted Full-Duplex Cell-Free mmWave Networks: Hybrid MIMO Processing and Multi-Agent DRL-Based Power Allocation
+Authors: Qingrui Fan, Yu Zhang, Jiamin Li, Dongming Wang, Hongbiao Zhang et al.
+Primary cat: cs.IT | All cats: cs.IT, cs.MA, eess.SP
+Published: 2024-03-31
+Summary: This paper investigates the network-assisted full-duplex (NAFD) cell-free millimeter-wave (mmWave) networks, where the distribution of the transmitting access points (T-APs) and receiving access points (R-APs) across distinct geographical locations mitigates cross-link interference, facilitating the attainment of a truly flexible duplex mode. To curtail deployment expenses and power consumption fo...
+
+--- [23] 2312.12977v1 ---
+Title: Collaborative Optimization of the Age of Information under Partial Observability
+Authors: Anam Tahir, Kai Cui, Bastian Alt, Amr Rizk, Heinz Koeppl
+Primary cat: cs.MA | All cats: cs.MA, cs.DC, cs.LG, eess.SY
+Published: 2023-12-20
+Summary: The significance of the freshness of sensor and control data at the receiver side, often referred to as Age of Information (AoI), is fundamentally constrained by contention for limited network resources. Evidently, network congestion is detrimental for AoI, where this congestion is partly self-induced by the sensor transmission process in addition to the contention from other transmitting sensors....
+
+--- [24] 2307.15393v1 ---
+Title: Deep Reinforcement Learning Based Intelligent Reflecting Surface Optimization for TDD MultiUser MIMO Systems
+Authors: Fengyu Zhao, Wen Chen, Ziwei Liu, Jun Li, Qingqing Wu
+Primary cat: cs.IT | All cats: cs.IT, eess.SP
+Published: 2023-07-28
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aduplex+AND+abs%3Areinforcement+AND+abs%3Alearning&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: In this letter, we investigate the discrete phase shift design of the intelligent reflecting surface (IRS) in a time division duplexing (TDD) multi-user multiple input multiple output (MIMO) system.We modify the design of deep reinforcement learning (DRL) scheme so that we can maximizing the average downlink data transmission rate free from the sub-channel channel state information (CSI). Based on...
+
+--- [25] 2303.01896v2 ---
+Title: AI-Generated Incentive Mechanism and Full-Duplex Semantic Communications for Information Sharing
+Authors: Hongyang Du, Jiacheng Wang, Dusit Niyato, Jiawen Kang, Zehui Xiong et al.
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2023-03-03
+Summary: The next generation of Internet services, such as Metaverse, rely on mixed reality (MR) technology to provide immersive user experiences. However, the limited computation power of MR headset-mounted devices (HMDs) hinders the deployment of such services. Therefore, we propose an efficient information sharing scheme based on full-duplex device-to-device (D2D) semantic communications to address this...
+

@@ -1,0 +1,177 @@
+--- [1] 2609.08867v1 ---
+Title: SeGDeP: Semantic- and Geometric-Aware Decoupled Prompts for Reasoning Segmentation
+Authors: Linnan Zhao, Xu Liu, Lingling Li, Licheng Jiao, Fang Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Reasoning segmentation converts an implicit linguistic conclusion into a precise mask, requiring both semantic identification and spatial grounding. Existing MLLM-segmenter interfaces either use a special trigger or compress both signals into one context, although they receive different supervision and fail differently. This coupling obscures whether a failure arises from target interpretation or ...
+
+--- [2] 2609.08663v1 ---
+Title: MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models
+Authors: Xuanming Cui, Shlok Kumar Mishra, Wentao Bao, Aashu Singh, Zihao Wang et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Universal multimodal embedding (UME) increasingly demands encoder's capacity for handling a broad range of tasks and modalities with increased complexity. Prior scaling methods either increase the representation size, retrieval effort, or scales the encoder into a heavy multimodal LLM. Recent works, such as Think-Then-Embed (TTE), explore scaling via reasoning tokens. However, embedding models are...
+
+--- [3] 2609.08300v1 ---
+Title: Human-Centric Image Captioning with Subject-Centered Spatial Understanding
+Authors: Bozhou Li, Jiahang Zhang, Yue Ding, Yushuo Guan, Bohan Zeng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: While multimodal large language models (MLLMs) achieve remarkable performance on generic image captioning, they frequently suffer from structural hallucinations in human-centric scenarios. Accurately modeling human subjects is foundational for critical downstream applications, such as accurate avatar/video/image generation and fine-grained human action understanding. However, these tasks require h...
+
+--- [4] 2609.07941v1 ---
+Title: ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding
+Authors: Chia-Hui Chen, Shih-Ying Yeh, Fu-En Yang, Min-Hung Chen, Shang-Hong Lai
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-07
+Summary: In this paper, we propose ReactVAU, a Slow-Fast Decoupled Framework for real-time streaming Video Anomaly Understanding (VAU). Existing VAU methods rely on offline inference with global temporal sampling, which violates causality and prevents deployment in live surveillance streams. Conversely, general streaming video models satisfy causal access but dilute rare transient anomalies during memory c...
+
+--- [5] 2609.07884v1 ---
+Title: Are Image Generators Zero-Shot Perceivers? A Rigorous Evaluation
+Authors: Shangzhe Di, Zhaokai Wang, Weidi Xie
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-07
+Summary: Recent work, such as Vision Banana, shows that lightweight instruction tuning can enable an image generator to achieve state-of-the-art performance across multiple visual perception tasks. Motivated by this perspective, we ask how far image generators can go on public visual perception benchmarks in a zero-shot setting. We introduce ProbeGen, a benchmark for zero-shot generative perception that ca...
+
+--- [6] 2609.07823v1 ---
+Title: SAFIRE: Safety-Critical Benchmark for Fine-grained Fire and Smoke Understanding in Multimodal LLMs
+Authors: Pengfei Li, Naufal Suryanto, Sicheng Zhang, Mohammad Alsharid, Muzammal Naseer
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL
+Published: 2026-09-07
+Summary: Multimodal Large Language Models (MLLMs) show strong progress on vision-language tasks, yet their reliability in safety-critical settings remains underexplored. Fire-smoke understanding is central to public safety and disaster response, but most existing benchmarks lack diverse real-world scenarios and context-aware evaluation. We introduce SAFIRE, a large-scale benchmark for fire-smoke understand...
+
+--- [7] 2609.07258v1 ---
+Title: MV-STRIDE: Enabling MLLMs to Master Multi-View Spatial Reasoning via Hierarchical Capability Modeling
+Authors: Jin Xu, Xiaojian Huang, Zhuodong Luo, Zhihong Zhang, Xin Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-07
+Summary: Despite the rapid progress of Multimodal Large Language Models (MLLMs) in 2D vision-language tasks, robust multi-view spatial reasoning remains a fundamental bottleneck due to the lack of structured 3D cognitive pathways in existing datasets. To address this, we introduce MV-STRIDE, a Multi-View hierarchical SpaTial Reasoning dataset with Interdependent and DEcomposed capabilitiEs. Moving beyond f...
+
+--- [8] 2609.06978v1 ---
+Title: AnomalyCraft-700K: Component-Level Controllable and Verifiable Synthetic Anomalies for Fine-Grained Video Anomaly Understanding
+Authors: Yuzhou Long, Haodong Zhang, Yunpeng Yang, Peng Wu, Guansong Pang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-07
+Summary: Progress in video anomaly understanding (VAU) has long been limited by inherent deficiencies of real-world anomaly videos, which are hard to collect and offer little control over their content. Synthetic anomaly approaches partially alleviate data scarcity, yet their generation remains largely controlled at the category or prompt level. They also lack component-level verification of video-text con...
+
+--- [9] 2609.06122v1 ---
+Title: Multimodal Large Language Model-guided Constrained Optimization for RAN Intelligent Control
+Authors: Hyeonho Noh
+Primary cat: eess.SY | All cats: eess.SY
+Published: 2026-09-05
+Summary: Artificial intelligence (AI)-based radio access network (RAN) controllers are commonly designed for predefined operating scenarios and optimization tasks, limiting their adaptability when network conditions and operator requirements change after deployment. This paper proposes multimodal large language model (MLLM)-guided constrained optimization for RAN intelligent control (MLLM-coRIC), a require...
+
+--- [10] 2609.05953v1 ---
+Title: ProtoRAG: Prototype-Based Retrieval Augmentation for Few-Shot Fine-Grained Remote Sensing Object Detection
+Authors: Jian Wang, Yuxiang Hong, Chufeng Zhou, Chao Pang, Xiaokang Zhang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: Few-shot fine-grained object detection (FGOD) in remote sensing imagery is challenging because limited annotations must support both object localization and discrimination among visually similar subcategories. Although multimodal large language models (MLLMs) provide strong coarse object localization, they lack explicit visual evidence for reliable fine-grained recognition. To address this limitat...
+
+--- [11] 2609.05902v1 ---
+Title: GenPuzzle: Benchmarking Visual Reasoning in Image Generation Models
+Authors: Changpeng Zhao, Yiren Song, Jinpeng Wang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: Recent image generation systems increasingly combine multimodal understanding, reasoning, and synthesis, suggesting that they may do more than render plausible scenes. Yet existing evaluations emphasize aesthetics, prompt alignment, compositionality, or text-based answers, leaving unclear whether these systems can solve visual problems and faithfully express solutions in pixels. We introduce GenPu...
+
+--- [12] 2609.05596v1 ---
+Title: Time-Aware Assistive Navigation
+Authors: Masaki Kuribayashi, Zhongkai Shangguan, Eshed Ohn-Bar
+Primary cat: cs.CV | All cats: cs.CV, cs.RO
+Published: 2026-09-04
+Summary: Can interactive vision-and-language agents learn not just what to say but also \textbf{\textit{when}} to say it? Current language models rarely plan over whether and when to realize a real-time response to a user. However, providing accurate and timely support for human decision-making, such as when guiding visually impaired individuals through urban environments, requires careful real-time respon...
+
+--- [13] 2609.05224v1 ---
+Title: First Things First: Teaching LLM-Based Agents to Prioritize Must-Haves before Nice-to-Haves
+Authors: Tianjie Ju, Xinyue Xu, Wanxuan Sun, Lingxiao Diao, Gongshen Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-04
+Summary: Recent progress in multimodal large language models (MLLMs) has fueled significant enthusiasm in their potential to act as autonomous agents for real-world tasks. However, scenarios requiring agents to fulfill users' complex, structured requirements remain largely underexplored. In this work, we examine reasoning tasks under three distinct requirement scenarios: (i) Must-have requirements uniquely...
+
+--- [14] 2609.04131v1 ---
+Title: Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding
+Authors: Hongyu Qu, Guangming Yao, Ling Xing, Xiaobin Hu, Rongxing Ding et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Streaming video understanding requires multimodal large language models (MLLMs) to process continuous visual inputs and respond to user queries under strict causality and bounded memory. Existing approaches typically compress historical observations into an external memory bank and retrieve query-relevant evidence as additional visual context. Though effective, this store-and-retrieve paradigm kee...
+
+--- [15] 2609.04083v1 ---
+Title: CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation
+Authors: Tingyu Song, Mingxin Li, Yanzhao Zhang, Dingkun Long, Chu Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.IR
+Published: 2026-09-03
+Summary: MLLM-based embedding models remain limited in compositional retrieval, often failing to distinguish scenes containing the same concepts but different attribute-object bindings. Yet the same backbone can resolve such distinctions when used as a cross-attentive reranker, motivating us to distill its compositional judgments into the embedding model. We propose CORE, which synthesizes candidate lists ...
+
+--- [16] 2609.03892v1 ---
+Title: GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Language Models via 3D Scene Graphs
+Authors: Junqing Du, Fernando Ropero, Erkin Turkoz, Yanfeng Zhang, Lu Liu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.RO
+Published: 2026-09-03
+Summary: 3D spatial reasoning underpins understanding and acting in the physical world, yet it remains unreliable in current multimodal large language models (MLLMs). These models falter at precise geometric measurement, at transforming between egocentric and allocentric viewpoints, and at grounding fine-grained appearance. The most common remedies fine-tune the model on large-scale curated spatial-reasoni...
+
+--- [17] 2609.03414v1 ---
+Title: StrixAE: An Intelligent Agent for Audio Enhancement under Complex Distortion Coupling in Real-World Scenarios
+Authors: Chenglin Wu, Junjie Wu, Jinhang Chen, Mingyang Chen, Zixu Lin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Audio enhancement in real-world scenarios involves complex distortion couplings and requires personalized enhancement. Existing solutions struggle to address both simultaneously. To improve robustness and enable autonomous operation in such scenarios, we propose StrixAE, an agent based on a multimodal large language model (MLLM). StrixAE leverages the MLLM as a controller to coordinate multiple au...
+
+--- [18] 2609.05539v1 ---
+Title: Dual-Latent Memory Routing for Vision-Language Reasoning
+Authors: Hao-Xuan Ma, Jin-Fei Qi, Yicheng Xiao, Han-Jia Ye
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-02
+Summary: Multimodal large language models (MLLMs) have recently made strong progress in vision-language reasoning, yet their performance often degrades as generations grow longer. A key factor is that they frequently lose track of earlier visual evidence and intermediate constraints under a monolithic growing context. Inspired by how humans separately recall what they see and what they infer when solving c...
+
+--- [19] 2609.02097v1 ---
+Title: Evidence-Guided Detection, Localization and Explanation for Text-Centric Image Forensics
+Authors: Peifeng Liu, Bin Li, Qingsong Zhang, Yangxin Yu, Leqing Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-02
+Summary: The rapid progress of AIGC has made text-centric image manipulation increasingly accessible, creating new forensic challenges that require not only authenticity detection but also spatial grounding and evidence-based explanation. This paper presents our solution to the GenText-Forensics Challenge at ACM Multimedia 2026. We propose an evidence-guided detector-localizer-reasoner system, where an ima...
+
+--- [20] 2609.02059v1 ---
+Title: DocHop: Benchmarking Out-of-domain Multi-hop Reasoning in Information-Dense Documents
+Authors: Zhuoran Yu, Le Thien Phuc Nguyen, Jaden Park, Xinyi Gu, Zexue He et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV, cs.LG
+Published: 2026-09-02
+Summary: Multimodal Large Language Models (MLLMs) have achieved strong performance on structured visual understanding tasks such as chart and document question answering. However, existing benchmarks typically evaluate these domains in isolation, leaving underexplored a key capability: whether models can use textual context to determine how chart evidence should be selected, interpreted, and aggregated. We...
+
+--- [21] 2609.00788v1 ---
+Title: Forbid Your Attention: Fooling Multimodal Large Language Models by Selectively Removing Intrinsic Focus in Spectral Domain
+Authors: Daizong Liu, Junhao Dong, Zhiyuan Ma, Xiaoye Qu, Xiang Fang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-01
+Summary: Multimodal large language models (MLLMs) have extended the capability of large language models (LLMs) to process more contextual multimodal information, showing remarkable progress in diverse realistic multimodal applications. Despite their strong perception and reasoning abilities, recent studies reveal that MLLMs remain highly vulnerable to adversarial inputs, especially those targeting visual c...
+
+--- [22] 2609.00232v1 ---
+Title: Beyond Blind Compliance: Benchmarking Task Verification in OCR Reasoning
+Authors: Yue Zhou, Yuan Wu, Yi Chang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Multimodal Large Language Models (MLLMs) have achieved strong performance on OCR-centric document understanding and text-rich visual reasoning benchmarks. Yet existing evaluations largely assume that every task is valid and answerable. In real-world OCR scenarios, this assumption often fails: questions may rely on illegible text, occluded evidence, nonexistent visual targets, contradictory premise...
+
+--- [23] 2609.00206v1 ---
+Title: Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation
+Authors: Ruotong Wang, Zihao Zhu, Siwei Lyu, Xin Tao, Baoyuan Wu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-31
+Summary: Despite their growing use in video moderation, multimodal large language models (MLLMs) exhibit a compositional safety blind spot: videos composed of seemingly benign components can convey harmful meaning when interpreted as a whole. We refer to this phenomenon as Distributed Implicit Harm (DIH), where harm arises from relations among components distributed along a decomposition axis of the video,...
+
+--- [24] 2609.05518v1 ---
+Title: CrossModalQA: A Cross-modal and Multi-hop Benchmark for Multimodal Retrieval-augmented Generation
+Authors: Jiacheng Cai, Zijin Hong, Zheng Yuan, Huachi Zhou, Qinggang Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-31
+Summary: Despite the strong capabilities of multimodal large language models (MLLMs), their parametric knowledge remains incomplete and difficult to update, motivating multimodal retrieval-augmented generation (RAG) to ground responses in external text and images. However, existing benchmarks face two major limitations: (i) they typically emphasize single-hop retrieval or reasoning over a small set of prov...
+
+--- [25] 2608.30903v1 ---
+Title: MMDS-Bench: Benchmarking Multimodal Large Language Models on Dynamic Stance in Social Media Interactions
+Authors: Yuzhe Ding, Kang He, Li Zheng, Shengwu Zheng, Teng Shi et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-31
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AMLLM+AND+abs%3Areasoning&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Dynamic stance classification models how a reply responds to its direct parent message, rather than how a post relates to a fixed topic. Existing work has mainly studied this problem in text-only settings, while social media interactions increasingly rely on images, screenshots, memes, reaction images, and cross-modal references. We introduce MMDS-Bench, a diagnostic benchmark for multimodal dynam...
+

@@ -1,0 +1,177 @@
+--- [1] 2609.33212v1 ---
+Title: CoLMbo-SV: A Grounded Language Model for Explainable Speaker Verification
+Authors: Massa Baali, Sarthak Bisht, Ziyue Qiu, Joseph Konan, Rita Singh et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-27
+Summary: Speaker verification systems achieve high accuracy but provide little account of the acoustic evidence behind their judgments. Making these systems inspectable requires exposing interpretable evidence while retaining the richer information on which their decisions depend. We present \textbf{CoLMbo-SV}, a speaker language model that combines strong speaker discrimination with structured, acoustical...
+
+--- [2] 2609.32560v1 ---
+Title: How to Reduce Whisper Hallucination
+Authors: Husein Zolkepli
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-26
+Summary: Whisper is still what runs in production: one permissively licensed checkpoint, 99 languages, no per-language tuning. But it writes sentences nobody said. On 42 clips of pure room tone, whisper-large-v3 emits words on 61.9% of them and emits something on 100%. The usual response is to distil a student from Whisper pseudo-labels, filtering the hallucinations out of the corpus first, which deletes t...
+
+--- [3] 2609.30975v1 ---
+Title: A Comprehensive Study of Content Representations for Speech Synthesis
+Authors: Diego Torres, Axel Roebel, Nicolas Obin
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2026-09-25
+Summary: Speech content representations are central to voice conversion, speech-to-speech translation, and multimodal language models, yet they are rarely compared under a common generative framework that directly measures what each representation contains. We address this by training a generative model conditioned solely on each representation and evaluating the generated audio along the content, speaker ...
+
+--- [4] 2609.30625v1 ---
+Title: Audio LLMs Know When They Can't Hear You
+Authors: Amirhosein Javadi, Richa Dixit, Mehrdad Farajtabar, Minsik Cho, Devang Naik et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-24
+Summary: Audio large language models allow users to interact with the model through speech. When an input recording is too degraded, the model may misinterpret the user's query and respond based on an incorrect transcription. In this paper, we study model-conditional transcription reliability: whether an Audio LLM can recognize when its own transcription is unreliable. We first prompt the Audio LLM to asse...
+
+--- [5] 2609.30483v1 ---
+Title: AcoustiClaim: A Numeric Claim Benchmark with Instrument Ground Truth
+Authors: Sheng-Tse Lin, Siyuan Zhai, Chien-Liang Kuo, Massa Baali, Bhiksha Raj
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2026-09-24
+Summary: Audio language models state numbers for acoustic quantities, and neither human opinion nor a judge model says whether such a number is true of the signal. AcoustiClaim extracts each numeric claim from free text, scores it against the instrument that defines the quantity, and classes each quantity by where its reference can be read. Four open-weight systems and one closed model, asked for ten quant...
+
+--- [6] 2609.30167v1 ---
+Title: Do Audio Language Models Hear and Read Distinctive Features Alike?
+Authors: Yuanhao Chen, Peter Chin
+Primary cat: cs.CL | All cats: cs.CL, cs.LG, cs.SD, stat.AP
+Published: 2026-09-24
+Summary: Audio language models pass speech and text through a single decoder. We ask whether that decoder represents a distinctive feature in the same direction when a phoneme is heard and when it is read. For minimal pairs of phonemes differing in one feature, we take the offset between the two members' mean representations. Averaging those offsets gives a direction for each stream, and we measure the cos...
+
+--- [7] 2609.29798v1 ---
+Title: Benchmarking and Domain Adaptation of Automatic Speech Recognition (ASR) for Adolescent Health Communication in Ghanaian Languages
+Authors: Stephen E. Moore, Akwasi Asare, Mich-Seth Owusu, Paul Azunre, Joel Budu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-24
+Summary: This paper presents an end-to-end study of automatic speech recognition (ASR) for adolescent health communication in three Ghanaian languages (Twi, Dagbani, and Ewe). The work proceeds in three connected stages; First, we benchmark five ASR systems (three language-specific Wav2Vec2 models and two multimodal LLMs, Gemma 3n and Gemma 4) on a general-domain Bible corpus and a Youth Adolescent Sexual ...
+
+--- [8] 2609.25197v1 ---
+Title: SPADE: A Multilingual Dataset for Speech Partial Deepfake Detection and Localization
+Authors: Yuan Tseng, Aishwarya Fursule, Andrew Zijun Ma, Vamshi Nallaguntla, Anderson Avila et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-21
+Summary: Recent improvements in voice-cloning speech generation systems raise concerns about misuse by malicious actors to impersonate others and spread misinformation. Detecting such tampering is difficult, since deepfakes in the wild may be created by different generative models in a wide range of languages. Furthermore, the speech audio may also only be partially modified, presenting a different and pot...
+
+--- [9] 2609.25176v2 ---
+Title: Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction
+Authors: Lujia Bao, Qian Chen, Luyao Cheng, Chong Deng, Yuxiang Kong et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2026-09-21
+Summary: Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning with Multimodality and Multi-Teacher On-Policy Distillation (M$^{2}$-OPD) to transfer language capabilities and develop native aud...
+
+--- [10] 2609.20995v1 ---
+Title: Voice-Light: A Full-Duplex Cascaded Voice Agent with Causal Turn-Taking and Speculative Generation
+Authors: Bertil Braun
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-17
+Summary: Natural spoken interaction requires more than streaming ASR, language generation, and speech synthesis: a system must react to overlap without canceling on every acknowledgment, prepare a response before a turn is certain, and ensure canceled audio cannot enter conversation history. We present Voice-Light, a full-duplex cascaded voice agent that combines immediate acoustic onset, a causal adapter ...
+
+--- [11] 2609.20504v1 ---
+Title: Model-Agnostic and Language-Agnostic Voice Pipeline Improvement for the Agriculture Domain
+Authors: Aakash Singh, Lakshmi Pedapudi, Chandrashekar M S, Sanyam Singh, Naga Ganesh et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2026-09-17
+Summary: FarmerChat is Digital Green's AI-powered agricultural advisory assistant for smallholder farmers, who access it in their own language through text, voice, or photographs. Voice is a critical channel for this population, yet field-recorded speech is challenging for general-purpose automatic speech recognition (ASR) because recordings frequently contain machinery noise, background media, competing s...
+
+--- [12] 2609.20152v1 ---
+Title: MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents
+Authors: Pritish Mishra, Ishaan Kumar, Akshat Mandoli, Sudarshan Kamath
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-17
+Summary: Generally, most voice agents are cascaded systems, i.e., an ASR model transcribes the caller's audio, a language model reads the transcript and decides what to say and which backend tools to call, and a TTS model speaks the reply. Nearly all of the decision making happens in the language model, but existing evaluations measure it either too broadly or too narrowly. End-to-end voice benchmarks scor...
+
+--- [13] 2609.16090v1 ---
+Title: MUUNRiver-Bench: Diagnosing Relation-Dependent Music Retrieval with Multimodal Instructions
+Authors: Zhancheng Guo, Congren Dai, Shangda Wu, Jianhuai Hu, Danni Zhao et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-14
+Summary: Music retrieval is relation-dependent: given a reference track, a listener may seek its style with a new theme, a cover, or a comparable voice, and these intents demand contradictory rankings. We present MUUNRiver-Bench, a diagnostic benchmark whose reference-audio queries use natural-language instructions to define relevance. A pipeline combining expert genre priors, LLM-generated prompts and lyr...
+
+--- [14] 2609.15184v1 ---
+Title: Cross-Lingual F5-TTS 2: A Simplified Framework for Language-Agnostic Voice Cloning
+Authors: Qingyu Liu, Rixi Xu, Yushen Chen, Zhikang Niu, Haitao Li et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-14
+Summary: Zero-shot text-to-speech (TTS) can clone a speaker's voice from a short audio prompt, yet most TTS systems still require the audio prompt transcript during inference. This dependency prevents cross-lingual voice cloning when the audio prompt transcript is unavailable, particularly for unseen languages. Cross-Lingual F5-TTS removes this dependency and enables transcript-free cross-lingual voice clo...
+
+--- [15] 2609.14455v1 ---
+Title: Grounded in Sound: Reinforcement Learning with a Frozen Acoustic Judge to Curb ASR Insertion Hallucinations
+Authors: Tingzhen Xiong, Rilin Chen, Weiwei Li, Wentao Zhang, Qicong Xie
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2026-09-13
+Summary: When reinforcement learning (RL) is used for post-training automatic speech recognition (ASR), the reward almost always lives in the text space: it compares a hypothesis with the reference and never checks whether the hypothesis is supported by the audio. On highly regular speech this licenses a shortcut - guessing from a strong language prior rather than listening. Once the acoustics degrade, the...
+
+--- [16] 2609.14005v2 ---
+Title: StepAudio 3 Realtime Technical Report
+Authors: Bin Lin, Bo Zhao, Boyang Zhang, Boyong Wu, Chao Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-12
+Summary: Realtime spoken interaction demands deep reasoning, prompt responses, and fluid turn-taking. We present StepAudio 3 Realtime, an audio-language foundation model organized around a continuous listen-converse-think-act loop. Deep Perception captures rich acoustic cues to interpret user intent, while Seamless Duplex models synchronized audio streams to handle pauses, backchannels, and interruptions n...
+
+--- [17] 2609.13842v1 ---
+Title: CRAF: Cross-View Residual-Aware Fusion for Deepfake Speech Detection
+Authors: Minh-Xuan Phan, Khalid Zaman, Candy Olivia Mawalim, Masashi Unoki
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-12
+Summary: Recent advances in speech synthesis and voice conversion have made deepfake speech increasingly realistic, making generalization to unseen spoofing attacks a critical challenge. Pretrained speech and audio models offer a promising direction for improving robustness to such unseen attacks. Self-supervised learning (SSL) models capture fine-grained, low-level acoustic characteristics, whereas Audito...
+
+--- [18] 2609.12945v1 ---
+Title: StepAudio 3 Gen Technical Report
+Authors: Bin Lin, Bo Zhao, Boyang Wang, Boyang Zhang, Boyong Wu et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-11
+Summary: We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), voice design, vocal generation, sound effects, music, vibe speech, and mixtures of multiple audio types within a unified framework. At its core, StepAudio 3 Gen is a discrete autoregressive generator that models audio directly over residual vector quantization (RVQ) tokens, departin...
+
+--- [19] 2609.11724v1 ---
+Title: The Eloquence submission for Task 2 of the Interspeech 2026 MLC-SLM challenge
+Authors: Jordi Luque, Lorenzo Concina, Marco Matassoni, Alessio Brutti, Filippo Vella
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-10
+Summary: This paper details the Eloquence team's approach to Task 2 of the 2nd MLC-SLM challenge at Interspeech 2026, which involves multilingual Multiple-Choice Question Answering (MCQA) across 21 languages. Three approaches are explored. First, we fine-tune Voxtral-Mini-3B via LoRA with cross-lingual data augmentation, ASR transcript augmentation and timestamp-aware audio cropping, achieving 0.72 macro-a...
+
+--- [20] 2609.11137v2 ---
+Title: The Machines Are Calling: Measuring Automated and Synthetic Voices in Unwanted Inbound Calls
+Authors: Xingyu Shen, Tommy Duong, Muduo Xu, Xiaodong An, Jiaqi Gan et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.CY, cs.SD
+Published: 2026-09-10
+Summary: In February 2024 the U.S. Federal Communications Commission (FCC) placed AI-generated voices under the Telephone Consumer Protection Act (TCPA). Yet no peer-reviewed measurement says how much unwanted call traffic is placed by a machine, or how much of that machine speech is synthesized rather than played from a recording. We report both with a disclosed pipeline. An interactive voice honeypot (la...
+
+--- [21] 2609.05631v1 ---
+Title: TamilEOT: A Dataset and Model for Semantic End-of-Turn Detection in Tamil Telephone Speech
+Authors: Santhoshkumar V
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-09-04
+Summary: A voice agent has to decide, at every pause, whether the user has finished speaking. Without a model of the language that decision falls back to a fixed silence timeout: set it short and the agent interrupts, set it long and every turn pays the full wait. Open semantic end-of-turn detectors exist, but to our knowledge none covers a South Indian language. We release TamilEOT: 18,485 labelled turn b...
+
+--- [22] 2609.04288v1 ---
+Title: Scalable Context Orchestration for Serving LLMs Over Voice
+Authors: Linyi Jiang, Silvery D. Fu, Yifei Zhu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-03
+Summary: Voice AI applications are gaining popularity as advances in large language models (LLMs) enable more natural and accessible spoken interactions. Serving these applications requires accounting not only for what users say, but also for how they speak (e.g., speaking rate) and the conditions under which their audio is captured and transmitted (e.g., background noise and packet loss). However, existin...
+
+--- [23] 2609.02623v1 ---
+Title: Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction
+Authors: Kenichi Fujita, Yusuke Ijima
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-02
+Summary: Voice actors often re-read the same script while modifying their delivery in response to performance directions. We study this setting as direction-following TTS, where a system generates a new utterance that reflects a given direction relative to a reference utterance while preserving speaker identity and linguistic content. A key challenge is the lack of training data capturing such relative mod...
+
+--- [24] 2609.04260v1 ---
+Title: GhostWord: A Fine-Grained Backdoor Attack on Automatic Speech Recognition
+Authors: Mojtaba Nafez, Mobina Poulaei, Kiarash Kiani Feriz, Aref Mousavi, Mohammad Ebrahim Mahdavi et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-02
+Summary: Automatic Speech Recognition (ASR) systems are widely deployed in safety-critical settings but remain vulnerable to data-poisoning backdoor attacks. Existing ASR backdoors typically use phrase-level triggers paired with a fixed target sentence, creating strong artifacts (e.g., repeated transcripts or triggers placed in non-speech regions) that simple preprocessing can mitigate. We propose GhostWor...
+
+--- [25] 2609.00570v2 ---
+Title: VoiceLongMemEval: Do Assistants Remember How You Sounded?
+Authors: Ramit Pahwa, Parivesh Priye, Apoorva Beedu
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-09-01
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Alanguage+AND+abs%3Amodel+AND+abs%3Avoice&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: With the growing scale of multi-agent architectures and large language models, deployed AI assistants are increasingly tasked with reasoning over long, continuous, multi-session conversation histories. Current benchmarks evaluate this dialogue history as information retrieval over long horizon, temporal reasoning, or knowledge updates, while crucially ignoring the fundamental dynamics of human-age...
+

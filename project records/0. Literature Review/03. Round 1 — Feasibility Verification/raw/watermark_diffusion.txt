@@ -1,0 +1,177 @@
+--- [1] 2609.08213v1 ---
+Title: DRIFT: Removing Diffusion Watermarks by Deflecting the Generative Trajectory
+Authors: Rui Bao, Zheng Gao, Xiaoyu Li, Xiaoyan Feng, Yang Song et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.LG
+Published: 2026-09-08
+Summary: Diffusion watermarking embeds verifiable signals into the generative process and commonly verifies them by recovering trajectory-dependent evidence, making the marks robust to conventional pixel-space distortions. Existing removal attacks either regenerate along deterministic trajectories, which often preserve the watermark-bearing latent structure, or optimize every image separately. We identify ...
+
+--- [2] 2609.04709v1 ---
+Title: AngelFingerprint: A Traceable, Explainable, and White-Box Stealthy Watermark for Text-Guided Image Editing
+Authors: Bo-Han Kung, Futa Waseda, Ching-Chun Chang, Isao Echizen, Shang-Tse Chen
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-04
+Summary: Text-guided diffusion editing raises disinformation concerns, making reliable image provenance essential. While watermarks are commonly used for this purpose, most methods carry a fixed ID that cannot explain what was changed and which prompt produced it. Furthermore, under open-source white-box access, attackers can easily locate and remove watermarks added as separate modules. Targeting this set...
+
+--- [3] 2608.28929v1 ---
+Title: Membership is Ownership: A Robust Ownership Verification Framework for Diffusion Models
+Authors: Feng Jiang, Zuobin Xiong, An Huang, Zhipeng Cai, Yingshu Li
+Primary cat: cs.CR | All cats: cs.CR, cs.CV
+Published: 2026-08-28
+Summary: Large-scale diffusion models have fueled numerous profitable downstream applications for AI-related businesses, including visual editing and content creation. Meanwhile, due to the huge amount of resource consumption (e.g., computation and high-quality data) during training, such diffusion models are deemed valuable intellectual property (IP) for tech companies like OpenAI and Google. Yet, the IP ...
+
+--- [4] 2608.22186v1 ---
+Title: AudioNoisePrints: Model-free audio watermarking using spatial correlation in flow matching TTS
+Authors: Timothy Tin-Long, Jian Zhu, Aidan Pine, Mengzhe Geng
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-08-23
+Summary: We present AudioNoisePrints, a training-free watermarking pipeline for flow matching and diffusion TTS models, which requires minimal extra computation during inference and does not require retraining the TTS model or reducing the generation quality. We exploited the fact that there are strong correlations between the initial Gaussian noises and the generated outputs in diffusion and flow matching...
+
+--- [5] 2608.20839v1 ---
+Title: SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields
+Authors: Baixin Li, Haiyun He
+Primary cat: cs.CL | All cats: cs.CL, cs.CR, cs.LG
+Published: 2026-08-21
+Summary: Watermarking diffusion language models (DLMs) requires mechanisms compatible with iterative parallel unmasking rather than autoregressive decoding. Existing sampling-based watermarking methods typically inject position-wise i.i.d. perturbations, which can be poorly aligned with DLM decoding dynamics and degrade generation quality. We propose SAC-Copula, a quality-preserving watermarking method for...
+
+--- [6] 2608.11732v1 ---
+Title: Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation
+Authors: Yuanmin Huang, Chen Chen, Geng Hong, Xiaoyu You, Hui Xue et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-08-12
+Summary: Proprietary text-to-image diffusion models are increasingly distributed as hosted services and downloadable checkpoints, making their intellectual property (IP) protection an increasingly critical concern when model leakage, copying, or unauthorized fine-tuning is disputed. In this work, we present a non-invasive model fingerprinting framework based on \emph{collapsed generation}, a phenomenon whe...
+
+--- [7] 2608.08999v1 ---
+Title: DeepFreqMark: End-To-End Learnable Frequency-Domain Watermarking with Spherical Attack Simulation for Latent Diffusion Models
+Authors: Chen-Hsiu Huang, Mario Köppen, Ja-Ling Wu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-10
+Summary: The proliferation of AI-generated images produced by Latent Diffusion Models (LDMs) has raised critical concerns regarding copyright infringement and misinformation. Although existing frequency-domain watermarking methods embed handcrafted geometric patterns into the initial latent noise prior to generation, they suffer from limited capacity and rigid pattern designs. We propose DeepFreqMark, an e...
+
+--- [8] 2608.03539v2 ---
+Title: IRIS: Visual-Semantic Binding for Forgery-Resistant Watermarking of Diffusion Images
+Authors: Xiaoyan Feng, Zheng Gao, Tong Guan, Rui Bao, Bokang Zeng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-04
+Summary: Most in-generation diffusion watermarks embed patterns independent of the image that carries them, and attackers transplant the marks onto images the generator did not produce, resulting in forgery. Binding the mark to visual semantics prevents such transplantation, yet existing bindings anchor to a proxy image rather than the image they mark. Realizing visual-semantic binding inside generation fa...
+
+--- [9] 2608.00543v1 ---
+Title: Robust Watermarks Meet Backdoored Models: Evading Diffusion Semantic Watermarks via Stealthy Backdoor
+Authors: Jinyuan Liu, Tianshuo Cong, Pei Li, Tianrui Wang, Xinlei He et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.CV
+Published: 2026-08-01
+Summary: Although semantic watermarking is considered a promising safeguard for images generated by Latent Diffusion Models (LDMs), the reliance of the watermark detection pipeline on neural networks introduces a critical yet underexplored backdoor attack surface. To systematically study this vulnerability, we propose GhostVAE to plant a stealthy backdoor into the encoder of Variational Autoencoder (VAE), ...
+
+--- [10] 2607.27800v1 ---
+Title: FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack
+Authors: Chunpeng Wang, Yuxin Li, Xiaoyu Wang, Jidong Yang, Suo Gao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-30
+Summary: Existing invisible watermark removal methods often struggle to accurately capture the watermark-bearing features, leading to an unfavorable trade-off between watermark suppression and perceptual fidelity. In this paper, we propose the Frequency-Decoupled Diffusion Watermark Attack Network (FDDWAN), a coarse-to-fine framework that performs watermark removal through wavelet-domain decomposition and ...
+
+--- [11] 2607.26723v1 ---
+Title: FARI: Robust One-Step Inversion for Watermarking in Diffusion Models
+Authors: Jindong Yang, Han Fang, Weiming Zhang, Nenghai Yu, Kejiang Chen
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-07-29
+Summary: Inversion-based watermarking is a promising approach to authenticate diffusion-generated images, yet practical use is bottlenecked by inversion that is both slow and error-prone. While the primary challenge in the watermarking setting is robustness against external distortions, existing approaches over-optimize internal truncation error, and because that error scales with the sampler step size, th...
+
+--- [12] 2607.22386v1 ---
+Title: Correlation-Aware and Gaussianity-Preserving Robust Latent Angular Watermarking for Diffusion Models
+Authors: Yebin Zheng, Haonan An, Guang Hua, Zhiping Lin, Yuguang Fang
+Primary cat: cs.CV | All cats: cs.CV, cs.CR
+Published: 2026-07-24
+Summary: Latent domain watermarking for diffusion models embeds watermarks directly into the latent prior, enjoying non-intrusiveness to model parameters and seamless integration with the generation process. However, due to the violation of latent Gaussianity or sensitivity to normal and malicious perturbations during latent inversion, existing methods are prone to watermark detection or removal attacks. A...
+
+--- [13] 2607.13685v1 ---
+Title: DNA: Dual-stage Native Attribution for Generated Image Source Tracing
+Authors: Chao Wang, Kejiang Chen, Zijin Yang, Yaofei Wang, Yuang Qi et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-15
+Summary: The rapid evolution of image generation has produced numerous within-family variants, making source-model attribution of suspect images increasingly important for digital forensics. Existing proactive methods rely on watermark embedding or model modification, which may degrade visual quality and limit deployment flexibility. Passive methods often rely on large-scale supervised training or a single...
+
+--- [14] 2607.11117v1 ---
+Title: MusicMark: A Robust Generative Watermarking Framework for Music Generation
+Authors: Seohwan Yun, Jeeyoung Yun, Yongjin Kim, Juyeon Lee, Sungwoong Kim
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR
+Published: 2026-07-13
+Summary: AI music generation has rapidly advanced alongside commercial platforms, raising the need for reliable watermarking for provenance and attribution. However, existing audio watermarking research has largely focused on speech, and applying speech-oriented methods to music is challenging due to music's complex structure and rich acoustic texture. Most existing methods are post-hoc, adding imperceptib...
+
+--- [15] 2607.06963v1 ---
+Title: Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated Malware, Explainability, and Defensive Strategies
+Authors: Kiarash Ahi, Saeed Valizadeh
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.CL
+Published: 2026-07-08
+Summary: Large Language Models (LLMs) and generative AI (GenAI) systems, such as ChatGPT, Claude, Gemini, LLaMA, Copilot, Stable Diffusion by OpenAI, Anthropic, Google, Meta, Microsoft, Stability AI, respectively, are revolutionizing cybersecurity, enabling both automated defense and sophisticated attacks. These technologies power real-time threat detection, phishing defense, secure code generation, and vu...
+
+--- [16] 2607.02643v1 ---
+Title: BiSLW: Bi-Spectral Latent Watermarking for Generative Diffusion Models
+Authors: Aryan Pandit
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-02
+Summary: Diffusion-based generative models have transformed visual content synthesis, yet they remain vulnerable to unauthorized usage and lack reliable attribution methods. Existing watermarking techniques often treat latent tensors as static spatial feature maps or depend on pixel-domain modification, and most do not explicitly leverage the internal frequency structure of the latent space for dual-band r...
+
+--- [17] 2606.29807v1 ---
+Title: Rethinking Forgery Attacks on Semantic Watermarks in Black-Box Settings: A Geometric Distortion Perspective
+Authors: Cheng-Yi Lee, Yichi Zhang, Yuchen Yang, Chun-Shien Lu, Jun-Cheng Chen
+Primary cat: cs.CR | All cats: cs.CR, cs.CV
+Published: 2026-06-29
+Summary: Recent studies have shown that semantic watermarks, which embed information into the initial noise of latent diffusion models (LDMs), are vulnerable to black-box forgery attacks. However, existing methods primarily rely on empirical evidence and lack a rigorous theoretical understanding of the conditions under which such attacks succeed or fail. To bridge this gap, we rethink the nature of such at...
+
+--- [18] 2606.29759v1 ---
+Title: GoodDiffusion: Proactive Copyright Protection for Diffusion Bridge Models via Learnable Sample-specific Signatures
+Authors: Shixi Qin, Zhiyong Yang, Shilong Bao, Zitai Wang, Qianqian Xu et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-06-29
+Summary: This paper tackles the challenging problem of developing a proactive copyright protection mechanism that cuts off unauthorized use of diffusion bridge models. Existing studies largely fall into post-hoc attribution (e.g., watermarking and fingerprinting) or degradation-only defenses, which offer only indirect and limited preventive effects. We therefore propose GoodDiffusion, inspired by backdoor ...
+
+--- [19] 2606.24000v1 ---
+Title: Cyclic Denoising Reveals Ultrastable Memories in Diffusion Models
+Authors: Rishabh Sharma, Stefano Martiniani
+Primary cat: cs.LG | All cats: cs.LG, cond-mat.dis-nn, cs.CR, cs.CV
+Published: 2026-06-22
+Summary: We introduce cyclic denoising -- repeated forward and reverse diffusion at controlled noise amplitudes -- as an extraction attack for image diffusion models. Inspired by random organization in disordered solids, cyclic denoising exposes regions of the learned distribution that are largely inaccessible to standard sampling. The dynamics drive samples toward attractors with a broad stability spectru...
+
+--- [20] 2606.22875v1 ---
+Title: FedOT: Ownership Verification and Leakage Tracing via Watermarks for Federated LDMs
+Authors: Wenlong Cheng, Yuan Gan, Yunqiu Xu, Jiaxu Miao
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-22
+Summary: Training Latent Diffusion Models (LDMs) within Federated Learning (FL) has attracted increasing attention due to its ability to combine the powerful generative capacity of LDMs with the privacy-preserving properties of FL. However, FL requires sharing the global model with multiple participants, which risks unauthorized model distribution or resale by malicious clients. While an intuitive approach...
+
+--- [21] 2606.04486v1 ---
+Title: Global Sketch-Based Watermarking for Diffusion Language Models
+Authors: Daniel Zhao
+Primary cat: cs.CR | All cats: cs.CR, cs.CL, cs.LG, stat.ML
+Published: 2026-06-03
+Summary: Watermarking methods for language models have been studied extensively in the autoregressive setting, where tokens are generated sequentially. These works largely focus on local-context schemes that perturb the next token's distribution as a function of its preceding tokens. In diffusion language models, distributions over many unresolved positions are jointly sampled, allowing additive statistics...
+
+--- [22] 2605.30614v1 ---
+Title: Audio Pirates: Black-box Audio Watermark Removal via Diffusion Priors
+Authors: Lingfeng Yao, Xincong Zhong, Chenpei Huang, Xuandong Zhao, Hanqing Guo et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.SD
+Published: 2026-05-28
+Summary: With the rise of AI-generated audio, watermarking has become widely used for detecting misuse and protecting intellectual property. However, adversaries may try to remove these watermarks, making it critical to evaluate how well watermarking schemes withstand removal attacks. Existing attacks are often impractical: they either noticeably degrade perceptual quality or require access to the watermar...
+
+--- [23] 2605.29809v1 ---
+Title: Cert-LAS: Toward Certified Model Ownership Verification for Text-to-Image Diffusion Models via Layer-Adaptive Smoothing
+Authors: Leyi Qi, Yiming Li, Siyuan Liang, Zhengzhong Tu, Dacheng Tao
+Primary cat: cs.CR | All cats: cs.CR, cs.CV, cs.GR, cs.LG, cs.MM
+Published: 2026-05-28
+Summary: Large-scale text-to-image (T2I) diffusion models have enabled unprecedented creative applications, but their unauthorized use has raised serious intellectual property concerns, making model ownership verification (MOV) increasingly critical. We find that existing backdoor-based diffusion watermarking methods often (implicitly) assume a "faithful" verification process, namely, that the verifier can...
+
+--- [24] 2605.29569v2 ---
+Title: LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models
+Authors: Yaopeng Wang, Qingliang Wang, Zhibo Wang, Huiyu Xu, Jiacheng Du et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-05-28
+Summary: Low-Rank Adaptation (LoRA) has become a widely used mechanism for customizing text-to-image diffusion models, enabling lightweight modules that are shared, reused, and commercialized as independent assets. This LoRA-centric ecosystem shifts copyright protection from foundation models to distributed LoRA modules, which are easy to copy, redistribute, or reuse without authorization. Existing waterma...
+
+--- [25] 2605.27135v1 ---
+Title: Do Modern Post-Hoc Watermarking Methods Beat Broken-Arrows?
+Authors: Enoal Gesny, Eva Giboulot
+Primary cat: cs.CR | All cats: cs.CR, cs.CV
+Published: 2026-05-26
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Awatermark+AND+abs%3Adiffusion&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: With the rapid proliferation of generative models, such as diffusion models, digital watermarking has emerged as a crucial solution for identifying AI-generated images. Modern post-hoc watermarking schemes use neural networks to achieve an extremely low false-alarm rate while remaining robust to common image transformations. However, there is a lack of comparison between these modern methods and c...
+

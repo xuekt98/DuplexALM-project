@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Arlhf+AND+abs%3Aspeech+AND+(abs%3A2024+OR+abs%3A2025+OR+abs%3A2026)&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2405.14632v2 ---
+Title: DLPO: Diffusion Model Loss-Guided Reinforcement Learning for Fine-Tuning Text-to-Speech Diffusion Models
+Authors: Jingyi Chen, Ju-Seung Byun, Micha Elsner, Andrew Perrault
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2024-05-23
+Summary: Recent advancements in generative models have sparked a significant interest within the machine learning community. Particularly, diffusion models have demonstrated remarkable capabilities in synthesizing images and speech. Studies such as those by Lee et al. (2023), Black et al. (2023), Wang et al. (2023), and Fan et al. (2024) illustrate that Reinforcement Learning with Human Feedback (RLHF) can...
+

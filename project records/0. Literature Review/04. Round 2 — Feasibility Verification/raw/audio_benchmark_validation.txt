@@ -1,0 +1,142 @@
+--- [1] 2609.06991v1 ---
+Title: AV-SafetyBench: A Safety Benchmark for Text-to-Audio-Video Generation
+Authors: Suah Choi, Tae-Young Lee, Gyeong-Moon Park
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-07
+Summary: Recent text-to-audio-video (T2AV) models jointly generate video, speech, sound effects, and ambience from a single text prompt. This capability poses new challenges for safety evaluation, as unsafe content may be conveyed through the audio track or arise only when the visual and audio tracks are interpreted jointly. Existing safety benchmarks largely focus on either generated video or generated au...
+
+--- [2] 2609.04550v1 ---
+Title: VISTA: Dense Multi-Label Classroom Coding with Vision-Language Models
+Authors: Andrew Franck, Brendan Ng, Ben Fitzgerald, Zane Derrod, Chris Cianci et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Video-language benchmarks are usually constructed by the dataset authors without published reliability statistics, leaving the noise floor of the construct unknown. We argue that multimodal benchmarking benefits from methods taken from research communities that have already invested in strategies to ensure reliability. We illustrate the case with the Classroom Observation Protocol for Undergraduat...
+
+--- [3] 2609.03203v2 ---
+Title: VoxReason: Listener-Free Evaluation of Source-Grounded Speech Planning Before Synthesis
+Authors: Mengzhe Geng
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2026-09-02
+Summary: Expressive speech systems have to decide how an utterance is delivered before any waveform is rendered. In dialogue agents, narration, and role-conditioned TTS, that planning step sets affect, pitch, energy, rate, pause, emphasis, and stance, yet standard audio metrics rarely show whether those choices were actually licensed by the source record. This leaves a practical evaluation gap: a system ma...
+
+--- [4] 2608.25412v1 ---
+Title: AdaptiveEmbed: Sample-Adaptive Multi-Vector Representation for Multimodal Retrieval
+Authors: Xinze Liu, Lei Yang, Dayan Wu, Hengjie Zhu, Zihao Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-26
+Summary: Multi-vector representations have emerged as an effective paradigm for multimodal retrieval, representing each sample with multiple complementary embeddings to capture fine-grained cross-modal information. However, existing approaches typically employ a fixed representation capacity, assigning the same number of vectors to all samples regardless of their individual retrieval demands. Such a fixed-...
+
+--- [5] 2608.25054v1 ---
+Title: SPECTRA: Subspace-Preserving Embedding Calibration, Transport, and Replay for Fully Few-Shot Class-Incremental Audio Classification
+Authors: Giries Abu Ayoub, Loay Mualem, Simon Korman
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-25
+Summary: Fully few-shot class-incremental audio classification (FFCAC) requires recognizing new sound classes from only a handful of labeled examples per session, without forgetting previously learned classes and without any large base dataset. Existing methods typically freeze a pre-trained audio--language encoder and classify with point prototypes, but they suffer from significant performance degradation...
+
+--- [6] 2608.22832v1 ---
+Title: Let the Bullets Fly: Multimodal Fake News Detection with Temporal-Aligned Generative Danmaku
+Authors: Xiansheng Luo, Chaowei Zhang, Zewei Zhang, Yi Zhu, Jipeng Qiang
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-24
+Summary: The social interactions among crowds via \textit{Danmaku} (a.k.a., bullet comments) on modern multimedia platforms can facilitate both viewpoint conflicts and consensus, providing fine-grained discriminative social signals that can benefit fake news detection. However, the inherent accumulation latency of \textit{Danmaku} in real-world scenarios violates the real-time necessity of fake news detect...
+
+--- [7] 2608.22108v1 ---
+Title: Development and Feasibility Evaluation of an Edge AI as Medical Device System for Breast Cancer Multidisciplinary Team Meetings
+Authors: Aarzoo Dhiman, Farzana Haque, Kartikae Grover, Lydia Brian Smith, William Stephen Jones
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-08-22
+Summary: Breast Cancer Multidisciplinary Team (MDT) meetings manage increasingly complex cases under considerable time pressure, and documentation requirements can reduce clinical efficiency and decision quality. Existing AI based MDT workflows rely on cloud-based processing, limiting their use because patient discussions contain identifiable information. We developed a fully on-device AI pipeline using op...
+
+--- [8] 2608.12951v2 ---
+Title: VoxAudio: Vocalized Audio Synthesis via Multi-Reward Autoregressive Flow Matching
+Authors: Wenxiang Guo, Changhao Pan, Ziyue Jiang, Zhou Zhao, Fei Wu
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-13
+Summary: Vocalized audio synthesis, the task of generating audio in which intelligible speech is embedded within an environmental soundscape, underpins applications such as podcast production and video dubbing. Existing Text-to-Audio (T2A) systems either reduce quoted speech to unintelligible vocal murmur or delegate it to a separate TTS model with post-hoc mixing, which forfeits control over when speech o...
+
+--- [9] 2608.09189v1 ---
+Title: EmoS: A Theory-Grounded Framework for Evaluating and Aligning Emotional Intelligence in Spoken Language Models
+Authors: Junyu Wang, Siyuan Zhang, Peiyuan Jiang, Jian Zong, Jingyu Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-10
+Summary: Despite significant advances in instruction-following and auditory comprehension, the evaluation of Emotional Intelligence (EI) in Spoken Language Models (SLMs) remains confined to rudimentary paralinguistic perception, lacking a systematic, theory-driven cognitive framework. We introduce EmoSBench, the first comprehensive EI evaluation benchmark for SLMs constructed upon the four-branch theoretic...
+
+--- [10] 2608.06773v1 ---
+Title: AnyTrack: Unifying Visual Object Tracking with Any Modalities
+Authors: Hao Li, Yunzhi Zhuge, Wenning Hao, Pingping Zhang, Xiaoxiong Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-07
+Summary: Visual object tracking aims to continuously locate specific targets within sequential frames, evolving from single-modal methods to multi-modal ones. However, existing multi-modal trackers are typically designed for fixed modality combinations, requiring separate models for different inputs. This leads to a poor adaptability to missing or imperfect modalities, and limited generalization. To addres...
+
+--- [11] 2608.06027v1 ---
+Title: FormBharo: Designing and Evaluating a Voice Agent for Conversational Form Filling in Rural India
+Authors: Aman Dalmia, Sanskriti Midha, Jigar Doshi
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC
+Published: 2026-08-06
+Summary: In India, almost every social benefit starts with a form, yet the people who need these benefits most are often unable to read or write. Reaching them requires a spoken conversation. Today that work falls to frontline health workers who enroll beneficiaries one at a time, a poor use of stretched capacity. We built FormBharo ("fill the form" in Hindi), a voice agent that fills a structured form ove...
+
+--- [12] 2608.04479v1 ---
+Title: AudioScape-TTA: A Structured Soundscape Benchmark for Fine-Grained Text-to-Audio Evaluation
+Authors: Jinting Wang, Yuguang Yang, Shengyu Li, Yan Rong, Shan Yang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-05
+Summary: Text-to-audio (TTA) generation has recently achieved remarkable progress in synthesizing realistic audio from natural language descriptions. However, determining whether generated audio faithfully satisfies complex textual instructions remains challenging. Existing benchmarks mainly rely on global similarity metrics, providing limited insight into fine-grained semantic failures. To address this li...
+
+--- [13] 2608.02035v2 ---
+Title: AcoustiTrace: When Plausible Sound Violates Physics
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Abenchmark+AND+abs%3Avalidation&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Shiyang Li, Yuewen Cao, Yihao Liu, Yuandong Pu, Baochang Zhang et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.SD
+Published: 2026-08-03
+Summary: Recent audio-video generators can produce semantically plausible and apparently synchronized sound, yet may still violate the acoustic processes implied by visible events and environments. Existing benchmarks provide limited support for attributing such violations to particular acoustic processes and quantifying their severity. We introduce AcoustiTrace, a diagnostic benchmark that formalizes acou...
+
+--- [14] 2608.00749v1 ---
+Title: A Protocol for Evaluating the Accessibility of AI-Generated Educational Materials: Prompt Configuration, WCAG-Derived Criteria, and Content Overload
+Authors: Hector R. Amado-Salvatierra
+Primary cat: cs.CY | All cats: cs.CY
+Published: 2026-08-01
+Summary: Generative AI tools increasingly produce educational materials: documents, slides, images, audio, and video, yet little is known about whether this content meets accessibility requirements. This paper presents a protocol for evaluating the accessibility of AI-generated educational materials against the Web Content Accessibility Guidelines (WCAG), across five content types and multiple tools. The p...
+
+--- [15] 2607.22794v1 ---
+Title: Multimodal Domain Generalization for Depression Detection: An Attention-Based BiLSTM Network with Domain-Adversarial Training
+Authors: Ali Tabaraei, Federico Simonetta, Stavros Ntalampiras
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL, cs.SD
+Published: 2026-07-24
+Summary: Automatic depression detection with deep learning has shown promise but often suffers from limited generalization due to domain shift arising from inter-speaker variability. To address this critical issue, we present the first patient-independent multimodal depression detection framework that incorporates domain generalization (DG), jointly leveraging both acoustic and textual modalities. The prop...
+
+--- [16] 2607.19339v1 ---
+Title: OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
+Authors: Yu Chen, Caorui Li, Ziyu Xiong, Yidong Wang, Mingqi Gao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-21
+Summary: Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs learn, via supervised fine-tuning and reinforcement learning, to decide whether and where to call a ...
+
+--- [17] 2607.18912v1 ---
+Title: From a Multilingual Streaming ASR Backbone to Kenyan-Language Systems: Data-Centric Adaptation of Nemotron 3.5 for Kikuyu, Dholuo, and Kalenjin
+Authors: Mark Gatere
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-21
+Summary: Automatic speech recognition (ASR) for African languages is constrained by orthographic inconsistency, annotation artifacts, missing audio, speaker and domain imbalance, and evaluation procedures that differ from deployment. We present an end-to-end engineering study adapting NVIDIA Nemotron 3.5 ASR Streaming 0.6B to Kikuyu, Dholuo, and Kalenjin. Starting from a Kenyan Swahili-adapted checkpoint, ...
+
+--- [18] 2607.18171v2 ---
+Title: FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications
+Authors: Krish Agarwal, Zhuoming Chen, Yanyuan Qin, Zhenyu Gu, Atri Rudra et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-07-20
+Summary: Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous models into pipelines whose efficient deployment requires application-specific decisions about placement, streaming, and intra-model parallelism. Existing serving systems and auto-parallelism compilers commit to limited transformations and fixed workload assumptions, so achieving high ...
+
+--- [19] 2607.18109v1 ---
+Title: SpEmoC: A Balanced Speaker-Segment Multimodal Emotion Benchmark
+Authors: Sania Bano, Shahzad Ahmad, Santosh Kumar Vipparthi, Sukalpa Chanda, Subrahmanyam Murala
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-20
+Summary: Understanding human emotions in spoken conversations is a key challenge in affective computing, with applications in empathetic AI, human computer interaction, and mental health monitoring. However, existing datasets vary in scale, emotion distribution, modality alignment, and data partitioning strategies, which can influence reliable cross-dataset generalization and minority-emotion modeling. We ...
+
+--- [20] 2607.16736v1 ---
+Title: RealDESED: A Real-World Domestic Sound Event Detection Benchmark
+Authors: Florian Schmid, Paul Primus, Alexander Fichtinger, Tara Jadidi, Tobias Morocutti et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2026-07-18
+Summary: This paper presents RealDESED, a real-world domestic sound event detection (SED) benchmark comprising 5,710 audio recordings collected by 652 participants in their homes. Each recording is between 15 and 35 seconds long and contains temporally precise annotations for 15 common domestic sound classes. In contrast to existing SED datasets, which typically rely on simulated soundscapes or broad web-c...
+

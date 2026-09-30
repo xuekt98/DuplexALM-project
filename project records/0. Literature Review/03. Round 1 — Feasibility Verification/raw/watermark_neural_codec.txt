@@ -1,0 +1,177 @@
+--- [1] 2609.03107v1 ---
+Title: CRAW: Codec Robust Audio Watermarking
+Authors: David Chernin, Ethan Fetaya
+Primary cat: cs.SD | All cats: cs.SD, cs.CR, cs.LG
+Published: 2026-09-02
+Summary: Recent advances in generative speech models have made it increasingly difficult to distinguish authentic from synthetic audio, enabling new forms of fraud and misinformation. Audio watermarking offers a promising defense by embedding an imperceptible signal into generated speech that can later be detected to verify its provenance. However, recent studies have shown that existing post-hoc watermark...
+
+--- [2] 2609.01050v1 ---
+Title: What Limits Robustness in Deep Image Watermarking: An Analysis of Mechanisms and Their Scaling Across Capacities
+Authors: Marta Bistroń, Zbigniew Piotrowski
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-09-01
+Summary: Robustness remains the principal open problem in deep image watermarking, and what limits it becomes sharper as payload grows. This paper asks whether capacity is itself the limit or only makes other limits visible, and answers in two parts. The first organizes the distortions a watermark must survive and the strategies developed to resist them, ordering each by the axis that governs it: payload c...
+
+--- [3] 2608.25289v1 ---
+Title: Combining Self-Embedding Audio Watermarking with Ultra-Low-Bitrate Neural Codecs
+Authors: Yigitcan Özer, Xin Wang, Zhe Zhang, Junichi Yamagishi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-26
+Summary: Partial manipulation of speech recordings, where only localized segments of an utterance are altered, poses a significant challenge for content integrity verification, as reliable detection and localization of such edits becomes harder as the manipulated proportion decreases. Watermarking offers a proactive defense alternative by embedding auxiliary information prior to distribution; classical has...
+
+--- [4] 2607.21132v1 ---
+Title: Investigating Codec-Internal Latent Audio Watermarking for Neural Codec Robustness
+Authors: Zi Hu, Houmin Sun, Linxi Li, Yechen Wang, Liwei Jin et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-23
+Summary: Neural audio codecs are challenging transformations for audio watermarking because they re-encode, quantize, and resynthesize speech. This paper investigates continuous latent-space watermarking for codec robustness. Instead of adding a watermark only to the waveform or spectrogram, we embed a 32-bit message into the continuous latent representation of a codec-like speech autoencoder. The pipeline...
+
+--- [5] 2607.11117v1 ---
+Title: MusicMark: A Robust Generative Watermarking Framework for Music Generation
+Authors: Seohwan Yun, Jeeyoung Yun, Yongjin Kim, Juyeon Lee, Sungwoong Kim
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR
+Published: 2026-07-13
+Summary: AI music generation has rapidly advanced alongside commercial platforms, raising the need for reliable watermarking for provenance and attribution. However, existing audio watermarking research has largely focused on speech, and applying speech-oriented methods to music is challenging due to music's complex structure and rich acoustic texture. Most existing methods are post-hoc, adding imperceptib...
+
+--- [6] 2606.15264v1 ---
+Title: DuraMark: Duration-Embedded Watermarking in LLM-based TTS
+Authors: Zhenwei Mou, Weili Jiang, Liping Chen, Zhen-Hua Ling, Kong Aik Lee et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-13
+Summary: Large language model (LLM)-based text-to-speech (TTS) models have achieved remarkable voice cloning capabilities, raising concerns about potential deepfake misuse. Speech watermarking mitigates this by embedding traceable information into generated speech. Mainstream watermarking methods operate at the signal level (waveform or spectrogram), rendering the watermark vulnerable to generative attacks...
+
+--- [7] 2606.11828v1 ---
+Title: Feature-Aligned Speech Watermarking for Robustness to Reconstruction Distortions
+Authors: Haiyun Li, Shuhai Peng, Zhisheng Zhang, Jingran Xie, Xiaofeng Xie et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR, cs.MM
+Published: 2026-06-10
+Summary: Audio watermarking aims to embed identifiable information into audio while remaining imperceptible. Existing methods adopt high-fidelity, low-energy designs to preserve perceptual quality, but the resulting watermarks lack robustness under suppression by speech reconstruction models. Improving robustness is challenging due to the inherent robustness-fidelity trade-off in existing designs, where in...
+
+--- [8] 2605.08431v1 ---
+Title: Latent Secret Spin: Keyed Orthogonal Rotations for Blind Speech Watermarking in Anisotropic Latent Spaces
+Authors: Emma Coletta, Massimiliano Todisco, Michele Panariello, Antonio Faonio, Nicholas Evans
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-08
+Summary: We introduce Latent Secret Spin (LSS), a blind speech watermarking method based on geometric operations in codec latent space. Based upon orthogonal rotations to principal components, LSS induces imperceptible but detectable covariance signatures according to a pseudo-random watermarking schedule. The scheme generalises across datasets, preserves perceptual quality and, unlike some learned, neural...
+
+--- [9] 2604.23957v2 ---
+Title: LAVA: Layered Audio-Visual Anti-tampering Watermarking for Robust Deepfake Detection and Localization
+Authors: Bokang Zeng, Zheng Gao, Xiaoyu Li, Xiaoyan Feng, Jiaojiao Jiang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-27
+Summary: Proactive watermarking offers a promising approach for deepfake tamper detection and localization in short-form videos. However, existing methods often decouple audio and visual evidence and assume that watermark signals remain reliable under real-world degradations, making tamper localization vulnerable to multimodal misalignment and compression distortions. Moreover, existing semi-fragile visual...
+
+--- [10] 2604.19090v1 ---
+Title: Dual-Guard: Dual-Channel Latent Watermarking for Provenance and Tamper Localization in Diffusion Images
+Authors: JinFeng Xie, Chengfu Ou, Peipeng Yu, Xiaoyu Zhou, Dingding Huang et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-04-21
+Summary: The rapid adoption of diffusion-based generative models has intensified concerns over the attribution and integrity of AI-generated content (AIGC). Existing single-domain watermarking methods either fail under regeneration, remain vulnerable to black-box reprompting that enables adversarial framing, or provide no spatial evidence for tampered regions. We propose Dual-Guard, a dual-channel latent w...
+
+--- [11] 2603.05310v3 ---
+Title: Latent-Mark: An Audio Watermark Robust to Neural Codec Compression
+Authors: Yen-Shan Chen, Shih-Yu Lai, Ying-Jung Tsou, Yi-Cheng Lin, Bing-Yu Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-03-05
+Summary: While existing audio watermarking techniques have achieved strong robustness against traditional digital signal processing (DSP) attacks, they remain vulnerable to neural compression. This occurs because modern neural audio codecs act as noise filters and discard the imperceptible waveform variations used in prior watermarking methods. To address this limitation, we propose Latent-Mark, the first ...
+
+--- [12] 2602.10166v1 ---
+Title: MerkleSpeech: Public-Key Verifiable, Chunk-Localised Speech Provenance via Perceptual Fingerprints and Merkle Commitments
+Authors: Tatsunori Ono
+Primary cat: cs.CR | All cats: cs.CR, cs.SD, eess.AS
+Published: 2026-02-10
+Summary: Speech provenance goes beyond detecting whether a watermark is present. Real workflows involve splicing, quoting, trimming, and platform-level transforms that may preserve some regions while altering others. Neural watermarking systems have made strides in robustness and localised detection, but most deployments produce outputs with no third-party verifiable cryptographic proof tying a time segmen...
+
+--- [13] 2601.22556v1 ---
+Title: VocBulwark: Towards Practical Generative Speech Watermarking via Additional-Parameter Injection
+Authors: Weizhi Liu, Yue Li, Zhaoxia Yin
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-01-30
+Summary: Generated speech achieves human-level naturalness but escalates security risks of misuse. However, existing watermarking methods fail to reconcile fidelity with robustness, as they rely either on simple superposition in the noise space or on intrusive alterations to model weights. To bridge this gap, we propose VocBulwark, an additional-parameter injection framework that freezes generative model p...
+
+--- [14] 2510.12042v2 ---
+Title: FakeMark: Deepfake Speech Attribution With Watermarked Artifacts
+Authors: Wanying Ge, Xin Wang, Junichi Yamagishi
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-10-14
+Summary: Deepfake speech attribution remains challenging for existing solutions. Classifier-based solutions often fail to generalize to domain-shifted samples, and watermarking-based solutions are easily compromised by distortions like codec compression or malicious removal attacks. To address these issues, we propose FakeMark, a novel watermarking framework that injects artifact-correlated watermarks asso...
+
+--- [15] 2504.05197v2 ---
+Title: P2Mark: Plug-and-play Parameter-level Watermarking for Neural Speech Generation
+Authors: Yong Ren, Jiangyan Yi, Tao Wang, Jianhua Tao, Zheng Lian et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-04-07
+Summary: Neural speech generation (NSG) has rapidly advanced as a key component of artificial intelligence-generated content, enabling the generation of high-quality, highly realistic speech for diverse applications. This development increases the risk of technique misuse and threatens social security. Audio watermarking can embed imperceptible marks into generated audio, providing a promising approach for...
+
+--- [16] 2503.04867v2 ---
+Title: Security and Real-time FPGA integration for Learned Image Compression
+Authors: Alaa Mazouz, Carl De Sousa Tria, Sumanta Chaudhuri, Attilio Fiandrotti, Marco Cagnanzzo et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2025-03-06
+Summary: Learnable Image Compression (LIC) has proven capable of outperforming standardized video codecs in compression efficiency. However, achieving both real-time and secure LIC operations on hardware presents significant conceptual and methodological challenges. The present work addresses these challenges by providing an integrated workflow and platform for training, securing, and deploying LIC models ...
+
+--- [17] 2412.09492v1 ---
+Title: Video Seal: Open and Efficient Video Watermarking
+Authors: Pierre Fernandez, Hady Elsahar, I. Zeki Yalniz, Alexandre Mourachko
+Primary cat: cs.MM | All cats: cs.MM, cs.AI, cs.CV
+Published: 2024-12-12
+Summary: The proliferation of AI-generated content and sophisticated video editing tools has made it both important and challenging to moderate digital platforms. Video watermarking addresses these challenges by embedding imperceptible signals into videos, allowing for identification. However, the rare open tools and methods often fall short on efficiency, robustness, and flexibility. To reduce these gaps,...
+
+--- [18] 2410.15075v1 ---
+Title: SLIC: Secure Learned Image Codec through Compressed Domain Watermarking to Defend Image Manipulation
+Authors: Chen-Hsiu Huang, Ja-Ling Wu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2024-10-19
+Summary: The digital image manipulation and advancements in Generative AI, such as Deepfake, has raised significant concerns regarding the authenticity of images shared on social media. Traditional image forensic techniques, while helpful, are often passive and insufficient against sophisticated tampering methods. This paper introduces the Secure Learned Image Codec (SLIC), a novel active approach to ensur...
+
+--- [19] 2409.13382v1 ---
+Title: Audio Codec Augmentation for Robust Collaborative Watermarking of Speech Synthesis
+Authors: Lauri Juvela, Xin Wang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2024-09-20
+Summary: Automatic detection of synthetic speech is becoming increasingly important as current synthesis methods are both near indistinguishable from human speech and widely accessible to the public. Audio watermarking and other active disclosure methods of are attracting research activity, as they can complement traditional deepfake defenses based on passive detection. In both active and passive detection...
+
+--- [20] 2409.12121v3 ---
+Title: WMCodec: End-to-End Neural Speech Codec with Deep Watermarking for Authenticity Verification
+Authors: Junzuo Zhou, Jiangyan Yi, Yong Ren, Jianhua Tao, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-09-18
+Summary: Recent advances in speech spoofing necessitate stronger verification mechanisms in neural speech codecs to ensure authenticity. Current methods embed numerical watermarks before compression and extract them from reconstructed speech for verification, but face limitations such as separate training processes for the watermark and codec, and insufficient cross-modal information integration, leading t...
+
+--- [21] 2409.07743v2 ---
+Title: LOCKEY: A Novel Approach to Model Authentication and Deepfake Tracking
+Authors: Mayank Kumar Singh, Naoya Takahashi, Wei-Hsiang Liao, Yuki Mitsufuji
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2024-09-12
+Summary: This paper presents a novel approach to deter unauthorized deepfakes and enable user tracking in generative models, even when the user has full access to the model parameters, by integrating key-based model authentication with watermarking techniques. Our method involves providing users with model parameters accompanied by a unique, user-specific key. During inference, the model is conditioned upo...
+
+--- [22] 2409.07556v2 ---
+Title: SSR-Speech: Towards Stable, Safe and Robust Zero-shot Text-based Speech Editing and Synthesis
+Authors: Helin Wang, Meng Yu, Jiarui Hai, Chen Chen, Yuchen Hu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-09-11
+Summary: In this paper, we introduce SSR-Speech, a neural codec autoregressive model designed for stable, safe, and robust zero-shot textbased speech editing and text-to-speech synthesis. SSR-Speech is built on a Transformer decoder and incorporates classifier-free guidance to enhance the stability of the generation process. A watermark Encodec is proposed to embed frame-level watermarks into the edited re...
+
+--- [23] 2207.03409v1 ---
+Title: Robust Watermarking for Video Forgery Detection with Improved Imperceptibility and Robustness
+Authors: Yangming Zhou, Qichao Ying, Xiangyu Zhang, Zhenxing Qian, Sheng Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2022-07-07
+Summary: Videos are prone to tampering attacks that alter the meaning and deceive the audience. Previous video forgery detection schemes find tiny clues to locate the tampered areas. However, attackers can successfully evade supervision by destroying such clues using video compression or blurring. This paper proposes a video watermarking network for tampering localization. We jointly train a 3D-UNet-based ...
+
+--- [24] 1812.11080v1 ---
+Title: Characterizing Watermark Numbers encoded as Reducible Permutation Graphs against Malicious Attacks
+Authors: Anna Mpanti, Stavros D. Nikolopoulos, Leonidas Palios
+Primary cat: cs.DM | All cats: cs.DM, cs.CR
+Published: 2018-12-28
+Summary: In the domain of software watermarking, we have proposed several graph theoretic watermarking codec systems for encoding watermark numbers $w$ as reducible permutation flow-graphs $F[π^*]$ through the use of self-inverting permutations $π^*$. Following up on our proposed methods, we theoretically study the oldest one, which we call W-RPG, in order to investigate and prove its resilience to edge-mo...
+
+--- [25] 1712.08482v1 ---
+Title: Encoding Watermark Numbers as Reducible Permutation Graphs using Self-inverting Permutations
+Authors: Maria Chroni, Stavros D. Nikolopoulos, Leonidas Palios
+Primary cat: cs.DS | All cats: cs.DS
+Published: 2017-12-21
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Awatermark+AND+abs%3Acodec&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Several graph theoretic watermark methods have been proposed to encode numbers as graph structures in software watermarking environments. In this paper, we propose an efficient and easily implementable codec system for encoding watermark numbers as reducible permutation flow-graphs and, thus, we extend the class of graphs used in such a watermarking environment. More precisely, we present an algor...
+

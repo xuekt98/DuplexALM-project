@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio%22+AND+abs%3A%22anomaly%22+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.04526v1 ---
+Title: Training-Free Model Selection and Domain-Aware Score Calibration for First-Shot Anomalous Sound Detection
+Authors: Grach Mkrtchian
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-05
+Summary: First-shot anomalous sound detection in DCASE Challenge Task 2 must flag anomalies of unseen machine types with a single threshold, without knowing whether a test clip comes from the data-rich source domain (990 normal training clips) or the data-scarce target domain (10). Two organizer-reported problems remain open: source- and target-domain AUC are negatively correlated across systems, and devel...
+
+--- [2] 2502.17119v2 ---
+Title: Diffusion and Flow Matching Models for Tabular Data: A Survey
+Authors: Zhong Li, Qi Huang, Lincen Yang, Jiayang Shi, Zhao Yang et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2025-02-24
+Summary: Deep generative models have made rapid progress in image, text, audio, and video generation, and are increasingly being applied to structured records. For tabular data, however, generative modeling remains difficult: a dataset may contain numerical and categorical attributes, missing values, sensitive fields, imbalanced categories, complex feature dependencies, and domain constraints. Earlier tabu...
+

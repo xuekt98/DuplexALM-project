@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio-visual%22+AND+abs%3A%222026%22+AND+(abs%3A%22segmentation%22+OR+abs%3A%22separation%22)&max_results=30&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.14812v1 ---
+Title: Separate First, Then Associate: A Two-Stage Approach for Real-World Audio-Visual Speech Enhancement
+Authors: Tongtao Ling, Zhong-Qiu Wang
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-14
+Summary: Audio-visual speech enhancement (AVSE) aims at extracting target speech from multi-speaker mixtures by exploiting visual cues. Although recent studies have reported strong performance on simulated datasets, the performance, however, often drops dramatically when they are applied to real-world audio-visual recordings. To bridge this gap, the Real-World AVSE Challenge held in the ISCSLP 2026 confere...
+
+--- [2] 2607.25543v1 ---
+Title: Less is More: Modality-Decoupling for General AIGC Audio-Video Detection
+Authors: Jielun Peng, Yabin Wang, Yaqi Li, Jincheng Liu, Xiaopeng Hong et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-28
+Summary: Generative AI has rapidly expanded audio-visual forgery beyond human-centric deepfakes into general scenes. Existing AIGC detection methods assume audio-visual content correspondence, identifying forgeries by spotting cross-modal inconsistencies. However, we empirically find that this assumption does not consistently hold in general scenarios. We argue that, for general audio-visual AIGC detection...
+

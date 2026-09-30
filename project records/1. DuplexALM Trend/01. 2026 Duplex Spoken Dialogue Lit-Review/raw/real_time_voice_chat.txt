@@ -1,0 +1,93 @@
+--- [1] 2605.23912v1 ---
+Title: Raon-Speech Technical Report
+Authors: Beomsoo Kim, Changho Choi, Dohyun Kim, Dongki Lee, Ethan Ewer et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-04-08
+Summary: We present Raon-Speech, a top-performing 9B-parameter speech language model (SpeechLM) for English and Korean speech understanding, answering, and generation, and Raon-SpeechChat, a high-performing full-duplex extension for natural real-time conversation. Raon-Speech successfully transforms a pre-trained LLM into a SpeechLM that both understands and generates speech while preserving strong text ca...
+
+--- [2] 2604.00968v2 ---
+Title: SherpaAI: A Multi-modal Solution for Delivering Personalized and Adaptive Fitness Interventions
+Authors: Shivangi Agarwal, Zoya Ghoshal, Bharat Jain,  Siddharth
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-04-01
+Summary: Personalization of exercise routines is a crucial factor in helping people achieve their fitness goals. Despite this, many contemporary solutions fail to offer real-time, adaptive feedback tailored to an individual's physiological states. Contemporary solutions often rely only on static, pre-set plans and rarely adjust in real time to factors such as a user's pain thresholds, fatigue levels, or fo...
+
+--- [3] 2603.22227v1 ---
+Title: Dyadic: A Scalable Platform for Human-Human and Human-AI Conversation Research
+Authors: David M. Markowitz
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CL
+Published: 2026-03-23
+Summary: Conversation is ubiquitous in social life, but the empirical study of this interactive process has been thwarted by tools that are insufficiently modular and unadaptive to researcher needs. To relieve many constraints in conversation research, the current tutorial presents an overview and introduction to a new tool, Dyadic (https://www.chatdyadic.com/), a web-based platform for studying human-huma...
+
+--- [4] 2509.02020v2 ---
+Title: FireRedTTS-2: Towards Long Conversational Speech Generation for Podcast and Chatbot
+Authors: Kun Xie, Feiyu Shen, Junjie Li, Fenglong Xie, Xu Tang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-09-02
+Summary: Current dialogue generation approaches typically require the complete dialogue text before synthesis and produce a single, inseparable speech containing all voices, making them unsuitable for interactive chat; moreover, they suffer from unstable synthesis, inaccurate speaker transitions, and incoherent prosody. In this work, we present FireRedTTS-2, a long-form streaming TTS system for multi-speak...
+
+--- [5] 2506.15556v2 ---
+Title: PredGen: Accelerated Inference of Large Language Models through Input-Time Speculation for Real-Time Speech Interaction
+Authors: Shufan Li, Aditya Grover
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-06-18
+Summary: Large Language Models (LLMs) are widely used in real-time voice chat applications, typically in combination with text-to-speech (TTS) systems to generate audio responses. However, their large size often leads to noticeable latency between the end of user input and the start of audio output, resulting in suboptimal user experiences. This latency is particularly evident when LLMs are deployed as sin...
+
+--- [6] 2505.20082v1 ---
+Title: Understanding and Supporting Co-viewing Comedy in VR with Embodied Expressive Avatars
+Authors: Ryo Ohara, Chi-Lan Yang, Takuji Narumi, Hideaki Kuzuoka
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-05-26
+Summary: Co-viewing videos with family and friends remotely has become prevalent with the support of communication channels such as text messaging or real-time voice chat. However, current co-viewing platforms often lack visible embodied cues, such as body movements and facial expressions. This absence can reduce emotional engagement and the sense of co-presence when people are watching together remotely. ...
+
+--- [7] 2503.21144v1 ---
+Title: ChatAnyone: Stylized Real-time Portrait Video Generation with Hierarchical Motion Diffusion Model
+Authors: Jinwei Qi, Chaonan Ji, Sheng Xu, Peng Zhang, Bang Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-03-27
+Summary: Real-time interactive video-chat portraits have been increasingly recognized as the future trend, particularly due to the remarkable progress made in text and voice chat technologies. However, existing methods primarily focus on real-time generation of head movements, but struggle to produce synchronized body motions that match these head actions. Additionally, achieving fine-grained control over ...
+
+--- [8] 2502.11946v2 ---
+Title: Step-Audio: Unified Understanding and Generation in Intelligent Speech Interaction
+Authors: Ailin Huang, Boyong Wu, Bruce Wang, Chao Yan, Chen Hu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC, cs.SD, eess.AS
+Published: 2025-02-17
+Summary: Real-time speech interaction, serving as a fundamental interface for human-machine collaboration, holds immense potential. However, current open-source models face limitations such as high costs in voice data collection, weakness in dynamic control, and limited intelligence. To address these challenges, this paper introduces Step-Audio, the first production-ready open-source solution. Key contribu...
+
+--- [9] 2410.11190v3 ---
+Title: Mini-Omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities
+Authors: Zhifei Xie, Changqiao Wu
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CV, cs.LG, cs.SD
+Published: 2024-10-15
+Summary: GPT-4o, an all-encompassing model, represents a milestone in the development of large multi-modal language models. It can understand visual, auditory, and textual modalities, directly output audio, and support flexible duplex interaction. Models from the open-source community often achieve some functionalities of GPT-4o, such as visual understanding and voice chat. Nevertheless, training a unified...
+
+--- [10] 2312.06530v1 ---
+Title: Study of Non-Verbal Behavior in Conversational Agents
+Authors: Camila Vicari Maccari, Gustavo Galle de Melo, Paulo Ricardo Knob, Soraia Raupp Musse
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2023-12-11
+Summary: This paper studies the non-verbal behavior of a conversational agent named Arthur. We propose the development of body movements for this agent, which interacts solely through voice commands, chat, and videos with facial animations. This research aims to analyze users' perceptions regarding the gestures performed by Arthur. This study was conducted with participants who agreed to interact directly ...
+
+--- [11] 2308.02524v1 ---
+Title: Chatbot Application to Support Smart Agriculture in Thailand
+Authors: Paweena Suebsombut, Pradorn Sureephong, Aicha Sekhari, Suepphong Chernbumroong, Abdelaziz Bouras
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2023-07-31
+Summary: A chatbot is a software developed to help reply to text or voice conversations automatically and quickly in real time. In the agriculture sector, the existing smart agriculture systems just use data from sensing and internet of things (IoT) technologies that exclude crop cultivation knowledge to support decision-making by farmers. To enhance this, the chatbot application can be an assistant to far...
+
+--- [12] 2209.00776v2 ---
+Title: WOC: A Handy Webcam-based 3D Online Chatroom
+Authors: Chuanhang Yan, Yu Sun, Qian Bao, Jinhui Pang, Wu Liu et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.CV
+Published: 2022-09-02
+Summary: We develop WOC, a webcam-based 3D virtual online chatroom for multi-person interaction, which captures the 3D motion of users and drives their individual 3D virtual avatars in real-time. Compared to the existing wearable equipment-based solution, WOC offers convenient and low-cost 3D motion capture with a single camera. To promote the immersive chat experience, WOC provides high-fidelity virtual a...
+
+--- [13] 1805.09140v1 ---
+Title: In-Person and Remote Participation Review at IETF: Collaborating Without Borders
+Authors: Lucas Andrade, Juliao Braga, Stefany Pereira, Rafael Roque, Marcelo Santos
+Primary cat: cs.CY | All cats: cs.CY
+Published: 2018-05-15
+# Total entries: 13
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areal-time+AND+abs%3Avoice+AND+abs%3Achat&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: The IETF has been acting as one of the main actors when discussing standardization of protocols and good practices on the Internet. Collaborating with the IETF community can be complex and distant for many researchers and industry members because of the financial aspect to travel to the meeting. However, it notes the collaboration between industry and academia is actively and progressively develop...
+

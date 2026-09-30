@@ -1,0 +1,177 @@
+--- [1] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [2] 2609.04903v1 ---
+Title: InterSing: Explicit Interaction Dynamics for 3D Duet Singing Animation and Beyond
+Authors: Yihan Zhou, Zikai Huang, Yuyang Yu, Xuemiao Xu, Cheng Xu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-04
+Summary: We present InterSing, a framework for generating realistic 3D head animations for duet singing performances. Unlike solo singing, duet performance requires each singer to balance individual expressiveness with intermittent interaction at musically salient moments, such as phrase boundaries, synchronized rhythms, and call-and-response passages. Because these interactions are sparse and rhythm-depen...
+
+--- [3] 2609.00369v1 ---
+Title: Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation
+Authors: Vida Adeli, Soroush Mehraban, Jacob Rommann, Harrison Sanborn, Cole Clifford et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Generating co-speech gestures that are temporally coherent, semantically aligned with speech, and grounded with surrounding objects remains challenging. Prior speech-driven gesture models emphasize audio-gesture alignment but do not explicitly account for posture constraints or surrounding objects, failing to capture the inherent correlation between body gestures and the physical space. We present...
+
+--- [4] 2608.30951v1 ---
+Title: Audio-Driven Adversarial Defense for 3D Talking Face Generation with totally Visual Fidelity Preservation
+Authors: Rui-Qing Sun, Chen-Hao Cui, Hui-Yang Zhao, Tian Lan, Zhijing Wu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MM
+Published: 2026-08-31
+Summary: The rapid development of generative portrait models has raised growing concerns about privacy leakage and identity misuse. In particular, audio-driven 3D talking face generation can reconstruct a reusable 3D portrait of a target person from a monocular video and animate it with arbitrary speech, making realistic identity impersonation alarmingly practical. Existing proactive defenses mainly operat...
+
+--- [5] 2609.05506v1 ---
+Title: ECHO: Dyadic 3D Facial Motion Generation with Asymmetric Deterministic Articulation and Stochastic Reaction
+Authors: Zhuoqiang Cai, Yujie Sun, Chaoyue Niu, Hongyun Yu, Zhiwen Chen et al.
+Primary cat: cs.GR | All cats: cs.GR, cs.CV, cs.SD
+Published: 2026-08-29
+Summary: We propose ECHO for dyadic 3D facial motion generation under a strict dual-stream audio-only setting, formulating the problem as an asymmetric task involving speech-constrained articulation and one-to-many listener reactions. To address this asymmetry, ECHO decomposes motion into a deterministic anchor that captures stable speech-correlated structure and a stochastic residual that models the remai...
+
+--- [6] 2608.24558v3 ---
+Title: Array-Agnostic Ambisonics Encoding via Diffusion Posterior Sampling
+Authors: Amit Milstein, Nir Shlezinger, Boaz Rafaely
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-25
+Summary: Spatial audio enhances user immersion by reproducing 3D sound fields, with Ambisonics being a widely adopted representation. While Ambisonics is theoretically independent of the recording setup, practical microphone arrays introduce hardware-dependent encoding artifacts. Moreover, existing data-driven solutions lack flexibility, as they are typically restricted to fixed array geometries. To overco...
+
+--- [7] 2608.23820v1 ---
+Title: From Anonymous Shapes to Named Places: A Tool for Braille and Place-Semantic Annotation of Tactile Maps
+Authors: Li Liu, Ashmita Dua, Jiaming Qu, David T. Lee, Leilani H. Gilpin
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-24
+Summary: On a 3D-printed tactile map, a building felt under the finger is an anonymous shape: touch alone cannot tell which footprint is which, and a spoken description cannot reliably point to one shape at one place. We present a web-based tool that lets a sighted helper click to add on-shape Braille labels to an already-generated map model, downstream of the geometry generator so that whoever knows the r...
+
+--- [8] 2608.16143v1 ---
+Title: AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model
+Authors: Kwan Yun, Serin Yoon, Sunjin Jung, Jung Eun Yoo, Inyup Lee et al.
+Primary cat: cs.GR | All cats: cs.GR, cs.CV, cs.MM, cs.SD
+Published: 2026-08-17
+Summary: We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any animation data. While existing audio-driven 3D speech animation methods rely on character-specific training data or laborious rigging/re-meshing, AnyTalk circumvents these limitations by leveraging recent video diffusion models trained on extensive video datasets. We first adapt a ...
+
+--- [9] 2608.15110v1 ---
+Title: CETalk: Continuous Valence-Arousal Control for Audio-Driven 3D Talking Head Generation
+Authors: Peng Jia, Li Dai, Zhen Xiao, Xueliang Liu, Jia Li
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-15
+Summary: Emotional 3D talking head generation aims to synthesize expressive facial animations with accurate lip synchronization. However, existing methods often rely on discrete emotion categories, which fail to capture the continuous evolution of affect. They also overlook the temporal frequency mismatch between audio articulation and emotional expression. In this paper, we propose CETalk, an audio-driven...
+
+--- [10] 2608.09425v1 ---
+Title: Neural Array-Generic Direction-of-Arrival Estimation Exploiting Array Transfer Functions
+Authors: Mikko Heikkinen, Archontis Politis, Konstantinos Drossos, Tuomas Virtanen
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-10
+Summary: Direction-of-arrival (DoA) estimation is a key component of multichannel audio processing, yet many deep learning approaches remain tied to the microphone arrays used during training and generalize poorly to unseen devices. This paper proposes an array-generic neural DoA estimation framework using measured or simulated complex directional array transfer functions (ATFs) matched to real-world multi...
+
+--- [11] 2608.05798v1 ---
+Title: KVAE: Family of Tokenizers for Multimodal Generative Models
+Authors: Andrey Shutkin, Denis Parkhomenko, Ivan Kirillov, Kirill Chernyshev, Kirill Malakhov et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.SD
+Published: 2026-08-06
+Summary: Latent diffusion modeling (LDM), a prominent paradigm, utilizes tokenizers to map input signal to compressed representation. This dependency positions tokenizer as an integral part of generation process itself, since it affects learning speed, quality of synthesized samples and lay foundation for later applications. This report presents series of KVAE tokenizers for audio, image and video, all des...
+
+--- [12] 2608.05145v2 ---
+Title: Objects as Audio-Visual Modal Sound Fields
+Authors: Zisen Shao, Zihao Wei, Derong Jin, Ruohan Gao
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-08-05
+Summary: While modern 3D reconstruction excels at modeling object geometry and appearance, it largely ignores the rich acoustic cues revealed through physical interaction. Object impact sounds convey material, stiffness, and structural properties that complement vision, yet existing impact sound modeling approaches either rely on expensive physics-based simulation or require large datasets to generalize in...
+
+--- [13] 2608.04709v1 ---
+Title: EmpaAva: An Open-source Agentic 3D-Avatar Empathetic Live Chatbot
+Authors: Jie Yang, Wenhao Xu, Shuhui Lin, Hao Fei
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-05
+Summary: This paper presents EmpaAva, to our knowledge the first open-source, agentic 3D-avatar empathetic chatbot, which carries empathetic response generation (ERG) from text-only exchanges into live, face-to-face interaction. Through a video-call-like interface, a user speaks to a 3D digital human that reads their affect from speech and optional vision, and replies with emotional speech, lip-synced faci...
+
+--- [14] 2608.06408v1 ---
+Title: SubtleTalk: Generating Controllable Weakly-correlated Facial Dynamics for 3D Talking Heads via Residual Flow Matching
+Authors: Chenyang Ding, Shuai Tan, Qunfen Lin, Xinwei Jiang, Zijiao Zeng et al.
+Primary cat: cs.GR | All cats: cs.GR, cs.CV
+Published: 2026-08-03
+Summary: Audio-driven 3D facial animation aims to synthesize realistic and temporally coherent motions from speech. Despite notable progress in lip synchronization, weakly correlated dynamics, including eyebrow movements, eye blinks, and head motion, which are essential to photorealistic facial animation, remain difficult to model faithfully and often appear static or unnaturally repetitive. We attribute t...
+
+--- [15] 2608.01605v1 ---
+Title: ETHead: Generating Expressive 3D Facial Animation and Head Movement from Speech
+Authors: Jiu-Cheng Xie, Jiwang Zheng, Yongkang Xia, Jian Xiong, Chi-Man Pun et al.
+Primary cat: cs.GR | All cats: cs.GR
+Published: 2026-08-03
+Summary: Generating expressive 3D talking heads solely from speech remains a significant challenge due to the scarcity of high-fidelity 3D data, which limits the modeling of complex emotional motion patterns. In this paper, we introduce \textbf{E}xpressive \textbf{T}alking \textbf{Head} (ETHead), a method for generating 3D facial and head motions that vividly align with the emotional content of input speec...
+
+--- [16] 2608.00463v1 ---
+Title: Scene2Sound: Auditory-Grounded Soundscape Generation for 3D Gaussian Worlds
+Authors: Masaki Yoshida, Ren Togo, Takahiro Ogawa, Miki Haseyama
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-08-01
+Summary: 3D Gaussian Splatting (3DGS) turns captured or generated imagery into photorealistic 3D world simulations that users can freely explore, yet these worlds remain silent. Because existing audio generation methods condition on a single image or viewpoint, their sound is tied to that observation and cannot stay consistent while a listener moves. We introduce the task of generating a spatially consiste...
+
+--- [17] 2607.26775v1 ---
+Title: Journey Operators for Structured Multi-Axis Composition
+Authors: Mahesh Godavarti
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-07-29
+Summary: Many kinds of data have structure along one or more axes: words in a sentence, pixels in an image, nodes in a tree, frames in audio, or cells in a 3D volume. Along one axis, order matters: "the dog bit the man" is different from "the man bit the dog." Across independent axes, however, neither composition nor movement should depend on the order of axes: in an image, composing right then down should...
+
+--- [18] 2607.23840v1 ---
+Title: STEER: Steerable Dyadic Head Avatars
+Authors: Kartik Teotia, Helge Rhodin, Hyeongwoo Kim, Marc Habermann, Christian Theobalt
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Facial movement and expression are central to face-to-face communication, conveying turn-taking, attention, agreement, and engagement alongside speech. While speech-driven facial animation has made strong progress in lip synchronization and audio-conditioned motion generation, most methods treat conversational behavior as an emergent byproduct of audio, or expose only coarse sequence-level affect ...
+
+--- [19] 2607.23657v1 ---
+Title: GRAPE: Graduated Routing for Articulated Portrait mesh Estimation
+Authors: Yunfei Liu, Lijian Lin, Ye Zhu, Yu Li
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Articulated portrait mesh estimation is fundamental to 3D understanding, avatar generation, and immersive interaction. Existing approaches primarily rely on 3D Morphable Models (3DMMs). However, face-centric models suffer from the "floating head" assumption, conflating head pose with global rotation due to the lack of neck kinematics. Conversely, body-centric models lack high-fidelity facial expre...
+
+--- [20] 2607.17773v1 ---
+Title: FillGauss: Fine-Grained Filling-Aware Impact Sound Generation for 3D Gaussian Splatting
+Authors: Chen Yang, Ganye Wen, Bin Huang, Jiayi Lyu, Zehai Niu et al.
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-07-20
+Summary: Synthesizing physically plausible impact sounds from visual observations remains a great challenge in multi-modal AI. Existing 3D-aware audio generation methods primarily model the surface geometry of hollow rigid bodies. However, they fundamentally overlook internal filling states, a critical physical factor that drastically modulates acoustic resonance and damping. To address this issue, we have...
+
+--- [21] 2607.11688v1 ---
+Title: Automated Synthesis of Facial Mechanisms for Conversational Animatronic Robots
+Authors: Zongzheng Zhang, Zi Lin, Jiawen Yang, Ziqiao Peng, Junyan Lao et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-13
+Summary: Animatronic faces are a central component of socially interactive robots, enabling rich nonverbal communication through facial articulation. However, state-of-the-art animatronic faces are typically tailored systems: each new facial geometry requires extensive manual mechanical redesign, making large-scale personalization prohibitively slow and costly. In this work, we pursue automated and scalabl...
+
+--- [22] 2607.10287v1 ---
+Title: InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation
+Authors: Yichen Peng, Jyun-Ting Song, Chen-Chieh Liao, Kris Kitani, Hideki Koike et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-11
+Summary: Human-pet interaction estimation and generation remain underexplored due to the absence of a high-quality large-scale dataset. We present InterPet4D, the first multimodal dataset capturing natural interactions between humans and dogs. Using a synchronized multi-view capture system, we record human-dog obedience tasks and provide annotations for both humans and dogs, including multi-view and egocen...
+
+--- [23] 2607.09581v3 ---
+Title: Wan-Dancer: A Hierarchical Framework for Minute-scale Coherent Music-to-Dance Generation
+Authors: Mingyang Huang, Peng Zhang, Li Hu, Guangyuan Wang, Ruoshi Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-07-10
+Summary: Generating long-duration, high-definition, and rhythmically synchronized dance videos directly from music remains a significant challenge, primarily due to the temporal constraints of current diffusion models, which typically fail beyond 20 seconds. Existing approaches, whether they rely on intermediate 3D skeletons or on end-to-end video synthesis, suffer from temporal drift, identity inconsisten...
+
+--- [24] 2607.07015v1 ---
+Title: EscFOA: Enhancing Spatial Learning for Visually Impaired Learners via Generative Spatial Audio in 360-Degree Educational Environments
+Authors: Ziyu Luo, Xiaowei Dai, Siying Zhu, Xiaoming Chen
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-08
+Summary: Immersive 360-degree educational environments often lack accessible spatial structure, limiting visually impaired learners' ability to orient, explore, and construct mental representations. This paper proposes EscFOA, a geometry-aware spatial audio generation framework designed as an \emph{acoustic scaffolding} to support spatial cognition. By integrating 3D Gaussian Splatting (3DGS) with conditio...
+
+--- [25] 2607.00959v1 ---
+Title: GaussianEmoTalker: Real-Time Emotional Talking Head Synthesis with Audio-Driven and Blendshape-Based 3D Gaussian Splatting
+Authors: Haijie Yang, Zhenyu Zhang, Yixuan Dong, Jianjun Qian, Jian Yang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-01
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A3d+AND+abs%3Aaudio+AND+abs%3Ageneration&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Audio-driven talking head synthesis has achieved impressive progress in lip synchronization and visual quality, yet generating expressive emotional avatars with controllable intensity remains challenging, especially under real-time constraints. In this paper, we present GaussianEmoTalker, an audio-driven framework for real-time emotional talking head synthesis based on 3D Gaussian Splatting. Inste...
+

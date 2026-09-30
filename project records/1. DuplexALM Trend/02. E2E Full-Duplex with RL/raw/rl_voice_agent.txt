@@ -1,0 +1,128 @@
+--- [1] 2609.34461v1 ---
+Title: CharDuplex: Building Character-Consistent Full-Duplex Spoken Dialogue Models
+Authors: Donghang Wu, Yisi Liu, Chen Chen, Hexin Liu, Eng Siong Chng
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech models are moving voice interaction beyond conventional turn-taking, yet natural conversation is shaped not only by when an agent speaks, but also by how it behaves as a conversational character. We present CharDuplex, a character-driven full-duplex speech model that combines real-time spoken interaction with persona-conditioned behavior. We first adapt GLM-4-Voice to an always-...
+
+--- [2] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [3] 2609.31890v1 ---
+Title: FARE: Deep Reinforcement Learning For Fair Exposure Constrained Uncertainty Aware Financial Content Personalization
+Authors: Arundeep Chinta, Lucas Vinh Tran, Jay Katukuri
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.IR
+Published: 2026-09-25
+Summary: Content personalization systems in financial services must ensure fair exposure across diverse offerings-a requirement driven by contractual obligations and the need to prevent "rich-get-richer" dynamics where content with high click-through rate (CTR) dominates while other relevant products receive minimal visibility. Share of Voice (SOV) constraints, which guarantee each content category a targe...
+
+--- [4] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [5] 2605.28272v1 ---
+Title: EchoAvatar: Real-time Generative Avatar Animation from Audio Streams
+Authors: Bohong Chen, Yumeng Li, Yinglin Xu, Youyi Zheng, Yanlin Weng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-27
+Summary: Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively. In this paper, we introduce a novel framework designed to ...
+
+--- [6] 2605.16321v1 ---
+Title: Language Game: Talking to Non-Human Systems
+Authors: Yanbo Zhang, Michael Levin
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-05-05
+Summary: Language carries thought and coordination among humans but rarely reaches further along the spectrum of diverse intelligence. Yet non-neural systems -- from gene regulatory networks and microbial consortia to fungi -- are increasingly recognized as substrates of computation, decision-making and memory, making dialogue with non-human intelligence newly conceivable. Today such dialogue is attempted ...
+
+--- [7] 2604.13804v1 ---
+Title: Character Beyond Speech: Leveraging Role-Playing Evaluation in Audio Large Language Models via Reinforcement Learning
+Authors: Dongjie Fu, Fangming Feng, Xize Cheng, Linjun Li, Zhou Zhao et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-04-15
+Summary: The rapid evolution of multimodal large models has revolutionized the simulation of diverse characters in speech dialogue systems, enabling a novel interactive paradigm. Character attributes are manifested not only in textual responses but also through vocal features, as speech conveys rich paralinguistic information that is challenging to quantify. This poses significant difficulties in evaluatin...
+
+--- [8] 2603.22267v2 ---
+Title: TiCo: Time-Controllable Spoken Dialogue Model
+Authors: Kai-Wei Chang, Wei-Chih Chen, En-Pei Hu, Hung-yi Lee, James Glass
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, eess.AS
+Published: 2026-03-23
+Summary: We introduce TiCo, a time-controllable spoken dialogue model (SDM) that follows time-constrained instructions (e.g., "Please generate a response lasting about 15 seconds") and generates spoken responses with controllable duration. This capability is valuable for real-world spoken language systems such as voice assistants and interactive agents, where controlling response duration can improve inter...
+
+--- [9] 2601.11103v2 ---
+Title: AI Twin: Enhancing ESL Speaking Practice through AI Self-Clones of a Better Me
+Authors: Minju Park, Seunghyun Lee, Juhwan Ma, Dongwook Yoon
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-01-16
+Summary: Advances in AI have enabled ESL learners to practice speaking through conversational systems. However, most tools rely on explicit correction, which can interrupt the conversation and undermine confidence. Grounded in second language acquisition and motivational psychology, we present AI Twin, a system that rephrases learner utterances into more fluent English and delivers them in the learner's vo...
+
+--- [10] 2509.14480v1 ---
+Title: Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents
+Authors: Weiting Tan, Xinghua Qu, Ming Tu, Meng Ge, Andy T. Liu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.MA
+Published: 2025-09-17
+Summary: Effective interactive tool use requires agents to master Tool Integrated Reasoning (TIR): a complex process involving multi-turn planning and long-context dialogue management. To train agents for this dynamic process, particularly in multi-modal contexts, we introduce a sandbox environment for reinforcement learning (RL) that supports interleaved speech-text rollouts. Our core strategy, Turn-level...
+
+--- [11] 2410.23554v1 ---
+Title: Prosody as a Teaching Signal for Agent Learning: Exploratory Studies and Algorithmic Implications
+Authors: Matilda Knierim, Sahil Jain, Murat Han Aydoğan, Kenneth Mitra, Kush Desai et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.HC
+Published: 2024-10-31
+Summary: Agent learning from human interaction often relies on explicit signals, but implicit social cues, such as prosody in speech, could provide valuable information for more effective learning. This paper advocates for the integration of prosody as a teaching signal to enhance agent learning from human teachers. Through two exploratory studies--one examining voice feedback in an interactive reinforceme...
+
+--- [12] 2407.21460v1 ---
+Title: Multi-agent Assessment with QoS Enhancement for HD Map Updates in a Vehicular Network
+Authors: Jeffrey Redondo, Nauman Aslam, Juan Zhang, Zhenhui Yuan
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2024-07-31
+Summary: Reinforcement Learning (RL) algorithms have been used to address the challenging problems in the offloading process of vehicular ad hoc networks (VANET). More recently, they have been utilized to improve the dissemination of high-definition (HD) Maps. Nevertheless, implementing solutions such as deep Q-learning (DQN) and Actor-critic at the autonomous vehicle (AV) may lead to an increase in the co...
+
+--- [13] 2310.11818v1 ---
+Title: IntentDial: An Intent Graph based Multi-Turn Dialogue System with Reasoning Path Visualization
+Authors: Zengguang Hao, Jie Zhang, Binxia Xu, Yafang Wang, Gerard de Melo et al.
+# Total entries: 18
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areinforcement+AND+abs%3Alearning+AND+abs%3Avoice+AND+abs%3Aagent&max_results=25&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2023-10-18
+Summary: Intent detection and identification from multi-turn dialogue has become a widely explored technique in conversational agents, for example, voice assistants and intelligent customer services. The conventional approaches typically cast the intent mining process as a classification task. Although neural classifiers have proven adept at such classification tasks, the issue of neural network models oft...
+
+--- [14] 2310.09362v3 ---
+Title: From Words and Exercises to Wellness: Farsi Chatbot for Self-Attachment Technique
+Authors: Sina Elahimanesh, Shayan Salehi, Sara Zahedi Movahed, Lisa Alazraki, Ruoyu Hu et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.LG
+Published: 2023-10-13
+Summary: In the wake of the post-pandemic era, marked by social isolation and surging rates of depression and anxiety, conversational agents based on digital psychotherapy can play an influential role compared to traditional therapy sessions. In this work, we develop a voice-capable chatbot in Farsi to guide users through Self-Attachment (SAT), a novel, self-administered, holistic psychological technique b...
+
+--- [15] 2206.10249v1 ---
+Title: Incorporating Voice Instructions in Model-Based Reinforcement Learning for Self-Driving Cars
+Authors: Mingze Wang, Ziyang Zhang, Grace Hui Yang
+Primary cat: cs.HC | All cats: cs.HC, cs.CL, cs.CV, cs.LG, cs.SD
+Published: 2022-06-21
+Summary: This paper presents a novel approach that supports natural language voice instructions to guide deep reinforcement learning (DRL) algorithms when training self-driving cars. DRL methods are popular approaches for autonomous vehicle (AV) agents. However, most existing methods are sample- and time-inefficient and lack a natural communication channel with the human expert. In this paper, how new huma...
+
+--- [16] 2006.16498v3 ---
+Title: Accelerating Reinforcement Learning Agent with EEG-based Implicit Human Feedback
+Authors: Duo Xu, Mohit Agarwal, Ekansh Gupta, Faramarz Fekri, Raghupathy Sivakumar
+Primary cat: cs.NE | All cats: cs.NE, cs.LG, eess.SP
+Published: 2020-06-30
+Summary: Providing Reinforcement Learning (RL) agents with human feedback can dramatically improve various aspects of learning. However, previous methods require human observer to give inputs explicitly (e.g., press buttons, voice interface), burdening the human in the loop of RL agent's learning process. Further, it is sometimes difficult or impossible to obtain the explicit human advise (feedback), e.g.,...
+
+--- [17] 1911.06747v1 ---
+Title: Towards Personalized Dialog Policies for Conversational Skill Discovery
+Authors: Maryam Fazel-Zarandi, Sampat Biswas, Ryan Summers, Ahmed Elmalt, Andy McCraw et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC, cs.LG
+Published: 2019-11-15
+Summary: Many businesses and consumers are extending the capabilities of voice-based services such as Amazon Alexa, Google Home, Microsoft Cortana, and Apple Siri to create custom voice experiences (also known as skills). As the number of these experiences increases, a key problem is the discovery of skills that can be used to address a user's request. In this paper, we focus on conversational skill discov...
+
+--- [18] 1106.0241v1 ---
+Title: An Application of Reinforcement Learning to Dialogue Strategy Selection in a Spoken Dialogue System for Email
+Authors: M. A. Walker
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2011-06-01
+Summary: This paper describes a novel method by which a spoken dialogue system can learn to choose an optimal dialogue strategy from its experience interacting with human users. The method is based on a combination of reinforcement learning and performance modeling of spoken dialogue systems. The reinforcement learning component applies Q-learning (Watkins, 1989), while the performance modeling component a...
+

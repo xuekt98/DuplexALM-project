@@ -1,0 +1,3251 @@
+[
+  {
+    "arxiv_id": "2609.09066v1",
+    "title": "A Distributed Consensus Particle Filter for Target Tracking using Autonomous Surface Vessels",
+    "published": "2026-09-08",
+    "summary": "Maritime target tracking over large distances often requires multi-agent teams without centralized coordination, and intermittent communication. Each agent must maintain an independent estimate that can take advantage of opportunistic communications availability when possible. This can lead to overly confident local estimates in the absence of external data. In this work, we propose an augmentatio",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "agent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09059v1",
+    "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games",
+    "published": "2026-09-08",
+    "summary": "While many video-game environments (VGEs) have played crucial roles in advancing reinforcement learning (RL), developing novel VGEs or modifying existing ones to support new features, has been a laborious process requiring extensive hand-coding. Here we present PlayTrain, an RL framework that combines the abilities of large language models (LLMs) to robustly generate JavaScript (JS) games from a m",
+    "primary_cat": "cs.LG | All cats: cs.LG",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "agent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09056v1",
+    "title": "Time-Varying Data as Sheaves: an Invitation to Narratives",
+    "published": "2026-09-08",
+    "summary": "Modern science and engineering increasingly rely on time-varying data, yet the mathematical tools used to model temporal phenomena are often developed within separate disciplines, obscuring common principles and limiting the transfer of ideas across fields. This chapter presents the theory of narratives, an abstract framework for time-varying objects of any mathematical kind that supports both the",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.MA, eess.SY, math.CT",
+    "directions": [
+      "Audio Agentic System",
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "agent_audio",
+      "style_transfer_audio",
+      "timbre_transfer",
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09048v1",
+    "title": "The Audit Decides the Verdict: Instrument Effects Rival Demographic Bias in LLM Decision Audits",
+    "published": "2026-09-08",
+    "summary": "Whether a language model looks demographically biased can depend on how the audit asks its question. A charitable-aid benchmark reports that the same models favor minority applicants when rating requests one at a time and penalize some when ranking side by side. We test whether that reversal generalizes to hiring, lending, and medical triage: 40,726 requests to five models, applications differing",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.CY",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "agent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08977v1",
+    "title": "Omni Interaction Agent Technical Report",
+    "published": "2026-09-08",
+    "summary": "In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD",
+    "directions": [
+      "Audio Agentic System",
+      "Audio IP-Adapter / Style",
+      "Audio Latent Editing",
+      "Audio Reasoning + AIGC",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Spatial Audio Generation",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "agent_audio",
+      "deepfake_detection_audio",
+      "embodied_audio",
+      "latent_audio",
+      "reasoning_audio",
+      "reference_audio",
+      "robotics_audio",
+      "spatial_audio",
+      "streaming_audio",
+      "style_transfer_audio",
+      "tool_audio",
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08965v1",
+    "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+    "published": "2026-09-08",
+    "summary": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which scenario generation, retrieval, modification, ADS execution, and results analysis are performed by separate tools with little interaction. Large Language Model (LLM) agents have sh",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.CL, cs.RO",
+    "directions": [
+      "Audio Agentic System",
+      "Audio Inpainting / Editing"
+    ],
+    "sources": [
+      "agent_audio",
+      "editing_audio",
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08956v1",
+    "title": "TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction",
+    "published": "2026-09-08",
+    "summary": "Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "Audio Agentic System",
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Reasoning + AIGC",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Diffusion Codec",
+      "Spatial Audio Generation",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "agent_audio",
+      "codec_audio",
+      "controlnet_audio",
+      "diffusion_audio",
+      "editing_audio",
+      "embodied_audio",
+      "ip_adapter_audio",
+      "latent_audio",
+      "reasoning_audio",
+      "reference_audio",
+      "robotics_audio",
+      "spatial_audio",
+      "streaming_audio",
+      "style_transfer_audio",
+      "tool_audio",
+      "voice_conversion",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08954v1",
+    "title": "PMMS Allocations Need Not Exist for 3 Agents with Additive Valuations",
+    "published": "2026-09-08",
+    "summary": "This note gives an instance demonstrating that the pairwise maximin share (PMMS) property cannot be satisfied by any allocation in certain fair division problems with indivisible goods and additive valuations. The instance requires only $n=3$ agents and $m=9$ goods, and is accompanied by a proof that no PMMS allocation exists. A separate instance shows (certified by exhaustive enumeration with a c",
+    "primary_cat": "cs.GT | All cats: cs.GT",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "agent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08948v1",
+    "title": "Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection",
+    "published": "2026-09-08",
+    "summary": "The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "Audio Agentic System",
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Reasoning + AIGC",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Diffusion Codec",
+      "Spatial Audio Generation",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "agent_audio",
+      "codec_audio",
+      "controlnet_audio",
+      "diffusion_audio",
+      "distillation_audio",
+      "editing_audio",
+      "embodied_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "latent_audio",
+      "provenance_audio",
+      "reasoning_audio",
+      "reference_audio",
+      "robotics_audio",
+      "spatial_audio",
+      "streaming_audio",
+      "style_transfer_audio",
+      "tool_audio",
+      "voice_conversion",
+      "watermark_audio",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08944v1",
+    "title": "SkillAdam: Stable and Efficient Skill Evolution for Agents",
+    "published": "2026-09-08",
+    "summary": "Agent skills provide a lightweight way to equip frozen language-model agents with domain knowledge and procedural guidance, yet obtaining high-quality skills remains costly and difficult to scale. Expert-written skills require substantial human effort. Recent skill self-evolution methods automate an iterative loop that uses execution feedback to revise skills, but their heuristic update strategies",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "Audio Agentic System",
+      "Audio Inpainting / Editing"
+    ],
+    "sources": [
+      "agent_audio",
+      "editing_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08936v1",
+    "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+    "published": "2026-09-08",
+    "summary": "We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.CL, cs.MM",
+    "directions": [
+      "Audio Agentic System",
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Reasoning + AIGC",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Diffusion Codec",
+      "Spatial Audio Generation",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "agent_audio",
+      "codec_audio",
+      "controlnet_audio",
+      "diffusion_audio",
+      "distillation_audio",
+      "editing_audio",
+      "embodied_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "latent_audio",
+      "provenance_audio",
+      "reasoning_audio",
+      "reference_audio",
+      "robotics_audio",
+      "spatial_audio",
+      "streaming_audio",
+      "style_transfer_audio",
+      "tool_audio",
+      "watermark_audio",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08920v1",
+    "title": "Remotely Detectable Keyed Communication through Motion",
+    "published": "2026-09-08",
+    "summary": "Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio Agentic System",
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Reasoning + AIGC",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Diffusion Codec",
+      "Spatial Audio Generation",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "agent_audio",
+      "codec_audio",
+      "controlnet_audio",
+      "diffusion_audio",
+      "distillation_audio",
+      "editing_audio",
+      "embodied_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "latent_audio",
+      "provenance_audio",
+      "reasoning_audio",
+      "reference_audio",
+      "robotics_audio",
+      "spatial_audio",
+      "streaming_audio",
+      "style_transfer_audio",
+      "tool_audio",
+      "watermark_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08919v1",
+    "title": "Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
+    "published": "2026-09-08",
+    "summary": "Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future behavior through self-evolution. A fundamental challenge is how to transform abundant, task-specific interaction experience into reusable model competence without sacrificing the ability to adapt rapidly to newly observed evidence. Explicit tex",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio Agentic System",
+      "Audio Inpainting / Editing",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "agent_audio",
+      "distillation_audio",
+      "editing_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08887v1",
+    "title": "Q2D-Web: A Large-Scale Benchmark for Retrieval in Agentic RAG Systems",
+    "published": "2026-09-08",
+    "summary": "Evaluating first-stage retrievers in large-scale production RAG requires a benchmark that pairs a large-scale corpus with a large set of agent-reformulated search queries based on real user queries and their conversation threads, and that labels many relevant documents per query. No existing public benchmark evaluates this setting: large-scale collections typically provide only a small number of e",
+    "primary_cat": "cs.IR | All cats: cs.IR, cs.CL",
+    "directions": [
+      "Audio Agentic System",
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "agent_audio",
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08832v1",
+    "title": "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
+    "published": "2026-09-08",
+    "summary": "Large language model (LLM)-powered agents can be accurate on average yet unreliable in production, a discrepancy that has been observed but remains largely unaddressed. When given the same task five times, a ReAct agent on the AppWorld benchmark using GPT-4.1 succeeds in all five runs only 53% of the time, even though its per-run pass rate averages 77%. We call this 24-point shortfall the consiste",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "agent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08802v1",
+    "title": "Graph-Based Safe Reinforcement Learning for Multi-Agent Systems with Time-Varying Topology",
+    "published": "2026-09-08",
+    "summary": "This paper presents a graph-based safe multi-agent reinforcement learning (MARL) framework for cooperative navigation with time-varying topology. To address the critical challenge of ensuring safety in environments with sensing constraints, a safety-decoupled mechanism is introduced through a Control Barrier-Like Function (CBLF) action screening layer. This mechanism bridges the gap between discre",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio Agentic System",
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "agent_audio",
+      "robotics_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08796v1",
+    "title": "Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling",
+    "published": "2026-09-08",
+    "summary": "Multi-agent traffic simulation seeks diverse, coordinated, and physically realistic futures from maps and observed history. Long-horizon closed-loop generation must reconcile multiple decision time scales while its context evolves with generated states. Existing methods often unfold long futures from the initial scene and resolve intent, interaction, and motion monolithically, weakening cross-scal",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.AI",
+    "directions": [
+      "Audio Agentic System",
+      "Audio IP-Adapter / Style",
+      "Audio Latent Editing"
+    ],
+    "sources": [
+      "agent_audio",
+      "latent_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08788v1",
+    "title": "Adaptive Anisotropic Attention for Axis-Structured Signals",
+    "published": "2026-09-08",
+    "summary": "Dense self-attention treats all token pairs as equally plausible before learning, an interaction-isotropic prior that can be mismatched to structured signals. For structured, low signal-to-noise ratio (SNR) signals such as EEG, dependencies are organized along the electrode and time axes, and this uniform prior exposes each token to many irrelevant interactions. We introduce Adaptive Anisotropic A",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI",
+    "directions": [
+      "Audio Agentic System",
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "agent_audio",
+      "codec_audio",
+      "controlnet_audio",
+      "diffusion_audio",
+      "distillation_audio",
+      "editing_audio",
+      "embodied_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "latent_audio",
+      "provenance_audio",
+      "robotics_audio",
+      "streaming_audio",
+      "timbre_transfer",
+      "watermark_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08747v1",
+    "title": "MemSentry: A Framework for Detecting Persistent Memory Poisoning in Agentic AI",
+    "published": "2026-09-08",
+    "summary": "Agentic AI systems with persistent memory introduce a distinct attack surface known as memory poisoning, in which adversarially crafted content is stored in long-term memory and subsequently influences future agent behavior. Such attacks can suppress security alerts, facilitate privilege escalation, alter trust relationships, or override security policies without modifying the underlying model wei",
+    "primary_cat": "cs.CR | All cats: cs.CR",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "agent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08703v1",
+    "title": "TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context",
+    "published": "2026-09-08",
+    "summary": "Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.CL, cs.LG",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "codec_audio",
+      "controlnet_audio",
+      "diffusion_audio",
+      "diffusion_codec",
+      "distillation_audio",
+      "editing_audio",
+      "embodied_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "latent_audio",
+      "provenance_audio",
+      "streaming_audio",
+      "voice_conversion",
+      "watermark_audio",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08542v1",
+    "title": "Spatial Audio Coding Through Relative Room Impulse Response Estimation",
+    "published": "2026-09-08",
+    "summary": "Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "codec_audio",
+      "controlnet_audio",
+      "diffusion_audio",
+      "diffusion_codec",
+      "distillation_audio",
+      "editing_audio",
+      "embodied_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "provenance_audio",
+      "streaming_audio",
+      "voice_conversion",
+      "watermark_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08464v1",
+    "title": "PAPR-Aware Multimodal Token Transmission in MLLM-Based Multiuser Networks",
+    "published": "2026-09-08",
+    "summary": "Task-oriented semantic communication (SemCom) empowered by multimodal large language models (MLLMs) has recently emerged as a promising paradigm for efficiently transmitting multimodal information, yet transmitting token embeddings over OFDM channels faces critical challenges due to hardware impairments, particularly the high peak-to-average power ratio (PAPR) that severely degrades energy efficie",
+    "primary_cat": "eess.SP | All cats: eess.SP",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "codec_audio",
+      "controlnet_audio",
+      "distillation_audio",
+      "editing_audio",
+      "embodied_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "provenance_audio",
+      "streaming_audio",
+      "watermark_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08429v1",
+    "title": "Semantic Refinement of Universal Audio Representations through Audio-Description Alignment",
+    "published": "2026-09-08",
+    "summary": "Universal audio representations must preserve acoustic detail while making high-level concepts accessible across speech, music, environmental sound, and downstream models of different capacities. We study semantic refinement of an acoustically pretrained encoder by adding audio-description alignment to a foundation of BEST-RQ, reconstruction, and CTC. We compare matched control, shuffled-descripti",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "codec_audio",
+      "controlnet_audio",
+      "distillation_audio",
+      "editing_audio",
+      "embodied_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "provenance_audio",
+      "streaming_audio",
+      "watermark_audio",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08390v1",
+    "title": "Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models",
+    "published": "2026-09-08",
+    "summary": "Full-duplex spoken dialogue systems enable simultaneous listening and speaking, but their audio-only perception often fails under background noise and overlapping speech, leading to incoherent responses. Recent audio-visual dialogue approaches show that incorporating visual cues such as lip movements improve robustness under audio corruption. However, existing approaches often adapt the large spee",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, cs.HC",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Watermarking",
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "codec_audio",
+      "controlnet_audio",
+      "distillation_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "provenance_audio",
+      "watermark_audio",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08275v1",
+    "title": "Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation",
+    "published": "2026-09-08",
+    "summary": "Recent multi-shot audio-video generators can produce increasingly coherent and cinematic outputs, but coherence does not imply the ability to execute editing techniques. Professional editing depends on shot structure, transition grammar, audio-video cut relations, and montage, yet existing benchmarks largely rely on proxies such as content quality, synchronization, or physical plausibility, system",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Watermarking",
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "codec_audio",
+      "controlnet_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "watermark_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09097v1",
+    "title": "Junction-free polarity-tunable superconducting diode effect enables XNOR logic operation",
+    "published": "2026-09-08",
+    "summary": "The realization of the superconducting diode effect (SDE), characterized by non-reciprocal supercurrent, is a major step towards dissipationless logic circuits. A polarity-tunable superconducting diode with high diode efficiency primarily consists of Josephson-junction architectures that couple two superconducting regions via a weak link. Realizing an SDE without a weak-link junction would reduce",
+    "primary_cat": "cond-mat.supr-con | All cats: cond-mat.supr-con",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09078v1",
+    "title": "Small-Scale Clustering of Primordial Black Holes: The Little Red Dot Mass Function and the High-Redshift Galaxy Tension",
+    "published": "2026-09-08",
+    "summary": "Supermassive black holes (SMBHs) in \"little red dots\" (LRDs) discovered the James Webb Space Telescope (JWST) may result from runaway mergers of primordial black holes (PBHs) in clusters---through long--short mode coupling on small scales in the early Universe. In this framework, we derive the SMBH mass function, together with the compactness and overmassive features of LRDs. We also estimate that",
+    "primary_cat": "astro-ph.GA | All cats: astro-ph.GA, astro-ph.CO, gr-qc, hep-ph",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09062v1",
+    "title": "Multi-Task Learning for Sparsely-Labeled Time Series: A Case Study on Cold-Hardiness Modeling",
+    "published": "2026-09-08",
+    "summary": "We present a real-world case study of multi-task learning (MTL) for temporal process modeling from limited data with temporally sparse labels. Specifically, we investigate multi-task learning for the important agricultural problem of predicting grape cold hardiness, which is the temperature at which lethal freezing occurs. Cold hardiness changes in response to weather and is difficult to measure d",
+    "primary_cat": "cs.LG | All cats: cs.LG",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09054v1",
+    "title": "Training-Free Task Vectors for LLM Behavioral Control",
+    "published": "2026-09-08",
+    "summary": "Task vectors enable post-training model editing by identifying semantically meaningful directions in weight space, typically computed as the difference between a fine-tuned model and its pretrained initialization. However, this reliance on fine-tuning makes discovering such directions costly and limits the practicality of post-training model editing. To address this limitation, we introduce Traini",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09049v1",
+    "title": "Active galactic nucleus activity in brightest cluster galaxies at intermediate redshifts in Sunyaev-Zel'dovich--selected clusters",
+    "published": "2026-09-08",
+    "summary": "Context. Brightest cluster galaxies (BCGs) host powerful active galactic nuclei (AGNs) and help regulate the heating--cooling balance of the intracluster medium. While radio-mode feedback is well established locally, its prevalence at intermediate redshifts remains poorly constrained. Aims. We investigate the incidence, accretion state, and host-galaxy properties of AGNs in BCGs in Sunyaev--Zel'do",
+    "primary_cat": "astro-ph.GA | All cats: astro-ph.GA",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09044v1",
+    "title": "The Luminosity Function of Ultra-Faint Trans-Neptunian Objects Detected by JWST",
+    "published": "2026-09-08",
+    "summary": "We present a definitive discovery of 27 trans-Neptunian objects (TNOs) using the Near-Infrared Camera (NIRCam) aboard the James Webb Space Telescope (JWST). By employing a shift-and-stack technique and a machine learning network geared specifically to identifying false-positive detections in JWST images produced through the shift-and-stack process, we achieved a 40\\% detection threshold of $m_{F15",
+    "primary_cat": "astro-ph.EP | All cats: astro-ph.EP",
+    "directions": [
+      "Audio Watermarking",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09043v1",
+    "title": "Speed and stability of segregated waves in a pressure-based model of heterogeneous cell populations",
+    "published": "2026-09-08",
+    "summary": "We consider a minimal pressure-based model of heterogeneous cell populations consisting of proliferative and non-proliferative cells with different mobilities. The model is formulated as a system of reaction--cross--diffusion equations describing the spatio-temporal dynamics of the cell densities. The model is known to admit one-dimensional travelling wave solutions with strictly segregated compon",
+    "primary_cat": "math.AP | All cats: math.AP, nlin.PS, q-bio.CB",
+    "directions": [
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "diffusion_audio",
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09016v1",
+    "title": "High-Dimensional Families of Minimal Surfaces of Arbitrary Genus in Round Spheres",
+    "published": "2026-09-08",
+    "summary": "We prove the existence of arbitrarily high-dimensional families of minimal surfaces of any prescribed genus and conformal structure in even-dimensional round spheres. More precisely, let $n\\geq2$ and let $Σ$ be any closed Riemann surface of genus $g$. We construct a sequence of degrees $d_\\ell\\to+\\infty$ such that, for every $\\ell$, there exists a complex manifold of complex dimension $2d_\\ell+n^2",
+    "primary_cat": "math.DG | All cats: math.DG, math.AP, math.CV",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09015v1",
+    "title": "Endothermic dark matter with a light dark photon and the LUX--ZEPLIN high-energy nuclear-recoil candidate",
+    "published": "2026-09-08",
+    "summary": "The LUX-ZEPLIN (LZ) experiment has reported a single nuclear-recoil candidate at $E_{\\rm nr}=248\\pm23_{\\rm stat}\\pm23_{\\rm sys}\\,{\\rm keV}$. We investigate whether this event can be explained by endothermic inelastic dark matter coupled to a kinetically mixed dark photon, while reproducing the observed dark-matter relic abundance. Performing a global scan of the five model parameters, combining an",
+    "primary_cat": "hep-ph | All cats: hep-ph",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09012v1",
+    "title": "Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild",
+    "published": "2026-09-08",
+    "summary": "Spherical observations provide global visual context for 3D scene understanding. However, visual information is encoded in an angular domain, whereas the physical world is represented in Cartesian coordinates. This cross-space representation gap complicates geometric correspondence and semantic evidence aggregation. To delve into this challenge, we introduce Spheriverse, comprising $64,400$ tempor",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.RO, eess.IV",
+    "directions": [
+      "Audio Watermarking",
+      "Spatial Audio Generation",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "deepfake_detection_audio",
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09011v1",
+    "title": "Closed-Form of the Local Galactic Potential and Stellar Distribution Function from Gaia DR3",
+    "published": "2026-09-08",
+    "summary": "The local dark matter density determines the strength of the signal expected in direct-detection experiments, yet published estimates from stellar motions disagree by more than their errors, and the most recent machine-learning analysis of Gaia data finds a local density consistent with zero. According to Jeans' theorem, a distribution function built from integrals of motion satisfies the collisio",
+    "primary_cat": "astro-ph.GA | All cats: astro-ph.GA, astro-ph.IM, cs.LG",
+    "directions": [
+      "Audio Watermarking",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09009v1",
+    "title": "Let It Go or Learn to Self-Correct: Continuous Diffusion for Constrained Discrete Tasks",
+    "published": "2026-09-08",
+    "summary": "Denoising Diffusion Probabilistic Models (DDPMs) generate samples by starting from noise and repeatedly denoising while keeping each update close to the current noisy state. This behavior is effective in many continuous domains, but its role is less clear for globally constrained discrete tasks, such as Sudoku, graph connectivity, Latin squares, and N-queens. In such settings, early discrete error",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI",
+    "directions": [
+      "Audio Reasoning + AIGC",
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "diffusion_audio",
+      "diffusion_codec",
+      "reasoning_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09008v1",
+    "title": "Combined JWST and HST Deep Imaging to Characterize the Smallest Known Trans-Neptunian Objects",
+    "published": "2026-09-08",
+    "summary": "We present optical-near-infrared (NIR) color measurements for small ($\\leq 40$ km) Trans-Neptunian Objects (TNOs) using coordinated and nearly simultaneous observations from the James Webb Space Telescope (JWST) and the Hubble Space Telescope (HST). JWST/NIRCam data provided detections and NIR photometry for faint TNOs, while HST/ACS and WFC3 imaging enabled recovery in the optical, together yield",
+    "primary_cat": "astro-ph.EP | All cats: astro-ph.EP",
+    "directions": [
+      "Audio Watermarking",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09005v1",
+    "title": "DXPR: Depth-Based Vision-LiDAR Cross-Modal Place Recognition Using Vision Foundation Models",
+    "published": "2026-09-08",
+    "summary": "We present DXPR, a depth-based cross-modal place recognition (CMPR) framework that uses vision foundation models (VFMs) to match monocular camera queries against a LiDAR map without modality-specific encoders. This enables robots and autonomous vehicles to robustly localize using only cameras within pre-built LiDAR maps, even under severe seasonal, weather, and illumination changes. The key idea i",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio for Embodied Agents",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "robotics_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09001v1",
+    "title": "Deposon: An Auditable, Conservation-Guaranteed, Game-Theoretically Tested Scattering Layer over LLM Reasoning Paths",
+    "published": "2026-09-08",
+    "summary": "Multi-step LLM reasoning lacks a machine-recheckable ledger: discarded reasoning paths leave no auditable record. We propose the Deposon scattering layer, which binds each node of an LLM-generated concept-decomposition graph to a two-parameter Deposon state; paths undergo three-channel scattering -- transmission, reflection, irreversible dissipation -- obeying T+R+A=1 for arbitrary parameters, wit",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.LG",
+    "directions": [
+      "Audio Reasoning + AIGC",
+      "Audio Watermarking",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "deepfake_detection_audio",
+      "reasoning_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08997v1",
+    "title": "Final-state effects on the transverse-momentum spectra of charged hadrons in $p+Pb$ and $Pb+Pb$ collisions at $\\sqrt {s_{\\rm{NN}}}~=~5.02$~TeV using the modified Tsallis distribution",
+    "published": "2026-09-08",
+    "summary": "The ATLAS Collaboration has reported measurements of the transverse momentum ($p_{\\rm{T}}$) spectra of charged hadrons in proton-proton ($p+p$), proton-lead ($p+Pb$), and lead-lead ($Pb+Pb$) collisions at a nucleon-nucleon center-of-mass energy of $\\sqrt{s_{\\rm{NN}}}~=$~5.02~TeV within the rapidity interval $-2.5<y<2.0$. In the present work, we investigate medium effects on charged-hadron producti",
+    "primary_cat": "hep-ph | All cats: hep-ph",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08987v1",
+    "title": "Exact Phase-Space Rotation in the Trapped Quantum Calogero Model",
+    "published": "2026-09-08",
+    "summary": "We develop a microscopic phase-space description of the quantum Calogero model in the presence of an external harmonic confining potential. Building on the quantum Lax-pair structure, we construct a Hermitian Wigner operator whose expectation value obeys the exact phase-space evolution equation d_t rho + lambda d_x rho - Omega^2 x d_lambda rho = 0 for arbitrary initial states and to all orders in",
+    "primary_cat": "cond-mat.other | All cats: cond-mat.other, cond-mat.stat-mech",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "streaming_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08981v1",
+    "title": "Transformers as In-Context Samplers: From Closed-Form Diffusion to Estimation-Free Sampling",
+    "published": "2026-09-08",
+    "summary": "A growing body of work establishes that large language models are not mere statistical memorizers, but are capable of in-context learning: performing inference at test time using only examples provided in the prompt, without any parameter updates. Prior theoretical work has shown that this capability extends to supervised learning tasks such as linear regression. We prove that in-context learning",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI, stat.AP, stat.CO, stat.ML",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "diffusion_audio",
+      "diffusion_codec",
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08979v1",
+    "title": "TEMPUS: Relativistic coordinate time scales for any solar-system body from arbitrary ephemerides",
+    "published": "2026-09-08",
+    "summary": "Precise time-scale transformations between solar-system bodies are an essential requirement for deep-space science and solar system navigation. The post-Newtonian relativistic expression relating a body-centered coordinate time TCX to the Barycentric Coordinate Time TCB depends on the gravitational environment and velocity of the target body, and must be evaluated consistently with the chosen plan",
+    "primary_cat": "astro-ph.EP | All cats: astro-ph.EP",
+    "directions": [
+      "Audio Agentic System",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "consistency_audio",
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08899v1",
+    "title": "From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection",
+    "published": "2026-09-08",
+    "summary": "Speech deepfakes can mimic a speaker's voice convincingly enough to deceive listeners and automated systems. This has driven strong progress in speech deepfake detection, but most detectors still end with one score per utterance. That score is useful for ranking systems, yet it says little about why a borderline item should be trusted, deferred, or reviewed. Two utterances can fall in the same sco",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.CL, eess.AS",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Latent Editing",
+      "Audio Reasoning + AIGC",
+      "Audio Watermarking",
+      "Audio for Embodied Agents",
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "controlnet_audio",
+      "embodied_audio",
+      "ip_adapter_audio",
+      "latent_audio",
+      "provenance_audio",
+      "reasoning_audio",
+      "reference_audio",
+      "robotics_audio",
+      "spatial_audio",
+      "style_transfer_audio",
+      "voice_conversion",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08795v1",
+    "title": "Interpreting Dolphin Vocal Sequences via Multiple Sequence Alignment",
+    "published": "2026-09-08",
+    "summary": "Dolphin communication understanding is essential for uncovering the linguistic complexity and social structures of wild pods. We adapt the ClustalW bioinformatics algorithm to analyze continuous acoustic data, treating vocalizations as high-dimensional spectral feature vectors. By replacing discrete scoring with a continuous Gaussian kernel similarity measure, our framework generates Multiple Sequ",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Latent Editing",
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "controlnet_audio",
+      "embodied_audio",
+      "ip_adapter_audio",
+      "latent_audio",
+      "robotics_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08587v1",
+    "title": "Rescuing Performance from the Demo: Co-Designing Drum Gesture Mappings with a Percussionist",
+    "published": "2026-09-08",
+    "summary": "Augmenting instruments with sensors and neural network mappings is a well-explored digital musical instrument design approach. While augmentations can create new expressive opportunities, they also exert aesthetic influence and can constrain musicians' gestural language, which, if left unchecked, can lead to technological capture. To examine this, we conducted a study with a professional percussio",
+    "primary_cat": "cs.HC | All cats: cs.HC, cs.SD, eess.AS",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Latent Editing",
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "controlnet_audio",
+      "embodied_audio",
+      "ip_adapter_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08422v1",
+    "title": "Beyond Localisation Accuracy: Sensorimotor Effects of HRTF Individualisation",
+    "published": "2026-09-08",
+    "summary": "Everyday listening requires the brain to integrate cues from the body, environment, other senses, and movement, continuously translating auditory information into action. Yet HRTF individualisation is still commonly assessed through localisation accuracy, which may not fully capture its effects on this sensorimotor process. Here, we investigate whether these effects can instead be revealed through",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Latent Editing",
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "controlnet_audio",
+      "embodied_audio",
+      "ip_adapter_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08204v1",
+    "title": "Stabilizing Instruction Supervision for Instruct-TTS via Controllable Diversification and Drift Filtering",
+    "published": "2026-09-08",
+    "summary": "Instruct-TTS systems expand structured style labels into natural-language training instructions through LLM rewriting, yet we find that over 40% of unconstrained rewrites contain semantic drift that corrupts supervision and weakens generalization. We formalize this problem as instruction supervision instability and propose a data-centric stabilization recipe that jointly improves coverage and fide",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Latent Editing",
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "controlnet_audio",
+      "ip_adapter_audio",
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08147v1",
+    "title": "ConversationalVoice: Full-Duplex Speech Data from Real Conversations through Source-Faithful Reconstruction and Conversation-Grounded Expansion",
+    "published": "2026-09-08",
+    "summary": "Full-duplex speech models require training data that preserves turn-taking, overlap, interruption, and backchannel behavior, yet these signals are entangled across speakers in noisy real-world recordings. We present Conversational Voice, a pipeline that converts real two-speaker excerpts into three complementary training-data artifacts. (1) Separation recovers speaker-specific tracks with stable s",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.SD, eess.AS",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Latent Editing",
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "controlnet_audio",
+      "ip_adapter_audio",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09086v1",
+    "title": "Hierarchical Inference of the Supermassive Black Hole Binary Merger Rates from Joint Searches using Pulsar Timing Arrays",
+    "published": "2026-09-08",
+    "summary": "Gravitational-wave searches do more than identify individual sources - they provide a way to infer the underlying astrophysical populations that produce them. Currently, Pulsar Timing Arrays (PTAs) constrain the supermassive black-hole binary (SMBHB) merger-rate density through both the stochastic gravitational-wave background (SGWB) and searches for individual SMBHB signals. The latter implies co",
+    "primary_cat": "astro-ph.HE | All cats: astro-ph.HE, astro-ph.IM, gr-qc",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09083v1",
+    "title": "Breaking binary formation mechanism degeneracies with gravitational wave clustering",
+    "published": "2026-09-08",
+    "summary": "Thanks to the almost 400 gravitational wave events detected, we are currently able to grasp the fundamental features of black hole mass, spin, and distance distributions. However, such a fast increase in the precision of the measurements does not necessarily correspond to a better theoretical understanding of gravitational wave sources, especially in current scenarios where the number of free para",
+    "primary_cat": "gr-qc | All cats: gr-qc, astro-ph.CO",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09075v1",
+    "title": "ThinkPrior: Zero-Rollout Difficulty Priors for Cold-Start Prompt Selection in RLVR",
+    "published": "2026-09-08",
+    "summary": "In reinforcement learning with verifiable rewards (RLVR) trained with group relative policy optimization (GRPO), the KL-free reward-advantage term studied here depends on within-group reward variation. If all rollouts in a group are correct or all are wrong, their group-relative advantages are identically zero; these zero-advantage silent groups provide no reward-advantage gradient, yet uniform sa",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09064v1",
+    "title": "Parity and Pattern Detection in Permutation Streams",
+    "published": "2026-09-08",
+    "summary": "Consider a permutation of $[n]$ whose values arrive one at a time. We resolve two questions about the space needed to decide natural properties of such input: First, computing the parity of the permutation requires $Θ(n)$ bits, even with randomization and constant error, and a constant number of passes. Second, every permutation pattern of length three can be detected deterministically in one pass",
+    "primary_cat": "cs.DS | All cats: cs.DS",
+    "directions": [
+      "Audio Watermarking",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "deepfake_detection_audio",
+      "streaming_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09038v1",
+    "title": "Do Reasoning Representations Help Humans Evaluate LLM Outputs?",
+    "published": "2026-09-08",
+    "summary": "Reasoning representations are increasingly used as explanations for large language model outputs. Yet they are typically evaluated with model-centric criteria, such as answer accuracy and faithfulness, leaving it unclear whether they help people evaluate model responses. In this work, we study reasoning representations as human-facing interfaces rather than proxies for model reasoning ability. We",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.HC",
+    "directions": [
+      "Audio Reasoning + AIGC",
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "deepfake_detection_audio",
+      "reasoning_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09028v1",
+    "title": "Detection of episodic Ultra-fast Outflows in the Low-luminosity quasar Mrk 205 using XMM-Newton data",
+    "published": "2026-09-08",
+    "summary": "Ultra-fast outflows (UFOs) from Active Galactic Nuclei (AGN) are winds which reach velocities up to 0.3c, and show mass outflow rates of 0.01-1 $M_{\\odot} yr^{-1}$ and kinetic energies of $10^{42-45}$ erg/s. Their extreme properties allow UFOs to carry substantial kinetic power, sufficient to drive AGN feedback by injecting energy and momentum into the interstellar medium, regulating the host gala",
+    "primary_cat": "astro-ph.HE | All cats: astro-ph.HE, astro-ph.GA",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09025v1",
+    "title": "Task-driven Processing with Coarse-to-Fine Glimpse-based Active Perception",
+    "published": "2026-09-08",
+    "summary": "State-of-the-art vision models process images in their entirety, lacking the ability to selectively zoom in on relevant regions. This limitation is particularly acute in scenarios where processing must be conditioned on a specific task - such as instance detection, which requires localizing a specific object in a high-resolution, cluttered scene. In such settings, critical details are easily lost",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09002v1",
+    "title": "Factorized and Vectorized Execution: Optimizing Analytical and Semantic Queries over Relations",
+    "published": "2026-09-08",
+    "summary": "Many-to-many joins are central to analytical and semantic workloads such as fraud detection, network analysis, and recommendation, where insights arise from relationships between entities. These workloads often suffer from an explosion of intermediate results, sometimes orders of magnitude larger than the inputs. Factorized representations address this problem by exploiting conditional independenc",
+    "primary_cat": "cs.DB | All cats: cs.DB",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09000v1",
+    "title": "Intelligent Fault and Lightning Detection Algorithm for VSC-MTDC grids based on ResNet with Hybrid Attention Mechanism",
+    "published": "2026-09-08",
+    "summary": "To address the existing challenges in fault detection for voltage source converter-based multi-terminal DC (VSC-MTDC) grids, this paper proposes an intelligent fault and lightning detection algorithm based on S transform and Residual Network with hybrid attention mechanism (RWHAM).The DC line double-ended initial current traveling waves (ICTWs) are first converted into time-frequency matrices by p",
+    "primary_cat": "eess.SY | All cats: eess.SY",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08989v1",
+    "title": "TARTARUS: A High-Performance Python Code for Ray Tracing in Curved Spacetimes",
+    "published": "2026-09-08",
+    "summary": "The recent observations of the supermassive black holes M87* and Sagittarius A* by the Event Horizon Telescope collaboration (EHT) have shown the need for robust, efficient, and accessible numerical tools to model light propagation in strongly curved spacetimes. Comparing theoretical accretion models with observational data relies heavily on ray-tracing algorithms that calculate the trajectories o",
+    "primary_cat": "gr-qc | All cats: gr-qc, astro-ph.IM",
+    "directions": [
+      "Audio Agentic System",
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "deepfake_detection_audio",
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08973v1",
+    "title": "Restart and first detection in a lackadaisical quantum walk with flat-band localization",
+    "published": "2026-09-08",
+    "summary": "We study stochastic and sharp restart in a one-dimensional lackadaisical discrete-time quantum walk with self-loop weight $\\ell$. In the absence of restart, the dynamics has a flat band responsible for intrinsic localization and two dispersive bands supporting ballistic propagation. We compare two initially localized benchmark states: a flat-band-active state with finite flat-band overlap and a fl",
+    "primary_cat": "quant-ph | All cats: quant-ph, cond-mat.stat-mech",
+    "directions": [
+      "Audio Watermarking",
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "deepfake_detection_audio",
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08970v1",
+    "title": "GraphFAS: A Distributed System for Automated Graph Feature Generation and Selection in Industrial Transaction Networks",
+    "published": "2026-09-08",
+    "summary": "Industrial fraud detection often relies on costly expert-crafted features that overlook graph-structured relational signals, while GNNs often do not meet the interpretability and deployment requirements of financial risk control. We propose GraphFAS (Graph Feature Automated Selection), a distributed feature selection procedure based on Boruta that bridges this gap through: (1) a non-parametric gra",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI, cs.DC",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "deepfake_detection_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08958v1",
+    "title": "Model Predictive Control of Tensegrity Robots via Contact-Aware Graph Neural Dynamics Model",
+    "published": "2026-09-08",
+    "summary": "Tensegrity robots offer lightweight, compliant mobility over challenging terrain but remain difficult to model and control due to complex contact-rich dynamics and partial observability. This work presents a model predictive path integral (MPPI) controller for a three-bar tensegrity robot driven by a learned graph neural network (GNN) dynamics model. This work first extends prior GNN-based models",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio Reasoning + AIGC",
+      "Audio Watermarking",
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "deepfake_detection_audio",
+      "reasoning_audio",
+      "robotics_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09100v1",
+    "title": "Weak synchronisation for McKean--Vlasov SDEs",
+    "published": "2026-09-08",
+    "summary": "Synchronisation by noise for McKean--Vlasov stochastic differential equations is investigated. A transfer principle is introduced by which synchronisation by noise and diagonal mixing can be transferred from an associated limiting frozen-diffusion SDE to a genuinely law-dependent McKean--Vlasov SDE. The usefulness of this principle is demonstrated through an application to ensemble Kalman sampling",
+    "primary_cat": "math.PR | All cats: math.PR",
+    "directions": [
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "diffusion_audio",
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08976v1",
+    "title": "Water, vacancies, and competing exchange interactions in Prussian blue analogues: a neutron diffraction study of field and dehydration-driven magnetic transitions",
+    "published": "2026-09-08",
+    "summary": "We report a neutron diffraction study of the structural and magnetic properties of a family of ferro- and ferrimagnetic Prussian blue analogues (PBAs), $A_4$[Fe(CN)$_6$]$_{2.7}$ ($A$ = Co, Mn, Ni), Rb$_2$Ni$_4$[Fe(CN)$_6$]$_{3.3}$, and Mn$_4$[Cr(CN)$_6$]$_{2.7}$, as a function of temperature (2--450~K) and applied magnetic field. All bimetallic compounds of the Fm$\\overline{3}$m family exhibit a b",
+    "primary_cat": "cond-mat.mtrl-sci | All cats: cond-mat.mtrl-sci, cond-mat.other",
+    "directions": [
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "diffusion_audio",
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08969v1",
+    "title": "Singular Turing bifurcations and spatial canard solutions in nonlinear reaction-diffusion systems",
+    "published": "2026-09-08",
+    "summary": "We study a general class of nonlinear reaction-diffusion equations that model pattern-forming systems. The class includes the Gierer-Meinhardt PDE, Brusselator model, and van der Pol PDE, as well as the Gray-Scott, Klausmeier, Lengyel-Epstein, Schnakenberg PDEs and others of activator-inhibitor type. In the limit in which the activator diffusivity is much smaller than that of the inhibitor, these",
+    "primary_cat": "math.DS | All cats: math.DS",
+    "directions": [
+      "Diffusion Codec",
+      "Spatial Audio Generation",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "diffusion_audio",
+      "diffusion_codec",
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08872v1",
+    "title": "Strong convergence rates of tamed exponential Euler schemes for superlinear hyperbolic SPDEs",
+    "published": "2026-09-08",
+    "summary": "In this paper, we prove pathwise uniform convergence at rates up to $1/2$ for tamed exponential Euler schemes for semilinear hyperbolic stochastic evolution equations with superlinearly growing nonlinearities and multiplicative noise. We take the term hyperbolic to mean that the leading operator generates a contractive $C_0$-semigroup but no parabolic smoothing occurs. Under local Lipschitz, polyn",
+    "primary_cat": "math.NA | All cats: math.NA, math.AP, math.FA, math.PR",
+    "directions": [
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "diffusion_audio",
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08870v1",
+    "title": "Stochastic Processes as Non-Metric Geodesics in Information Geometry",
+    "published": "2026-09-08",
+    "summary": "We establish a one-to-one correspondence between geodesics associated with the one-parameter family of $α$-connections on the Gaussian statistical manifold and a class of continuous stochastic processes characterized by a time-independent noise intensity. We demonstrate that geodesics in expectation parameters naturally classify into three distinct geometric categories, among which the Boundary-co",
+    "primary_cat": "cond-mat.stat-mech | All cats: cond-mat.stat-mech, math-ph",
+    "directions": [
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "diffusion_audio",
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08780v1",
+    "title": "Structure-Informed Bayesian Inference of Anomalous Transport and Hidden Molecular Trapping in Amorphous Media",
+    "published": "2026-09-08",
+    "summary": "Molecular diffusion in fluctuating amorphous and macromolecular media governs key transport processes across soft-matter physics, energy storage, and biological membranes. Extracting localized trapping states from single-particle tracking trajectories remains a fundamental challenge; because thermal structural breathing continuously reconfigures pore boundaries, conventional geometric algorithms s",
+    "primary_cat": "physics.comp-ph | All cats: physics.comp-ph, cond-mat.soft, physics.chem-ph, stat.AP",
+    "directions": [
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "diffusion_audio",
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08753v1",
+    "title": "A Two-Parameter Framework for the Diffuse Supernova Neutrino Background",
+    "published": "2026-09-08",
+    "summary": "Following important experimental developments, tests of the Diffuse Supernova Neutrino Background (DSNB) are entering a new phase that might lead to a discovery. This motivates the development of simple and broadly applicable tools for comparing theoretical predictions and interpreting experimental results. We show that, over the energy range relevant to current detectors, the DSNB is well describ",
+    "primary_cat": "astro-ph.HE | All cats: astro-ph.HE, hep-ph, nucl-th",
+    "directions": [
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "diffusion_audio",
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08732v1",
+    "title": "Shape optimization of light structures with general Hooke's laws",
+    "published": "2026-09-08",
+    "summary": "For the minimum-compliance shape optimization problem it was established recently [\\textit{Duke Math.\\ J.} 172 (2023), 43--103] that a sequence of approximately optimal shapes of exact volume \\(\\e\\) converges to a limiting generalized shape, which is represented by a possibly diffuse probability measure, as \\(\\e \\todown 0\\). This generalized shape minimizes the so-called light-structures complianc",
+    "primary_cat": "math.AP | All cats: math.AP",
+    "directions": [
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "diffusion_audio",
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08597v1",
+    "title": "The Hidden Cost of Alloying: Disorder-Driven Transport Collapse in TMDs",
+    "published": "2026-09-08",
+    "summary": "Alloying in two dimensional semiconductors is widely used to tune bandgaps, yet its implications for charge and energy transport remain poorly understood. Here, we investigate MoS2xSe2(1-x) alloys as a model system to study the interplay between composition, thickness, and disorder. Optical transitions and valence band dispersions evolve continuously with both stoichiometry and number of layers, w",
+    "primary_cat": "cond-mat.mtrl-sci | All cats: cond-mat.mtrl-sci",
+    "directions": [
+      "Diffusion Codec",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "diffusion_audio",
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09020v1",
+    "title": "PIC: Revisiting INR for Image Coding with Fast Encoding and Sub-Millisecond Decoding",
+    "published": "2026-09-08",
+    "summary": "Implicit neural representation (INR) has achieved remarkable progress in novel view synthesis and image/video coding in recent years.Compared to conventional end-to-end image codecs, INR-based compressors demonstrate significant advantages in decoding complexity. However, their practical application has been hindered by the inferior encoding speed and underutilized decoding efficiency.In this work",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08521v1",
+    "title": "Hot QCD: transport coefficients in strong and weak coupling regimes",
+    "published": "2026-09-08",
+    "summary": "We evaluate the transport coefficients, namely the shear viscosity $η$ and the spatial diffusion coefficient of heavy quarks $D_s$, within a Quasi-Particle Model (QPM). In particular, for the first time this has been done by exploiting novel lQCD data at $N_f=3+1$. In such a framework, in which the gluons are massive, the interactions among quarks and gluons have been evaluated via the scattering",
+    "primary_cat": "hep-ph | All cats: hep-ph",
+    "directions": [
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08517v1",
+    "title": "Concept-Level Risk and Calibration for Governance in Diffusion Foundation Models",
+    "published": "2026-09-08",
+    "summary": "Diffusion models have become a core paradigm for multimedia generation, offering powerful concept-driven controllability for personalization, semantic editing, and selective unlearning. However, as semantic control extends beyond natural-language prompts to learned embeddings and intervention pipelines, the safety and governance of these systems become increasingly difficult to evaluate in a unifi",
+    "primary_cat": "cs.MM | All cats: cs.MM",
+    "directions": [
+      "Audio Inpainting / Editing",
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "diffusion_codec",
+      "editing_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08505v1",
+    "title": "Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance",
+    "published": "2026-09-08",
+    "summary": "Reliable video generation requires more than high-quality frames to form a coherent story: a model must maintain a persistent state, transporting visual attributes such as identity, scene layout, motion, and fine details across time. Existing training-free methods mainly strengthen cross-frame attention or analyze local attention entropy, but these views do not reveal whether temporal interactions",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.LG",
+    "directions": [
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08502v1",
+    "title": "Computational analysis and performance optimization of SrScCu3Se4-based solar cells using COMSOL Multiphysics",
+    "published": "2026-09-08",
+    "summary": "Transition metal-based quaternary semiconductors show strong magneto-optical and thermoelectric properties, yet their photovoltaic performance in realistic three-dimensional device architectures remains underexplored. In this work, we investigate a n-ZnSe/p-SrScCu3Se4/p+-WSe2 quaternary chalcogenide heterostructure using three-dimensional finite-element simulations in COMSOL Multiphysics. The mode",
+    "primary_cat": "physics.optics | All cats: physics.optics",
+    "directions": [
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "diffusion_codec"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08798v1",
+    "title": "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
+    "published": "2026-09-08",
+    "summary": "Weak-to-strong generalization asks whether stronger models can learn from weaker supervisors and surpass them. This question is particularly important for successive model generations and multi-domain consolidation, where repeating frontier-scale post-training from scratch can be prohibitively expensive. Yet conventional distillation treats the weak teacher as an optimization target, potentially i",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.CL",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "distillation_audio",
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08763v1",
+    "title": "ZK-Trace: Certified Collusion Tracing with Zero-Knowledge Credentials for Federated GNSS Interference Monitoring",
+    "published": "2026-09-08",
+    "summary": "Federated global navigation satellite system (GNSS) monitoring distributes a proprietary classifier to partly trusted stations, any of which may leak its copy. ZK-Trace combines public identity marks, recipient-specific Tardos fingerprints, and zero-knowledge credential verification. The registry supports offline tracing without the leaker's cooperation. We establish conditional false-accusation b",
+    "primary_cat": "cs.CR | All cats: cs.CR, cs.LG",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "distillation_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08638v1",
+    "title": "CASD: Chunk-Aligned Semantic Distillation for Multi-StageRobot Manipulation",
+    "published": "2026-09-08",
+    "summary": "An action chunk can span several stages of a manipulation task, yet a label for its first step describes only the current stage. We introduce Chunk-Aligned Semantic Distillation (CASD), which derives semantic targets for entire action chunks. An offline vision--language model segments demonstrations into described stages. Their occupancy within each action chunk determines a weighted semantic targ",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.AI",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "distillation_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08482v1",
+    "title": "A Foundation Model for Large-Scale Wireless Network Planning , Operation and Optimization",
+    "published": "2026-09-08",
+    "summary": "Wireless cellular networks provide critical infrastructure for communication, transportation and industry, making reliable connectivity essential to modern society. Delivering this connectivity requires accurate models of the radio environment shaped jointly by network infrastructure and their surroundings. Such models underpin base-station deployment, network operation and parameter optimization,",
+    "primary_cat": "eess.SP | All cats: eess.SP",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "distillation_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08449v1",
+    "title": "GSComplete: Gaussian Splat Completion with 2D Diffusion Priors",
+    "published": "2026-09-08",
+    "summary": "Gaussian splats provide a fast, high-fidelity representation for 3D objects but are often constructed from incomplete input data in practice, leaving missing regions. Existing completion methods either do not preserve the original splats or require scarcely available 3D training data. We propose GSComplete, which combines 3D generation based on Score Distillation Sampling with a novel preservation",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "distillation_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08368v1",
+    "title": "Miles v0.1: Production-Level Post-Training",
+    "published": "2026-09-08",
+    "summary": "We present Miles v0.1, a full-stack, production-ready system for frontier post-training. Building upon the clean design of slime, Miles designs each stage of the reinforcement-learning (RL) training loop around a single principle: components should be verified, clean, and customizable. With accuracy, efficiency, reliability, and scalability as first-class goals, Miles aims to make frontier-scale R",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.CL",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "distillation_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08365v1",
+    "title": "ReMoMask-2: Latent Retrieval-Augmented Masked Motion Generation",
+    "published": "2026-09-08",
+    "summary": "Text-to-motion (T2M) generation maps natural language to human joint movements, aiding gaming, VR, and robotics. Retrieval-Augmented Text-to-Motion (RAG-T2M) improves generation on complex descriptions by conditioning on retrieved motion-text pairs. However, existing RAG-T2M models face two challenges: coarse-grained retrieval and fusion mechanisms overlook the hierarchical, spatial-temporal topol",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "distillation_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08341v1",
+    "title": "TV-Regulated OPD: Direction Matters in On-Policy Distillation",
+    "published": "2026-09-08",
+    "summary": "On-Policy Distillation (OPD) facilitates the transfer of knowledge from domain expert to student in the post-training phase of Large Language Models (LLMs). However, the supervision signals in mainstream OPD methods suffer from high variance and noise which is generally instable during training. In this work, we systematically investigated what really matters to the performance and the fundamental",
+    "primary_cat": "cs.LG | All cats: cs.LG",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "distillation_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08337v1",
+    "title": "Distillation as Probability Transport: Routed On-Policy Distillation",
+    "published": "2026-09-08",
+    "summary": "On-policy distillation (OPD) transfers teacher knowledge on student-generated trajectories, but efficient sampled objectives reduce the teacher distribution to scalar credit on individual tokens. Such credit indicates whether a token should gain or lose probability, yet leaves the corresponding redistribution unspecified. We recast OPD as teacher-guided probability transport and propose RouteOPD (",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.CL",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "distillation_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08855v1",
+    "title": "Earth System World Model for What-If Simulations: A Case Study for Terrestrial Ecosystems",
+    "published": "2026-09-08",
+    "summary": "Machine learning emulators have become essential for accelerating expensive Earth-system simulations, but most existing approaches remain passive forecasters: they reproduce simulator trajectories under prescribed forcings without an explicit interaction mechanism for user-specified interventions. This limits their use in interactive scientific workflows and Earth-system digital twins, where users",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI",
+    "directions": [
+      "Audio Inpainting / Editing"
+    ],
+    "sources": [
+      "editing_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08722v1",
+    "title": "Inverse Digital Marbling: Recovering Gesture Programs with a Replay Adjoint",
+    "published": "2026-09-08",
+    "summary": "Pigment deposition in paper marbling displaces the pattern already present, coupling the appearance of each gesture to later actions. We recover executable programs for a deposition-based digital marbling model: given a target image, we optimise an ordered program of capsule insertions whose replay approximates it. The capsule primitive continuously joins circular drops to elongated deposits. Its",
+    "primary_cat": "cs.GR | All cats: cs.GR, cs.CV",
+    "directions": [
+      "Audio Inpainting / Editing"
+    ],
+    "sources": [
+      "editing_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08657v1",
+    "title": "Charts Are Beyond Pixels: Probing for Layer-Wise Chart Understanding and Editing",
+    "published": "2026-09-08",
+    "summary": "Charts are structured visual compositions whose elements have distinct functional roles, semantic correspondences, and visibility relations. This structural view motivates evaluating whether models can understand and manipulate charts at the layer level. Existing chart benchmarks, however, primarily assess the correctness or fidelity of final outputs and do not directly evaluate these layer-wise b",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.LG",
+    "directions": [
+      "Audio Inpainting / Editing"
+    ],
+    "sources": [
+      "editing_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08508v1",
+    "title": "WiDiff: Extracting Changes from Wikidata's Edit History",
+    "published": "2026-09-08",
+    "summary": "Knowledge graphs have become a key resource for integrating heterogeneous data and powering downstream tasks such as question answering, entity linking, and semantic search. They are built and maintained incrementally, either (i) fully automated, e.g., YAGO, (ii) semiautomatically with community oversight, e.g., DBpedia, or (iii) manually through collaborative editing, e.g., Wikidata. Understandin",
+    "primary_cat": "cs.DB | All cats: cs.DB",
+    "directions": [
+      "Audio Inpainting / Editing",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "editing_audio",
+      "streaming_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08503v1",
+    "title": "TSBench: A physics-grounded benchmark for evaluating LLM understanding of chemical reaction mechanisms",
+    "published": "2026-09-08",
+    "summary": "Understanding a chemical reaction requires mapping a symbolic reactant-product description onto the three-dimensional pathway through which atoms rearrange, yet chemistry benchmarks for large language models (LLMs) largely probe factual knowledge and text-based reasoning. Here we introduce TSBench, a benchmark in which an LLM agent uses structure-editing tools to construct three-dimensional transi",
+    "primary_cat": "physics.chem-ph | All cats: physics.chem-ph",
+    "directions": [
+      "Audio Inpainting / Editing"
+    ],
+    "sources": [
+      "editing_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08459v1",
+    "title": "Detecting Authorship in Political Texts with Inductive Stylometry",
+    "published": "2026-09-08",
+    "summary": "Political texts are rarely authored by the nominal speaker alone. Tweets, speeches, reports, and official statements are drafted, edited, or harmonized by staff, yet political science has paid limited attention to the stylistic traces these hidden authors leave behind. This paper develops and stress-tests an inductive stylometric approach for recovering latent authorship structure in political com",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio Inpainting / Editing",
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "editing_audio",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08743v1",
+    "title": "FOCI Policy: Focus on Object-Centric Interactions for Relational Manipulation Policies",
+    "published": "2026-09-08",
+    "summary": "Object-centric manipulation policies improve generalization by modeling object motion instead of directly predicting robot actions. However, existing methods are often limited by representations which are either too simplistic to capture interaction dynamics or too dense to learn efficiently. We observe that many rigid relational manipulation tasks are governed by short interaction phases where th",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "embodied_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08673v1",
+    "title": "BIFTA: Brain-Inspired Few-Shot Tactile Adaptation for Unknown Sensors",
+    "published": "2026-09-08",
+    "summary": "Advances in tactile sensing have made contact-rich perception possible, accelerating progress in robotic manipulation, material understanding, and embodied interaction. However, because optical design, elastomer mechanics, and imaging geometry differ substantially across tactile sensors, models trained on known sensor types can suffer an abrupt performance collapse on unknown sensors. To address t",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.AI",
+    "directions": [
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "embodied_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08602v1",
+    "title": "CLAMP: Constrained Decoding for Vision-Language Embodied Planning",
+    "published": "2026-09-08",
+    "summary": "Embodied planning increasingly relies on vision-language models (VLMs) to translate instructions and visual observations into executable action sequences. However, fluent plans are not always executable. A VLM may refer to objects that are not visually observed, select actions whose required affordances are unavailable, or violate syntax and action constraints. We introduce CLAMP, a multimodal con",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "embodied_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08490v1",
+    "title": "Multi-bounce Drum Roll with Optimized Active Tricks to Leverage Soft Embodiment",
+    "published": "2026-09-08",
+    "summary": "This paper presents a soft robotic drummer for accurate and efficient drum rolls. High-frequency drum rolls require the \"multi-bounce technique,\" where a drumstick bounces multiple times with a single stroke. In robotic reproduction of this technique, the body's elasticity is key, while the fine motion during the stroke is also crucial for maximizing the potential of that elasticity. Therefore, we",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "embodied_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08444v1",
+    "title": "Safe Task Planning with Long-Term Graph Memory for Embodied Agents",
+    "published": "2026-09-08",
+    "summary": "Large language models (LLMs) and vision-language models (VLMs) have significantly advanced zero-shot task planning for embodied agents. However, most LLM- and VLM-driven methods struggle to generate safe high-level actions due to a lack of physical risk awareness, particularly under partial observability, where hazards lie outside the immediate field of view. To address this challenge, we propose",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "embodied_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08387v1",
+    "title": "Risk-Aware Generative Inpainting for Optimized Design Editing of EV Battery Cooling Channels",
+    "published": "2026-09-08",
+    "summary": "Cooling-channel layouts for electric-vehicle battery packs must deliver temperature uniformity and low pressure drop while maintaining a single continuous channel. In late-stage design, local modification is a practical way to improve performance while retaining established global features. Diffusion-based inpainting supports such local edits, but its stochastic nature produces different outcomes",
+    "primary_cat": "cs.CE | All cats: cs.CE",
+    "directions": [
+      "Audio Inpainting / Editing"
+    ],
+    "sources": [
+      "inpainting_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09076v1",
+    "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+    "published": "2026-09-08",
+    "summary": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions. We study this as Actionable Peer-review Generation and decompose it into two subtasks: diagnostic claim generation and revision suggestion generation. We introduce ActReview, a rebuttal-guided post-training framewo",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio Latent Editing"
+    ],
+    "sources": [
+      "latent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09021v1",
+    "title": "Linearly Constrained Generalized Linear Models with Applications in Origin-Destination Estimation",
+    "published": "2026-09-08",
+    "summary": "We show that data censored by linear constraints can be fit within the generalized linear model (GLM) framework, recovering the expected latent counts together with their uncertainty in a single Fisher-scoring procedure. Our motivating application is origin-destination (OD) estimation in transportation studies, where the latent data are the OD trip demands and constraints are either origin and des",
+    "primary_cat": "stat.ME | All cats: stat.ME",
+    "directions": [
+      "Audio Latent Editing"
+    ],
+    "sources": [
+      "latent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09010v1",
+    "title": "A Joint 2D-3D Statistical Shape Model for Orthopedic Reconstruction",
+    "published": "2026-09-08",
+    "summary": "Three-dimensional femoral reconstruction from radiographs supports surgical planning, implant sizing, and post-operative follow-up, but remains ill-posed as X-ray projections discard depth information. Existing methods often incorporate a 3D statistical shape model (SSM) as a shape prior to guide reconstructions toward anatomically plausible shapes, relying on iterative 3D-to-2D projection matchin",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio Latent Editing"
+    ],
+    "sources": [
+      "latent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08992v1",
+    "title": "Physics-Informed Deep Learning for False Ventricular Tachycardia Alarm Reduction in the ICU",
+    "published": "2026-09-08",
+    "summary": "False ventricular tachycardia (VT) alarms are a leading contributor to alarm fatigue in intensive care units. We propose a deep learning framework combining a 1D SE-ResNet with ICU-realistic data augmentations and a physics-informed auxiliary reconstruction task based on the three-element Windkessel hemodynamic model, implemented as a differentiable forward simulation. By requiring the network's l",
+    "primary_cat": "cs.LG | All cats: cs.LG, eess.SP",
+    "directions": [
+      "Audio Latent Editing"
+    ],
+    "sources": [
+      "latent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08879v1",
+    "title": "Medical AI Encodes a \"Feeling of Error\": Verifying Cancer Segmentation via Internal Concepts",
+    "published": "2026-09-08",
+    "summary": "Cancer segmentation models can fail silently, generating plausible but incorrect masks that risk missed findings or unnecessary biopsies. A critical question arises: Do AI models \"know\" when they are wrong, and if so, can we use the signal to predict their own failures? Humans do have a \"Feeling of Error\" (FOE): a spontaneous sense of unease that flags a potential error during thinking. We investi",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio Agentic System",
+      "Audio Latent Editing"
+    ],
+    "sources": [
+      "latent_audio",
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08813v1",
+    "title": "Dynamic Latent Space Modeling of Inhomogeneous Poisson Network Processes with Applications to International Relations",
+    "published": "2026-09-08",
+    "summary": "We study continuous-time relational event data, where time-stamped dyadic interactions reflect both individual node propensities and evolving relational proximity. We propose a dynamic latent space model for inhomogeneous Poisson processes, where event intensities depend on node-specific activity parameters and time-varying latent distances modeled via flexible B-splines. We prove model identifiab",
+    "primary_cat": "stat.AP | All cats: stat.AP, stat.ME, stat.ML",
+    "directions": [
+      "Audio Latent Editing"
+    ],
+    "sources": [
+      "latent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08777v1",
+    "title": "AXS-Net: Interpretable Deep Unfolding for Hyperspectral Image Denoising via Spectral Basis Unmixing and Structured Noise Refinement",
+    "published": "2026-09-08",
+    "summary": "Hyperspectral images (HSIs) are often degraded by mixed noise, including band-dependent Gaussian perturbations and structured artifacts such as stripes, dead-lines, and impulse noise. Most deep denoisers regress the clean image directly, entangling signal and structured noise. We instead model HSI denoising as $\\Y=\\A\\X+\\Snoise+\\Nnoise$, where $\\A\\X$ is a low-rank spectral-subspace (unmixing) recon",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Latent Editing"
+    ],
+    "sources": [
+      "latent_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08692v1",
+    "title": "Global Divergence, Local Convergence: Representation Geometry in SSMs and Transformers",
+    "published": "2026-09-08",
+    "summary": "Recent state-space models (SSMs) such as Mamba achieve language modeling performance comparable to transformers despite relying on fundamentally different architectures. This raises an important question: how do these structural differences influence the geometry and functional nature of their internal representations? We study this question through a multi-scale analysis of representations in tra",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio Latent Editing"
+    ],
+    "sources": [
+      "latent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08671v1",
+    "title": "Optimal estimation for Functional Linear Regression with Noisy Discretized Data",
+    "published": "2026-09-08",
+    "summary": "In this paper, we consider the scalar-on-function linear regression model under a realistic sampling scheme in which the functional covariates are observed on a regular grid and contaminated by additive noise. We propose a two-step estimation procedure: first, the underlying curves are reconstructed from the discrete noisy observations using a Fourier-based projection method; second, the slope fun",
+    "primary_cat": "stat.ML | All cats: stat.ML, cs.LG",
+    "directions": [
+      "Audio Latent Editing"
+    ],
+    "sources": [
+      "latent_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08869v1",
+    "title": "OntoKG-EQ: A provenance-grounded, competency-question-governed knowledge graph for auditable analyst querying",
+    "published": "2026-09-08",
+    "summary": "Analysts in emerging equity markets keep answering the same questions. Did fundamentals match the market's response? How does the local currency co-move with returns? Which firms outperform sector and benchmark, and which disclosures coincide with abnormal trading? These answers come from ad-hoc spreadsheets that are hard to reproduce, audit, or trust. We present OntoKG-EQ, a knowledge-based syste",
+    "primary_cat": "cs.ET | All cats: cs.ET, cs.AI, cs.DB",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "provenance_audio",
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08844v1",
+    "title": "Exploring the Genesis Platform Capabilities to Accelerate Scientific Discovery in OPAL",
+    "published": "2026-09-08",
+    "summary": "Autonomous, cross-facility science requires capabilities that no individual project should have to build for itself: managed execution for long-lived services, versioned distribution of models to remote compute systems, governed access to large language models, a shared substrate for experimental data, and end-to-end provenance. The U.S. Department of Energy Genesis Mission platform, delivered thr",
+    "primary_cat": "cs.DC | All cats: cs.DC",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "provenance_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08695v1",
+    "title": "A Content-Addressed Workflow for Reproducible DANTE Gravitational-Wave Anomaly Analysis",
+    "published": "2026-09-08",
+    "summary": "Unsupervised analysis of gravitational-wave detector data combines expensive scientific stages with data acquisition, provenance checks, statistical calibration, follow-up products, and reporting. Reproducing such an analysis requires more than preserving model weights or a final candidate table: the execution graph, scientific contracts, retry semantics, and verification boundary must also be exp",
+    "primary_cat": "astro-ph.IM | All cats: astro-ph.IM, gr-qc",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "provenance_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08681v1",
+    "title": "Beyond Fixed Fault Models: Comparing LLM-Based and Rule-Based Fault Injection in OpenStack",
+    "published": "2026-09-08",
+    "summary": "Software Fault Injection (SFI) supports testing of cloud systems by introducing software defects and observing their manifestation. Rule-based injectors such as ProFIPy provide controlled and reproducible source-level mutations but require fault patterns to be encoded manually. Large Language Models (LLMs) offer a data-driven alternative by generating context-dependent software faults. We compare",
+    "primary_cat": "cs.SE | All cats: cs.SE",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "provenance_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08600v1",
+    "title": "Sharp Bohr and Bohr-Rogosinski inequalities involving area measure for close-to-convex harmonic mappings",
+    "published": "2026-09-08",
+    "summary": "In this article, we investigate refined and generalized versions of the Bohr and Bohr--Rogosinski inequalities for a normalized subclass $\\mathcal{P}_{\\mathcal{H}}^{0}(α)$ ($0 \\le α< 1$) of univalent close-to-convex harmonic mappings $f = h + \\overline{g}$ defined on the open unit disk $\\mathbb{D} \\subset \\mathbb{C}$. By incorporating non-negative monotone increasing functions associated with the",
+    "primary_cat": "math.CV | All cats: math.CV",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "provenance_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08563v1",
+    "title": "PLC-Bin2Src: Retrieving Corresponding Structured Text Source Files for PLC Binaries",
+    "published": "2026-09-08",
+    "summary": "Software reuse allows existing components and third-party libraries to be incorporated into new applications, but binary-only components can obscure their origins and implementations. Software composition analysis seeks to identify these reused components and trace their provenance, supporting dependency inventory, vulnerability assessment, and security auditing. For PLC applications, binary2sourc",
+    "primary_cat": "cs.SE | All cats: cs.SE",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "provenance_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08543v1",
+    "title": "STSG-VQA: Evidence-Grounded Temporal Question Answering from Surgical Spatio-Temporal Scene Graphs",
+    "published": "2026-09-08",
+    "summary": "Despite recent advances in surgical vision-language models (VLMs), temporal reasoning remains limited because existing supervision is largely frame-centric. Frame-level scene graphs (SGs) have proven effective in providing structured representations of surgical environments but do not explicitly model the dynamics of surgical workflows. To explicitly model how surgical states evolve across time, w",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "provenance_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08481v1",
+    "title": "An Evidence Model for Agentic Processes: Evidence Claims, Trust Assumptions, and Policy Assessment",
+    "published": "2026-09-08",
+    "summary": "Agentic AI systems increasingly exchange messages, invoke tools, request approvals, hold structured decision sessions, and modify shared artifacts. Logs and anchors can make selected records tamper-evident, but they can also mislead if their evidentiary meaning is implicit: a hash does not establish semantic truth, a signature does not establish authorization, and an external anchor does not estab",
+    "primary_cat": "cs.CR | All cats: cs.CR",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "provenance_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08479v1",
+    "title": "Cahn-Hilliard phase-field modeling of tumor growth via locally adaptive isogeometric analysis with THB-splines",
+    "published": "2026-09-08",
+    "summary": "Predicting tumor dynamics in biological systems under physiologically relevant conditions using mathematical and computational models remains a challenging problem. Continuum models based on phase-field (diffuse-interface) formulations have proven to be an effective modeling strategy to govern tumor dynamics and interactions of multiple species. Within this framework, the present work investigates",
+    "primary_cat": "math.NA | All cats: math.NA",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "provenance_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09081v1",
+    "title": "Everything in Moderation: Per-Domain Coverage Optima and Alignment-Resistant Domain Gaps in Multi-Domain Mid-Training",
+    "published": "2026-09-08",
+    "summary": "Mid-training, the stage between pre-training and alignment, is where a model's per-domain data composition is typically set by data availability rather than principled design. We ask what that decision buys, and whether a later alignment pass can undo it. In a controlled logical-reasoning setting (Qwen3-8B-Base, with a 4B replication; five semantically rule-disjoint KOR-Bench domains) we train 30",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "Audio Reasoning + AIGC"
+    ],
+    "sources": [
+      "reasoning_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09072v1",
+    "title": "ToolLoop: Closed-Loop Tool-Use Data Synthesis via Decomposed Generation and Dynamic Self-Feedback",
+    "published": "2026-09-08",
+    "summary": "High-quality tool-use data is critical for training language models to interact effectively with external tools. However, existing synthetic approaches typically follow a generate-then-filter paradigm with static post-hoc verification, often yielding inefficient data with imbalanced feature distributions. We propose ToolLoop, a closed-loop framework that decomposes synthesis into three progressive",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio Agentic System",
+      "Audio Reasoning + AIGC"
+    ],
+    "sources": [
+      "reasoning_audio",
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09030v1",
+    "title": "Answer-Distribution Trajectories: A Stochastic-Dynamics View of LLM Reasoning",
+    "published": "2026-09-08",
+    "summary": "Chain-of-thought reasoning provides a structured computation between a model's input and final answer. Yet it is often evaluated through endpoint accuracy, which ignores the path taken to reach that answer. An emerging line of work addresses this limitation using entropy profiles, which track how uncertainty evolves over the reasoning process but do not reveal which competing hypotheses account fo",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.CL, cs.IT, cs.LG",
+    "directions": [
+      "Audio Reasoning + AIGC"
+    ],
+    "sources": [
+      "reasoning_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09004v1",
+    "title": "Evaluation of Contextual Understanding in Large Language Models",
+    "published": "2026-09-08",
+    "summary": "Large Language Models (LLMs) demonstrate impressive performance across diverse NLP tasks, yet their ability to exhibit genuine contextual understanding remains uncertain. Traditional evaluation metrics such as perplexity, BiLingual Evaluation Understudy (BLEU), or surface-level accuracy fail to reveal how well LLMs extract, integrate, and reason over contextual information--a gap particularly crit",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.LG",
+    "directions": [
+      "Audio Reasoning + AIGC"
+    ],
+    "sources": [
+      "reasoning_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08995v1",
+    "title": "Second-order Teukolsky calculations for nonspinning, quasicircular binaries",
+    "published": "2026-09-08",
+    "summary": "Currently, the only second-order gravitational self-force calculations have been based on directly solving the perturbative Einstein equations in the Lorenz gauge. That method relied on the complete separability of the Einstein equations in a Schwarzschild background. In this paper, we present a new scheme based on the second-order Teukolsky equation. Crucially, this method promises to extend (rea",
+    "primary_cat": "gr-qc | All cats: gr-qc",
+    "directions": [
+      "Audio Agentic System",
+      "Audio Reasoning + AIGC"
+    ],
+    "sources": [
+      "reasoning_audio",
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08943v1",
+    "title": "Evaluating and Improving Evidence-Grounded Fact-Checking in LLMs via Multi-Round Evidence Ablation",
+    "published": "2026-09-08",
+    "summary": "Automatic fact-checking systems assess the veracity of claims given evidence from relevant documents. Large Language Models (LLMs) have demonstrated strong performance in fact-checking due to their general reasoning capabilities. However, it remains unclear whether they faithfully make use of the evidence provided to reach veracity judgments or rely on parametric knowledge. To investigate this, we",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.IR",
+    "directions": [
+      "Audio Reasoning + AIGC"
+    ],
+    "sources": [
+      "reasoning_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08938v1",
+    "title": "EgoSIS: From Factorized Visual Ego-Transitions to Motion-Canonical Spatial Evidence for UAV Reasoning",
+    "published": "2026-09-08",
+    "summary": "UAV video question answering requires separating camera motion from changes in the scene, but RGB-only multimodal models receive no explicit, stable reference for that separation. We present EgoSIS, a pose-free adapter that converts RGB-derived bidirectional flow into motion-canonical visual evidence in three stages. Factorized Visual Ego-Transitions (FVET) fits a robust image-plane transition and",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Reasoning + AIGC",
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "reasoning_audio",
+      "reference_audio",
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08896v1",
+    "title": "Evolution of Multimodal Question Answering: From Modality-Adaptive Extraction to Unified Language Representation",
+    "published": "2026-09-08",
+    "summary": "The rapid growth of multimodal data has intensified the need for question answering (QA) systems capable of reasoning across heterogeneous sources such as text, tables, and images. In this paper, we present a comprehensive methodological comparison of three influential frameworks, namely Multimodal Adaptive Extraction (MAE), Solar, and UniMMQA, tracing the evolution of multimodal question answerin",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.CV",
+    "directions": [
+      "Audio Reasoning + AIGC"
+    ],
+    "sources": [
+      "reasoning_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08868v1",
+    "title": "The Design and Implementation of a Virtual Statistical Computing Lab to Teach R Coding to Introductory Statistics Students",
+    "published": "2026-09-08",
+    "summary": "Motivated by national calls for computationally enriched, data-centric instruction across the statistics curriculum, this study investigates the design, implementation, and impact of a Virtual Statistical Computing Lab (VSCL) integrated into an introductory statistics course at a medium-sized minority-serving university in the USA. The redesigned course embedded R-based coding through two virtual",
+    "primary_cat": "stat.OT | All cats: stat.OT",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Reasoning + AIGC"
+    ],
+    "sources": [
+      "reasoning_audio",
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09070v1",
+    "title": "Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics",
+    "published": "2026-09-08",
+    "summary": "Clinical AI evaluation should encompass diagnosis and management after adaptive information gathering. We compared Doctorina, eight physicians and four standalone frontier language models in 150 synthetic Polish-language primary-care consultations. Doctorina achieved 82.0% Top-1 concordance versus 57.0% for physicians (difference, 25.0 percentage points; 95% confidence interval, 17.7-32.7) and 97.",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.HC",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09023v1",
+    "title": "DYAD: A Multimodal Dataset of Co-Located Human Assistance",
+    "published": "2026-09-08",
+    "summary": "An embodied assistant working beside a person must track task state, recognize help seeking, choose how to intervene, and produce an appropriate response. Existing procedural datasets richly describe individual execution, while interactive datasets capture remote verbal instruction or undifferentiated co-working. They do not jointly link a co-located helper's verbal and physical interventions to p",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08949v1",
+    "title": "Prior-free relative 6D pose estimation of multiple object instances",
+    "published": "2026-09-08",
+    "summary": "Object 6D pose estimation formulations have progressively reduced reliance on object-specific priors, evolving from explicit 3D models to multi-view object captures to single reference images. We take this progression to its extreme by introducing prior-free relative 6D pose estimation, which lifts the assumption of knowing which object is to be posed within the scene. This novel setting aims to e",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08947v1",
+    "title": "ONE CYLinder: A Benchmark for Graph-Based Surrogate Modeling of Unsteady Bluff-Body Flows",
+    "published": "2026-09-08",
+    "summary": "Graph-based surrogate models offer a promising route to accelerate computational fluid dynamics (CFD) simulations on unstructured meshes. However, their development is limited by the scarcity of benchmark datasets spanning multiple flow regimes and standardized protocols for long-horizon autoregressive prediction. We introduce ONECYL (ONE CYLinder), a new benchmark for unsteady flow past a circula",
+    "primary_cat": "physics.flu-dyn | All cats: physics.flu-dyn, cs.LG",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08946v1",
+    "title": "ContinuumBench: Benchmarking Joint Autoscaling and Placement Across Evaluation Regimes in the Cloud-Edge Continuum",
+    "published": "2026-09-08",
+    "summary": "Cloud-edge controllers coordinate service placement, replica scaling, and resource pre-warming to keep end-to-end latency within application deadlines. But evaluations often obscure the source of a reported gain: placement and scaling are studied separately; workload, connectivity, and calibration assumptions remain implicit; and metrics over completed tasks hide unfinished work. We present Contin",
+    "primary_cat": "cs.DC | All cats: cs.DC",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08932v1",
+    "title": "Real-time Dyson expansion for the nonequilibrium $GW$ approximation: Correlated spectra and dependence on the reference propagator",
+    "published": "2026-09-08",
+    "summary": "Electronic spectra provide direct insight into the excitations and correlations of condensed matter systems. Their description requires electron correlations beyond mean field. In equilibrium, the $GW$ approximation has become the method of choice for many materials. Extending this approximation to nonequilibrium, however, is challenging. Full two-time $GW$ simulations within the nonequilibrium Gr",
+    "primary_cat": "cond-mat.str-el | All cats: cond-mat.str-el",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08913v1",
+    "title": "Zirconium Carbide as a High-Temperature Benchmark for the Beyond Quasi-Harmonic Method",
+    "published": "2026-09-08",
+    "summary": "Molar heat capacity at constant pressure, C_p (T), is a central thermodynamic quantity in materials science, but it remains difficult to calculate accurately from first principles when anharmonic vibrational effects become important. In this work, rocksalt ZrC is used as a high-temperature benchmark for the Beyond Quasi-Harmonic (BQH) method, a prepared-supercell first-principles approach that ext",
+    "primary_cat": "cond-mat.mtrl-sci | All cats: cond-mat.mtrl-sci, quant-ph",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08886v1",
+    "title": "FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory",
+    "published": "2026-09-08",
+    "summary": "Language-guided robots need persistent scene memories to follow instructions, revisit objects, and resolve references to objects encountered over time. While much of language-guided scene-memory retrieval has emphasized spatial or relational references, many everyday object references specify objects by multiple persistent attributes, such as category, material, size, or surface appearance. We for",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.RO",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio for Embodied Agents",
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "reference_audio",
+      "robotics_audio",
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08883v1",
+    "title": "Dynamic Sensing via Photomodulated Gas Desorption in Plasmonic Nanoparticle Chemiresistors",
+    "published": "2026-09-08",
+    "summary": "Quasi-static sensing, i.e., measurement of a sensor signal change induced by analyte presence with respect to a baseline signal observed in a reference gas beforehand, is the state of the art for qualitative and quantitative analyte identification in chemiresistive sensing. However, this approach is prone to baseline drift and, especially for inexpensive miniaturized point-of-care sensors, repeate",
+    "primary_cat": "physics.app-ph | All cats: physics.app-ph, cond-mat.mtrl-sci",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08826v1",
+    "title": "A Closed-Form Estimator and Diagnostic Battery for Anchor-Judge Error Correlation, Under a Single-Common-Factor Model",
+    "published": "2026-09-08",
+    "summary": "When an external reference set (an anchor) is used to decompose an LLM-judge panel's error into a quality signal and a shared common-mode error, standard practice assumes the anchor is uncontaminated: its error uncorrelated with the judges' shared error. We study when that assumption can be dropped and replaced by an estimate. Under a single-common-factor model, >=2 judges and >=2 anchors point-id",
+    "primary_cat": "stat.ME | All cats: stat.ME, cs.CL, cs.LG",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "reference_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09069v1",
+    "title": "Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering",
+    "published": "2026-09-08",
+    "summary": "Autonomous 3D active mapping requires a space robot to choose where to sense while building the geometry needed for navigation. Learned occupancy completion extends spatial context beyond the current field of view, but one predicted map often serves two planning roles: it scores expected surface gain and constrains collision-free motion. Unsupported occupancy can therefore distort both where the r",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.CV",
+    "directions": [
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "robotics_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09061v1",
+    "title": "Location-Independent Robot-Assisted Finishing Using Digital Twins and Extended Reality",
+    "published": "2026-09-08",
+    "summary": "This paper presents a cyber-physical system (CPS) for location-independent programming, supervision, training, and teleoperation of a Robot-Assisted Finishing (RAF) system used to post-process metal additive-manufactured (AM) components. A digital twin (DT) built in Unity is delivered to the operator as a WebGL application that supports both desktop and immersive modes through WebXR-compatible dev",
+    "primary_cat": "cs.HC | All cats: cs.HC",
+    "directions": [
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "robotics_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08905v1",
+    "title": "Visible-Reachable Workspace for Perception-Aware Humanoid Design",
+    "published": "2026-09-08",
+    "summary": "Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it. The robot must then redirect its sensing or move its body to acquire a view, turning a perception limitation into additional motion. Existing humanoids largely inher",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio for Embodied Agents",
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "robotics_audio",
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08853v1",
+    "title": "CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning",
+    "published": "2026-09-08",
+    "summary": "Model-based reinforcement learning (MBRL) is a family of RL methods that learn a model of the environment and use it for action selection, making it well suited to robotics due to its sample efficiency. Combining learned models with online planning can further improve action selection, as the planner can exploit the model to find better actions than the learned policy alone. Recent methods combini",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "robotics_audio",
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08804v1",
+    "title": "Real-time Puncture Detection and Recovery for Pneumatic Soft Actuators",
+    "published": "2026-09-08",
+    "summary": "Soft robots offer safe and adaptive interaction with humans and unstructured environments through their inherent ability to deform and comply. Pneumatic actuators are one way to build soft robots. They are typically made from soft silicone materials and are especially effective for driving such systems, enabling smooth and adaptable motion. However, their compliant nature also makes them vulnerabl",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "robotics_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08800v1",
+    "title": "Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics",
+    "published": "2026-09-08",
+    "summary": "Three properties determine whether a differentiable simulator can drive gradient-based optimization through contact: simulation accuracy, gradient reliability, and per-iteration cost. Tape-based engines such as MJX and Newton Semi-Implicit require timesteps small enough to keep contacts numerically tractable, and their backpropagation memory grows linearly with the number of timesteps T. Surrogate",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.GR, cs.LG",
+    "directions": [
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "robotics_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08770v1",
+    "title": "A Controlled Comparison of Manual and Teleoperated Intraocular Instrument Motion for an Input Device",
+    "published": "2026-09-08",
+    "summary": "Input devices for robotic microsurgery are frequently described as preserving the surgeon's trained technique, but the claim is rarely measured. We compared manual and teleoperated intraocular instrument motion with the trocar constraint, the instrument, the eye model and the tracking source common to both conditions, so that the control interface was the only factor varied. Prior comparisons cann",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.HC",
+    "directions": [
+      "Audio for Embodied Agents"
+    ],
+    "sources": [
+      "robotics_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09024v1",
+    "title": "Fish navigate a hydrodynamic maze via yaw-mediated lateral migration",
+    "published": "2026-09-08",
+    "summary": "In aquatic environments, gradients in flow velocity and turbulence define a constantly shifting landscape that sets the physical constraints on propulsion and energy expenditure in fish. Successfully navigating these complex flows depends on the ability to sense and respond to subtle hydrodynamic cues in an energy-efficient manner. Revealing these mechanisms is central to understanding how fish id",
+    "primary_cat": "physics.flu-dyn | All cats: physics.flu-dyn, physics.bio-ph",
+    "directions": [
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08964v1",
+    "title": "Can the Universe Change Signature When Gravity is Dynamical?",
+    "published": "2026-09-08",
+    "summary": "Can a universe undergo a regular Euclidean-Lorentzian signature transition when the gravitational coupling itself is dynamical? We address this question in scalar-tensor gravity with nonminimal coupling $F(φ)R$. Although the spatially flat Friedmann-Lemaitre-Robertson-Walker (FLRW) sector can be mapped to the Einstein frame for $F>0$ and a nondegenerate scalar redefinition, not all transition prop",
+    "primary_cat": "gr-qc | All cats: gr-qc",
+    "directions": [
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08935v1",
+    "title": "Polynomial mixing for the weakly damped stochastic nonlinear Schrödinger equation on the whole space",
+    "published": "2026-09-08",
+    "summary": "We consider the weakly damped stochastic nonlinear Schrödinger (NLS) equation on the real line, driven by a noise that is white in time and smooth in space. Assuming that the noise is sufficiently non-degenerate, we prove that the equation has a unique stationary measure in the class of probability measures concentrated on $H^2$, and establish polynomial mixing in the dual-Lipschitz metric over $H",
+    "primary_cat": "math.PR | All cats: math.PR, math.AP",
+    "directions": [
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08910v1",
+    "title": "On spatial decoherence in many-body systems",
+    "published": "2026-09-08",
+    "summary": "We study the dynamics of a many-body quantum system strongly interacting with a bosonic reservoir. The coupling is given by a potential operator for the system and it is linear in the field. We show that in the limit of infinite coupling strength the system undergoes instantaneous spatial decoherence. To resolve the decoherence process in time we consider large coupling strengths $λ$ and short tim",
+    "primary_cat": "math-ph | All cats: math-ph, quant-ph",
+    "directions": [
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08902v1",
+    "title": "Relativistic spatial distributions of transverse angular momentum",
+    "published": "2026-09-08",
+    "summary": "In our previous work [C. Lorcé et al., Phys. Lett. B 868 (2025) 139792], we investigated the 2D spatial distributions of transverse total angular momentum, including orbital angular momentum and intrinsic spin, relative to the canonical center (or center of spin). In the present work, we extend this analysis in two directions. First, we study the corresponding transverse boost distributions relati",
+    "primary_cat": "hep-ph | All cats: hep-ph, hep-th, nucl-th",
+    "directions": [
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08892v1",
+    "title": "The hyperfinite II_1 factor is not quasidiagonal",
+    "published": "2026-09-08",
+    "summary": "We construct an MF C*-algebra A such that the spatial tensor product of A and the hyperfinite II_1 factor R contains a proper isometry. Consequently, stable finiteness of C*-algebras is not stable under tensor product and the hyperfinite II_1 factor is not a quasidiagonal C*-algebra. The C*-algebra A is non-simple and has only non-faithful tracial states. This result was obtained using OpenAI's Ch",
+    "primary_cat": "math.OA | All cats: math.OA",
+    "directions": [
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08891v1",
+    "title": "Four triangle-free intrinsically knotted graphs with 22 edges",
+    "published": "2026-09-08",
+    "summary": "An intrinsically knotted graph is one for which every spatial embedding contains a nontrivially knotted cycle. Classifying such graphs is a central problem in spatial graph theory. It is known that every intrinsically knotted graph has at least 21 edges, and the case of 21 edges has been completely resolved. For 22 edges, however, the classification remains incomplete. In particular, exactly eight",
+    "primary_cat": "math.CO | All cats: math.CO",
+    "directions": [
+      "Spatial Audio Generation"
+    ],
+    "sources": [
+      "spatial_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09063v1",
+    "title": "The size and mass distribution of cold classical TNOs for $5<H<13$",
+    "published": "2026-09-08",
+    "summary": "The cold classical trans-Neptunian objects (CCs) are the only observable \\textit{in situ} population of planetesimal remnants believed to have escaped collisional grinding. Recent JWST observations make it possible to fit the differential absolute magnitude distribution $dN/dH$ of the CCs from $5<H_r<13,$ and infer the differential mass distribution $dN/dM$ across $\\ge5$ orders of magnitude in mas",
+    "primary_cat": "astro-ph.EP | All cats: astro-ph.EP",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "streaming_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08818v1",
+    "title": "Beyond Gait: Person Identification from Millimeter-Wave Point Clouds Across Activities of Daily Living",
+    "published": "2026-09-08",
+    "summary": "Person identification from millimeter-wave (mmWave) point clouds has mainly relied on gait. Indoor walking, however, is often brief and interrupted, while other activities of daily living (ADLs) may provide complementary identity information. We investigate identification across seven ADLs using mm-ADL, a new point-cloud dataset collected from 11 subjects under a controlled protocol. This extensio",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "streaming_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08672v1",
+    "title": "X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR",
+    "published": "2026-09-08",
+    "summary": "Streaming automatic speech recognition (ASR) for real-time voice agents and full-duplex dialogue must provide accurate partial transcripts with low commit latency. Existing systems commonly use a fixed chunk size, look-ahead, or target delay, or encourage emissions near estimated acoustic boundaries. These approaches do not directly optimize how much additional context to use at each output positi",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Watermarking",
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "streaming_audio",
+      "voice_conversion",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08426v1",
+    "title": "Toward Fully Autonomous 6G Networks: AI-driven Operational Efficiency and Optimization",
+    "published": "2026-09-08",
+    "summary": "Mobile networks evolution is characterized by a substantial increase in system complexity, driven by the need to accommodate a growing number of heterogeneous services on top of the digital infrastructure. This growth in service accommodation is expected to accelerate with the adoption of the Network as a Service (NaaS) paradigm, which has emerged as a promising approach to accelerate network inno",
+    "primary_cat": "cs.NI | All cats: cs.NI",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "streaming_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08413v1",
+    "title": "Generalized Similarity Theory for Plasmas",
+    "published": "2026-09-08",
+    "summary": "A generalized theory of plasma similarity is established based on the scaling of the Boltzmann equation coupled with the full set of Maxwell's equations. The predicted similarity scalings are demonstrated through first-principles particle-in-cell and fluid simulations across diverse operational regimes, including collisionless plasmas with two-stream instabilities, pure electron diodes spanning th",
+    "primary_cat": "physics.plasm-ph | All cats: physics.plasm-ph",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "streaming_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08410v1",
+    "title": "Compositional Multilingual and Behavioral Attribute Steering",
+    "published": "2026-09-08",
+    "summary": "This study examines the compositionality of steering vectors for language and behavioral control in large language models. Focusing on language, jailbreak, and conciseness, we investigate whether additive, training-free composition of attribute steering vectors can preserve the intended steering effect of each attribute, across four instruction-tuned models from two model families and two size sca",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Streaming Audio Diffusion"
+    ],
+    "sources": [
+      "streaming_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09013v1",
+    "title": "Preparation of a Bell state in an analogue device hosting the transverse-field Ising model",
+    "published": "2026-09-08",
+    "summary": "We propose a protocol for preparing the singlet Bell state in an analogue device implementing the transverse-field Ising model with ZZ interactions and local X and Z fields, which can be engineered within the superconducting platform, among others. This protocol is performed by direct control of the terms of the Hamiltonian alone. The method exploits the fact that the singlet state is the first ex",
+    "primary_cat": "quant-ph | All cats: quant-ph",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09003v1",
+    "title": "Simultaneous sub-Doppler laser cooling and optical trapping of bosonic $^{39}$K-$^{133}$Cs and $^{41}$K-$^{133}$Cs mixtures",
+    "published": "2026-09-08",
+    "summary": "We report simultaneous sub-Doppler cooling and optical dipole trapping of $^{39}$K-Cs and $^{41}$K-Cs mixtures. Both mixtures are cooled to temperatures $\\sim10$ $\\mathrmμ$K, achieving performance comparable to that obtained with each species individually. To the best of our knowledge, this constitutes the first realization of a laser-cooled and optically trapped $^{41}$K-Cs mixture. For the $^{39",
+    "primary_cat": "physics.atom-ph | All cats: physics.atom-ph, cond-mat.quant-gas",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08999v1",
+    "title": "Concentrate After Imagination: Text-Conditioned Evidence Grounding for Partially Relevant Video Retrieval",
+    "published": "2026-09-08",
+    "summary": "Partially Relevant Video Retrieval (PRVR) retrieves untrimmed videos when queries describe only short moments. Although recent methods improve local representations, uncertainty modeling, and global context, final ranking often still trusts the strongest local response; a coincidentally similar fragment can therefore produce an unsupported peak. We identify this failure as the query-agnostic conce",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08975v1",
+    "title": "On the Two-Weight Problem for One-Sided Maximal Operators in Higher Dimensions",
+    "published": "2026-09-08",
+    "summary": "For the one-sided Hardy--Littlewood maximal operator $M_d^+$ on $\\mathbb R^d$, the natural two-weight Muckenhoupt condition was shown by Sawyer in 1986 to characterize the weak $(p,p)$ inequality in dimension one, and by Forzani, Martín-Reyes and Ombrosi in 2011 in dimension two. At the endpoint $p=1$ in dimension three, Ombrosi and Nazarov have recently given negative answers to both the Fefferma",
+    "primary_cat": "math.CA | All cats: math.CA",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08914v1",
+    "title": "CoSA: Correlation-Guided Change A ttention with Learnable Residual Gating for Remote Sensing Change Detection",
+    "published": "2026-09-08",
+    "summary": "Pixel-level annotation of fixed traffic-camera imagery is expensive, while crosswalk models trained from street-level imagery face a substantial viewpoint and appearance shift when applied to elevated CCTV. We investigate a data-efficient target-domain pipeline using 241 manually annotated CCTV images and 5,926 unlabeled CCTV frames. A source-domain experiment trains a 31.0M-parameter custom U-Net",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08861v1",
+    "title": "API Benchmark Scores Do Not Reliably Transfer to Chatbot Interfaces",
+    "published": "2026-09-08",
+    "summary": "Benchmark scores are a central currency in model releases: they inform purchasing decisions, shape public trust, and influence policy. Yet, a key assumption underlying benchmark scores is that the model performance measured through APIs faithfully reflects the behavior of deployed systems. We challenge this assumption by auditing ChatGPT, Claude, and Gemini across seven systems and nine benchmarks",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.SE",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08835v1",
+    "title": "Hyperfine-driven polarization effects in elastic muon scattering by atomic nuclei",
+    "published": "2026-09-08",
+    "summary": "We present a theoretical study of polarization dynamics in the elastic scattering of muons and antimuons by high-magnetic-moment atomic nuclei, using ${}_{83}^{209}$Bi as a benchmark. The analysis tracks the evolution of (anti)muon polarization and its transfer to the nucleus, emphasizing nuclear-structure corrections. These corrections significantly alter both the differential cross sections and",
+    "primary_cat": "physics.atom-ph | All cats: physics.atom-ph",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08834v1",
+    "title": "From Local Context to Climate Science: Low-Cost Experimentation in the Initial Training of Physics Teachers",
+    "published": "2026-09-08",
+    "summary": "Climate change poses a major scientific, environmental, and educational challenge, requiring approaches that connect physical concepts, empirical evidence, and socially relevant environmental issues. This study presents and analyzes a low-cost experimental investigation developed within the \"Physics and the Environment\" course of a Physics teacher training program at the State University of the To",
+    "primary_cat": "physics.ed-ph | All cats: physics.ed-ph, cond-mat.stat-mech",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08833v1",
+    "title": "A New Backscattering Dual-Polarized Rectenna for Wireless Power Transfer and IoT Applications",
+    "published": "2026-09-08",
+    "summary": "This paper proposes an innovative dual-polarized backscattering rectenna that operates in two distinct modesenergy harvesting and backscattering modulation-driven by two-bit digital control signals. By utilizing two orthogonal (co-and cross-) polarizations, the design represents a versatile candidate for IoT applications such as battery-free wireless sensing, identification, localization, and comm",
+    "primary_cat": "cs.CR | All cats: cs.CR, cs.NI",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "style_transfer_audio",
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08779v1",
+    "title": "Improving Term Evaluation in Machine Translation: Variation Matters",
+    "published": "2026-09-08",
+    "summary": "Terminology evaluation in machine translation (MT) usually assumes a single correct target form per source term. However, human translators routinely introduce variation that current metrics penalize as inconsistency. We examine how to account for this variation in document-level MT evaluation of English-French scientific translation, combining glossary-based accuracy, translation consistency, and",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08711v1",
+    "title": "DCLP++: Learning to Navigate with Footprint Clearance and Relative Motion",
+    "published": "2026-09-08",
+    "summary": "We present DCLP++, a local navigation frameworkthat uses footprint clearance as the geometric basis for studying relative motion features in dynamic environments. Each valid LiDAR return is mapped to its shortest Euclidean distance from the filled robot footprint before reciprocal encoding, replacing distance from the sensor with distance to the occupied body. Radial measurementsor simulated plana",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "timbre_transfer"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09094v1",
+    "title": "The Surprising Effectiveness of Approximate Value Iteration in Self-Play",
+    "published": "2026-09-08",
+    "summary": "Combining search with function approximation has driven major advances in game-playing programs, making self-play algorithms more competitive than ever. Still, the computational overhead of the most popular methods, based on Monte Carlo Tree Search (MCTS), can be substantial. In this work, we investigate whether simpler methods remain competitive in non-trivial, moderately sized games such as Conn",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09087v1",
+    "title": "PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation",
+    "published": "2026-09-08",
+    "summary": "As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local post-exploitation tasks remains inadequately quantified. Among these, Linux privilege escalation is a key step between initial access and full system compromise. However, existing evaluations for this task are limited by small sample sizes (fewer than 15 scen",
+    "primary_cat": "cs.CR | All cats: cs.CR",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09046v1",
+    "title": "Going Beyond the In-/Out-Group Dichotomy: Investigating Altruism towards Middle-Groups",
+    "published": "2026-09-08",
+    "summary": "In-group favouritism and out-group hostility are well-documented, but real-world group settings rarely fit a simple dichotomy. Often, a \"middle-group\" shares some identity markers with the in-group without fully belonging to it. How do people treat such intermediate groups? We address this question using a formal identity marker framework and a multi-lab online experiment (N = 376) with a private",
+    "primary_cat": "econ.GN | All cats: econ.GN",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08941v1",
+    "title": "FINALLY: A Dataset Recommender System for Recommender-Systems Research",
+    "published": "2026-09-08",
+    "summary": "Dataset selection shapes the empirical conditions under which recommender-system algorithms are evaluated, yet existing tools provide limited support for constructing complete dataset sets that jointly satisfy experimental constraints and set-level selection objectives. To address this problem, I developed FINALLY, a web-based dataset recommender for constructing configurable dataset sets for offl",
+    "primary_cat": "cs.IR | All cats: cs.IR",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08933v1",
+    "title": "Unifying Power Flow and Electromagnetic Transient Modeling",
+    "published": "2026-09-08",
+    "summary": "Grid tools are separated by timescales: steady-state analysis is performed by power flow (PF), whereas the fastest dynamics are captured by electromagnetic transient (EMT) simulation. Although operating at varying timescales, different tools should produce consistent results when analyzing the same grid conditions. However, the PF steady-state solution does not match the time-to-infinity EMT respo",
+    "primary_cat": "eess.SY | All cats: eess.SY",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08909v1",
+    "title": "To Stop or Not to Stop: Exploring the Intention-Behavior Gaps in Smartphone Usage",
+    "published": "2026-09-08",
+    "summary": "As smartphones become integral to daily life, researchers have sought to identify when the use becomes problematic. Previous studies have operationalized problematic smartphone usage (PSU) from either an intention or a behavior perspective. Both risk delivering interventions not welcomed by users. We propose a novel approach to operationalizing PSU as the intention-behavior gap (IBG). We collected",
+    "primary_cat": "cs.HC | All cats: cs.HC",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08890v1",
+    "title": "Healthcare Utilization, Chronic Condition Management, and Workplace Functioning Among Users of a Purpose-Built Mental Health AI (Ash): Cross-Sectional Study",
+    "published": "2026-09-08",
+    "summary": "Mental health challenges can exacerbate physical symptoms and complicate management of chronic conditions. Purpose-built artificial intelligence (AI) tools may offer scalable support for co-occurring mental and physical health concerns. This cross-sectional study compared past-6-month healthcare utilization, chronic condition management, physical health behaviors, mental health change, and workpla",
+    "primary_cat": "cs.HC | All cats: cs.HC",
+    "directions": [
+      "Audio Agentic System"
+    ],
+    "sources": [
+      "tool_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09090v1",
+    "title": "Measuring LLM Sycophancy under Sustained Multi-Turn Pressure",
+    "published": "2026-09-08",
+    "summary": "Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing evaluations typically use short, pre-specified conversations and may therefore miss failures that emerge under sustained, adaptive disagreement. We introduce SPINE, a benchmark in which an LLM proxy plays a persistent but mistaken user and adaptively challenges a",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09019v1",
+    "title": "Modular commutator as a robust topological invariant and approximate Markovianity",
+    "published": "2026-09-08",
+    "summary": "The modular commutator provides a bulk, local, single-wave-function probe of the chiral central charge $c_-$ for gapped ground states. Its invariance under deformations was previously established under a local quantum Markov condition---namely, the conditional mutual information $I(A:C|B)$ is zero for all tripartitions of a disk into three consecutive strips A, B, and C \\cite{Modular-commutator-Ga",
+    "primary_cat": "quant-ph | All cats: quant-ph, cond-mat.str-el",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08998v1",
+    "title": "No information transmission through quantum channels above capacity",
+    "published": "2026-09-08",
+    "summary": "We show that the capacity of a quantum channel demarcates a phase transition: while reliable transmission below capacity is always possible, any attempt to transmit information above it fails catastrophically. Specifically, we prove exponential strong converse theorems for unassisted quantum and classical communication over arbitrary finite-dimensional memoryless quantum channels. At rates beyond",
+    "primary_cat": "quant-ph | All cats: quant-ph, cs.IT, math-ph",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08945v1",
+    "title": "Sharp Computational Bounds for Spectral Types of Schrödinger Operators",
+    "published": "2026-09-08",
+    "summary": "We prove sharp bounds for determining the spectral-type decomposition of Schrödinger operators in the spirit of Smale's program on the foundations of computation. For explicit one-dimensional self-adjoint Schrödinger operators $H=-{\\mathrm d^2}/{\\mathrm dx^2}+V$ on $L^2(\\mathbb R)$, where $V\\in C^\\infty(\\mathbb R;\\mathbb R)$ is given by a finite description of all derivatives and derivative bounds",
+    "primary_cat": "math.NA | All cats: math.NA",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08748v1",
+    "title": "Dynamic Chirality in Photonic Time Crystals",
+    "published": "2026-09-08",
+    "summary": "Temporal modulation offers a fundamentally distinct degree of freedom for active wave control beyond static spatial structuring. Photonic time crystals (PTCs), based on periodic modulation of electromagnetic parameters in time, have expanded photonic band engineering from space to time by enabling controlled energy exchange between light and the modulation. Yet, the use of PTCs to synthesize rotat",
+    "primary_cat": "physics.optics | All cats: physics.optics",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08734v1",
+    "title": "Study on Thickness and Temperature Dependence of Thermoelectric Properties in SnS Nanofilms",
+    "published": "2026-09-08",
+    "summary": "SnS as an environmentally friendly, cost-effective, and earth-abundant narrow-bandgap semiconductor material, has demonstrated significant application potential in the field of medium-temperature thermoelectric conversion. However, the thermoelectric performance of its bulk counterpart is inherently constrained by intrinsic point defects (e.g., vacancies) and the material's specific band structure",
+    "primary_cat": "cond-mat.mtrl-sci | All cats: cond-mat.mtrl-sci, cond-mat.mes-hall",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08704v1",
+    "title": "Supermassive black hole binaries in the multi-messenger context of ground and spaceborne VLBI",
+    "published": "2026-09-08",
+    "summary": "Evidence of a gravitational wave background suggests the existence of a population of sub-parsec supermassive black hole binaries (SMBHBs), with characteristic angular separations on the order of 1-10 $μ$as. Spaceborne extensions of Very Long Baseline Interferometry (VLBI) and the next generation ground arrays introduce the possibility of directly imaging these SMBHBs. In this work, a binary Spect",
+    "primary_cat": "astro-ph.HE | All cats: astro-ph.HE, astro-ph.IM",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08678v1",
+    "title": "HiBRIDGE: A Hierarchical Bayesian Neural Network Framework for Interpretable Dialogue Management in Group-Robot Interaction",
+    "published": "2026-09-08",
+    "summary": "In multi-party human-robot interaction, a robot must continuously decide whom to address and what to say to participate effectively in the conversation. In real-world interactions, this is challenging because several behaviours may be plausible at the same time: a robot might continue a topic with one participant, involve another through a question, or address the whole group, with the appropriate",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08659v1",
+    "title": "TriCCOT: Tri-part Convolutional Conformal Transformer for Onboard Space Object Detection",
+    "published": "2026-09-08",
+    "summary": "Onboard object detection in Earth observation is constrained by limited computational resources and the absence of fully corrected imagery. While convolutional detectors are hardware-efficient, they often struggle to extract robust representations from raw and noisy data. Conversely, transformer-based models provide stronger global reasoning capabilities but remain difficult to deploy on FPGA acce",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.AI",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08592v1",
+    "title": "A Three-Tier Persona Vector for Controllable User Simulation in Agentic Evaluation",
+    "published": "2026-09-08",
+    "summary": "Evaluating tool-augmented LLM agents requires diverse, realistic user inputs yet most evaluation frameworks use flat role descriptions (\"you are an angry customer\") that produce near-identical conversations regardless of the underlying scenario. In this paper, we propose a three-tier persona vector with 23 operationalized dimensions: 6 categorical demographics (jurisdiction, age, channel, device,",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.CL",
+    "directions": [
+      "Audio IP-Adapter / Style"
+    ],
+    "sources": [
+      "voice_conversion"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08213v1",
+    "title": "DRIFT: Removing Diffusion Watermarks by Deflecting the Generative Trajectory",
+    "published": "2026-09-08",
+    "summary": "Diffusion watermarking embeds verifiable signals into the generative process and commonly verifies them by recovering trajectory-dependent evidence, making the marks robust to conventional pixel-space distortions. Existing removal attacks either regenerate along deterministic trajectories, which often preserve the watermark-bearing latent structure, or optimize every image separately. We identify",
+    "primary_cat": "cs.CR | All cats: cs.CR, cs.LG",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_audio",
+      "watermark_speech",
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08160v1",
+    "title": "Generalized DBLog: A Verified Contract for Interleaving Database Rows with a Change Log",
+    "published": "2026-09-08",
+    "summary": "Change-data capture (CDC) feeds downstream systems like caches, search indexes, and data warehouses from a database's log of committed row changes. When bootstrapping, adding a table, or repairing downstream data, a pipeline must also copy existing rows. Merging this copy with the active log introduces the copy-to-log handoff problem. Changes must not fall through a gap, and older copied state mus",
+    "primary_cat": "cs.DB | All cats: cs.DB, cs.DC, cs.LO",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_audio",
+      "watermark_speech",
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08637v1",
+    "title": "Navigating the digital spectrum: Assessing political bias, stability, and downstream fairness in Large Language Models",
+    "published": "2026-09-08",
+    "summary": "Large Language Models are increasingly deployed as information intermediaries, yet measuring their political behavior remains fragile because questionnaire results mix model dispositions with measurement artifacts and response-elicitation biases. We introduce a robust Political Compass Test evaluation framework that samples 300 configurations across an eight-dimensional perturbation space varying",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.CY",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08486v1",
+    "title": "Enhancing Communication in Speech Therapy: Exploring the Cognitive Synergy Between Gesture and Speech",
+    "published": "2026-09-08",
+    "summary": "This paper examines the adaptation of a rhythm-based interface, originally designed for manual dexterity rehabilitation, for use in speech therapy. The interface allows users to control synthesized vocal phrases through finger tapping, leveraging the cognitive link between gesture and speech. Through interviews with four therapists and pilot tests with one speech therapist and eight children with",
+    "primary_cat": "cs.HC | All cats: cs.HC",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08171v1",
+    "title": "EviSI: An Evaluation Agent for Simultaneous Interpreting",
+    "published": "2026-09-08",
+    "summary": "Simultaneous speech-to-speech translation requires understanding, translation and spoken delivery while the source stream continues. To support timely delivery and limit accumulated delay, systems adopt reformulation and summarization, which can preserve meaning while departing from written references. BLEU and COMET may not reliably distinguish such variation from semantic loss. We introduce EviS",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08026v1",
+    "title": "Geometry-Informed Distributed Acoustic Scene Understanding",
+    "published": "2026-09-07# Total entries: 20",
+    "summary": "Acoustic scene understanding in multi-room environments is a difficult task. Most existing systems use a single centralized microphone array, and they often fail because walls and doors block sound signals. To address this challenge, we propose a geometry-informed distributed acoustic scene understanding framework. Our system leverages distributed microphones and uses an audio spectrogram transfor",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Watermarking",
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "codec_audio",
+      "controlnet_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "watermark_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07981v1",
+    "title": "Clean Accuracy Does Not Guarantee Provenance Robustness: A Prospective Codec-Stress Evaluation of Audio Attribution",
+    "published": "2026-09-07",
+    "summary": "Audio provenance attribution - which system produced a synthetic utterance - is reported at near-ceiling accuracy on clean benchmarks, yet audio reaching an analyst has usually been transcoded. We report a prospectively registered measurement of closed-set attribution after single-stage codec transport, with the analysis region fixed from fidelity metadata before any attribution model was trained.",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.LG",
+    "directions": [
+      "Audio IP-Adapter / Style",
+      "Audio Inpainting / Editing",
+      "Audio Latent Editing",
+      "Audio Watermarking",
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "codec_audio",
+      "controlnet_audio",
+      "inpainting_audio",
+      "ip_adapter_audio",
+      "watermark_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07968v1",
+    "title": "Reasoning Beyond Transcription: Audio Language Models on Child Stuttering Speech",
+    "published": "2026-09-07",
+    "summary": "Child speech differs from adult speech in acoustics, prosody, and linguistic structures. Speech disfluencies (such as repetitions) further challenge automatic understanding. While Audio Language Models (ALMs) show strong semantic reasoning from speech audio, their ability to reason about disfluent child speech in mixed-speaker settings remains unexplored. We investigate this through two tasks: chi",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio Inpainting / Editing",
+      "Audio Watermarking",
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "codec_audio",
+      "inpainting_audio",
+      "watermark_audio",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07838v1",
+    "title": "ComVLA: Communication-Aware Split Inference for VLA Models in 6G-Connected Robotics",
+    "published": "2026-09-07",
+    "summary": "Connected robotics is an emerging 6G application where mobile robots follow natural-language instructions to manipulate physical objects. The Vision-Language-Action (VLA) models that enable this are too large to run on the robot; a common trend is to offload inference to the cloud. The wireless link, however, limits how much sensing data the edge can transmit per control step. Two recent lines add",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "codec_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07688v1",
+    "title": "Silent Metronome: Rhythmic Grounding for Live Music Accompaniment",
+    "published": "2026-09-07",
+    "summary": "Live accompaniment models generate music for an incoming audio stream, committing to each output frame before hearing what comes next. In this strictly causal setting the model must infer tempo, meter, and metrical phase from its own imperfect past, whereby compounding errors quickly become audible as rhythmic drift. Put simply, the model has ears but no temporal reference, so when the ears hear i",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "Audio Inpainting / Editing",
+      "Audio Watermarking",
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "codec_audio",
+      "inpainting_audio",
+      "watermark_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07549v1",
+    "title": "Qwen-Audio-3.0-ASR Technical Report",
+    "published": "2026-09-07",
+    "summary": "In recent years, automatic speech recognition (ASR) has witnessed transformative advancements driven by three complementary paradigms: data scaling, model scaling, and deep integration with large language models (LLMs). However, bridging the gap between academic benchmark performance and real-world production utility remains a persistent challenge, particularly in handling diverse regional dialect",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio Inpainting / Editing",
+      "Audio Watermarking",
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "codec_audio",
+      "inpainting_audio",
+      "watermark_audio",
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07440v1",
+    "title": "Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer",
+    "published": "2026-09-07",
+    "summary": "This paper proposes an open-set ego-noise separation framework for legged-robot audition via annotation-free adaptation and pretrained-model transfer. The framework removes robot-specific ego-noise while preserving environmental sounds whose classes are not specified in advance. Acoustic sensing provides cues about a robot's surroundings beyond the visual field, but walking-induced ego-noise from",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "Audio Inpainting / Editing",
+      "Audio Watermarking",
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "codec_audio",
+      "inpainting_audio",
+      "watermark_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07399v1",
+    "title": "Open-Set Vessel Re-Identification from Underwater Ship-Radiated Noise with a Raw-Waveform Selective-Kernel Acoustic Neural Network (SKANN) and a Cross-Passage Evaluation Protocol",
+    "published": "2026-09-07",
+    "summary": "Underwater acoustic target recognition has converged on closed-set classification by vessel type, a task that does not answer whether a monitoring system has heard this hull before. We formalise open-set, cross-passage vessel re-identification on public hydrophone data and specify a protocol that removes the two easiest routes to a high score: hull-disjoint splits keyed to MMSI/IMO, galleries and",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "Audio Inpainting / Editing",
+      "Audio Watermarking",
+      "Diffusion Codec"
+    ],
+    "sources": [
+      "codec_audio",
+      "inpainting_audio",
+      "watermark_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07286v1",
+    "title": "TAD: Token-Adaptive Contrastive Decoding with Confidence-Guided Gating for Hallucination Mitigation in Large Audio-Language Models",
+    "published": "2026-09-07",
+    "summary": "Large audio-language models (LALMs) can hallucinate audio objects, answering \"yes\" to absent sound events, thus undermining reliability in audio question answering. We propose Token-Adaptive Decoding (TAD), a training-free strategy for hallucination mitigation that grounds the initial yes/no decision by contrasting logits under real audio with a matched silent reference. TAD introduces a token-ada",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.CL, cs.CV",
+    "directions": [
+      "Audio Inpainting / Editing"
+    ],
+    "sources": [
+      "inpainting_audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07651v1",
+    "title": "Syntactic Patterns and Stylistic Functions in Narrative Prose: A Rule-Based and Machine-Learning Approach",
+    "published": "2026-09-07",
+    "summary": "This paper presents a small-scale quantitative experiment that links syntactic structure to stylistic functions in narrative prose. Starting from a dependency-parsed corpus of 3,300 sentences, we derive sentence-level stylistic labels across five categories --- descriptive, introspective, causal, ideological, and neutral --- using a transparent rule-based procedure that inspects lemmas, universal",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07474v1",
+    "title": "Where Should Language Sit in a Multimodal Model? Lessons from What Language Does to Human Perception and Cognition",
+    "published": "2026-09-07",
+    "summary": "Language models compute over tokens: language is their input, their output, and increasingly their internal representation. Whether language should keep all of these positions depends on what language does to the system that uses it. The one system with a century of data on that question is the human. We review what language does to human perception, the brain, and thought, and read the same evide",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07372v1",
+    "title": "Low-rank approximation of Moment Tensor Potential enables reducing training set size without loss of accuracy",
+    "published": "2026-09-07",
+    "summary": "In this study, we implement a low-rank approximation of Moment Tensor Potential (MTP) based on the tensor train (TT) decomposition. The implemented tensor-factorized MTP (TFMTP) and the original MTP model are actively trained via a MaxVol-based algorithm during molecular dynamics simulations of a four-component molten salt mixture, LiF-NaF-KF (FLiNaK), and geometry optimizations of a five-componen",
+    "primary_cat": "physics.chem-ph | All cats: physics.chem-ph",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07200v1",
+    "title": "KABURI-TTS: Phoneme-Keyed Activity-conditioned Bi-channel Utterance Rendering for Interaction",
+    "published": "2026-09-07",
+    "summary": "Realizing full-duplex spoken dialogue requires large amounts of two-channel, one-speaker-per-channel conversational speech data. Although conversational text-to-speech (TTS) engines have been developed, they are not necessarily robust to two-party simultaneous phenomena such as backchannels, interruptions, and overlaps that occur while the interlocutor is speaking. In this work, aiming at conversa",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.CL",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.07133v1",
+    "title": "Counting Representations of Quadratic Forms",
+    "published": "2026-09-07",
+    "summary": "We answer a question of C. S. Herz about the number of integral $k\\times m$ matrices $T$ such that $T^tT\\leq R$ for a fixed positive definite $m\\times m$ matrix $R$. We give an asymptotic formula for the count. This can be seen as a generalization of the Gauss circle problem, as counting representation of quadratic forms by the identity $I_k$, and as counting integral points bounded by the Stiefel",
+    "primary_cat": "math.NT | All cats: math.NT",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.06708v1",
+    "title": "A Trustworthy Watermarking Framework for LLM-Generated Food Safety Content",
+    "published": "2026-09-06",
+    "summary": "Large language models are transforming many industries with their text generation abilities. However, their outputs can be easily tampered with, creating serious risks in critical areas such as food safety reporting. To protect the integrity and traceability of AI-generated content, this paper introduces ToSS (Token Oriented Repartitioning and Strategic Selection), a reliable authentication method",
+    "primary_cat": "cs.CR | All cats: cs.CR, cs.AI",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.06446v1",
+    "title": "Tensor-based Approximation of Molecular Kinetics: Generator Learning, Reaction Coordinates and Incremental Updating",
+    "published": "2026-09-06",
+    "summary": "We present an approach to analyze long-timescale kinetics of molecular dynamics simulations - meta-stable states and transition timescales - by a tensor-based approximation of the infinitesimal generator. We start from the variational approximation of low-lying generator eigenvalues, and discretize the associated eigenvalue problem using a tensor-product basis. We derive analytical expressions for",
+    "primary_cat": "physics.chem-ph | All cats: physics.chem-ph",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.06405v1",
+    "title": "Statistical mechanical evaluation of a spread-spectrum watermarking model with image restoration II AT stability of a hybrid system with message decoding and image",
+    "published": "2026-09-06",
+    "summary": "In the previous paper (arxiv.org/abs/1209.4772), we proposed a spread-spectrum watermarking model with image restoration based on Bayes estimation assuming several prior probabilities and adopting the Gaussian channel model to represent attacks from unauthorized users. When an image is generated from the infinite range Ising model, we analyzed the model using the statistical mechanical method, the",
+    "primary_cat": "cond-mat.stat-mech | All cats: cond-mat.stat-mech",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.06214v1",
+    "title": "Fourier-cosine Tensor Trains for Density Recovery and Expectation Calculation",
+    "published": "2026-09-05",
+    "summary": "The Fourier--cosine (COS) method of Fang and Oosterlee (2008) recovers densities and computes expectations semi-analytically from the characteristic function (ch.f.). In higher dimensions, both expansion synthesis and computation of COS coefficient-tensor entries scale exponentially with dimension. We address this curse of dimensionality with two tensor-train (TT) methods. COS-TT replaces the COS",
+    "primary_cat": "math.NA | All cats: math.NA",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.05741v1",
+    "title": "Practical Zero-Trust for Mission-Critical Robotic Fleets via Hardware Attestation and Packet Timing Watermarking",
+    "published": "2026-09-04",
+    "summary": "Autonomous unmanned vehicles are vital to tactical missions, mission-critical public-safety operations like search and rescue and disaster response. However, their reliance on open wireless links and standard Robot Operating System (ROS 2) middleware exposes a broad cyber-physical attack surface. A compromise of these systems can disrupt real-time control loops, leading to mission failure or asset",
+    "primary_cat": "eess.SY | All cats: eess.SY, cs.MA",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.04772v1",
+    "title": "A Robust Watermark-based Fingerprint Framework for GNNs Ownership Verification",
+    "published": "2026-09-04",
+    "summary": "The high training cost of Graph Neural Networks (GNNs) has raised growing concerns regarding model ownership infringement, such as model stealing and unauthorized misuse. To verify model ownership and prevent significant economic losses, two groups of GNN Ownership Verification (OV) methods have been proposed: watermark-based methods and fingerprint-based methods. However, these methods typically",
+    "primary_cat": "cs.LG | All cats: cs.LG",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.04709v1",
+    "title": "AngelFingerprint: A Traceable, Explainable, and White-Box Stealthy Watermark for Text-Guided Image Editing",
+    "published": "2026-09-04",
+    "summary": "Text-guided diffusion editing raises disinformation concerns, making reliable image provenance essential. While watermarks are commonly used for this purpose, most methods carry a fixed ID that cannot explain what was changed and which prompt produced it. Furthermore, under open-source white-box access, attackers can easily locate and remove watermarks added as separate modules. Targeting this set",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.04455v1",
+    "title": "Brain2Speech-Net: Intelligible, Real-Time Brain-to-Speech Synthesis Without Text Decoding",
+    "published": "2026-09-03",
+    "summary": "The loss of speech limits communication for individuals with paralysis. Restoring speech by synthesizing it directly from neural activity is challenging: intracortical data are scarce and lack aligned targets, so most systems rely on cascaded neural-to-text-to-speech pipelines that add latency and propagate errors. We present Brain2Speech-Net, among the first single-stage frameworks to remain inte",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.03979v1",
+    "title": "Eight Local Couplings of Gravitational Waves from Unified Field Equations",
+    "published": "2026-09-03",
+    "summary": "A gravitational-wave (GW) detector records a linear mixture of local couplings under the assumption that extra polarizations enter geodesic deviation. Vacuum general relativity (GR) admits two transverse-traceless (TT) amplitudes. It remains to determine the largest set of couplings that can sit in that mixture, and whether a tensor-only arm-length result selects GR uniquely. The little group \\(E(",
+    "primary_cat": "gr-qc | All cats: gr-qc, astro-ph.HE",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.03844v1",
+    "title": "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
+    "published": "2026-09-03",
+    "summary": "We introduce Stateless Bernoulli Watermarking (SBW), a new statistical watermark for Large Language Models that determines green list membership through independent per-token Bernoulli trials. Unlike KGW's vocabulary permutation or SynthID's multi-layer tournament, SBW requires only a single comparison per token against a counter-based random number generator, reducing membership complexity to $O(",
+    "primary_cat": "cs.CR | All cats: cs.CR, cs.CL, cs.LG",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.03749v1",
+    "title": "Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG",
+    "published": "2026-09-03",
+    "summary": "Third-party retrieval-augmented generation (RAG) marketplaces create a new auditing problem: data providers may license corpora to a RAG operator, yet later have no visibility into whether their documents are being reused without compensation. Auditing this misuse is difficult because the operator is non-cooperative, answers are paraphrased by the generator, and one response may combine evidence f",
+    "primary_cat": "cs.CR | All cats: cs.CR, cs.CL",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.03536v1",
+    "title": "Controllability, returning waves and scattering without reverberation in 3D acoustic dynamic system",
+    "published": "2026-09-03",
+    "summary": "The dynamic acoustic scattering system is governed by the wave equation $u_{tt}-Δu+qu=0$ in $\\Bbb R^3,\\,\\,\\,-\\infty<t<\\infty$, with a compactly supported potential $q$ and infinitely distant sources (controls) $f$, which initiate incoming spherical waves $u=u^f(x,t)$ provided $u^f\\big|_{|x|<-t,\\,\\,\\,t<0}=0$. These waves are focused at $x=0$ and fill up the whole space at the moment $t=0$. The syst",
+    "primary_cat": "math-ph | All cats: math-ph",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  },
+  {
+    "arxiv_id": "2609.03502v1",
+    "title": "Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech",
+    "published": "2026-09-03",
+    "summary": "In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus. We study a third route: using a large voice-cloning model as a programmable data source to turn a short voice reference (e.g., 15 seconds) into a compact fixed-voice student trained entirely on synthet",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "Audio Watermarking"
+    ],
+    "sources": [
+      "watermark_tts"
+    ]
+  }
+]

@@ -1,0 +1,135 @@
+--- [1] 2608.12627v3 ---
+Title: EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory
+Authors: Le Zhang, Hao Chen, Vlad Roznyatovskiy, Jianzhong Zhang, Ke Sun
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-08-12
+Summary: Long-horizon egocentric memory transforms continuous first-person video and audio into a searchable record of past experiences. We demonstrate two bottlenecks in existing systems: indices built from context-poor captions are unreliable for agentic search, while retrieval ignores a question's temporal intent. To address both bottlenecks, we introduce EgoCITE (Egocentric Context-augmented Indexing a...
+
+--- [2] 2607.06691v1 ---
+Title: CoMind: Understanding Collaborative Human Activity from Multiple Minds and Views
+Authors: Alexey Gavryushin, Dingxi Zhang, Zhao Huang, Alexandros Delitzas, Jiaqi Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-07
+Summary: Human-human collaboration is a fundamental aspect of everyday life, essential to success in a wide range of goal-directed activities from household tasks to professional teamwork. While much research has focused on modeling coordination and task execution, the cognitive processes that support such collaboration, particularly Theory of Mind (the ability to infer the mental states of others), remain...
+
+--- [3] 2606.00825v1 ---
+Title: SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory
+Authors: Samiul Alam, Shakhrul Iman Siam, Michael J. Proulx, James Fort, Richard Newcombe et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.ET, cs.HC, cs.MA
+Published: 2026-05-30
+Summary: AI glasses present a compelling platform for AI agents to serve as personalized memory assistants. To be genuinely useful, such systems must move beyond short-term video comprehension and address memory gaps that humans experience for practical, personal, or social purposes over longitudinal egocentric video streams. However, existing egocentric datasets predominantly focus on action recognition o...
+
+--- [4] 2606.02246v1 ---
+Title: Ego-METAS: Egocentric online Multimodal Energy-efficient Temporal Action Segmentation benchmark
+Authors: Maria Santos-Villafranca, Jesus Bermudez-cameo, Alejandro Perez-Yus, Giovanni Maria Farinella, Antonino Furnari
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-29
+Summary: To operate in the physical world, embodied agents must perceive their environment in an "always-on" fashion, selectively accessing the most informative sensors to balance energy constraints and task accuracy. Despite its importance for resource-constrained devices, energy-aware perception remains under-explored, with most prior work assuming unlimited compute. To address this, we introduce Ego-MET...
+
+--- [5] 2605.18194v1 ---
+Title: Beyond the Cartesian Illusion: Testing Two-Stage Multi-Modal Theory of Mind under Perceptual Bottlenecks
+Authors: Yajing Zhou, Xiangyu Kong
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-05-18
+Summary: While Multi-Modal Large Language Models (MLLMs) demonstrate impressive capabilities in general reasoning, their embodied spatial intelligence remains hampered by a "Cartesian Illusion" - a reliance on text-based probability distributions that lack grounded, 3D topological understanding. This limitation is starkly exposed in multi-agent environments, which demand more than just scene perception; th...
+
+--- [6] 2604.15823v1 ---
+Title: Watching Movies Like a Human: Egocentric Emotion Understanding for Embodied Companions
+Authors: Ze Dong, Hao Shi, Zejia Gao, Zhonghua Yi, Kaiwei Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-17
+Summary: Embodied robotic agents often perceive movies through an egocentric screen-view interface rather than native cinematic footage, introducing domain shifts such as viewpoint distortion, scale variation, illumination changes, and environmental interference. However, existing research on movie emotion understanding is almost exclusively conducted on cinematic footage, limiting cross-domain generalizat...
+
+--- [7] 2603.07966v1 ---
+Title: Listening with the Eyes: Benchmarking Egocentric Co-Speech Grounding across Space and Time
+Authors: Weijie Zhou, Xuantang Xiong, Zhenlin Hu, Xiaomeng Zhu, Chaoyang Zhao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-09
+Summary: In situated collaboration, speakers often use intentionally underspecified deictic commands (e.g., ``pass me \textit{that}''), whose referent becomes identifiable only by aligning speech with a brief co-speech pointing \emph{stroke}. However, many embodied benchmarks admit language-only shortcuts, allowing MLLMs to perform well without learning the \emph{audio--visual alignment} required by deicti...
+
+--- [8] 2601.18157v3 ---
+Title: Agentic Very Long Video Understanding
+Authors: Aniket Rege, Arka Sadhu, Yuliang Li, Kejie Li, Ramya Korlakai Vinayak et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-01-26
+Summary: The advent of always-on personal AI assistants, enabled by all-day wearable devices such as smart glasses, demands a new level of contextual understanding, one that goes beyond short, isolated events to encompass the continuous, longitudinal stream of egocentric video. Achieving this vision requires advances in long-horizon video understanding, where systems must interpret and recall visual and au...
+
+--- [9] 2511.02560v1 ---
+Title: SigmaCollab: An Application-Driven Dataset for Physically Situated Collaboration
+Authors: Dan Bohus, Sean Andrist, Ann Paradiso, Nick Saw, Tim Schoonbeek et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CV
+Published: 2025-11-04
+Summary: We introduce SigmaCollab, a dataset enabling research on physically situated human-AI collaboration. The dataset consists of a set of 85 sessions in which untrained participants were guided by a mixed-reality assistive AI agent in performing procedural tasks in the physical world. SigmaCollab includes a set of rich, multimodal data streams, such as the participant and system audio, egocentric came...
+
+--- [10] 2509.25652v1 ---
+Title: Iterative Residual Cross-Attention Mechanism: An Integrated Approach for Audio-Visual Navigation Tasks
+Authors: Hailong Zhang, Yinfeng Yu, Liejun Wang, Fuchun Sun, Wendong Zheng
+Primary cat: cs.AI | All cats: cs.AI, cs.MM, cs.SD
+Published: 2025-09-30
+Summary: Audio-visual navigation represents a significant area of research in which intelligent agents utilize egocentric visual and auditory perceptions to identify audio targets. Conventional navigation methodologies typically adopt a staged modular design, which involves first executing feature fusion, then utilizing Gated Recurrent Unit (GRU) modules for sequence modeling, and finally making decisions ...
+
+--- [11] 2503.09150v1 ---
+Title: AdaptAI: A Personalized Solution to Sense Your Stress, Fix Your Mess, and Boost Productivity
+Authors: Rushiraj Gadhvi, Soham Petkar, Priyansh Desai, Shreyas Ramachandran, Siddharth Siddharth
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-03-12
+Summary: Personalization is a critical yet often overlooked factor in boosting productivity and wellbeing in knowledge-intensive workplaces to better address individual preferences. Existing tools typically offer uniform guidance whether auto-generating email responses or prompting break reminders without accounting for individual behavioral patterns or stress triggers. We introduce AdaptAI, a multimodal A...
+
+--- [12] 2501.09355v1 ---
+Title: YETI (YET to Intervene) Proactive Interventions by Multimodal AI Agents in Augmented Reality Tasks
+Authors: Saptarashmi Bandyopadhyay, Vikas Bahirwani, Lavisha Aggarwal, Bhanu Guda, Lin Li et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV, cs.ET, cs.MA
+Published: 2025-01-16
+# Total entries: 19
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aegocentric+AND+abs%3Aaudio+AND+abs%3Aagent&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Multimodal AI Agents are AI models that have the capability of interactively and cooperatively assisting human users to solve day-to-day tasks. Augmented Reality (AR) head worn devices can uniquely improve the user experience of solving procedural day-to-day tasks by providing egocentric multimodal (audio and video) observational capabilities to AI Agents. Such AR capabilities can help AI Agents s...
+
+--- [13] 2311.06455v2 ---
+Title: Aria-NeRF: Multimodal Egocentric View Synthesis
+Authors: Jiankai Sun, Jianing Qiu, Chuanyang Zheng, John Tucker, Javier Yu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2023-11-11
+Summary: We seek to accelerate research in developing rich, multimodal scene models trained from egocentric data, based on differentiable volumetric ray-tracing inspired by Neural Radiance Fields (NeRFs). The construction of a NeRF-like model from an egocentric image sequence plays a pivotal role in understanding human behavior and holds diverse applications within the realms of VR/AR. Such egocentric NeRF...
+
+--- [14] 2304.10773v2 ---
+Title: Learning Semantic-Agnostic and Spatial-Aware Representation for Generalizable Visual-Audio Navigation
+Authors: Hongcheng Wang, Yuxuan Wang, Fangwei Zhong, Mingdong Wu, Jianwei Zhang et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2023-04-21
+Summary: Visual-audio navigation (VAN) is attracting more and more attention from the robotic community due to its broad applications, \emph{e.g.}, household robots and rescue robots. In this task, an embodied agent must search for and navigate to the sound source with egocentric visual and audio observations. However, the existing methods are limited in two aspects: 1) poor generalization to unheard sound...
+
+--- [15] 2204.09919v1 ---
+Title: Sonic Interactions in Virtual Environments: the Egocentric Audio Perspective of the Digital Twin
+Authors: Michele Geronazzo, Stefania Serafin
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.MM, cs.SD, eess.AS
+Published: 2022-04-21
+Summary: The relationships between the listener, physical world and virtual environment (VE) should not only inspire the design of natural multimodal interfaces but should be discovered to make sense of the mediating action of VR technologies. This chapter aims to transform an archipelago of studies related to sonic interactions in virtual environments (SIVE) into a research field equipped with a first the...
+
+--- [16] 2202.10910v1 ---
+Title: Sound Adversarial Audio-Visual Navigation
+Authors: Yinfeng Yu, Wenbing Huang, Fuchun Sun, Changan Chen, Yikai Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.RO, eess.AS
+Published: 2022-02-22
+Summary: Audio-visual navigation task requires an agent to find a sound source in a realistic, unmapped 3D environment by utilizing egocentric audio-visual observations. Existing audio-visual navigation works assume a clean environment that solely contains the target sound, which, however, would not be suitable in most real-world applications due to the unexpected sound noise or intentional interference. I...
+
+--- [17] 2202.00850v2 ---
+Title: Active Audio-Visual Separation of Dynamic Sound Sources
+Authors: Sagnik Majumder, Kristen Grauman
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.SD, eess.AS, eess.IV
+Published: 2022-02-02
+Summary: We explore active audio-visual separation for dynamic sound sources, where an embodied agent moves intelligently in a 3D environment to continuously isolate the time-varying audio stream being emitted by an object of interest. The agent hears a mixed stream of multiple audio sources (e.g., multiple people conversing and a band playing music at a noisy party). Given a limited time budget, it needs ...
+
+--- [18] 1912.11684v2 ---
+Title: Look, Listen, and Act: Towards Audio-Visual Embodied Navigation
+Authors: Chuang Gan, Yiwei Zhang, Jiajun Wu, Boqing Gong, Joshua B. Tenenbaum
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.RO, cs.SD, eess.AS
+Published: 2019-12-25
+Summary: A crucial ability of mobile intelligent agents is to integrate the evidence from multiple sensory inputs in an environment and to make a sequence of actions to reach their goals. In this paper, we attempt to approach the problem of Audio-Visual Embodied Navigation, the task of planning the shortest path from a random starting location in a scene to the sound source in an indoor environment, given ...
+
+--- [19] 1912.11474v3 ---
+Title: SoundSpaces: Audio-Visual Navigation in 3D Environments
+Authors: Changan Chen, Unnat Jain, Carl Schissler, Sebastia Vicenc Amengual Gari, Ziad Al-Halah et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.HC, cs.SD, eess.AS
+Published: 2019-12-24
+Summary: Moving around in the world is naturally a multisensory experience, but today's embodied agents are deaf---restricted to solely their visual perception of the environment. We introduce audio-visual navigation for complex, acoustically and visually realistic 3D environments. By both seeing and hearing, the agent must learn to navigate to a sounding object. We propose a multi-modal deep reinforcement...
+

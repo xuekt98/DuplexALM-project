@@ -1,0 +1,177 @@
+--- [1] 2609.35115v1 ---
+Title: DuplexCadence: Exact State and Execution from a Speech Model's Declared Timelines
+Authors: Haixiao Gao, Yimin Zheng, Linyou Xiao, Zeke Xie
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-28
+Summary: Full-duplex speech models support streaming interaction that listens and speaks at the same time. Serving them is governed by a strict, repeating deadline: conversation advances on a one-second cadence, and every second of input must be turned into a second of speech before the next second arrives. Because stages within a session run in strict sequence, per-invocation overhead cannot be batched aw...
+
+--- [2] 2609.34973v1 ---
+Title: APEX-Voice: Can Voice Agents Complete Professional Workflows Through Full-Duplex Interaction
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-28
+Summary: Full-duplex voice agents can now listen, speak, use tools, and act during spoken interactions, but fluent dialogue does not guarantee correct completion of delegated professional workflows. We introduce APEX-Voice, a benchmark of 120 interactive professional workflows spanning ten work archetypes such as form completion, corporate negotiation, coordination, consulting, and interviewing. Each workf...
+
+--- [3] 2609.34461v1 ---
+Title: CharDuplex: Building Character-Consistent Full-Duplex Spoken Dialogue Models
+Authors: Donghang Wu, Yisi Liu, Chen Chen, Hexin Liu, Eng Siong Chng
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech models are moving voice interaction beyond conventional turn-taking, yet natural conversation is shaped not only by when an agent speaks, but also by how it behaves as a conversational character. We present CharDuplex, a character-driven full-duplex speech model that combines real-time spoken interaction with persona-conditioned behavior. We first adapt GLM-4-Voice to an always-...
+
+--- [4] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [5] 2609.34096v1 ---
+Title: HiThink Turn: An Intent-Aware Turn-Taking Control Module for Full-Duplex Dialogue
+Authors: Feiyang Chen, Wenhan Yang, Bohan Wang, Xinjian Gao, Rongjunchen Zhang et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-28
+Summary: Full-duplex dialogue requires timely yet selective interruption handling, which end-of-turn prediction alone cannot achieve: complete utterances may need no response, while unfinished requests may warrant interruption. To address this challenge, we propose HiThink Turn, an intent-aware streaming turn-state predictor that separates response intent from semantic completeness and conditions decisions...
+
+--- [6] 2609.33774v1 ---
+Title: Tokens Change, Structure Endures: Spectral Watermarking for Generated Speech
+Authors: Kanghwi Lee, Kyeongseok Jeong, Jeongmin Liu
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.CR, cs.LG, eess.AS
+Published: 2026-09-27
+Summary: Watermarking is a promising tool for establishing the provenance of AI-generated speech. While many neural audio watermarking methods rely on a separately trained watermark generator, token-level watermarking is a training-free alternative that operates directly during generation. Its main weakness is retokenization: decoding generated speech to a waveform and encoding it again can change token id...
+
+--- [7] 2609.33443v1 ---
+Title: Context Spanning: A Communication Framework for Full-Duplex Speech Models and External LLM Backends
+Authors: Seonghyeon Go, Yongwoo Kim, Hyeonjin Cha, Jaeho Shin
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-27
+Summary: Full-duplex spoken dialogue models can listen and speak simultaneously like the real-time dynamics of human conversation. For natural dialogue, the ability to search for external information in real-time is also an important capability. Many models remain trapped in parametric knowledge, leaving them unable to access real-time information and tool execution. Furthermore, even when Large Language M...
+
+--- [8] 2609.31967v1 ---
+Title: IndicFDB: Benchmarking Full-Duplex Voice Agents across Indian Languages
+Authors: Rajarshi Roy, Shobhit Banga, Jonathan Raiman, Supriya Paul, Bhaskar Singh et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-25
+Summary: Full-duplex voice agents must handle pauses, take turns, backchannel, and respond to user interruptions in real time. Full-Duplex-Bench evaluates these behaviors, but its English-only corpus and reliance on word-timestamped ASR and an English-prompted LLM judge make it difficult to extend to Indian languages. We introduce IndicFDB, which extends it to ten languages spoken in India with 12,350 samp...
+
+--- [9] 2609.31948v1 ---
+Title: Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue
+Authors: Chengqian Ma, Wenhao Feng, Weixuan Jin, Gaole Dai, Tianyu Xie et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-25
+Summary: Real-time full-duplex speech models can listen while speaking, enabling natural interaction without rigid turn boundaries. Existing benchmarks evaluate turn-taking, interruption handling and multi-round dialogue, but largely centre on a designated user rather than an assistant participating in a shared conversation among several people. We introduce Duplex-MPE to evaluate when such an assistant sh...
+
+--- [10] 2609.31588v1 ---
+Title: RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue
+Authors: Sathvik Udupa, Naveen Kumar, Ryan Folmsbee
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-25
+Summary: Many voice interaction applications require exact control over both the content and delivery of responses, typically using pre-recorded lines. Recent full-duplex models respond with low latency but cannot guarantee exact content or reproduce a specific recorded performance, while cascaded systems can be constrained to predefined responses at the cost of additional latency. We propose RePlay, a spo...
+
+--- [11] 2609.31224v1 ---
+Title: Acoustic-to-Text KV Compression for Full-Duplex Speech Models
+Authors: Yejin Lee, Seungbeom Kim, Yongha Lee, Kyuhong Shim
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-25
+Summary: Full-duplex speech language models continuously accumulate acoustic key-value (KV) states, making long-running interactions memory-intensive. During listening, the model can finish processing an audio unit before the next arrives; we term the remaining interval listening-time slack. We propose acoustic-to-text KV compression, which introduces a transcription side channel to convert incoming speech...
+
+--- [12] 2609.30798v1 ---
+Title: Evaluating Real-Time Voice Agents: From Component Quality to Grounded Outcomes
+Authors: Shivam Negi, Arpit Rawat, Rashi Jain
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-25
+Summary: Real-time voice agents have moved from research prototypes to production deployments, yet the literature describing them is fragmented across three communities that rarely cite one another: speech foundation modelling, turn-taking psycholinguistics, and agentic evaluation. Architecture papers report latency, turn-taking papers report prediction accuracy, and agentic benchmarks report task success,...
+
+--- [13] 2609.29217v1 ---
+Title: AdaptDuplex: from static to adaptive full-duplex spoken dialogue
+Authors: Zhiyang Zhou, Yingxin Shang, Zhou Wang, Hongwei Cai, Weixu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-24
+Summary: Full-duplex spoken dialogue requires simultaneous listening and speaking at sub-second latency, under conversational timing and cognitive demands that change moment to moment. Yet current models mostly impose static operating points, lacking a systematic mechanism for adaptive decisions. We present AdaptDuplex, which upgrades Qwen3-Omni with such a mechanism, co-designed across three layers. A com...
+
+--- [14] 2609.28806v1 ---
+Title: A Harness for Synthesizing Diverse Naturalistic Full-Duplex Conversations
+Authors: Matthew Sun, Vinay Kothapally, Meng Yu, Chao Huang, Hao Zhang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-09-23
+Summary: Full-duplex dialogue systems, which listen while speaking, must distinguish a completed turn from a pause within a turn and an interruption that requests a turn from a brief acknowledgment or speech addressed to a third party. Yet existing conversational corpora provide limited control over these events and limited labels for their intent. We present a pipeline for synthesizing intent-labeled, two...
+
+--- [15] 2609.27378v1 ---
+Title: Psychoacoustically Aligned Latent Smoothing for Adversarial Robustness of Full-Duplex Speech-to-Speech Dialogue Models
+Authors: Kian Shamsaie, Iman Modarressi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.HC
+Published: 2026-09-23
+Summary: End-to-end speech-to-speech dialogue models listen and speak simultaneously, so a continuously open acoustic channel is exposed to adversarial manipulation. We formalize imperceptible attacks on full-duplex agents as optimization over additive perturbations confined beneath the psychoacoustic masking threshold of the carrier speech, under three goals: targeted semantic hijacking, response suppress...
+
+--- [16] 2609.25195v1 ---
+Title: Qwen-Audio-Agent Technical Report
+Authors: Chong Deng, Yunjie Ji, Yuxiang Kong, Xiangang Li, Xu Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.MA
+Published: 2026-09-21
+Summary: We present Qwen-Audio-Agent, a harness that combines full-duplex voice interaction with asynchronous task execution through a foreground-background architecture. A Frontend Agent manages dialogue and selects between direct tool use and delegation, while a Backend Agent carries out delegated tasks in a separate context. An Orchestration Runtime maintains task state, coordinates requests for user in...
+
+--- [17] 2609.25176v2 ---
+Title: Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction
+Authors: Lujia Bao, Qian Chen, Luyao Cheng, Chong Deng, Yuxiang Kong et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2026-09-21
+Summary: Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning with Multimodality and Multi-Teacher On-Policy Distillation (M$^{2}$-OPD) to transfer language capabilities and develop native aud...
+
+--- [18] 2609.24547v2 ---
+Title: MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions
+Authors: Lijian Lin, Ye Zhu, Fan Zhang, Yunfei Liu, Baofeng Li et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-21
+Summary: % !TEX root = ../main.tex Real-time embodied companion interaction requires a robot to infer user intent from streaming speech, generate timely responses, and execute expressive, interruptible motions. Existing systems typically decouple dialogue orchestration from gesture synthesis, relying on offline motion generation from complete audio. This separation leaves open how a deployed robot can dyna...
+
+--- [19] 2609.21967v1 ---
+Title: NemotronLabs VoiceChat: An Open Full-duplex Speech-to-Speech Model with Tool Calling Capabilities
+Authors: Jagadeesh Balam, Travis Bartley, Edresson Casanova, Sanjay Chauhan, Chen Chen et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-18
+Summary: We introduce NemotronLabs VoiceChat, an open full-duplex speech-to-speech model with native tool-calling capabilities. NemotronLabs VoiceChat combines a streaming speech encoder and decoder-only language model with parallel specialized output streams for agent text and structured function calls, an auxiliary RNN-T branch for incremental user transcription, and a streaming TTS decoder. This design ...
+
+--- [20] 2609.20995v1 ---
+Title: Voice-Light: A Full-Duplex Cascaded Voice Agent with Causal Turn-Taking and Speculative Generation
+Authors: Bertil Braun
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-17
+Summary: Natural spoken interaction requires more than streaming ASR, language generation, and speech synthesis: a system must react to overlap without canceling on every acknowledgment, prepare a response before a turn is certain, and ensure canceled audio cannot enter conversation history. We present Voice-Light, a full-duplex cascaded voice agent that combines immediate acoustic onset, a causal adapter ...
+
+--- [21] 2609.19596v1 ---
+Title: Full-Duplex Speech Models Take the Floor When Asked, Not When Needed
+Authors: Linkai Peng, Baorian Nuchged, Kaiqi Fu, Yuyang Yao
+Primary cat: cs.CL | All cats: cs.CL, cs.HC
+Published: 2026-09-17
+Summary: Full-duplex speech models listen and speak at once, promising always-on assistants. Yet they must also decide when they should speak. Human listeners speak when addressed or when the speaker stops, but also self-select to correct a false claim, supply a missing word, or warn of danger. We ask whether full-duplex models do the same. To separate the reason to speak from the opportunity, we construct...
+
+--- [22] 2609.19334v2 ---
+Title: A frontend-backend architecture for tool calls in full-duplex speech models
+Authors: Ke Hu, Slyne Deng, Chen Chen, Elena Rastorgueva, Edresson Casanova et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-16
+Summary: Full-duplex speech-to-speech (S2S) models provide natural, low-latency conversational interaction and would benefit from the ability to use external tools and complete voice-agent tasks. We propose a frontend-backend architecture where a duplex speech-to-text frontend learns to emit a delegation token and forwards streaming ASR transcripts to a text-based backend LLM for tool calls. Tool-call resu...
+
+--- [23] 2609.16614v1 ---
+Title: RoleBreak: Benchmarking Long-Horizon Role-Playing Robustness in Spoken Dialogue
+Authors: Yuqi Wang, Fengyuan Liu, Haochen Luo, Zhiqi Yu, Qi Liu
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-15
+Summary: Speech-to-speech dialogue models increasingly support persona control, yet existing spoken role-playing benchmarks remain largely character-centric and short-horizon. This leaves open whether spoken dialogue models can sustain diverse roles over extended interactions, especially beyond predefined fictional characters. We introduce RoleBreak, an open benchmark for long-horizon role-playing robustne...
+
+--- [24] 2609.15759v1 ---
+Title: Enabling Streaming User Transcription in Full-Duplex Speech-to-Speech Models
+Authors: Ke Hu, Nourchene Ferchichi, Edresson Casanova, Ankita Pasad, Elena Rastorgueva et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-14
+Summary: Full-duplex speech-to-speech (S2S) models enable natural conversational AI by allowing simultaneous listening and speaking. However, these models typically lack inherent user speech transcription, which is essential for applications such as conversation logging, accessibility features, and quality monitoring. In this work, we propose an efficient method to add streaming ASR capabilities to an exis...
+
+--- [25] 2609.13814v3 ---
+Title: Realtime-Venus: A full-duplex interaction system with asynchronous delegation
+Authors:  Ant Group
+Primary cat: cs.CV | All cats: cs.CV, eess.AS
+Published: 2026-09-12
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aduplex+AND+abs%3Aspeech-to-speech&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken dialogue relies on acoustic and linguistic cues, while video interaction also requires grounding the conversation in evolving visual context. We present Realtime-Venus, a proactive full-duplex interaction system with two separately trained 9B models: Realtime-Venus-Omni for audio-vi...
+

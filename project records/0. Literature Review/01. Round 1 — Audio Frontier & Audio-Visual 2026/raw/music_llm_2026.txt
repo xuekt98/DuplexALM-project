@@ -1,0 +1,23 @@
+# Total entries: 3
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22music%22+AND+abs%3A%22LLM%22+AND+abs%3A%222026%22&max_results=30&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.23484v1 ---
+Title: Multi-Modal Semantic Expansion with Constrained LLM Reranking for Conversational Music Recommendation
+Authors: Naman Garg, Sarika Jain, George Fazekas
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-24
+Summary: We present Team Semiintelligencn's solution for the ACM RecSys 2026 TalkPlayData Challenge, addressing conversational music recommendation through a multi-modal and personalized conversational recommender system. Our submitted system employs a three-stage pipeline: (1) multi-modal retrieval constructing decay-weighted centroids across seven dense embedding spaces - track- and user-level CF-BPR, Qw...
+
+--- [2] 2607.18718v1 ---
+Title: Summary of DCASE 2026 Task 5: Audio-Dependent Question Answering
+Authors: Haolin He, Renhe Sun, Zheqi Dai, Xingjian Du, Chunyat Wu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-21
+Summary: DCASE~2026 Task~5 introduces Audio-Dependent Question Answering (ADQA), which tests whether large audio-language models answer from the audio rather than from textual priors. An Audio-Dependency Filtering (ADF) pipeline combines silent-audio probing, per-option perplexity, a large language model (LLM) commonsense check, and human review to remove items solvable from text alone. The 3000 items that...
+
+--- [3] 2605.21433v1 ---
+Title: Instrumental Text-to-Music Generation with Auxiliary Conditioning Branches
+Authors: Junyoung Koh
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-05-20
+Summary: Text-to-music generation has advanced rapidly, with modern autoregressive and diffusion-based models producing convincing music from natural-language prompts. However, much of this progress relies on large-scale training data and external pretraining, making it difficult to isolate which design choices remain effective when data and pretraining are controlled. We study this setting using a Diffusi...
+

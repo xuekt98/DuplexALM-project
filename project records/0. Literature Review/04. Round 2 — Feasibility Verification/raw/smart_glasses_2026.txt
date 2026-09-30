@@ -1,0 +1,107 @@
+--- [1] 2608.12034v1 ---
+Title: The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models
+Authors: Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao, Yuhang Dai et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-12
+Summary: Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity ...
+
+--- [2] 2607.17867v1 ---
+Title: The tttAI System for the TSA-ASR Task of the SmartGlasses Challenge 2026
+Authors: Xuanji He, Gaoyang Dong, Xiaoxiao Li, Minchuan Chen, Fengjie Zhu
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-20
+Summary: This paper presents the tttAI system submitted to the TSA-ASR task of the SmartGlasses Challenge 2026, evaluated on both two-person dialogues (Track 1) and multi-party meetings (Track 2). The task requires time-stamped speaker-attributed speech recognition from smart-glasses recordings. This is particularly challenging due to long-form audio, multiple speakers, and frequent overlapping speech. We ...
+
+--- [3] 2606.11980v1 ---
+Title: Somewhere Over the Desktop: A Research Agenda for Ubiquitous Analytics
+Authors: Niklas Elmqvist, Panagiotis D. Ritsos, Peter W. S. Butcher
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-06-10
+Summary: Spatial computing, generative AI, and open web standards are converging. Three spatial operating systems -- Android XR, Meta Horizon OS, and Apple visionOS -- now ship with platform-level scene understanding. Wearable displays span the range from full headsets to slim smartglasses. Agentic AI operates on the same spatial substrates as the human user. This convergence enables new opportunities for ...
+
+--- [4] 2604.23927v2 ---
+Title: Towards Localizing Conversation Partners using Head Motion
+Authors: Payal Mohapatra, Calvin Murdock, Ali Aroudi, Ishwarya Ananthabhotla, Anjali Menon et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-04-27
+Summary: Many individuals struggle to understand conversation partners in noisy settings, particularly amid background speakers or due to hearing impairments. Emerging wearables like smartglasses offer a transformative opportunity to enhance speech from conversation partners. Crucial to this is identifying the direction in which the user wants to listen, which we refer to as the user's acoustic zones of in...
+
+--- [5] 2601.18322v1 ---
+Title: Residual Learning for Neural Ambisonics Encoders
+Authors: Thomas Deppisch, Yang Gao, Manan Mittal, Benjamin Stahl, Christoph Hold et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-01-26
+Summary: Emerging wearable devices such as smartglasses and extended reality headsets demand high-quality spatial audio capture from compact, head-worn microphone arrays. Ambisonics provides a device-agnostic spatial audio representation by mapping array signals to spherical harmonic (SH) coefficients. In practice, however, accurate encoding remains challenging. While traditional linear encoders are signal...
+
+--- [6] 2504.19345v2 ---
+Title: Navigating the Last Mile: Evaluating Head- and Cane-Mounted Cameras for Egocentric Spatial Awareness
+Authors: Apurv Varshney, Lucas Nadolskis, Tobias Höllerer, Michael Beyeler
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-04-27
+Summary: Robust navigational guidance is an important XR application for both sighted and non-sighted populations. In this paper, we mainly focus on blind pedestrians, who continue to face "last-mile" challenges such as locating entrances and navigating cluttered spaces. While smartglasses and wearables are maturing, a foundational design question remains underexplored: where on the body should cameras be ...
+
+--- [7] 2504.17735v1 ---
+Title: EgoCHARM: Resource-Efficient Hierarchical Activity Recognition using an Egocentric IMU Sensor
+Authors: Akhil Padmanabha, Saravanan Govindarajan, Hwanmun Kim, Sergio Ortiz, Rahul Rajan et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2025-04-24
+Summary: Human activity recognition (HAR) on smartglasses has various use cases, including health/fitness tracking and input for context-aware AI assistants. However, current approaches for egocentric activity recognition suffer from low performance or are resource-intensive. In this work, we introduce a resource (memory, compute, power, sample) efficient machine learning algorithm, EgoCHARM, for recognizi...
+
+--- [8] 2502.06421v1 ---
+Title: Hands-on Experiment Supported by Augmented Reality Smartglasses for Learning the Lorentz Force
+Authors: Max Warkentin, Kristin Altmeyer, Yajie Liang, Bermann Steinmacher, Barbara Gränz et al.
+Primary cat: physics.ed-ph | All cats: physics.ed-ph
+Published: 2025-02-10
+Summary: Previous research has shown that inquiry-based learning through hands-on experiments, as well as learning with multiple, external representations (MERs) can promote the understanding of complex phenomena in physics. In this context, augmented reality (AR) smartglasses make it possible to superimpose real experiments with virtually presented information while maintaining learners' freedom to intera...
+
+--- [9] 2407.19351v1 ---
+Title: AccessShare: Co-designing Data Access and Sharing with Blind People
+Authors: Rie Kamikubo, Farnaz Zamiri Zeraati, Kyungjun Lee, Hernisa Kacorri
+Primary cat: cs.HC | All cats: cs.HC, cs.AI
+Published: 2024-07-27
+Summary: Blind people are often called to contribute image data to datasets for AI innovation with the hope for future accessibility and inclusion. Yet, the visual inspection of the contributed images is inaccessible. To this day, we lack mechanisms for data inspection and control that are accessible to the blind community. To address this gap, we engage 10 blind participants in a scenario where they wear ...
+
+--- [10] 2401.10460v1 ---
+Title: Ultra-lightweight Neural Differential DSP Vocoder For High Quality Speech Synthesis
+Authors: Prabhav Agrawal, Thilo Koehler, Zhiping Xiu, Prashant Serai, Qing He
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2024-01-19
+Summary: Neural vocoders model the raw audio waveform and synthesize high-quality audio, but even the highly efficient ones, like MB-MelGAN and LPCNet, fail to run real-time on a low-end device like a smartglass. A pure digital signal processing (DSP) based vocoder can be implemented via lightweight fast Fourier transforms (FFT), and therefore, is a magnitude faster than any neural vocoder. A DSP vocoder o...
+
+--- [11] 2203.04358v1 ---
+Title: ARcall: Real-Time AR Communication using Smartphones and Smartglasses
+Authors: Hemant Bhaskar Surale, Yu Jiang Tham, Brian A. Smith, Rajan Vaish
+Primary cat: cs.HC | All cats: cs.HC, cs.SI
+Published: 2022-03-08
+Summary: Augmented Reality (AR) smartglasses are increasingly regarded as the next generation personal computing platform. However, there is a lack of understanding about how to design communication systems using them. We present ARcall, a novel Augmented Reality-based real-time communication system that enables an immersive, delightful, and privacy-preserving experience between a smartphone user and a sma...
+
+--- [12] 2010.11884v1 ---
+Title: AEGIS: A real-time multimodal augmented reality computer vision based system to assist facial expression recognition for individuals with autism spectrum disorder
+Authors: James Ren Hou Lee, Alexander Wong
+Primary cat: cs.CV | All cats: cs.CV, cs.HC
+Published: 2020-10-22
+Summary: The ability to interpret social cues comes naturally for most people, but for those living with Autism Spectrum Disorder (ASD), some experience a deficiency in this area. This paper presents the development of a multimodal augmented reality (AR) system which combines the use of computer vision and deep convolutional neural networks (CNN) in order to assist individuals with the detection and interp...
+
+--- [13] 1704.03118v1 ---
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Asmartglasses+OR+abs%3Asmart+AND+abs%3Aglasses+AND+abs%3A2026&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: PIANO: Proximity-based User Authentication on Voice-Powered Internet-of-Things Devices
+Authors: Neil Zhenqiang Gong, Altay Ozen, Yu Wu, Xiaoyu Cao, Richard Shin et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2017-04-11
+Summary: Voice is envisioned to be a popular way for humans to interact with Internet-of-Things (IoT) devices. We propose a proximity-based user authentication method (called PIANO) for access control on such voice-powered IoT devices. PIANO leverages the built-in speaker, microphone, and Bluetooth that voice-powered IoT devices often already have. Specifically, we assume that a user carries a personal voi...
+
+--- [14] 1602.06582v2 ---
+Title: Near-field signal acquisition for smartglasses using two acoustic vector-sensors
+Authors: Dovid Y. Levin, Emanuël A. P. Habets, Sharon Gannot
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2016-02-21
+Summary: Smartglasses, in addition to their visual-output capabilities, often contain acoustic sensors for receiving the user's voice. However, operation in noisy environments may lead to significant degradation of the received signal. To address this issue, we propose employing an acoustic sensor array which is mounted on the eyeglasses frames. The signals from the array are processed by an algorithm with...
+
+--- [15] 1412.2855v8 ---
+Title: Gesture-based Continuous Authentication for Wearable Devices: the Google Glass Case
+Authors: Jagmohan Chauhan, Hassan Jameel Asghar, Mohamed Ali Kaafar, Anirban Mahanti
+Primary cat: cs.CR | All cats: cs.CR, cs.HC
+Published: 2014-12-09
+Summary: We study the feasibility of touch gesture behavioural biometrics for implicit authentication of users on a smartglass (Google Glass) by proposing a continuous authentication system using two classifiers: SVM with RBF kernel, and a new classifier based on Chebyshev's concentration inequality. Based on data collected from 30 volunteers, we show that such authentication is feasible both in terms of c...
+

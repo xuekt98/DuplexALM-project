@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Appo+AND+abs%3Aduplex&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2604.14309v2 ---
+Title: Aerial Multi-Functional RIS in Fluid Antennas-Aided Full-Duplex Networks: A Self-Optimized Hybrid Deep Reinforcement Learning Approach
+Authors: Li-Hsiang Shen, Yu-Quan Zheng
+Primary cat: cs.IT | All cats: cs.IT, cs.AI, eess.SP
+Published: 2026-04-15
+Summary: To address high data traffic demands of sixth-generation (6G) networks, this paper proposes a novel architecture that integrates autonomous aerial vehicles (AAVs) and multi-functional reconfigurable intelligent surfaces (MF-RISs) as AM-RIS in fluid antenna (FA)-assisted full-duplex (FD) networks. The AM-RIS provides hybrid functionalities, including signal reflection, amplification, and energy har...
+
+--- [2] 2307.15393v1 ---
+Title: Deep Reinforcement Learning Based Intelligent Reflecting Surface Optimization for TDD MultiUser MIMO Systems
+Authors: Fengyu Zhao, Wen Chen, Ziwei Liu, Jun Li, Qingqing Wu
+Primary cat: cs.IT | All cats: cs.IT, eess.SP
+Published: 2023-07-28
+Summary: In this letter, we investigate the discrete phase shift design of the intelligent reflecting surface (IRS) in a time division duplexing (TDD) multi-user multiple input multiple output (MIMO) system.We modify the design of deep reinforcement learning (DRL) scheme so that we can maximizing the average downlink data transmission rate free from the sub-channel channel state information (CSI). Based on...
+

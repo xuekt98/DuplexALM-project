@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio%22+AND+abs%3A%22visual%22+AND+abs%3A%22segmentation%22+AND+abs%3A%222026%22&max_results=15&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.27480v1 ---
+Title: Effectiveness of IoT and Deep Learning for Detection and Severity Assessment of Postelectrotermes militaris in Tea Plantations
+Authors: D. K. C. Senevirathna, A. A. E. Nanayakkara, H. M. C. K. Kulathunga, J. K. D. P. Nadula, R. M. Mapatuna et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.LG, cs.SD
+Published: 2026-08-22
+Summary: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial damage when infestations remain undetected. This study proposes an IoT-enabled acoustic monitoring framework integrated with deep learning for early detection and severity assessment of ULWT infestations in tea plantations. Research Method: Audio sign...
+
+--- [2] 2607.25543v1 ---
+Title: Less is More: Modality-Decoupling for General AIGC Audio-Video Detection
+Authors: Jielun Peng, Yabin Wang, Yaqi Li, Jincheng Liu, Xiaopeng Hong et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-28
+Summary: Generative AI has rapidly expanded audio-visual forgery beyond human-centric deepfakes into general scenes. Existing AIGC detection methods assume audio-visual content correspondence, identifying forgeries by spotting cross-modal inconsistencies. However, we empirically find that this assumption does not consistently hold in general scenarios. We argue that, for general audio-visual AIGC detection...
+

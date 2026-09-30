@@ -1,0 +1,142 @@
+--- [1] 2607.23840v1 ---
+Title: STEER: Steerable Dyadic Head Avatars
+Authors: Kartik Teotia, Helge Rhodin, Hyeongwoo Kim, Marc Habermann, Christian Theobalt
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Facial movement and expression are central to face-to-face communication, conveying turn-taking, attention, agreement, and engagement alongside speech. While speech-driven facial animation has made strong progress in lip synchronization and audio-conditioned motion generation, most methods treat conversational behavior as an emergent byproduct of audio, or expose only coarse sequence-level affect ...
+
+--- [2] 2607.23588v1 ---
+Title: JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents
+Authors: Yunlong Lin, Zixu Lin, Zhaohu Xing, Biqiang Li, Chenxin Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Creative AI is moving from single-step asset generation toward long-horizon multimodal production. Although recent generative models can synthesize high-quality images, videos, audio clips, UI elements, storyboards, slides, and other creative assets, real-world creative work requires more than isolated prompt-output interactions. It involves references, drafts, alternatives, edits, failed attempts...
+
+--- [3] 2606.16731v2 ---
+Title: MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the Wild
+Authors: Haotian Qi, Gabriel Skantze
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.HC
+Published: 2026-06-15
+Summary: Current multiparty turn-taking models often rely on complex microphone arrays or multi-camera setups, limiting their applicability in human-robot interaction scenarios. We introduce MuVAP, a causal multimodal framework that extends Voice Activity Projection by grounding acoustic predictions in face tracks, enabling speaker-aware turn-taking predictions from a monaural audio stream and a single cam...
+
+--- [4] 2605.11192v1 ---
+Title: Exploring Token-Space Manipulation in Latent Audio Tokenizers
+Authors: Francesco Paissan, Luca Della Libera, Mirco Ravanelli, Cem Subakan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-05-11
+Summary: Neural audio codecs provide compact discrete representations for speech generation and manipulation. However, most codecs organize tokens as frame-level sequences, making it difficult to study or intervene on global factors of variation. In this work, we propose the Latent Audio Tokenizer for Token-space Editing (LATTE) that appends a fixed set of learnable latent tokens to the audio feature seque...
+
+--- [5] 2604.11917v1 ---
+Title: StreamMark: A Deep Learning-Based Semi-Fragile Audio Watermarking for Proactive Deepfake Detection
+Authors: Zhentao Liu, Milos Cernak
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-13
+Summary: The rapid advancement of generative AI has made it increasingly challenging to distinguish between deepfake audio and authentic human speech. To overcome the limitations of passive detection methods, we propose StreamMark, a novel deep learning-based, semi-fragile audio watermarking system. StreamMark is designed to be robust against benign audio conversions that preserve semantic meaning (e.g., c...
+
+--- [6] 2602.07266v1 ---
+Title: ADCanvas: Accessible and Conversational Audio Description Authoring for Blind and Low Vision Creators
+Authors: Franklin Mingzhe Li, Michael Xieyang Liu, Cynthia L. Bennett, Shaun K. Kane
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-02-06
+Summary: Audio Description (AD) provides essential access to visual media for blind and low vision (BLV) audiences. Yet current AD production tools remain largely inaccessible to BLV video creators, who possess valuable expertise but face barriers due to visually-driven interfaces. We present ADCanvas, a multimodal authoring system that supports non-visual control over audio description (AD) creation. ADCa...
+
+--- [7] 2602.04535v1 ---
+Title: HoliAntiSpoof: Audio LLM for Holistic Speech Anti-Spoofing
+Authors: Xuenan Xu, Yiming Ren, Liwei Liu, Wen Wu, Baoxiang Li et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-02-04
+Summary: Recent advances in speech synthesis and editing have made speech spoofing increasingly challenging. However, most existing methods treat spoofing as binary classification, overlooking that diverse spoofing techniques manipulate multiple, coupled speech attributes and their semantic effects. In this paper, we introduce HoliAntiSpoof, the first audio large language model (ALLM) framework for holisti...
+
+--- [8] 2512.23808v1 ---
+Title: MiMo-Audio: Audio Language Models are Few-Shot Learners
+Authors: Xiaomi LLM-Core Team,  :, Dong Zhang, Gang Wang, Jinlong Xue et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-12-29
+Summary: Existing audio language models typically rely on task-specific fine-tuning to accomplish particular audio tasks. In contrast, humans are able to generalize to new audio tasks with only a few examples or simple instructions. GPT-3 has shown that scaling next-token prediction pretraining enables strong generalization capabilities in text, and we believe this paradigm is equally applicable to the aud...
+
+--- [9] 2512.20151v1 ---
+Title: QuarkAudio Technical Report
+Authors: Chengwei Liu, Haoyin Yan, Shaofei Xue, Xiaotao Liang, Xiaofu Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-12-23
+Summary: Many existing audio processing and generation models rely on task-specific architectures, resulting in fragmented development efforts and limited extensibility. It is therefore promising to design a unified framework capable of handling multiple tasks, while providing robust instruction and audio understanding and high-quality audio generation. This requires a compatible paradigm design, a powerfu...
+
+--- [10] 2512.14865v1 ---
+Title: Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction
+Authors: Advait Gosai, Tyler Vuong, Utkarsh Tyagi, Steven Li, Wenjia You et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2025-12-16
+Summary: End-to-end (E2E) spoken dialogue systems are increasingly replacing cascaded pipelines for voice-based human-AI interaction, processing raw audio directly without intermediate transcription. Existing benchmarks primarily evaluate these models on synthetic speech and single-turn tasks, leaving realistic multi-turn conversational ability underexplored. We introduce Audio MultiChallenge, an open-sour...
+
+--- [11] 2509.24570v1 ---
+Title: ISSE: An Instruction-Guided Speech Style Editing Dataset And Benchmark
+Authors: Yun Chen, Qi Chen, Zheqi Dai, Arshdeep Singh, Philip J. B. Jackson et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-29
+Summary: Speech style editing refers to modifying the stylistic properties of speech while preserving its linguistic content and speaker identity. However, most existing approaches depend on explicit labels or reference audio, which limits both flexibility and scalability. More recent attempts to use natural language descriptions remain constrained by oversimplified instructions and coarse style control. T...
+
+--- [12] 2508.16332v3 ---
+Title: Vevo2: A Unified and Controllable Framework for Speech and Singing Voice Generation
+Authors: Xueyao Zhang, Junan Zhang, Yuancheng Wang, Chaoren Wang, Yuanzhe Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2025-08-22
+Summary: Controllable human voice generation, particularly for expressive domains like singing, remains a significant challenge. This paper introduces Vevo2, a unified framework for controllable speech and singing voice generation. To tackle issues like the scarcity of annotated singing data and to enable flexible controllability, Vevo2 introduces two audio tokenizers: (1) a unified music-notation-free pro...
+
+--- [13] 2506.09344v1 ---
+Title: Ming-Omni: A Unified Multimodal Model for Perception and Generation
+Authors: Inclusion AI, Biao Gong, Cheng Zou, Chuanyang Zheng, Chunluan Zhou et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV, cs.LG, cs.SD
+Published: 2025-06-11
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aconversational+AND+abs%3Aaudio+AND+abs%3Aedit&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: We propose Ming-Omni, a unified multimodal model capable of processing images, text, audio, and video, while demonstrating strong proficiency in both speech and image generation. Ming-Omni employs dedicated encoders to extract tokens from different modalities, which are then processed by Ling, an MoE architecture equipped with newly proposed modality-specific routers. This design enables a single ...
+
+--- [14] 2501.13772v4 ---
+Title: Jailbreak-AudioBench: In-Depth Evaluation and Analysis of Jailbreak Threats for Large Audio Language Models
+Authors: Hao Cheng, Erjia Xiao, Jing Shao, Yichi Wang, Le Yang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS
+Published: 2025-01-23
+Summary: Large Language Models (LLMs) demonstrate impressive zero-shot performance across a wide range of natural language processing tasks. Integrating various modality encoders further expands their capabilities, giving rise to Multimodal Large Language Models (MLLMs) that process not only text but also visual and auditory modality inputs. However, these advanced capabilities may also pose significant sa...
+
+--- [15] 2411.12641v2 ---
+Title: Improving Controllability and Editability for Pretrained Text-to-Music Generation Models
+Authors: Yixiao Zhang
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-11-19
+Summary: The field of AI-assisted music creation has made significant strides, yet existing systems often struggle to meet the demands of iterative and nuanced music production. These challenges include providing sufficient control over the generated content and allowing for flexible, precise edits. This thesis tackles these issues by introducing a series of advancements that progressively build upon each ...
+
+--- [16] 2408.02712v1 ---
+Title: Automatic Voice Identification after Speech Resynthesis using PPG
+Authors: Thibault Gaudier, Marie Tahon, Anthony Larcher, Yannick Estève
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.NE, eess.AS, eess.SP
+Published: 2024-08-05
+Summary: Speech resynthesis is a generic task for which we want to synthesize audio with another audio as input, which finds applications for media monitors and journalists.Among different tasks addressed by speech resynthesis, voice conversion preserves the linguistic information while modifying the identity of the speaker, and speech edition preserves the identity of the speaker but some words are modifi...
+
+--- [17] 2406.05325v1 ---
+Title: LDM-SVC: Latent Diffusion Model Based Zero-Shot Any-to-Any Singing Voice Conversion with Singer Guidance
+Authors: Shihao Chen, Yu Gu, Jie Zhang, Na Li, Rilin Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-06-08
+Summary: Any-to-any singing voice conversion (SVC) is an interesting audio editing technique, aiming to convert the singing voice of one singer into that of another, given only a few seconds of singing data. However, during the conversion process, the issue of timbre leakage is inevitable: the converted singing voice still sounds like the original singer's voice. To tackle this, we propose a latent diffusi...
+
+--- [18] 2404.14700v4 ---
+Title: FlashSpeech: Efficient Zero-Shot Speech Synthesis
+Authors: Zhen Ye, Zeqian Ju, Haohe Liu, Xu Tan, Jianyi Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.LG, cs.SD
+Published: 2024-04-23
+Summary: Recent progress in large-scale zero-shot speech synthesis has been significantly advanced by language models and diffusion models. However, the generation process of both methods is slow and computationally intensive. Efficient speech synthesis using a lower computing budget to achieve quality on par with previous work remains a significant challenge. In this paper, we present FlashSpeech, a large...
+
+--- [19] 2404.06674v2 ---
+Title: VoiceShop: A Unified Speech-to-Speech Framework for Identity-Preserving Zero-Shot Voice Editing
+Authors: Philip Anastassiou, Zhenyu Tang, Kainan Peng, Dongya Jia, Jiaxin Li et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2024-04-10
+Summary: We present VoiceShop, a novel speech-to-speech framework that can modify multiple attributes of speech, such as age, gender, accent, and speech style, in a single forward pass while preserving the input speaker's timbre. Previous works have been constrained to specialized models that can only edit these attributes individually and suffer from the following pitfalls: the magnitude of the conversion...
+
+--- [20] 2311.18775v1 ---
+Title: CoDi-2: In-Context, Interleaved, and Interactive Any-to-Any Generation
+Authors: Zineng Tang, Ziyi Yang, Mahmoud Khademi, Yang Liu, Chenguang Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.LG, cs.SD
+Published: 2023-11-30
+Summary: We present CoDi-2, a versatile and interactive Multimodal Large Language Model (MLLM) that can follow complex multimodal interleaved instructions, conduct in-context learning (ICL), reason, chat, edit, etc., in an any-to-any input-output modality paradigm. By aligning modalities with language for both encoding and generation, CoDi-2 empowers Large Language Models (LLMs) to not only understand comp...
+

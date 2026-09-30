@@ -1,0 +1,142 @@
+--- [1] 2607.23588v1 ---
+Title: JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents
+Authors: Yunlong Lin, Zixu Lin, Zhaohu Xing, Biqiang Li, Chenxin Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Creative AI is moving from single-step asset generation toward long-horizon multimodal production. Although recent generative models can synthesize high-quality images, videos, audio clips, UI elements, storyboards, slides, and other creative assets, real-world creative work requires more than isolated prompt-output interactions. It involves references, drafts, alternatives, edits, failed attempts...
+
+--- [2] 2606.26842v1 ---
+Title: voxmap-studio: An open-source speaker diarization annotation tool with built-in cost instrumentation
+Authors: Fumiaki Yamaguchi
+Primary cat: eess.AS | All cats: eess.AS, cs.HC, cs.SD
+Published: 2026-06-25
+Summary: Labeling speaker diarization data is costly, yet annotation tools rarely measure that cost. We present voxmap-studio, an open-source, React-based diarization annotation tool integrated with the pyannote-based diarization ecosystem. Its canvas is initialized by a fast stride-accelerated diarization engine so that the annotator corrects a hypothesis rather than drawing every speaker turn by hand, an...
+
+--- [3] 2605.16364v2 ---
+Title: WASIL: In-the-Wild Arabic Spoken Interactions with LLMs
+Authors: Zien Sheikh Ali, Hamdy Mubarak, Soon-Gyo Jung, Hunzalah Hassan Bhatti, Firoj Alam et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-05-09
+Summary: Large Language Models (LLMs) voice assistants are commonly built as cascaded Automatic Speech recognition (ASR) to LLM systems, where recognition errors can distort user intent. Dislikes may also arise from ambiguous, out-of-domain, or non-request turns, making it hard to isolate ASR effects. We release WASIL (it denotes connection or linking in Arabic): in-the-wild Arabic spoken interaction promp...
+
+--- [4] 2605.05348v1 ---
+Title: Making AI Drafts Count: A Quality Threshold in Audio Description Workflows
+Authors: Lana Do, Shasta Ihorn, Charity M. Pitcher-Cooper, Sanjay Mirani, Gio Jung et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.AI
+Published: 2026-05-06
+Summary: Audio description (AD) narrates visual elements in video for blind and low-vision audiences. Recent work has shown that giving novice describers an AI-generated draft to start from helps produce higher-quality AD and lowers the barrier to entry. What remains an open question is how draft quality shapes the editing process. We investigate this through GenAD, an AD generation pipeline that incorpora...
+
+--- [5] 2602.08838v1 ---
+Title: Glow with the Flow: AI-Assisted Creation of Ambient Lightscapes for Music Videos
+Authors: Frederic Anthony Robinson, Vishnu Raj, David Cooper, Fan Du, David Gunawan
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-02-09
+Summary: Designed light is an established modality for live performance and music playback. Despite the growing availability of consumer smart lighting, the creation of designed light for music visualization remains limited to professional contexts due to time and skill constraints. To address this, we present an AI-assisted system for generating ambient light sequences for music videos. Informed by profes...
+
+--- [6] 2602.07266v1 ---
+Title: ADCanvas: Accessible and Conversational Audio Description Authoring for Blind and Low Vision Creators
+Authors: Franklin Mingzhe Li, Michael Xieyang Liu, Cynthia L. Bennett, Shaun K. Kane
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-02-06
+Summary: Audio Description (AD) provides essential access to visual media for blind and low vision (BLV) audiences. Yet current AD production tools remain largely inaccessible to BLV video creators, who possess valuable expertise but face barriers due to visually-driven interfaces. We present ADCanvas, a multimodal authoring system that supports non-visual control over audio description (AD) creation. ADCa...
+
+--- [7] 2512.10778v1 ---
+Title: Building Audio-Visual Digital Twins with Smartphones
+Authors: Zitong Lan, Yiwei Tang, Yuhan Wang, Haowen Lai, Yiduo Hao et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2025-12-11
+Summary: Digital twins today are almost entirely visual, overlooking acoustics-a core component of spatial realism and interaction. We introduce AV-Twin, the first practical system that constructs editable audio-visual digital twins using only commodity smartphones. AV-Twin combines mobile RIR capture and a visual-assisted acoustic field model to efficiently reconstruct room acoustics. It further recovers ...
+
+--- [8] 2512.03289v1 ---
+Title: DAWZY: A New Addition to AI powered "Human in the Loop" Music Co-creation
+Authors: Aaron C Elkins, Sanchit Singh, Adrian Kieback, Sawyer Blankenship, Uyiosa Philip Amadasun et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-12-02
+Summary: Digital Audio Workstations (DAWs) offer fine control, but mapping high-level intent (e.g., "warm the vocals") to low-level edits breaks creative flow. Existing artificial intelligence (AI) music generators are typically one-shot, limiting opportunities for iterative development and human contribution. We present DAWZY, an open-source assistant that turns natural-language (text/voice/hum) requests ...
+
+--- [9] 2509.26329v1 ---
+Title: TAU: A Benchmark for Cultural Sound Understanding Beyond Semantics
+Authors: Yi-Cheng Lin, Yu-Hua Chen, Jia-Kai Dong, Yueh-Hsuan Huang, Szu-Chi Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2025-09-30
+Summary: Large audio-language models are advancing rapidly, yet most evaluations emphasize speech or globally sourced sounds, overlooking culturally distinctive cues. This gap raises a critical question: can current models generalize to localized, non-semantic audio that communities instantly recognize but outsiders do not? To address this, we present TAU (Taiwan Audio Understanding), a benchmark of everyd...
+
+--- [10] 2509.24550v1 ---
+Title: Training-Free Multimodal Guidance for Video to Audio Generation
+Authors: Eleonora Grassucci, Giuliano Galadini, Giordano Cicchetti, Aurelio Uncini, Fabio Antonacci et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.SD
+Published: 2025-09-29
+Summary: Video-to-audio (V2A) generation aims to synthesize realistic and semantically aligned audio from silent videos, with potential applications in video editing, Foley sound design, and assistive multimedia. Although the excellent results, existing approaches either require costly joint training on large-scale paired datasets or rely on pairwise similarities that may fail to capture global multimodal ...
+
+--- [11] 2509.11717v6 ---
+Title: CodecSep: Prompt-Driven Universal Sound Separation on Neural Audio Codec Latents
+Authors: Adhiraj Banerjee, Vipul Arora
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2025-09-15
+Summary: Text-guided sound separation enables flexible audio editing, assistive listening, and open-domain source extraction, but systems such as AudioSep remain too expensive for low-latency edge or codec-mediated deployment. Existing neural audio codec separators are efficient, yet largely restricted to fixed stems or closed taxonomies. We introduce CodecSep, a prompt-driven universal sound separation fr...
+
+--- [12] 2508.01092v1 ---
+Title: DescribePro: Collaborative Audio Description with Human-AI Interaction
+Authors: Maryam Cheema, Sina Elahimanesh, Samuel Martin, Pooyan Fazli, Hasti Seifi
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-08-01
+Summary: Audio description (AD) makes video content accessible to millions of blind and low vision (BLV) users. However, creating high-quality AD involves a trade-off between the precision of human-crafted descriptions and the efficiency of AI-generated ones. To address this, we present DescribePro a collaborative AD authoring system that enables describers to iteratively refine AI-generated descriptions t...
+
+--- [13] 2504.14058v1 ---
+Title: Calliope: An Online Generative Music System for Symbolic Multi-Track Composition
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aedit+AND+abs%3Aassistant&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Renaud Bougueng Tchemeube, Jeff Ens, Philippe Pasquier
+Primary cat: cs.HC | All cats: cs.HC, cs.LG, cs.SD
+Published: 2025-04-18
+Summary: With the rise of artificial intelligence in recent years, there has been a rapid increase in its application towards creative domains, including music. There exist many systems built that apply machine learning approaches to the problem of computer-assisted music composition (CAC). Calliope is a web application that assists users in performing a variety of multi-track composition tasks in the symb...
+
+--- [14] 2504.01020v2 ---
+Title: Shot-by-Shot: Film-Grammar-Aware Training-Free Audio Description Generation
+Authors: Junyu Xie, Tengda Han, Max Bain, Arsha Nagrani, Eshika Khandelwal et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-04-01
+Summary: Our objective is the automatic generation of Audio Descriptions (ADs) for edited video material, such as movies and TV series. To achieve this, we propose a two-stage framework that leverages "shots" as the fundamental units of video understanding. This includes extending temporal context to neighbouring shots and incorporating film grammar devices, such as shot scales and thread structures, to gu...
+
+--- [15] 2501.18727v2 ---
+Title: Exploring Audio Editing Features as User-Centric Privacy Defenses Against Large Language Model(LLM) Based Emotion Inference Attacks
+Authors: Mohd. Farhan Israk Soumik, W. K. M. Mithsara, Abdur R. Shahid, Ahmed Imteaj
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.LG, cs.SD, eess.AS
+Published: 2025-01-30
+Summary: The rapid proliferation of speech-enabled technologies, including virtual assistants, video conferencing platforms, and wearable devices, has raised significant privacy concerns, particularly regarding the inference of sensitive emotional information from audio data. Existing privacy-preserving methods often compromise usability and security, limiting their adoption in practical scenarios. This pa...
+
+--- [16] 2411.12641v2 ---
+Title: Improving Controllability and Editability for Pretrained Text-to-Music Generation Models
+Authors: Yixiao Zhang
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-11-19
+Summary: The field of AI-assisted music creation has made significant strides, yet existing systems often struggle to meet the demands of iterative and nuanced music production. These challenges include providing sufficient control over the generated content and allowing for flexible, precise edits. This thesis tackles these issues by introducing a series of advancements that progressively build upon each ...
+
+--- [17] 2410.23230v2 ---
+Title: Aligning Audio-Visual Joint Representations with an Agentic Workflow
+Authors: Shentong Mo, Yibing Song
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2024-10-30
+Summary: Visual content and accompanied audio signals naturally formulate a joint representation to improve audio-visual (AV) related applications. While studies develop various AV representation learning frameworks, the importance of AV data alignment is usually undermined for achieving high-quality representation. We observe that an audio signal may contain background noise interference. Also, non-synchr...
+
+--- [18] 2405.18386v3 ---
+Title: Instruct-MusicGen: Unlocking Text-to-Music Editing for Music Language Models via Instruction Tuning
+Authors: Yixiao Zhang, Yukara Ikemiya, Woosung Choi, Naoki Murata, Marco A. Martínez-Ramírez et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS
+Published: 2024-05-28
+Summary: Recent advances in text-to-music editing, which employ text queries to modify music (e.g.\ by changing its style or adjusting instrumental components), present unique challenges and opportunities for AI-assisted music creation. Previous approaches in this domain have been constrained by the necessity to train specific editing models from scratch, which is both resource-intensive and inefficient; o...
+
+--- [19] 2403.05785v1 ---
+Title: Typist Experiment: an Investigation of Human-to-Human Dictation via Role-play to Inform Voice-based Text Authoring
+Authors: Can Liu, Siying Hu, Li Feng, Mingming Fan
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2024-03-09
+Summary: Voice dictation is increasingly used for text entry, especially in mobile scenarios. However, the speech-based experience gets disrupted when users must go back to a screen and keyboard to review and edit the text. While existing dictation systems focus on improving transcription and error correction, little is known about how to support speech input for the entire text creation process, including...
+
+--- [20] 2206.09708v1 ---
+Title: Great Expectations: Unsupervised Inference of Suspense, Surprise and Salience in Storytelling
+Authors: David Wilmot
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG
+Published: 2022-06-20
+Summary: Stories interest us not because they are a sequence of mundane and predictable events but because they have drama and tension. Crucial to creating dramatic and exciting stories are surprise and suspense. The thesis trains a series of deep learning models via only reading stories, a self-supervised (or unsupervised) system. Narrative theory methods (rules and procedures) are applied to the knowledg...
+

@@ -1,0 +1,177 @@
+--- [1] 2609.08730v1 ---
+Title: CVT-GS: Learning to Simplify 3D Gaussian Splatting with Centroidal Voronoi Tessellation
+Authors: Bingxian Li, Yilong Li, Jingliang Peng, Peng-Shuai Wang, Fei Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: While 3D Gaussian Splatting (3DGS) has emerged as a powerful representation for real-time novel view synthesis, rendering high-fidelity scenes often relies on a massive number of Gaussian primitives, incurring substantial storage and computational overhead. Existing simplification techniques are largely intrusive, requiring training-time pruning, architectural modifications, or computationally exp...
+
+--- [2] 2609.08559v1 ---
+Title: Encoding Propagation Invariance into Light
+Authors: Wenxiang Yan, Tianyue Li, Zhuolin Wu, Yiyu Zhao, Zhi-Cheng Ren et al.
+Primary cat: physics.optics | All cats: physics.optics, physics.app-ph
+Published: 2026-09-08
+Summary: Diffraction governs the axial evolution of optical fields, whereas conventional holographic synthesis primarily controls their transverse structure. Here we add axial diffraction management as an additional design freedom to the transverse_field programmability of holography, enabling the transverse optical function and its diffraction-driven axial evolution to be co_designed. By incorporating est...
+
+--- [3] 2609.05902v1 ---
+Title: GenPuzzle: Benchmarking Visual Reasoning in Image Generation Models
+Authors: Changpeng Zhao, Yiren Song, Jinpeng Wang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: Recent image generation systems increasingly combine multimodal understanding, reasoning, and synthesis, suggesting that they may do more than render plausible scenes. Yet existing evaluations emphasize aesthetics, prompt alignment, compositionality, or text-based answers, leaving unclear whether these systems can solve visual problems and faithfully express solutions in pixels. We introduce GenPu...
+
+--- [4] 2609.05888v1 ---
+Title: UniFusion: Sparse-View 4D Reconstruction via Unified Spatio-temporal Depth Alignment
+Authors: Yongzhe Lyu, Shaofei Wang, Yixin Chen, Siyuan Huang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: In this paper, we address the challenging problem of 4D reconstruction from sparse-view videos. This setup usually relies on monocular depth estimation to provide priors for the reconstruction model. A key challenge arises from limited cross-view overlap and temporal variation, making monocular depth predictions inconsistent across views and time. Existing methods align spatial and temporal dimens...
+
+--- [5] 2609.05579v1 ---
+Title: ViT3Flow: A Test-Time Training Transformer MeanFlow for Postoperative Radiograph Synthesis in Scoliosis
+Authors: Rui Tang, Sicheng Yang, Moxin Zhao, Hongqiu Wang, Guankun Wang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, eess.IV
+Published: 2026-09-04
+Summary: Predicting postoperative spinal morphology from preoperative radiographs could provide valuable support for scoliosis surgical planning, but remains challenging because surgical correction induces large spatial changes while anatomical structures must be faithfully retained. We formulate this problem as postoperative scoliosis radiograph synthesis and construct ScoliSurg, the first paired dataset ...
+
+--- [6] 2609.04984v1 ---
+Title: Temporal Residual Neural Radiance Fields for Monocular Video Dynamic Human Body Reconstruction
+Authors: Tianle Du, Jie Wang, Xiaolong Xie, Wei Li, Pengxiang Su et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-04
+Summary: In the field of computer vision and graphics, high-quality reconstruction of the human body in static scenes has been achieved in recent years by a single multilayer perceptron (MLP) in a number of approaches. However, MLPs have capacity limitations, requiring substantial training time and computational resources for dynamic scene reconstruction. And the quality of reconstruction is significantly ...
+
+--- [7] 2609.04911v2 ---
+Title: TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image
+Authors: Xin Zhang, Yabo Chen, Zixuan Duan, Haibin Huang, Chi Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-04
+Summary: Interactive visual world models must distinguish observation from physical intervention. Camera motion reveals new surfaces, whereas intervention changes object motion, contact, and deformation. Current video world models are largely driven by appearance priors and often lose physical or spatial consistency over long horizons. We present TourPhysics, an online framework initialized from a single i...
+
+--- [8] 2609.04501v1 ---
+Title: EyeMakeYou: Identity-, Task-, and Subjective-State-Conditioned Diffusion for High-Frequency Gaze Synthesis
+Authors: Kamrul Hasan, Mehedi Hasan Raju, Oleg V. Komogortsev
+Primary cat: cs.HC | All cats: cs.HC, cs.CV
+Published: 2026-09-03
+Summary: Eye movement biometrics (EMB) is an emerging behavioral modality for user authentication, particularly in virtual- and augmented-reality systems, where gaze dynamics contain distinctive subject-specific features. However, robust EMB systems require diverse, high-quality gaze recordings that are expensive to collect and often unavailable at the scale needed for model development. Generative models ...
+
+--- [9] 2609.04096v1 ---
+Title: Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis
+Authors: Sixu Yan, Shikang Wang, Binhua Huang, Xuanlai Tang, Guohua Fan et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.AI, cs.CV
+Published: 2026-09-03
+Summary: This paper proposes AdaRoboVLG, a task-adaptive Vision-Language-Grasp (VLG) framework that supports generalizable grasp synthesis across different robotic hands. Unlike existing VLG methods that tightly couple foundation models with end-to-end grasp policies, AdaRoboVLG learns an efficient generalizable base policy that generates and evaluates physically feasible grasp candidates through explicit ...
+
+--- [10] 2609.03639v1 ---
+Title: Stabilizing Camera-Controlled Novel View Synthesis at Inference Time
+Authors: Prajwal Singh, Arjun Badola, Seema Kumari, Hajime Nagahara, Shanmuganathan Raman
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Training-free, camera-controlled novel view synthesis from a single image using pre-trained video diffusion models often becomes unstable under large camera motion and long generation horizons. Existing approaches commonly combine several inference-time components, making it unclear which design choices are most important for stability. We show that the main source of stability is simple. Decompos...
+
+--- [11] 2609.03615v1 ---
+Title: Auditing Patient Privacy in Medical Generative Models: Scalable Memorization Detection with DeepSSIM++
+Authors: Antonio Scardace, Francesco Guarnera, Sebastiano Battiato, Daniele Ravì
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: While deep generative models offer new opportunities for medical image synthesis and data sharing, their ability to memorize and reproduce training samples raises serious concerns about patient confidentiality. Detecting such memorization at scale remains challenging: traditional pixel-based metrics are sensitive to generation artifacts, whereas generic embedding-based metrics often lack the anato...
+
+--- [12] 2609.03594v1 ---
+Title: LevelSyn: Physical-Aware Logic Synthesis via Level-Asynchronous Graph Neural Networks
+Authors: Jingyi Zhou, Zhengyuan Shi, Ziyang Zheng, Qiang Xu
+Primary cat: cs.AR | All cats: cs.AR, cs.AI, cs.LG
+Published: 2026-09-03
+Summary: As integrated circuit technology scales into the nanometer regime, the traditional disconnect between logic synthesis and physical design has led to significant PPA (Power, Performance, and Area) degradation and prolonged design closure cycles. Traditional logic synthesis relies on non-physical Wire Load Models (WLMs), while recent spectral-based placement predictors often neglect the inherent hie...
+
+--- [13] 2609.03585v2 ---
+Title: Text2Thermal: Physics-Aware Thermal Image Synthesis from Textual Priors
+Authors: Tayeba Qazi, Brejesh Lall, Prerana Mukherjee
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Thermal infrared imaging offers reliable perception in darkness and adverse weather, but thermal datasets remain scarce, motivating extensive work on translating abundant RGB images into thermal. Such translation is fundamentally ill-posed as thermal appearance is governed by surface emissivity and object temperature, neither of which is observable in the visible spectrum, so a single RGB image is...
+
+--- [14] 2609.03415v1 ---
+Title: Mudragen: Geometrically Supervised Generation of Interacting Two-Hand Mudras for Preserving Indian Classical Dance Heritage
+Authors: Jagadish Kashinath Kamble, Jayanta Mukhopadhyay, Debaditya Roy, Partha Pratim Das
+Primary cat: cs.CV | All cats: cs.CV, cs.MM
+Published: 2026-09-03
+Summary: Automatic generation of hand gestures is essential for the transmission of Indian classical dance and critical for its preservation. Indian classical dance gesture datasets are inherently low-resource, and the canonical Sanskrit definitions of many mudras lack precise textual descriptions, limiting the effectiveness of conventional text-conditioned image generation models. We present \textbf{Mudra...
+
+--- [15] 2609.02813v1 ---
+Title: GDB-Reward: From Evaluation Metrics to Training Rewards for Graphic Design
+Authors: Adrienne Deganutti, Purvanshi Mehta, Simon Hadfield, Andrew Gilbert
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-02
+Summary: Text-to-image models excel at natural image synthesis but struggle with graphic design, where success depends on satisfying precise constraints on typography, layout, color, and visual communication. While prompt optimization offers an attractive alternative to expensive diffusion model fine-tuning, learning prompts for frozen image generators requires informative reward functions despite the enti...
+
+--- [16] 2609.02442v1 ---
+Title: Transient discs around isolated accreting neutron stars
+Authors: Marina D. Afonina, Anton V. Biryukov, Sergei B. Popov, Arthur G. Suvorov
+Primary cat: astro-ph.HE | All cats: astro-ph.HE
+Published: 2026-09-02
+Summary: Mature, isolated neutron stars can accrete from the interstellar medium. Due to turbulence, the accreted gas can have a substantial angular momentum and form a disc around the compact object. In this paper, we perform a population synthesis of isolated neutron stars in the Milky Way that specifically tracks the possibility of disc formation, which typically requires a low spatial velocity of the c...
+
+--- [17] 2609.02335v1 ---
+Title: Dispersion-engineered meta-coverslip for multimodal synthetic imaging
+Authors: Yuchen Ma, Danlin Xu, Xinwei Wang, Guangwei Hu, Liangcai Cao
+Primary cat: physics.optics | All cats: physics.optics
+Published: 2026-09-02
+Summary: Multimodal optical imaging provides comprehensive sample characterization but has traditionally been hindered by complex and bulky instrumentation. Here, we propose a dispersion-engineered meta-coverslip to seamlessly integrate bright-field, differential, fluorescence, and holographic imaging modalities within a standard microscope architecture, requiring no hardware modification or realignment. T...
+
+--- [18] 2609.01582v1 ---
+Title: SpatialGuard: Harness-Guided Verifiable Spatial Reasoning for Text-to-Image Generation
+Authors: Ziyun Qian, Zizhi Chen, Yizhou Liu, Mingyang Sun, Dingkang Yang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-01
+Summary: Complex 3D spatial text to image generation requires models to convert natural language into stable visual geometry, not merely semantic appearance. Existing prompt-driven or layout-conditioned methods improve controllability, but often lack an optimizable and verifiable spatial intermediary before visual sampling. As a result, object relations, occlusion, visibility, and camera constraints can de...
+
+--- [19] 2609.01659v1 ---
+Title: Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving
+Authors: Zhengxu Tang, Xiaozhou Zhang, Guofeng Cui, Ziyu Gong, Zi Wang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.CL, cs.RO
+Published: 2026-08-31
+Summary: Chain-of-thought (CoT) reasoning powers generative models by eliciting intermediate steps before producing an answer. In autonomous driving, the answer is a continuous action. Thus its reasoning must share the same spatiotemporal structure as the physical world. This survey studies the resulting shift from textual CoT to action-grounded reasoning. Surveying 171 papers, including 130 method papers ...
+
+--- [20] 2608.31159v1 ---
+Title: BRF-GS: Hyperspectral Bidirectional Reflectance Factor Modeling and Image Generation Based on 3D Gaussian Splatting
+Authors: Yiling Yao, Wenjuan Zhang, Bowen Wang, Bocheng Li, Wentao Song et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: The bidirectional reflectance factor (BRF) characterizes the directional radiative properties of terrestrial surfaces. However, existing three-dimensional (3D) radiative transfer models require complex scene construction and computationally intensive radiative transfer solvers, limiting efficient generation of multi-angle hyperspectral reflectance imagery. 3D Gaussian Splatting (3DGS) offers an ef...
+
+--- [21] 2608.31073v1 ---
+Title: LISynSeg: Data-Centric Label-to-Image Synthesis for Cross-Modality Whole-Heart Segmentation
+Authors: Jiacheng Wang, Ivana Isgum, Ipek Oguz
+Primary cat: cs.CV | All cats: cs.CV, eess.IV
+Published: 2026-08-31
+Summary: Whole-heart segmentation (WHS) in computed tomography (CT) and magnetic resonance imaging (MRI) is affected by acquisition shifts and heterogeneous cardiac annotations. Existing WHS systems combine architectural design, transfer learning, and generic spatial or intensity augmentation. We investigate whether changes to data augmentation and training supervision can improve cross-modality WHS while ...
+
+--- [22] 2608.30584v1 ---
+Title: Learning Compositional Spatio-Temporal Video Grounding with Synthetic Curriculum
+Authors: Xingjian Wang, Shijian Wang, Yibo Wang, Zihao Yu, Runhao Fu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Despite the impressive progress of recent MLLMs on spatio-temporal video grounding (STVG), existing evaluations and training data focus primarily on simple queries. They largely overlook the compositional queries prevalent in real-world scenarios, where a target must be disambiguated by jointly reasoning about its attributes and relations to other entities. To bridge this gap, we propose Compositi...
+
+--- [23] 2608.29755v1 ---
+Title: GraM-Diff: A Unified Graph-Mamba Diffusion Framework for EEG-Based Alzheimer's Disease Data Generation and Diagnosis
+Authors: M. Tanveer, Ayush Singh Rana, Sanskriti Jain, Arnav Kumar, Aryaman Tiwari et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-08-30
+Summary: Electroencephalography (EEG) is a promising, non-invasive, and cost-effective modality for Alzheimer's disease (AD) detection, but deep learning methods are limited by small and imbalanced clinical datasets. Generative augmentation offers a solution, yet existing approaches rely on inefficient class-specific models or fail to capture complex spatial and temporal brain dynamics. To address this, we...
+
+--- [24] 2608.29538v1 ---
+Title: As-Rigid-As-Possible Deformation of Gaussian Radiance Fields
+Authors: Xinhao Tong, Tianjia Shao, Yanlin Weng, Yin Yang, Kun Zhou
+Primary cat: cs.GR | All cats: cs.GR
+Published: 2026-08-30
+Summary: 3D Gaussian Splatting (3DGS) models radiance fields as sparsely distributed 3D Gaussians, providing a compelling solution to novel view synthesis at high resolutions and real-time frame rates. However, deforming objects represented by 3D Gaussians remains a challenging task. Existing methods deform a 3DGS object by editing Gaussians geometrically. These approaches ignore the fact that it is the ra...
+
+--- [25] 2608.29177v1 ---
+Title: Dynamic-Robust Photometric-Semantic Reconstruction for Open-Vocabulary 3D Scene Understanding
+Authors: Boyu Cai, Li Yang, Yan Xu, Wei Liu, Nian Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspatial+AND+abs%3Asynthesis&max_results=25&sortBy=submittedDate&sortOrder=descending
+Published: 2026-08-29
+Summary: The integration of novel view synthesis (NVS) and open-vocabulary segmentation (OVS) has recently yielded powerful feed-forward 3D foundation models. However, their inherent reliance on static-scene assumptions leads to severe misalignment of spatial features in unconstrained dynamic environments. To bridge this critical gap, we propose SPAR, a novel joint semantic-geometric encoding architecture ...
+

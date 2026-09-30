@@ -1,0 +1,58 @@
+# Total entries: 8
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22speech%22+AND+abs%3A%22reasoning%22+AND+abs%3A%222026%22&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.30475v1 ---
+Title: ImageEval 2026: Culturally Grounded Arabic Multimodal Evaluation
+Authors: Samir Abdaljalil, Hunzalah Hassan Bhatti, Ahlam Bashiti, Farina Amir, Md Arid Hasan et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-08-31
+Summary: We present an overview of the ImageEval 2026 shared task on culturally grounded Arabic multimodal evaluation. It includes two tasks: (i) AynVQA, covering spoken visual question answering and image-grounded hallucination detection in English and Modern Standard Arabic (MSA), and (ii) CRAI-Bench, evaluating the cultural accuracy of text-to-image generation. A total of 14 teams participated in the te...
+
+--- [2] 2606.21933v1 ---
+Title: ISCSLP 2026 CoT-TTS Challenge: Chain-of-Thought Reasoning for Context-Aware Text-to-Speech
+Authors: Wei Xue, Junlan Feng, Shilei Zhang, Yue Wang, Ruosong Yang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-20
+Summary: Recent advances in text-to-speech (TTS) have greatly improved speech naturalness, speaker similarity, and controllability. However, most existing controllable TTS systems still rely on explicit user-provided style prompts, making it difficult to automatically determine how a sentence should be spoken in long and complex conversational scenarios. This proposal introduces the ISCSLP 2026 CoT-TTS Cha...
+
+--- [3] 2606.00712v1 ---
+Title: CASTLE2026 Team WDL Technical Report
+Authors: Zhengyang Li, Zhenglin Du, Yi Wen, Fang Liu, Shuo Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-30
+Summary: The CASTLE Challenge @ EgoVis 2026 evaluates long-form egocentric video question answering over 600+ hours of multi-perspective recordings. Each four-choice question requires evidence from videos, transcripts, auxiliary photos, people, days, rooms, and temporal context. We propose an evidence-aware multimodal reasoning pipeline based on Qwen. Our system parses question hints, retrieves ASR chunks,...
+
+--- [4] 2605.02672v1 ---
+Title: The 2026 ACII Dyadic Conversations (DaiKon) Workshop & Challenge
+Authors: Panagiotis Tzirakis, Alice Baird, Jeffrey Brooks, Emilia Parada-Cabaleiro, Lukas Stappen et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.HC
+Published: 2026-05-04
+Summary: The 2026 ACII Dyadic Conversations (ACII-DaiKon) Workshop & Challenge introduces a benchmark for modeling interpersonal affect and social dynamics in dyadic conversations. Although conversational affect modeling has advanced rapidly, most benchmarks remain speaker-centric and underrepresent coupled, time-evolving processes between partners, including directional influence, conversational timing co...
+
+--- [5] 2604.24179v2 ---
+Title: MemeScouts@LT-EDI 2026: Asking the Right Questions -- Prompted Weak Supervision for Meme Hate Speech Detection
+Authors: Ivo Bueno, Lea Hirlimann, Enkelejda Kasneci
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-04-27
+Summary: Detecting hate speech in memes is challenging due to their multimodal nature and subtle, culturally grounded cues such as sarcasm and context. While recent vision-language models (VLMs) enable joint reasoning over text and images, end-to-end prompting can be brittle, as a single prediction must resolve target, stance, implicitness, and irony. These challenges are amplified in multilingual settings...
+
+--- [6] 2604.11594v2 ---
+Title: HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence Benchmark for Audio Language Models
+Authors: Shuiyuan Wang, Zhixian Zhao, Hongfei Xue, Chengyou Wang, Shuai Wang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-04-13
+Summary: Evaluating the emotional intelligence (EI) of audio language models (ALMs) is critical. However, existing benchmarks mostly rely on synthesized speech, are limited to single-turn interactions, and depend heavily on open-ended scoring. This paper proposes HumDial-EIBench, a comprehensive benchmark for evaluating ALMs' EI. Using real-recorded human dialogues from the ICASSP 2026 HumDial Challenge, i...
+
+--- [7] 2604.14218v1 ---
+Title: MEME-Fusion@CHiPSAL 2026: Multimodal Ablation Study of Hate Detection and Sentiment Analysis on Nepali Memes
+Authors: Samir Wagle, Reewaj Khanal, Abiral Adhikari
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-04-13
+Summary: Hate speech detection in Devanagari-scripted social media memes presents compounded challenges: multimodal content structure, script-specific linguistic complexity, and extreme data scarcity in low-resource settings. This paper presents our system for the CHiPSAL 2026 shared task, addressing both Subtask A (binary hate speech detection) and Subtask B (three-class sentiment classification: positive...
+
+--- [8] 2603.17822v1 ---
+Title: Multi-Source Evidence Fusion for Audio Question Answering
+Authors: Aivo Olev, Tanel Alumäe
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-03-18
+Summary: Large audio language models (LALMs) can answer questions about speech, music, and environmental sounds, yet their internal reasoning is largely opaque and difficult to validate. We describe TalTech's solution to the Agent Track of the Interspeech 2026 Audio Reasoning Challenge, in which systems are evaluated on reasoning process quality, specifically the factual accuracy, logical soundness, and co...
+

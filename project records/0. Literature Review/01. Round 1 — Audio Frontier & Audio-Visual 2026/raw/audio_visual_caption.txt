@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio%22+AND+abs%3A%22visual%22+AND+abs%3A%22caption%22+AND+abs%3A%222026%22&max_results=15&sortBy=submittedDate&sortOrder=descending
+--- [1] 2606.07264v2 ---
+Title: VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track
+Authors: Wenming Tu, Jian Gao, Yanru Huo, Yixuan Wang, Jing Peng et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-05
+Summary: Audio reasoning requires multi-step, evidence-grounded inference over temporally dynamic and acoustically mixed signals, exceeding conventional perception tasks such as ASR or captioning. We present VISA, our submission to the Interspeech 2026 Audio Reasoning Challenge (Agent Track), evaluated via the MMAR Rubrics for correctness and reasoning quality. Under a "LALM as a Tool" paradigm, VISA stren...
+

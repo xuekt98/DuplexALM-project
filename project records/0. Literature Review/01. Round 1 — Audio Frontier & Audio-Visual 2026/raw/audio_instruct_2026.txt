@@ -1,0 +1,30 @@
+# Total entries: 4
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio%22+AND+abs%3A%22instruction%22+AND+abs%3A%222026%22&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.16635v1 ---
+Title: TellTale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot LLM Judge for Ambivalence/Hesitancy Recognition in Videos
+Authors: Abdel-Karim Al-Tamimi, Ali Rodan
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-18
+Summary: We present TellTale, a text-only approach to ambivalence/hesitancy (A/H) recognition in interview videos, evaluated on the BAH dataset as part of the 3rd A/H Video Recognition Challenge (11th ABAW Workshop, ECCV 2026). Although the dataset provides video, audio, facial crops, and transcripts, TellTale relies on the transcript alone and combines three probability streams. Two text encoders, multili...
+
+--- [2] 2607.05623v3 ---
+Title: NAVER LABS System Re-implementation for the IWSLT 2026 Instruction-Following Task
+Authors: Anand Kamble, Aniket Tathe
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-06
+Summary: We re-implement the NAVER LABS IWSLT 2025 instruction-following pipeline for the IWSLT 2026 Shared Task (constrained condition, short audio track), adapting it to the mandated components: SeamlessM4T-v2-large as the speech encoder and Qwen3-4B-Instruct as the LLM backbone. The three-stage approach projector alignment, text-only LoRA pre-training, and multimodal merging is preserved from the origin...
+
+--- [3] 2605.06707v1 ---
+Title: The Single-File Test: A Longitudinal Public-Interface Evaluation of First-Output LLM Web Generation with Social Reach Tracking
+Authors: Diego Cabezas Palacios
+Primary cat: cs.SE | All cats: cs.SE, cs.AI
+Published: 2026-05-06
+Summary: This paper presents an eight-week observational comparison of 68 single-file HTML generations collected across 17 public experiments in the "HTML AI Battle" project between December 10, 2025 and February 4, 2026. Four reasoning model families, GPT, Gemini, Grok, and Claude, were compared under a fixed public-interface protocol with no custom instructions, no personality tuning, and no repair promp...
+
+--- [4] 2604.18187v1 ---
+Title: Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models
+Authors: Xiang He, Chenxing Li, Jinting Wang, Yan Rong, Tianxin Xie et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-04-20
+Summary: Large Audio-Language Models (LALMs) have made significant progress in audio understanding, yet they primarily operate as perception-and-answer systems without explicit reasoning processes. Existing methods for enhancing audio reasoning rely either on supervised chain-of-thought (CoT) fine-tuning, which is limited by training data quality, or on reinforcement learning (RL) with coarse rewards that ...
+

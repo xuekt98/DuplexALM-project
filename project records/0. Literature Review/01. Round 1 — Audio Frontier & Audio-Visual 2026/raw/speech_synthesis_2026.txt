@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22speech+synthesis%22+AND+abs%3A%222026%22&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.11706v1 ---
+Title: VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion
+Authors: Aastha Sharma, Guangjing Wang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-13
+Summary: Modern LLM-driven text-to-speech (TTS) and voice conversion (VC) systems produce synthetic speech that differs from the generators represented in many legacy spoofing benchmarks. This mismatch creates a temporal generalization gap that can overestimate detector robustness under real-world post-processing conditions. We bridge this gap by introducing VoxENES 2026, a bilingual (English and Spanish) ...
+
+--- [2] 2606.26003v2 ---
+Title: Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect
+Authors: Dihia Lanasri, Rebeh Imane Ammar Aouchiche, Abdelkarim Remmide, Fairouz Taki, Asma Kemmoum
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-06-24
+Summary: Automatic speech and language technologies are still heavily biased toward high-resource languages, limiting their applicability to dialectal and low-resource settings such as Algerian Dialect. This language presents additional challenges including lack of standardized orthography, frequent codeswitching with French, and scarcity of annotated speech resources. This paper addresses the problem of b...
+

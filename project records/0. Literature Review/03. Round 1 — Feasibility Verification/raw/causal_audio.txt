@@ -1,0 +1,177 @@
+--- [1] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [2] 2609.07688v1 ---
+Title: Silent Metronome: Rhythmic Grounding for Live Music Accompaniment
+Authors: Kevin Bretz, Derya Soydaner, Aske Plaat
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-07
+Summary: Live accompaniment models generate music for an incoming audio stream, committing to each output frame before hearing what comes next. In this strictly causal setting the model must infer tempo, meter, and metrical phase from its own imperfect past, whereby compounding errors quickly become audible as rhythmic drift. Put simply, the model has ears but no temporal reference, so when the ears hear i...
+
+--- [3] 2609.06837v1 ---
+Title: BinauralVAE: Spatial Audio Reconstruction For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-06
+Summary: Embodied artificial intelligence has historically very much relied on visual perception, leading to a proliferation of multiple vision-centric world models. However, this reliance fails to capture spatial understanding in its entirety and can even present vulnerabilities in environments with visual occlusions, low-light conditions, or blackouts-scenarios, where acoustic information becomes a criti...
+
+--- [4] 2609.00369v1 ---
+Title: Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation
+Authors: Vida Adeli, Soroush Mehraban, Jacob Rommann, Harrison Sanborn, Cole Clifford et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Generating co-speech gestures that are temporally coherent, semantically aligned with speech, and grounded with surrounding objects remains challenging. Prior speech-driven gesture models emphasize audio-gesture alignment but do not explicitly account for posture constraints or surrounding objects, failing to capture the inherent correlation between body gestures and the physical space. We present...
+
+--- [5] 2608.30204v1 ---
+Title: When Models Hear What They Expect: Diagnosing Prosodic Heuristics in Multimodal Sarcasm Detection
+Authors: Yongjian Chen, Pengfei Wei, Yiqun Sun, Zhu Li, Lawrence B. Hsieh
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-31
+Summary: Multimodal Large Language Models (MLLMs) process speech and text jointly, yet whether they exploit prosodic cues for pragmatic inference or rely on surface acoustic patterns has received little systematic investigation. We address this through sarcasm detection, evaluating Qwen2.5-Omni and Qwen3-Omni on Mandarin Chinese and English under five modality conditions that decompose the contributions of...
+
+--- [6] 2608.25404v1 ---
+Title: CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation
+Authors: Zhiyuan Zhu, Han Wang, Wenxiang Guo, Yu Zhang, Changhao Pan et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-26
+Summary: Spatial audio vocoders are able to convert mel-spectrograms produced by generative models into spatial audio waveforms. Most neural vocoders are designed for monaural audio, and direct extensions to spatial audio can degrade spatial quality by ignoring inter-channel cues. We present CSAVocoder, a causal GAN-based spatial audio vocoder that jointly optimizes waveform fidelity and spatial rendering....
+
+--- [7] 2608.24958v1 ---
+Title: Can We Read the Mind of an Audio LLM? A Verbalizable, Multilingual Middle-Layer Workspace
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Qi Luo, Jia-Hong Huang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-25
+Summary: An audio language model is a black box in a specific way: we see what it says, never what it works out on the way there, and chain-of-thought monitoring helps only if the model writes its reasoning down. Reading a base Qwen3-Omni with a logit lens at the audio-token positions, we find that the answer to a spoken question becomes legible - in words - in the model's middle layers, before it emits an...
+
+--- [8] 2608.23383v2 ---
+Title: Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds
+Authors: Nan Duan, Haoyang Huang, Weiyang Jin, Haoran Li, Yaowei Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: Video generation is progressing beyond isolated clips toward long-form narratives and interactive worlds, requiring models to preserve identities, follow user controls, and remain stable over extended rollouts. We present JoyAI-Echo-1.5, a unified audio-visual generation system with two purpose-built variants. The long-video variant introduces composable cross-shot memory that aggregates visual ev...
+
+--- [9] 2608.20769v1 ---
+Title: Do SpeechLMs Hear Their Own Opinions? Diagnosing and Mitigating Previous-Belief Contamination in Streaming Emotion Understanding
+Authors: Haoyue Liu, Zhichao Wang, Ye Chen, Haonan Deng, Xiaoying Tang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-21
+Summary: Streaming emotion understanding uses historical state while continuously interpreting current audio, often feeding the model's previous prediction back as context. We show that this history conditioning can distort current perception. On a balanced CREMA-D-Stream counterfactual diagnostic, changing only the injected previous emotion label while holding the audio fixed reduces current-audio accurac...
+
+--- [10] 2608.19936v1 ---
+Title: Towards Quantifying Benchmark Optimization in ASR Models
+Authors: Theo Lebryk, David Ayllon, Alice Baird, Jakub Piotr Cłapa, Jens Madsen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-20
+Summary: Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature of being public, there is risk of models being optimized for these benchmarks in ways that do not generalize well to real-world data. We present a methodology for quantifying benchmark optimization, focusing on cases where the audio underdetermines the reference transcript. We iden...
+
+--- [11] 2608.19863v1 ---
+Title: Listening Forward: Next Patch Embedding Prediction Enables Scalable Audio Learners
+Authors: Umberto Cappellazzo, Xubo Liu, Stavros Petridis, Maja Pantic
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2026-08-20
+Summary: Self-supervised learning (SSL) has driven substantial progress in audio representation learning, though existing methods have increasingly relied on elaborate pre-training recipes to reach competitive performance. A markedly different pre-training philosophy underpins the most influential progress in language modeling and, more recently, in visual representation learning: rather than train encoder...
+
+--- [12] 2608.18661v1 ---
+Title: X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Text with Speech-State Inheritance
+Authors: Rime Wen, Zehan Liu, Shawn Qin, Lights Shi, Roy Gan et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-19
+Summary: Streaming text-to-speech is essential for low-latency spoken dialogue systems, yet many systems wait for sentence-level text and are therefore only pseudo-streaming. True token-level synthesis must generate speech from uncertain prefixes while maintaining perceptual continuity over an unbounded stream with bounded context. We present X2Streaming-TTS, a causal TTS framework that consumes asynchrono...
+
+--- [13] 2608.12951v2 ---
+Title: VoxAudio: Vocalized Audio Synthesis via Multi-Reward Autoregressive Flow Matching
+Authors: Wenxiang Guo, Changhao Pan, Ziyue Jiang, Zhou Zhao, Fei Wu
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-13
+Summary: Vocalized audio synthesis, the task of generating audio in which intelligible speech is embedded within an environmental soundscape, underpins applications such as podcast production and video dubbing. Existing Text-to-Audio (T2A) systems either reduce quoted speech to unintelligible vocal murmur or delegate it to a separate TTS model with post-hoc mixing, which forfeits control over when speech o...
+
+--- [14] 2608.11752v2 ---
+Title: UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos
+Authors: Yuxuan Zhang, Haozhong Xiong, Jiayi Song, Jinpeng Yu, Yang Shi et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-08-12
+Summary: Talking-video character replacement requires coordinated transfer of appearance and voice while preserving the source motion, scene, linguistic content, and audio-video timing. Existing methods use separately optimized models for the two modalities, making audio-visual consistency difficult to enforce. We present UniSwap, the first framework for streaming joint audio-visual identity replacement in...
+
+--- [15] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+
+--- [16] 2608.10720v2 ---
+Title: Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence
+Authors: Haoyu Zhang, Zhipeng Li, Xiaoying Tang, Tianshu Yu, Yiwen Guo
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-08-11
+Summary: Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, but a spoken answer still leaves the agent visually absent. We introduce \textbf{Ex-Omni-2D}, a framework that answers a multimodal query with coordinated text, personalized speech, and reference-conditioned video. The dialogue model first writes a structured \textit{Visual Thought Plan} (VTP) for scene, emo...
+
+--- [17] 2608.08772v1 ---
+Title: Multilingual Emotion Neurons in Large Audio-Language Models
+Authors: Xiutian Zhao, Philipp Koehn, Björn Schuller, Berrak Sisman
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-08-09
+Summary: Emotion is central to human communication, and its expression varies across languages. Large audio-language models (LALMs) achieve strong performance on multilingual speech tasks, yet it remains unclear whether they encode emotion through language-specific correlations or language-agnostic representations. We present the first neuron-level interpretability study of this question. We define Multili...
+
+--- [18] 2608.08638v2 ---
+Title: CuteTTS: Efficient and High-Quality Speech Synthesis via Autoregressive Modeling of Continuous Latents
+Authors: Yuqian Zhang, Yao Shi, Kexin Huang, Botian Jiang, Zhe Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-09
+Summary: Zero-shot text-to-speech (TTS) now supports interactive assistants, personalized media, and accessibility tools. All TTS systems require faithful linguistic rendering, consistent speaker identity, and low-latency response. Yet compact streaming systems must preserve sufficient acoustic detail in a predictable low-rate latent sequence, while iterative diffusion sampling and classifier-free guidance...
+
+--- [19] 2608.05798v1 ---
+Title: KVAE: Family of Tokenizers for Multimodal Generative Models
+Authors: Andrey Shutkin, Denis Parkhomenko, Ivan Kirillov, Kirill Chernyshev, Kirill Malakhov et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.SD
+Published: 2026-08-06
+Summary: Latent diffusion modeling (LDM), a prominent paradigm, utilizes tokenizers to map input signal to compressed representation. This dependency positions tokenizer as an integral part of generation process itself, since it affects learning speed, quality of synthesized samples and lay foundation for later applications. This report presents series of KVAE tokenizers for audio, image and video, all des...
+
+--- [20] 2608.05663v2 ---
+Title: Vorch-Streamer: Extending Human Audio-Visual Generation to Real-Time Long-Form Streaming
+Authors: Menglin Han, Yang Ding, Yulei Lu, Haoran Yu, Xin Ma et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-08-06
+Summary: Real-time long-form avatar audio-video generation requires causal, continuous synthesis while maintaining audiovisual synchronization and visual consistency. Adapting a pretrained bidirectional model to this setting presents two key dilemmas. First, autoregressively reusing generated blocks as context creates exposure bias, causing errors and visual drift to accumulate over long rollouts. Second, ...
+
+--- [21] 2608.03253v3 ---
+Title: CLASVS: Continuous-Latent Autoregression for Melody-Preserving Lyric Editing in Singing Voice Synthesis
+Authors: Yizhong Geng, Tian-Hao Zhang, Chunfeng Wang, Wenxin Fu, Yingming Gao et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-04
+Summary: Reference-conditioned melody-preserving lyric editing replaces words while retaining a performance's timing, singer identity, and naturalness. Continuous-latent autoregression avoids finite codebooks and offers stepwise generation with learned stopping. Editing creates a conflict absent from ordinary reconstruction: training pairs reference cues with original lyrics, whereas inference asks revised...
+
+--- [22] 2608.02602v1 ---
+Title: AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling
+Authors: Jiajun Liang, Yucheng Liao, Yukang Cao, Jiazhe Wei, Ken Li et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-03
+Summary: Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generation and decoding, or compress autoencoded latents to ease diffusion, sacrificing token-level fidelity....
+
+--- [23] 2608.01618v1 ---
+Title: SGAD: A State-Guided Adaptive Decision Framework for Robust EEG-Based Auditory Attention Switch Decoding
+Authors: Yuting Ding, Xuefei Wang, Ximin Chen, Chunlin Li, Fei Chen
+Primary cat: eess.SP | All cats: eess.SP, cs.SD
+Published: 2026-08-03
+Summary: Achieving robust EEG-based auditory attention switch decoding (AASD) is crucial for intelligent hearing aids. However, its application is limited as EEG non-stationarity complicates sequential decision-making, and insufficient control of potential confounding factors may overestimate performance. Therefore, we propose a state-guided adaptive decision (SGAD) framework that infers attention transiti...
+
+--- [24] 2608.01560v1 ---
+Title: Discriminative Axis, Not Data Volume: What a Contrastive Corpus Teaches an Audio Embedding
+Authors: Abdul Basit Tonmoy
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-08-03
+Summary: Scaling the corpus is the default remedy when a contrastive representation lacks an attribute. We report a case where it does nothing, and identify what does: adding a lexical-speech round to a frozen-base multimodal embedding model raises zero-shot keyword spotting by 76 points while reducing speech-emotion recognition by 14. The loss is not a capacity limit: fine-tuning on 7,442 clips from a pro...
+
+--- [25] 2608.01157v1 ---
+Title: InteracVid: Building a Real Interactive Audio-Visual Response Dataset from Live-Chat Videos
+Authors: Chi Zhang, Haoyang Shi, Yueyi Liu, Zhaokun Yan, Yishu Yin et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-02
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Acausal+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Large language models have made text the default medium for human--AI interaction, buttext alone cannot express the full range of responses required by multimodal assistants,avatars, and embodied agents. While recent audio-video generative models can synthesizehigh-fidelity synchronized content, existing supervision is largely \emph{descriptive}:models are trained to render captions rather than to...
+

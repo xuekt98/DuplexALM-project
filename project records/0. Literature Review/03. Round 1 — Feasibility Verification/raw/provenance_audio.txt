@@ -1,0 +1,142 @@
+--- [1] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [2] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [3] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [4] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [5] 2609.08899v1 ---
+Title: From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection
+Authors: Mengzhe Geng, Yujia Lu, Patrick Littell, Manuela Kunz, Xie Chen
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-08
+Summary: Speech deepfakes can mimic a speaker's voice convincingly enough to deceive listeners and automated systems. This has driven strong progress in speech deepfake detection, but most detectors still end with one score per utterance. That score is useful for ranking systems, yet it says little about why a borderline item should be trusted, deferred, or reviewed. Two utterances can fall in the same sco...
+
+--- [6] 2609.08869v1 ---
+Title: OntoKG-EQ: A provenance-grounded, competency-question-governed knowledge graph for auditable analyst querying
+Authors: Furqan Nasir, Muhammad Atif Saeed, Muhammad Ehsan, Sher Jeel Ahmad, Abdul Moiz Altaf
+Primary cat: cs.ET | All cats: cs.ET, cs.AI, cs.DB
+Published: 2026-09-08
+Summary: Analysts in emerging equity markets keep answering the same questions. Did fundamentals match the market's response? How does the local currency co-move with returns? Which firms outperform sector and benchmark, and which disclosures coincide with abnormal trading? These answers come from ad-hoc spreadsheets that are hard to reproduce, audit, or trust. We present OntoKG-EQ, a knowledge-based syste...
+
+--- [7] 2609.08844v1 ---
+Title: Exploring the Genesis Platform Capabilities to Accelerate Scientific Discovery in OPAL
+Authors: Daniel Rosendo, Renan Souza, Kelsey Carter, John Lagergren, Frédéric Suter et al.
+Primary cat: cs.DC | All cats: cs.DC
+Published: 2026-09-08
+Summary: Autonomous, cross-facility science requires capabilities that no individual project should have to build for itself: managed execution for long-lived services, versioned distribution of models to remote compute systems, governed access to large language models, a shared substrate for experimental data, and end-to-end provenance. The U.S. Department of Energy Genesis Mission platform, delivered thr...
+
+--- [8] 2609.08788v1 ---
+Title: Adaptive Anisotropic Attention for Axis-Structured Signals
+Authors: Mahir Jain, Parshva Runwal, Aditya Ray Mishra, Arvasu Kulkarni, Sandeep Singh et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Dense self-attention treats all token pairs as equally plausible before learning, an interaction-isotropic prior that can be mismatched to structured signals. For structured, low signal-to-noise ratio (SNR) signals such as EEG, dependencies are organized along the electrode and time axes, and this uniform prior exposes each token to many irrelevant interactions. We introduce Adaptive Anisotropic A...
+
+--- [9] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [10] 2609.08695v1 ---
+Title: A Content-Addressed Workflow for Reproducible DANTE Gravitational-Wave Anomaly Analysis
+Authors: Luca Cirfeta
+Primary cat: astro-ph.IM | All cats: astro-ph.IM, gr-qc
+Published: 2026-09-08
+Summary: Unsupervised analysis of gravitational-wave detector data combines expensive scientific stages with data acquisition, provenance checks, statistical calibration, follow-up products, and reporting. Reproducing such an analysis requires more than preserving model weights or a final candidate table: the execution graph, scientific contracts, retry semantics, and verification boundary must also be exp...
+
+--- [11] 2609.08681v1 ---
+Title: Beyond Fixed Fault Models: Comparing LLM-Based and Rule-Based Fault Injection in OpenStack
+Authors: Giuseppe De Rosa, Pietro Liguori, Domenico Cotroneo
+Primary cat: cs.SE | All cats: cs.SE
+Published: 2026-09-08
+Summary: Software Fault Injection (SFI) supports testing of cloud systems by introducing software defects and observing their manifestation. Rule-based injectors such as ProFIPy provide controlled and reproducible source-level mutations but require fault patterns to be encoded manually. Large Language Models (LLMs) offer a data-driven alternative by generating context-dependent software faults. We compare ...
+
+--- [12] 2609.08600v1 ---
+Title: Sharp Bohr and Bohr-Rogosinski inequalities involving area measure for close-to-convex harmonic mappings
+Authors: Molla Basir Ahamed, Partha Pratim Roy
+Primary cat: math.CV | All cats: math.CV
+Published: 2026-09-08
+Summary: In this article, we investigate refined and generalized versions of the Bohr and Bohr--Rogosinski inequalities for a normalized subclass $\mathcal{P}_{\mathcal{H}}^{0}(α)$ ($0 \le α< 1$) of univalent close-to-convex harmonic mappings $f = h + \overline{g}$ defined on the open unit disk $\mathbb{D} \subset \mathbb{C}$. By incorporating non-negative monotone increasing functions associated with the ...
+
+--- [13] 2609.08563v1 ---
+Title: PLC-Bin2Src: Retrieving Corresponding Structured Text Source Files for PLC Binaries
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+provenance&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Ang Jia, Yaxin Duan, He Jiang, Ming Fan, Zhilei Ren et al.
+Primary cat: cs.SE | All cats: cs.SE
+Published: 2026-09-08
+Summary: Software reuse allows existing components and third-party libraries to be incorporated into new applications, but binary-only components can obscure their origins and implementations. Software composition analysis seeks to identify these reused components and trace their provenance, supporting dependency inventory, vulnerability assessment, and security auditing. For PLC applications, binary2sourc...
+
+--- [14] 2609.08543v1 ---
+Title: STSG-VQA: Evidence-Grounded Temporal Question Answering from Surgical Spatio-Temporal Scene Graphs
+Authors: Jing Li, Duygu Sarikaya
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Despite recent advances in surgical vision-language models (VLMs), temporal reasoning remains limited because existing supervision is largely frame-centric. Frame-level scene graphs (SGs) have proven effective in providing structured representations of surgical environments but do not explicitly model the dynamics of surgical workflows. To explicitly model how surgical states evolve across time, w...
+
+--- [15] 2609.08542v1 ---
+Title: Spatial Audio Coding Through Relative Room Impulse Response Estimation
+Authors: Nour Bouayed, Adrien Llave, Jérôme Daniel, Pascal Scalart
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate ...
+
+--- [16] 2609.08481v1 ---
+Title: An Evidence Model for Agentic Processes: Evidence Claims, Trust Assumptions, and Policy Assessment
+Authors: Arslan Brömme
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-09-08
+Summary: Agentic AI systems increasingly exchange messages, invoke tools, request approvals, hold structured decision sessions, and modify shared artifacts. Logs and anchors can make selected records tamper-evident, but they can also mislead if their evidentiary meaning is implicit: a hash does not establish semantic truth, a signature does not establish authorization, and an external anchor does not estab...
+
+--- [17] 2609.08479v1 ---
+Title: Cahn-Hilliard phase-field modeling of tumor growth via locally adaptive isogeometric analysis with THB-splines
+Authors: Dhiraj S. Bombarde, Carlotta Giannelli, Alessandro Reali, Guillermo Lorenzo
+Primary cat: math.NA | All cats: math.NA
+Published: 2026-09-08
+Summary: Predicting tumor dynamics in biological systems under physiologically relevant conditions using mathematical and computational models remains a challenging problem. Continuum models based on phase-field (diffuse-interface) formulations have proven to be an effective modeling strategy to govern tumor dynamics and interactions of multiple species. Within this framework, the present work investigates...
+
+--- [18] 2609.08464v1 ---
+Title: PAPR-Aware Multimodal Token Transmission in MLLM-Based Multiuser Networks
+Authors: Molka Trabelsi, Rafik Zayani
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-09-08
+Summary: Task-oriented semantic communication (SemCom) empowered by multimodal large language models (MLLMs) has recently emerged as a promising paradigm for efficiently transmitting multimodal information, yet transmitting token embeddings over OFDM channels faces critical challenges due to hardware impairments, particularly the high peak-to-average power ratio (PAPR) that severely degrades energy efficie...
+
+--- [19] 2609.08429v1 ---
+Title: Semantic Refinement of Universal Audio Representations through Audio-Description Alignment
+Authors: Lejun Min, Junyu Dai, Ruichen Zheng, Xinyue Fan, Yang Xiang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-08
+Summary: Universal audio representations must preserve acoustic detail while making high-level concepts accessible across speech, music, environmental sound, and downstream models of different capacities. We study semantic refinement of an acoustically pretrained encoder by adding audio-description alignment to a foundation of BEST-RQ, reconstruction, and CTC. We compare matched control, shuffled-descripti...
+
+--- [20] 2609.08390v1 ---
+Title: Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models
+Authors: Bella Godiva, Yeonju Kim, Yong Man Ro
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.HC
+Published: 2026-09-08
+Summary: Full-duplex spoken dialogue systems enable simultaneous listening and speaking, but their audio-only perception often fails under background noise and overlapping speech, leading to incoherent responses. Recent audio-visual dialogue approaches show that incorporating visual cues such as lip movements improve robustness under audio corruption. However, existing approaches often adapt the large spee...
+

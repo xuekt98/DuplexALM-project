@@ -1,0 +1,114 @@
+--- [1] 2609.21465v2 ---
+Title: OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue
+Authors: Haolin He, Yunfei Chu, Qi Chen, Wen Huang, Yuan Feng et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, eess.IV
+Published: 2026-09-18
+Summary: We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In OmniVChat, omni models directly and simultaneously receive audio and video from a user and return text. The user's query is embedded in the audio and video, without a separate text question, external captioning, or speech recognition. Direct audio-visual input reduces external lat...
+
+--- [2] 2609.12623v1 ---
+Title: SteerDuplex: Steerable Duplex Speech Dialogue Models
+Authors: Utkarsh Tyagi, Ramaneswaran Selvakumar, Advait Gosai, Sonal Kumar, Nikhil Barhate et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-09-11
+Summary: Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident...
+
+--- [3] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [4] 2607.11433v3 ---
+Title: Omni-Decision: Evidence-Ledger Planning for Omni-Modal Agents
+Authors: Ming Ma, Yi Zhu, Yiran Zhong, Feida Zhu, Yuhao Wang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-13
+Summary: Omni-modal agents must seek evidence across video, audio, web pages, and computation to answer questions. Their main bottleneck is planning: noisy multimodal observations accumulate in conversation history and disrupt later decisions, while multimodal models have limited capacity for multi-step planning. Controlled backend replacements support this diagnosis: replacing the planner causes a much la...
+
+--- [5] 2606.11167v2 ---
+Title: Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models
+Authors: Atsumoto Ohashi, Neil Zeghidour, Alexandre Défossez, Eugene Kharitonov
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-06-09
+Summary: Full-duplex spoken dialogue models can listen and speak simultaneously, making them a promising architecture for natural conversation. However, current models are trained solely with supervised learning through token-level likelihood maximization, which does not directly optimize interaction-level behaviors, causing interactivity issues such as excessive silence and ill-timed turn-taking. Recent w...
+
+--- [6] 2605.23463v1 ---
+Title: StepAudio 2.5 Technical Report
+Authors: Bin Lin, Bo Zhao, Boyong Wu, Chao Yan, Chen Wu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-22
+Summary: Unified audio-language modeling has emerged as a prominent trend in modern speech systems, promising to bring the reasoning capabilities of large language models to auditory tasks. However, existing unified foundations often struggle to match the depth of specialized systems across automatic speech recognition (ASR), text-to-speech synthesis (TTS), and realtime spoken interaction. Bridging this ga...
+
+--- [7] 2604.25719v2 ---
+Title: Step-Audio-R1.5 Technical Report
+Authors: Yuxin Zhang, Xiangyu Tony Zhang, Daijiao Liu, Fei Tian, Yayue Deng et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-28
+Summary: Recent advancements in large audio language models have extended Chain-of-Thought (CoT) reasoning into the auditory domain, enabling models to tackle increasingly complex acoustic and spoken tasks. To elicit and sustain these extended reasoning chains, the prevailing paradigm -- driven by the success of text-based reasoning models -- overwhelmingly relies on Reinforcement Learning with Verified Re...
+
+--- [8] 2604.13804v1 ---
+Title: Character Beyond Speech: Leveraging Role-Playing Evaluation in Audio Large Language Models via Reinforcement Learning
+Authors: Dongjie Fu, Fangming Feng, Xize Cheng, Linjun Li, Zhou Zhao et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-04-15
+Summary: The rapid evolution of multimodal large models has revolutionized the simulation of diverse characters in speech dialogue systems, enabling a novel interactive paradigm. Character attributes are manifested not only in textual responses but also through vocal features, as speech conveys rich paralinguistic information that is challenging to quantify. This poses significant difficulties in evaluatin...
+
+--- [9] 2604.11102v1 ---
+Title: OmniScript: Towards Audio-Visual Script Generation for Long-Form Cinematic Video
+Authors: Junfu Pu, Yuxin Chen, Teng Wang, Ying Shan
+Primary cat: cs.CV | All cats: cs.CV, cs.MM
+Published: 2026-04-13
+Summary: Current multimodal large language models (MLLMs) have demonstrated remarkable capabilities in short-form video understanding, yet translating long-form cinematic videos into detailed, temporally grounded scripts remains a significant challenge. This paper introduces the novel video-to-script (V2S) task, aiming to generate hierarchical, scene-by-scene scripts encompassing character actions, dialogu...
+
+--- [10] 2602.07960v1 ---
+Title: D-ORCA: Dialogue-Centric Optimization for Robust Audio-Visual Captioning
+Authors: Changli Tang, Tianyi Wang, Fengyun Rao, Jing Lyu, Chao Zhang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-08
+Summary: Spoken dialogue is a primary source of information in videos; therefore, accurately identifying who spoke what and when is essential for deep video understanding. We introduce D-ORCA, a \textbf{d}ialogue-centric \textbf{o}mni-modal large language model optimized for \textbf{r}obust audio-visual \textbf{ca}ptioning. We further curate DVD, a large-scale, high-quality bilingual dataset comprising nea...
+
+--- [11] 2601.22661v2 ---
+Title: Evaluating and Rewarding LALMs for Expressive Role-Play TTS via Mean Continuation Log-Probability
+Authors: Yong Ren, Jingbei Li, Haiyang Sun, Yujie Chen, Cheng Yi et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-01-30
+Summary: Recent advances in Large Audio Language Models (LALMs) have extended Text-to-Speech (TTS) to interactive role-play scenarios, which demand high expressiveness and strict adherence to role-play instructions. However, existing models struggle to maintain stylistic consistency with character profiles and scene descriptions across multi-turn dialogues. A critical bottleneck is the lack of objective me...
+
+--- [12] 2601.19063v1 ---
+Title: Optimizing Conversational Quality in Spoken Dialogue Systems with Reinforcement Learning from AI Feedback
+Authors: Siddhant Arora, Jinchuan Tian, Jiatong Shi, Hayato Futami, Yosuke Kashiwagi et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-01-27
+Summary: Reinforcement learning from human or AI feedback (RLHF/RLAIF) for speech-in/speech-out dialogue systems (SDS) remains underexplored, with prior work largely limited to single semantic rewards applied at the utterance level. Such setups overlook the multi-dimensional and multi-modal nature of conversational quality, which encompasses semantic coherence, audio naturalness, speaker consistency, emoti...
+
+--- [13] 2511.08723v2 ---
+Title: ParaS2S: Benchmarking and Aligning Spoken Language Models for Paralinguistic-aware Speech-to-Speech Interaction
+Authors: Shu-wen Yang, Ming Tu, Andy T. Liu, Xinghua Qu, Hung-yi Lee et al.
+# Total entries: 16
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areinforcement+AND+abs%3Alearning+AND+abs%3Aaudio+AND+abs%3Adialogue&max_results=25&sortBy=submittedDate&sortOrder=descending
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2025-11-11
+Summary: Speech-to-Speech (S2S) models have shown promising dialogue capabilities, but their ability to handle paralinguistic cues - such as emotion, tone, and speaker attributes - and to respond appropriately in both content and style remains under-explored. Progress is further hindered by the scarcity of high-quality and expressive demonstrations. To address this, we introduce a new reinforcement learnin...
+
+--- [14] 2505.17060v1 ---
+Title: SALMONN-omni: A Standalone Speech LLM without Codec Injection for Full-duplex Conversation
+Authors: Wenyi Yu, Siyin Wang, Xiaoyu Yang, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2025-05-17
+Summary: In order to enable fluid and natural human-machine speech interaction, existing full-duplex conversational systems often adopt modular architectures with auxiliary components such as voice activity detectors, interrupters, conversation state predictors, or multiple LLMs. These systems, however, suffer from error accumulation across modules and struggle with key challenges such as context-dependent...
+
+--- [15] 2505.09558v2 ---
+Title: WavReward: Spoken Dialogue Models With Generalist Reward Evaluators
+Authors: Shengpeng Ji, Tianle Liang, Yangzhuo Li, Jialong Zuo, Minghui Fang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2025-05-14
+Summary: End-to-end spoken dialogue models such as GPT-4o-audio have recently garnered significant attention in the speech domain. However, the evaluation of spoken dialogue models' conversational performance has largely been overlooked. This is primarily due to the intelligent chatbots convey a wealth of non-textual information which cannot be easily measured using text-based language models like ChatGPT....
+
+--- [16] 2208.13077v2 ---
+Title: SupervisorBot: NLP-Annotated Real-Time Recommendations of Psychotherapy Treatment Strategies with Deep Reinforcement Learning
+Authors: Baihan Lin, Guillermo Cecchi, Djallel Bouneffouf
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC, cs.LG, q-bio.NC
+Published: 2022-08-27
+Summary: We propose a recommendation system that suggests treatment strategies to a therapist during the psychotherapy session in real-time. Our system uses a turn-level rating mechanism that predicts the therapeutic outcome by computing a similarity score between the deep embedding of a scoring inventory, and the current sentence that the patient is speaking. The system automatically transcribes a continu...
+

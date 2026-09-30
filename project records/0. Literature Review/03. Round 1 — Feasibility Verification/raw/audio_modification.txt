@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Aaudio+AND+ti%3Amodification&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2210.17152v3 ---
+Title: Audio Time-Scale Modification with Temporal Compressing Networks
+Authors: Ernie Chu, Ju-Ting Chen, Chia-Ping Chen
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2022-10-31
+Summary: We propose a novel approach for time-scale modification of audio signals. Unlike traditional methods that rely on the framing technique or the short-time Fourier transform to preserve the frequency during temporal stretching, our neural network model encodes the raw audio into a high-level latent representation, dubbed Neuralgram, where each vector represents 1024 audio sample points. Due to a suf...
+
+--- [2] 2006.06153v1 ---
+Title: An Objective Measure of Quality for Time-Scale Modification of Audio
+Authors: Timothy Roberts, Kuldip K. Paliwal
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2020-06-11
+Summary: Objective evaluation of audio processed with Time-Scale Modification (TSM) remains an open problem. Recently, a dataset of time-scaled audio with subjective quality labels was published and used to create an initial objective measure of quality. In this paper, an improved objective measure of quality for time-scaled audio is proposed. The measure uses hand-crafted features and a fully connected ne...
+

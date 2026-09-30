@@ -1,0 +1,23 @@
+# Total entries: 3
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Afull-duplex+AND+abs%3Arl+AND+abs%3Aspeech&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.12623v1 ---
+Title: SteerDuplex: Steerable Duplex Speech Dialogue Models
+Authors: Utkarsh Tyagi, Ramaneswaran Selvakumar, Advait Gosai, Sonal Kumar, Nikhil Barhate et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-09-11
+Summary: Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident...
+
+--- [2] 2609.09420v2 ---
+Title: DuplexJail: Spoken Interruption Attacks on Full-Duplex Speech Models
+Authors: Jaechul Roh, Deepak Chandran, Amir Houmansadr, Andrea Fanelli
+Primary cat: cs.CR | All cats: cs.CR, cs.SD
+Published: 2026-09-08
+Summary: Full-duplex speech models accept user speech while generating responses, making input timing a potential safety concern. We introduce DuplexJail, which delivers fixed, request-independent spoken jailbreak prompts through the user audio channel. Across four open-source models and 720 harmful requests from AdvBench and HarmBench, we compare fixed-delay and refusal-triggered interruption with request...
+
+--- [3] 2604.10065v1 ---
+Title: ASPIRin: Action Space Projection for Interactivity-Optimized Reinforcement Learning in Full-Duplex Speech Language Models
+Authors: Chi-Yuan Hsiao, Ke-Han Lu, Yu-Kuan Fu, Guan-Ting Lin, Hsiao-Tsung Hung et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2026-04-11
+Summary: End-to-end full-duplex Speech Language Models (SLMs) require precise turn-taking for natural interaction. However, optimizing temporal dynamics via standard raw-token reinforcement learning (RL) degrades semantic quality, causing severe generative collapse and repetition. We propose ASPIRin, an interactivity-optimized RL framework that explicitly decouples when to speak from what to say. Using Act...
+

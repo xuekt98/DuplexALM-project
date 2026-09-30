@@ -1,0 +1,177 @@
+--- [1] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [2] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [3] 2609.07688v1 ---
+Title: Silent Metronome: Rhythmic Grounding for Live Music Accompaniment
+Authors: Kevin Bretz, Derya Soydaner, Aske Plaat
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-07
+Summary: Live accompaniment models generate music for an incoming audio stream, committing to each output frame before hearing what comes next. In this strictly causal setting the model must infer tempo, meter, and metrical phase from its own imperfect past, whereby compounding errors quickly become audible as rhythmic drift. Put simply, the model has ears but no temporal reference, so when the ears hear i...
+
+--- [4] 2609.06488v1 ---
+Title: Lead Vocal Separation from Vocal Ensemble Mixtures Using Phoneme Alignment
+Authors: Yuma Narahata, Tomohiko Nakamura, Yuki Saito, Hiroshi Saruwatari
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-06
+Summary: Contemporary a cappella singing often has a lead-and-accompaniment texture, where the lead vocal (Vo) part carries the main melody and the remaining vocal parts provide accompaniment. Owing to their distinct roles, separating the Vo part from the remaining vocal parts, referred to as Vo separation, enables downstream applications such as lyric recognition and minus-one accompaniment generation for...
+
+--- [5] 2609.05592v1 ---
+Title: What Did I Just Say? Self-Listening for Full-Duplex Speech Models
+Authors: Xuanning Zhou, Junyi Ao, Xiaotong Liu, Tom Ko, Benyou Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Full-duplex spoken language models can listen and speak simultaneously, enabling them to handle interruptions and backchannels in human conversation. However, text generation, speech synthesis, and audio playback proceed asynchronously. As a result, what a model believes it has said may not match what has actually been played to the user. We refer to the problem of recovering from an interruption ...
+
+--- [6] 2609.04867v1 ---
+Title: PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation
+Authors: Yuchen Sun, Qian Yang, Jun Wang, Detai Xin, Guoqiao Yu et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI, cs.SD
+Published: 2026-09-04
+Summary: Text-to-audio-video (T2AV) generation has advanced rapidly, but its evaluation still underestimates the audio modality. Existing benchmarks either treat audio as an auxiliary component of video quality or assess it in isolation from audiovisual grounding, making it difficult to diagnose where current systems truly succeed or fail in audio generation. We present PRISM-Bench, the first audio-centric...
+
+--- [7] 2609.03502v1 ---
+Title: Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech
+Authors: Kunat Pipatanakul, Potsawee Manakul, Warit Sirichotedumrong, Sittipong Sripaisarnmongkol, Pakorn Nathong et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-03
+Summary: In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus. We study a third route: using a large voice-cloning model as a programmable data source to turn a short voice reference (e.g., 15 seconds) into a compact fixed-voice student trained entirely on synthet...
+
+--- [8] 2609.03471v1 ---
+Title: Summary of the ChinaVoices Challenge 2026: Data, Tasks, Baseline, and Methods
+Authors: Yujie Liao, Bingshen Mu, Shuiyuan Wang, Liumeng Xue, Hexin Liu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-03
+Summary: This paper summarizes the ChinaVoices Challenge 2026, which aims to establish unified task definitions and evaluation conditions for Chinese dialect speech processing and to advance multi-dialect identification and automatic speech recognition. The challenge covers 16 dialect categories and defines two tasks: Chinese Multi-Dialect Identification and Chinese Multi-Dialect Automatic Speech Recogniti...
+
+--- [9] 2609.03153v1 ---
+Title: VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement
+Authors: Wenzhuo Xu, Yuchen Zhu, Chongjian Ge, Xuan Shen, Jing Shi et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-02
+Summary: Visual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of indicating the obligation a clip violates or the moment it fails. We present VeriPhy, an auditable physical-verification system in which a text-only planner compiles the prompt into typed physical obligations and a statically validated execution plan before any frame is observed....
+
+--- [10] 2609.02623v1 ---
+Title: Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction
+Authors: Kenichi Fujita, Yusuke Ijima
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-02
+Summary: Voice actors often re-read the same script while modifying their delivery in response to performance directions. We study this setting as direction-following TTS, where a system generates a new utterance that reflects a given direction relative to a reference utterance while preserving speaker identity and linguistic content. A key challenge is the lack of training data capturing such relative mod...
+
+--- [11] 2609.01723v1 ---
+Title: Hearing the Whispers: Black-Box Membership Inference Attacks on Finetuned TTS Models
+Authors: Kunlin Cai, Kaiyuan Zhang, Zihang Xiang, Jinghuai Zhang, Abeer Alwan et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.LG, cs.SD, eess.AS
+Published: 2026-09-01
+Summary: Text-to-Speech (TTS) foundation models are increasingly fine-tuned on private datasets to synthesize highly personalized voices, introducing severe privacy risks by exposing both biometric identities and sensitive speech content. Existing black-box membership inference attacks (MIAs) follow a two-stage pipeline of query generation and representation engineering, both of which face unique challenge...
+
+--- [12] 2609.00369v1 ---
+Title: Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation
+Authors: Vida Adeli, Soroush Mehraban, Jacob Rommann, Harrison Sanborn, Cole Clifford et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Generating co-speech gestures that are temporally coherent, semantically aligned with speech, and grounded with surrounding objects remains challenging. Prior speech-driven gesture models emphasize audio-gesture alignment but do not explicitly account for posture constraints or surrounding objects, failing to capture the inherent correlation between body gestures and the physical space. We present...
+
+--- [13] 2609.00206v1 ---
+Title: Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation
+Authors: Ruotong Wang, Zihao Zhu, Siwei Lyu, Xin Tao, Baoyuan Wu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-31
+Summary: Despite their growing use in video moderation, multimodal large language models (MLLMs) exhibit a compositional safety blind spot: videos composed of seemingly benign components can convey harmful meaning when interpreted as a whole. We refer to this phenomenon as Distributed Implicit Harm (DIH), where harm arises from relations among components distributed along a decomposition axis of the video,...
+
+--- [14] 2609.04250v1 ---
+Title: Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue
+Authors: Chengqian Ma, Wei Tao, Haoyu Zhang, Yiwen Guo
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2026-08-28
+Summary: An avatar that holds a conversation should decide what to say and to move while saying it, yet these abilities live in separate model families: spoken dialogue models produce speech without motion, and co-speech motion models produce motion only from audio handed to them. The standard remedy is a cascade that first generates the spoken response and then runs a motion model over the finished audio,...
+
+--- [15] 2609.04249v1 ---
+Title: Encore: Infinite Audio-Video Generation with Adaptive Signal Routing
+Authors: Shaohua Pan, Junbao Chen, Shengyi He, Jingfeng Xue, Wen Tao et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-08-28
+Summary: Existing audio-video generation methods produce well-synchronized clips but are limited to short durations, while long-video generation methods extend duration through chunk-based iterative synthesis yet lack audio entirely. Generating long audio-video jointly is fundamentally harder than either task alone: each chunk must simultaneously maintain video temporal coherence, audio temporal coherence,...
+
+--- [16] 2608.19936v1 ---
+Title: Towards Quantifying Benchmark Optimization in ASR Models
+Authors: Theo Lebryk, David Ayllon, Alice Baird, Jakub Piotr Cłapa, Jens Madsen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-20
+Summary: Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature of being public, there is risk of models being optimized for these benchmarks in ways that do not generalize well to real-world data. We present a methodology for quantifying benchmark optimization, focusing on cases where the audio underdetermines the reference transcript. We iden...
+
+--- [17] 2608.18832v1 ---
+Title: EfficientSync: Real-Time Lip Synchronization via Deformation-Based Reference Texture Mixing
+Authors: Fa-Ting Hong, Runzhen Liu, Luchuan Song, Hongmin Cai, Chuhua Xian
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-19
+Summary: Audio-driven lip synchronization manipulates the mouth region of a talking-face video to match the driving audio while preserving head pose, identity, and background. Although the task is inherently local editing, prevailing approaches reconstruct the entire lower face with heavy GAN- or diffusion-based decoders, incurring substantial latency and, more critically, hallucinating intra-oral details ...
+
+--- [18] 2608.17707v1 ---
+Title: DynaForcing: Overcoming Dynamic Collapse in Self-Forcing Distillation for Streaming Avatar Generation
+Authors: Yubo Huang, Sirui Zhao, Xinchen Yao, Zhengye Zhang, Jinyang Huang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MM
+Published: 2026-08-18
+Summary: Audio-driven avatar generation requires realistic lip-sync, expressive motion, and real-time streaming. Recent work achieves the latter via self-forcing with Distribution Matching Distillation (DMD), but this paradigm suffers from a critical failure that has not been systematically characterized: dynamic collapse, where the student model converges to a near-static optimum with high perceptual qual...
+
+--- [19] 2608.16220v1 ---
+Title: SingDance: Compositional Zero-Shot Singing-and-Dancing Video Generation with Role-Aware Audio Conditioning
+Authors: Tao Feng, Xu Li, Xiangyang Luo, Ming Wen, Huadai Liu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV
+Published: 2026-08-17
+Summary: Generating personalized dance videos from a reference image, text prompt, and audio track requires music-conditioned body motion. Singing-and-dancing adds a second requirement: the visible subject must also articulate the vocals. Existing music-conditioned methods focus primarily on choreography, while speech-driven models generally assume that the visible subject produces the input voice, leaving...
+
+--- [20] 2608.16125v1 ---
+Title: Navigating Speech Enhancement for Real-Time MRI: A Systematic Assessment of Signal Quality, Source Preservation, and Downstream Tasks
+Authors: Huang-Cheng Chou, Sean Foley, Haley Hsu, Kevin Huang, Szu-Jui Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-17
+Summary: Audio recorded during real-time magnetic resonance imaging (rtMRI) is heavily contaminated by scanner noise, but it remains unclear whether general-purpose speech enhancement improves the signal for speech research and downstream processing. Three off-the-shelf systems---Denoiser, PASE, and RE-USE---are evaluated across five rtMRI corpora using naturally recorded inputs, a clean-input probe, and a...
+
+--- [21] 2608.15690v1 ---
+Title: Adding Voice Cloning to Text-to-Audio-Video Models with a Single Zero-Initialised Layer
+Authors: Ivan Mikheev, Viacheslav Vasilev, Anna Dmitrienko, Alexey Letunovskiy, Ivan Kirillov et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM
+Published: 2026-08-16
+Summary: Text-to-audio-video (T2AV) generation models produce a video and its soundtrack from a textual description, but offer no control over whose voice speaks in the output. We show that a base T2AV model can be turned into a voice-cloning model by adding a single zero-initialized linear layer on top of its audio backbone, fine-tuning for a comparatively short training schedule, and conditioning on a sh...
+
+--- [22] 2608.14916v1 ---
+Title: Distinguishing AI-Generated Music from Edited Audio as a Hard-Negative Robustness Task
+Authors: Alexandru-Stefan Morosanu, Valerian Cecan, Stefan-Daniel Achirei, Laura Erhan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-08-14
+Summary: AI-generated music detectors are commonly evaluated against original songs, but real-world uploads are often remixed, re-encoded, pitch-shifted, or otherwise edited. These edited versions form a difficult negative class: they are not generated by AI, yet they may introduce spectral artifacts that resemble synthetic audio fingerprints. We study this problem as a hard-negative robustness setting for...
+
+--- [23] 2608.13558v1 ---
+Title: OmniScientist: An Omni-Modal Omni-Discipline AI Scientist
+Authors: Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-08-13
+Summary: Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scie...
+
+--- [24] 2608.12549v1 ---
+Title: StrAD: A Streaming Method and Benchmark for Audio Description Generation for Long-form Videos
+Authors: Julian Spravil, Sebastian Houben, Sven Behnke
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-12
+Summary: Visual content is the dominant medium of communication, yet without audio descriptions (ADs), it remains inaccessible to blind and low-vision people. ADs narrate context-relevant visual events during natural audio pauses. Manually creating ADs is expensive, limiting coverage to a small fraction of available content. Most existing automatic AD generation methods frame the task as video clip caption...
+
+--- [25] 2608.11752v2 ---
+Title: UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos
+Authors: Yuxuan Zhang, Haozhong Xiong, Jiayi Song, Jinpeng Yu, Yang Shi et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areference+AND+abs%3Ageneration+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Published: 2026-08-12
+Summary: Talking-video character replacement requires coordinated transfer of appearance and voice while preserving the source motion, scene, linguistic content, and audio-video timing. Existing methods use separately optimized models for the two modalities, making audio-visual consistency difficult to enforce. We present UniSwap, the first framework for streaming joint audio-visual identity replacement in...
+

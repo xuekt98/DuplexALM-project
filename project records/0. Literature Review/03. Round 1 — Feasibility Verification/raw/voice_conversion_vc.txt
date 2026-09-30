@@ -1,0 +1,142 @@
+--- [1] 2609.00441v1 ---
+Title: Conversation Coach: A Voice-enabled AI System that Helps Practice Difficult Workplace Conversations
+Authors: Fanyou Wu, Suraj Maharjan, Ainur Yessenalina, Dennis Xu Chen, Rahul Srivastava et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-31
+Summary: Effective manager-employee communication is critical for retaining high performers and developing underperformers, yet training managers in these skills remains costly. Text-based chatbots offer a scalable approach but cannot provide realistic rehearsal: managers need to practice speaking aloud to build confidence before high-stakes conversations. In this paper, we propose Conversation Coach, a vo...
+
+--- [2] 2608.22101v1 ---
+Title: Beyond Fresh Starts: Stateful Inference for Streaming ASR in Conversational Voice Agents
+Authors: Sameep Chattopadhyay, Alexander Erdmann, Mari Ostendorf
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-08-22
+Summary: Modern voice-agent systems rely on streaming speech recognition models that operate under stringent latency constraints. This study shows that, due to the limited memory constraints of real-time processing, these systems are adversely impacted by conversational phenomena such as long silences and backchannels. While many agentic pipelines mitigate this by resetting state at each turn, this approac...
+
+--- [3] 2608.15273v2 ---
+Title: RemiVoice: Supporting Reminiscence Therapy for Older Adults with Mild Dementia Through Voice-First Conversational AI
+Authors: Aaryan Gajula, Soumay Agarwal, Shaoze Zhou, Lingyao Li, Renkai Ma et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-15
+Summary: With the global population aging and increasing prevalence of dementia, there is an urgent need for effective solutions to support patients across various stages of Alzheimer's Disease and Related Dementias (ADRD). Reminiscence Therapy (RT) is a validated intervention designed to trigger memories and is widely used for various stages of dementia. We present our preliminary prototype and exploratio...
+
+--- [4] 2608.12814v1 ---
+Title: FastThaiG2P: Lightning-fast Thai Grapheme-to-phoneme Conversion for Voice Agent Pipelines
+Authors: Charin Polpanumas
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-13
+Summary: FastThaiG2P provides sub-millisecond Thai grapheme-to-phoneme conversion for text-to-speech pipelines (International Phonetic Alphabet and Kokoro-TTS conventions) using a PyThaiNLP-tokenized, extensible dictionary and normalization rules for common Central Thai speech. The approach achieves an average latency of 0.15 ms per utterance on a benchmark of 27,242 synthetically generated utterances, of ...
+
+--- [5] 2608.11737v1 ---
+Title: Phoenix TTS: High-Fidelity Synthesis and Voice Conversion via Flow-Matching-Driven Speech Tokenization
+Authors: Peijie Chen, Zhuanling Zha, Zhipeng Nie, Weijie Wu, Yiming Liu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-12
+Summary: In current zero-shot text-to-speech systems, conventional semantic tokenizers are typically optimized using supervised automatic speech recognition or self-supervised learning objectives. However, due to the inherent nature of speech, semantic and acoustic information cannot be completely decoupled, and ASR-based tokenizers discard acoustic details to focus on linguistic content; models relying on...
+
+--- [6] 2608.06027v1 ---
+Title: FormBharo: Designing and Evaluating a Voice Agent for Conversational Form Filling in Rural India
+Authors: Aman Dalmia, Sanskriti Midha, Jigar Doshi
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC
+Published: 2026-08-06
+Summary: In India, almost every social benefit starts with a form, yet the people who need these benefits most are often unable to read or write. Reaching them requires a spoken conversation. Today that work falls to frontline health workers who enroll beneficiaries one at a time, a poor use of stretched capacity. We built FormBharo ("fill the form" in Hindi), a voice agent that fills a structured form ove...
+
+--- [7] 2608.00299v2 ---
+Title: ReVoicer: Conversational Voice Annotation for Human-Centered, LLM-Assisted Peer Review
+Authors: Matt Gottsacker, Ahinya Alwin, Hiroshi Furuya, Robert W. Lindeman, Gerd Bruder et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-07-31
+Summary: We present ReVoicer, a prototype system that supports peer reviewers by letting them converse with a paper as they read it. The reviewer highlights a passage and speaks (or types) a train-of-thought comment. A large language model then cleans the comment using the surrounding prose as context, tags it by comment type, and anchors it to the passage. After the reviewer finishes reading, ReVoicer che...
+
+--- [8] 2607.23650v1 ---
+Title: Expose Your Disguise: Recovering Source Speaker Identity From Voice Conversion
+Authors: Hanlei Zhang, Zhongming Ma, Mingyang Zhang, Tengfei Liu, Yushi Cheng et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-07-26
+Summary: Voice conversion (VC) poses a significant threat to biometric security by allowing attackers to impersonate target speakers. In forensic contexts, recovering the source speaker's identity from converted audio is vital for narrowing the field of suspects. To address this, we propose TRIDENT, a retracing framework designed to restore a source speaker's original identity from a converted audio sample...
+
+--- [9] 2607.24846v1 ---
+Title: Two Views, One Voice: Evidence-Grounded Conversational Music Recommendation
+Authors: Sungwook Yoo, Sewook Yoo
+Primary cat: cs.IR | All cats: cs.IR, cs.AI, cs.CL
+Published: 2026-07-24
+Summary: Traditional conversational recommenders entangle retrieval and response generation within a single text interface, so exact entity cues fade as the dialogue's intent evolves, which compromises explanation credibility. We address this within the ACM RecSys Challenge 2026, which mandates both top-20 ranking and evidence-grounded response generation. This paper presents the third-place solution by te...
+
+--- [10] 2607.20951v1 ---
+Title: Designed Vocalizations Dataset: Sound-Designed Human and Animal Voices for Non-human Voice Conversion
+Authors: Seolhee Lee, Minsu Kang, Yangsun Lee, Woosun Min, Choonghyeon Lee et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-07-23
+Summary: Advances in AI-based voice conversion have enabled a wide range of media applications, including films, audiobooks, and games. However, most research and public benchmarks still focus on natural human speech, leaving designed vocalizations, such as monster growls and robotic voices, underexplored, partly due to the lack of publicly available resources. To address this gap, we introduce the Designe...
+
+--- [11] 2607.13278v2 ---
+Title: Adapting Diffusion-Based Music Synthesis to Speech and Singing Voice Conversion
+Authors: Ben Maman, Frank Zalkow, Hans-Ulrich Berendes, Paolo Sani, Christian Dittmar et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-14
+Summary: Recent diffusion-based generative models have achieved strong results in domain-specific audio generation tasks such as speech, singing, and instrumental music synthesis. However, these models are typically specialized and do not generalize well to mixed or intermediate audio types. In this work, we adapt a diffusion-based model originally designed for multi-instrument music synthesis to voice con...
+
+--- [12] 2607.11706v1 ---
+Title: VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion
+Authors: Aastha Sharma, Guangjing Wang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-13
+Summary: Modern LLM-driven text-to-speech (TTS) and voice conversion (VC) systems produce synthetic speech that differs from the generators represented in many legacy spoofing benchmarks. This mismatch creates a temporal generalization gap that can overestimate detector robustness under real-world post-processing conditions. We bridge this gap by introducing VoxENES 2026, a bilingual (English and Spanish) ...
+
+--- [13] 2607.11387v1 ---
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Avoice+AND+ti%3Aconversion&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: From GUI Tests to Conversational Interaction: A New Perspective on App-Specific Voice Assistants
+Authors: Xue Qin, Sumesh Surendran Letha
+Primary cat: cs.SE | All cats: cs.SE
+Published: 2026-07-13
+Summary: Voice assistants are widely deployed on mobile platforms, yet most are designed as system-level services that remain poorly aligned with application-specific behavior. As a result, enabling voice interaction at the app level requires developers to manually reimplement application logic, leading to high development and maintenance costs. We propose an LLM-driven approach to automating the developme...
+
+--- [14] 2607.03666v1 ---
+Title: TRACE-EVC: Text-Guided Relative Affective Control for Zero-Shot Emotional Voice Conversion
+Authors: Zihan Zhang, Shreeram Suresh Chandra, Zongyang Du, Xiutian Zhao, Aurosweta Mahapatra et al.
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-07-04
+Summary: Traditional emotional voice conversion (EVC) conditions generation on explicit target emotions like labels or references, defining the target affective state but omitting the direction or nature of the transition. We introduce instruction-guided relative emotional voice conversion, a task where natural-language instructions specify source-conditioned affective transformations (e.g., "make the spee...
+
+--- [15] 2606.25990v1 ---
+Title: SpeechEQ: Benchmarking Emotional Intelligence Quotient in Socially Aware Voice Conversational Models
+Authors: Liang-Yuan Wu, Zih-Ching Chen, Tongshuang Wu, Chao-Han Huck Yang, Hua Shen
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-06-24
+Summary: As multimodal conversational systems increasingly engage in spoken interaction, their ability to navigate paralinguistic social cues has become a critical bottleneck for natural human-AI communication. However, existing evaluations of machine emotional intelligence assess reasoning exclusively through isolated text or passive acoustic perception, overlooking the complex cross-modal reasoning requi...
+
+--- [16] 2606.21888v1 ---
+Title: ProsoCodec: Prosody-Oriented Speech Codec for Voice Conversion
+Authors: Jeongsoo Choi, Ji-Hoon Kim, Shujie Hu, Joon Son Chung
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-20
+Summary: Neural speech codecs efficiently compress speech and have become a foundation for speech generation, but they are typically learned as holistic representations that intertwine linguistic content, speaker identity, and prosody. While this design is effective for zero-shot voice cloning, it hinders downstream tasks that require prosody preservation or transfer, such as voice conversion. To address t...
+
+--- [17] 2606.21157v1 ---
+Title: SDP-Codec: A Speaker-Decoupled Speech Codec with Pitch Injection for Low-Bitrate Coding and Zero-Shot Voice Conversion
+Authors: Hounsu Kim, Juhan Nam
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-06-19
+Summary: Speaker-decoupled speech codecs can reduce bitrate by separating global speaker attributes from local content and prosody, while supporting voice conversion. Existing speaker-decoupled codecs face a trade-off: methods that explicitly suppress speaker leakage often rely on multi-stage or auxiliary training, whereas simpler designs can leave residual speaker information in local tokens. We propose S...
+
+--- [18] 2606.20218v1 ---
+Title: Zero-VC: Zero-Lookahead Streaming Voice Conversion via Speaker Anonymization
+Authors: Yudong Li, Zihao Fang, Junwen Qiu, Ruihai Jing, Ruixiang Hang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-18
+Summary: Streaming zero-shot voice conversion struggles to disentangle timbre from linguistic content without degrading utility or inflating latency. Current methods rely on information bottleneck (IB) or speaker perturbation. While IB filters out timbre, it discards prosody, forcing models to explicitly inject features like fundamental frequency. This often requires buffering future frames, creating algor...
+
+--- [19] 2606.18596v1 ---
+Title: Better Adherence, Richer Context: A Field Evaluation of LLM-Powered Conversational Voice Diaries for Sleep
+Authors: Amama Mahmood, Bokyung Kim, Honghao Zhao, Molly E. Atwood, Luis F. Buenaver et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.AI
+Published: 2026-06-17
+Summary: Sleep diaries are central to behavioral sleep medicine and cognitive behavioral therapy for insomnia, yet daily completion is difficult to sustain, and static forms often provide limited context for interpreting night-to-night sleep variation. We designed an LLM-powered conversational voice diary that delivers clinically grounded morning and evening sleep diary questions through proactive smart-sp...
+
+--- [20] 2606.17126v1 ---
+Title: Vibrato Expression Control for Singing Voice Conversion with Improving Independent Control
+Authors: Joon-Seung Choi, Dong-Min Byun, Seong-Whan Lee
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-15
+Summary: Singing style is a crucial aspect of a natural and expressive singing voice. Singers utilize singing styles to convey the feeling or emotion of the songs. Several works have been proposed to control singing style for making the more expressive singing voice. Recently, VibE-SVC successfully controls vibrato by predicting high-frequency F0 contour. In this paper, we introduce a singing voice convers...
+

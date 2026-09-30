@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio+captioning%22+AND+abs%3A%222026%22&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2606.07387v1 ---
+Title: Making the Most of Limited Data: Score-Aware Training for Text-to-Music Generation
+Authors: Yun-Chen Cheng, Tzu-Hung Huang, Chih-Pin Tan
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-06-05
+Summary: State-of-the-art text-to-music generation systems rely on massive proprietary datasets and industrial-scale compute, making it impossible to disentangle architectural contributions from resource advantages. We propose \textit{score-aware training}, which treats audio-caption alignment score as a direct supervision signal throughout the pipeline. Rather than discarding low-scoring segments, we repu...
+

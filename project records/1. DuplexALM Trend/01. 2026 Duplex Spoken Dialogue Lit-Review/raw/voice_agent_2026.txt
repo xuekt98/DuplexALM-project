@@ -1,0 +1,23 @@
+# Total entries: 3
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Avoice+AND+abs%3Aagent+AND+abs%3A2026&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.30798v1 ---
+Title: Evaluating Real-Time Voice Agents: From Component Quality to Grounded Outcomes
+Authors: Shivam Negi, Arpit Rawat, Rashi Jain
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-25
+Summary: Real-time voice agents have moved from research prototypes to production deployments, yet the literature describing them is fragmented across three communities that rarely cite one another: speech foundation modelling, turn-taking psycholinguistics, and agentic evaluation. Architecture papers report latency, turn-taking papers report prediction accuracy, and agentic benchmarks report task success,...
+
+--- [2] 2608.00964v1 ---
+Title: Copyright Is the Headline; Capability Is the Blind Spot: AI Technology in the Book-Publishing Trade Press, November 2025--August 2026
+Authors: Fred Zimmerman
+Primary cat: cs.CY | All cats: cs.CY
+Published: 2026-08-02
+Summary: This rapid evidence review examines 89 articles about artificial intelligence (AI) and book publishing published from November 1, 2025 through August 1, 2026. The purposive corpus spans English-, Chinese-, German-, French-, Spanish-, Portuguese-, Italian-, and Japanese-language publishing coverage; major-newspaper book coverage; and specialist technology commentators. Each item was coded for topic...
+
+--- [3] 2605.21818v1 ---
+Title: Co-Ontogeny by Archetypal Scaffolding: The Humorphic Partnership
+Authors: Hector Ouilhet Olmos
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-05-20
+Summary: We name and operationalise the humorphic partnership: a class of human-AI dyads in which both partners maintain externalised, evolving self-models in a shared substrate, and in which the partnership itself becomes a third object of analysis. The construct extends humorphism (Ouilhet Olmos, 2024) -- "dismantle the user interface, build the human interface" -- into the architecture of personal AI. W...
+

@@ -1,0 +1,142 @@
+--- [1] 2609.09087v1 ---
+Title: PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation
+Authors: Yixuan Liu, Zilong Zhen, Yin Wu, Yi Li
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-09-08
+Summary: As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local post-exploitation tasks remains inadequately quantified. Among these, Linux privilege escalation is a key step between initial access and full system compromise. However, existing evaluations for this task are limited by small sample sizes (fewer than 15 scen...
+
+--- [2] 2609.09066v1 ---
+Title: A Distributed Consensus Particle Filter for Target Tracking using Autonomous Surface Vessels
+Authors: Carter Noh, Kyle Crandall, Connor Yates, Corbin Wilhelmi
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Maritime target tracking over large distances often requires multi-agent teams without centralized coordination, and intermittent communication. Each agent must maintain an independent estimate that can take advantage of opportunistic communications availability when possible. This can lead to overly confident local estimates in the absence of external data. In this work, we propose an augmentatio...
+
+--- [3] 2609.09059v1 ---
+Title: PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games
+Authors: Ryan Truong, Lance Ying, Samuel J. Gershman, Kazuki Irie
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-09-08
+Summary: While many video-game environments (VGEs) have played crucial roles in advancing reinforcement learning (RL), developing novel VGEs or modifying existing ones to support new features, has been a laborious process requiring extensive hand-coding. Here we present PlayTrain, an RL framework that combines the abilities of large language models (LLMs) to robustly generate JavaScript (JS) games from a m...
+
+--- [4] 2609.09056v1 ---
+Title: Time-Varying Data as Sheaves: an Invitation to Narratives
+Authors: Wilmer Leal, Benjamin Merlin Bumpus, Jana K. Nickel, Johan García, James Fairbanks et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.MA, eess.SY, math.CT
+Published: 2026-09-08
+Summary: Modern science and engineering increasingly rely on time-varying data, yet the mathematical tools used to model temporal phenomena are often developed within separate disciplines, obscuring common principles and limiting the transfer of ideas across fields. This chapter presents the theory of narratives, an abstract framework for time-varying objects of any mathematical kind that supports both the...
+
+--- [5] 2609.09048v1 ---
+Title: The Audit Decides the Verdict: Instrument Effects Rival Demographic Bias in LLM Decision Audits
+Authors: Siddharth Vohra, Manikandan Ravikiran
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.CY
+Published: 2026-09-08
+Summary: Whether a language model looks demographically biased can depend on how the audit asks its question. A charitable-aid benchmark reports that the same models favor minority applicants when rating requests one at a time and penalize some when ranking side by side. We test whether that reversal generalizes to hiring, lending, and medical triage: 40,726 requests to five models, applications differing ...
+
+--- [6] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [7] 2609.08965v1 ---
+Title: PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving
+Authors: Yuan Gao, Sebastian Müller, Mattia Piccinini, Marc Kaufeld, Yuchen Zhang et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.RO
+Published: 2026-09-08
+Summary: Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which scenario generation, retrieval, modification, ADS execution, and results analysis are performed by separate tools with little interaction. Large Language Model (LLM) agents have sh...
+
+--- [8] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [9] 2609.08954v1 ---
+Title: PMMS Allocations Need Not Exist for 3 Agents with Additive Valuations
+Authors: Paul Gölz
+Primary cat: cs.GT | All cats: cs.GT
+Published: 2026-09-08
+Summary: This note gives an instance demonstrating that the pairwise maximin share (PMMS) property cannot be satisfied by any allocation in certain fair division problems with indivisible goods and additive valuations. The instance requires only $n=3$ agents and $m=9$ goods, and is accompanied by a proof that no PMMS allocation exists. A separate instance shows (certified by exhaustive enumeration with a c...
+
+--- [10] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [11] 2609.08944v1 ---
+Title: SkillAdam: Stable and Efficient Skill Evolution for Agents
+Authors: Gaoyuan Li, Meihao Fan, Yizhe Liu, Shaolei Zhang, Ju Fan et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Agent skills provide a lightweight way to equip frozen language-model agents with domain knowledge and procedural guidance, yet obtaining high-quality skills remains costly and difficult to scale. Expert-written skills require substantial human effort. Recent skill self-evolution methods automate an iterative loop that uses execution feedback to revise skills, but their heuristic update strategies...
+
+--- [12] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [13] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+agent&max_results=20&sortBy=submittedDate&sortOrder=descending
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [14] 2609.08919v1 ---
+Title: Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents
+Authors: Wenbo Gao, Zhaomou Song, Zhiyuan Ji, Renxi Liu, Xing Li et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-08
+Summary: Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future behavior through self-evolution. A fundamental challenge is how to transform abundant, task-specific interaction experience into reusable model competence without sacrificing the ability to adapt rapidly to newly observed evidence. Explicit tex...
+
+--- [15] 2609.08887v1 ---
+Title: Q2D-Web: A Large-Scale Benchmark for Retrieval in Agentic RAG Systems
+Authors: Maximilian Schall, Sedigheh Eslami, Markus Krimmel, Antoine Chaffin, Louis Milliken et al.
+Primary cat: cs.IR | All cats: cs.IR, cs.CL
+Published: 2026-09-08
+Summary: Evaluating first-stage retrievers in large-scale production RAG requires a benchmark that pairs a large-scale corpus with a large set of agent-reformulated search queries based on real user queries and their conversation threads, and that labels many relevant documents per query. No existing public benchmark evaluates this setting: large-scale collections typically provide only a small number of e...
+
+--- [16] 2609.08832v1 ---
+Title: Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course
+Authors: Evelyn Duesterwald, Benjamin Elder, Lilian Ngweta, Shashanka Ubaru, Malgorzata Zimon
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Large language model (LLM)-powered agents can be accurate on average yet unreliable in production, a discrepancy that has been observed but remains largely unaddressed. When given the same task five times, a ReAct agent on the AppWorld benchmark using GPT-4.1 succeeds in all five runs only 53% of the time, even though its per-run pass rate averages 77%. We call this 24-point shortfall the consiste...
+
+--- [17] 2609.08802v1 ---
+Title: Graph-Based Safe Reinforcement Learning for Multi-Agent Systems with Time-Varying Topology
+Authors: Xiao Sizhe, Dong Lijing, Bai Rui, Tan Xin
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: This paper presents a graph-based safe multi-agent reinforcement learning (MARL) framework for cooperative navigation with time-varying topology. To address the critical challenge of ensuring safety in environments with sensing constraints, a safety-decoupled mechanism is introduced through a Control Barrier-Like Function (CBLF) action screening layer. This mechanism bridges the gap between discre...
+
+--- [18] 2609.08796v1 ---
+Title: Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling
+Authors: Rx Fan, Zhan H
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-08
+Summary: Multi-agent traffic simulation seeks diverse, coordinated, and physically realistic futures from maps and observed history. Long-horizon closed-loop generation must reconcile multiple decision time scales while its context evolves with generated states. Existing methods often unfold long futures from the initial scene and resolve intent, interaction, and motion monolithically, weakening cross-scal...
+
+--- [19] 2609.08788v1 ---
+Title: Adaptive Anisotropic Attention for Axis-Structured Signals
+Authors: Mahir Jain, Parshva Runwal, Aditya Ray Mishra, Arvasu Kulkarni, Sandeep Singh et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Dense self-attention treats all token pairs as equally plausible before learning, an interaction-isotropic prior that can be mismatched to structured signals. For structured, low signal-to-noise ratio (SNR) signals such as EEG, dependencies are organized along the electrode and time axes, and this uniform prior exposes each token to many irrelevant interactions. We introduce Adaptive Anisotropic A...
+
+--- [20] 2609.08747v1 ---
+Title: MemSentry: A Framework for Detecting Persistent Memory Poisoning in Agentic AI
+Authors: Ayan Roy, Kaustuvi Basu
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-09-08
+Summary: Agentic AI systems with persistent memory introduce a distinct attack surface known as memory poisoning, in which adversarially crafted content is stored in long-term memory and subsequently influences future agent behavior. Such attacks can suppress security alerts, facilitate privilege escalation, alter trust relationships, or override security policies without modifying the underlying model wei...
+

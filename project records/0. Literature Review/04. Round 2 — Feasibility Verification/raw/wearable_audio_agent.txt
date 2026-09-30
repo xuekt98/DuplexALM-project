@@ -1,0 +1,65 @@
+# Total entries: 9
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Awearable+AND+abs%3Aaudio+AND+abs%3Aagent&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2606.16190v1 ---
+Title: Embedded Arena: Iterative Optimization via Hardware Feedback
+Authors: Zhihan Zhang, Alexander Le Metzger, Jiuyang Lyu, Chun-Cheng Chang, Jiayi Shao et al.
+Primary cat: cs.AR | All cats: cs.AR, cs.AI
+Published: 2026-06-15
+Summary: Embedded devices from wildlife monitoring stations to clinical wearables require local AI inference due to latency, communication, or privacy constraints. Optimizing models for heterogeneous microcontrollers (MCUs) requires simultaneously satisfying hard physical constraints on memory, power, and temperature while preserving accuracy, a multidimensional optimization that is today performed manuall...
+
+--- [2] 2605.15044v1 ---
+Title: SpeakerLLM: A Speaker-Specialized Audio-LLM for Speaker Understanding and Verification Reasoning
+Authors: KiHyun Nam, Jungwoo Heo, Siu Bae, Ha-Jin Yu, Joon Son Chung
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS
+Published: 2026-05-14
+Summary: As audio-first agents become increasingly common in physical AI, conversational robots, and screenless wearables, audio large language models (audio-LLMs) must integrate speaker-specific understanding to support user authorization, personalization, and context-aware interaction. This requires modeling who is speaking, how the voice sounds, and how recording conditions affect speaker cues. Conventi...
+
+--- [3] 2601.18157v3 ---
+Title: Agentic Very Long Video Understanding
+Authors: Aniket Rege, Arka Sadhu, Yuliang Li, Kejie Li, Ramya Korlakai Vinayak et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-01-26
+Summary: The advent of always-on personal AI assistants, enabled by all-day wearable devices such as smart glasses, demands a new level of contextual understanding, one that goes beyond short, isolated events to encompass the continuous, longitudinal stream of egocentric video. Achieving this vision requires advances in long-horizon video understanding, where systems must interpret and recall visual and au...
+
+--- [4] 2510.22443v1 ---
+Title: Benchmarking Egocentric Multimodal Goal Inference for Assistive Wearable Agents
+Authors: Vijay Veerabadran, Fanyi Xiao, Nitin Kamra, Pedro Matias, Joy Chen et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2025-10-25
+Summary: There has been a surge of interest in assistive wearable agents: agents embodied in wearable form factors (e.g., smart glasses) who take assistive actions toward a user's goal/query (e.g. "Where did I leave my keys?"). In this work, we consider the important complementary problem of inferring that goal from multi-modal contextual observations. Solving this "goal inference" problem holds the promis...
+
+--- [5] 2505.14668v2 ---
+Title: ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions
+Authors: Bufang Yang, Lilin Xu, Liekang Zeng, Kaiwei Liu, Siyang Jiang et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.HC
+Published: 2025-05-20
+Summary: Recent advances in Large Language Models (LLMs) have propelled intelligent agents from reactive responses to proactive support. While promising, existing proactive agents either rely exclusively on observations from enclosed environments (e.g., desktop UIs) with direct LLM inference or employ rule-based proactive notifications, leading to suboptimal user intent understanding and limited functional...
+
+--- [6] 2502.16175v1 ---
+Title: Mojito: LLM-Aided Motion Instructor with Jitter-Reduced Inertial Tokens
+Authors: Ziwei Shan, Yaoyu He, Chengfeng Zhao, Jiashen Du, Jingyan Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.GR
+Published: 2025-02-22
+Summary: Human bodily movements convey critical insights into action intentions and cognitive processes, yet existing multimodal systems primarily focused on understanding human motion via language, vision, and audio, which struggle to capture the dynamic forces and torques inherent in 3D motion. Inertial measurement units (IMUs) present a promising alternative, offering lightweight, wearable, and privacy-...
+
+--- [7] 2311.06455v2 ---
+Title: Aria-NeRF: Multimodal Egocentric View Synthesis
+Authors: Jiankai Sun, Jianing Qiu, Chuanyang Zheng, John Tucker, Javier Yu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2023-11-11
+Summary: We seek to accelerate research in developing rich, multimodal scene models trained from egocentric data, based on differentiable volumetric ray-tracing inspired by Neural Radiance Fields (NeRFs). The construction of a NeRF-like model from an egocentric image sequence plays a pivotal role in understanding human behavior and holds diverse applications within the realms of VR/AR. Such egocentric NeRF...
+
+--- [8] 2203.00456v4 ---
+Title: WEMAC: Women and Emotion Multi-modal Affective Computing dataset
+Authors: Jose A. Miranda, Esther Rituerto-González, Laura Gutiérrez-Martín, Clara Luis-Mingueza, Manuel F. Canabal et al.
+Primary cat: cs.HC | All cats: cs.HC, eess.SP
+Published: 2022-03-01
+Summary: Among the seventeen Sustainable Development Goals (SDGs) proposed within the 2030 Agenda and adopted by all the United Nations member states, the Fifth SDG is a call for action to turn Gender Equality into a fundamental human right and an essential foundation for a better world. It includes the eradication of all types of violence against women. Within this context, the UC3M4Safety research team a...
+
+--- [9] 1810.11556v2 ---
+Title: Efficient and Trustworthy Social Navigation Via Explicit and Implicit Robot-Human Communication
+Authors: Yuhang Che, Allison M. Okamura, Dorsa Sadigh
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2018-10-26
+Summary: In this paper, we present a planning framework that uses a combination of implicit (robot motion) and explicit (visual/audio/haptic feedback) communication during mobile robot navigation. First, we developed a model that approximates both continuous movements and discrete behavior modes in human navigation, considering the effects of implicit and explicit communication on human decision making. Th...
+

@@ -1,0 +1,177 @@
+--- [1] 2609.03107v1 ---
+Title: CRAW: Codec Robust Audio Watermarking
+Authors: David Chernin, Ethan Fetaya
+Primary cat: cs.SD | All cats: cs.SD, cs.CR, cs.LG
+Published: 2026-09-02
+Summary: Recent advances in generative speech models have made it increasingly difficult to distinguish authentic from synthetic audio, enabling new forms of fraud and misinformation. Audio watermarking offers a promising defense by embedding an imperceptible signal into generated speech that can later be detected to verify its provenance. However, recent studies have shown that existing post-hoc watermark...
+
+--- [2] 2608.25289v1 ---
+Title: Combining Self-Embedding Audio Watermarking with Ultra-Low-Bitrate Neural Codecs
+Authors: Yigitcan Özer, Xin Wang, Zhe Zhang, Junichi Yamagishi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-26
+Summary: Partial manipulation of speech recordings, where only localized segments of an utterance are altered, poses a significant challenge for content integrity verification, as reliable detection and localization of such edits becomes harder as the manipulated proportion decreases. Watermarking offers a proactive defense alternative by embedding auxiliary information prior to distribution; classical has...
+
+--- [3] 2608.24159v1 ---
+Title: On the Robustness of Audio Deepfake Detection under Audio Watermarking
+Authors: Zi Qian Yong, Ajinkya Kulkarni, Julia Lau, Hwa Hui Tew, Shu Min Leong et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-25
+Summary: Recent advances in generative audio models have enabled highly realistic synthetic speech, increasing the importance of reliable audio deepfake detection (ADD) systems. While prior studies have primarily focused on adversarially optimized perturbations, the robustness of ADD systems under realistic signal transformations remains insufficiently understood. In this work, we investigate the impact of...
+
+--- [4] 2608.19959v1 ---
+Title: Tracking the Trend in How Speech Synthesizers Deceive People
+Authors: Milan Šalko, Anton Firc, Kamil Malinka, Vojtěch Staněk, Martin Perešini et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.SD, eess.AS
+Published: 2026-08-20
+Summary: Advances in speech synthesis have made deepfake audio highly realistic. Earlier studies reported 70-80% human detection accuracy, but relied primarily on older synthesizers. We compare human detection for three selected voice synthesis tools released in 2019, 2022, and 2024 with 82 IT professionals, and benchmark humans against six pretrained detectors on the same material. For fully synthetic spe...
+
+--- [5] 2608.19369v1 ---
+Title: Linguistic Holonomy and Statistical Watermarks: Inner Geometry of Meaning-Preserving Transformations
+Authors: Daniele Corradetti
+Primary cat: cs.CL | All cats: cs.CL, cs.CR, math.DG
+Published: 2026-08-19
+Summary: Statistical watermarks for language models live in the freedom of the signifier: they choose among tokens that are nearly equivalent in meaning, and they are therefore eroded by exactly those transformations which move the form of a text while leaving its content in place. The literature measures such transformations by their endpoint, through the semantic similarity between the original and the r...
+
+--- [6] 2608.16566v1 ---
+Title: How Fragile Is Your Watermark? Training-Free Structural Removal of Neural Audio Watermarks
+Authors: Likhith Kumara
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-17
+Summary: Neural audio watermarks are increasingly used to attribute and detect AI-generated speech, so their practical value rests on how cheaply an adversary can remove them. Robustness is usually measured by running a fixed battery of distortions blindly against every scheme. We instead make removal diagnostic: from a few clean/watermarked pairs we compute cheap structural probes that reveal where a wate...
+
+--- [7] 2607.21132v1 ---
+Title: Investigating Codec-Internal Latent Audio Watermarking for Neural Codec Robustness
+Authors: Zi Hu, Houmin Sun, Linxi Li, Yechen Wang, Liwei Jin et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-23
+Summary: Neural audio codecs are challenging transformations for audio watermarking because they re-encode, quantize, and resynthesize speech. This paper investigates continuous latent-space watermarking for codec robustness. Instead of adding a watermark only to the waveform or spectrogram, we embed a 32-bit message into the continuous latent representation of a codec-like speech autoencoder. The pipeline...
+
+--- [8] 2607.17592v1 ---
+Title: SSTMark: Robust Training-Free Semantic-Level Speech Watermarking
+Authors: Kuan-Lin Chu, Jun-Cheng Chen, Chun-Shien Lu
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-20
+Summary: As speech generation models become increasingly realistic and widely accessible, concerns about the misuse, attribution, and governance of synthetic speech continue to grow. Watermarking provides a practical way to make synthesized speech traceable and verifiable. Most existing speech watermarking methods embed watermark information into signal-level representations, such as waveforms or spectrogr...
+
+--- [9] 2607.11117v1 ---
+Title: MusicMark: A Robust Generative Watermarking Framework for Music Generation
+Authors: Seohwan Yun, Jeeyoung Yun, Yongjin Kim, Juyeon Lee, Sungwoong Kim
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR
+Published: 2026-07-13
+Summary: AI music generation has rapidly advanced alongside commercial platforms, raising the need for reliable watermarking for provenance and attribution. However, existing audio watermarking research has largely focused on speech, and applying speech-oriented methods to music is challenging due to music's complex structure and rich acoustic texture. Most existing methods are post-hoc, adding imperceptib...
+
+--- [10] 2606.23335v2 ---
+Title: The Watermark Shortcut: How Provenance Marking Sabotages Audio Deepfake Detection
+Authors: Nicolas M. Müller, Pascal Debus
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-22
+Summary: Provenance watermarking is increasingly treated as a safeguard for synthetic speech, whether built directly into speech-generation models such as Chatterbox, provided through dedicated techniques such as AudioSeal, or deployed by commercial platforms such as ElevenLabs. We identify a previously uncharacterized liability: when synthetic speech is watermarked and human speech is not, detectors train...
+
+--- [11] 2606.21365v1 ---
+Title: LambdaMark: Semantic Audio Watermarking for Robustness and Radioactivity
+Authors: Kexin Li, Xiao Hu, Ilya Grishchenko, David Lie
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-19
+Summary: Recent advances in generative audio have made voice cloning increasingly effortless, enabling voice fraud, impersonation, and other forms of unauthorized use. A common attack finetunes a speech generation model on recordings of a target speaker, allowing the model to synthesize speech in that speaker's voice. Audio watermarking offers a promising defense by embedding detectable signals into audio....
+
+--- [12] 2606.15264v1 ---
+Title: DuraMark: Duration-Embedded Watermarking in LLM-based TTS
+Authors: Zhenwei Mou, Weili Jiang, Liping Chen, Zhen-Hua Ling, Kong Aik Lee et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-13
+Summary: Large language model (LLM)-based text-to-speech (TTS) models have achieved remarkable voice cloning capabilities, raising concerns about potential deepfake misuse. Speech watermarking mitigates this by embedding traceable information into generated speech. Mainstream watermarking methods operate at the signal level (waveform or spectrogram), rendering the watermark vulnerable to generative attacks...
+
+--- [13] 2606.15187v1 ---
+Title: VoxWatermark: A Large-Scale Benchmark for Audio Watermark Detection under Perturbations
+Authors: Farnaz Sedaghati, Yuxi Wang, Zicheng Weng, Wei Rao
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-13
+Summary: With the rapid deployment of speech generation systems in open environments, providing verifiable source attribution and copyright accountability for audio content has become critical. A gap in current research is the lack of a unified benchmark that systematically compares different watermark injection methods under realistic distribution shifts. To address this, we build VoxWatermark by applying...
+
+--- [14] 2606.11828v1 ---
+Title: Feature-Aligned Speech Watermarking for Robustness to Reconstruction Distortions
+Authors: Haiyun Li, Shuhai Peng, Zhisheng Zhang, Jingran Xie, Xiaofeng Xie et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR, cs.MM
+Published: 2026-06-10
+Summary: Audio watermarking aims to embed identifiable information into audio while remaining imperceptible. Existing methods adopt high-fidelity, low-energy designs to preserve perceptual quality, but the resulting watermarks lack robustness under suppression by speech reconstruction models. Improving robustness is challenging due to the inherent robustness-fidelity trade-off in existing designs, where in...
+
+--- [15] 2606.00613v2 ---
+Title: Linguistics-Aware Non-Distortionary LLM Watermarking
+Authors: Shinwoo Park, Hyejin Park, Hyeseon An, Yo-Sub Han
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-05-30
+Summary: Watermarking should identify language-model output without degrading quality or limiting verification to the model provider. Multilingual deployment makes this harder because morphology, segmentation, and script change where watermark evidence can be naturally embedded. We introduce LUNA, a linguistically adaptive watermark that combines model-free detection with single-token non-distortion under ...
+
+--- [16] 2605.08431v1 ---
+Title: Latent Secret Spin: Keyed Orthogonal Rotations for Blind Speech Watermarking in Anisotropic Latent Spaces
+Authors: Emma Coletta, Massimiliano Todisco, Michele Panariello, Antonio Faonio, Nicholas Evans
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-08
+Summary: We introduce Latent Secret Spin (LSS), a blind speech watermarking method based on geometric operations in codec latent space. Based upon orthogonal rotations to principal components, LSS induces imperceptible but detectable covariance signatures according to a pseudo-random watermarking schedule. The scheme generalises across datasets, preserves perceptual quality and, unlike some learned, neural...
+
+--- [17] 2605.01515v1 ---
+Title: MelShield: Robust Mel-Domain Audio Watermarking for Provenance Attribution of AI Generated Synthesized Speech
+Authors: Yutong Jin, Qi Li, Lingshuang Liu, Jianbing Ni
+Primary cat: cs.SD | All cats: cs.SD, cs.CR
+Published: 2026-05-02
+Summary: In this paper, we propose MelShield, a robust, in-generation, keyed audio watermarking framework that embeds identifiable signals into AI-generated audio for copyright protection and reliable attribution. Specifically, MelShield operates in the Mel-spectrogram domain during the generation process, targeting intermediate acoustic representations in Mel-conditioned pipelines for text-to-speech (TTS)...
+
+--- [18] 2604.11917v1 ---
+Title: StreamMark: A Deep Learning-Based Semi-Fragile Audio Watermarking for Proactive Deepfake Detection
+Authors: Zhentao Liu, Milos Cernak
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-13
+Summary: The rapid advancement of generative AI has made it increasingly challenging to distinguish between deepfake audio and authentic human speech. To overcome the limitations of passive detection methods, we propose StreamMark, a novel deep learning-based, semi-fragile audio watermarking system. StreamMark is designed to be robust against benign audio conversions that preserve semantic meaning (e.g., c...
+
+--- [19] 2603.16805v2 ---
+Title: Making Separation-First Multi-Stream Audio Watermarking Feasible via Joint Training
+Authors: Houmin Sun, Zi Hu, Linxi Li, Yechen Wang, Liwei Jin et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-17
+Summary: Modern audio is created by mixing stems from different sources, raising the question: can we independently watermark each stem and recover all watermarks after separation? We study a separation-first, multi-stream watermarking framework --embedding distinct information into stems using unique keys but a shared structure, mixing, separating, and decoding from each output. A naive pipeline (robust w...
+
+--- [20] 2602.10166v1 ---
+Title: MerkleSpeech: Public-Key Verifiable, Chunk-Localised Speech Provenance via Perceptual Fingerprints and Merkle Commitments
+Authors: Tatsunori Ono
+Primary cat: cs.CR | All cats: cs.CR, cs.SD, eess.AS
+Published: 2026-02-10
+Summary: Speech provenance goes beyond detecting whether a watermark is present. Real workflows involve splicing, quoting, trimming, and platform-level transforms that may preserve some regions while altering others. Neural watermarking systems have made strides in robustness and localised detection, but most deployments produce outputs with no third-party verifiable cryptographic proof tying a time segmen...
+
+--- [21] 2601.22556v1 ---
+Title: VocBulwark: Towards Practical Generative Speech Watermarking via Additional-Parameter Injection
+Authors: Weizhi Liu, Yue Li, Zhaoxia Yin
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-01-30
+Summary: Generated speech achieves human-level naturalness but escalates security risks of misuse. However, existing watermarking methods fail to reconcile fidelity with robustness, as they rely either on simple superposition in the noise space or on intrusive alterations to model weights. To bridge this gap, we propose VocBulwark, an additional-parameter injection framework that freezes generative model p...
+
+--- [22] 2601.20432v2 ---
+Title: Self Voice Conversion as an Attack against Neural Audio Watermarking
+Authors: Yigitcan Özer, Wanying Ge, Zhe Zhang, Xin Wang, Junichi Yamagishi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-01-28
+Summary: Audio watermarking embeds auxiliary information into speech while maintaining speaker identity, linguistic content, and perceptual quality. Although recent advances in neural and digital signal processing-based watermarking methods have improved imperceptibility and embedding capacity, robustness is still primarily assessed against conventional distortions such as compression, additive noise, and ...
+
+--- [23] 2601.09327v1 ---
+Title: CallShield: Secure Caller Authentication over Real-Time Audio Channels
+Authors: Mouna Rabh, Yazan Boshmaf, Mashael Alsabah, Shammur Chowdhury, Mohamed Hefeeda et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-01-14
+Summary: We present CallShield, the first caller identity authentication system that operates entirely at the audio layer, without relying on speech transcription, internet connectivity, or trusted infrastructure. CallShield introduces a real-time neural watermarking technique that enables per-bit embedding and recovery within 40-millisecond frames of live 8 kHz speech. This capability allows CallShield to...
+
+--- [24] 2512.18791v1 ---
+Title: Smark: A Watermark for Text-to-Speech Diffusion Models via Discrete Wavelet Transform
+Authors: Yichuan Zhang, Chengxin Li, Yujie Gu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR
+Published: 2025-12-21
+Summary: Text-to-Speech (TTS) diffusion models generate high-quality speech, which raises challenges for the model intellectual property protection and speech tracing for legal use. Audio watermarking is a promising solution. However, due to the structural differences among various TTS diffusion models, existing watermarking methods are often designed for a specific model and degrade audio quality, which l...
+
+--- [25] 2512.15641v2 ---
+Title: ComMark: Covert and Robust Black-Box Model Watermarking with Compressed Samples
+Authors: Yunfei Yang, Xiaojun Chen, Zhendong Zhao, Yu Zhou, Xiaoyan Gu et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2025-12-16
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspeech+AND+abs%3Awatermark&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: The rapid advancement of deep learning has turned models into highly valuable assets due to their reliance on massive data and costly training processes. However, these models are increasingly vulnerable to leakage and theft, highlighting the critical need for robust intellectual property protection. Model watermarking has emerged as an effective solution, with black-box watermarking gaining signi...
+

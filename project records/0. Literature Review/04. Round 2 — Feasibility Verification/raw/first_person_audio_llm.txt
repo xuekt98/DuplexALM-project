@@ -1,0 +1,142 @@
+--- [1] 2609.01481v1 ---
+Title: Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement
+Authors: Haoyang Yan, Min-le Su, Hangfan Zhang, Zhanhao Li, Chen Zhang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-01
+Summary: This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements into complete, functional, and usable software systems without human intervention. We introduce Harness-of-Harness (HoH), a framework that enables coding agents to continually improve software during autonomous development. HoH operates on existing coding-agent harnesses, and orga...
+
+--- [2] 2608.12627v3 ---
+Title: EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory
+Authors: Le Zhang, Hao Chen, Vlad Roznyatovskiy, Jianzhong Zhang, Ke Sun
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-08-12
+Summary: Long-horizon egocentric memory transforms continuous first-person video and audio into a searchable record of past experiences. We demonstrate two bottlenecks in existing systems: indices built from context-poor captions are unreliable for agentic search, while retrieval ignores a question's temporal intent. To address both bottlenecks, we introduce EgoCITE (Egocentric Context-augmented Indexing a...
+
+--- [3] 2605.15044v1 ---
+Title: SpeakerLLM: A Speaker-Specialized Audio-LLM for Speaker Understanding and Verification Reasoning
+Authors: KiHyun Nam, Jungwoo Heo, Siu Bae, Ha-Jin Yu, Joon Son Chung
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS
+Published: 2026-05-14
+Summary: As audio-first agents become increasingly common in physical AI, conversational robots, and screenless wearables, audio large language models (audio-LLMs) must integrate speaker-specific understanding to support user authorization, personalization, and context-aware interaction. This requires modeling who is speaking, how the voice sounds, and how recording conditions affect speaker cues. Conventi...
+
+--- [4] 2605.01235v2 ---
+Title: MindMelody: A Closed-Loop EEG-Driven System for Personalized Music Intervention
+Authors: Yimeng Zhang, Yueru Sun, Haoyu Gu, Zhanpeng Jin
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-05-02
+Summary: Driven by the escalating global burden of mental health conditions, music-based interventions have attracted significant attention as a non-invasive, cost-effective modality for emotion regulation and psychological stress relief. However, current digital music services rely on static preferences and fail to adapt to users' instantaneous psychological states. Furthermore, directly mapping electroen...
+
+--- [5] 2601.11141v1 ---
+Title: FlashLabs Chroma 1.0: A Real-Time End-to-End Spoken Dialogue Model with Personalized Voice Cloning
+Authors: Tanyu Chen, Tairan Chen, Kai Shen, Zhenghua Bao, Zhihui Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-01-16
+Summary: Recent end-to-end spoken dialogue systems leverage speech tokenizers and neural audio codecs to enable LLMs to operate directly on discrete speech representations. However, these models often exhibit limited speaker identity preservation, hindering personalized voice interaction. In this work, we present Chroma 1.0, the first open-source, real-time, end-to-end spoken dialogue model that achieves b...
+
+--- [6] 2512.00120v1 ---
+Title: Art2Music: Generating Music for Art Images with Multi-modal Feeling Alignment
+Authors: Jiaying Hong, Ting Zhu, Thanet Markchom, Huizhi Liang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CV, cs.LG, cs.MM
+Published: 2025-11-27
+Summary: With the rise of AI-generated content (AIGC), generating perceptually natural and feeling-aligned music from multimodal inputs has become a central challenge. Existing approaches often rely on explicit emotion labels that require costly annotation, underscoring the need for more flexible feeling-aligned methods. To support multimodal music generation, we construct ArtiCaps, a pseudo feeling-aligne...
+
+--- [7] 2510.19670v4 ---
+Title: CoSense-LLM: Semantics at the Edge with Cost- and Uncertainty-Aware Cloud-Edge Cooperation
+Authors: Hasan Akgul, Mari Eplik, Javier Rojas, Aina Binti Abdullah, Pieter van der Merwe
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-10-22
+Summary: We present CoSense-LLM, an edge-first framework that turns continuous multimodal sensor streams (for example Wi-Fi CSI, IMU, audio, RFID, and lightweight vision) into compact, verifiable semantic tokens and coordinates with large language models under explicit latency, energy, bandwidth, and privacy constraints. CoSense-LLM has four parts: (i) SenseFusion, a lightweight encoder that aligns sensor ...
+
+--- [8] 2509.11914v2 ---
+Title: EgoMem: Lifelong Memory Agent for Full-duplex Omnimodal Models
+Authors: Yiqun Yao, Naitong Yu, Xiang Li, Xin Jiang, Xuezhi Fang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2025-09-15
+Summary: We introduce EgoMem, the first lifelong memory agent tailored for full-duplex models that process real-time omnimodal streams. EgoMem enables real-time models to recognize multiple users directly from raw audiovisual streams, to provide personalized response, and to maintain long-term knowledge of users' facts, preferences, and social relationships extracted from audiovisual history. EgoMem operat...
+
+--- [9] 2508.20805v1 ---
+Title: Exploring Machine Learning and Language Models for Multimodal Depression Detection
+Authors: Javier Si Zhao Hong, Timothy Zoe Delaya, Sherwyn Chan Yin Kit, Pai Chet Ng, Xiaoxiao Miao
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2025-08-28
+Summary: This paper presents our approach to the first Multimodal Personality-Aware Depression Detection Challenge, focusing on multimodal depression detection using machine learning and deep learning models. We explore and compare the performance of XGBoost, transformer-based architectures, and large language models (LLMs) on audio, video, and text features. Our results highlight the strengths and limitat...
+
+--- [10] 2508.08777v1 ---
+Title: Evaluating Podcast Recommendations with Profile-Aware LLM-as-a-Judge
+Authors: Francesco Fabbri, Gustavo Penha, Edoardo D'Amico, Alice Wang, Marco De Nadai et al.
+Primary cat: cs.IR | All cats: cs.IR, cs.AI, cs.LG
+Published: 2025-08-12
+Summary: Evaluating personalized recommendations remains a central challenge, especially in long-form audio domains like podcasts, where traditional offline metrics suffer from exposure bias and online methods such as A/B testing are costly and operationally constrained. In this paper, we propose a novel framework that leverages Large Language Models (LLMs) as offline judges to assess the quality of podcas...
+
+--- [11] 2507.22367v1 ---
+Title: Traits Run Deep: Enhancing Personality Assessment via Psychology-Guided LLM Representations and Multimodal Apparent Behaviors
+Authors: Jia Li, Yichao He, Jiacheng Xu, Tianhao Luo, Zhenzhen Hu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.MM
+Published: 2025-07-30
+Summary: Accurate and reliable personality assessment plays a vital role in many fields, such as emotional intelligence, mental health diagnostics, and personalized education. Unlike fleeting emotions, personality traits are stable, often subconsciously leaked through language, facial expressions, and body behaviors, with asynchronous patterns across modalities. It was hard to model personality semantics w...
+
+--- [12] 2507.16124v3 ---
+Title: Benchmarking LLM Privacy Recognition for Social Robot Decision Making
+Authors: Dakota Sullivan, Shirley Zhang, Jennica Li, Heather Kirkorian, Bilge Mutlu et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2025-07-22
+Summary: While robots have previously utilized rule-based systems or probabilistic models for user interaction, the rapid evolution of large language models (LLMs) presents new opportunities to develop LLM-powered robots for enhanced human-robot interaction (HRI). To fully realize these capabilities, however, robots need to collect data such as audio, fine-grained images, video, and locations. As a result,...
+
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Afirst-person+AND+abs%3Aaudio+AND+abs%3Allm&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [13] 2505.13830v2 ---
+Title: Improving Noise Robustness of LLM-based Zero-shot TTS via Discrete Acoustic Token Denoising
+Authors: Ye-Xin Lu, Hui-Peng Du, Fei Liu, Yang Ai, Zhen-Hua Ling
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-05-20
+Summary: Large language model (LLM) based zero-shot text-to-speech (TTS) methods tend to preserve the acoustic environment of the audio prompt, leading to degradation in synthesized speech quality when the audio prompt contains noise. In this paper, we propose a novel neural codec-based speech denoiser and integrate it with the advanced LLM-based TTS model, LauraTTS, to achieve noise-robust zero-shot TTS. ...
+
+--- [14] 2504.00221v1 ---
+Title: GazeLLM: Multimodal LLMs incorporating Human Visual Attention
+Authors: Jun Rekimoto
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CV
+Published: 2025-03-31
+Summary: Large Language Models (LLMs) are advancing into Multimodal LLMs (MLLMs), capable of processing image, audio, and video as well as text. Combining first-person video, MLLMs show promising potential for understanding human activities through video and audio, enabling many human-computer interaction and human-augmentation applications such as human activity support, real-world agents, and skill trans...
+
+--- [15] 2411.14967v1 ---
+Title: SwissADT: An Audio Description Translation System for Swiss Languages
+Authors: Lukas Fischer, Yingqiang Gao, Alexa Lintner, Sarah Ebling
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.CV, cs.HC
+Published: 2024-11-22
+Summary: Audio description (AD) is a crucial accessibility service provided to blind persons and persons with visual impairment, designed to convey visual information in acoustic form. Despite recent advancements in multilingual machine translation research, the lack of well-crafted and time-synchronized AD data impedes the development of audio description translation (ADT) systems that address the needs o...
+
+--- [16] 2411.13766v4 ---
+Title: Tiny-Align: Bridging Automatic Speech Recognition and Large Language Model on the Edge
+Authors: Ruiyang Qin, Dancheng Liu, Gelei Xu, Zheyu Yan, Chenhui Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2024-11-21
+Summary: The combination of Large Language Models (LLM) and Automatic Speech Recognition (ASR), when deployed on edge devices (called edge ASR-LLM), can serve as a powerful personalized assistant to enable audio-based interaction for users. Compared to text-based interaction, edge ASR-LLM allows accessible and natural audio interactions. Unfortunately, existing ASR-LLM models are mainly trained in high-per...
+
+--- [17] 2411.00664v2 ---
+Title: Optimizing Contextual Speech Recognition Using Vector Quantization for Efficient Retrieval
+Authors: Nikolaos Flemotomos, Roger Hsiao, Pawel Swietojanski, Takaaki Hori, Dogan Can et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2024-11-01
+Summary: Neural contextual biasing allows speech recognition models to leverage contextually relevant information, leading to improved transcription accuracy. However, the biasing mechanism is typically based on a cross-attention module between the audio and a catalogue of biasing entries, which means computational complexity can pose severe practical limitations on the size of the biasing catalogue and co...
+
+--- [18] 2409.15353v1 ---
+Title: Contextualization of ASR with LLM using phonetic retrieval-based augmentation
+Authors: Zhihong Lei, Xingyu Na, Mingbin Xu, Ernest Pusateri, Christophe Van Gysel et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2024-09-11
+Summary: Large language models (LLMs) have shown superb capability of modeling multimodal signals including audio and text, allowing the model to generate spoken or textual response given a speech input. However, it remains a challenge for the model to recognize personal named entities, such as contacts in a phone book, when the input modality is speech. In this work, we start with a speech recognition tas...
+
+--- [19] 2401.08881v1 ---
+Title: Whispering Pixels: Exploiting Uninitialized Register Accesses in Modern GPUs
+Authors: Frederik Dermot Pustelnik, Xhani Marvin Saß, Jean-Pierre Seifert
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2024-01-16
+Summary: Graphic Processing Units (GPUs) have transcended their traditional use-case of rendering graphics and nowadays also serve as a powerful platform for accelerating ubiquitous, non-graphical rendering tasks. One prominent task is inference of neural networks, which process vast amounts of personal data, such as audio, text or images. Thus, GPUs became integral components for handling vast amounts of ...
+
+--- [20] 2309.01249v2 ---
+Title: Large AI Model Empowered Multimodal Semantic Communications
+Authors: Feibo Jiang, Li Dong, Yubo Peng, Kezhi Wang, Kun Yang et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.LG
+Published: 2023-09-03
+Summary: Multimodal signals, including text, audio, image, and video, can be integrated into Semantic Communication (SC) systems to provide an immersive experience with low latency and high quality at the semantic level. However, the multimodal SC has several challenges, including data heterogeneity, semantic ambiguity, and signal distortion during transmission. Recent advancements in large AI models, part...
+

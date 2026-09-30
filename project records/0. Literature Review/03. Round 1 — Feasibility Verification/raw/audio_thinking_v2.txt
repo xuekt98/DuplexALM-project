@@ -1,0 +1,79 @@
+# Total entries: 11
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Athinking+AND+ti%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.19339v1 ---
+Title: OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
+Authors: Yu Chen, Caorui Li, Ziyu Xiong, Yidong Wang, Mingqi Gao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-21
+Summary: Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs learn, via supervised fine-tuning and reinforcement learning, to decide whether and where to call a ...
+
+--- [2] 2606.18273v1 ---
+Title: Continuous Audio Thinking for Large Audio Language Models
+Authors: Gyojin Han, Dong-Jae Lee, Changho Choi, Jongsuk Kim, Junmo Kim
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2026-06-05
+Summary: Large audio language models (LALMs) have shown impressive capabilities on diverse audio understanding tasks, ranging from speech transcription to music analysis. However, because LALMs are typically trained to produce text-aligned responses, their hidden states are progressively shaped for text generation rather than for preserving acoustic information. As a result, the diverse acoustic content th...
+
+--- [3] 2605.27190v1 ---
+Title: Learning When to Think While Listening in Large Audio-Language Models
+Authors: Zhiyuan Song, Weici Zhao, Yang Xiao, Suhao Yu, Cheng Zhu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG, cs.SD
+Published: 2026-05-26
+Summary: Recent advances in Large Audio-Language Models (LALMs) have made real-time, streaming spoken interaction increasingly practical. In this setting, reasoning quality and responsiveness are tightly coupled: delaying reasoning until the speech endpoint can improve answer quality but moves deliberation into user-visible response delay, while answering too early risks committing before decisive evidence...
+
+--- [4] 2601.01392v1 ---
+Title: SAFE-QAQ: End-to-End Slow-Thinking Audio-Text Fraud Detection via Reinforcement Learning
+Authors: Peidong Wang, Zhiming Ma, Xin Dai, Yongkang Liu, Shi Feng et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-01-04
+Summary: Existing fraud detection methods predominantly rely on transcribed text, suffering from ASR errors and missing crucial acoustic cues like vocal tone and environmental context. This limits their effectiveness against complex deceptive strategies. To address these challenges, we first propose \textbf{SAFE-QAQ}, an end-to-end comprehensive framework for audio-based slow-thinking fraud detection. Firs...
+
+--- [5] 2509.21960v2 ---
+Title: Think Smart, Not Hard: Difficulty Adaptive Reasoning for Large Audio Language Models
+Authors: Zhichao Sheng, Shilin Zhou, Chen Gong, Zhenghua Li
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2025-09-26
+Summary: Large Audio Language Models (LALMs), powered by the chain-of-thought (CoT) paradigm, have shown remarkable reasoning capabilities. Intuitively, different problems often require varying depths of reasoning. While some methods can determine whether to reason for a given problem, they typically lack a fine-grained mechanism to modulate how much to reason. This often results in a ``one-size-fits-all''...
+
+--- [6] 2509.21749v1 ---
+Title: Thinking with Sound: Audio Chain-of-Thought Enables Multimodal Reasoning in Large Audio-Language Models
+Authors: Zhen Xiong, Yujun Cai, Zhecheng Li, Junsong Yuan, Yiwei Wang
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2025-09-26
+Summary: Recent Large Audio-Language Models (LALMs) have shown strong performance on various audio understanding tasks such as speech translation and Audio Q\&A. However, they exhibit significant limitations on challenging audio reasoning tasks in complex acoustic scenarios. These situations would greatly benefit from the use of acoustic tools like noise suppression, source separation, and precise temporal...
+
+--- [7] 2509.19676v1 ---
+Title: Thinking While Listening: Simple Test Time Scaling For Audio Classification
+Authors: Prateek Verma, Mert Pilanci
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, eess.AS
+Published: 2025-09-24
+Summary: We propose a framework that enables neural models to "think while listening" to everyday sounds, thereby enhancing audio classification performance. Motivated by recent advances in the reasoning capabilities of large language models, we address two central questions: (i) how can thinking be incorporated into existing audio classification pipelines to enable reasoning in the category space and impr...
+
+--- [8] 2508.08039v3 ---
+Title: Audio-Thinker: Guiding Audio Language Model When and How to Think via Reinforcement Learning
+Authors: Shu Wu, Chenxing Li, Wenfu Wang, Hao Zhang, Hualei Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM, eess.AS
+Published: 2025-08-11
+Summary: Recent advancements in large language models, multimodal large language models, and large audio language models (LALMs) have significantly improved their reasoning capabilities through reinforcement learning with rule-based rewards. However, the explicit reasoning process has yet to show significant benefits for audio question answering, and effectively leveraging deep reasoning remains an open ch...
+
+--- [9] 2508.04418v1 ---
+Title: Think Before You Segment: An Object-aware Reasoning Agent for Referring Audio-Visual Segmentation
+Authors: Jinxing Zhou, Yanghao Zhou, Mingfei Han, Tong Wang, Xiaojun Chang et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.MA, cs.SD, eess.AS
+Published: 2025-08-06
+Summary: Referring Audio-Visual Segmentation (Ref-AVS) aims to segment target objects in audible videos based on given reference expressions. Prior works typically rely on learning latent embeddings via multimodal fusion to prompt a tunable SAM/SAM2 decoder for segmentation, which requires strong pixel-level supervision and lacks interpretability. From a novel perspective of explicit reference understandin...
+
+--- [10] 2503.24115v4 ---
+Title: TeleAntiFraud-28k: An Audio-Text Slow-Thinking Dataset for Telecom Fraud Detection
+Authors: Zhiming Ma, Peidong Wang, Minhua Huang, Jingpeng Wang, Kai Wu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.MM
+Published: 2025-03-31
+Summary: The detection of telecom fraud faces significant challenges due to the lack of high-quality multimodal training data that integrates audio signals with reasoning-oriented textual analysis. To address this gap, we present TeleAntiFraud-28k, the first open-source audio-text slow-thinking dataset specifically designed for automated telecom fraud analysis. Our dataset is constructed through three stra...
+
+--- [11] 2503.22208v1 ---
+Title: DeepSound-V1: Start to Think Step-by-Step in the Audio Generation from Videos
+Authors: Yunming Liang, Zihao Chen, Chaofan Ding, Xinhan Di
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2025-03-28
+Summary: Currently, high-quality, synchronized audio is synthesized from video and optional text inputs using various multi-modal joint learning frameworks. However, the precise alignment between the visual and generated audio domains remains far from satisfactory. One key factor is the lack of sufficient temporal and semantic alignment annotations in open-source video-audio and text-audio benchmarks. Ther...
+

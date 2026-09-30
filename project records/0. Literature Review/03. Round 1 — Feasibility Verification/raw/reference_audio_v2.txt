@@ -1,0 +1,177 @@
+--- [1] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [2] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [3] 2609.08542v1 ---
+Title: Spatial Audio Coding Through Relative Room Impulse Response Estimation
+Authors: Nour Bouayed, Adrien Llave, Jérôme Daniel, Pascal Scalart
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate ...
+
+--- [4] 2609.07968v1 ---
+Title: Reasoning Beyond Transcription: Audio Language Models on Child Stuttering Speech
+Authors: Chibuzor Okocha, Christan Grant, Zoey Liu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-07
+Summary: Child speech differs from adult speech in acoustics, prosody, and linguistic structures. Speech disfluencies (such as repetitions) further challenge automatic understanding. While Audio Language Models (ALMs) show strong semantic reasoning from speech audio, their ability to reason about disfluent child speech in mixed-speaker settings remains unexplored. We investigate this through two tasks: chi...
+
+--- [5] 2609.07688v1 ---
+Title: Silent Metronome: Rhythmic Grounding for Live Music Accompaniment
+Authors: Kevin Bretz, Derya Soydaner, Aske Plaat
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-07
+Summary: Live accompaniment models generate music for an incoming audio stream, committing to each output frame before hearing what comes next. In this strictly causal setting the model must infer tempo, meter, and metrical phase from its own imperfect past, whereby compounding errors quickly become audible as rhythmic drift. Put simply, the model has ears but no temporal reference, so when the ears hear i...
+
+--- [6] 2609.07286v1 ---
+Title: TAD: Token-Adaptive Contrastive Decoding with Confidence-Guided Gating for Hallucination Mitigation in Large Audio-Language Models
+Authors: Heyu Chang, Nianwen Si, Hao Zhang, Wenlin Zhang, Dan Qu
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.CV
+Published: 2026-09-07
+Summary: Large audio-language models (LALMs) can hallucinate audio objects, answering "yes" to absent sound events, thus undermining reliability in audio question answering. We propose Token-Adaptive Decoding (TAD), a training-free strategy for hallucination mitigation that grounds the initial yes/no decision by contrasting logits under real audio with a matched silent reference. TAD introduces a token-ada...
+
+--- [7] 2609.06488v1 ---
+Title: Lead Vocal Separation from Vocal Ensemble Mixtures Using Phoneme Alignment
+Authors: Yuma Narahata, Tomohiko Nakamura, Yuki Saito, Hiroshi Saruwatari
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-06
+Summary: Contemporary a cappella singing often has a lead-and-accompaniment texture, where the lead vocal (Vo) part carries the main melody and the remaining vocal parts provide accompaniment. Owing to their distinct roles, separating the Vo part from the remaining vocal parts, referred to as Vo separation, enables downstream applications such as lyric recognition and minus-one accompaniment generation for...
+
+--- [8] 2609.06078v1 ---
+Title: Report of the 8th LSVOS Challenge: Complex and Multimodal Video Object Segmentation
+Authors: Chang Liu, Henghui Ding, Lingyi Hong, Ning Xu, Linjie Yang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: This report summarizes the 8th Large-scale Video Object Segmentation (LSVOS) Challenge, held in conjunction with ECCV 2026. The challenge evaluates video segmentation in three complementary settings: complex semi-supervised video object segmentation on MOSEv2, text-guided referring video object segmentation on MeViSv2-Text, and audio-guided referring video object segmentation on MeViSv2-Audio. We ...
+
+--- [9] 2609.05592v1 ---
+Title: What Did I Just Say? Self-Listening for Full-Duplex Speech Models
+Authors: Xuanning Zhou, Junyi Ao, Xiaotong Liu, Tom Ko, Benyou Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Full-duplex spoken language models can listen and speak simultaneously, enabling them to handle interruptions and backchannels in human conversation. However, text generation, speech synthesis, and audio playback proceed asynchronously. As a result, what a model believes it has said may not match what has actually been played to the user. We refer to the problem of recovering from an interruption ...
+
+--- [10] 2609.04867v1 ---
+Title: PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation
+Authors: Yuchen Sun, Qian Yang, Jun Wang, Detai Xin, Guoqiao Yu et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI, cs.SD
+Published: 2026-09-04
+Summary: Text-to-audio-video (T2AV) generation has advanced rapidly, but its evaluation still underestimates the audio modality. Existing benchmarks either treat audio as an auxiliary component of video quality or assess it in isolation from audiovisual grounding, making it difficult to diagnose where current systems truly succeed or fail in audio generation. We present PRISM-Bench, the first audio-centric...
+
+--- [11] 2609.04550v1 ---
+Title: VISTA: Dense Multi-Label Classroom Coding with Vision-Language Models
+Authors: Andrew Franck, Brendan Ng, Ben Fitzgerald, Zane Derrod, Chris Cianci et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Video-language benchmarks are usually constructed by the dataset authors without published reliability statistics, leaving the noise floor of the construct unknown. We argue that multimodal benchmarking benefits from methods taken from research communities that have already invested in strategies to ensure reliability. We illustrate the case with the Classroom Observation Protocol for Undergraduat...
+
+--- [12] 2609.03502v1 ---
+Title: Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech
+Authors: Kunat Pipatanakul, Potsawee Manakul, Warit Sirichotedumrong, Sittipong Sripaisarnmongkol, Pakorn Nathong et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-03
+Summary: In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus. We study a third route: using a large voice-cloning model as a programmable data source to turn a short voice reference (e.g., 15 seconds) into a compact fixed-voice student trained entirely on synthet...
+
+--- [13] 2609.03471v1 ---
+Title: Summary of the ChinaVoices Challenge 2026: Data, Tasks, Baseline, and Methods
+Authors: Yujie Liao, Bingshen Mu, Shuiyuan Wang, Liumeng Xue, Hexin Liu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-03
+Summary: This paper summarizes the ChinaVoices Challenge 2026, which aims to establish unified task definitions and evaluation conditions for Chinese dialect speech processing and to advance multi-dialect identification and automatic speech recognition. The challenge covers 16 dialect categories and defines two tasks: Chinese Multi-Dialect Identification and Chinese Multi-Dialect Automatic Speech Recogniti...
+
+--- [14] 2609.03153v1 ---
+Title: VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement
+Authors: Wenzhuo Xu, Yuchen Zhu, Chongjian Ge, Xuan Shen, Jing Shi et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-02
+Summary: Visual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of indicating the obligation a clip violates or the moment it fails. We present VeriPhy, an auditable physical-verification system in which a text-only planner compiles the prompt into typed physical obligations and a statically validated execution plan before any frame is observed....
+
+--- [15] 2609.02623v1 ---
+Title: Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction
+Authors: Kenichi Fujita, Yusuke Ijima
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-02
+Summary: Voice actors often re-read the same script while modifying their delivery in response to performance directions. We study this setting as direction-following TTS, where a system generates a new utterance that reflects a given direction relative to a reference utterance while preserving speaker identity and linguistic content. A key challenge is the lack of training data capturing such relative mod...
+
+--- [16] 2609.02606v1 ---
+Title: Predictors of Loneliness in Older Adults Using Multimodal Analysis of Speech and Language
+Authors: Vinmay Khandode, Sai Karthik Kosuri, Neil K. R. Sehgal, Adam Greene, Elif Alpoge et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-02
+Summary: Loneliness is a critical public health issue among older adults, linked to higher risks of depression, cognitive decline, and mortality. Scalable, objective methods for its detection remain limited, particularly in natural conversational contexts. We analyzed speech and language markers of loneliness in 310 older adults using semi-structured telephone interviews to help understand how they process...
+
+--- [17] 2609.01723v1 ---
+Title: Hearing the Whispers: Black-Box Membership Inference Attacks on Finetuned TTS Models
+Authors: Kunlin Cai, Kaiyuan Zhang, Zihang Xiang, Jinghuai Zhang, Abeer Alwan et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.LG, cs.SD, eess.AS
+Published: 2026-09-01
+Summary: Text-to-Speech (TTS) foundation models are increasingly fine-tuned on private datasets to synthesize highly personalized voices, introducing severe privacy risks by exposing both biometric identities and sensitive speech content. Existing black-box membership inference attacks (MIAs) follow a two-stage pipeline of query generation and representation engineering, both of which face unique challenge...
+
+--- [18] 2609.00369v1 ---
+Title: Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation
+Authors: Vida Adeli, Soroush Mehraban, Jacob Rommann, Harrison Sanborn, Cole Clifford et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Generating co-speech gestures that are temporally coherent, semantically aligned with speech, and grounded with surrounding objects remains challenging. Prior speech-driven gesture models emphasize audio-gesture alignment but do not explicitly account for posture constraints or surrounding objects, failing to capture the inherent correlation between body gestures and the physical space. We present...
+
+--- [19] 2609.00206v1 ---
+Title: Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation
+Authors: Ruotong Wang, Zihao Zhu, Siwei Lyu, Xin Tao, Baoyuan Wu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-31
+Summary: Despite their growing use in video moderation, multimodal large language models (MLLMs) exhibit a compositional safety blind spot: videos composed of seemingly benign components can convey harmful meaning when interpreted as a whole. We refer to this phenomenon as Distributed Implicit Harm (DIH), where harm arises from relations among components distributed along a decomposition axis of the video,...
+
+--- [20] 2608.30776v1 ---
+Title: Likelihood-Constrained Acoustic Reranking for Training-Free Hallucination Mitigation in LLM-Based ASR
+Authors: Jiasheng Kuang, Linru Zheng, Hongjin Song, Zhaoqi Cui, Song Li
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-31
+Summary: Large language model (LLM)-based automatic speech recognition (ASR) systems achieve strong performance on conventional speech data by leveraging powerful linguistic priors and multilingual capabilities. However, under challenging conditions, these priors can override acoustic evidence, resulting in unintended translation, instruction execution, repetition, or catastrophic deletion. We propose Like...
+
+--- [21] 2608.28875v1 ---
+Title: No Detectable Change in Side-Level WER from Prompt-Level Context: A Preregistered Ablation on a Production Oral-History Corpus
+Authors: Theodore O. Cochran, Stephanie Dodson, Keith Nore
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-08-28
+Summary: Supplying context at inference time to a large multimodal model is an inexpensive lever for adapting speech transcription to a domain, and earlier results on smaller models reported large gains. This work tested that mechanism where it ships, in the prompt-conditioning layer of a production oral-history transcription tool, on a sample from its own production corpus. Full prompt-level context did n...
+
+--- [22] 2609.04250v1 ---
+Title: Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue
+Authors: Chengqian Ma, Wei Tao, Haoyu Zhang, Yiwen Guo
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2026-08-28
+Summary: An avatar that holds a conversation should decide what to say and to move while saying it, yet these abilities live in separate model families: spoken dialogue models produce speech without motion, and co-speech motion models produce motion only from audio handed to them. The standard remedy is a cascade that first generates the spoken response and then runs a motion model over the finished audio,...
+
+--- [23] 2609.04249v1 ---
+Title: Encore: Infinite Audio-Video Generation with Adaptive Signal Routing
+Authors: Shaohua Pan, Junbao Chen, Shengyi He, Jingfeng Xue, Wen Tao et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-08-28
+Summary: Existing audio-video generation methods produce well-synchronized clips but are limited to short durations, while long-video generation methods extend duration through chunk-based iterative synthesis yet lack audio entirely. Generating long audio-video jointly is fundamentally harder than either task alone: each chunk must simultaneously maintain video temporal coherence, audio temporal coherence,...
+
+--- [24] 2608.28040v1 ---
+Title: A Shaky Voice Is Not Always a Dodge: Benchmarking Textual and Vocal Evasion Detection in Earnings Calls
+Authors: Mirae Kim, Seonghun Jeong, Youngjun Kwak
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-08-28
+Summary: Existing approaches to evasion detection in earnings calls focus on textual transcripts, treating evasion as a single-dimensional phenomenon. We argue that evasion in spoken communication is inherently multidimensional: beyond what executives say, how they say it carries independent and complementary information. To study these dimensions jointly, we introduce DualEvasion, a benchmark for evasion ...
+
+--- [25] 2609.04247v1 ---
+Title: CAD: Conflict-Aware Decoding to Mitigate Cross-Modal Hallucinations in Omnimodal Large Language Models
+Authors: Yuchen Deng, Chang Sun, Hai-Tao Zheng, Feidiao Yang, Yuxing Han
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-26
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areference+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Omnimodal large language models (Omni-LLMs) integrate audio, video, and text, yet remain vulnerable to cross-modal hallucinations, where one modality improperly influences predictions about another. Existing training-free decoders modulate modality influence through perturbation or relevance weighting, but do not assess predictive compatibility within the joint audio-visual branch. Because joint-b...
+

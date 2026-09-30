@@ -1,0 +1,177 @@
+--- [1] 2608.05126v1 ---
+Title: Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models
+Authors: Yuezhang Peng, Yuxin Liu, Changfeng Gao, Zhifu Gao, Xiangang Li et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.MM
+Published: 2026-08-05
+Summary: Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics for closed-set tasks after in-domain supervised fine-tuning, it faces significant challenges in leveraging in-context learning for open-domain tasks due to its ambiguous rule defini...
+
+--- [2] 2607.06392v1 ---
+Title: InsideSSL: Understanding Self-Supervised Speech Representations using a Model-Centric Perspective
+Authors: Samir Sadok, Xavier Alameda-Pineda
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-07
+Summary: Self-supervised learning (SSL) models, such as Wav2Vec2, HuBERT, and WavLM, have become foundational across a wide range of speech and audio tasks. Despite their success, understanding their internal layer-wise dynamics remains an ongoing challenge. To address this, we propose a two-part model-centric framework called InsideSSL. First, we establish a task-agnostic analysis from three intrinsic per...
+
+--- [3] 2605.03412v1 ---
+Title: Smart Passive Acoustic Monitoring: Embedding a Classifier on AudioMoth Microcontroller
+Authors: Louis Lerbourg, Paul Peyret, Juliette Linossier, Marielle Malfante
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-05-05
+Summary: Passive Acoustic Monitoring (PAM) is an efficient and non-invasive method for surveying ecosystems at a reduced cost. Typically, autonomous recorders allow the acquisition of vast bioacoustic datasets which are then analyzed. However, power consumption and data storage are both scarce and limit the duration of acquisition campaigns. To address this issue, we propose a smart PAM system which allows...
+
+--- [4] 2603.22589v1 ---
+Title: Velocity Potential Neural Field for Efficient Ambisonics Impulse Response Modeling
+Authors: Yoshiki Masuyama, Francois G. Germain, Gordon Wichern, Chiori Hori, Jonathan Le Roux
+Primary cat: cs.SD | All cats: cs.SD, eess.AS, eess.SP
+Published: 2026-03-23
+Summary: First-order Ambisonics (FOA) is a standard spatial audio format based on spherical harmonic decomposition. Its zeroth- and first-order components capture the sound pressure and particle velocity, respectively. Recently, physics-informed neural networks have been applied to the spatial interpolation of FOA signals, regularizing the network outputs based on soft penalty terms derived from physical p...
+
+--- [5] 2603.05413v2 ---
+Title: Building Enterprise Realtime Voice Agents from Scratch: A Technical Tutorial
+Authors: Jielin Qiu, Zixiang Chen, Liangwei Yang, Ming Zhu, Zhiwei Liu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-05
+Summary: We present a technical tutorial for building enterprise-grade realtime voice agents from first principles. While end-to-end speech-to-speech models may ultimately provide the best latency for voice agents, fully self-hosted end-to-end solutions are not yet available. We evaluate the closest candidate, Qwen3-Omni, across three configurations: its cloud-only DashScope Realtime API achieves $\sim$702...
+
+--- [6] 2603.01006v3 ---
+Title: AG-REPA: Causal Layer Selection for Representation Alignment in Audio Flow Matching
+Authors: Pengfei Zhang, Tianxin Xie, Minghao Yang, Li Liu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM
+Published: 2026-03-01
+Summary: REPresentation Alignment (REPA) improves the training of generative flow models by aligning intermediate hidden states with pretrained teacher features, but its effectiveness in token-conditioned audio Flow Matching critically depends on the choice of supervised layers, which is typically made heuristically based on the depth. In this work, we introduce Attribution-Guided REPresentation Alignment ...
+
+--- [7] 2512.20156v4 ---
+Title: Fun-Audio-Chat Technical Report
+Authors:  Tongyi Fun Team, Qian Chen, Luyao Cheng, Chong Deng, Xiangang Li et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2025-12-23
+Summary: Recent advancements in joint speech-text models show great potential for seamless voice interactions. However, existing models face critical challenges: temporal resolution mismatch between speech tokens (25Hz) and text tokens (~3Hz) dilutes semantic information, incurs high computational costs, and causes catastrophic forgetting of text LLM knowledge. We introduce Fun-Audio-Chat, a Large Audio La...
+
+--- [8] 2601.14263v1 ---
+Title: Call2Instruct: Automated Pipeline for Generating Q&A Datasets from Call Center Recordings for LLM Fine-Tuning
+Authors: Alex Echeverria, Sávio Salvarino Teles de Oliveira, Fernando Marques Federson
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL, cs.HC, cs.SD
+Published: 2025-12-01
+Summary: The adaptation of Large-Scale Language Models (LLMs) to specific domains depends on high-quality fine-tuning datasets, particularly in instructional format (e.g., Question-Answer - Q&A). However, generating these datasets, particularly from unstructured sources such as call center audio recordings, poses a significant challenge due to the noisy and disorganized nature of the data. This paper prese...
+
+--- [9] 2510.13558v1 ---
+Title: Steer-MoE: Efficient Audio-Language Alignment with a Mixture-of-Experts Steering Module
+Authors: Ruitao Feng, Bixi Zhang, Sheng Liang, Zheng Yuan
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-10-15
+Summary: Aligning pretrained audio encoders and Large Language Models (LLMs) offers a promising, parameter-efficient path to building powerful multimodal agents. However, existing methods often require costly full-model finetuning or rely on static adapters that may lack expressive power. Drawing inspiration from the Platonic Representation Hypothesis, we introduce SteerMoE, a novel and modular framework f...
+
+--- [10] 2510.06512v1 ---
+Title: LogSTOP: Temporal Scores over Prediction Sequences for Matching and Retrieval
+Authors: Avishree Khare, Hideki Okamoto, Bardh Hoxha, Georgios Fainekos, Rajeev Alur
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2025-10-07
+Summary: Neural models such as YOLO and HuBERT can be used to detect local properties such as objects ("car") and emotions ("angry") in individual frames of videos and audio clips respectively. The likelihood of these detections is indicated by scores in [0, 1]. Lifting these scores to temporal properties over sequences can be useful for several downstream applications such as query matching (e.g., "does t...
+
+--- [11] 2507.20530v2 ---
+Title: Binaural Sound Event Localization and Detection based on HRTF Cues for Humanoid Robots
+Authors: Gyeong-Tae Lee, Hyeonuk Nam, Yong-Hwa Park
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-07-28
+Summary: This paper introduces Binaural Sound Event Localization and Detection (BiSELD), a task that aims to jointly detect and localize multiple sound events using binaural audio, inspired by the spatial hearing mechanism of humans. To support this task, we present a synthetic benchmark dataset, called the Binaural Set, which simulates realistic auditory scenes using measured head-related transfer functio...
+
+--- [12] 2507.19524v1 ---
+Title: Kolmogorov Arnold Network Autoencoder in Medicine
+Authors: Ugo Lomoio, Pierangelo Veltri, Pietro Hiram Guzzi
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2025-07-19
+Summary: Deep learning neural networks architectures such Multi Layer Perceptrons (MLP) and Convolutional blocks still play a crucial role in nowadays research advancements. From a topological point of view, these architecture may be represented as graphs in which we learn the functions related to the nodes while fixed edges convey the information from the input to the output. A recent work introduced a ne...
+
+--- [13] 2505.22441v3 ---
+Title: Can NeRFs See without Cameras?
+Authors: Chaitanya Amballa, Sattwik Basu, Yu-Lin Wei, Zhijian Yang, Mehmet Ergezer et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2025-05-28
+Summary: Neural Radiance Fields (NeRFs) have been remarkably successful at synthesizing novel views of 3D scenes by optimizing a volumetric scene function. This scene function models how optical rays bring color information from a 3D object to the camera pixels. Radio frequency (RF) or audio signals can also be viewed as a vehicle for delivering information about the environment to a sensor. However, unlik...
+
+--- [14] 2505.14668v2 ---
+Title: ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions
+Authors: Bufang Yang, Lilin Xu, Liekang Zeng, Kaiwei Liu, Siyang Jiang et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.HC
+Published: 2025-05-20
+Summary: Recent advances in Large Language Models (LLMs) have propelled intelligent agents from reactive responses to proactive support. While promising, existing proactive agents either rely exclusively on observations from enclosed environments (e.g., desktop UIs) with direct LLM inference or employ rule-based proactive notifications, leading to suboptimal user intent understanding and limited functional...
+
+--- [15] 2502.18479v1 ---
+Title: Disrupt Your Research Using Generative AI Powered ScienceSage
+Authors: Yong Zhang, Eric Herrison Gyamfi, Kelly Anderson, Sasha Roberts, Matt Barker
+Primary cat: cs.IR | All cats: cs.IR
+Published: 2025-02-06
+Summary: Large Language Models (LLM) are disrupting science and research in different subjects and industries. Here we report a minimum-viable-product (MVP) web application called $\textbf{ScienceSage}$. It leverages generative artificial intelligence (GenAI) to help researchers disrupt the speed, magnitude and scope of product innovation. $\textbf{ScienceSage}$ enables researchers to build, store, update ...
+
+--- [16] 2501.16327v1 ---
+Title: LUCY: Linguistic Understanding and Control Yielding Early Stage of Her
+Authors: Heting Gao, Hang Shao, Xiong Wang, Chaofan Qiu, Yunhang Shen et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-01-27
+Summary: The film Her features Samantha, a sophisticated AI audio agent who is capable of understanding both linguistic and paralinguistic information in human speech and delivering real-time responses that are natural, informative and sensitive to emotional subtleties. Moving one step toward more sophisticated audio agent from recent advancement in end-to-end (E2E) speech systems, we propose LUCY, a E2E s...
+
+--- [17] 2501.13017v1 ---
+Title: Retrieval-Augmented Neural Field for HRTF Upsampling and Personalization
+Authors: Yoshiki Masuyama, Gordon Wichern, François G. Germain, Christopher Ick, Jonathan Le Roux
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-01-22
+Summary: Head-related transfer functions (HRTFs) with dense spatial grids are desired for immersive binaural audio generation, but their recording is time-consuming. Although HRTF spatial upsampling has shown remarkable progress with neural fields, spatial upsampling only from a few measured directions, e.g., 3 or 5 measurements, is still challenging. To tackle this problem, we propose a retrieval-augmente...
+
+--- [18] 2412.14852v1 ---
+Title: Harmonic spectrum of pulsar timing array angular correlations
+Authors: Bruce Allen, Joseph D. Romano
+Primary cat: gr-qc | All cats: gr-qc
+Published: 2024-12-19
+Summary: Pulsar timing arrays (PTAs) detect gravitational waves (GWs) via the correlations they create in the arrival times of pulses from different pulsars. The mean correlation, a function of the angle $γ$ between the directions to two pulsars, was predicted in 1983 by Hellings and Downs (HD). Observation of this angular pattern is crucial evidence that GWs are present, so PTAs "reconstruct the HD curve"...
+
+--- [19] 2412.16182v1 ---
+Title: Decoding Poultry Vocalizations -- Natural Language Processing and Transformer Models for Semantic and Emotional Analysis
+Authors: Venkatraman Manikandan, Suresh Neethirajan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.LG, eess.AS
+Published: 2024-12-11
+Summary: Deciphering the acoustic language of chickens offers new opportunities in animal welfare and ecological informatics. Their subtle vocal signals encode health conditions, emotional states, and dynamic interactions within ecosystems. Understanding the semantics of these calls provides a valuable tool for interpreting their functional vocabulary and clarifying how each sound serves a specific purpose...
+
+--- [20] 2411.05154v1 ---
+Title: TelEdge: Haptic Tele-Communication of a Smartphone by Electro-Tactile Stimulation Through the Edges
+Authors: Taiki Takami, Izumi Mizoguchi, Hiroyuki Kajimoto
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2024-11-07
+Summary: We present TelEdge, a novel method of remote haptic communication using electrical stimulation through the edges of the smartphone. The aim of this study is to explore communications that can be created by adding touch sensing and haptic feedback using the electrical edge display to conventional audio-visual functionality. We conducted monitoring observations and interviews during a video call bet...
+
+--- [21] 2410.03146v2 ---
+Title: Bridging the Gap between Text, Audio, Image, and Any Sequence: A Novel Approach using Gloss-based Annotation
+Authors: Sen Fang, Sizhou Chen, Yalin Feng, Xiaofeng Zhang, Teik Toe Teoh
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2024-10-04
+Summary: This paper presents an innovative approach called BGTAI to simplify multimodal understanding by utilizing gloss-based annotation as an intermediate step in aligning Text and Audio with Images. While the dynamic temporal factors in textual and audio inputs contain various predicate adjectives that influence the meaning of the entire sentence, images, on the other hand, present static scenes. By rep...
+
+--- [22] 2410.01150v1 ---
+Title: Restorative Speech Enhancement: A Progressive Approach Using SE and Codec Modules
+Authors: Hsin-Tien Chiang, Hao Zhang, Yong Xu, Meng Yu, Dong Yu
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-10-02
+Summary: In challenging environments with significant noise and reverberation, traditional speech enhancement (SE) methods often lead to over-suppressed speech, creating artifacts during listening and harming downstream tasks performance. To overcome these limitations, we propose a novel approach called Restorative SE (RestSE), which combines a lightweight SE module with a generative codec module to progre...
+
+--- [23] 2408.14731v1 ---
+Title: Physics-Informed Machine Learning For Sound Field Estimation
+Authors: Shoichi Koyama, Juliano G. C. Ribeiro, Tomohiko Nakamura, Natsuki Ueno, Mirco Pezzoli
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-08-27
+Summary: The area of study concerning the estimation of spatial sound, i.e., the distribution of a physical quantity of sound such as acoustic pressure, is called sound field estimation, which is the basis for various applied technologies related to spatial audio processing. The sound field estimation problem is formulated as a function interpolation problem in machine learning in a simplified scenario. Ho...
+
+--- [24] 2407.16714v1 ---
+Title: Masked Graph Learning with Recurrent Alignment for Multimodal Emotion Recognition in Conversation
+Authors: Tao Meng, Fuchen Zhang, Yuntao Shou, Hongen Shao, Wei Ai et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2024-07-23
+Summary: Since Multimodal Emotion Recognition in Conversation (MERC) can be applied to public opinion monitoring, intelligent dialogue robots, and other fields, it has received extensive research attention in recent years. Unlike traditional unimodal emotion recognition, MERC can fuse complementary semantic information between multiple modalities (e.g., text, audio, and vision) to improve emotion recogniti...
+
+--- [25] 2406.05314v1 ---
+Title: Relational Proxy Loss for Audio-Text based Keyword Spotting
+Authors: Youngmoon Jung, Seungjin Lee, Joon-Young Yang, Jaeyoung Roh, Chang Woo Han et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, eess.SP
+Published: 2024-06-08
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Afunction+AND+abs%3Acalling+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: In recent years, there has been an increasing focus on user convenience, leading to increased interest in text-based keyword enrollment systems for keyword spotting (KWS). Since the system utilizes text input during the enrollment phase and audio input during actual usage, we call this task audio-text based KWS. To enable this task, both acoustic and text encoders are typically trained using deep ...
+

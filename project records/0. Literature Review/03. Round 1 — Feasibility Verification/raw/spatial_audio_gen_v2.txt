@@ -1,0 +1,177 @@
+--- [1] 2609.08026v1 ---
+Title: Geometry-Informed Distributed Acoustic Scene Understanding
+Authors: Yiyuan Yang, Shitong Xu, Niki Trigoni, Andrew Markham
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-07
+Summary: Acoustic scene understanding in multi-room environments is a difficult task. Most existing systems use a single centralized microphone array, and they often fail because walls and doors block sound signals. To address this challenge, we propose a geometry-informed distributed acoustic scene understanding framework. Our system leverages distributed microphones and uses an audio spectrogram transfor...
+
+--- [2] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [3] 2609.04134v1 ---
+Title: Prospective Coding Improves Learning in Deep Continuous-Time Recurrent Networks
+Authors: Shivang Rawat, Mirko Morello, Flaviano Morone, David J. Heeger
+Primary cat: cs.LG | All cats: cs.LG, cs.NE, q-bio.NC
+Published: 2026-09-03
+Summary: Temporal integration gives continuous-time recurrent networks memory, but in deep stacks it also delays bottom-up signals and attenuates top-down errors. We develop Recursive Quadrature Filters (RQFs), biologically motivated complex-valued temporal filters that are a special case of diagonal state-space models (SSMs), and ask whether this failure mode can be addressed by making each layer's bottom...
+
+--- [4] 2609.04085v1 ---
+Title: Deep Neural Compression for RIR-Characterized Acoustic Environments with Structure-Aware Constraints
+Authors: Chen-Yuan Ning, Yang Ai, Hui-Peng Du, Xiao-Hang Jiang, Zhen-Hua Ling
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-03
+Summary: Room impulse responses (RIRs) characterize the acoustic environment of a room by capturing how sound propagates and decays within an enclosed space. In applications such as immersive audio rendering, accurate acoustic reconstruction often relies on spatially densely sampled RIRs. This consequently gives rise to a large volume of RIR data, imposing a substantial burden on storage. Although recent n...
+
+--- [5] 2608.29549v1 ---
+Title: PhysWave: Physics-Guided Latent Diffusion Models for Controllable Spatial Audio Generation
+Authors: Lingfeng Yao, Chenpei Huang, Xingke Yang, Ziye Geng, Changqing Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM
+Published: 2026-08-30
+Summary: Text-to-spatial audio generation, such as text-to-First-Order Ambisonics (FOA), provides a convenient way to create spatial audio for billion-dollar gaming and film industries. However, existing text-to-FOA methods are largely data-driven and may produce audio that violates acoustic relations between source direction and distance. They also separate descriptive and parametric control, forcing user...
+
+--- [6] 2608.25734v1 ---
+Title: InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control
+Authors: Ekkasit Pinyoanuntapong, Ajinkya Deogade, Paul Streli, Wenjing Zhang, Joanna Materzynska et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-26
+Summary: Co-speech gesture generation has made significant progress toward realistic full-body motion from speaker audio, yet existing models lack fine-grained spatial controllability of individual joints. To address this, we introduce \emph{InteractGesture}, a model-agnostic, inference-time method for spatially controllable gesture generation. \emph{InteractGesture} guides target latent estimates of a dif...
+
+--- [7] 2608.25404v1 ---
+Title: CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation
+Authors: Zhiyuan Zhu, Han Wang, Wenxiang Guo, Yu Zhang, Changhao Pan et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-26
+Summary: Spatial audio vocoders are able to convert mel-spectrograms produced by generative models into spatial audio waveforms. Most neural vocoders are designed for monaural audio, and direct extensions to spatial audio can degrade spatial quality by ignoring inter-channel cues. We present CSAVocoder, a causal GAN-based spatial audio vocoder that jointly optimizes waveform fidelity and spatial rendering....
+
+--- [8] 2608.24558v3 ---
+Title: Array-Agnostic Ambisonics Encoding via Diffusion Posterior Sampling
+Authors: Amit Milstein, Nir Shlezinger, Boaz Rafaely
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-25
+Summary: Spatial audio enhances user immersion by reproducing 3D sound fields, with Ambisonics being a widely adopted representation. While Ambisonics is theoretically independent of the recording setup, practical microphone arrays introduce hardware-dependent encoding artifacts. Moreover, existing data-driven solutions lack flexibility, as they are typically restricted to fixed array geometries. To overco...
+
+--- [9] 2608.22186v1 ---
+Title: AudioNoisePrints: Model-free audio watermarking using spatial correlation in flow matching TTS
+Authors: Timothy Tin-Long, Jian Zhu, Aidan Pine, Mengzhe Geng
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-08-23
+Summary: We present AudioNoisePrints, a training-free watermarking pipeline for flow matching and diffusion TTS models, which requires minimal extra computation during inference and does not require retraining the TTS model or reducing the generation quality. We exploited the fact that there are strong correlations between the initial Gaussian noises and the generated outputs in diffusion and flow matching...
+
+--- [10] 2608.19843v1 ---
+Title: Fourier is Frontier: Frequency-Aware Autoencoding for High-Fidelity Music Reconstruction
+Authors: Kangdi Wang, Yusheng Dai, Jin Xu
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-08-20
+Summary: Continuous-latent audio autoencoders form the backbone of latent music generators, yet decoders at high compression rates commonly exhibit three failure modes: high-frequency loss, phase incoherence, and stereo-image collapse. These share a structural root: waveform autoencoders lack an explicit frequency axis, leaving no handle for targeted per-band correction. Among five matched-budget represent...
+
+--- [11] 2608.19827v1 ---
+Title: Dancing Through Soundscapes: Designing a Low-Cost, Sound-Based Device for Sensing and Interpreting Movement and Dance
+Authors: Swen E. Gaudl, Silvia Carderelli-Gronau
+Primary cat: cs.HC | All cats: cs.HC, cs.SD
+Published: 2026-08-20
+Summary: When we move through space, we often rely on multiple senses beyond vision to perceive and act in that environment: we ``feel'' the presence of others; we build internal representations and models and recall them to navigate the environment. We also leave traces and impressions that others pick up on. The traces include echoes, heat, the displacement of objects such as furniture or footprints, air...
+
+--- [12] 2608.19055v1 ---
+Title: Generalized Audio-Driven Synthesis of Precise Drummer Motion
+Authors: Álvaro G. Iñesta, Mattia Ryffel, Amit H. Bermano, Robert W. Sumner, Martin Guay
+Primary cat: cs.CV | All cats: cs.CV, cs.GR, cs.SD
+Published: 2026-08-19
+Summary: Music-driven character animation enables and enhances transformative applications in entertainment and interactive education. However, synthesizing realistic drumming motion from audio remains challenging due to the inherent tension between high-acceleration dynamics and the need for extreme spatial-temporal precision. Existing approaches, often reliant on motion matching or MIDI input, struggle w...
+
+--- [13] 2608.18832v1 ---
+Title: EfficientSync: Real-Time Lip Synchronization via Deformation-Based Reference Texture Mixing
+Authors: Fa-Ting Hong, Runzhen Liu, Luchuan Song, Hongmin Cai, Chuhua Xian
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-19
+Summary: Audio-driven lip synchronization manipulates the mouth region of a talking-face video to match the driving audio while preserving head pose, identity, and background. Although the task is inherently local editing, prevailing approaches reconstruct the entire lower face with heavy GAN- or diffusion-based decoders, incurring substantial latency and, more critically, hallucinating intra-oral details ...
+
+--- [14] 2608.16722v2 ---
+Title: Numerical and perceptual validity of synthetic Head-Related Transfer Functions at scale
+Authors: Katarina C. Poole, Lorenzo Picinali
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-17
+Summary: Individually measuring head-related transfer functions (HRTFs) at scale remains a central challenge for personalised spatial audio, motivating growing interest in synthetic HRTFs. We evaluated the numerical, computational, and behavioural validity of synthetic HRTFs, generated through the boundary element method simulation using Mesh2HRTF, against measured and KEMAR HRTFs using the Extended SONICO...
+
+--- [15] 2608.13558v1 ---
+Title: OmniScientist: An Omni-Modal Omni-Discipline AI Scientist
+Authors: Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-08-13
+Summary: Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scie...
+
+--- [16] 2608.06773v1 ---
+Title: AnyTrack: Unifying Visual Object Tracking with Any Modalities
+Authors: Hao Li, Yunzhi Zhuge, Wenning Hao, Pingping Zhang, Xiaoxiong Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-07
+Summary: Visual object tracking aims to continuously locate specific targets within sequential frames, evolving from single-modal methods to multi-modal ones. However, existing multi-modal trackers are typically designed for fixed modality combinations, requiring separate models for different inputs. This leads to a poor adaptability to missing or imperfect modalities, and limited generalization. To addres...
+
+--- [17] 2608.01481v1 ---
+Title: Interpretable MEG Decoding of Perceived Speech: Cortical Sources and the Stimulus Features That Drive Retrieval
+Authors: Ilia Semenkov, Daria Kleeva, Ivan Dakhtin, Zarina Maksudova, Alex Ossadtchi
+Primary cat: cs.LG | All cats: cs.LG, cs.SD, q-bio.NC
+Published: 2026-08-02
+Summary: Short segments of perceived speech can be retrieved from non-invasive magnetoencephalographic (MEG) recordings by deep networks trained with a CLIP-style objective against wav2vec 2.0 audio embeddings. Yet their weights do not map onto electrophysiological quantities, and it remains unclear which speech properties drive retrieval. We build on a high-performing MEG-to-audio retrieval architecture b...
+
+--- [18] 2608.00463v1 ---
+Title: Scene2Sound: Auditory-Grounded Soundscape Generation for 3D Gaussian Worlds
+Authors: Masaki Yoshida, Ren Togo, Takahiro Ogawa, Miki Haseyama
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-08-01
+Summary: 3D Gaussian Splatting (3DGS) turns captured or generated imagery into photorealistic 3D world simulations that users can freely explore, yet these worlds remain silent. Because existing audio generation methods condition on a single image or viewpoint, their sound is tied to that observation and cannot stay consistent while a listener moves. We introduce the task of generating a spatially consiste...
+
+--- [19] 2607.27775v2 ---
+Title: RIPPLE: Generating Multi-Channel Phase, Not Recovering It
+Authors: Jaehyuk Lee, Yeajin Lee, Dayeon Shin, Donghun Lee
+Primary cat: cs.LG | All cats: cs.LG, cs.SD
+Published: 2026-07-30
+Summary: Generative models synthesize magnitude spectra with high fidelity, while phase is delegated to a recovery module---Griffin--Lim, a vocoder, or a latent decoder---applied independently to each channel. For multi-channel waveforms this delegation is costly: the physical content of spatial audio and three-component seismograms lives in the phase relationships between channels, precisely what channel-...
+
+--- [20] 2607.25543v1 ---
+Title: Less is More: Modality-Decoupling for General AIGC Audio-Video Detection
+Authors: Jielun Peng, Yabin Wang, Yaqi Li, Jincheng Liu, Xiaopeng Hong et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-28
+Summary: Generative AI has rapidly expanded audio-visual forgery beyond human-centric deepfakes into general scenes. Existing AIGC detection methods assume audio-visual content correspondence, identifying forgeries by spotting cross-modal inconsistencies. However, we empirically find that this assumption does not consistently hold in general scenarios. We argue that, for general audio-visual AIGC detection...
+
+--- [21] 2607.22721v1 ---
+Title: An Interactive Vision Language Platform for Cognitive Remediation in Schizophrenia
+Authors: Nassira Ait Mehdi, Milissa Temmam, Slimane Larabi
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-21
+Summary: Cognitive remediation tasks often require patients to perform structured actions involving object manipulation and sequential reasoning. For patients diagnosed with schizophrenia, these tasks are crucial for addressing severe cognitive deficits. However, evaluating the correctness of these physical actions generally relies on manual observation by clinicians, which introduces subjectivity and limi...
+
+--- [22] 2607.17773v1 ---
+Title: FillGauss: Fine-Grained Filling-Aware Impact Sound Generation for 3D Gaussian Splatting
+Authors: Chen Yang, Ganye Wen, Bin Huang, Jiayi Lyu, Zehai Niu et al.
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-07-20
+Summary: Synthesizing physically plausible impact sounds from visual observations remains a great challenge in multi-modal AI. Existing 3D-aware audio generation methods primarily model the surface geometry of hollow rigid bodies. However, they fundamentally overlook internal filling states, a critical physical factor that drastically modulates acoustic resonance and damping. To address this issue, we have...
+
+--- [23] 2607.12121v2 ---
+Title: FlashDiff: Efficient Regional Execution and Scheduling for Diffusion Model Serving
+Authors: Yaqi Qiao, Ping He, Songrun Xie, Ayush Barik, Chensong Zhang et al.
+Primary cat: cs.DC | All cats: cs.DC, cs.LG
+Published: 2026-07-13
+Summary: Diffusion models have become the central backbone for modern image, video, and audio generation, but their efficient service remains a challenge. Unlike autoregressive decoding, diffusion inference repeatedly updates high-dimensional spatial or temporal latents over many denoising steps. This all-region execution pattern makes generation latency high and limits serving throughput. Existing multi-G...
+
+--- [24] 2607.08800v1 ---
+Title: Dual-BEATs: Unlocking Zero-Shot Stereo Audio Perception in Audio Large Language Models via Dithering
+Authors: Shuo-Chun Lin, Hen-Hsen Huang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-09
+Summary: Multimodal Large Language Models (LLMs) have remarkable semantic audio understanding, yet they remain "spatially agnostic" due to their reliance on mono-channel audio representations. Currently, spatial audio perception methods mainly focus on complex room simulations and custom-trained, geometry-aware stereo encoders, which limits their accessibility and generalizability. In this paper, we introd...
+
+--- [25] 2607.07015v1 ---
+Title: EscFOA: Enhancing Spatial Learning for Visually Impaired Learners via Generative Spatial Audio in 360-Degree Educational Environments
+Authors: Ziyu Luo, Xiaowei Dai, Siying Zhu, Xiaoming Chen
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-08
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspatial+AND+abs%3Aaudio+AND+abs%3Ageneration&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Immersive 360-degree educational environments often lack accessible spatial structure, limiting visually impaired learners' ability to orient, explore, and construct mental representations. This paper proposes EscFOA, a geometry-aware spatial audio generation framework designed as an \emph{acoustic scaffolding} to support spatial cognition. By integrating 3D Gaussian Splatting (3DGS) with conditio...
+

@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio-visual+speech%22+AND+abs%3A%222026%22&max_results=30&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.14812v1 ---
+Title: Separate First, Then Associate: A Two-Stage Approach for Real-World Audio-Visual Speech Enhancement
+Authors: Tongtao Ling, Zhong-Qiu Wang
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-14
+Summary: Audio-visual speech enhancement (AVSE) aims at extracting target speech from multi-speaker mixtures by exploiting visual cues. Although recent studies have reported strong performance on simulated datasets, the performance, however, often drops dramatically when they are applied to real-world audio-visual recordings. To bridge this gap, the Real-World AVSE Challenge held in the ISCSLP 2026 confere...
+

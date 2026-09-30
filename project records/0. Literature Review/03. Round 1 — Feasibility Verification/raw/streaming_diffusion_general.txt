@@ -1,0 +1,177 @@
+--- [1] 2609.06942v1 ---
+Title: PCSDiff: Diffusion-Based Bias Correction and Super Resolution Toward Practical Operational Medium-Term Precipitation Forecast
+Authors: Yuze Sun, Shiyi Wang, Jiancheng Pan, Die Wang, Andreas F. Prein et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, physics.ao-ph
+Published: 2026-09-07
+Summary: Medium-range precipitation forecasts are impaired by persistent systematic biases, lead-time-dependent error accumulation, and coarse spatial resolution, restricting their reliability for flood-drought risk assessment. Existing AI correction techniques lack dedicated modeling for multi-day dynamic bias evolution and proper meteorological constraints, often generating over-smoothed rainfall structu...
+
+--- [2] 2609.04921v1 ---
+Title: One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation
+Authors: Arka Pal, Rajesh Kumar, Hannes Eriksson, Rémi Lacombe, Arvid Laveno Ling et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.LG, cs.RO
+Published: 2026-09-04
+Summary: Diffusion probabilistic models can capture the multi-modal, interaction-rich distribution of joint future trajectories in driving scenes. We show that a single pretrained diffusion traffic model can serve two complementary roles in the autonomous driving development loop: as an ego motion planner, and as a controllable generator of safety-critical scenarios for stress-testing the planners. On the ...
+
+--- [3] 2609.03813v1 ---
+Title: SPARK: Input-Conditioned Sparse Activation Modulation for Frozen DiT-based Super-Resolution
+Authors: Federico Putamorsi, Leonardo Zini, Marcella Cornia, Lorenzo Baraldi
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Real-world image super-resolution (SR) increasingly relies on Diffusion Transformer (DiT) backbones, whose internal activations can be dominated by a small number of massive channels. Yet improving perceptual quality in these models still typically requires fine-tuning the network or attaching additional adapters, leaving this structured activation space largely unexplored for adaptation. We inves...
+
+--- [4] 2609.03586v1 ---
+Title: The Attention Triangle in Audio-Video Models
+Authors: Sagi Polaczek, Noa Kraicer, Gal Metzer, Zhuo Ning, Ali Mahdavi-Amiri et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same mechanism can introduce subtle and systematic semantic leakage. We study these models by probing and analyzing the ``attention triangle,'' comprising the three cross-attention edges connecting the text, audio, and video streams, and examine how semantic information is routed acro...
+
+--- [5] 2609.02958v1 ---
+Title: PrivateHub: Contrastive Diffusion Model for Private Sensor-Intensive Environment Data Generation
+Authors: Jiechao Gao, Yuandong Pan, Jie Wang, Michael Lepech, Bradford Campbell
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-09-02
+Summary: Sensor-intensive environments enable many intelligent services by inferring user applications from heterogeneous data streams. However, not all applications should be exposed: users want some activities to stay private. This creates a tension between inferring applications for useful services and preventing unwanted inference. Existing approaches such as differential privacy and rule-based filteri...
+
+--- [6] 2609.01084v1 ---
+Title: Hardware Acceleration of Block-Diffusion LLM for Edge Devices
+Authors: Wei-Hsing Huang, Kiseok Lee, Ming-Yen Lee, Weiyu Sun, Cheng-Jhih Shih et al.
+Primary cat: cs.AR | All cats: cs.AR
+Published: 2026-09-01
+Summary: Single-stream (batch-one) edge inference cannot amortize weight traffic across requests. Full-attention diffusion LLMs recompute the entire sequence at every step; native block diffusion makes completed blocks immutable and exactly cacheable, yet refinement still streams prefix KV and FFN weights. We co-design WIFiV-LPDDR, a wide-I/O LPDDR system for precision-tagged reads, BRQ-KV for a canonical ...
+
+--- [7] 2609.00968v1 ---
+Title: ReFlowSET: Representation-Aligned Latent Flow Matching for SAR-to-EO Image Translation
+Authors: Jeonghyeok Do, Seungchul Lee, Munchurl Kim
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-01
+Summary: SAR-to-EO image translation aims to generate electro-optical (EO) imagery from synthetic aperture radar (SAR) observations. Existing latent diffusion approaches typically inherit a predetermined autoencoder, although reconstruction fidelity can vary substantially across codecs and modalities. Because the latent codec affects the round-trip preservation of both SAR conditions and EO targets, codec ...
+
+--- [8] 2608.29927v1 ---
+Title: Everybody Tracking Every Body
+Authors: Daeyun Shin, Yunhan Zhao, Shu Kong, Alexander C. Berg, Charless Fowlkes
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-30
+Summary: We address the problem of 3D body pose estimation of multiple interacting people from their egocentric views with centralized coordination. Each individual wears a camera recording egocentric video and IMU data. Processing this video with VIO SLAM provides high-quality tracking of each egocentric camera through space. The first-person view from one individual provides third-person observations of ...
+
+--- [9] 2608.28342v1 ---
+Title: Scalable dynamic community detection on temporal graphs using graph neural networks
+Authors: Peijie Zhong, Raul Mondragon, Richard G. Clegg
+Primary cat: cs.SI | All cats: cs.SI
+Published: 2026-08-28
+Summary: Dynamic community detection on temporal graphs seeks to identify evolving community structures while allowing node memberships to change over time. In this work, we formulate dynamic community detection over observed node-time instances, where each node-time instance in the temporal interaction stream is assigned a cluster label. We propose a diffusion-guided contrastive learning framework that us...
+
+--- [10] 2608.27922v1 ---
+Title: DensityKV: Density-Guided KV Cache Compression for Long Video Generation
+Authors: Wenqu Zhao, Xuemin Chi, Xin Zhang, Guoqing Ma, Baorun Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-28
+Summary: Autoregressive video diffusion models enable streaming generation through sliding-window attention, but each generated block is conditioned on previously generated content, causing appearance and motion errors to propagate recursively over time. Historical key-value (KV) memory preserves earlier subject and scene states and helps maintain long-horizon consistency. However, retaining every generate...
+
+--- [11] 2608.26737v1 ---
+Title: Generative Semantic Scene Completion
+Authors: Shi Chen, Weifeng Ge
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.RO
+Published: 2026-08-27
+Summary: Outdoor LiDAR semantic scene completion (SSC) recovers a dense semantic voxel grid from a scan observing 1% of the target volume, under class imbalance beyond 7,000x. We recast SSC as generative semantic scene completion (GSSC): a single discrete-diffusion formulation in three roles. First, paired sparse-dense scene synthesis (PS$^3$) generates matched sparse LiDAR observations with their dense se...
+
+--- [12] 2608.26714v2 ---
+Title: LiveVVT: High-Fidelity Video Virtual Try-On in Real Time
+Authors: Yushe Cao, Shikun Feng, Ruxiang Duan, Liyong Wang, Dianxi Shi et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-27
+Summary: Diffusion-based Video Virtual Try-On (VVT) achieves high visual fidelity through bidirectional spatio-temporal modeling, but complete-clip dependence incurs prohibitive latency and computational overhead in practical continuous deployment. Naively enforcing causality disrupts pretrained bidirectional priors and substantially degrades synthesis quality. We introduce LiveVVT, a rolling streaming dif...
+
+--- [13] 2608.28693v1 ---
+Title: RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction
+Authors: Zifan Wang, Ziang Ren, Pengyang Shi, Zirui Wang, Chenghuai Lin et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-08-27
+Summary: Enabling humanoid robots to respond to human speech with synchronized and semantically meaningful gestures is fundamental to natural human-robot interaction. However, this task faces three critical barriers: the scarcity of semantically rich datasets, the "modality eclipse" where models ignore audio cues in favor of kinematic inertia, and the sim-to-real gap regarding physical safety. We propose R...
+
+--- [14] 2608.25734v1 ---
+Title: InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control
+Authors: Ekkasit Pinyoanuntapong, Ajinkya Deogade, Paul Streli, Wenjing Zhang, Joanna Materzynska et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-26
+Summary: Co-speech gesture generation has made significant progress toward realistic full-body motion from speaker audio, yet existing models lack fine-grained spatial controllability of individual joints. To address this, we introduce \emph{InteractGesture}, a model-agnostic, inference-time method for spatially controllable gesture generation. \emph{InteractGesture} guides target latent estimates of a dif...
+
+--- [15] 2608.25479v2 ---
+Title: 4DStreamCtrl: Interactive Video Generation with Online 4D Control
+Authors: Shiqian Li, Chenguo Lin, Zhiguang Liu, Yu Tang, Jiarong Ou et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-26
+Summary: Generative video models now synthesize footage nearly indistinguishable from reality. Their promise as interactive tools hinges on fine-grained control of how objects and the camera move over time, yet each existing approach captures only part of this: camera-parameter methods steer the viewpoint but cannot move objects, 2D-trajectory methods act in the image plane and ignore depth and occlusion, ...
+
+--- [16] 2608.25301v1 ---
+Title: Security-Aware Pinching-Antenna Systems (PASS): Physical-Layer Security Transmission
+Authors: Zhaoming Hu, Xiaochen Nie, Ruikang Zhong, Haochen Li, Dengao Li et al.
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-08-26
+Summary: This paper investigates heterogeneous secure multi-user transmission in pinching-antenna systems (PASS), where dynamically adjustable pinching antennas reshape both guided-wave and free-space propagation to improve communication and confidentiality performance. Unlike conventional physical-layer security designs that represent different security requirements merely through weights or thresholds, h...
+
+--- [17] 2608.21061v1 ---
+Title: A differentiable photon-by-photon likelihood for continuous free-energy landscapes and diffusion coefficients from single-molecule FRET
+Authors: Lars Dingeldein, Roberto Covino
+Primary cat: physics.chem-ph | All cats: physics.chem-ph
+Published: 2026-08-21
+Summary: Single-molecule FRET probes the conformational dynamics of biomolecules by measuring the distance between two dyes. The experiment produces a stream of coloured photons, which is only an indirect readout of these dynamics. Recovering the free-energy landscape and diffusion coefficient from such a photon stream is a difficult inverse problem. Existing approaches assume a small number of discrete st...
+
+--- [18] 2608.20804v2 ---
+Title: Denoising the Future: Context-Aware Spectral Diffusion for Temporal Knowledge Graph Extrapolation
+Authors: Yanglei Gan, Peng He, Run Lin, Peiyuan Jiang, Yifan Wang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-08-21
+Summary: Temporal Knowledge Graph (TKG) extrapolation seeks to infer future facts from time-varying relational histories. Recent diffusion-based approaches improve uncertainty modeling through generative denoising, but their aggregated conditioning on subject histories may insufficiently distinguish query-specific evidence from non-salient historical facts, thereby diluting target-discriminative signals. T...
+
+--- [19] 2608.19556v1 ---
+Title: Stream4D: 4D-Consistency for Streaming Autoregressive Diffusion Video Models
+Authors: Yuanhao Ban, Jiaqi Feng, Hengguang Zhou, Xiaohuan Pei, Justin Cui et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-20
+Summary: Streaming autoregressive diffusion models enable real-time, long-horizon video generation, but their training objectives optimize local frame prediction rather than the geometry and dynamics of a coherent world: long rollouts accumulate geometric drift and degrade into static or unnatural motion. Recent bidirectional approaches address this problem using rewards signals built upon 3D Gaussian-Spla...
+
+--- [20] 2608.19036v1 ---
+Title: USR-Drive: Unified Driving Scene Representation via Joint Denoising of 3D Gaussians and Boxes
+Authors: Li-Heng Chen, Haokai Pang, Chengye Su, Jiarun Liu, Qifeng Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-19
+Summary: Spatial representation learning for autonomous driving aims to map raw visual signals into structured 3D scene representations, where object-centric bounding boxes and rendering-oriented 3D primitives (\eg, 3D Gaussians) serve as two distinct yet highly complementary levels for scene understanding. Existing methods typically treat dynamic reconstruction and instance-level perception as separate ta...
+
+--- [21] 2608.15690v1 ---
+Title: Adding Voice Cloning to Text-to-Audio-Video Models with a Single Zero-Initialised Layer
+Authors: Ivan Mikheev, Viacheslav Vasilev, Anna Dmitrienko, Alexey Letunovskiy, Ivan Kirillov et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM
+Published: 2026-08-16
+Summary: Text-to-audio-video (T2AV) generation models produce a video and its soundtrack from a textual description, but offer no control over whose voice speaks in the output. We show that a base T2AV model can be turned into a voice-cloning model by adding a single zero-initialized linear layer on top of its audio backbone, fine-tuning for a comparatively short training schedule, and conditioning on a sh...
+
+--- [22] 2608.21424v1 ---
+Title: EditStream: A Unified Autoregressive Framework for Interactive Video Generation and Editing
+Authors: Yuqian Zhou, Zhenghong Zhou, Zongze Wu, Cameron Smith, Richard Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.GR, cs.HC, cs.LG, cs.MM
+Published: 2026-08-16
+Summary: Interactive video generation and editing are becoming increasingly important for creative design. In this report, we introduce EditStream: a unified framework for interactive video generation and editing. EditStream unifies multiple video creation and manipulation tasks within a single DiT-based model through flexible task-specific conditioning, and further transforms it into a fast, few-step auto...
+
+--- [23] 2608.15583v1 ---
+Title: PoseAdapter: Dual-Stream 2.5D Controllable Image Generation for Complex Multi-Object Scenes
+Authors: Yufeng Chi, Huimin Ma, Fan Gao, Zhice Niu, Keqin Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-16
+Summary: While Text-to-Image (T2I) diffusion models have achieved remarkable success, precise spatial and orientational control in multi-object scenes remains a persistent challenge. Existing methods either rely on computationally expensive dense 3D maps or suffer from severe attribute leakage and "cut-and-paste" artifacts. To address these limitations, we propose PoseAdapter, a lightweight framework for h...
+
+--- [24] 2608.14530v1 ---
+Title: Marionette: Predicting World States, Rendering Geometry, Painting Appearance
+Authors: Zian Meng, Zhen Li, Chuanhao Li, Qiang Li, Kaipeng Zhang
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-14
+Summary: Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintained by the same generative sequence. Over long horizons, errors in these latent world properties accumulate, making consistency and controllability fragile. We explicitly model the evolving world state...
+
+--- [25] 2608.13929v1 ---
+Title: RGBX-Next: Towards Realistic Generative Rendering from G-Buffers
+Authors: Zheng Zeng, Marco Salvi, Lifan Wu, Jan Novák, Daqi Lin et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.GR
+Published: 2026-08-14
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Astreaming+AND+abs%3Adiffusion&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Diffusion models have achieved impressive results in image, video, and streaming generation. However, compared to traditional 3D rendering, they still lack precise control over the generated output. We believe a viable path forward is to use generative models as learned renderers conditioned on traditionally rendered G-buffers. We introduce RGBX-Next, a unified generative framework for forward and...
+

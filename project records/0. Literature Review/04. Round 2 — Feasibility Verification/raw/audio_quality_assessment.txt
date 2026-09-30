@@ -1,0 +1,142 @@
+--- [1] 2609.07440v1 ---
+Title: Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer
+Authors: Koki Shoda, Jun Younes Louhi Kasahara, Aoba Koyanagi, Qi An, Atsushi Yamashita
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-07
+Summary: This paper proposes an open-set ego-noise separation framework for legged-robot audition via annotation-free adaptation and pretrained-model transfer. The framework removes robot-specific ego-noise while preserving environmental sounds whose classes are not specified in advance. Acoustic sensing provides cues about a robot's surroundings beyond the visual field, but walking-induced ego-noise from ...
+
+--- [2] 2609.06144v1 ---
+Title: TBDub: Production-Oriented Visual Dubbing
+Authors: Bihan Li, Xinyang Li, Zeran Xu, Meiguang Jin, Junfeng Ma
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: Visual dubbing must synchronize mouth motion with replacement speech while preserving identity, appearance, and temporal consistency. Although X-Dub provides a strong mask-free video-editing baseline, its application to livestream and generated-video content reveals limitations in production-domain robustness, temporal and motion stability, identity and oral-detail preservation, and inference effi...
+
+--- [3] 2609.04867v1 ---
+Title: PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation
+Authors: Yuchen Sun, Qian Yang, Jun Wang, Detai Xin, Guoqiao Yu et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI, cs.SD
+Published: 2026-09-04
+Summary: Text-to-audio-video (T2AV) generation has advanced rapidly, but its evaluation still underestimates the audio modality. Existing benchmarks either treat audio as an auxiliary component of video quality or assess it in isolation from audiovisual grounding, making it difficult to diagnose where current systems truly succeed or fail in audio generation. We present PRISM-Bench, the first audio-centric...
+
+--- [4] 2609.03498v1 ---
+Title: CAPQ-FAST: Content-Adaptive Perceived Quality Assessment for Faster Audiovisual Playback
+Authors: Jiarun Song, Yuxin Song, Fuzheng Yang, Weisi Lin
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-09-03
+Summary: Faster playback has become a common feature in modern online audiovisual services, allowing users to consume content in less time while still maintaining a coherent viewing experience. However, different modalities of media content, such as video, audio (including speech and music), and audiovisual, exhibit varying requirements for understandability and information integrity under faster playback....
+
+--- [5] 2609.03283v1 ---
+Title: Is Semantics Enough for Speech Mean Opinion Score Prediction?
+Authors: Tianyu Lan, Yufei Shi, Yang Ai, Honghao Sun, Huipeng Du et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-03
+Summary: Mean Opinion Score (MOS) is the gold standard for evaluating synthesized speech naturalness. However, current automatic MOS predictors are dominated by self-supervised learning (SSL) models that prioritize high-level semantics, potentially compromising their ability to capture critical acoustic details. In this paper, we systematically investigate representations from three paradigms: SSLs, acoust...
+
+--- [6] 2609.03153v1 ---
+Title: VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement
+Authors: Wenzhuo Xu, Yuchen Zhu, Chongjian Ge, Xuan Shen, Jing Shi et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-02
+Summary: Visual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of indicating the obligation a clip violates or the moment it fails. We present VeriPhy, an auditable physical-verification system in which a text-only planner compiles the prompt into typed physical obligations and a statically validated execution plan before any frame is observed....
+
+--- [7] 2609.04256v1 ---
+Title: Probing Warmth-Mediated Harm in Speech-Enabled LLMs for Mental-Health Conversations
+Authors: Eugenia Kim, Bolor-Erdene Jagdagdorj, Dina Pekelis, Leah Zulas, Amanda Minnich
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-01
+Summary: Audio LLM benchmarks measure understanding and dialogue quality, not whether speech-enabled models respond with relational warmth when a vulnerable user discloses a mental-health concern. We introduce a 7-turn scripted-disclosure probe grounded in WHO mental-health clinical guidelines, with each script run on the same model (Azure OpenAI gpt-realtime) in both audio and text-only conditions, and ac...
+
+--- [8] 2609.00640v1 ---
+Title: TUTTI: Toward generalizable audio-to-score transcription via fully synthesized data
+Authors: Jianhuai Hu, Yashan Wang, Shangda Wu, Zhancheng Guo, Shijie Liang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-01
+Summary: Generalizable Audio-to-Score (A2S) transcription is fundamentally constrained by the severe scarcity of high-quality, real-world paired data. Relying solely on existing human-annotated datasets often restricts the generalization of A2S models, limiting their efficacy primarily to single-instrumentation domains. To break this dependency on scarce real-world data, we introduce TUTTI (Transformer for...
+
+--- [9] 2608.24639v1 ---
+Title: Investigating voiced and unvoiced regions of speech for audio deepfake detection
+Authors: Ganesh Sivaraman, Hemlata Tak, Elie Khoury
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-25
+Summary: Deep neural network based deepfake detection systems have achieved high levels of accuracy on benchmark datasets and competitions. However, most models lack interpretability. It is challenging to extract reasoning from the network that can convince the human evaluator to trust the decision. Humans often rely on acoustic cues like unnatural pitch jitter, robotic intonation, acoustic artifacts, and ...
+
+--- [10] 2608.23383v2 ---
+Title: Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds
+Authors: Nan Duan, Haoyang Huang, Weiyang Jin, Haoran Li, Yaowei Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: Video generation is progressing beyond isolated clips toward long-form narratives and interactive worlds, requiring models to preserve identities, follow user controls, and remain stable over extended rollouts. We present JoyAI-Echo-1.5, a unified audio-visual generation system with two purpose-built variants. The long-video variant introduces composable cross-shot memory that aggregates visual ev...
+
+--- [11] 2608.22359v1 ---
+Title: Pre-Decoding Acoustic Triage for Budgeted Vision-Language Captioning of Untrimmed Egocentric Video
+Authors: Masoud Jalayer, Changyi Li, Yu Xiao
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.SD
+Published: 2026-08-23
+Summary: Automatically analyzing hours-long egocentric video is increasingly essential for progress monitoring, quality control, and safety in logistics, construction, and manufacturing. Yet current pipelines that process short, fixed-size windows with a vision-language model (VLM) are prohibitively expensive because cost scales with the number of model calls. To reduce this cost, prior work proposes triag...
+
+--- [12] 2608.20958v1 ---
+Title: TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming
+Authors: Yibo Hu, Yu Qian, Mao Gu, Yingfan Tao, Yuhao Chen et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-08-21
+Summary: E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts are distributed across speech, video frames, product images, overlaid text, and user queries. We present TLive-Omni, an omni-modal understanding model tailored to live-commerce scenarios. It maps image, video, audio, and text inputs into a unified representation space. For long-fo...
+
+--- [13] 2608.19055v1 ---
+Title: Generalized Audio-Driven Synthesis of Precise Drummer Motion
+Authors: Álvaro G. Iñesta, Mattia Ryffel, Amit H. Bermano, Robert W. Sumner, Martin Guay
+Primary cat: cs.CV | All cats: cs.CV, cs.GR, cs.SD
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aquality+AND+(abs%3Aassessment+OR+abs%3Ascoring)&max_results=20&sortBy=submittedDate&sortOrder=descending
+Published: 2026-08-19
+Summary: Music-driven character animation enables and enhances transformative applications in entertainment and interactive education. However, synthesizing realistic drumming motion from audio remains challenging due to the inherent tension between high-acceleration dynamics and the need for extreme spatial-temporal precision. Existing approaches, often reliant on motion matching or MIDI input, struggle w...
+
+--- [14] 2608.18607v3 ---
+Title: VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation
+Authors: Yinming Huang, Shuyuan Tu, Xi Yan, Zihan Yang, Jianhua Han et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-19
+Summary: Using reinforcement learning to post-train joint video-audio generation models requires a reward signal. Existing methods construct this reward by combining metrics for individual quality dimensions, including audio quality, visual fidelity, and synchronization. However, these metrics evaluate perceptual dimensions separately and fail to capture the overall semantic and temporal coherence among th...
+
+--- [15] 2608.18401v1 ---
+Title: Multimodal Rapport Estimation in Real-World HRI
+Authors: Akihiro Sakuramoto, Takato Hayashi, Ryo Miyoshi, Yuki Okafuji, Shogo Okada
+Primary cat: cs.HC | All cats: cs.HC, cs.CL, cs.RO
+Published: 2026-08-19
+Summary: Evaluating interaction quality in real-world HRI is an important challenge. If interaction quality can be estimated reliably, the results can be used to improve dialogue strategies and ultimately enable robots to adapt their behavior autonomously. However, existing automatic evaluation methods have been developed primarily in controlled laboratory settings, and it remains unclear whether they can ...
+
+--- [16] 2608.16566v1 ---
+Title: How Fragile Is Your Watermark? Training-Free Structural Removal of Neural Audio Watermarks
+Authors: Likhith Kumara
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-17
+Summary: Neural audio watermarks are increasingly used to attribute and detect AI-generated speech, so their practical value rests on how cheaply an adversary can remove them. Robustness is usually measured by running a fixed battery of distortions blindly against every scheme. We instead make removal diagnostic: from a few clean/watermarked pairs we compute cheap structural probes that reveal where a wate...
+
+--- [17] 2608.16125v1 ---
+Title: Navigating Speech Enhancement for Real-Time MRI: A Systematic Assessment of Signal Quality, Source Preservation, and Downstream Tasks
+Authors: Huang-Cheng Chou, Sean Foley, Haley Hsu, Kevin Huang, Szu-Jui Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-17
+Summary: Audio recorded during real-time magnetic resonance imaging (rtMRI) is heavily contaminated by scanner noise, but it remains unclear whether general-purpose speech enhancement improves the signal for speech research and downstream processing. Three off-the-shelf systems---Denoiser, PASE, and RE-USE---are evaluated across five rtMRI corpora using naturally recorded inputs, a clean-input probe, and a...
+
+--- [18] 2608.15296v1 ---
+Title: FMReward: Aligning and Evaluating Audio-Driven 3D Facial Animation with Human Preferences
+Authors: Sijing Wu, Yunhao Li, Zhilin Gao, Huiyu Duan, Yucheng Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-15
+Summary: Audio-driven 3D facial animation is essential for advancing immersion and interactivity in virtual experiences. Although recent advances have shown promising capabilities, the training and evaluation of existing methods typically rely on ground-truth-based errors, which fall short of aligning with human preferences. To address this, we present a comprehensive framework that learns an automatic per...
+
+--- [19] 2608.09930v1 ---
+Title: Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions
+Authors: Oluwanifemi Bamgbose, Simon Rosen, Jash Shah, Lindsay Devon Brin, Hoang H Nguyen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-10
+Summary: Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) predictors and Audio Large Language Models (Audio-LLM) judges) are expected to reflect human perception, yet it is unclear how well they capture the distinct aspects of speech that listeners actually perceive. We deconstruct "naturalness" into a linguistically grounded annotation schema spanning 10 distinct perceptual dime...
+
+--- [20] 2608.06960v1 ---
+Title: Statistical Analysis of Executability and Program Equivalence in Decompilation for IoT Vulnerability Detection
+Authors: Minami Yoda, Jialong Li, Yasuyuki Tahara, Yuichi Sei, Yutaka Matsuno
+Primary cat: cs.SE | All cats: cs.SE, cs.CR
+Published: 2026-08-07
+Summary: Internet of Things (IoT) devices handle sensitive privacy-related information such as user audio, video, and authentication data, making it essential to detect vulnerabilities in their firmware. Decompilation, a key detection technique, has recently attracted attention because Large Language Models (LLMs) enable high readability and high recompilation success rates. However, because LLM outputs de...
+

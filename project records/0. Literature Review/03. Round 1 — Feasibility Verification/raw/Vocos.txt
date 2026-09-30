@@ -1,0 +1,107 @@
+--- [1] 2608.27178v1 ---
+Title: Parameter-Efficient pretrained-CT-to-MRI Transfer for Rectal Cancer Segmentation: Performance-Calibration Trade-offs
+Authors: Aneesh Rangnekar, Jorge Tapias Gomez, Joseph O Deasy, Harini Veeraraghavan
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-27
+Summary: Accurate rectal cancer segmentation from magnetic resonance imaging (MRI) is essential for adaptive radiotherapy and tumor response assessment, but deployment also requires computational efficiency and informative, calibrated uncertainty estimates. We therefore introduce SWIFT, a SWin pretrained model wIth parameter-eFficient and Tumor-aware fine-tuning for rectal cancer segmentation. A Swin V2 en...
+
+--- [2] 2607.24323v1 ---
+Title: Revisiting Vocos: That Phasiness Business in Time-Frequency Neural Vocoding
+Authors: Ünal Ege Gaznepoğlu, Frank Zalkow, Mohammad Joshaghani, Emanuël A. P. Habets, Nils Peters et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-27
+Summary: Recently, time-frequency neural vocoders have been approaching the state-of-the-art quality of time-domain neural vocoders. Vocos is a notable example due to its efficiency, but its audio quality lags behind the time-domain vocoders and the reasons remain debated. Thus, in this study, we revisit Vocos from a phase reconstruction perspective. First, we quantify the gap between time-domain and time-...
+
+--- [3] 2606.21372v1 ---
+Title: NAC: Neural Action Codec for Vision-Language-Action Models
+Authors: Ahad Jawaid, Yu Xiang
+Primary cat: cs.RO | All cats: cs.RO, cs.LG
+Published: 2026-06-19
+Summary: Vision-language-action (VLA) models rely on discrete action tokenizers to bridge continuous robot control and autoregressive sequence modeling, yet existing tokenizers often trade off between compression, latency, and downstream performance. We revisit this design through the lens of neural audio codecs-convolutional encoder-decoder architectures with residual vector quantization that serve as the...
+
+--- [4] 2605.25506v1 ---
+Title: WaveNeXt 2: ConvNeXt-Based Fast Neural Vocoders With Residual Denoising and Sub-Modeling for GAN and Diffusion Models
+Authors: Wangzixi Zhou, Takuma Okamoto, Yamato Ohtani, Sakriani Sakti, Hisashi Kawai
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-25
+Summary: Most neural vocoders are limited to one type: either GAN or diffusion-based. While state-of-the-art models like Vocos and WaveNeXt use powerful ConvNeXt-based generators, they have only been used in GAN frameworks and have limited performance in multi-speaker settings. Moreover, diffusion models, despite training faster than GANs, have slow CPU inference. In this paper, we introduce WaveNeXt 2, a ...
+
+--- [5] 2605.05522v3 ---
+Title: Tumor-aware augmentation with task-guided attention analysis improves rectal cancer segmentation from magnetic resonance images
+Authors: Aneesh Rangnekar, Joao Miranda, Natally Horvat, Stephanie Chahwan, Samir Alrayess et al.
+Primary cat: eess.IV | All cats: eess.IV, cs.CV
+Published: 2026-05-06
+Summary: Although self-supervised pretraining is expected to learn broadly transferable representations, its effectiveness across imaging modalities substantially different from the pretraining domain, and on complex tumor-segmentation tasks, remains understudied. Evaluating CT-pretrained transformers on MRI rectal cancer segmentation, we identified two interacting failure modes in CT-to-MRI transfer: (a) ...
+
+--- [6] 2604.01612v1 ---
+Title: NEMESIS: Noise-suppressed Efficient MAE with Enhanced Superpatch Integration Strategy
+Authors: Kyeonghun Kim, Hyeonseok Jung, Youngung Han, Hyunsu Go, Eunseob Choi et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-04-02
+Summary: Volumetric CT imaging is essential for clinical diagnosis, yet annotating 3D volumes is expensive and time-consuming, motivating self-supervised learning (SSL) from unlabeled data. However, applying SSL to 3D CT remains challenging due to the high memory cost of full-volume transformers and the anisotropic spatial structure of CT data, which is not well captured by conventional masking strategies....
+
+--- [7] 2603.07285v1 ---
+Title: Fast and Flexible Audio Bandwidth Extension via Vocos
+Authors: Yatharth Sharma
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2026-03-07
+Summary: We propose a Vocos-based bandwidth extension model that enhances audio at 8-48 kHz by generating missing high-frequency content. Inputs are resampled to 48 kHz and processed by a neural vocoder backbone, enabling a single network to support arbitrary upsampling ratios. A lightweight Linkwitz-Riley-inspired refiner merges the original low band with the generated high frequencies via a smooth crosso...
+
+--- [8] 2601.14593v1 ---
+Title: From Volumes to Slices: Computationally Efficient Contrastive Learning for Sequential Abdominal CT Analysis
+Authors: Po-Kai Chiu, Hung-Hsuan Chen
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-01-21
+Summary: The requirement for expert annotations limits the effectiveness of deep learning for medical image analysis. Although 3D self-supervised methods like volume contrast learning (VoCo) are powerful and partially address the labeling scarcity issue, their high computational cost and memory consumption are barriers. We propose 2D-VoCo, an efficient adaptation of the VoCo framework for slice-level self-...
+
+--- [9] 2601.13055v1 ---
+Title: VoCodec: An Efficient Lightweight Low-Bitrate Speech Codec
+Authors: Leyan Yang, Ronghui Hu, Yang Xu, Jing Lu
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-01-19
+Summary: Recent advancements in end-to-end neural speech codecs enable compressing audio at extremely low bitrates while maintaining high-fidelity reconstruction. Meanwhile, low computational complexity and low latency are crucial for real-time communication. In this paper, we propose VoCodec, a speech codec model featuring a computational complexity of only 349.29M multiply-accumulate operations per secon...
+
+--- [10] 2512.18496v1 ---
+Title: Adaptive-VoCo: Complexity-Aware Visual Token Compression for Vision-Language Models
+Authors: Xiaoyang Guo, Keze Wang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-12-20
+Summary: In recent years, large-scale vision-language models (VLMs) have demonstrated remarkable performance on multimodal understanding and reasoning tasks. However, handling high-dimensional visual features often incurs substantial computational and memory costs. VoCo-LLaMA alleviates this issue by compressing visual patch tokens into a few VoCo tokens, reducing computational overhead while preserving st...
+
+--- [11] 2512.08240v2 ---
+Title: Hybrid Token Compression for Vision-Language Models
+Authors: Jusheng Zhang, Xiaoyang Guo, Tongyu Mo, Qinhan Lv, Wenhao Chai et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2025-12-09
+Summary: Vision-language models (VLMs) rely on hundreds of visual tokens, leading to high computational and memory costs. Existing compression methods face a trade-off: continuous compression can weaken high-level semantics, while discrete quantization may lose fine-grained appearance details. We introduce HTC-VLM, a hybrid visual token compression framework that disentangles semantics and appearance throu...
+
+--- [12] 2509.18806v1 ---
+Title: Rethinking the joint estimation of magnitude and phase for time-frequency domain neural vocoders
+Authors: Lingling Dai, Andong Li, Tong Lei, Meng Yu, Xiaodong Li et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-23
+Summary: Time-frequency (T-F) domain-based neural vocoders have shown promising results in synthesizing high-fidelity audio. Nevertheless, it remains unclear on the mechanism of effectively predicting magnitude and phase targets jointly. In this paper, we start from two representative T-F domain vocoders, namely Vocos and APNet2, which belong to the single-stream and dual-stream modes for magnitude and pha...
+
+--- [13] 2509.13049v1 ---
+Title: Spiking Vocos: An Energy-Efficient Neural Vocoder
+Authors: Yukun Chen, Zhaoxi Mu, Andong Li, Peilin Li, Xinyu Yang
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2025-09-16
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AVocos&max_results=15&sortBy=submittedDate&sortOrder=descending
+Summary: Despite the remarkable progress in the synthesis speed and fidelity of neural vocoders, their high energy consumption remains a critical barrier to practical deployment on computationally restricted edge devices. Spiking Neural Networks (SNNs), widely recognized for their high energy efficiency due to their event-driven nature, offer a promising solution for low-resource scenarios. In this paper, ...
+
+--- [14] 2508.01796v1 ---
+Title: Enhancing Spectrogram Realism in Singing Voice Synthesis via Explicit Bandwidth Extension Prior to Vocoder
+Authors: Runxuan Yang, Kai Li, Guo Chen, Xiaolin Hu
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-08-03
+Summary: This paper addresses the challenge of enhancing the realism of vocoder-generated singing voice audio by mitigating the distinguishable disparities between synthetic and real-life recordings, particularly in high-frequency spectrogram components. Our proposed approach combines two innovations: an explicit linear spectrogram estimation step using denoising diffusion process with DiT-based neural net...
+
+--- [15] 2507.08254v1 ---
+Title: Raptor: Scalable Train-Free Embeddings for 3D Medical Volumes Leveraging Pretrained 2D Foundation Models
+Authors: Ulzee An, Moonseong Jeong, Simon A. Lee, Aditya Gorla, Yuzhe Yang et al.
+Primary cat: eess.IV | All cats: eess.IV, cs.CV, cs.LG
+Published: 2025-07-11
+Summary: Current challenges in developing foundational models for volumetric imaging data, such as magnetic resonance imaging (MRI), stem from the computational complexity of training state-of-the-art architectures in high dimensions and curating sufficiently large datasets of volumes. To address these challenges, we introduce Raptor (Random Planar Tensor Reduction), a train-free method for generating sema...
+

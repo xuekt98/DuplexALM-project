@@ -1,0 +1,2 @@
+# Total entries: 0
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio%22+AND+abs%3A%22video%22+AND+abs%3A%222026%22+AND+abs%3A%22captioning%22&max_results=30&sortBy=submittedDate&sortOrder=descending

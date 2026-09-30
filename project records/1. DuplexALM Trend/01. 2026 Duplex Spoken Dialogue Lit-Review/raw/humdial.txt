@@ -1,0 +1,44 @@
+# Total entries: 6
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Ahumdial&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.29217v1 ---
+Title: AdaptDuplex: from static to adaptive full-duplex spoken dialogue
+Authors: Zhiyang Zhou, Yingxin Shang, Zhou Wang, Hongwei Cai, Weixu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-24
+Summary: Full-duplex spoken dialogue requires simultaneous listening and speaking at sub-second latency, under conversational timing and cognitive demands that change moment to moment. Yet current models mostly impose static operating points, lacking a systematic mechanism for adaptive decisions. We present AdaptDuplex, which upgrades Qwen3-Omni with such a mechanism, co-designed across three layers. A com...
+
+--- [2] 2604.21406v2 ---
+Title: Full-Duplex Interaction in Spoken Dialogue Systems: A Comprehensive Study from the ICASSP 2026 HumDial Challenge
+Authors: Chengyou Wang, Hongfei Xue, Guojian Li, Zhixian Zhao, Shuiyuan Wang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-23
+Summary: Full-duplex interaction, where speakers and listeners converse simultaneously, is a key element of human communication often missing from traditional spoken dialogue systems. These systems, based on rigid turn-taking paradigms, struggle to respond naturally in dynamic conversations. The Full-Duplex Interaction Track of ICASSP 2026 Human-like Spoken Dialogue Systems Challenge (HumDial Challenge) ai...
+
+--- [3] 2604.11594v2 ---
+Title: HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence Benchmark for Audio Language Models
+Authors: Shuiyuan Wang, Zhixian Zhao, Hongfei Xue, Chengyou Wang, Shuai Wang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-04-13
+Summary: Evaluating the emotional intelligence (EI) of audio language models (ALMs) is critical. However, existing benchmarks mostly rely on synthesized speech, are limited to single-turn interactions, and depend heavily on open-ended scoring. This paper proposes HumDial-EIBench, a comprehensive benchmark for evaluating ALMs' EI. Using real-recorded human dialogues from the ICASSP 2026 HumDial Challenge, i...
+
+--- [4] 2601.20230v2 ---
+Title: Unit-Based Agent for Semi-Cascaded Full-Duplex Dialogue Systems
+Authors: Haoyuan Yu, Yuxuan Chen, Minjie Cai
+Primary cat: cs.CL | All cats: cs.CL, cs.HC
+Published: 2026-01-28
+Summary: Full-duplex voice interaction is crucial for natural human computer interaction. We present a framework that decomposes complex dialogue into minimal conversational units, enabling the system to process each unit independently and predict when to transit to the next. This framework is instantiated as a semi-cascaded full-duplex dialogue system built around a multimodal large language model, suppor...
+
+--- [5] 2601.05564v2 ---
+Title: The ICASSP 2026 HumDial Challenge: Benchmarking Human-like Spoken Dialogue Systems in the LLM Era
+Authors: Zhixian Zhao, Shuiyuan Wang, Guojian Li, Hongfei Xue, Chengyou Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.HC, eess.AS
+Published: 2026-01-09
+Summary: Driven by the rapid advancement of Large Language Models (LLMs), particularly Audio-LLMs and Omni-models, spoken dialogue systems have evolved significantly, progressively narrowing the gap between human-machine and human-human interactions. Achieving truly ``human-like'' communication necessitates a dual capability: emotional intelligence to perceive and resonate with users' emotional states, and...
+
+--- [6] 2601.04960v1 ---
+Title: A Unified Spoken Language Model with Injected Emotional-Attribution Thinking for Human-like Interaction
+Authors: Qing Wang, Zehan Li, Yaodong Song, Hongjie Chen, Jian Kang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-01-08
+Summary: This paper presents a unified spoken language model for emotional intelligence, enhanced by a novel data construction strategy termed Injected Emotional-Attribution Thinking (IEAT). IEAT incorporates user emotional states and their underlying causes into the model's internal reasoning process, enabling emotion-aware reasoning to be internalized rather than treated as explicit supervision. The mode...
+

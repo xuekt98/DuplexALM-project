@@ -1,0 +1,177 @@
+--- [1] 2608.07923v1 ---
+Title: SCoPE: Training-Free Audio-Visual Event Perception via Sparse Cross-Modal Prior Exchange
+Authors: Jaemo Jeong, Junho Yoon, Hyunju Kim, Dongman Lee
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-08-08
+Summary: Audio-visual event perception (AVEP) determines which events occur in a video, when they occur, and whether they are audible, visible, or both. Training-free methods query new event vocabularies by matching frozen audio and visual features with text-encoded event names. However, related labels share evidence. An incorrect label can then score at least as high as a correct one. We call this a false...
+
+--- [2] 2608.01481v1 ---
+Title: Interpretable MEG Decoding of Perceived Speech: Cortical Sources and the Stimulus Features That Drive Retrieval
+Authors: Ilia Semenkov, Daria Kleeva, Ivan Dakhtin, Zarina Maksudova, Alex Ossadtchi
+Primary cat: cs.LG | All cats: cs.LG, cs.SD, q-bio.NC
+Published: 2026-08-02
+Summary: Short segments of perceived speech can be retrieved from non-invasive magnetoencephalographic (MEG) recordings by deep networks trained with a CLIP-style objective against wav2vec 2.0 audio embeddings. Yet their weights do not map onto electrophysiological quantities, and it remains unclear which speech properties drive retrieval. We build on a high-performing MEG-to-audio retrieval architecture b...
+
+--- [3] 2607.28625v1 ---
+Title: ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine
+Authors: Yukang Cao, Haozhe Xie, Beichen Wen, Runmao Yao, Yinghao Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-30
+Summary: Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modalities, or spatial scales, leaving the full perception-action loop only partially observed. We introdu...
+
+--- [4] 2607.11801v1 ---
+Title: Encoder-Side Neuron Identification and Amplification for Acoustic Perception in Large Audio-Language Models
+Authors: Yu-Han Huang, Chih-Kai Yang, Ke-Han Lu, An-Yu Cheng, Hung-yi Lee
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-13
+Summary: Large audio-language models (LALMs) often underperform on fine-grained, non-semantic attributes of speech, such as a speaker's emotion, despite strong performance on speech content. Improving this without the cost of retraining calls for an effective inference-time intervention, yet most existing methods intervene only after the audio encoder and operate at a relatively coarse granularity. The enc...
+
+--- [5] 2607.06691v1 ---
+Title: CoMind: Understanding Collaborative Human Activity from Multiple Minds and Views
+Authors: Alexey Gavryushin, Dingxi Zhang, Zhao Huang, Alexandros Delitzas, Jiaqi Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-07
+Summary: Human-human collaboration is a fundamental aspect of everyday life, essential to success in a wide range of goal-directed activities from household tasks to professional teamwork. While much research has focused on modeling coordination and task execution, the cognitive processes that support such collaboration, particularly Theory of Mind (the ability to infer the mental states of others), remain...
+
+--- [6] 2606.29472v1 ---
+Title: Agent-Computer Observation Interfaces Enable Dynamic Computer Use
+Authors: Bojie Li, Noah Shi
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-28
+Summary: SWE-agent established the action interface as an underexplored design axis for software-engineering agents; we make the analogous case for the observation interface in computer-use (CU) agents. Current CU agents, closed and open-source alike, tie observation to action--one screenshot every 3-5 s, no audio--leaving them blind and deaf between screenshots to video, animations, transient UI events, m...
+
+--- [7] 2606.19341v2 ---
+Title: Native Active Perception as Reasoning for Omni-Modal Understanding
+Authors: Zhenghao Xing, Ruiyang Xu, Yuxuan Wang, Jinzheng He, Ziyang Ma et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.CL, cs.SD
+Published: 2026-06-17
+Summary: Passive models for long video understanding typically rely on a "watch-it-all" paradigm, processing frames uniformly regardless of query difficulty, causing computational cost to grow with video duration. Although interactive frameworks have emerged, they often rely on global pre-scanning, and their context cost still scales with video length. We propose OmniAgent, the first native omni-modal agen...
+
+--- [8] 2606.02246v1 ---
+Title: Ego-METAS: Egocentric online Multimodal Energy-efficient Temporal Action Segmentation benchmark
+Authors: Maria Santos-Villafranca, Jesus Bermudez-cameo, Alejandro Perez-Yus, Giovanni Maria Farinella, Antonino Furnari
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-29
+Summary: To operate in the physical world, embodied agents must perceive their environment in an "always-on" fashion, selectively accessing the most informative sensors to balance energy constraints and task accuracy. Despite its importance for resource-constrained devices, energy-aware perception remains under-explored, with most prior work assuming unlimited compute. To address this, we introduce Ego-MET...
+
+--- [9] 2605.28192v1 ---
+Title: Agentic Active Omni-Modal Perception for Multi-Hop Audio-Visual Reasoning
+Authors: Ke Xu, Yuhao Wang, Ziyang Cheng, Hongcheng Liu, Yanfeng Wang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-05-27
+Summary: Multi-hop audio-visual reasoning remains challenging for Omni-LLMs, as relevant evidence is often sparse, temporally dispersed, and distributed across both audio and visual streams. Existing benchmarks provide limited investigation of this setting, typically involving only a limited number of modalities, relevant temporal segments, or reasoning steps. In this work, we introduce MOV-Bench, a benchm...
+
+--- [10] 2604.13593v1 ---
+Title: AVID: A Benchmark for Omni-Modal Audio-Visual Inconsistency Understanding via Agent-Driven Construction
+Authors: Zixuan Chen, Depeng Wang, Hao Lin, Li Luo, Ke Xu et al.
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-04-15
+Summary: We present AVID, the first large-scale benchmark for audio-visual inconsistency understanding in videos. While omni-modal large language models excel at temporally aligned tasks such as captioning and question answering, they struggle to perceive cross-modal conflicts, a fundamental human capability that is critical for trustworthy AI. Existing benchmarks predominantly focus on aligned events or d...
+
+--- [11] 2604.05782v3 ---
+Title: When Models Meet Users: An Empirical Study of Perceptions of General LLMs and Multimodal LLMs on Hugging Face
+Authors: Yujian Liu, Xiao Yu, Jacky Keung, Xing Hu, Xin Xia et al.
+Primary cat: cs.SE | All cats: cs.SE
+Published: 2026-04-07
+Summary: Large language models (LLMs) have rapidly evolved from general-purpose systems to multimodal models capable of processing text, images, and audio. As both general-purpose LLMs (GLLMs) and multimodal LLMs (MLLMs) gain widespread adoption, understanding user perceptions in real-world settings becomes increasingly important. However, existing studies often rely on surveys or platform-specific data (e...
+
+--- [12] 2603.15467v1 ---
+Title: Evaluating Time Awareness and Cross-modal Active Perception of Large Models via 4D Escape Room Task
+Authors: Yurui Dong, Ziyue Wang, Shuyun Lu, Dairu Liu, Xuechen Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-16
+Summary: Multimodal Large Language Models (MLLMs) have recently made rapid progress toward unified Omni models that integrate vision, language, and audio. However, existing environments largely focus on 2D or 3D visual context and vision-language tasks, offering limited support for temporally dependent auditory signals and selective cross-modal integration, where different modalities may provide complement...
+
+--- [13] 2602.22897v3 ---
+Title: OmniGAIA: Towards Native Omni-Modal AI Agents
+Authors: Xiaoxi Li, Wenxiang Jiao, Jiarui Jin, Haoxuan Li, Hao Wang et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV, cs.LG, cs.MM
+Published: 2026-02-26
+Summary: Human intelligence naturally intertwines omni-modal perception -- spanning vision, audio, and language -- with complex reasoning and tool usage to interact with the world. However, current multi-modal LLMs are primarily confined to bi-modal interactions (e.g., vision-language), lacking the unified cognitive capabilities required for general AI assistants. To bridge this gap, we introduce OmniGAIA,...
+
+--- [14] 2602.22253v1 ---
+Title: AR&D: A Framework for Retrieving and Describing Concepts for Interpreting AudioLLMs
+Authors: Townim Faisal Chowdhury, Ta Duc Huy, Siqi Pan, Jeremy Stoddard, Zhibin Liao
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-02-24
+Summary: Despite strong performance in audio perception tasks, large audio-language models (AudioLLMs) remain opaque to interpretation. A major factor behind this lack of interpretability is that individual neurons in these models frequently activate in response to several unrelated concepts. We introduce the first mechanistic interpretability framework for AudioLLMs, leveraging sparse autoencoders (SAEs) ...
+
+--- [15] 2602.12918v1 ---
+Title: Adding internal audio sensing to internal vision enables human-like in-hand fabric recognition with soft robotic fingertips
+Authors: Iris Andrussow, Jans Solano, Benjamin A. Richardson, Georg Martius, Katherine J. Kuchenbecker
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-02-13
+Summary: Distinguishing the feel of smooth silk from coarse cotton is a trivial everyday task for humans. When exploring such fabrics, fingertip skin senses both spatio-temporal force patterns and texture-induced vibrations that are integrated to form a haptic representation of the explored material. It is challenging to reproduce this rich, dynamic perceptual capability in robots because tactile sensors t...
+
+--- [16] 2602.11909v2 ---
+Title: Echo: Towards Advanced Audio Comprehension via Audio-Interleaved Reasoning
+Authors: Daiqing Wu, Xuan Zhang, Dongbao Yang, Jiashu Yao, Longfei Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-02-12
+Summary: The maturation of Large Audio Language Models (LALMs) has raised growing expectations for them to comprehend complex audio much like humans. Current efforts primarily replicate text-based reasoning by contextualizing audio content through a one-time encoding, which introduces a critical information bottleneck. Drawing inspiration from human cognition, we propose audio-interleaved reasoning to brea...
+
+--- [17] 2602.05027v2 ---
+Title: AudioSAE: Towards Understanding of Audio-Processing Models with Sparse AutoEncoders
+Authors: Georgii Aparin, Tasnima Sadekova, Alexey Rukhovich, Assel Yermekova, Laida Kushnareva et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-02-04
+Summary: Sparse Autoencoders (SAEs) are powerful tools for interpreting neural representations, yet their use in audio remains underexplored. We train SAEs across all encoder layers of Whisper and HuBERT, provide an extensive evaluation of their stability, interpretability, and show their practical utility. Over 50% of the features remain consistent across random seeds, and reconstruction quality is preser...
+
+--- [18] 2601.20555v1 ---
+Title: Vibro-Sense: Robust Vibration-based Impulse Response Localization and Trajectory Tracking for Robotic Hands
+Authors: Wadhah Zai El Amri, Nicolás Navarro-Guerrero
+Primary cat: cs.RO | All cats: cs.RO, eess.SP
+Published: 2026-01-28
+Summary: Rich contact perception is crucial for robotic manipulation, yet traditional tactile skins remain expensive and complex to integrate. This paper presents a scalable alternative: high-accuracy whole-body touch localization via vibro-acoustic sensing. By equipping a robotic hand with seven low-cost piezoelectric microphones and leveraging an Audio Spectrogram Transformer, we decode the vibrational s...
+
+--- [19] 2601.07331v1 ---
+Title: SEE: Signal Embedding Energy for Quantifying Noise Interference in Large Audio Language Models
+Authors: Yuanhe Zhang, Jiayu Tian, Yibo Zhang, Shilinlu Yan, Liang Lin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-01-12
+Summary: Large Audio Language Models (LALMs) have been widely applied in real-time scenarios, such as in-car assistants and online meeting comprehension. In practice, audio inputs are often corrupted by device and environmental noise, leading to performance degradation. However, existing LALM studies on noise lack quantitative analysis and rely mainly on intuition and empirical observation, thus failing to...
+
+--- [20] 2601.06621v1 ---
+Title: Stereo Audio Rendering for Personal Sound Zones Using a Binaural Spatially Adaptive Neural Network (BSANN)
+Authors: Hao Jiang, Edgar Choueiri
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-01-10
+Summary: A binaural rendering framework for personal sound zones (PSZs) is proposed to enable multiple head-tracked listeners to receive fully independent stereo audio programs. Current PSZ systems typically rely on monophonic rendering and therefore cannot control the left and right ears separately, which limits the quality and accuracy of spatial imaging. The proposed method employs a Binaural Spatially ...
+
+--- [21] 2512.23646v2 ---
+Title: Active Perception Agent for Omnimodal Audio-Video Understanding
+Authors: Keda Tao, Wenjie Du, Bohan Yu, Weiqiang Wang, Jian Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-12-29
+Summary: Omnimodal large language models have made significant strides in unifying audio and visual modalities; however, they often face challenges in fine-grained cross-modal understanding and have difficulty with multimodal alignment. To address these limitations, we introduce OmniAgent, to our best knowledge, the first fully active perception agent that dynamically orchestrates specialized unimodal tool...
+
+--- [22] 2511.07619v2 ---
+Title: CAVER: Curious Audiovisual Exploring Robot
+Authors: Luca Macesanu, Boueny Folefack, Samik Singh, Ruchira Ray, Ben Abbatematteo et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-11-10
+Summary: Multimodal audiovisual perception can enable new avenues for robotic manipulation, from better material classification to the imitation of demonstrations for which only audio signals are available (e.g., playing a tune by ear). However, to unlock such multimodal potential, robots need to learn the correlations between an object's visual appearance and the sound it generates when they interact with...
+
+--- [23] 2511.00279v2 ---
+Title: LongCat-Flash-Omni Technical Report
+Authors:  Meituan LongCat Team, Bairui Wang,  Bayan, Bin Xiao, Bo Zhang et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI, cs.CL, cs.DC, cs.LG
+Published: 2025-10-31
+Summary: We introduce LongCat-Flash-Omni, a state-of-the-art open-source omni-modal model with 560 billion parameters, excelling at real-time audio-visual interaction. By adopting a curriculum-inspired progressive training strategy that transitions from simpler to increasingly complex modality sequence modeling tasks, LongCat-Flash-Omni attains comprehensive multimodal capabilities while maintaining strong...
+
+--- [24] 2509.16971v2 ---
+Title: AudioGenie-Reasoner: A Training-Free Multi-Agent Framework for Coarse-to-Fine Audio Deep Reasoning
+Authors: Yan Rong, Chenxing Li, Dong Yu, Li Liu
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-09-21
+Summary: Audio deep reasoning is a challenging task that requires expert-level perception, multi-step logical inference, and the integration of contextual knowledge. However, existing models suffer from a gap between audio perception and reasoning abilities due to the lack of training data with explicit reasoning chains and the absence of mechanisms for active exploration and iterative refinement. To addre...
+
+--- [25] 2509.09747v1 ---
+Title: D-CAT: Decoupled Cross-Attention Transfer between Sensor Modalities for Unimodal Inference
+Authors: Leen Daher, Zhaobo Wang, Malcolm Mielle
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.RO
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aactive+AND+abs%3Aaudio+AND+abs%3Aperception&max_results=25&sortBy=submittedDate&sortOrder=descending
+Published: 2025-09-11
+Summary: Cross-modal transfer learning is used to improve multi-modal classification models (e.g., for human activity recognition in human-robot collaboration). However, existing methods require paired sensor data at both training and inference, limiting deployment in resource-constrained environments where full sensor suites are not economically and technically usable. To address this, we propose Decouple...
+

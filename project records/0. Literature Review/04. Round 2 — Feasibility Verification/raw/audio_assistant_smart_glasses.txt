@@ -1,0 +1,58 @@
+# Total entries: 8
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aassistant+AND+abs%3Asmart+AND+abs%3Aglasses&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.12034v1 ---
+Title: The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models
+Authors: Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao, Yuhang Dai et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-12
+Summary: Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity ...
+
+--- [2] 2601.18157v3 ---
+Title: Agentic Very Long Video Understanding
+Authors: Aniket Rege, Arka Sadhu, Yuliang Li, Kejie Li, Ramya Korlakai Vinayak et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-01-26
+Summary: The advent of always-on personal AI assistants, enabled by all-day wearable devices such as smart glasses, demands a new level of contextual understanding, one that goes beyond short, isolated events to encompass the continuous, longitudinal stream of egocentric video. Achieving this vision requires advances in long-horizon video understanding, where systems must interpret and recall visual and au...
+
+--- [3] 2510.22443v1 ---
+Title: Benchmarking Egocentric Multimodal Goal Inference for Assistive Wearable Agents
+Authors: Vijay Veerabadran, Fanyi Xiao, Nitin Kamra, Pedro Matias, Joy Chen et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2025-10-25
+Summary: There has been a surge of interest in assistive wearable agents: agents embodied in wearable form factors (e.g., smart glasses) who take assistive actions toward a user's goal/query (e.g. "Where did I leave my keys?"). In this work, we consider the important complementary problem of inferring that goal from multi-modal contextual observations. Solving this "goal inference" problem holds the promis...
+
+--- [4] 2508.01915v1 ---
+Title: EgoTrigger: Toward Audio-Driven Image Capture for Human Memory Enhancement in All-Day Energy-Efficient Smart Glasses
+Authors: Akshay Paruchuri, Sinan Hersek, Lavisha Aggarwal, Qiao Yang, Xin Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.ET, cs.HC, cs.LG, cs.SD
+Published: 2025-08-03
+Summary: All-day smart glasses are likely to emerge as platforms capable of continuous contextual sensing, uniquely positioning them for unprecedented assistance in our daily lives. Integrating the multi-modal AI agents required for human memory enhancement while performing continuous sensing, however, presents a major energy efficiency challenge for all-day usage. Achieving this balance requires intellige...
+
+--- [5] 2410.05986v1 ---
+Title: The USTC-NERCSLIP Systems for the CHiME-8 MMCSG Challenge
+Authors: Ya Jiang, Hongbo Lan, Jun Du, Qing Wang, Shutong Niu
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-10-08
+Summary: In the two-person conversation scenario with one wearing smart glasses, transcribing and displaying the speaker's content in real-time is an intriguing application, providing a priori information for subsequent tasks such as translation and comprehension. Meanwhile, multi-modal data captured from the smart glasses is scarce. Therefore, we propose utilizing simulation data with multiple overlap rat...
+
+--- [6] 2403.06734v1 ---
+Title: Real-Time Multimodal Cognitive Assistant for Emergency Medical Services
+Authors: Keshara Weerasinghe, Saahith Janapati, Xueren Ge, Sion Kim, Sneha Iyer et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2024-03-11
+Summary: Emergency Medical Services (EMS) responders often operate under time-sensitive conditions, facing cognitive overload and inherent risks, requiring essential skills in critical thinking and rapid decision-making. This paper presents CognitiveEMS, an end-to-end wearable cognitive assistant system that can act as a collaborative virtual partner engaging in the real-time acquisition and analysis of mu...
+
+--- [7] 2309.10993v2 ---
+Title: Directional Source Separation for Robust Speech Recognition on Smart Glasses
+Authors: Tiantian Feng, Ju Lin, Yiteng Huang, Weipeng He, Kaustubh Kalgaonkar et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.HC, eess.AS
+Published: 2023-09-20
+Summary: Modern smart glasses leverage advanced audio sensing and machine learning technologies to offer real-time transcribing and captioning services, considerably enriching human experiences in daily communications. However, such systems frequently encounter challenges related to environmental noises, resulting in degradation to speech recognition and speaker change detection. To improve voice quality, ...
+
+--- [8] 2301.08795v1 ---
+Title: Evaluating the Possibility of Integrating Augmented Reality and Internet of Things Technologies to Help Patients with Alzheimer's Disease
+Authors: Fatemeh Ghorbani, Mohammad Kia, Mehdi Delrobaei, Quazi Rahman
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, eess.SY
+Published: 2023-01-20
+Summary: People suffering from Alzheimer's disease (AD) and their caregivers seek different approaches to cope with memory loss. Although AD patients want to live independently, they often need help from caregivers. In this situation, caregivers may attach notes on every single object or take out the contents of a drawer to make them visible before leaving the patient alone at home. This study reports prel...
+

@@ -1,0 +1,170 @@
+--- [1] 2609.06078v1 ---
+Title: Report of the 8th LSVOS Challenge: Complex and Multimodal Video Object Segmentation
+Authors: Chang Liu, Henghui Ding, Lingyi Hong, Ning Xu, Linjie Yang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: This report summarizes the 8th Large-scale Video Object Segmentation (LSVOS) Challenge, held in conjunction with ECCV 2026. The challenge evaluates video segmentation in three complementary settings: complex semi-supervised video object segmentation on MOSEv2, text-guided referring video object segmentation on MeViSv2-Text, and audio-guided referring video object segmentation on MeViSv2-Audio. We ...
+
+--- [2] 2608.23435v1 ---
+Title: Towards Comprehensive Basketball Understanding
+Authors: Yirong Hu, Jiayuan Rao, Yu Zhang, Shangzhe Di, Weidi Xie
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-24
+Summary: Understanding a basketball game requires recognizing events, localizing actions, identifying players, and relating these to structured game knowledge. Existing benchmarks primarily evaluate these abilities one at a time, leaving the interactions among these abilities under-explored. We introduce BasketballBench, a multimodal benchmark comprising 7,980 questions across ten tasks in text, image, and...
+
+--- [3] 2608.20549v1 ---
+Title: Volumetric Radiology AI in the Era of Multimodal Large Language Models
+Authors: Zanting Ye, Shengyuan Liu, Xin Liu, Chenhui Wang, Zhisong Wang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-20
+Summary: Advances in multimodal large language models (MLLMs) are extending radiological artificial intelligence (AI) beyond task-specific image analysis toward multimodal understanding and reasoning. Volumetric radiology, however, presents a fundamental representational mismatch: clinical interpretation often requires full-volume spatial context and acquisition-dependent quantitative information, whereas ...
+
+--- [4] 2608.16843v1 ---
+Title: Security of Foundation-Model-Powered Embodied Agents: Attack Surfaces, Attacks, Defenses, and Evaluation
+Authors: Jiawei Liu, Jiacheng Guo, Tian Zhang, Yiwei Xu, Juan Wang et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-08-17
+Summary: Foundation models are increasingly used for perception, reasoning, planning, and action generation in embodied agents, creating security risks that can propagate from digital inputs to physical behavior. Existing surveys often organize threats by mechanisms such as jailbreaks, prompt injection, backdoors, poisoning, or adversarial examples, but these categories do not consistently identify where a...
+
+--- [5] 2608.11458v1 ---
+Title: Multi-Agent Target-Existence Verification and Learned Mask Geometry Refinement: Winning Report of the MeViS-Text Track at the 8th LSVOS Challenge 2026
+Authors: Jungyoon Lee, Gyuil Lim, Doeon Kim, Seong-heum Kim
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-11
+Summary: We present the first-place solution to the MeViS-Text track of the 8th Large-scale Video Object Segmentation (LSVOS) Challenge 2026: referring video object segmentation guided by written motion expressions, including deceptive no-target expressions that match no object in the video and must yield empty masks in every frame. Our pipeline, SSUPER, resolves each expression into a visual concept, gene...
+
+--- [6] 2608.08184v1 ---
+Title: Large Multimodal Agents for Intelligent Transportation Systems: Architectures, Evidence, and Deployment Challenges
+Authors: Muhammad Ayub Sabir, Shaohong Zheng, Zhiyu Qu, Fatima Ashraf, Junbiao Pang
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-08
+Summary: Large multimodal agents (LMAs) are increasingly proposed for intelligent transportation systems (ITS), but existing studies often conflate multimodality, agency, empirical performance, and deployment readiness. This review provides an auditable evidence map of 42 primary study families released between January 2023 and 3 August 2026 within a corpus of 91 mapped sources. It distinguishes model-leve...
+
+--- [7] 2608.03524v1 ---
+Title: Dr. AGENTONOMICS: A Didactic Experiment of AGENTONOMICS
+Authors: Fengjunjie Pan, Alois Knoll
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-04
+Summary: AGENTONOMICS is a framework that treats AI agents as economic entities that can be designed, managed, and governed through an integrated management architecture. Dr. AGENTONOMICS is its first application: a lecture agent developed in the context of the TUM course on AI agents in business administration. Conceived during the winter semester 2025/26 and first introduced to students in the summer sem...
+
+--- [8] 2608.03451v1 ---
+Title: DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces
+Authors: Boyan Li, Zhuowen Liang, Yupeng Xie, Xiaotian Lin, Tianqi Luo et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-04
+Summary: Data agents enable natural-language analytics over organizational workspaces, where relevant evidence may be scattered across databases, structured files, long documents, and multimedia. Existing benchmarks largely isolate structured querying, retrieval, or open-ended analysis, leaving heterogeneous evidence discovery, complete tabular outputs, and deterministic evaluation insufficiently unified. ...
+
+--- [9] 2608.24909v1 ---
+Title: Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans
+Authors: Wentao Jiang, Youchen Xie, Haidi Fan, Yajing Chen, Xin Wang et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.CV, cs.SD
+Published: 2026-07-22
+Summary: Existing co-speech gesture generation methods are predominantly studied in offline settings, where gestures are synthesized from complete speech segments. However, interactive digital humans in real-world scenarios are required to generate speech-synchronous gestures online, using only currently available response audio under strict latency constraints. As a result, prior methods are unsuitable fo...
+
+--- [10] 2607.11560v1 ---
+Title: Technical Report on the CVPR 2026@AdvML Workshop Challenge
+Authors: Tianyuan Zhang, Zonglei Jing, Jiangfan Liu, Ligong Zhang, Ke Ma et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-13
+Summary: Vision-language agents (VLAs) are increasingly used to interpret complex driving scenes and support safety-critical reasoning. This report presents the CVPR 2026@AdvML Workshop Challenge on adversarial multimodal attacks against autonomous-driving VLAs. Built on DriveLM-style multi-view visual question answering, the challenge represents each scene with six synchronized camera images and a structu...
+
+--- [11] 2607.09623v1 ---
+Title: Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026
+Authors: Nirjhar Das, Md. Al-Mamun Provath
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-07-10
+Summary: We present our submission to the QANTA 2026 shared challenge at the ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA). Quanta evaluates multimodal quizbowl systems that answer pyramid-style questions from incrementally revealed text and accompanying images while operating under realistic efficiency constraints. The challenge consists of two distinct tasks: Tossup questions, wh...
+
+--- [12] 2606.21933v1 ---
+Title: ISCSLP 2026 CoT-TTS Challenge: Chain-of-Thought Reasoning for Context-Aware Text-to-Speech
+Authors: Wei Xue, Junlan Feng, Shilei Zhang, Yue Wang, Ruosong Yang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-20
+Summary: Recent advances in text-to-speech (TTS) have greatly improved speech naturalness, speaker similarity, and controllability. However, most existing controllable TTS systems still rely on explicit user-provided style prompts, making it difficult to automatically determine how a sentence should be spoken in long and complex conversational scenarios. This proposal introduces the ISCSLP 2026 CoT-TTS Cha...
+
+--- [13] 2606.12828v1 ---
+Title: Topical Phase Transitions in Artificial Intelligence Research: Large-Scale Evidence and an Early-Warning Signature for Emerging Topics
+# Total entries: 24
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Amultimodal+AND+abs%3Aagent+AND+abs%3A2026&max_results=25&sortBy=submittedDate&sortOrder=descending
+Authors: Rasul Khanbayov, Hasan Kurban
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-11
+Summary: Do research topics in artificial intelligence grow gradually, or do they advance through abrupt, detectable jumps? Analyzing 80,814 accepted main-track papers from five premier AI conferences (ACL, CVPR, ICLR, ICML, NeurIPS) spanning 2017 to 2025, we show major AI topics advance through topical phase transitions: remaining marginal for years, then surging across venues within one to three years. L...
+
+--- [14] 2606.05744v1 ---
+Title: PlanBench-V: A Spatial Planning Map Benchmark for Vision-Language Models
+Authors: Minxin Chen, He Zhu, Junyou Su, Wen Wang, Yijie Deng et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-06-04
+Summary: Spatial planning maps are central to territorial governance, translating planning objectives, regulations, and spatial strategies into visual forms for decision-making, public communication, and institutional coordination. Their interpretation, however, requires fine-grained visual perception, spatial reasoning, and policy-informed professional judgment, creating major challenges for both human le...
+
+--- [15] 2606.01933v1 ---
+Title: 3rd Place at CVPR 2026 CASTLE Challenge: Agentic Multi-View Long-Context Video Understanding via Hierarchical Knowledge Graph Retrieval
+Authors: Raghad Albusayes, Munirah Alyahya
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-01
+Summary: This paper presents our winning methodology for the CASTLE 2026 Challenge at the CVPR 2026 EgoVis Workshop, where our team secured third place globally. The challenge tasks participants with answering highly complex visual, spatiotemporal, and verbal questions, including visual counting, action localization, multi-view tracking and speaker temporal reasoning, within massive, multimodal video strea...
+
+--- [16] 2605.18176v1 ---
+Title: MARS: Technical Report for the CASTLE Challenge at EgoVis 2026
+Authors: Haoyu Zhang, Qiaohui Chu, Yisen Feng, Meng Liu, Weili Guan et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-05-18
+Summary: This report presents MARS, short for Multimodal Agentic Reasoning with Source selection, our system for the CASTLE Challenge at EgoVis 2026. Participants must answer 185 closed-form questions over the CASTLE 2024 dataset. In contrast to prior single-video egocentric benchmarks, CASTLE requires reasoning over four days of activity, 15 synchronized perspectives, official transcripts, and multiple au...
+
+--- [17] 2605.14495v1 ---
+Title: Contestable Multi-Agent Debate with Arena-based Argumentative Computation for Multimedia Verification
+Authors: Truong Thanh Hung Nguyen, Vo Thanh Khang Nguyen, Hoang-Loc Cao, Phuc Ho, Van Pham et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI
+Published: 2026-05-14
+Summary: Multimedia verification requires not only accurate conclusions but also transparent and contestable reasoning. We propose a contestable multi-agent framework that integrates multimodal large language models, external verification tools, and arena-based quantitative bipolar argumentation (A-QBAF) as a submission to the ICMR 2026 Grand Challenge on Multimedia Verification. Our method decomposes each...
+
+--- [18] 2604.00404v1 ---
+Title: The 1st Winner for 5th PVUW MeViS-Text Challenge: Strong MLLMs Meet SAM3 for Referring Video Object Segmentation
+Authors: Xusheng He, Canyang Wu, Jinrong Zhang, Weili Guan, Jianlong Wu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-01
+Summary: This report presents our winning solution to the 5th PVUW MeViS-Text Challenge. The track studies referring video object segmentation under motion-centric language expressions, where the model must jointly understand appearance, temporal behavior, and object interactions. To address this problem, we build a fully training-free pipeline that combines strong multimodal large language models with SAM...
+
+--- [19] 2603.21735v2 ---
+Title: Cognitive Agency Surrender: Defending Epistemic Sovereignty via Scaffolded AI Friction
+Authors: Kuangzhe Xu, Yu Shen, Longjie Yan, Yinghui Ren
+Primary cat: cs.HC | All cats: cs.HC, cs.AI
+Published: 2026-03-23
+Summary: The proliferation of Generative Artificial Intelligence has transformed benign cognitive offloading into a systemic risk of cognitive agency surrender. Driven by the commercial dogma of "zero-friction" design, highly fluent AI interfaces actively exploit human cognitive miserliness, prematurely satisfying the need for cognitive closure and inducing severe automation bias. To empirically quantify t...
+
+--- [20] 2603.20351v1 ---
+Title: MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation
+Authors: Yizhe Zhao, Yongjian Fu, Zihao Feng, Hao Pan, Yongheng Deng et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-03-20
+Summary: Mobile advertising dominates app monetization but introduces risks ranging from intrusive user experience to malware delivery. Existing detection methods rely either on static analysis, which misses runtime behaviors, or on heuristic UI exploration, which struggles with sparse and obfuscated ads. In this paper, we present MANA, the first agentic multimodal reasoning framework for mobile ad detecti...
+
+--- [21] 2603.07670v1 ---
+Title: Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers
+Authors: Pengfei Du
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-03-08
+Summary: Large language model (LLM) agents increasingly operate in settings where a single context window is far too small to capture what has happened, what was learned, and what should not be repeated. Memory -- the ability to persist, organize, and selectively recall information across interactions -- is what turns a stateless text generator into a genuinely adaptive agent. This survey offers a structur...
+
+--- [22] 2601.17548v1 ---
+Title: Prompt Injection Attacks on Agentic Coding Assistants: A Systematic Analysis of Vulnerabilities in Skills, Tools, and Protocol Ecosystems
+Authors: Narek Maloyan, Dmitry Namiot
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-01-24
+Summary: The proliferation of agentic AI coding assistants, including Claude Code, GitHub Copilot, Cursor, and emerging skill-based architectures, has fundamentally transformed software development workflows. These systems leverage Large Language Models (LLMs) integrated with external tools, file systems, and shell access through protocols like the Model Context Protocol (MCP). However, this expanded capab...
+
+--- [23] 2508.05427v2 ---
+Title: Large Language Models Transform Organic Synthesis From Reaction Prediction to Automation
+Authors: Kartar Kumar, Rajesh Kumar, Nikesh Lagun
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2025-08-07
+Summary: Large language models (LLMs) are beginning to reshape how organic-synthesis workflows are represented, queried, planned, and connected to experimental automation. Assessing their contribution is not straightforward because reaction-specific transformers, chemistry-adapted LLMs, tool-using agents, optimizers, and autonomous laboratories are often discussed under the same broad terminology despite o...
+
+--- [24] 2501.02189v7 ---
+Title: A Survey of State of the Art Large Vision Language Models: Alignment, Benchmark, Evaluations and Challenges
+Authors: Zongxia Li, Xiyang Wu, Hongyang Du, Fuxiao Liu, Huy Nghiem et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.LG, cs.RO
+Published: 2025-01-04
+Summary: Large vision-language models (VLMs) have evolved rapidly from contrastive image-text encoders and adapter-based assistants into natively multimodal foundation models that support long-context reasoning, agentic workflows, and, increasingly, unified perception-generation-action loops. Since 2025, the frontier has consolidated around a small number of large pretraining families, including GPT, Gemin...
+

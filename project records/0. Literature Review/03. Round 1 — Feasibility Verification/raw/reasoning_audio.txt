@@ -1,0 +1,142 @@
+--- [1] 2609.09090v1 ---
+Title: Measuring LLM Sycophancy under Sustained Multi-Turn Pressure
+Authors: Leyuan Tang, Kangda Wei, Tianyu Jiang, Ruihong Huang
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-08
+Summary: Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing evaluations typically use short, pre-specified conversations and may therefore miss failures that emerge under sustained, adaptive disagreement. We introduce SPINE, a benchmark in which an LLM proxy plays a persistent but mistaken user and adaptively challenges a...
+
+--- [2] 2609.09081v1 ---
+Title: Everything in Moderation: Per-Domain Coverage Optima and Alignment-Resistant Domain Gaps in Multi-Domain Mid-Training
+Authors: Yunpeng Xu, Kun Zheng
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Mid-training, the stage between pre-training and alignment, is where a model's per-domain data composition is typically set by data availability rather than principled design. We ask what that decision buys, and whether a later alignment pass can undo it. In a controlled logical-reasoning setting (Qwen3-8B-Base, with a 4B replication; five semantically rule-disjoint KOR-Bench domains) we train 30 ...
+
+--- [3] 2609.09072v1 ---
+Title: ToolLoop: Closed-Loop Tool-Use Data Synthesis via Decomposed Generation and Dynamic Self-Feedback
+Authors: Min Zeng, Yuzhou Liu, Zhenyu Cao, Hanxiu Chen, Heng Li et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-08
+Summary: High-quality tool-use data is critical for training language models to interact effectively with external tools. However, existing synthetic approaches typically follow a generate-then-filter paradigm with static post-hoc verification, often yielding inefficient data with imbalanced feature distributions. We propose ToolLoop, a closed-loop framework that decomposes synthesis into three progressive...
+
+--- [4] 2609.09038v1 ---
+Title: Do Reasoning Representations Help Humans Evaluate LLM Outputs?
+Authors: Jaewoo Lim, Sungbok Shin, Sanghyun Hong
+Primary cat: cs.LG | All cats: cs.LG, cs.HC
+Published: 2026-09-08
+Summary: Reasoning representations are increasingly used as explanations for large language model outputs. Yet they are typically evaluated with model-centric criteria, such as answer accuracy and faithfulness, leaving it unclear whether they help people evaluate model responses. In this work, we study reasoning representations as human-facing interfaces rather than proxies for model reasoning ability. We ...
+
+--- [5] 2609.09030v1 ---
+Title: Answer-Distribution Trajectories: A Stochastic-Dynamics View of LLM Reasoning
+Authors: Mar Gonzàlez I Català, Haitz Sáez de Ocáriz Borde, Davide Murari, Carola-Bibiane Schönlieb, Pietro Liò et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.IT, cs.LG
+Published: 2026-09-08
+Summary: Chain-of-thought reasoning provides a structured computation between a model's input and final answer. Yet it is often evaluated through endpoint accuracy, which ignores the path taken to reach that answer. An emerging line of work addresses this limitation using entropy profiles, which track how uncertainty evolves over the reasoning process but do not reveal which competing hypotheses account fo...
+
+--- [6] 2609.09009v1 ---
+Title: Let It Go or Learn to Self-Correct: Continuous Diffusion for Constrained Discrete Tasks
+Authors: Mariia Drozdova, Stéphane Liem Nguyen, François Fleuret
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Denoising Diffusion Probabilistic Models (DDPMs) generate samples by starting from noise and repeatedly denoising while keeping each update close to the current noisy state. This behavior is effective in many continuous domains, but its role is less clear for globally constrained discrete tasks, such as Sudoku, graph connectivity, Latin squares, and N-queens. In such settings, early discrete error...
+
+--- [7] 2609.09004v1 ---
+Title: Evaluation of Contextual Understanding in Large Language Models
+Authors: Subavarshana Arumugam, Mamta Nallaretnam, Kithuni Wickramasinghe, Chamath Gunapala, Pragatheeswaran Vipulanandan et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Large Language Models (LLMs) demonstrate impressive performance across diverse NLP tasks, yet their ability to exhibit genuine contextual understanding remains uncertain. Traditional evaluation metrics such as perplexity, BiLingual Evaluation Understudy (BLEU), or surface-level accuracy fail to reveal how well LLMs extract, integrate, and reason over contextual information--a gap particularly crit...
+
+--- [8] 2609.09001v1 ---
+Title: Deposon: An Auditable, Conservation-Guaranteed, Game-Theoretically Tested Scattering Layer over LLM Reasoning Paths
+Authors: Qihao Yuan
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-09-08
+Summary: Multi-step LLM reasoning lacks a machine-recheckable ledger: discarded reasoning paths leave no auditable record. We propose the Deposon scattering layer, which binds each node of an LLM-generated concept-decomposition graph to a two-parameter Deposon state; paths undergo three-channel scattering -- transmission, reflection, irreversible dissipation -- obeying T+R+A=1 for arbitrary parameters, wit...
+
+--- [9] 2609.08995v1 ---
+Title: Second-order Teukolsky calculations for nonspinning, quasicircular binaries
+Authors: Benjamin Leather, Andrew Spiers, Adam Pound, Samuel D. Upton, Barry Wardell et al.
+Primary cat: gr-qc | All cats: gr-qc
+Published: 2026-09-08
+Summary: Currently, the only second-order gravitational self-force calculations have been based on directly solving the perturbative Einstein equations in the Lorenz gauge. That method relied on the complete separability of the Einstein equations in a Schwarzschild background. In this paper, we present a new scheme based on the second-order Teukolsky equation. Crucially, this method promises to extend (rea...
+
+--- [10] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [11] 2609.08958v1 ---
+Title: Model Predictive Control of Tensegrity Robots via Contact-Aware Graph Neural Dynamics Model
+Authors: Nelson Chen, Patrick Meng, Charles Tang, Angelina Degay, Zachary Brei et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Tensegrity robots offer lightweight, compliant mobility over challenging terrain but remain difficult to model and control due to complex contact-rich dynamics and partial observability. This work presents a model predictive path integral (MPPI) controller for a three-bar tensegrity robot driven by a learned graph neural network (GNN) dynamics model. This work first extends prior GNN-based models ...
+
+--- [12] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [13] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+reasoning&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [14] 2609.08943v1 ---
+Title: Evaluating and Improving Evidence-Grounded Fact-Checking in LLMs via Multi-Round Evidence Ablation
+Authors: Xingyu Deng, Mingzi Cao, Nikolaos Aletras, Xi Wang, Mark Stevenson
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.IR
+Published: 2026-09-08
+Summary: Automatic fact-checking systems assess the veracity of claims given evidence from relevant documents. Large Language Models (LLMs) have demonstrated strong performance in fact-checking due to their general reasoning capabilities. However, it remains unclear whether they faithfully make use of the evidence provided to reach veracity judgments or rely on parametric knowledge. To investigate this, we...
+
+--- [15] 2609.08938v1 ---
+Title: EgoSIS: From Factorized Visual Ego-Transitions to Motion-Canonical Spatial Evidence for UAV Reasoning
+Authors: Jingpu Yang, Fengxian Ji, Mingxuan Cui, Yilin Sun, Hang Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: UAV video question answering requires separating camera motion from changes in the scene, but RGB-only multimodal models receive no explicit, stable reference for that separation. We present EgoSIS, a pose-free adapter that converts RGB-derived bidirectional flow into motion-canonical visual evidence in three stages. Factorized Visual Ego-Transitions (FVET) fits a robust image-plane transition and...
+
+--- [16] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [17] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [18] 2609.08899v1 ---
+Title: From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection
+Authors: Mengzhe Geng, Yujia Lu, Patrick Littell, Manuela Kunz, Xie Chen
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-08
+Summary: Speech deepfakes can mimic a speaker's voice convincingly enough to deceive listeners and automated systems. This has driven strong progress in speech deepfake detection, but most detectors still end with one score per utterance. That score is useful for ranking systems, yet it says little about why a borderline item should be trusted, deferred, or reviewed. Two utterances can fall in the same sco...
+
+--- [19] 2609.08896v1 ---
+Title: Evolution of Multimodal Question Answering: From Modality-Adaptive Extraction to Unified Language Representation
+Authors: Abdullah Al Shafi
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2026-09-08
+Summary: The rapid growth of multimodal data has intensified the need for question answering (QA) systems capable of reasoning across heterogeneous sources such as text, tables, and images. In this paper, we present a comprehensive methodological comparison of three influential frameworks, namely Multimodal Adaptive Extraction (MAE), Solar, and UniMMQA, tracing the evolution of multimodal question answerin...
+
+--- [20] 2609.08868v1 ---
+Title: The Design and Implementation of a Virtual Statistical Computing Lab to Teach R Coding to Introductory Statistics Students
+Authors: Sayed A Mostafa, Tamer M Elbayoumi, Seongtae Kim, Oluwatobi Akinbode
+Primary cat: stat.OT | All cats: stat.OT
+Published: 2026-09-08
+Summary: Motivated by national calls for computationally enriched, data-centric instruction across the statistics curriculum, this study investigates the design, implementation, and impact of a Virtual Statistical Computing Lab (VSCL) integrated into an introductory statistics course at a medium-sized minority-serving university in the USA. The redesigned course embedded R-based coding through two virtual ...
+

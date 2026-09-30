@@ -1,0 +1,177 @@
+--- [1] 2609.05871v1 ---
+Title: Where Does the Sound Go? Tracing Acoustic Information Loss in Audio-Conditioned LLMs
+Authors: Song-ha Jo, Sehyun Lee, Soyoon Kim, Jaesik Choi, Sanghyuk Choi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-05
+Summary: Audio-conditioned language models often underuse acoustic cues such as prosody, emotion, and non-speech sounds, raising the question of whether ASR-supervised frontends discard this information before it reaches the LM. We test whether the frontend is responsible by comparing Whisper-Tiny and Whisper-Small with EnCodec, DAC-VAE, and WavTokenizer in a shared Qwen3.5-4B audio-LM pipeline on ASR, emo...
+
+--- [2] 2609.04085v1 ---
+Title: Deep Neural Compression for RIR-Characterized Acoustic Environments with Structure-Aware Constraints
+Authors: Chen-Yuan Ning, Yang Ai, Hui-Peng Du, Xiao-Hang Jiang, Zhen-Hua Ling
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-03
+Summary: Room impulse responses (RIRs) characterize the acoustic environment of a room by capturing how sound propagates and decays within an enclosed space. In applications such as immersive audio rendering, accurate acoustic reconstruction often relies on spatially densely sampled RIRs. This consequently gives rise to a large volume of RIR data, imposing a substantial burden on storage. Although recent n...
+
+--- [3] 2609.03992v1 ---
+Title: Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis
+Authors: Sanyuan Chen, Min-Jae Hwang, Sho Inoue, Anna Sun, Bokai Yu et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-03
+Summary: We present Alignment-Free Text-Audiobox (Text-AB), a unified framework for high-quality voice dubbing and full-duplex dialogue synthesis. Building on a Diffusion Transformer trained with a flow-matching objective, Text-AB departs from the Audiobox system along three dimensions. First, it operates in a latent diffusion framework using DAC-VAE features that encode 48 kHz waveforms into a 25 Hz laten...
+
+--- [4] 2608.08432v1 ---
+Title: BAMU: Bitstream-Aware Marginal-Utility Allocation for Frozen Pretrained Neural Speech Codecs
+Authors: Mingyu Zhao, Zijian Lin, Yutang Feng, Jiatao Chen, Fan Wang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-09
+Summary: Pretrained neural speech codecs typically use a fixed residual vector quantization (RVQ) depth for all frames, ignoring temporal variation in quantization difficulty. We propose BAMU, a bitstream-aware dynamic RVQ allocation framework for frozen pretrained codecs. A lightweight, rate-independent predictor estimates frame- and layer-wise marginal latent-distortion reductions, while a constrained al...
+
+--- [5] 2607.21132v1 ---
+Title: Investigating Codec-Internal Latent Audio Watermarking for Neural Codec Robustness
+Authors: Zi Hu, Houmin Sun, Linxi Li, Yechen Wang, Liwei Jin et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-23
+Summary: Neural audio codecs are challenging transformations for audio watermarking because they re-encode, quantize, and resynthesize speech. This paper investigates continuous latent-space watermarking for codec robustness. Instead of adding a watermark only to the waveform or spectrogram, we embed a 32-bit message into the continuous latent representation of a codec-like speech autoencoder. The pipeline...
+
+--- [6] 2606.31105v1 ---
+Title: Attacking UTMOS: Probing the Robustness of a Speech Quality Assessment Model
+Authors: Wen-Chin Huang, Tomoki Toda
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-06-30
+Summary: UTMOS has become one of the most commonly used deep neural network-based speech quality assessment (SQA) metrics in speech processing research. In this paper, we attack UTMOS to probe its robustness. Starting from high-quality speech samples, we optimize the input in two directions: a score-preserving attack, which degrades perceived quality while maintaining the predicted score, and a quality-pre...
+
+--- [7] 2605.10281v1 ---
+Title: Drum Synthesis from Expressive Drum Grids via Neural Audio Codecs
+Authors: Konstantinos Soiledis, Maximos Kaliakatsos-Papakostas, Dimos Makris, Konstantinos Tsamis
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-05-11
+Summary: Generating realistic drum audio directly from symbolic representations is a challenging task at the intersection of music perception and machine learning. We propose a system that transforms an expressive drum grid, a time-aligned MIDI representation with microtiming and velocity information, into drum audio by predicting discrete codes of a neural audio codec. Our approach uses a Transformer-base...
+
+--- [8] 2604.09054v4 ---
+Title: HAFM: Hierarchical Autoregressive Foundation Model for Music Accompaniment Generation
+Authors: Jian Zhu, Jianwei Cui, Yunlong Xue, Shihao Chen, Yubang Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-04-10
+Summary: Music accompaniment generation aims to automatically produce instrumental accompaniments that are rhythmically, harmonically, and timbrally coherent with a given vocal input, with broad applications in personalized music creation, arrangement assistance, and music education. Existing approaches, primarily operating in the symbolic domain or relying on single-stage audio generation frameworks, comm...
+
+--- [9] 2603.18359v2 ---
+Title: Towards Interpretable Framework for Neural Audio Codecs via Sparse Autoencoders: A Case Study on Accent Information
+Authors: Shih-Heng Wang, Tiantian Feng, Aditya Kommineni, Thanathai Lertpetchpun, Bowen Yi et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-18
+Summary: Neural Audio Codecs (NACs) are widely adopted in modern speech systems, yet how they encode linguistic and paralinguistic information remains unclear. Improving the interpretability of NAC representations is critical for understanding and deploying them in sensitive applications. Hence, we employ Sparse Autoencoders (SAEs) to decompose dense NAC representations into sparse, interpretable activatio...
+
+--- [10] 2601.17085v1 ---
+Title: Recovering Performance in Speech Emotion Recognition from Discrete Tokens via Multi-Layer Fusion and Paralinguistic Feature Integration
+Authors: Esther Sun, Abinay Reddy Naini, Carlos Busso
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2026-01-23
+Summary: Discrete speech tokens offer significant advantages for storage and language model integration, but their application in speech emotion recognition (SER) is limited by paralinguistic information loss during quantization. This paper presents a comprehensive investigation of discrete tokens for SER. Using a fine-tuned WavLM-Large model, we systematically quantify performance degradation across diffe...
+
+--- [11] 2601.02444v1 ---
+Title: VocalBridge: Latent Diffusion-Bridge Purification for Defeating Perturbation-Based Voiceprint Defenses
+Authors: Maryam Abbasihafshejani, AHM Nazmus Sakib, Murtuza Jadliwala
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR, cs.LG, eess.AS
+Published: 2026-01-05
+Summary: The rapid advancement of speech synthesis technologies, including text-to-speech (TTS) and voice conversion (VC), has intensified security and privacy concerns related to voice cloning. Recent defenses attempt to prevent unauthorized cloning by embedding protective perturbations into speech to obscure speaker identity while maintaining intelligibility. However, adversaries can apply advanced purif...
+
+--- [12] 2512.00451v2 ---
+Title: STCTS: Generative Semantic Compression for Ultra-Low Bitrate Speech via Explicit Text-Prosody-Timbre Decomposition
+Authors: Siyu Wang, Haitao Li, Donglai Zhu
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2025-11-29
+Summary: Voice communication in bandwidth-constrained environments--maritime, satellite, and tactical networks--remains prohibitively expensive. Traditional codecs struggle below 1 kbps, while existing semantic approaches (STT-TTS) sacrifice prosody and speaker identity. We present STCTS, a generative semantic compression framework enabling natural voice communication at 80 bps. STCTS explicitly decomposes...
+
+--- [13] 2510.23802v1 ---
+Title: Learning Interpretable Features in Audio Latent Spaces via Sparse Autoencoders
+Authors: Nathan Paek, Yongyi Zang, Qihui Yang, Randal Leistikow
+Primary cat: cs.LG | All cats: cs.LG, cs.SD
+Published: 2025-10-27
+Summary: While sparse autoencoders (SAEs) successfully extract interpretable features from language models, applying them to audio generation faces unique challenges: audio's dense nature requires compression that obscures semantic meaning, and automatic feature characterization remains limited. We propose a framework for interpreting audio generative models by mapping their latent representations to human...
+
+--- [14] 2510.13221v1 ---
+Title: Acoustic Teleportation via Disentangled Neural Audio Codec Representations
+Authors: Philipp Grundhuber, Mhd Modar Halimeh, Emanuël A. P. Habets
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-10-15
+Summary: This paper presents an approach for acoustic teleportation by disentangling speech content from acoustic environment characteristics in neural audio codec representations. Acoustic teleportation transfers room characteristics between speech recordings while preserving content and speaker identity. We build upon previous work using the EnCodec architecture, achieving substantial objective quality i...
+
+--- [15] 2510.02672v1 ---
+Title: STSM-FiLM: A FiLM-Conditioned Neural Architecture for Time-Scale Modification of Speech
+Authors: Dyah A. M. G. Wisnu, Ryandhimas E. Zezario, Stefano Rini, Fo-Rui Li, Yan-Tsung Peng et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-10-03
+Summary: Time-Scale Modification (TSM) of speech aims to alter the playback rate of audio without changing its pitch. While classical methods like Waveform Similarity-based Overlap-Add (WSOLA) provide strong baselines, they often introduce artifacts under non-stationary or extreme stretching conditions. We propose STSM-FILM - a fully neural architecture that incorporates Feature-Wise Linear Modulation (FiL...
+
+--- [16] 2509.19025v2 ---
+Title: Enhancing Noise Robustness for Neural Speech Codecs through Resource-Efficient Progressive Quantization Perturbation Simulation
+Authors: Rui-Chen Zheng, Yang Ai, Hui-Peng Du, Li-Rong Dai
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-23
+Summary: Noise robustness remains a critical challenge for deploying neural speech codecs in real-world acoustic scenarios where background noise is often inevitable. A key observation we make is that even slight input noise perturbations can cause unintended shifts in quantized codewords, thereby degrading the quality of reconstructed speech. Motivated by this finding, we propose a novel and resource-effi...
+
+--- [17] 2509.15462v1 ---
+Title: A Novel Semantic Compression Approach for Ultra-low Bandwidth Voice Communication
+Authors: Ryan Collette, Ross Greenwood, Serena Nicoll
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-09-18
+Summary: While existing speech audio codecs designed for compression exploit limited forms of temporal redundancy and allow for multi-scale representations, they tend to represent all features of audio in the same way. In contrast, generative voice models designed for text-to-speech and voice transfer tasks have recently proved effective at factorizing audio signals into high-level semantic representations...
+
+--- [18] 2509.11425v2 ---
+Title: FuseCodec: Semantic-Contextual Fusion and Supervision for Neural Codecs
+Authors: Md Mubtasim Ahasan, Rafat Hasan Khan, Tasnim Mohiuddin, Aman Chadha, Tariq Iqbal et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2025-09-14
+Summary: Speech tokenization enables discrete representation and facilitates speech language modeling. However, existing neural codecs capture low-level acoustic features, overlooking the semantic and contextual cues inherent to human speech. While recent efforts introduced semantic representations from self-supervised speech models or incorporated contextual representations from pre-trained language model...
+
+--- [19] 2508.19205v1 ---
+Title: VibeVoice Technical Report
+Authors: Zhiliang Peng, Jianwei Yu, Wenhui Wang, Yaoyao Chang, Yutao Sun et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2025-08-26
+Summary: This report presents VibeVoice, a novel model designed to synthesize long-form speech with multiple speakers by employing next-token diffusion, which is a unified method for modeling continuous data by autoregressively generating latent vectors via diffusion. To enable this, we introduce a novel continuous speech tokenizer that, when compared to the popular Encodec model, improves data compression...
+
+--- [20] 2508.08924v1 ---
+Title: EGGCodec: A Robust Neural Encodec Framework for EGG Reconstruction and F0 Extraction
+Authors: Rui Feng, Yuang Chen, Yu Hu, Jun Du, Jiahong Yuan
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2025-08-12
+Summary: This letter introduces EGGCodec, a robust neural Encodec framework engineered for electroglottography (EGG) signal reconstruction and F0 extraction. We propose a multi-scale frequency-domain loss function to capture the nuanced relationship between original and reconstructed EGG signals, complemented by a time-domain correlation loss to improve generalization and accuracy. Unlike conventional Enco...
+
+--- [21] 2508.06475v2 ---
+Title: HapticLLaMA: A Multimodal Sensory Language Model for Haptic Captioning
+Authors: Guimin Hu, Daniel Hershcovich, Hasti Seifi
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-08-08
+Summary: Haptic captioning is the task of generating natural language descriptions from haptic signals, such as vibrations, for use in virtual reality, accessibility, and rehabilitation applications. While previous multimodal research has focused primarily on vision and audio, haptic signals for the sense of touch remain underexplored. To address this gap, we formalize the haptic captioning task and propos...
+
+--- [22] 2507.06917v3 ---
+Title: Musical Source Separation Bake-Off: Comparing Objective Metrics with Human Perception
+Authors: Noah Jaffe, John Ashley Burgoyne
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-07-09
+Summary: Music source separation aims to extract individual sound sources (e.g., vocals, drums, guitar) from a mixed music recording. However, evaluating the quality of separated audio remains challenging, as commonly used metrics like the source-to-distortion ratio (SDR) do not always align with human perception. In this study, we conducted a large-scale listener evaluation on the MUSDB18 test set, collec...
+
+--- [23] 2506.03403v1 ---
+Title: HYFuse: Aligning Heterogeneous Speech Pre-Trained Representations in Hyperbolic Space for Speech Emotion Recognition
+Authors: Orchid Chetia Phukan,  Girish, Mohd Mujtaba Akhtar, Swarup Ranjan Behera, Pailla Balakrishna Reddy et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-06-03
+Summary: Compression-based representations (CBRs) from neural audio codecs such as EnCodec capture intricate acoustic features like pitch and timbre, while representation-learning-based representations (RLRs) from pre-trained models trained for speech representation learning such as WavLM encode high-level semantic and prosodic information. Previous research on Speech Emotion Recognition (SER) has explored...
+
+--- [24] 2506.01148v1 ---
+Title: Towards Fusion of Neural Audio Codec-based Representations with Spectral for Heart Murmur Classification via Bandit-based Cross-Attention Mechanism
+Authors: Orchid Chetia Phukan,  Girish, Mohd Mujtaba Akhtar, Swarup Ranjan Behera, Priyabrata Mallick et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-06-01
+Summary: In this study, we focus on heart murmur classification (HMC) and hypothesize that combining neural audio codec representations (NACRs) such as EnCodec with spectral features (SFs), such as MFCC, will yield superior performance. We believe such fusion will trigger their complementary behavior as NACRs excel at capturing fine-grained acoustic patterns such as rhythm changes, spectral features focus ...
+
+--- [25] 2506.00800v1 ---
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AEnCodec&max_results=25&sortBy=submittedDate&sortOrder=descending
+Title: CLAP-ART: Automated Audio Captioning with Semantic-rich Audio Representation Tokenizer
+Authors: Daiki Takeuchi, Binh Thien Nguyen, Masahiro Yasuda, Yasunori Ohishi, Daisuke Niizumi et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2025-06-01
+Summary: Automated Audio Captioning (AAC) aims to describe the semantic contexts of general sounds, including acoustic events and scenes, by leveraging effective acoustic features. To enhance performance, an AAC method, EnCLAP, employed discrete tokens from EnCodec as an effective input for fine-tuning a language model BART. However, EnCodec is designed to reconstruct waveforms rather than capture the sema...
+

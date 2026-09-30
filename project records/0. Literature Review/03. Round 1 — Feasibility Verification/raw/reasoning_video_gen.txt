@@ -1,0 +1,177 @@
+--- [1] 2609.08755v1 ---
+Title: Kairos: A Dataset for Fine-Grained Video-Language Modeling over Space, Time, and Dynamics
+Authors: Ruibo Ming, Lei Sun, Deheng Zhang, He Zhang, Jialu Li et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-08
+Summary: Many emerging video language modeling tasks require systems to move beyond clip-level abstraction and model visual content as it unfolds over extended time horizons. However, most existing video datasets rely on coarse or sparsely aligned supervision, which compresses temporal variation and limits the ability of models to learn reusable representations of continuous visual dynamics. We introduce K...
+
+--- [2] 2609.08300v1 ---
+Title: Human-Centric Image Captioning with Subject-Centered Spatial Understanding
+Authors: Bozhou Li, Jiahang Zhang, Yue Ding, Yushuo Guan, Bohan Zeng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: While multimodal large language models (MLLMs) achieve remarkable performance on generic image captioning, they frequently suffer from structural hallucinations in human-centric scenarios. Accurately modeling human subjects is foundational for critical downstream applications, such as accurate avatar/video/image generation and fine-grained human action understanding. However, these tasks require h...
+
+--- [3] 2609.08079v1 ---
+Title: VI-Bench: Benchmarking Prompt Inversion from AIGC Videos
+Authors: Wulin Xie, Rui Zhao, Kecen Li, Xiujin Liu, Bokang Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Recent advances in video generation have made prompt-based control increasingly central to AIGC video generation. Prompts specify what a video should depict and how it should be represented, controlling factors such as visual style or camera behavior. Understanding this recoverability is important both for creative reuse and editing, and for assessing prompt leakage risks. However, existing video ...
+
+--- [4] 2609.07941v1 ---
+Title: ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding
+Authors: Chia-Hui Chen, Shih-Ying Yeh, Fu-En Yang, Min-Hung Chen, Shang-Hong Lai
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-07
+Summary: In this paper, we propose ReactVAU, a Slow-Fast Decoupled Framework for real-time streaming Video Anomaly Understanding (VAU). Existing VAU methods rely on offline inference with global temporal sampling, which violates causality and prevents deployment in live surveillance streams. Conversely, general streaming video models satisfy causal access but dilute rare transient anomalies during memory c...
+
+--- [5] 2609.07720v1 ---
+Title: Better Call CineCrew: Consistent Ultra-Long Narrative-to-Film Generation
+Authors: Jiaben Chen, Sixun Dong, Qinhong Zhou, Raine Ma, Zhiyang Dou et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MA
+Published: 2026-09-07
+Summary: Long-form narrative-to-film generation requires shot-level controllability and cross-clip consistency in both visual identity and character behavior-requirements that remain difficult to satisfy with current prompt-based workflows. A core reason existing workflows remain brittle is the lack of a structured intermediate layer between scripts and video models, especially when screenplays are undersp...
+
+--- [6] 2609.06978v1 ---
+Title: AnomalyCraft-700K: Component-Level Controllable and Verifiable Synthetic Anomalies for Fine-Grained Video Anomaly Understanding
+Authors: Yuzhou Long, Haodong Zhang, Yunpeng Yang, Peng Wu, Guansong Pang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-07
+Summary: Progress in video anomaly understanding (VAU) has long been limited by inherent deficiencies of real-world anomaly videos, which are hard to collect and offer little control over their content. Synthetic anomaly approaches partially alleviate data scarcity, yet their generation remains largely controlled at the category or prompt level. They also lack component-level verification of video-text con...
+
+--- [7] 2609.06931v1 ---
+Title: CARDEA: Auditable Reasoning Grounded in Spatial Evidence for End-to-End Coronary Angiography Interpretation
+Authors: Jia-Jen Lee, Shih-Yen Hou, Kee Koon Ng, Wei-Chun Wang, Shih-Sheng Chang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-07
+Summary: Invasive coronary angiography (CAG) is the gold standard for diagnosing coronary artery disease, but interpretation varies substantially among observers. Existing AI systems can improve consistency but lack auditable decision processes and are limited in comprehensive open-ended assessment, undermining clinician trust and clinical adoption readiness. We developed CARDEA, a unified large vision-lan...
+
+--- [8] 2609.06823v1 ---
+Title: Generalist Open-World Temporal Perception
+Authors: Cristian Sminchisescu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-06
+Summary: The next generation of artificial intelligence systems will likely be natively temporal and multimodal in both inputs and outputs: able to converse, perceive, predict, reason, and synthesize through a shared world representation. Realizing this requires a temporal perceptual substrate integrating sensory streams, language, and structured outputs within a multimodal world model. We seek a generalis...
+
+--- [9] 2609.06721v1 ---
+Title: Companion-style QA Assistance in Ego-Vision
+Authors: Hangyu Qin, Junbin Xiao, Shenglang Zhang, Angela Yao
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-06
+Summary: AI companions are envisioned as always-on assistants that support users in daily life. With this regard, we introduce BuddyVQA, a benchmark for companion-style question answering (QA) on egocentric streaming video. BuddyVQA contains 21.6K questions linked to 6K highlight moments across 1,012 long, egocentric videos. It features two key characteristics that are common in daily first-person QA assis...
+
+--- [10] 2609.06475v1 ---
+Title: Thinking with Cameras: Active Visual Reasoning via Dynamic Viewpoint Control for Surveillance Video Understanding
+Authors: Xiao Zhang, Wang Zeng, Sheng Jin, Wentao Liu, Chen Qian et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-06
+Summary: Large vision-language models (LVLMs) have recently achieved remarkable progress in general-purpose video understanding. However, their application to surveillance videos remains challenging due to the lack of large-scale domain-specific datasets and the limitation of passive observation from fixed viewpoints. In surveillance scenarios, critical visual evidence can be easily missed when targets are...
+
+--- [11] 2609.05834v1 ---
+Title: Learning Counterfactual World Models for Embodied Reasoning under Partial Observability
+Authors: Todd Y. Zhou, Daniel Zhang
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-05
+Summary: World models promise a general route to embodied intelligence: learn predictive dynamics once, then reason, plan, and act with them. Increasingly, the representations beneath such models are pretrained on large-scale video, interaction, and multimodal corpora, which raises a question prediction quality alone cannot answer: when is a learned representation actually actionable? We identify a failure...
+
+--- [12] 2609.05149v1 ---
+Title: From Vision to Language: Investigating Causal Information Flow in Multimodal Decision-Making
+Authors: Davide Testa, Hugh Mee Wong, Alessandro Lenci, Bernardo Magnini, Albert Gatt
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2026-09-04
+Summary: Vision-Language Models are commonly evaluated through their final predictions, but understanding whether these decisions are grounded in visual evidence requires tracing how visual information contributes to language-based decisions. With this purpose in mind, we investigate cross-modal information flow in a video-based generative multiple-choice-like setting by applying a layer-wise causal interv...
+
+--- [13] 2609.04438v2 ---
+Title: ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory
+Authors: Shidu Ren, Yunze Liu, Xing Liu, Chi-Hao Wu, Enmin Zhou et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Long-horizon multimodal agents should remember not only what happened but also who participated. This capability depends on linking recurring faces, voices, names, person-associated objects, events, and social relations to consistent identities over time. Existing long-video and multimodal-agent benchmarks measure broad memory question answering, but they do not isolate the ability to maintain rec...
+
+--- [14] 2609.04200v1 ---
+Title: Principia: Relational Physics Tests for Video Models
+Authors: Varun Varma Thozhiyoor, Shivam Tripathi, Venkatesh Babu Radhakrishnan, Anand Bhattad
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the same physical law, their motions must satisfy predictable relationships, and these relationships ho...
+
+--- [15] 2609.03952v1 ---
+Title: WorldReward: Reward Modeling for Camera-Conditioned World Models
+Authors: Yibin Wang, Zehan Wang, Junshu Tang, Zhimin Li, Yujie Zhou et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Camera-conditioned world models generate interactive videos in which commanded actions should induce the expected scene changes while appearance, geometry, and temporal dynamics remain coherent. Existing rewards assess these requirements separately: geometry-based rewards estimate trajectory execution but cannot judge the visual quality of the executed motion, whereas image-based rewards measure f...
+
+--- [16] 2609.03729v1 ---
+Title: Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning
+Authors: Yijun Yang, Shenghe Zheng, Wenbo Li, Jianhui Liu, Haoze Sun et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Despite the remarkable prowess of Vision-Language Models (VLMs) in general multimodal tasks, they remain fundamentally ``flat'' when reasoning about the physical world. We argue that this spatial bottleneck stems from a profound dimensional mismatch: while VLMs are trained to interpret 2D projections, true spatial reasoning demands the recovery of latent 3D geometry and temporal continuity. To con...
+
+--- [17] 2609.02864v1 ---
+Title: Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation
+Authors: Yutong Liu, Nan Huang, Xu Cao, James M. Rehg
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-02
+Summary: Recent advancements in unified generative models (UGMs) and world simulators have achieved unprecedented results in visual perception and synthesis. However, these models primarily rely on surface-level event alignment, leaving the capacity for high-level visual reasoning underexplored. True visual generative intelligence demands "Reasoning-to-Generation", an ability to infer latent rules from vis...
+
+--- [18] 2609.02747v1 ---
+Title: InceptionGS: Generative Bootstrapping for Large-Scale Gaussian Splatting under Unstructured View Sampling
+Authors: Tianheng Lu, Guangyu Wang, Ruqi Huang, Lu Fang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-02
+Summary: Achieving truly immersive large-scale scene digitization necessitates consistent and visually pleasing rendering across all possible viewing perspectives. However, collecting multi-view images covering every fine detail of a large-scale scene is prohibitive due to scene complexity, capture cost, negligence, or accessibility constraints. As a result, the sampled views tend to be highly unstructured...
+
+--- [19] 2609.02339v1 ---
+Title: AGI Maze Prediction Datasets: A Compact Benchmark for Learning World Dynamics with Transformers
+Authors: Alexey Potapov
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-02
+Summary: World modeling requires a predictive model to maintain and update an internal state adequate for reasoning about the consequences of actions. We introduce the AGI Maze Prediction Datasets and Benchmark, a lightweight controlled testbed for studying this capability in Transformers and other predictive models. Derived from procedurally generated, stateful grid worlds, the benchmark comprises per-ste...
+
+--- [20] 2609.01921v1 ---
+Title: Automated Maize Ear Phenotyping Using 3D Reconstructions
+Authors: Ritwesh A. Kumar, Som Tripathi, Peja Matthews, Srikar Reddy, Talukder Zaki Jubery et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-01
+Summary: Maize kernel traits such as row number, kernels per row, and kernel size vary largely for genetic reasons and are consistently associated with regions of the genome that influence yield. Manual measurement of these traits, however, cannot keep pace with the volume of maize generated in a breeding program. To address this, we developed and validated a fully automated pipeline for extracting these t...
+
+--- [21] 2609.01200v1 ---
+Title: Compressing AI Traffic: Standardized Neural Network Coding of Visual-Token Representations in Split Vision-Language Inference
+Authors: Reza Heidari, Hamed R. Tavakoli, Juho Kannala
+Primary cat: cs.CV | All cats: cs.CV, eess.IV
+Published: 2026-09-01
+Summary: When the visual encoder and the language decoder of a vision-language model (VLM) run on different compute nodes, the intermediate visual-token embeddings become a communicated payload rather than an internal activation. We call such machine-consumed intermediate tensors AI traffic and ask how far they can be compressed with a standardized, training-free codec. We insert ISO/IEC 15938-17 Neural Ne...
+
+--- [22] 2609.00986v1 ---
+Title: TGR: Advancing Industrial Recommendation from Generative-Paradigm Ranking toward Unified Generation and Reasoning
+Authors:  TGR Team, Lei Cheng, Haonan Hu, Beibei Kong, Yudong Li et al.
+Primary cat: cs.IR | All cats: cs.IR
+Published: 2026-09-01
+Summary: Industrial recommender systems typically rely on cascaded retrieval, pre-ranking, ranking, and reranking stages, whose separately optimized models limit scaling, fragment decision making, and lack semantic knowledge and reasoning. We present TGR (Tencent Generative Recommendation), an industrial framework that advances recommendation toward the generative paradigm along three coupled directions. T...
+
+--- [23] 2609.00656v1 ---
+Title: Physically Plausible Video Generation via Visual-Semantic Chain-of-Events Conditioning
+Authors: Zixuan Wang, Yixin Hu, Wen Li, Feng Chen, Yan Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-01
+Summary: Physically Plausible Video Generation (PPVG) seeks to synthesize videos consistent with physical principles, yet remains challenging due to underspecified natural language conditioning. Advanced chain-of-thought (CoT) frameworks augment prompts with physical knowledge. However, such prompts describe physical phenomena holistically, overlooking intermediate states and transition dynamics. In this p...
+
+--- [24] 2609.00584v1 ---
+Title: Socrates went Nuclear: Comparing Interaction Strategies for AI systems in a Learning Context using Brain Sensing
+Authors: Alexandre Clin Deffarges, Nataliya Kosmyna, Pattie Maes
+Primary cat: cs.AI | All cats: cs.AI, cs.HC
+Published: 2026-09-01
+Summary: Does unrestricted AI access bypass the cognitive effort required for learning, or does it streamline knowledge acquisition? This paper reports on a study where we compare three designs for user-AI interaction in a learning context: (1) an unrestricted conversational bot like ChatGPT, (2) a pedagogically constrained bot that guides through hints without giving final answers, which we refer to as th...
+
+--- [25] 2609.00505v1 ---
+Title: ViTAL-X: Video-Text Alignment with Cross-Modal Temporal Edits
+Authors: Sethuraman T, Savya Khosla, Onkar Kishor Susladkar, Aditi Tiwari, Seoung Wug Oh et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-01
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areasoning+AND+abs%3Avideo+AND+abs%3Ageneration&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Video-text models adapted from image-text architectures (e.g., CLIP) frequently exhibit temporal blindness, the inability to perceive fundamental cues like order, direction, and motion dynamics. Standard datasets mask this limitation by enabling models to exploit static spatial shortcuts. To systematically evaluate this, we introduce XTE-Bench, a diagnostic probe revealing that even large-scale vi...
+

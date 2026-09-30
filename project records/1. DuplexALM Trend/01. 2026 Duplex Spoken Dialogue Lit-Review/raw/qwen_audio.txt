@@ -1,0 +1,23 @@
+# Total entries: 3
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aqwen+AND+abs%3Aaudio+AND+abs%3Aduplex&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.25195v1 ---
+Title: Qwen-Audio-Agent Technical Report
+Authors: Chong Deng, Yunjie Ji, Yuxiang Kong, Xiangang Li, Xu Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.MA
+Published: 2026-09-21
+Summary: We present Qwen-Audio-Agent, a harness that combines full-duplex voice interaction with asynchronous task execution through a foreground-background architecture. A Frontend Agent manages dialogue and selects between direct tool use and delegation, while a Backend Agent carries out delegated tasks in a separate context. An Orchestration Runtime maintains task state, coordinates requests for user in...
+
+--- [2] 2609.25176v2 ---
+Title: Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction
+Authors: Lujia Bao, Qian Chen, Luyao Cheng, Chong Deng, Yuxiang Kong et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2026-09-21
+Summary: Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning with Multimodality and Multi-Teacher On-Policy Distillation (M$^{2}$-OPD) to transfer language capabilities and develop native aud...
+
+--- [3] 2607.02640v1 ---
+Title: Metronome: Bound the Cache, Keep the Beat for Real-Time Interaction Model Serving
+Authors: Jiaying Meng, Bojie Li
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.NI
+Published: 2026-07-02
+Summary: Real-time interaction models -- Moshi, MiniCPM-o, Qwen-Omni -- turn serving into a periodic real-time task: on every frame a session ingests streaming audio and must respond by a recurring wall-clock deadline, while its KV cache grows monotonically and stays pinned for the whole conversation. This regime hides a dangerous failure mode. On a real full-duplex stack, sustained load does not degrade s...
+

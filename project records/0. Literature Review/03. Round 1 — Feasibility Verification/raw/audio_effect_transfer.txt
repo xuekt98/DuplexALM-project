@@ -1,0 +1,114 @@
+--- [1] 2509.24286v2 ---
+Title: SynthCloner: Synthesizer-style Audio Transfer via Factorized Codec with ADSR Envelope Control
+Authors: Jeng-Yue Liu, Ting-Chao Hsu, Yen-Tung Yeh, Li Su, Yi-Hsuan Yang
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-09-29
+Summary: Electronic synthesizer sounds are controlled by parameter settings that yield complex timbral characteristics and ADSR envelopes, making synthesizer-style audio transfer particularly challenging. Recent approaches to timbre transfer often rely on spectral objectives or implicit style matching, offering limited control over envelope shaping. Moreover, public synthesizer datasets rarely provide dive...
+
+--- [2] 2410.21233v1 ---
+Title: ST-ITO: Controlling Audio Effects for Style Transfer with Inference-Time Optimization
+Authors: Christian J. Steinmetz, Shubhr Singh, Marco Comunità, Ilias Ibnyahya, Shanxin Yuan et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-10-28
+Summary: Audio production style transfer is the task of processing an input to impart stylistic elements from a reference recording. Existing approaches often train a neural network to estimate control parameters for a set of audio effects. However, these approaches are limited in that they can only control a fixed set of effects, where the effects must be differentiable or otherwise employ specialized tra...
+
+--- [3] 2408.00196v1 ---
+Title: Combining audio control and style transfer using latent diffusion
+Authors: Nils Demerlé, Philippe Esling, Guillaume Doras, David Genova
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS, stat.ML
+Published: 2024-07-31
+Summary: Deep generative models are now able to synthesize high-quality audio signals, shifting the critical aspect in their development from audio quality to control capabilities. Although text-to-music generation is getting largely adopted by the general public, explicit control and example-based style transfer are more adequate modalities to capture the intents of artists and musicians. In this paper, w...
+
+--- [4] 2405.09470v1 ---
+Title: Towards Evaluating the Robustness of Automatic Speech Recognition Systems via Audio Style Transfer
+Authors: Weifei Jin, Yuxin Cao, Junjie Su, Qi Shen, Kai Ye et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CR, cs.LG, eess.AS
+Published: 2024-05-15
+Summary: In light of the widespread application of Automatic Speech Recognition (ASR) systems, their security concerns have received much more attention than ever before, primarily due to the susceptibility of Deep Neural Networks. Previous studies have illustrated that surreptitiously crafting adversarial perturbations enables the manipulation of speech recognition systems, resulting in the production of ...
+
+--- [5] 2309.17125v1 ---
+Title: Style Transfer for Non-differentiable Audio Effects
+Authors: Kieran Grant
+Primary cat: cs.LG | All cats: cs.LG, cs.SD, eess.AS
+Published: 2023-09-29
+Summary: Digital audio effects are widely used by audio engineers to alter the acoustic and temporal qualities of audio data. However, these effects can have a large number of parameters which can make them difficult to learn for beginners and hamper creativity for professionals. Recently, there have been a number of efforts to employ progress in deep learning to acquire the low-level parameter configurati...
+
+--- [6] 2306.15644v1 ---
+Title: Style-transfer based Speech and Audio-visual Scene Understanding for Robot Action Sequence Acquisition from Videos
+Authors: Chiori Hori, Puyuan Peng, David Harwath, Xinyu Liu, Kei Ota et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2023-06-27
+Summary: To realize human-robot collaboration, robots need to execute actions for new tasks according to human instructions given finite prior knowledge. Human experts can share their knowledge of how to perform a task with a robot through multi-modal instructions in their demonstrations, showing a sequence of short-horizon steps to achieve a long-horizon goal. This paper introduces a method for robot acti...
+
+--- [7] 2211.02247v3 ---
+Title: Music Mixing Style Transfer: A Contrastive Learning Approach to Disentangle Audio Effects
+Authors: Junghyun Koo, Marco A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Kyogu Lee et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2022-11-04
+Summary: We propose an end-to-end music mixing style transfer system that converts the mixing style of an input multitrack to that of a reference song. This is achieved with an encoder pre-trained with a contrastive objective to extract only audio effects related information from a reference music recording. All our models are trained in a self-supervised manner from an already-processed wet multitrack dat...
+
+--- [8] 2208.07282v5 ---
+Title: Differentiable WORLD Synthesizer-based Neural Vocoder With Application To End-To-End Audio Style Transfer
+Authors: Shahan Nercessian
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2022-08-15
+Summary: In this paper, we propose a differentiable WORLD synthesizer and demonstrate its use in end-to-end audio style transfer tasks such as (singing) voice conversion and the DDSP timbre transfer task. Accordingly, our baseline differentiable synthesizer has no model parameters, yet it yields adequate synthesis quality. We can extend the baseline synthesizer by appending lightweight black-box postnets w...
+
+--- [9] 2207.08759v1 ---
+Title: Style Transfer of Audio Effects with Differentiable Signal Processing
+Authors: Christian J. Steinmetz, Nicholas J. Bryan, Joshua D. Reiss
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2022-07-18
+Summary: We present a framework that can impose the audio effects and production style from one recording to another by example with the goal of simplifying the audio production process. We train a deep neural network to analyze an input recording and a style reference recording, and predict the control parameters of audio effects used to render the output. In contrast to past work, we integrate audio effe...
+
+--- [10] 2110.02411v1 ---
+Title: Voice Aging with Audio-Visual Style Transfer
+Authors: Justin Wilson, Sunyeong Park, Seunghye J. Wilson, Ming C. Lin
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2021-10-05
+Summary: Face aging techniques have used generative adversarial networks (GANs) and style transfer learning to transform one's appearance to look younger/older. Identity is maintained by conditioning these generative networks on a learned vector representation of the source content. In this work, we apply a similar approach to age a speaker's voice, referred to as voice aging. We first analyze the classifi...
+
+--- [11] 1910.03713v2 ---
+Title: MelGAN-VC: Voice Conversion and Audio Style Transfer on arbitrarily long samples using Spectrograms
+Authors: Marco Pasini
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2019-10-08
+Summary: Traditional voice conversion methods rely on parallel recordings of multiple speakers pronouncing the same sentences. For real-world applications however, parallel data is rarely available. We propose MelGAN-VC, a voice conversion method that relies on non-parallel speech data and is able to convert audio signals of arbitrary length from a source voice to a target voice. We firstly compute spectro...
+
+--- [12] 1901.10240v1 ---
+Title: Applying Visual Domain Style Transfer and Texture Synthesis Techniques to Audio - Insights and Challenges
+Authors: M. Huzaifah, L. Wyse
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2019-01-29
+Summary: Style transfer is a technique for combining two images based on the activations and feature statistics in a deep learning neural network architecture. This paper studies the analogous task in the audio domain and takes a critical look at the problems that arise when adapting the original vision-based framework to handle spectrogram representations. We conclude that CNN architectures with features ...
+
+--- [13] 1812.07159v2 ---
+Title: Autoencoder Based Architecture For Fast & Real Time Audio Style Transfer
+Authors: Dhruv Ramani, Samarjit Karmakar, Anirban Panda, Asad Ahmed, Pratham Tangri
+# Total entries: 16
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Aaudio+AND+ti%3Astyle+AND+ti%3Atransfer&max_results=20&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS, stat.ML
+Published: 2018-12-18
+Summary: Recently, there has been great interest in the field of audio style transfer, where a stylized audio is generated by imposing the style of a reference audio on the content of a target audio. We improve on the current approaches which use neural networks to extract the content and the style of the audio signal and propose a new autoencoder based architecture for the task. This network generates a s...
+
+--- [14] 1801.01589v1 ---
+Title: Neural Style Transfer for Audio Spectograms
+Authors: Prateek Verma, Julius O. Smith
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM, eess.AS
+Published: 2018-01-04
+Summary: There has been fascinating work on creating artistic transformations of images by Gatys. This was revolutionary in how we can in some sense alter the 'style' of an image while generally preserving its 'content'. In our work, we present a method for creating new sounds using a similar approach, treating it as a style-transfer problem, starting from a random-noise input signal and iteratively using ...
+
+--- [15] 1711.11160v1 ---
+Title: Time Domain Neural Audio Style Transfer
+Authors: Parag K. Mital
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2017-11-29
+Summary: A recently published method for audio style transfer has shown how to extend the process of image style transfer to audio. This method synthesizes audio "content" and "style" independently using the magnitudes of a short time Fourier transform, shallow convolutional networks with randomly initialized filters, and iterative phase reconstruction with Griffin-Lim. In this work, we explore whether it ...
+
+--- [16] 1710.11385v3 ---
+Title: Audio style transfer
+Authors: Eric Grinstein, Ngoc Duong, Alexey Ozerov, Patrick Pérez
+Primary cat: cs.SD | All cats: cs.SD, eess.AS, physics.class-ph
+Published: 2017-10-31
+Summary: 'Style transfer' among images has recently emerged as a very active research topic, fuelled by the power of convolution neural networks (CNNs), and has become fast a very popular technology in social media. This paper investigates the analogous problem in the audio domain: How to transfer the style of a reference audio signal to a target audio content? We propose a flexible framework for the task,...
+

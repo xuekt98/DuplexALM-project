@@ -1,0 +1,142 @@
+--- [1] 2609.09073v1 ---
+Title: Online, Reachability-Aware, Sampling-Based Motion Planning
+Authors: Brendan Gould, Zhiyuan Zhang, Panagiotis Tsiotras, Samuel Coogan
+Primary cat: cs.RO | All cats: cs.RO, eess.SY
+Published: 2026-09-08
+Summary: Sampling-Based Model-Predictive Control (MPC) algorithms are a flexible class of controllers used for navigation on a wide range of robotic systems. Historically, such approaches have lacked hard safety guarantees, a shortcoming which we remedy in this work by computing guaranteed reachable-set overapproximations online with a fast, interval-based pipeline. We show that our method achieves similar...
+
+--- [2] 2609.09069v1 ---
+Title: Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering
+Authors: Jiahui Zhang, Bonian Han, Gongbo Liang, Yu Zhang
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-09-08
+Summary: Autonomous 3D active mapping requires a space robot to choose where to sense while building the geometry needed for navigation. Learned occupancy completion extends spatial context beyond the current field of view, but one predicted map often serves two planning roles: it scores expected surface gain and constrains collision-free motion. Unsupported occupancy can therefore distort both where the r...
+
+--- [3] 2609.09061v1 ---
+Title: Location-Independent Robot-Assisted Finishing Using Digital Twins and Extended Reality
+Authors: Jose Outeiro, Jia Holt, Tero Kaarlela, Khalil Chakal
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-08
+Summary: This paper presents a cyber-physical system (CPS) for location-independent programming, supervision, training, and teleoperation of a Robot-Assisted Finishing (RAF) system used to post-process metal additive-manufactured (AM) components. A digital twin (DT) built in Unity is delivered to the operator as a WebGL application that supports both desktop and immersive modes through WebXR-compatible dev...
+
+--- [4] 2609.09005v1 ---
+Title: DXPR: Depth-Based Vision-LiDAR Cross-Modal Place Recognition Using Vision Foundation Models
+Authors: Yungsoo Han, Youngseok Jang, Seungwon Roh, Jeongyeon Seo, H. Jin Kim
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: We present DXPR, a depth-based cross-modal place recognition (CMPR) framework that uses vision foundation models (VFMs) to match monocular camera queries against a LiDAR map without modality-specific encoders. This enables robots and autonomous vehicles to robustly localize using only cameras within pre-built LiDAR maps, even under severe seasonal, weather, and illumination changes. The key idea i...
+
+--- [5] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [6] 2609.08958v1 ---
+Title: Model Predictive Control of Tensegrity Robots via Contact-Aware Graph Neural Dynamics Model
+Authors: Nelson Chen, Patrick Meng, Charles Tang, Angelina Degay, Zachary Brei et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Tensegrity robots offer lightweight, compliant mobility over challenging terrain but remain difficult to model and control due to complex contact-rich dynamics and partial observability. This work presents a model predictive path integral (MPPI) controller for a three-bar tensegrity robot driven by a learned graph neural network (GNN) dynamics model. This work first extends prior GNN-based models ...
+
+--- [7] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [8] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [9] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [10] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [11] 2609.08905v1 ---
+Title: Visible-Reachable Workspace for Perception-Aware Humanoid Design
+Authors: Boxi Xia, Zijiang Yang, Ryan Shin, Bokuan Li, Eric Wun-Hao Lu et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it. The robot must then redirect its sensing or move its body to acquire a view, turning a perception limitation into additional motion. Existing humanoids largely inher...
+
+--- [12] 2609.08899v1 ---
+Title: From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection
+Authors: Mengzhe Geng, Yujia Lu, Patrick Littell, Manuela Kunz, Xie Chen
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-08
+Summary: Speech deepfakes can mimic a speaker's voice convincingly enough to deceive listeners and automated systems. This has driven strong progress in speech deepfake detection, but most detectors still end with one score per utterance. That score is useful for ranking systems, yet it says little about why a borderline item should be trusted, deferred, or reviewed. Two utterances can fall in the same sco...
+
+--- [13] 2609.08886v1 ---
+Title: FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory
+Authors: Woosang Jeon, Sanghyeok Choi, Minwoo Kim, Taehyun Jung, Taehyeong Kim
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Arobotics+audio&max_results=20&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.CV | All cats: cs.CV, cs.RO
+Published: 2026-09-08
+Summary: Language-guided robots need persistent scene memories to follow instructions, revisit objects, and resolve references to objects encountered over time. While much of language-guided scene-memory retrieval has emphasized spatial or relational references, many everyday object references specify objects by multiple persistent attributes, such as category, material, size, or surface appearance. We for...
+
+--- [14] 2609.08853v1 ---
+Title: CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning
+Authors: Pietro Noah Crestaz, Mohamed Yassine Kabouri, Nicolas Mansard, Andrea Del Prete
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Model-based reinforcement learning (MBRL) is a family of RL methods that learn a model of the environment and use it for action selection, making it well suited to robotics due to its sample efficiency. Combining learned models with online planning can further improve action selection, as the planner can exploit the model to find better actions than the learned policy alone. Recent methods combini...
+
+--- [15] 2609.08804v1 ---
+Title: Real-time Puncture Detection and Recovery for Pneumatic Soft Actuators
+Authors: Tejonidhi R. Deshpande, Tingyu Cheng, Josiah Hester
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Soft robots offer safe and adaptive interaction with humans and unstructured environments through their inherent ability to deform and comply. Pneumatic actuators are one way to build soft robots. They are typically made from soft silicone materials and are especially effective for driving such systems, enabling smooth and adaptable motion. However, their compliant nature also makes them vulnerabl...
+
+--- [16] 2609.08802v1 ---
+Title: Graph-Based Safe Reinforcement Learning for Multi-Agent Systems with Time-Varying Topology
+Authors: Xiao Sizhe, Dong Lijing, Bai Rui, Tan Xin
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: This paper presents a graph-based safe multi-agent reinforcement learning (MARL) framework for cooperative navigation with time-varying topology. To address the critical challenge of ensuring safety in environments with sensing constraints, a safety-decoupled mechanism is introduced through a Control Barrier-Like Function (CBLF) action screening layer. This mechanism bridges the gap between discre...
+
+--- [17] 2609.08800v1 ---
+Title: Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics
+Authors: Aleš Kučera, Karel Zimmermann
+Primary cat: cs.RO | All cats: cs.RO, cs.GR, cs.LG
+Published: 2026-09-08
+Summary: Three properties determine whether a differentiable simulator can drive gradient-based optimization through contact: simulation accuracy, gradient reliability, and per-iteration cost. Tape-based engines such as MJX and Newton Semi-Implicit require timesteps small enough to keep contacts numerically tractable, and their backpropagation memory grows linearly with the number of timesteps T. Surrogate...
+
+--- [18] 2609.08795v1 ---
+Title: Interpreting Dolphin Vocal Sequences via Multiple Sequence Alignment
+Authors: Daniel Kohlsdorf, Denise Herzing, Thad Starner
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Dolphin communication understanding is essential for uncovering the linguistic complexity and social structures of wild pods. We adapt the ClustalW bioinformatics algorithm to analyze continuous acoustic data, treating vocalizations as high-dimensional spectral feature vectors. By replacing discrete scoring with a continuous Gaussian kernel similarity measure, our framework generates Multiple Sequ...
+
+--- [19] 2609.08788v1 ---
+Title: Adaptive Anisotropic Attention for Axis-Structured Signals
+Authors: Mahir Jain, Parshva Runwal, Aditya Ray Mishra, Arvasu Kulkarni, Sandeep Singh et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Dense self-attention treats all token pairs as equally plausible before learning, an interaction-isotropic prior that can be mismatched to structured signals. For structured, low signal-to-noise ratio (SNR) signals such as EEG, dependencies are organized along the electrode and time axes, and this uniform prior exposes each token to many irrelevant interactions. We introduce Adaptive Anisotropic A...
+
+--- [20] 2609.08770v1 ---
+Title: A Controlled Comparison of Manual and Teleoperated Intraocular Instrument Motion for an Input Device
+Authors: Korab Hoxha, Mirza Imamovic, Angelo Henriques, M. Ali Nasseri
+Primary cat: cs.RO | All cats: cs.RO, cs.HC
+Published: 2026-09-08
+Summary: Input devices for robotic microsurgery are frequently described as preserving the surgeon's trained technique, but the claim is rarely measured. We compared manual and teleoperated intraocular instrument motion with the trocar constraint, the instrument, the eye model and the tracking source common to both conditions, so that the control interface was the only factor varied. Prior comparisons cann...
+

@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ADiffSinger&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2306.10069v1 ---
+Title: The pop song generator: designing an online course to teach collaborative, creative AI
+Authors: Matthew Yee-king, Andrea Fiorucci, Mark d'Inverno
+Primary cat: cs.CY | All cats: cs.CY, cs.AI
+Published: 2023-06-15
+Summary: This article describes and evaluates a new online AI-creativity course. The course is based around three near-state-of-the-art AI models combined into a pop song generating system. A fine-tuned GPT-2 model writes lyrics, Music-VAE composes musical scores and instrumentation and Diffsinger synthesises a singing voice. We explain the decisions made in designing the course which is based on Piagetian...
+
+--- [2] 2105.02446v6 ---
+Title: DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism
+Authors: Jinglin Liu, Chengxi Li, Yi Ren, Feiyang Chen, Zhou Zhao
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2021-05-06
+Summary: Singing voice synthesis (SVS) systems are built to synthesize high-quality and expressive singing voice, in which the acoustic model generates the acoustic features (e.g., mel-spectrogram) given a music score. Previous singing acoustic models adopt a simple loss (e.g., L1 and L2) or generative adversarial network (GAN) to reconstruct the acoustic features, while they suffer from over-smoothing and...
+

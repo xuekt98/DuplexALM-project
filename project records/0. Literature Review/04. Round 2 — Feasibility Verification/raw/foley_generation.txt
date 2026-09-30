@@ -1,0 +1,142 @@
+--- [1] 2607.29148v1 ---
+Title: Exploring Efficient Waveform Diffusion Models for Foley Sound Generation
+Authors: Runwu Shi, Chang Li, Jiahui Li, Jiang Wang, Yaozhong Kang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-31
+Summary: Recent advances in diffusion models have enabled high-fidelity Foley sound generation directly in the waveform space. Existing waveform diffusion models primarily rely on time-domain architectures, such as CNN-based U-Nets and DiffWave-style models, or frequency-domain Transformers modeling temporal dependencies. However, these systems are typically built with large model capacities and substantia...
+
+--- [2] 2606.25980v1 ---
+Title: FoleySet: A Multi-Level Human-Annotated Foley Sound Dataset
+Authors: Sunshiyu Wang, Alexander Lerch
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-24
+Summary: In audiovisual post-production, Foley refers to synchronous sound effects associated with human actions, such as footsteps, cloth rustle, and prop handling, that are recreated to match the on-screen movements and interactions of characters. These sounds are often recorded by professional Foley artists using physical props. This resource-intensive workflow has motivated data-driven research on Fole...
+
+--- [3] 2606.03672v1 ---
+Title: Foley-Omni: A Unified Multimodal Generation Model from Task-Level Audio Synthesis to Complete Video Soundtrack Generation
+Authors: Ye Tao, Lupeng Liu, Xuenan Xu, Jiasun Feng, Jiarui Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-06-02
+Summary: Recent unified audio generation models can support diverse tasks across speech, sound effects, and music, but most of them still focus on isolated task-level synthesis. However, real video production often requires multiple components of a complete audio track to be generated jointly and consistently for the same video. We present Foley-Omni, a unified multimodal audio generation model that extend...
+
+--- [4] 2605.31082v1 ---
+Title: Sound effects in media:A comparative analysis of recorded and synthetic samples in live-action and animation
+Authors: Nelly Garcia, Joshua Reiss
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-05-29
+Summary: Creating sound for storytelling is crucial to establishing the environment in productions such as films, TV series and video games. This process often involves repeating, layering and recording real objects or using sound libraries, which can be time-consuming and repetitive. To address these challenges, procedural audio, also known as digital foley, offers a solution by allowing sound designers t...
+
+--- [5] 2605.18916v2 ---
+Title: CounterFlow: A Two-Phase Inference-Time Sampling for Counterfactual Video Foley Generation
+Authors: Gyubin Lee, Junwon Lee, Juhan Nam
+Primary cat: cs.MM | All cats: cs.MM, cs.AI, cs.CV, cs.SD, eess.AS
+Published: 2026-05-18
+Summary: We investigate Counterfactual Video Foley Generation, which aims to adopt a sound-source identity that contradicts the visual evidence while remaining temporally synchronized to a silent video. Existing Video&Text-to-Audio (VT2A) models struggle with this, often remaining anchored to the visually implied sound source when video and text contents disagree. We present ConterFlow, an inference-time d...
+
+--- [6] 2604.05731v1 ---
+Title: FoleyDesigner: Immersive Stereo Foley Generation with Precise Spatio-Temporal Alignment for Film Clips
+Authors: Mengtian Li, Kunyan Dai, Yi Ding, Ruobing Ni, Ying Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-07
+Summary: Foley art plays a pivotal role in enhancing immersive auditory experiences in film, yet manual creation of spatio-temporally aligned audio remains labor-intensive. We propose FoleyDesigner, a novel framework inspired by professional Foley workflows, integrating film clip analysis, spatio-temporally controllable Foley generation, and professional audio mixing capabilities. FoleyDesigner employs a m...
+
+--- [7] 2603.19857v2 ---
+Title: FoleyDirector: Fine-Grained Temporal Steering for Video-to-Audio Generation via Structured Scripts
+Authors: You Li, Dewei Zhou, Fan Ma, Fu Li, Dongliang He et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV
+Published: 2026-03-20
+Summary: Recent Video-to-Audio (V2A) methods have achieved remarkable progress, enabling the synthesis of realistic, high-quality audio. However, they struggle with fine-grained temporal control in multi-event scenarios or when visual cues are insufficient, such as small regions, off-screen sounds, or occluded or partially visible objects. In this paper, we propose FoleyDirector, a framework that, for the ...
+
+--- [8] 2603.15597v2 ---
+Title: AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer
+Authors: Pengjun Fang, Yingqing He, Yazhou Xing, Qifeng Chen, Ser-Nam Lim et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.LG, cs.MM, eess.AS
+Published: 2026-03-16
+Summary: Existing video-to-audio (V2A) generation methods predominantly rely on text prompts alongside visual information to synthesize audio. However, two critical bottlenecks persist: semantic granularity gaps in training data, such as conflating acoustically distinct sounds under coarse labels, and textual ambiguity in describing micro-acoustic features. These bottlenecks make it difficult to perform fi...
+
+--- [9] 2603.03619v2 ---
+Title: Candidate Moderation under Instant Runoff and Condorcet Voting: Evidence from the Cooperative Election Study
+Authors: David McCune, Matthew I. Jones, Andy Schultz, Adam Graham-Squire, Ismar Volic et al.
+Primary cat: econ.GN | All cats: econ.GN
+Published: 2026-03-04
+Summary: This article extends the analysis of Atkinson, Foley, and Ganz in "Beyond the Spoiler Effect: Can Ranked-Choice Voting Solve the Problem of Political Polarization?". Their work uses a one-dimensional spatial model based on survey data from the Cooperative Election Survey (CES) to examine how instant-runoff voting (IRV) and Condorcet methods promote candidate moderation. Their model assumes an idea...
+
+--- [10] 2601.03233v1 ---
+Title: LTX-2: Efficient Joint Audio-Visual Foundation Model
+Authors: Yoav HaCohen, Benny Brazowski, Nisan Chiprut, Yaki Bitterman, Andrew Kvochko et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-01-06
+Summary: Recent text-to-video diffusion models can generate compelling video sequences, yet they remain silent -- missing the semantic, emotional, and atmospheric cues that audio provides. We introduce LTX-2, an open-source foundational model capable of generating high-quality, temporally synchronized audiovisual content in a unified manner. LTX-2 consists of an asymmetric dual-stream transformer with a 14...
+
+--- [11] 2512.06022v1 ---
+Title: DreamFoley: Scalable VLMs for High-Fidelity Video-to-Audio Generation
+Authors: Fu Li, Weichao Zhao, You Li, Zhichao Zhou, Dongliang He
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2025-12-04
+Summary: Recent advances in video generation have achieved remarkable improvements in visual content fidelity. However, the absence of synchronized audio severely undermines immersive experience and restricts practical applications of these technologies. To address this challenge, several pioneering works have explored diffusion transformer architectures for generating plausible video-synchronized audio, i...
+
+--- [12] 2511.20019v2 ---
+Title: How to Use Deep Learning to Identify Sufficient Conditions: A Case Study on Stanley's $e$-Positivity
+Authors: Farid Aliniaeifard, Shu Xiao Li
+Primary cat: math.CO | All cats: math.CO
+Published: 2025-11-25
+Summary: In a study, published in Nature, researchers from DeepMind and mathematicians demonstrated a general framework using machine learning to make conjectures in pure mathematics. Here, we build upon this framework to develop a method for identifying sufficient conditions that imply a given mathematical statement. As a demonstration, we apply this process to Stanley's problem of $e$-positivity of graph...
+
+--- [13] 2511.13219v2 ---
+Title: FoleyBench: A Benchmark For Video-to-Audio Models
+Authors: Satvik Dixit, Koichi Saito, Zhi Zhong, Yuki Mitsufuji, Chris Donahue
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Afoley+AND+abs%3Ageneration&max_results=20&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-11-17
+Summary: Video-to-audio generation (V2A) is of increasing importance in domains such as film post-production, AR/VR, and sound design, particularly for the creation of Foley sound effects synchronized with on-screen actions. Foley requires generating audio that is both semantically aligned with visible events and temporally aligned with their timing. Yet, there is a mismatch between evaluation and downstre...
+
+--- [14] 2510.12175v4 ---
+Title: Audio Palette: A Diffusion Transformer with Multi-Signal Conditioning for Controllable Foley Synthesis
+Authors: Junnuo Wang
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-10-14
+Summary: Recent advances in diffusion-based generative models have enabled high-quality text-to-audio synthesis, but fine-grained acoustic control remains a significant challenge in open-source research. We present Audio Palette, a diffusion transformer (DiT) based model that extends the Stable Audio Open architecture to address this "control gap" in controllable audio generation. Unlike prior approaches t...
+
+--- [15] 2510.02916v2 ---
+Title: SALSA-V: Shortcut-Augmented Long-form Synchronized Audio from Videos
+Authors: Amir Dellali, Luca A. Lanzendörfer, Florian Grötschla, Roger Wattenhofer
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2025-10-03
+Summary: We propose SALSA-V, a multimodal video-to-audio generation model capable of synthesizing highly synchronized, high-fidelity long-form audio from silent video content. Our approach introduces a masked diffusion objective, enabling audio-conditioned generation and the seamless synthesis of unconstrained length audio sequences. Additionally, by integrating a shortcut loss into our training process, w...
+
+--- [16] 2509.26604v2 ---
+Title: Video Object Segmentation-Aware Audio Generation
+Authors: Ilpo Viertola, Vladimir Iashin, Esa Rahtu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-09-30
+Summary: Existing multimodal audio generation models often lack precise user control, which limits their applicability in professional Foley workflows. In particular, these models focus on the entire video and do not provide precise methods for prioritizing a specific object within a scene, generating unnecessary background sounds, or focusing on the wrong objects. To address this gap, we introduce the nov...
+
+--- [17] 2509.24550v1 ---
+Title: Training-Free Multimodal Guidance for Video to Audio Generation
+Authors: Eleonora Grassucci, Giuliano Galadini, Giordano Cicchetti, Aurelio Uncini, Fabio Antonacci et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.SD
+Published: 2025-09-29
+Summary: Video-to-audio (V2A) generation aims to synthesize realistic and semantically aligned audio from silent videos, with potential applications in video editing, Foley sound design, and assistive multimedia. Although the excellent results, existing approaches either require costly joint training on large-scale paired datasets or rely on pairwise similarities that may fail to capture global multimodal ...
+
+--- [18] 2509.15492v1 ---
+Title: Beyond Video-to-SFX: Video to Audio Synthesis with Environmentally Aware Speech
+Authors: Xinlei Niu, Jianbo Ma, Dylan Harper-Harris, Xiangyu Zhang, Charles Patrick Martin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2025-09-19
+Summary: The generation of realistic, context-aware audio is important in real-world applications such as video game development. While existing video-to-audio (V2A) methods mainly focus on Foley sound generation, they struggle to produce intelligible speech. Meanwhile, current environmental speech synthesis approaches remain text-driven and fail to temporally align with dynamic video content. In this pape...
+
+--- [19] 2508.16930v1 ---
+Title: HunyuanVideo-Foley: Multimodal Diffusion with Representation Alignment for High-Fidelity Foley Audio Generation
+Authors: Sizhe Shan, Qiulin Li, Yutao Cui, Miles Yang, Yuehai Wang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CV, cs.SD
+Published: 2025-08-23
+Summary: Recent advances in video generation produce visually realistic content, yet the absence of synchronized audio severely compromises immersion. To address key challenges in video-to-audio generation, including multimodal data scarcity, modality imbalance and limited audio quality in existing methods, we propose HunyuanVideo-Foley, an end-to-end text-video-to-audio framework that synthesizes high-fid...
+
+--- [20] 2507.02271v1 ---
+Title: Spotlighting Partially Visible Cinematic Language for Video-to-Audio Generation via Self-distillation
+Authors: Feizhen Huang, Yu Wu, Yutian Lin, Bo Du
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2025-07-03
+Summary: Video-to-Audio (V2A) Generation achieves significant progress and plays a crucial role in film and video post-production. However, current methods overlook the cinematic language, a critical component of artistic expression in filmmaking. As a result, their performance deteriorates in scenarios where Foley targets are only partially visible. To address this challenge, we propose a simple self-dist...
+

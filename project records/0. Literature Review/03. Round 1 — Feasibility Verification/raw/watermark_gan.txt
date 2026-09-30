@@ -1,0 +1,177 @@
+--- [1] 2609.08213v1 ---
+Title: DRIFT: Removing Diffusion Watermarks by Deflecting the Generative Trajectory
+Authors: Rui Bao, Zheng Gao, Xiaoyu Li, Xiaoyan Feng, Yang Song et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.LG
+Published: 2026-09-08
+Summary: Diffusion watermarking embeds verifiable signals into the generative process and commonly verifies them by recovering trajectory-dependent evidence, making the marks robust to conventional pixel-space distortions. Existing removal attacks either regenerate along deterministic trajectories, which often preserve the watermark-bearing latent structure, or optimize every image separately. We identify ...
+
+--- [2] 2609.08160v1 ---
+Title: Generalized DBLog: A Verified Contract for Interleaving Database Rows with a Change Log
+Authors: Andreas Andreakis
+Primary cat: cs.DB | All cats: cs.DB, cs.DC, cs.LO
+Published: 2026-09-08
+Summary: Change-data capture (CDC) feeds downstream systems like caches, search indexes, and data warehouses from a database's log of committed row changes. When bootstrapping, adding a table, or repairing downstream data, a pipeline must also copy existing rows. Merging this copy with the active log introduces the copy-to-log handoff problem. Changes must not fall through a gap, and older copied state mus...
+
+--- [3] 2609.06708v1 ---
+Title: A Trustworthy Watermarking Framework for LLM-Generated Food Safety Content
+Authors: Zhongli Fang, Yiran Chen, Lingyun Zhang, Yu Liu, Ping Chen et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-09-06
+Summary: Large language models are transforming many industries with their text generation abilities. However, their outputs can be easily tampered with, creating serious risks in critical areas such as food safety reporting. To protect the integrity and traceability of AI-generated content, this paper introduces ToSS (Token Oriented Repartitioning and Strategic Selection), a reliable authentication method...
+
+--- [4] 2609.06405v1 ---
+Title: Statistical mechanical evaluation of a spread-spectrum watermarking model with image restoration II AT stability of a hybrid system with message decoding and image
+Authors: Tatsuya Uezu, Kao Hayashi, Masaki Kawamura
+Primary cat: cond-mat.stat-mech | All cats: cond-mat.stat-mech
+Published: 2026-09-06
+Summary: In the previous paper (arxiv.org/abs/1209.4772), we proposed a spread-spectrum watermarking model with image restoration based on Bayes estimation assuming several prior probabilities and adopting the Gaussian channel model to represent attacks from unauthorized users. When an image is generated from the infinite range Ising model, we analyzed the model using the statistical mechanical method, the...
+
+--- [5] 2609.04772v1 ---
+Title: A Robust Watermark-based Fingerprint Framework for GNNs Ownership Verification
+Authors: Han Zhang, Yan Wang, Guanfeng Liu, Pengfei Ding, Huaxiong Wang et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-09-04
+Summary: The high training cost of Graph Neural Networks (GNNs) has raised growing concerns regarding model ownership infringement, such as model stealing and unauthorized misuse. To verify model ownership and prevent significant economic losses, two groups of GNN Ownership Verification (OV) methods have been proposed: watermark-based methods and fingerprint-based methods. However, these methods typically ...
+
+--- [6] 2609.03844v1 ---
+Title: Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference
+Authors: Simone Ceppi, Ignacio Sanchez
+Primary cat: cs.CR | All cats: cs.CR, cs.CL, cs.LG
+Published: 2026-09-03
+Summary: We introduce Stateless Bernoulli Watermarking (SBW), a new statistical watermark for Large Language Models that determines green list membership through independent per-token Bernoulli trials. Unlike KGW's vocabulary permutation or SynthID's multi-layer tournament, SBW requires only a single comparison per token against a counter-based random number generator, reducing membership complexity to $O(...
+
+--- [7] 2609.03749v1 ---
+Title: Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG
+Authors: Alexandr Goultiaev Tolstokorov, Kyriakos Mouratidis, Javad Dogani, Nikolaos Laoutaris
+Primary cat: cs.CR | All cats: cs.CR, cs.CL
+Published: 2026-09-03
+Summary: Third-party retrieval-augmented generation (RAG) marketplaces create a new auditing problem: data providers may license corpora to a RAG operator, yet later have no visibility into whether their documents are being reused without compensation. Auditing this misuse is difficult because the operator is non-cooperative, answers are paraphrased by the generator, and one response may combine evidence f...
+
+--- [8] 2609.03107v1 ---
+Title: CRAW: Codec Robust Audio Watermarking
+Authors: David Chernin, Ethan Fetaya
+Primary cat: cs.SD | All cats: cs.SD, cs.CR, cs.LG
+Published: 2026-09-02
+Summary: Recent advances in generative speech models have made it increasingly difficult to distinguish authentic from synthetic audio, enabling new forms of fraud and misinformation. Audio watermarking offers a promising defense by embedding an imperceptible signal into generated speech that can later be detected to verify its provenance. However, recent studies have shown that existing post-hoc watermark...
+
+--- [9] 2609.02268v1 ---
+Title: Retrosynthesis of Synthetic Media for Explainable AI Provenance Forensics
+Authors: Yijie Lin, Ching-Chun Chang, Isao Echizen, Hui Li, Chin-Chen Chang
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.CV, cs.MM
+Published: 2026-09-02
+Summary: With the rapid proliferation of generative models on Machine Learning as a Service (MLaaS) platforms, reliably tracing the provenance of synthetic media without modifying generator architectures or parameters remains a major challenge. In this work, we propose a self-referential retrosynthesis framework for explainable AI provenance forensics under a fixed-generator setting. The framework leverage...
+
+--- [10] 2609.02177v1 ---
+Title: WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading
+Authors: Gang-Hyun Park, Ju-Hyeong Lee, Hee-Youl Kwak, Dae-Young Yun
+Primary cat: cs.CR | All cats: cs.CR, cs.LG
+Published: 2026-09-02
+Summary: Multi-bit watermarking for large language models (LLMs) enables content source tracing by embedding user-identifiable messages into generated text. Existing methods face a fundamental trade-off among extraction accuracy, text quality, and payload capacity. We propose WeaveMark, a robust and scalable multi-bit LLM watermarking scheme based on coded payload spreading. WeaveMark shifts this trade-off...
+
+--- [11] 2609.01050v1 ---
+Title: What Limits Robustness in Deep Image Watermarking: An Analysis of Mechanisms and Their Scaling Across Capacities
+Authors: Marta Bistroń, Zbigniew Piotrowski
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-09-01
+Summary: Robustness remains the principal open problem in deep image watermarking, and what limits it becomes sharper as payload grows. This paper asks whether capacity is itself the limit or only makes other limits visible, and answers in two parts. The first organizes the distortions a watermark must survive and the strategies developed to resist them, ordering each by the axis that governs it: payload c...
+
+--- [12] 2608.29575v1 ---
+Title: SemTrace: Source-Grounded Semantic Signatures for Tracing LLM Exposure to Protected Documents
+Authors: Junyan Zhang, Yudong Zeng, Yongwei Huang, Zuhao Ouyang, Hong Chen et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-30
+Summary: Large language models are increasingly used to read documents and produce downstream text, creating a provenance problem when the document owner cannot control or inspect the model that performs the generation. We introduce SemTrace, a source-grounded semantic watermark for detecting whether a generated review was influenced by a known protected manuscript copy. Rather than biasing token probabili...
+
+--- [13] 2608.29212v1 ---
+Title: Asymmetric Phase Coding Video Watermarking
+Authors: Guang Yang, Fengchen Liu
+Primary cat: cs.CR | All cats: cs.CR, cs.CV, cs.GR
+Published: 2026-08-29
+Summary: Existing video watermarking systems are symmetric: the party that can verify a mark holds the extractor weights or generator secret and can therefore also embed one. Benchmarks confirm the consequence, reporting that white-box forgery defeats all evaluated methods. We present a training-free video watermark that removes the shared secret. The signer embeds a complete Ed25519 signature into the pha...
+
+--- [14] 2608.29151v1 ---
+Title: WoE Wrote It? Watermarking Mixture-of-Experts LLMs for Black-Box Text Provenance
+Authors: Jona te Lintelo, Lichao Wu, Stjepan Picek
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-08-29
+Summary: Large Language Model (LLM) watermarks provide a mechanism for text provenance, enabling model owners to identify machine-generated content and attribute it to a specific watermarked model. However, current LLM watermarking approaches predominantly rely on inference-time sampler methods and focus their analysis on dense models. Inference-time methods are only effective when the text is explicitly g...
+
+--- [15] 2608.27899v1 ---
+Title: OpenStamp: A Watermark for Open-Source Language Models
+Authors: Miroojin Bakshi, Saksham Rastogi, Danish Pruthi
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG
+Published: 2026-08-28
+Summary: With the growing prevalence of large language model (LLM) generated content, watermarking is considered a promising approach for attributing text to LLMs and distinguishing it from human-written content. A prominent class of techniques embeds subtle but detectable signals in generated text by modifying token sampling probabilities. However, such methods are unsuitable for open-source models, where...
+
+--- [16] 2608.27693v1 ---
+Title: Secure Pseudonymetry with DSSS Watermarking for LEO Satellites
+Authors: Nisanur Camuzcu, Alireza Vahid
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-08-27
+Summary: Low-Earth-orbit (LEO) constellations offer dense signals of opportunity (SOP) for positioning, navigation, and timing (PNT) without dedicated navigation infrastructure. However, using these signals passively, by only listening to the downlink, is difficult when beacon/pilot components are weak, signals from multiple satellites overlap, or the receiver cannot reliably identify which satellite gener...
+
+--- [17] 2608.27666v1 ---
+Title: Semantic Watermarking with Order-Robust Detection over Sub-sentence Units
+Authors: Abdulrahman Diaa, Jonathan Petit, Florian Kerschbaum
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.CL
+Published: 2026-08-27
+Summary: Semantic watermarks tie the mark to sentence meaning rather than token choices, promising robustness to content-preserving edits. However, the detector only observes attacker-supplied text, which can be reworded, reordered, or resegmented to evade detection without content loss. Rewording, reordering, and resegmentation all cause embedding displacement: detection tests embeddings different from th...
+
+--- [18] 2608.27492v1 ---
+Title: Can Tainted Pixels Expose Deepfake Videos?
+Authors: Juan Hu, Shaojing Fan, Sanjay Saha, Marc Herrera, Terence Sim
+Primary cat: cs.CR | All cats: cs.CR, cs.CV
+Published: 2026-08-26
+Summary: Publicly-acceesible face-manipulation tools have made deepfake creation accessible to non-expert users. Against these, existing defenses are mostly post-hoc, detecting only after forgery has occurred, and operating on still images rather than videos. Research is lacking in i) the proactive protection of published facial videos against black-box manipulation tools, and in (ii) understanding its per...
+
+--- [19] 2608.25667v1 ---
+Title: AI Slop and Hallucinations in Vulnerability Assessment: A Survey on Reasoning Failures and Trustworthy Mitigation
+Authors: Junchen Ding, Jialiang Dong, Yichen Zhu, Yi Liu, Gelei Deng et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-08-26
+Summary: The integration of Large Language Models (LLMs) into cybersecurity has transformed vulnerability assessment, but it has also produced a trustworthiness crisis driven by the unchecked proliferation of "AI slop." These artifacts, hallucinated vulnerabilities, plausible but incorrect patches, and semantically repackaged bug reports, impose a cognitive burden on human triage pipelines that mirrors a d...
+
+--- [20] 2608.24159v1 ---
+Title: On the Robustness of Audio Deepfake Detection under Audio Watermarking
+Authors: Zi Qian Yong, Ajinkya Kulkarni, Julia Lau, Hwa Hui Tew, Shu Min Leong et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-25
+Summary: Recent advances in generative audio models have enabled highly realistic synthetic speech, increasing the importance of reliable audio deepfake detection (ADD) systems. While prior studies have primarily focused on adversarially optimized perturbations, the robustness of ADD systems under realistic signal transformations remains insufficiently understood. In this work, we investigate the impact of...
+
+--- [21] 2608.22218v2 ---
+Title: PURA: Provably Unbiased and Robust Multi-Bit Watermarking for AI-Generated Text Attribution
+Authors: Yaofei Wang, Jinyang Guo, Shuchao Du, Chao Wang, Qiyi Yao et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-08-23
+Summary: Fine-grained attribution of AI-generated text is becoming increasingly important for accountability and auditing, yet existing multi-bit watermarking methods still struggle to simultaneously preserve the base generation distribution, support high-capacity payloads, and remain recoverable after editing. We present PURA, a provably unbiased and robust multi-bit watermarking method for text attributi...
+
+--- [22] 2608.22186v1 ---
+Title: AudioNoisePrints: Model-free audio watermarking using spatial correlation in flow matching TTS
+Authors: Timothy Tin-Long, Jian Zhu, Aidan Pine, Mengzhe Geng
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-08-23
+Summary: We present AudioNoisePrints, a training-free watermarking pipeline for flow matching and diffusion TTS models, which requires minimal extra computation during inference and does not require retraining the TTS model or reducing the generation quality. We exploited the fact that there are strong correlations between the initial Gaussian noises and the generated outputs in diffusion and flow matching...
+
+--- [23] 2608.20839v1 ---
+Title: SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields
+Authors: Baixin Li, Haiyun He
+Primary cat: cs.CL | All cats: cs.CL, cs.CR, cs.LG
+Published: 2026-08-21
+Summary: Watermarking diffusion language models (DLMs) requires mechanisms compatible with iterative parallel unmasking rather than autoregressive decoding. Existing sampling-based watermarking methods typically inject position-wise i.i.d. perturbations, which can be poorly aligned with DLM decoding dynamics and degrade generation quality. We propose SAC-Copula, a quality-preserving watermarking method for...
+
+--- [24] 2608.20580v1 ---
+Title: Keyed Provenance Watermarking with Complementary Lattice-Based Secure Aggregation for Federated Learning
+Authors: Xinyun Liu, Zhi Lu, Yu Chen, Ronghua Xu
+Primary cat: cs.CR | All cats: cs.CR, cs.LG
+Published: 2026-08-20
+Summary: Federated learning (FL) is vulnerable to multi-level attacks. However, existing methods address them separately, leaving FL exposed to data leakage, unauthorized reuse, and malicious gradient manipulation. In this work, we propose an FL framework that couples keyed context-provenance watermarking with verifiable lattice-based secure aggregation of Real-World Anchored Watermarking and Lattice-Based...
+
+--- [25] 2608.20047v1 ---
+Title: Auditing Cross-Lingual Fairness in Language Model Watermarking
+Authors: Alexander Nemecek, Osama Zafar, Debargha Ganguly, Vikash Singh, Vipin Chaudhary et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.CR, cs.LG
+Published: 2026-08-20
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Awatermark+AND+abs%3Agenerative&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Watermarking schemes for large language model output are evaluated almost exclusively on English text using each scheme's detection threshold and a narrow set of quality measurements. Multilingual deployment exposes evaluation-design choices that are inconsequential on English but determine conclusions cross-lingually. We propose an evaluation framework with four components: detection thresholds c...
+

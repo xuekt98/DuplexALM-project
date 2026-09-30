@@ -1,0 +1,177 @@
+--- [1] 2608.10836v1 ---
+Title: Whisper-Aware LLM: Self-Supervised Uncertainty Learning for Robust Whispered Speech Recognition
+Authors: Gaopeng Xu, Zhenyu Wang, Zheng Xue, Yinfeng Xia, Haitao Yao
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-11
+Summary: The signal ambiguity of whispered speech drives ASR systems toward two opposing failure modes: failing to capture whispered speech or hallucinatory transcription of noise. This paper introduces the Whisper-Aware LLM, a framework that teaches an Audio-LLM to perceive and react to this uncertainty. Our model develops an intrinsic self-awareness by learning to quantify the physical deficiencies of ac...
+
+--- [2] 2607.23840v1 ---
+Title: STEER: Steerable Dyadic Head Avatars
+Authors: Kartik Teotia, Helge Rhodin, Hyeongwoo Kim, Marc Habermann, Christian Theobalt
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Facial movement and expression are central to face-to-face communication, conveying turn-taking, attention, agreement, and engagement alongside speech. While speech-driven facial animation has made strong progress in lip synchronization and audio-conditioned motion generation, most methods treat conversational behavior as an emergent byproduct of audio, or expose only coarse sequence-level affect ...
+
+--- [3] 2607.15367v1 ---
+Title: AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery
+Authors: Raunak B Sinha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-16
+Summary: Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills. We describe AnovaX, a small local-first assistant that runs entirely on the user's computer and treats the desktop itself as its action surface. A single Python process wires together a wake-word gate, a speech pipeline, an LLM planner (Gemini) that emits a JSON pla...
+
+--- [4] 2607.11633v1 ---
+Title: Breaking the 15% Barrier: A Real-World Data-Driven System for Proactive Social Robot Triggered by User Nonverbal Cues
+Authors: Yuga Yano, Yuki Okafuji, Ryo Miyoshi, Sanae Yamashita, Yoshiki Ohira
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-13
+Summary: Service robots in retail stores increasingly rely on cascaded speech pipelines (STT-LLM-TTS), yet many customer-robot interactions are initiated or guided by nonverbal behaviors such as approaching, waving, pointing, or showing items. This paper studies such cues in a real-world store deployment with a teleoperated humanoid robot and shows that a non-negligible portion of robot turns are triggered...
+
+--- [5] 2607.07294v1 ---
+Title: Multimodal Voice Activity Projection for Turn-Taking in Social Robots with Voice-Activity-Related Pretrained Encoders
+Authors: Antonio Cano, Guillermo Pérez, Luis Merino, Randy Gomez
+Primary cat: cs.RO | All cats: cs.RO, cs.AI, cs.CL
+Published: 2026-07-08
+Summary: Turn-taking prediction is a key requirement for social robots involved in human-human interaction, particularly in mediator settings, where the robot must anticipate conversational dynamics rather than merely react to pauses. This work presents a Multimodal Voice Activity Projection (MM-VAP) framework that extends the original audio-only VAP formulation to synchronized audio-visual inputs while pr...
+
+--- [6] 2607.02799v1 ---
+Title: Conversational Human Audio-visual Talking Dialogue Generation
+Authors: Junhao Song, Lluis Guasch, Xilin He, Zhongyu Yang, Yingfang Yuan et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-02
+Summary: Large-scale dyadic interactive audio-visual dialogue (DIAD) datasets provide fundamental data resources for developing humanoid interactive virtual agents and digital humans. However, collecting such data is time-consuming, expensive, and ethically sensitive. To address this, we propose CHAT, a new dyadic interactive audio-visual dialogue generation (DIADG) framework that generates diverse, paired...
+
+--- [7] 2606.26842v1 ---
+Title: voxmap-studio: An open-source speaker diarization annotation tool with built-in cost instrumentation
+Authors: Fumiaki Yamaguchi
+Primary cat: eess.AS | All cats: eess.AS, cs.HC, cs.SD
+Published: 2026-06-25
+Summary: Labeling speaker diarization data is costly, yet annotation tools rarely measure that cost. We present voxmap-studio, an open-source, React-based diarization annotation tool integrated with the pyannote-based diarization ecosystem. Its canvas is initialized by a fast stride-accelerated diarization engine so that the annotator corrects a hypothesis rather than drawing every speaker turn by hand, an...
+
+--- [8] 2605.29353v1 ---
+Title: DeepFake Forensics AI: A Multi-Modal Detection and Blockchain-Anchored Evidence Management Platform
+Authors: Naisha Minnah
+Primary cat: cs.CR | All cats: cs.CR, cs.CV
+Published: 2026-05-28
+Summary: The proliferation of AI-generated synthetic media poses a critical threat to the integrity of digital evidence in legal and forensic contexts. Existing deepfake detection systems typically address a single modality and provide no mechanism for tamper-proof evidence preservation. We present DeepFake Forensics AI, a unified platform that detects synthetic media across image, video, and audio modalit...
+
+--- [9] 2605.07061v2 ---
+Title: Do Joint Audio-Video Generation Models Understand Physics?
+Authors: Zijun Cui, Xiulong Liu, Hao Fang, Mingwei Xu, Jiageng Liu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CV, cs.MM
+Published: 2026-05-08
+Summary: Joint audio-video generation models are rapidly approaching professional production quality, raising a central question: do they understand audio-visual physics, or merely generate plausible sounds and frames that violate real-world consistency? We introduce AV-Phys Bench, a benchmark for evaluating physical commonsense in joint audio-video generation. AV-Phys Bench tests models across three scene...
+
+--- [10] 2604.10367v1 ---
+Title: Beyond Monologue: Interactive Talking-Listening Avatar Generation with Conversational Audio Context-Aware Kernels
+Authors: Yuzhe Weng, Haotian Wang, Xinyi Yu, Xiaoyan Wu, Haoran Xu et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.SD
+Published: 2026-04-11
+Summary: Audio-driven human video generation has achieved remarkable success in monologue scenarios, largely driven by advancements in powerful video generation foundation models. Moving beyond monologues, authentic human communication is inherently a full-duplex interactive process, requiring virtual agents not only to articulate their own speech but also to react naturally to incoming conversational audi...
+
+--- [11] 2604.07823v2 ---
+Title: LPM 1.0: Video-based Character Performance Model
+Authors: Ailing Zeng, Casper Yang, Chauncey Ge, Eddie Zhang, Garvey Xu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2026-04-09
+Summary: Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is what makes a character alive. Learning such performance from video is a promising alternative to traditional 3D pipelines. However, existing video models struggle to jointly achieve high expressiveness, real-time inference, and long-horizon identity stability, a tension we call the...
+
+--- [12] 2602.02738v1 ---
+Title: When Noise Lowers The Loss: Rethinking Likelihood-Based Evaluation in Music Large Language Models
+Authors: Xiaosha Li, Chun Liu, Ziyu Wang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-02-02
+Summary: The rise of music large language models (LLMs) demands robust methods of evaluating output quality, especially in distinguishing high-quality compositions from "garbage music". Curiously, we observe that the standard cross-entropy loss -- a core training metric -- often decrease when models encounter systematically corrupted music, undermining its validity as a standalone quality indicator. To inv...
+
+--- [13] 2512.23650v2 ---
+Title: Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control
+Authors: Zhe Li, Cheng Chi, Yangyang Wei, Boan Zhu, Tao Huang et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-12-29
+Summary: Humans intuitively move to sound, but current humanoid robots lack expressive improvisational capabilities, confined to predefined motions or sparse commands. Generating motion from audio and then retargeting it to robots relies on explicit motion reconstruction, leading to cascaded errors, high latency, and disjointed acoustic-actuation mapping. We propose RoboPerform, the first unified audio-to-...
+
+--- [14] 2505.17223v1 ---
+Title: REACT 2025: the Third Multiple Appropriate Facial Reaction Generation Challenge
+Authors: Siyang Song, Micol Spitale, Xiangyu Kong, Hengde Zhu, Cheng Luo et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-05-22
+Summary: In dyadic interactions, a broad spectrum of human facial reactions might be appropriate for responding to each human speaker behaviour. Following the successful organisation of the REACT 2023 and REACT 2024 challenges, we are proposing the REACT 2025 challenge encouraging the development and benchmarking of Machine Learning (ML) models that can be used to generate multiple appropriate, diverse, re...
+
+--- [15] 2505.02707v1 ---
+Title: Voila: Voice-Language Foundation Models for Real-Time Autonomous Interaction and Voice Role-Play
+Authors: Yemin Shi, Yu Shu, Siwei Dong, Guangyi Liu, Jaward Sesay et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.SD
+Published: 2025-05-05
+Summary: A voice AI agent that blends seamlessly into daily life would interact with humans in an autonomous, real-time, and emotionally expressive manner. Rather than merely reacting to commands, it would continuously listen, reason, and respond proactively, fostering fluid, dynamic, and emotionally resonant interactions. We introduce Voila, a family of large voice-language foundation models that make a s...
+
+--- [16] 2502.13133v1 ---
+Title: AV-Flow: Transforming Text to Audio-Visual Human-like Interactions
+Authors: Aggelina Chatziagapi, Louis-Philippe Morency, Hongyu Gong, Michael Zollhoefer, Dimitris Samaras et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-02-18
+Summary: We introduce AV-Flow, an audio-visual generative model that animates photo-realistic 4D talking avatars given only text input. In contrast to prior work that assumes an existing speech signal, we synthesize speech and vision jointly. We demonstrate human-like speech synthesis, synchronized lip motion, lively facial expressions and head pose; all generated from just text characters. The core premis...
+
+--- [17] 2411.04366v1 ---
+Title: The Concatenator: A Bayesian Approach To Real Time Concatenative Musaicing
+Authors: Christopher Tralie, Ben Cantil
+Primary cat: cs.SD | All cats: cs.SD, cs.IR, cs.MM, eess.AS
+Published: 2024-11-07
+Summary: We present ``The Concatenator,'' a real time system for audio-guided concatenative synthesis. Similarly to Driedger et al.'s ``musaicing'' (or ``audio mosaicing'') technique, we concatenate a set number of windows within a corpus of audio to re-create the harmonic and percussive aspects of a target audio stream. Unlike Driedger's NMF-based technique, however, we instead use an explicitly Bayesian ...
+
+--- [18] 2409.07256v1 ---
+Title: MRAC Track 1: 2nd Workshop on Multimodal, Generative and Responsible Affective Computing
+Authors: Shreya Ghosh, Zhixi Cai, Abhinav Dhall, Dimitrios Kollias, Roland Goecke et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2024-09-11
+Summary: With the rapid advancements in multimodal generative technology, Affective Computing research has provoked discussion about the potential consequences of AI systems equipped with emotional intelligence. Affective Computing involves the design, evaluation, and implementation of Emotion AI and related technologies aimed at improving people's lives. Designing a computational model in affective comput...
+
+--- [19] 2405.03901v1 ---
+Title: OmniActions: Predicting Digital Actions in Response to Real-World Multimodal Sensory Inputs with LLMs
+Authors: Jiahao Nick Li, Yan Xu, Tovi Grossman, Stephanie Santosa, Michelle Li
+Primary cat: cs.HC | All cats: cs.HC, cs.AI
+Published: 2024-05-06
+Summary: The progression to "Pervasive Augmented Reality" envisions easy access to multimodal information continuously. However, in many everyday scenarios, users are occupied physically, cognitively or socially. This may increase the friction to act upon the multimodal information that users encounter in the world. To reduce such friction, future interactive interfaces should intelligently provide quick a...
+
+--- [20] 2403.10825v1 ---
+Title: Affective Behaviour Analysis via Integrating Multi-Modal Knowledge
+Authors: Wei Zhang, Feng Qiu, Chen Liu, Lincheng Li, Heming Du et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2024-03-16
+Summary: Affective Behavior Analysis aims to facilitate technology emotionally smart, creating a world where devices can understand and react to our emotions as humans do. To comprehensively evaluate the authenticity and applicability of emotional behavior analysis techniques in natural environments, the 6th competition on Affective Behavior Analysis in-the-wild (ABAW) utilizes the Aff-Wild2, Hume-Vidmimic...
+
+--- [21] 2403.05185v1 ---
+Title: Personalized Audiobook Recommendations at Spotify Through Graph Neural Networks
+Authors: Marco De Nadai, Francesco Fabbri, Paul Gigioli, Alice Wang, Ang Li et al.
+Primary cat: cs.IR | All cats: cs.IR, cs.LG
+Published: 2024-03-08
+Summary: In the ever-evolving digital audio landscape, Spotify, well-known for its music and talk content, has recently introduced audiobooks to its vast user base. While promising, this move presents significant challenges for personalized recommendations. Unlike music and podcasts, audiobooks, initially available for a fee, cannot be easily skimmed before purchase, posing higher stakes for the relevance ...
+
+--- [22] 2403.03224v1 ---
+Title: Reinforcement Learning Jazz Improvisation: When Music Meets Game Theory
+Authors: Vedant Tapiavala, Joshua Piesner, Sourjyamoy Barman, Feng Fu
+Primary cat: physics.soc-ph | All cats: physics.soc-ph, cs.AI, cs.LG, cs.SD, eess.AS
+Published: 2024-02-25
+Summary: Live performances of music are always charming, with the unpredictability of improvisation due to the dynamic between musicians and interactions with the audience. Jazz improvisation is a particularly noteworthy example for further investigation from a theoretical perspective. Here, we introduce a novel mathematical game theory model for jazz improvisation, providing a framework for studying music...
+
+--- [23] 2212.08570v2 ---
+Title: Audio-based AI classifiers show no evidence of improved COVID-19 screening over simple symptoms checkers
+Authors: Harry Coppock, George Nicholson, Ivan Kiskin, Vasiliki Koutra, Kieran Baker et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2022-12-15
+Summary: Recent work has reported that AI classifiers trained on audio recordings can accurately predict severe acute respiratory syndrome coronavirus 2 (SARSCoV2) infection status. Here, we undertake a large scale study of audio-based deep learning classifiers, as part of the UK governments pandemic response. We collect and analyse a dataset of audio recordings from 67,842 individuals with linked metadata...
+
+--- [24] 2212.07738v4 ---
+Title: A large-scale and PCR-referenced vocal audio dataset for COVID-19
+Authors: Jobie Budd, Kieran Baker, Emma Karoune, Harry Coppock, Selina Patel et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2022-12-15
+Summary: The UK COVID-19 Vocal Audio Dataset is designed for the training and evaluation of machine learning models that classify SARS-CoV-2 infection status or associated respiratory symptoms using vocal audio. The UK Health Security Agency recruited voluntary participants through the national Test and Trace programme and the REACT-1 survey in England from March 2021 to March 2022, during dominant transmi...
+
+--- [25] 2206.10967v1 ---
+Title: Audience Response Prediction from Textual Context
+Authors: Ibrahim Shoer, Berker Turker, Engin Erzin
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2022-06-22
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AReAct+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Humans' perception system closely monitors audio-visual cues during multiparty interactions to react timely and naturally. Learning to predict timing and type of reaction responses during human-human interactions may help us to enrich human-computer interaction applications. In this paper we consider a presenter-audience setting and define an audience response prediction task from the presenter's ...
+

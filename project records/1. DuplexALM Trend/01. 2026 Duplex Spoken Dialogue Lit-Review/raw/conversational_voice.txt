@@ -1,0 +1,177 @@
+--- [1] 2609.34461v1 ---
+Title: CharDuplex: Building Character-Consistent Full-Duplex Spoken Dialogue Models
+Authors: Donghang Wu, Yisi Liu, Chen Chen, Hexin Liu, Eng Siong Chng
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech models are moving voice interaction beyond conventional turn-taking, yet natural conversation is shaped not only by when an agent speaks, but also by how it behaves as a conversational character. We present CharDuplex, a character-driven full-duplex speech model that combines real-time spoken interaction with persona-conditioned behavior. We first adapt GLM-4-Voice to an always-...
+
+--- [2] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [3] 2609.33403v1 ---
+Title: DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration
+Authors: Yupeng Xie, Zhenyang Wang, Liangwei Wang, Jiayi Zhu, Zhouan Shen et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.DB, cs.MA
+Published: 2026-09-27
+Summary: Data videos communicate data insights through dynamic charts, voice narration, and synchronized animations, and have become a widely adopted form of data storytelling. However, producing them requires expertise in data analysis, narrative design, and video editing. Static visualization tools lack narrative and animation capabilities; authoring tools rely on pre-prepared charts rather than raw data...
+
+--- [4] 2609.31967v1 ---
+Title: IndicFDB: Benchmarking Full-Duplex Voice Agents across Indian Languages
+Authors: Rajarshi Roy, Shobhit Banga, Jonathan Raiman, Supriya Paul, Bhaskar Singh et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-25
+Summary: Full-duplex voice agents must handle pauses, take turns, backchannel, and respond to user interruptions in real time. Full-Duplex-Bench evaluates these behaviors, but its English-only corpus and reliance on word-timestamped ASR and an English-prompted LLM judge make it difficult to extend to Indian languages. We introduce IndicFDB, which extends it to ten languages spoken in India with 12,350 samp...
+
+--- [5] 2609.31588v1 ---
+Title: RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue
+Authors: Sathvik Udupa, Naveen Kumar, Ryan Folmsbee
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-25
+Summary: Many voice interaction applications require exact control over both the content and delivery of responses, typically using pre-recorded lines. Recent full-duplex models respond with low latency but cannot guarantee exact content or reproduce a specific recorded performance, while cascaded systems can be constrained to predefined responses at the cost of additional latency. We propose RePlay, a spo...
+
+--- [6] 2609.30774v1 ---
+Title: Dialogue-Based Streaming Audio-Visual Target Speaker Extraction with Predictive Dialogue Information
+Authors: Shuhan Zhang, Wenxuan Wu, Haizhou Li
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-25
+Summary: In face-to-face, real-time communication, a talking agent must track the target speaker through natural pauses, turn-taking, and backchannels, often amid background cross-talk. Most target speaker extraction (TSE) studies, however, rely on simulated mixtures with full or sparse overlap and ignore the turn-taking of real conversations. We therefore introduce, to our knowledge, the first benchmark f...
+
+--- [7] 2609.30692v1 ---
+Title: LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant
+Authors: Md. Mehedi Hasan Naeem, Mst. Kamrunnahar Ruma, Nafiza Anjum, Shakila Sultana, Md. Sujan Ali
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-09-25
+Summary: Reliable voice interaction is essential in environments with limited internet connectivity and strong privacy. However, most existing voice assistants depend on cloud-based services, which leads to latency issues, dependency on internet access, and privacy vulnerabilities. This research presents LUMO (Lightweight Unified Multilingual Orchestrator), a privacy preserving offline voice assistant desi...
+
+--- [8] 2609.29431v1 ---
+Title: Calibrating LLM Judges for Human and AI Conversations
+Authors: Maike Züfle, Patrícia Schmidtová, Vilém Zouhar, Shree Harsha Bokkahalli Satish, Erica Cooper et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-24
+Summary: Measuring how successful a conversation is remains difficult, even for humans judging spoken dialogue. We evaluate state-of-the-art LLMs as pointwise and pairwise judges of conversational success on CANDOR, finding pointwise scoring correlates moderately with human ratings, while pairwise comparison suffers from long transcripts and positional bias. Since this leaves judge scores incomparable acro...
+
+--- [9] 2609.28806v1 ---
+Title: A Harness for Synthesizing Diverse Naturalistic Full-Duplex Conversations
+Authors: Matthew Sun, Vinay Kothapally, Meng Yu, Chao Huang, Hao Zhang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-09-23
+Summary: Full-duplex dialogue systems, which listen while speaking, must distinguish a completed turn from a pause within a turn and an interruption that requests a turn from a brief acknowledgment or speech addressed to a third party. Yet existing conversational corpora provide limited control over these events and limited labels for their intent. We present a pipeline for synthesizing intent-labeled, two...
+
+--- [10] 2609.20152v1 ---
+Title: MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents
+Authors: Pritish Mishra, Ishaan Kumar, Akshat Mandoli, Sudarshan Kamath
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-17
+Summary: Generally, most voice agents are cascaded systems, i.e., an ASR model transcribes the caller's audio, a language model reads the transcript and decides what to say and which backend tools to call, and a TTS model speaks the reply. Nearly all of the decision making happens in the language model, but existing evaluations measure it either too broadly or too narrowly. End-to-end voice benchmarks scor...
+
+--- [11] 2609.19334v2 ---
+Title: A frontend-backend architecture for tool calls in full-duplex speech models
+Authors: Ke Hu, Slyne Deng, Chen Chen, Elena Rastorgueva, Edresson Casanova et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-16
+Summary: Full-duplex speech-to-speech (S2S) models provide natural, low-latency conversational interaction and would benefit from the ability to use external tools and complete voice-agent tasks. We propose a frontend-backend architecture where a duplex speech-to-text frontend learns to emit a delegation token and forwards streaming ASR transcripts to a text-based backend LLM for tool calls. Tool-call resu...
+
+--- [12] 2609.05631v1 ---
+Title: TamilEOT: A Dataset and Model for Semantic End-of-Turn Detection in Tamil Telephone Speech
+Authors: Santhoshkumar V
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-09-04
+Summary: A voice agent has to decide, at every pause, whether the user has finished speaking. Without a model of the language that decision falls back to a fixed silence timeout: set it short and the agent interrupts, set it long and every turn pays the full wait. Open semantic end-of-turn detectors exist, but to our knowledge none covers a South Indian language. We release TamilEOT: 18,485 labelled turn b...
+
+--- [13] 2609.04288v1 ---
+Title: Scalable Context Orchestration for Serving LLMs Over Voice
+Authors: Linyi Jiang, Silvery D. Fu, Yifei Zhu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-03
+Summary: Voice AI applications are gaining popularity as advances in large language models (LLMs) enable more natural and accessible spoken interactions. Serving these applications requires accounting not only for what users say, but also for how they speak (e.g., speaking rate) and the conditions under which their audio is captured and transmitted (e.g., background noise and packet loss). However, existin...
+
+--- [14] 2609.03423v2 ---
+Title: DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Full-duplex voice agents must continuously decide when to speak, listen, backchannel, interrupt, overlap, and yield the conversational floor. Existing benchmarks evaluate these behaviors through explicit turn-management instructions, whereas voice agents are often configured through roles or personas from which appropriate conversational behavior must be inferred. We introduce DuplexSpeechBench-IF...
+
+--- [15] 2608.29241v1 ---
+Title: When Patients Cut In: Extending Clinical Conversational AI Safety to Interruptions
+Authors: Zachary Ellis, Spencer Hazel, Adam Brandt, Yajie Vera He, Ernest Lim et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-29
+Summary: Clinical voice agents are now deployed in routine care, where real patients do not wait their turn: they interrupt. These systems typically use a cascaded architecture (speech-to-text -> LLM -> text-to-speech), so when a patient cuts the agent off mid-utterance, clinically required content can be lost even when the model handles cooperative transcripts well. Yet clinical conversational-AI benchmar...
+
+--- [16] 2609.04250v2 ---
+Title: Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue
+Authors: Chengqian Ma, Wei Tao, Haoyu Zhang, Yiwen Guo
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2026-08-28
+Summary: An avatar that holds a conversation should decide what to say and to move while saying it, yet these abilities live in separate model families: spoken dialogue models produce speech without motion, and co-speech motion models produce motion only from audio handed to them. The standard remedy is a cascade that first generates the spoken response and then runs a motion model over the finished audio,...
+
+--- [17] 2608.27783v3 ---
+Title: SURE-Voice: A Front-End Baseline for Speech-Evidence Filtering in Speech LLMs
+Authors: Mengzhe Geng
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD
+Published: 2026-08-27
+Summary: Speech language models (speech LLMs) can generate plausible outputs from audio that contains no usable speech evidence. We study this failure as a pre-generation support-estimation problem and present SURE-Voice, a training-free front end that decides whether an audio prompt contains intelligible speech evidence before calling a speech LLM. We build SURE-Challenge with a 640-example SURE-Core spli...
+
+--- [18] 2608.24314v2 ---
+Title: Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight
+Authors: Anupam Purwar, Shashank Singh, Kritika Srivastava
+Primary cat: cs.AI | All cats: cs.AI, cs.ET
+Published: 2026-08-25
+Summary: Evaluating conversational voice agents at scale re- quires reliable assessment methods that capture both observ- able interaction quality and the contextual judgment typically provided by human evaluators. We investigate LLM-as-a-Judge evaluation by comparing human judgments with GPT-4.1 and GPT-5 on telecom and retail voice-agent conversations, across conversational quality and safety dimensions....
+
+--- [19] 2608.23780v2 ---
+Title: When Youth Enter The Chat: An Epistemic Shift in the Validation of LLM-Based Measures of Student Talk
+Authors: Liliana Santos-Deonizio, James Malamut, Ramón Antonio Martínez, Dorottya Demszky
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC
+Published: 2026-08-24
+Summary: LLMs are being used increasingly to measure aspects of student discourse (e.g. talk moves, collaboration, equity of voice) at scale. Typically, LLM-based measures of student talk use transcriptions of classroom conversations that only include verbal contributions, which de-contextualize student language. Common practices for validating these measures include comparing outputs against expert annota...
+
+--- [20] 2608.10412v1 ---
+Title: When the Interviewer Is a Bot: Behavior, Breakdowns, and Trust in MLLM-Led Interviews
+Authors: He Zhang, Kambinachi Chukwuma, ChanMin Kim, John M. Carroll
+Primary cat: cs.HC | All cats: cs.HC, cs.CY
+Published: 2026-08-11
+Summary: Semi-structured interviews are a cornerstone of qualitative research but remain labor-intensive. We report an empirical study of what actually happens when the interviewer is an off-the-shelf real-time multimodal LLM (MLLM). We built InterviewBot, a voice-based interviewing system that wraps a real-time MLLM with a researcher-authored outline, and deployed it not as a novel architecture but as a r...
+
+--- [21] 2609.25021v1 ---
+Title: "As a Language Model...": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It
+Authors: Jędrzej Maczan
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL
+Published: 2026-08-09
+Summary: Large Language Models (LLMs) tend to add disclaimers like "I'm just an AI" when asked about something related to themselves. The self-reports from such responses are used in debates about AI safety or self-knowledge of the models, yet what drives them is not well understood. Are the models telling us about themselves or rather how they are deployed? In this work, we show that the chat template wor...
+
+--- [22] 2608.06027v1 ---
+Title: FormBharo: Designing and Evaluating a Voice Agent for Conversational Form Filling in Rural India
+Authors: Aman Dalmia, Sanskriti Midha, Jigar Doshi
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC
+Published: 2026-08-06
+Summary: In India, almost every social benefit starts with a form, yet the people who need these benefits most are often unable to read or write. Reaching them requires a spoken conversation. Today that work falls to frontline health workers who enroll beneficiaries one at a time, a poor use of stretched capacity. We built FormBharo ("fill the form" in Hindi), a voice agent that fills a structured form ove...
+
+--- [23] 2607.20773v1 ---
+Title: HARP: The Human--AI Research Platform
+Authors: Zeshu Zhu, Natalie Friedman, Kevin Weatherwax, Emily Eiben
+Primary cat: cs.HC | All cats: cs.HC, cs.AI
+Published: 2026-07-22
+Summary: Large language models (LLMs) have shifted human--computer interaction from `traditional'' interface journeys toward more conversational exchanges. Researchers studying HCI and UI use moderated usability sessions, interviews, surveys, transcript analysis, and static prototypes. However, static prototypes provide limited opportunities to study interaction with live AI systems or systematically contr...
+
+--- [24] 2607.19947v1 ---
+Title: ETPDesigner: Multi-Agent Orchestration for Interactive Multimodal Electronic Theater Program
+Authors: Mengtian Li, Xinru Guo, Xiaoru Lin, Xiao Rong, Zhifeng Xie et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-22
+Summary: Electronic Theater Programs (ETPs) serve as critical promotional media in the performing arts, comprising a multi-page collection of heterogeneous visual assets such as theatrical posters, performance details, and character portraits. However, existing text-to-image paradigms struggle with such complex design tasks due to their inability to comprehend long-context narratives and maintain visual co...
+
+--- [25] 2607.12235v1 ---
+Title: A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models: An Exploratory Study of Educational Potential
+Authors: Gendo Kumoi, Fumie Watanabe, Tota Suko, Takashi Ishida, Yuko Kuma et al.
+Primary cat: cs.CY | All cats: cs.CY
+Published: 2026-07-14
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aconversational+AND+abs%3Avoice+AND+abs%3Allm&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: This study proposes a semi-automated system for generating dialogue-based lessons using Large Language Models (LLMs) and Text-to-Speech (TTS) technology, and exploratorily examines its educational potential via a practical quasi-experiment. The system augments rather than replaces educators through a three-stage human-in-the-loop workflow (LLM-based slide/narration generation, educator review, aut...
+

@@ -1,0 +1,58 @@
+# Total entries: 8
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AWavMark&max_results=15&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.24159v1 ---
+Title: On the Robustness of Audio Deepfake Detection under Audio Watermarking
+Authors: Zi Qian Yong, Ajinkya Kulkarni, Julia Lau, Hwa Hui Tew, Shu Min Leong et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-25
+Summary: Recent advances in generative audio models have enabled highly realistic synthetic speech, increasing the importance of reliable audio deepfake detection (ADD) systems. While prior studies have primarily focused on adversarially optimized perturbations, the robustness of ADD systems under realistic signal transformations remains insufficiently understood. In this work, we investigate the impact of...
+
+--- [2] 2608.16566v1 ---
+Title: How Fragile Is Your Watermark? Training-Free Structural Removal of Neural Audio Watermarks
+Authors: Likhith Kumara
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-17
+Summary: Neural audio watermarks are increasingly used to attribute and detect AI-generated speech, so their practical value rests on how cheaply an adversary can remove them. Robustness is usually measured by running a fixed battery of distortions blindly against every scheme. We instead make removal diagnostic: from a few clean/watermarked pairs we compute cheap structural probes that reveal where a wate...
+
+--- [3] 2605.07241v2 ---
+Title: Asymmetric Phase Coding Audio Watermarking
+Authors: Guang Yang, Amir Ghasemian, Ninareh Mehrabi, Homa Hosseinmardi
+Primary cat: cs.CR | All cats: cs.CR, eess.AS
+Published: 2026-05-08
+Summary: The proliferation of deepfake audio challenges voice-based authentication systems; passive forensic detectors are sensitive to evolving generative models and to real-world channel distortions. We propose Asymmetric Phase Coding (APC), a training-free cryptographic signing layer for audio, designed as a compact and auditable provenance primitive that can stand alone or be stacked with learned water...
+
+--- [4] 2511.21577v2 ---
+Title: HarmonicAttack: An Adaptive Cross-Domain Audio Watermark Removal
+Authors: Kexin Li, Xiao Hu, Ilya Grishchenko, David Lie
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2025-11-26
+Summary: The availability of high-quality, AI-generated audio raises security challenges such as misinformation campaigns and voice-cloning fraud. A key defense against the misuse of AI-generated audio is by watermarking it, so that it can be easily distinguished from genuine audio. Those seeking to misuse AI-generated audio may attempt to remove audio watermarks, so studying effective watermark removal te...
+
+--- [5] 2510.01968v1 ---
+Title: Multi-bit Audio Watermarking
+Authors: Luca A. Lanzendörfer, Kyle Fearne, Florian Grötschla, Roger Wattenhofer
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2025-10-02
+Summary: We present Timbru, a post-hoc audio watermarking model that achieves state-of-the-art robustness and imperceptibility trade-offs without training an embedder-detector model. Given any 44.1 kHz stereo music snippet, our method performs per-audio gradient optimization to add imperceptible perturbations in the latent space of a pretrained audio VAE, guided by a combined message and perceptual loss. T...
+
+--- [6] 2502.04230v3 ---
+Title: XAttnMark: Learning Robust Audio Watermarking with Cross-Attention
+Authors: Yixin Liu, Lie Lu, Jihui Jin, Lichao Sun, Andrea Fanelli
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR, cs.LG, eess.AS
+Published: 2025-02-06
+Summary: The rapid proliferation of generative audio synthesis and editing technologies has raised serious concerns about copyright infringement, data provenance, and the spread of misinformation via deepfake audio. Watermarking offers a proactive solution by embedding imperceptible yet identifiable and traceable signals into audio content. While recent neural network-based watermarking methods like WavMar...
+
+--- [7] 2406.04840v3 ---
+Title: TraceableSpeech: Towards Proactively Traceable Text-to-Speech with Watermarking
+Authors: Junzuo Zhou, Jiangyan Yi, Tao Wang, Jianhua Tao, Ye Bai et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-06-07
+Summary: Various threats posed by the progress in text-to-speech (TTS) have prompted the need to reliably trace synthesized speech. However, contemporary approaches to this task involve adding watermarks to the audio separately after generation, a process that hurts both speech quality and watermark imperceptibility. In addition, these approaches are limited in robustness and flexibility. To address these ...
+
+--- [8] 2308.12770v3 ---
+Title: WavMark: Watermarking for Audio Generation
+Authors: Guangyu Chen, Yu Wu, Shujie Liu, Tao Liu, Xiaoyong Du et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2023-08-24
+Summary: Recent breakthroughs in zero-shot voice synthesis have enabled imitating a speaker's voice using just a few seconds of recording while maintaining a high level of realism. Alongside its potential benefits, this powerful technology introduces notable risks, including voice fraud and speaker impersonation. Unlike the conventional approach of solely relying on passive methods for detecting synthetic ...
+

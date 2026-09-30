@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=(all%3A%22audio-visual%22+AND+all%3A%22multimodal+LLM%22)+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2512.10882v4 ---
+Title: Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity
+Authors: Hauke Licht
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-12-11
+Summary: Research increasingly leverages audio-visual materials to analyze emotions in political communication. Multimodal large language models (mLLMs) promise to enable such analyses through in-context learning. However, we lack systematic evidence on whether current mLLMs can reliably measure emotions in real-world political settings. This paper closes this gap by evaluating open- and closed-weights mLL...
+

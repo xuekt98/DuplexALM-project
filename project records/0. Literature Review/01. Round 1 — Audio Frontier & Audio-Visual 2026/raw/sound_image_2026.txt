@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22sound%22+AND+abs%3A%22image%22+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2601.02788v1 ---
+Title: SpaceWire-based Data Acquisition Network for the Solar Flare Sounding Rocket Experiment FOXSI-4 and FOXSI-5
+Authors: Shunsaku Nagasawa, Athanasios Pantazides, Kristopher Cooper, Riko Shimizu, Savannah Perez-Piel et al.
+Primary cat: astro-ph.IM | All cats: astro-ph.IM, astro-ph.HE, astro-ph.SR, physics.ins-det
+Published: 2026-01-06
+Summary: We developed a SpaceWire-based data acquisition (DAQ) system for the FOXSI-4 and FOXSI-5 sounding rocket experiments, which aim to observe solar flares with high sensitivity and dynamic range using direct X-ray focusing optics. The FOXSI-4 mission, launched on April 17, 2024, achieved the first direct focusing observation of a GOES M1.6 class solar flare with imaging spectroscopy capabilities in t...
+

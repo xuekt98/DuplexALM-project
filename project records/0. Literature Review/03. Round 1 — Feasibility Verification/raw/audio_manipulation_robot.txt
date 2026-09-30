@@ -1,0 +1,177 @@
+--- [1] 2607.26047v1 ---
+Title: S2A2: Audio-Visual Imitation Learning for Manipulation Tasks Using Acoustic Spatial Information
+Authors: Kaneyoshi Hiratsuka, Benjamin Yen, Ryosuke Kojima
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-28
+Summary: Acoustic information provides rich cues about object location, material properties, and changes caused by contact or motion. This paper introduces a new set of acoustic-aware manipulation tasks for imitation learning, in which robots must use auditory cues to determine manipulation targets. These tasks require sound source localization and identification for active exploration in robotic manipulat...
+
+--- [2] 2606.30988v3 ---
+Title: Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force
+Authors: Jaden Clark, Changhao Wang, Yihuai Gao, Seongheon Hong, Hojung Choi et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-29
+Summary: Robot manipulation often relies on sensory feedback beyond vision, particularly in contact-rich settings where force, tactile, or audio signals reveal interaction states that are not directly observable from images. However, these modalities are often hardware- and task-specific, and large-scale multisensory robot datasets remain scarce. As a result, it is impractical to pretrain policies with eve...
+
+--- [3] 2606.27344v1 ---
+Title: VibeAct: Vibration to Actions for Contact-Rich Reactive Robot Dexterity
+Authors: Yuemin Mao, Uksang Yoo, Jean Oh, Jonathan Francis, Jeffrey Ichnowski
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-25
+Summary: Dexterous manipulation depends on contact events that are fast, local, and often visually occluded. Piezoelectric microphones offer a compact and high-bandwidth way to sense these interactions, but the resulting vibro-acoustic signals are difficult to simulate faithfully enough for end-to-end sim-to-real policy learning on dexterous robot hands. We propose VibeAct, a framework that bridges real vi...
+
+--- [4] 2606.22332v2 ---
+Title: Tactile Genesis: Exploring Tactile Sensors at Scale for Learning Dexterous Tasks
+Authors: Trinity Chung, Kashu Yamazaki, Dhruv Patel, Alexis Duburcq, Yiling Qiao et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-21
+Summary: Tactile sensing is critical for contact-rich dexterous manipulation, yet it remains unclear which tactile abstractions a policy needs and when richer tactile fields justify their hardware cost. This is hard to study empirically: each sensor effectively defines a new robot, and no lab can replicate the same learning experiment across all of them. We present Tactile Genesis, a GPU-parallel tactile s...
+
+--- [5] 2606.21372v1 ---
+Title: NAC: Neural Action Codec for Vision-Language-Action Models
+Authors: Ahad Jawaid, Yu Xiang
+Primary cat: cs.RO | All cats: cs.RO, cs.LG
+Published: 2026-06-19
+Summary: Vision-language-action (VLA) models rely on discrete action tokenizers to bridge continuous robot control and autoregressive sequence modeling, yet existing tokenizers often trade off between compression, latency, and downstream performance. We revisit this design through the lens of neural audio codecs-convolutional encoder-decoder architectures with residual vector quantization that serve as the...
+
+--- [6] 2606.17598v2 ---
+Title: MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation
+Authors: Xingyuming Liu, Ruichun Ma, Heyu Guo, Qixiu Li, Qingwen Yang et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-06-16
+Summary: Humans naturally leverage diverse sensing modalities to interact with the physical world, while most Vision-Language-Action (VLA) models for robotics rely solely on RGB observations. This limits their ability to perceive physical properties that are difficult or impossible to infer from RGB cameras, such as temperature, sound, or radar response. We present MuseVLA, an adaptive multimodal sensing V...
+
+--- [7] 2604.08528v1 ---
+Title: A-SLIP: Acoustic Sensing for Continuous In-hand Slip Estimation
+Authors: Uksang Yoo, Yuemin Mao, Jean Oh, Jeffrey Ichnowski
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-04-09
+Summary: Reliable in-hand manipulation requires accurate real-time estimation of slip between a gripper and a grasped object. Existing tactile sensing approaches based on vision, capacitance, or force-torque measurements face fundamental trade-offs in form factor, durability, and their ability to jointly estimate slip direction and magnitude. We present A-SLIP, a multi-channel acoustic sensing system integ...
+
+--- [8] 2603.16086v1 ---
+Title: Towards the Vision-Sound-Language-Action Paradigm: The HEAR Framework for Sound-Centric Manipulation
+Authors: Chang Nie, Tianchen Deng, Guangming Wang, Zhe Liu, Hesheng Wang
+Primary cat: cs.RO | All cats: cs.RO, cs.AI, cs.CV, cs.SD
+Published: 2026-03-17
+Summary: While recent Vision-Language-Action (VLA) models have begun to incorporate audio, they typically treat sound as static pre-execution prompts or focus exclusively on human speech. This leaves a significant gap in real-time, sound-centric manipulation where fleeting environmental acoustics provide critical state verification during task execution. Consequently, key sounds are easily missed due to lo...
+
+--- [9] 2602.13640v1 ---
+Title: Hierarchical Audio-Visual-Proprioceptive Fusion for Precise Robotic Manipulation
+Authors: Siyuan Li, Jiani Lu, Yu Song, Xianren Li, Bo An et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2026-02-14
+Summary: Existing robotic manipulation methods primarily rely on visual and proprioceptive observations, which may struggle to infer contact-related interaction states in partially observable real-world environments. Acoustic cues, by contrast, naturally encode rich interaction dynamics during contact, yet remain underexploited in current multimodal fusion literature. Most multimodal fusion approaches impl...
+
+--- [10] 2602.02396v1 ---
+Title: PRISM: Performer RS-IMLE for Single-pass Multisensory Imitation Learning
+Authors: Amisha Bhaskar, Pratap Tokekar, Stefano Di Cairano, Alexander Schperberg
+Primary cat: cs.RO | All cats: cs.RO, cs.LG
+Published: 2026-02-02
+Summary: Robotic imitation learning typically requires models that capture multimodal action distributions while operating at real-time control rates and accommodating multiple sensing modalities. Although recent generative approaches such as diffusion models, flow matching, and Implicit Maximum Likelihood Estimation (IMLE) have achieved promising results, they often satisfy only a subset of these requirem...
+
+--- [11] 2601.20555v1 ---
+Title: Vibro-Sense: Robust Vibration-based Impulse Response Localization and Trajectory Tracking for Robotic Hands
+Authors: Wadhah Zai El Amri, Nicolás Navarro-Guerrero
+Primary cat: cs.RO | All cats: cs.RO, eess.SP
+Published: 2026-01-28
+Summary: Rich contact perception is crucial for robotic manipulation, yet traditional tactile skins remain expensive and complex to integrate. This paper presents a scalable alternative: high-accuracy whole-body touch localization via vibro-acoustic sensing. By equipping a robotic hand with seven low-cost piezoelectric microphones and leveraging an Audio Spectrogram Transformer, we decode the vibrational s...
+
+--- [12] 2512.08405v1 ---
+Title: Learning Robot Manipulation from Audio World Models
+Authors: Fan Zhang, Michael Gienger
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-12-09
+Summary: World models have demonstrated impressive performance on robotic learning tasks. Many such tasks inherently demand multimodal reasoning; for example, filling a bottle with water will lead to visual information alone being ambiguous or incomplete, thereby requiring reasoning over the temporal evolution of audio, accounting for its underlying physical properties and pitch patterns. In this paper, we...
+
+--- [13] 2511.18299v1 ---
+Title: MicCheck: Repurposing Off-the-Shelf Pin Microphones for Easy and Low-Cost Contact Sensing
+Authors: Steven Oh, Tai Inui, Magdeline Kuan, Jia-Yeu Lin
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-11-23
+Summary: Robotic manipulation tasks are contact-rich, yet most imitation learning (IL) approaches rely primarily on vision, which struggles to capture stiffness, roughness, slip, and other fine interaction cues. Tactile signals can address this gap, but existing sensors often require expensive, delicate, or integration-heavy hardware. In this work, we introduce MicCheck, a plug-and-play acoustic sensing ap...
+
+--- [14] 2511.15956v3 ---
+Title: The Role of Consequential and Functional Sound in Human-Robot Interaction: Toward Audio Augmented Reality Interfaces
+Authors: Aliyah Smith, Monroe Kennedy
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-11-20
+Summary: Robot sound, encompassing both consequential operational noise and intentionally designed auditory cues, plays an important role in human-robot interaction (HRI). Developing a deeper understanding of how robot sounds influence human experience, and how technologies such as augmented reality (AR) modulate these effects, can enable the design of more socially acceptable robots and more effective, in...
+
+--- [15] 2511.09958v1 ---
+Title: Audio-VLA: Adding Contact Audio Perception to Vision-Language-Action Model for Robotic Manipulation
+Authors: Xiangyi Wei, Haotian Zhang, Xinyi Cao, Siyu Xie, Weifeng Ge et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.SD
+Published: 2025-11-13
+Summary: The Vision-Language-Action models (VLA) have achieved significant advances in robotic manipulation recently. However, vision-only VLA models create fundamental limitations, particularly in perceiving interactive and manipulation dynamic processes. This paper proposes Audio-VLA, a multimodal manipulation policy that leverages contact audio to perceive contact events and dynamic process feedback. Au...
+
+--- [16] 2511.07619v2 ---
+Title: CAVER: Curious Audiovisual Exploring Robot
+Authors: Luca Macesanu, Boueny Folefack, Samik Singh, Ruchira Ray, Ben Abbatematteo et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-11-10
+Summary: Multimodal audiovisual perception can enable new avenues for robotic manipulation, from better material classification to the imitation of demonstrations for which only audio signals are available (e.g., playing a tune by ear). However, to unlock such multimodal potential, robots need to learn the correlations between an object's visual appearance and the sound it generates when they interact with...
+
+--- [17] 2510.05619v1 ---
+Title: Teaching Machines to Speak Using Articulatory Control
+Authors: Akshay Anand, Chenxu Guo, Cheol Jun Cho, Jiachen Lian, Gopala Anumanchipalli
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-10-07
+Summary: Current speech production systems predominantly rely on large transformer models that operate as black boxes, providing little interpretability or grounding in the physical mechanisms of human speech. We address this limitation by proposing a new framework: speech generation through explicit articulatory control. This reframes speech as a motor control task similar to robotic manipulation. Our app...
+
+--- [18] 2509.14383v1 ---
+Title: RLBind: Adversarial-Invariant Cross-Modal Alignment for Unified Robust Embeddings
+Authors: Yuhong Lu
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2025-09-17
+Summary: Unified multi-modal encoders that bind vision, audio, and other sensors into a shared embedding space are attractive building blocks for robot perception and decision-making. However, on-robot deployment exposes the vision branch to adversarial and natural corruptions, making robustness a prerequisite for safety. Prior defenses typically align clean and adversarial features within CLIP-style encod...
+
+--- [19] 2508.00852v1 ---
+Title: Visuo-Acoustic Hand Pose and Contact Estimation
+Authors: Yuemin Mao, Uksang Yoo, Yunchao Yao, Shahram Najam Syed, Luca Bondi et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.CV, cs.LG, cs.RO
+Published: 2025-07-13
+Summary: Accurately estimating hand pose and hand-object contact events is essential for robot data-collection, immersive virtual environments, and biomechanical analysis, yet remains challenging due to visual occlusion, subtle contact cues, limitations in vision-only sensing, and the lack of accessible and flexible tactile sensing. We therefore introduce VibeMesh, a novel wearable system that fuses vision...
+
+--- [20] 2506.14754v1 ---
+Title: Tactile Beyond Pixels: Multisensory Touch Representations for Robot Manipulation
+Authors: Carolina Higuera, Akash Sharma, Taosha Fan, Chaithanya Krishna Bodduluri, Byron Boots et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-06-17
+Summary: We present Sparsh-X, the first multisensory touch representations across four tactile modalities: image, audio, motion, and pressure. Trained on ~1M contact-rich interactions collected with the Digit 360 sensor, Sparsh-X captures complementary touch signals at diverse temporal and spatial scales. By leveraging self-supervised learning, Sparsh-X fuses these modalities into a unified representation ...
+
+--- [21] 2506.06862v1 ---
+Title: Multimodal Spatial Language Maps for Robot Navigation and Manipulation
+Authors: Chenguang Huang, Oier Mees, Andy Zeng, Wolfram Burgard
+Primary cat: cs.RO | All cats: cs.RO, cs.AI, cs.CV, cs.LG, cs.SD
+Published: 2025-06-07
+Summary: Grounding language to a navigating agent's observations can leverage pretrained multimodal foundation models to match perceptions to object or event descriptions. However, previous approaches remain disconnected from environment mapping, lack the spatial precision of geometric maps, or neglect additional modality information beyond vision. To address this, we propose multimodal spatial language ma...
+
+--- [22] 2505.18876v2 ---
+Title: DiffusionRL: Efficient Training of Diffusion Policies for Robotic Grasping Using RL-Adapted Large-Scale Datasets
+Authors: Maria Makarova, Qian Liu, Dzmitry Tsetserukou
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-05-24
+Summary: Diffusion models have been successfully applied in areas such as image, video, and audio generation. Recent works show their promise for sequential decision-making and dexterous manipulation, leveraging their ability to model complex action distributions. However, challenges persist due to the data limitations and scenario-specific adaptation needs. In this paper, we address these challenges by pr...
+
+--- [23] 2505.12665v1 ---
+Title: Audio-Visual Contact Classification for Tree Structures in Agriculture
+Authors: Ryan Spears, Moonyoung Lee, George Kantor, Oliver Kroemer
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-05-19
+Summary: Contact-rich manipulation tasks in agriculture, such as pruning and harvesting, require robots to physically interact with tree structures to maneuver through cluttered foliage. Identifying whether the robot is contacting rigid or soft materials is critical for the downstream manipulation policy to be safe, yet vision alone is often insufficient due to occlusion and limited viewpoints in this unst...
+
+--- [24] 2504.14573v1 ---
+Title: Modality Selection and Skill Segmentation via Cross-Modality Attention
+Authors: Jiawei Jiang, Kei Ota, Devesh K. Jha, Asako Kanezaki
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2025-04-20
+Summary: Incorporating additional sensory modalities such as tactile and audio into foundational robotic models poses significant challenges due to the curse of dimensionality. This work addresses this issue through modality selection. We propose a cross-modality attention (CMA) mechanism to identify and selectively utilize the modalities that are most informative for action generation at each timestep. Fu...
+
+--- [25] 2504.13351v1 ---
+Title: Chain-of-Modality: Learning Manipulation Programs from Multimodal Human Videos with Vision-Language-Models
+Authors: Chen Wang, Fei Xia, Wenhao Yu, Tingnan Zhang, Ruohan Zhang et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.AI, cs.HC, cs.LG, cs.MM
+Published: 2025-04-17
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Amanipulation+AND+abs%3Arobot&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Learning to perform manipulation tasks from human videos is a promising approach for teaching robots. However, many manipulation tasks require changing control parameters during task execution, such as force, which visual data alone cannot capture. In this work, we leverage sensing devices such as armbands that measure human muscle activities and microphones that record sound, to capture the detai...
+

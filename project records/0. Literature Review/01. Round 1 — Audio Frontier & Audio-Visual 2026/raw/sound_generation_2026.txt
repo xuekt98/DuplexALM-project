@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22sound+generation%22+AND+abs%3A%222026%22&max_results=30&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.27720v1 ---
+Title: Measuring the Installed Base: Nordic Health Dataset Catalogues Against HealthDCAT-AP Release 7
+Authors: Fabio Rovai
+Primary cat: cs.DL | All cats: cs.DL, cs.CY
+Published: 2026-08-27
+Summary: The European Health Data Space requires member states to publish machine readable descriptions of the health datasets available for secondary use, and the European Commission publishes HealthDCAT-AP as the metadata profile those descriptions are meant to satisfy. The profile has been designed and validated against curated examples, never against the catalogues already live. We report that measurem...
+

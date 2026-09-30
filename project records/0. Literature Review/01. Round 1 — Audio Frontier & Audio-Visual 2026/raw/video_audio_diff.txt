@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22video%22+AND+abs%3A%22audio%22+AND+abs%3A%22diffusion%22+AND+abs%3A%222026%22&max_results=15&sortBy=submittedDate&sortOrder=descending
+--- [1] 2502.17119v2 ---
+Title: Diffusion and Flow Matching Models for Tabular Data: A Survey
+Authors: Zhong Li, Qi Huang, Lincen Yang, Jiayang Shi, Zhao Yang et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2025-02-24
+Summary: Deep generative models have made rapid progress in image, text, audio, and video generation, and are increasingly being applied to structured records. For tabular data, however, generative modeling remains difficult: a dataset may contain numerical and categorical attributes, missing values, sensitive fields, imbalanced categories, complex feature dependencies, and domain constraints. Earlier tabu...
+

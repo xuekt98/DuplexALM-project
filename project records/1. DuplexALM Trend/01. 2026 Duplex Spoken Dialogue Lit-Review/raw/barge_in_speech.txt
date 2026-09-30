@@ -1,0 +1,149 @@
+--- [1] 2609.24547v2 ---
+Title: MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions
+Authors: Lijian Lin, Ye Zhu, Fan Zhang, Yunfei Liu, Baofeng Li et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-21
+Summary: % !TEX root = ../main.tex Real-time embodied companion interaction requires a robot to infer user intent from streaming speech, generate timely responses, and execute expressive, interruptible motions. Existing systems typically decouple dialogue orchestration from gesture synthesis, relying on offline motion generation from complete audio. This separation leaves open how a deployed robot can dyna...
+
+--- [2] 2609.19856v1 ---
+Title: Foreground Voice Activity Detection: Learning Speaker Selectivity from Supervision
+Authors: Guangzhao Yang, Muhammad Huzaifah, Yu Pan, Jinya Sakurai, Ningjie Bai
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-17
+Summary: Voice activity detection (VAD) fronts most voice-agent pipelines, yet production detectors treat all human speech, background talkers included, as valid activity; in crowded settings this floods recognition, stalls turn-taking, and triggers false barge-in. We formalize Foreground VAD (FVAD): a frame-synchronous, enrollment-free task in which only the dominant speaker, defined by sustained presence...
+
+--- [3] 2609.15759v1 ---
+Title: Enabling Streaming User Transcription in Full-Duplex Speech-to-Speech Models
+Authors: Ke Hu, Nourchene Ferchichi, Edresson Casanova, Ankita Pasad, Elena Rastorgueva et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-14
+Summary: Full-duplex speech-to-speech (S2S) models enable natural conversational AI by allowing simultaneous listening and speaking. However, these models typically lack inherent user speech transcription, which is essential for applications such as conversation logging, accessibility features, and quality monitoring. In this work, we propose an efficient method to add streaming ASR capabilities to an exis...
+
+--- [4] 2609.12623v1 ---
+Title: SteerDuplex: Steerable Duplex Speech Dialogue Models
+Authors: Utkarsh Tyagi, Ramaneswaran Selvakumar, Advait Gosai, Sonal Kumar, Nikhil Barhate et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-09-11
+Summary: Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident...
+
+--- [5] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [6] 2609.00441v1 ---
+Title: Conversation Coach: A Voice-enabled AI System that Helps Practice Difficult Workplace Conversations
+Authors: Fanyou Wu, Suraj Maharjan, Ainur Yessenalina, Dennis Xu Chen, Rahul Srivastava et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-31
+Summary: Effective manager-employee communication is critical for retaining high performers and developing underperformers, yet training managers in these skills remains costly. Text-based chatbots offer a scalable approach but cannot provide realistic rehearsal: managers need to practice speaking aloud to build confidence before high-stakes conversations. In this paper, we propose Conversation Coach, a vo...
+
+--- [7] 2608.13831v1 ---
+Title: VoiceChat-TTS: A Low-Latency Continuous Speech Synthesis Model for Interactive Agents
+Authors: Edresson Casanova, Jaehyeon Kim, Mariana Graterol Fuenmayor, Shehzeen Hussain, Viacheslav Klimkov et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-08-13
+Summary: Spoken dialogue is a natural form of human--computer interaction, yet most speech language models remain limited to turn-based operation and lack real-time adaptability, such as user barge-in. Recent duplex speech-to-speech and speech-to-text models reduce latency by replacing multi-stage pipelines, but often compromise speech quality because accurate ASR, interruption handling, and high-fidelity ...
+
+--- [8] 2606.22983v1 ---
+Title: LiveServe: Interaction-Aware Serving for Real-Time Omni-Modal LLMs
+Authors: Xiangyu Zhi, Peiqi Yin, Sheng Guan, Chenguang Zheng, James Cheng et al.
+Primary cat: cs.DC | All cats: cs.DC
+Published: 2026-06-22
+Summary: Realtime omni-modal LMs support speech-centric conversations where users stream inputs, hear generated audio, and interrupt freely. Existing Omni-LM serving systems still rely on throughput-oriented LLM scheduling and LRU KV offloading. These policies ignore audio playback and multi-turn reuse: they may generate tokens far beyond what users hear, wasting work after barge-in, and evict KV state nee...
+
+--- [9] 2606.19595v1 ---
+Title: IHBench: Evaluating Post-Interruption Recovery in Voice Agents with Structured Workflows
+Authors: Ahmad Salimi, Wentao Ma, Yuzhi Tang, Dongming Shen, Mu Li et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-06-17
+Summary: Voice agents deployed in structured workflows (customer service, healthcare scheduling, account management) must handle frequent user interruptions while maintaining progress through multi-step procedures. Existing benchmarks for speech-capable models focus on the timing of interruptions: barge-in detection, endpointing, and turn-taking dynamics. They leave unmeasured what happens after the interr...
+
+--- [10] 2606.14528v1 ---
+Title: BayLing-Duplex: Native Full-Duplex Speech Dialogue with a Single Autoregressive LLM
+Authors: Qingkai Fang, Shoutao Guo, Yang Feng
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-06-12
+Summary: Real-time, full-duplex speech interaction is a key feature of next-generation spoken chatbots, allowing the model to listen and speak at the same time and to handle natural phenomena such as overlap, hesitation, and barge-in. Existing speech language models (SpeechLMs) such as LLaMA-Omni and GLM-4-Voice are still turn-based and rely on an external Voice Activity Detection (VAD) module to mark the ...
+
+--- [11] 2603.16783v2 ---
+Title: SpokenUS: A Spoken User Simulator for Task-Oriented Dialogue
+Authors: Jonggeun Lee, Junseong Pyo, Jeongmin Park, Yohan Jo
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-03-17
+Summary: Robust voice agents require exposure to the full diversity of how people interact through speech. However, obtaining enough spoken interactions is prohibitively expensive. Building spoken user simulators that address this requires large-scale spoken task-oriented dialogue (TOD) data encompassing spoken user behaviors, yet existing datasets are limited in scale and domain coverage, with no systemat...
+
+--- [12] 2510.16756v2 ---
+Title: End-to-end Listen, Look, Speak and Act
+Authors: Siyin Wang, Wenyi Yu, Xianzhao Chen, Xiaohai Tian, Jun Zhang et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV, cs.RO, eess.AS
+Published: 2025-10-19
+Summary: Human interaction is inherently multimodal and full-duplex: we listen while watching, speak while acting, and fluidly adapt to turn-taking and interruptions. Realizing these capabilities is essential for building models simulating humans. We present ELLSA (End-to-end Listen, Look, Speak and Act), which, to our knowledge, is the first full-duplex, end-to-end model that simultaneously perceives and ...
+
+--- [13] 2510.12947v3 ---
+Title: HyWA: Architecture-Preserving Personalized Voice Activity Detection for Full-Duplex Voice Assistants
+# Total entries: 21
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Abarge-in+AND+abs%3Aspeech&max_results=25&sortBy=submittedDate&sortOrder=descending
+Authors: Hamed Jafarzadeh Asl, Amin Edraki, Mahsa Ghazvini Nejad, Masoud Asgharian, Mohammadreza Sadeghi et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.SD
+Published: 2025-10-14
+Summary: Voice activity detection (VAD) serves as an early gate in voice-assistant pipelines for smart devices. Because conventional VADs respond to speech from any speaker, nearby conversations and residual assistant playback lead to unwanted triggers, degrade the user experience, and waste computational resources. Personalized voice activity detection (PVAD) addresses this limitation by detecting speech ...
+
+--- [14] 2510.05150v3 ---
+Title: Chronological Thinking in Full-Duplex Spoken Dialogue Language Models
+Authors: Donghang Wu, Haoyang Zhang, Chen Chen, Tianyu Zhang, Fei Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2025-10-02
+Summary: Recent advances in spoken dialogue language models (SDLMs) reflect growing interest in shifting from turn-based to full-duplex systems, where the models continuously perceive user speech streams while generating responses. This simultaneous listening and speaking design enables real-time interaction and the agent can handle dynamic conversational behaviors like user barge-in. However, during the l...
+
+--- [15] 2509.06502v1 ---
+Title: FireRedChat: A Pluggable, Full-Duplex Voice Interaction System with Cascaded and Semi-Cascaded Implementations
+Authors: Junjie Chen, Yao Hu, Junjie Li, Kangyue Li, Kun Liu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.HC
+Published: 2025-09-08
+Summary: Full-duplex voice interaction allows users and agents to speak simultaneously with controllable barge-in, enabling lifelike assistants and customer service. Existing solutions are either end-to-end, difficult to design and hard to control, or modular pipelines governed by turn-taking controllers that ease upgrades and per-module optimization; however, prior modular frameworks depend on non-open co...
+
+--- [16] 2505.15670v4 ---
+Title: SALM-Duplex: Efficient and Direct Duplex Modeling for Speech-to-Speech Language Model
+Authors: Ke Hu, Ehsan Hosseini-Asl, Chen Chen, Edresson Casanova, Subhankar Ghosh et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-05-21
+Summary: Spoken dialogue is an intuitive form of human-computer interaction, yet current speech language models often remain constrained to turn-based exchanges, lacking real-time adaptability such as user barge-in. We propose a novel duplex speech to speech (S2S) architecture featuring continuous user inputs and codec agent outputs with channel fusion that directly models simultaneous user and agent strea...
+
+--- [17] 2505.17060v1 ---
+Title: SALMONN-omni: A Standalone Speech LLM without Codec Injection for Full-duplex Conversation
+Authors: Wenyi Yu, Siyin Wang, Xiaoyu Yang, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2025-05-17
+Summary: In order to enable fluid and natural human-machine speech interaction, existing full-duplex conversational systems often adopt modular architectures with auxiliary components such as voice activity detectors, interrupters, conversation state predictors, or multiple LLMs. These systems, however, suffer from error accumulation across modules and struggle with key challenges such as context-dependent...
+
+--- [18] 2502.14145v3 ---
+Title: LLM-Enhanced Dialogue Management for Full-Duplex Spoken Dialogue Systems
+Authors: Hao Zhang, Weiwei Li, Rilin Chen, Vinay Kothapally, Meng Yu et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2025-02-19
+Summary: Achieving full-duplex communication in spoken dialogue systems (SDS) requires real-time coordination between listening, speaking, and thinking. This paper proposes a semantic voice activity detection (VAD) module as a dialogue manager (DM) to efficiently manage turn-taking in full-duplex SDS. Implemented as a lightweight (0.5B) LLM fine-tuned on full-duplex conversation data, the semantic VAD pred...
+
+--- [19] 2411.18138v1 ---
+Title: SALMONN-omni: A Codec-free LLM for Full-duplex Speech Understanding and Generation
+Authors: Wenyi Yu, Siyin Wang, Xiaoyu Yang, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2024-11-27
+Summary: Full-duplex multimodal large language models (LLMs) provide a unified framework for addressing diverse speech understanding and generation tasks, enabling more natural and seamless human-machine conversations. Unlike traditional modularised conversational AI systems, which separate speech recognition, understanding, and text-to-speech generation into distinct components, multimodal LLMs operate as...
+
+--- [20] 2309.06096v3 ---
+Title: iPhonMatchNet: Zero-Shot User-Defined Keyword Spotting Using Implicit Acoustic Echo Cancellation
+Authors: Yong-Hyeok Lee, Namhyun Cho
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2023-09-12
+Summary: In response to the increasing interest in human--machine communication across various domains, this paper introduces a novel approach called iPhonMatchNet, which addresses the challenge of barge-in scenarios, wherein user speech overlaps with device playback audio, thereby creating a self-referencing problem. The proposed model leverages implicit acoustic echo cancellation (iAEC) techniques to inc...
+
+--- [21] 2211.13280v1 ---
+Title: Device Directedness with Contextual Cues for Spoken Dialog Systems
+Authors: Dhanush Bekal, Sundararajan Srinivasan, Sravan Bodapati, Srikanth Ronanki, Katrin Kirchhoff
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2022-11-23
+Summary: In this work, we define barge-in verification as a supervised learning task where audio-only information is used to classify user spoken dialogue into true and false barge-ins. Following the success of pre-trained models, we use low-level speech representations from a self-supervised representation learning model for our downstream classification task. Further, we propose a novel technique to infu...
+

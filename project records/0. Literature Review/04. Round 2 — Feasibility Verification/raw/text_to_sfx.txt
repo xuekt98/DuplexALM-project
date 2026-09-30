@@ -1,0 +1,142 @@
+--- [1] 2609.06991v1 ---
+Title: AV-SafetyBench: A Safety Benchmark for Text-to-Audio-Video Generation
+Authors: Suah Choi, Tae-Young Lee, Gyeong-Moon Park
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-07
+Summary: Recent text-to-audio-video (T2AV) models jointly generate video, speech, sound effects, and ambience from a single text prompt. This capability poses new challenges for safety evaluation, as unsafe content may be conveyed through the audio track or arise only when the visual and audio tracks are interpreted jointly. Existing safety benchmarks largely focus on either generated video or generated au...
+
+--- [2] 2609.03586v1 ---
+Title: The Attention Triangle in Audio-Video Models
+Authors: Sagi Polaczek, Noa Kraicer, Gal Metzer, Zhuo Ning, Ali Mahdavi-Amiri et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same mechanism can introduce subtle and systematic semantic leakage. We study these models by probing and analyzing the ``attention triangle,'' comprising the three cross-attention edges connecting the text, audio, and video streams, and examine how semantic information is routed acro...
+
+--- [3] 2608.30689v1 ---
+Title: CANVAS: Consistency-Aware Navigation via Visual Adaptive Sampling for Long-Context Text-to-SVG Generation
+Authors: Yichen Wu, Haoxuan Qu, Yihang Lou, Hossein Rahmani, Jun Liu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Autoregressive large models have recently advanced Text-to-SVG generation from simple icons to complex, long-context graphics, yet standard autoregressive decoding often fails to maintain global consistency across geometry, layout, occlusion, and composition. We introduce CANVAS (Consistency-Aware Navigation via Visual Adaptive Sampling), a training-free, render-aware inference framework that comb...
+
+--- [4] 2608.23287v1 ---
+Title: Poisson Subspace Clustering: Focusing on the Essentials in Count Data
+Authors: Collin Leiber, Kai Puolamäki, Heikki Mannila
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-08-24
+Summary: Count data represented as a matrix of non-negative integer values, such as contingency tables, are prevalent across diverse domains. When clustering such data sets, specific methods are required, as generic algorithms often fail to consider their unique distributional properties, leading to unreliable outputs. An effective strategy is to use well-established statistical models such as the Poisson ...
+
+--- [5] 2608.13306v1 ---
+Title: Completeness and incompleteness of basic matching logic
+Authors: Xiaohong Chen, Grigore Rosu
+Primary cat: cs.LO | All cats: cs.LO
+Published: 2026-08-13
+Summary: Basic matching logic is matching logic without definedness. Symbols are interpreted as set-valued operations, element variables denote singletons and are bound by $\exists$, and no connective uniformly internalizes totality. For basic matching logic without fixpoints over an arbitrary one-sorted finitary signature, we prove \emph{global completeness} ($Γ\vDash\varphi$ iff $Γ\vdash\varphi$, for arb...
+
+--- [6] 2608.11804v1 ---
+Title: MiDashengLM-Gen: Unified Audio Scene Generation via LLM-Driven Autoregressive Flow Matching
+Authors: Xingwei Sun, Heinrich Dinkel, Gang Li, Jiahao Mei, Yadong Niu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-12
+Summary: Generating coherent audio scenes that simultaneously blend speech, music, and sound effects remains a significant challenge. Current approaches typically rely on a disjointed pipeline where a frozen, decoupled text encoder feeds a separate audio decoder, limiting cross-modal optimization and leading to poor speech intelligibility. To overcome these limitations, we introduce MiDashengLM-Gen, an end...
+
+--- [7] 2608.09571v1 ---
+Title: SonicWeave: Chunk-Routed Mixture-of-Experts for Unified Audio Scene Generation
+Authors: Yunrui Cai, Xu Li, Yucheng Zhou, Jinchao Li, Dingdong Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-10
+Summary: Text-conditioned general audio generation is moving beyond isolated speech, music, and sound-effect synthesis toward a single model that can compose them into controllable, coherent audio scenes. This unified setting is particularly challenging: heterogeneous components impose conflicting structural requirements on a shared backbone, while a complex mixed scene may contain locally distinct or over...
+
+--- [8] 2608.03742v1 ---
+Title: AI-Based Sound Effect Generation: A Narrative Review of Generative Models Across Input Modalities
+Authors: Sandy Abdo, Bill Kapralos, Priyamvada Tripathi, KC Collins, Adam Dubrowski
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-04
+Summary: Sound effects play a crucial role in conveying actions, events, and environmental cues across digital applications, often requiring a high degree of variation and contextual adaptability. Artificial intelligence (AI)-driven audio generative models are rapidly growing in popularity and have the potential to transform the way sound is synthesized and used across various applications. In response to ...
+
+--- [9] 2608.03433v1 ---
+Title: Cross-cultural evaluation of taste-sound correspondences in AI-generated music
+Authors: Matteo Spanio, Massimiliano Zampini, Luisa Torri, Riccardo Migliavada, Bruno Mesz et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.SD
+Published: 2026-08-04
+Summary: Sonic seasoning research has shown that listeners attribute systematic gustatory and emotional meaning to sound, and text-to-music generative artificial intelligence has recently been used to render gustatory prompts as musical stimuli. Whether the taste-sound correspondences acquired by such models hold beyond the cultural context in which they were validated remains untested. We extended a singl...
+
+--- [10] 2608.03093v1 ---
+Title: DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling
+Authors: Haocheng Fu, Yuqi Qian, Luyao Wang, Yun Cao
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-08-04
+Summary: Large language model (LLM) watermarking provides an important mechanism for tracing the provenance of generated text. Existing statistical watermarks are often effective and robust, but most of them rely on private detection keys, which centralizes verification and complicates public auditing. Recent public or publicly verifiable watermarking schemes improve key management, yet many of them rely o...
+
+--- [11] 2608.02397v1 ---
+Title: Can Foundation Models Hear What Made That Sound? A Tiered Benchmark of Audio-Language Models and Traditional Classifiers for Closed-Set Sound Source Identification
+Authors: Sajjad Abdoli, Ghassan Al-Sumaidaee, Ahmad ElShiekh, Ahmed Rashad
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-03
+Summary: We benchmark eleven audio classification methods: five task-aware closed-set LLMs (four Gemini models plus open-weight Kimi-Audio-7B-Instruct), four fixed-vocabulary taggers (YAMNet, PANNs, Whisper-AT, and SSLAM), a zero-shot audio-text model (CLAP), and an audio-grounded LLM (BAT). We evaluate them on a closed-set sound-source identification task over 2,242 clips spanning 23 fine-grained classes ...
+
+--- [12] 2608.02649v2 ---
+Title: Enthalpy-Based Thermal Response and Its Exact Relation to the Speed of Sound in Finite-Temperature QCD
+Authors: S. D. Campos
+Primary cat: hep-lat | All cats: hep-lat, hep-ph, hep-th
+Published: 2026-07-31
+Summary: A precise characterization of the QCD phase transition remains a fundamental open problem, primarily due to the intrinsically non-perturbative nature of the dynamics that govern the breakdown of We quantify the logarithmic thermal variation of the normalized enthalpy density in finite-temperature Quantum Chromodynamics using a dimensionless response thermal function, $\mathcal{H}(T)$. We establish...
+
+--- [13] 2607.27410v3 ---
+Title: DESI DR2 Results IV: Alcock-Paczyński Measurements from the Lyman Alpha Forest and Cosmological Constraints
+Authors:  DESI Collaboration, A. G. Adame, J. Aguilar, S. Ahlen, O. Alves et al.
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Atext-to-sound+AND+abs%3Aeffect&max_results=20&sortBy=submittedDate&sortOrder=descending
+Primary cat: astro-ph.CO | All cats: astro-ph.CO
+Published: 2026-07-29
+Summary: We present Alcock-Paczyński (AP) measurements from the full shape of Lyman-$α$ (Ly$α$) forest correlation functions measured from the second data release (DR2) of the Dark Energy Spectroscopic Instrument (DESI). Our measurements include information from the Ly$α$ forest auto-correlation and its cross-correlation with quasars. We constrain the AP effect with $1\%$ precision at an effective redshift...
+
+--- [14] 2607.11364v1 ---
+Title: BackgroundMellow: A Multi-Modal Cohesive Framework for Narrative-Driven Rich Cinematic Soundscape Generation
+Authors: Ajitesh Jamulkar, Aritra Hazra
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.MM
+Published: 2026-07-13
+Summary: Generating immersive, synchronized and cinematic audio for long-form textual narratives remains a significant challenge in multi-modal AI. While current Text-to-Audio (TTA) frameworks successfully synthesize isolated sound effects, they struggle with narrative cohesion, temporal alignment, and cinematic emotional depth. We present BackgroundMellow, a framework that treats story-to-audio generation...
+
+--- [15] 2607.10162v1 ---
+Title: Hearing Like Humans? Sound Symbolism and Perceptual Alignment in Speech Language Models
+Authors: Yun-Shao Tsai, Chun-Wei Chen, Chee-En Yu, Yi-Cheng Lin, Hung-yi Lee
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-07-11
+Summary: Sound symbolism, the human tendency to map speech sounds to perceptual qualities such as roundness or sharpness, arises primarily from the acoustics of speech rather than spelling. Whether Speech Language Models (SLMs) share this tendency remains open, as prior evaluations rely on text or images rather than real speech. We study it using genuine human speech recordings, comparing model judgments a...
+
+--- [16] 2607.09973v1 ---
+Title: A Production-Oriented Framework for Evaluation of SFX Generation
+Authors: Mélodie Desbos, Yara Bahram, Eric Granger, Mohammadhadi Shateri
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS, eess.SP, eess.SY
+Published: 2026-07-10
+Summary: Industrial sound design requires audio generation systems that not only produce realistic audio, but also preserve the perceptual identity of a reference, support controllable variation, and remain efficient for practical workflows. Existing evaluations are usually tied to text-to-audio (TTA), unconditional, or task-specific settings, limiting assessment for reference-guided sound effects (SFX) va...
+
+--- [17] 2607.04848v1 ---
+Title: SynSFX: Multi-Model Sound Effects Synthesis Dataset for Deepfake Detection and Evaluation
+Authors: Linxi Li, Yuncong Yu, Qianwei Guo, Liwei Jin, Yechen Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-06
+Summary: While audio deepfake detection has advanced significantly, representative detectors show limited generalization to synthetic sound effects. Existing environmental audio datasets such as EnvSDD provide important initial resources, but remain limited in scale and generation provenance for studying isolated sound-effect deepfakes. To support this direction, we present SynSFX, a large-scale corpus of ...
+
+--- [18] 2607.04337v1 ---
+Title: Doppelganger: Sound Effects and Their Synthetic Twins
+Authors: Elliott Ash
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-07-05
+Summary: Audio-conditioned generators now produce synthetic sound effects from real recordings, so the real and synthetic versions of an event increasingly coexist in sound libraries and in the corpora used to train audio models -- yet no benchmark measures whether a representation can match a synthetic clip to the specific real recording it was generated from. I introduce Doppelganger, a benchmark for mat...
+
+--- [19] 2607.03296v1 ---
+Title: Taste-aware music retrieval from audio embeddings
+Authors: Matteo Spanio, Antonio Rodà
+Primary cat: cs.SD | All cats: cs.SD, cs.IR, cs.LG, cs.MM
+Published: 2026-07-03
+Summary: Crossmodal correspondences between sound and taste are well established in psychology and neuroscience, but largely absent from content-based multimedia retrieval. We formalise taste-from-audio prediction as a content-based music information retrieval benchmark over a perceptually validated multi-source corpus, comparing ten frozen audio encoders from the four HEAR families under a shared multi-ta...
+
+--- [20] 2606.22005v3 ---
+Title: InstructFX2FX: A Multi-Turn Text-to-Effect System for Sequential Audio Effect Refinement
+Authors: Song-Ze Yu, Milan Liessens Dujardin, Yuxuan Cai, Wantong Zhang, Brian Cruz et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-20
+Summary: We present InstructFX2FX, a system for sequential audio effect refinement through multi-turn natural-language instructions. Existing text-to-effect systems are largely single-shot, mapping one textual descriptor to one preset. Real audio engineering is instead sequential: engineers refine an existing effect chain through successive instructions. This poses a stateful problem that single-shot syste...
+

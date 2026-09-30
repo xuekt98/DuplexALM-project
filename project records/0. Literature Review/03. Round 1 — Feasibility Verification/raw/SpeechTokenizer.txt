@@ -1,0 +1,58 @@
+# Total entries: 8
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ASpeechTokenizer&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2603.18359v2 ---
+Title: Towards Interpretable Framework for Neural Audio Codecs via Sparse Autoencoders: A Case Study on Accent Information
+Authors: Shih-Heng Wang, Tiantian Feng, Aditya Kommineni, Thanathai Lertpetchpun, Bowen Yi et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-18
+Summary: Neural Audio Codecs (NACs) are widely adopted in modern speech systems, yet how they encode linguistic and paralinguistic information remains unclear. Improving the interpretability of NAC representations is critical for understanding and deploying them in sensitive applications. Hence, we employ Sparse Autoencoders (SAEs) to decompose dense NAC representations into sparse, interpretable activatio...
+
+--- [2] 2601.17085v1 ---
+Title: Recovering Performance in Speech Emotion Recognition from Discrete Tokens via Multi-Layer Fusion and Paralinguistic Feature Integration
+Authors: Esther Sun, Abinay Reddy Naini, Carlos Busso
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2026-01-23
+Summary: Discrete speech tokens offer significant advantages for storage and language model integration, but their application in speech emotion recognition (SER) is limited by paralinguistic information loss during quantization. This paper presents a comprehensive investigation of discrete tokens for SER. Using a fine-tuned WavLM-Large model, we systematically quantify performance degradation across diffe...
+
+--- [3] 2510.20504v2 ---
+Title: Speaking Clearly: A Simplified Whisper-Based Codec for Low-Bitrate Speech Coding
+Authors: Xin Zhang, Lin Li, Xiangni Lu, Jianquan Liu, Kong Aik Lee
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-10-23
+Summary: Speech codecs serve as bridges between continuous speech signals and large language models, yet face an inherent conflict between acoustic fidelity and semantic preservation. To mitigate this conflict, prevailing methods augment acoustic codecs with complex semantic supervision. We explore the opposite direction: a semantic-first approach that starts from a semantically-capable model and adapts it...
+
+--- [4] 2509.11425v2 ---
+Title: FuseCodec: Semantic-Contextual Fusion and Supervision for Neural Codecs
+Authors: Md Mubtasim Ahasan, Rafat Hasan Khan, Tasnim Mohiuddin, Aman Chadha, Tariq Iqbal et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2025-09-14
+Summary: Speech tokenization enables discrete representation and facilitates speech language modeling. However, existing neural codecs capture low-level acoustic features, overlooking the semantic and contextual cues inherent to human speech. While recent efforts introduced semantic representations from self-supervised speech models or incorporated contextual representations from pre-trained language model...
+
+--- [5] 2506.23325v2 ---
+Title: XY-Tokenizer: Mitigating the Semantic-Acoustic Conflict in Low-Bitrate Speech Codecs
+Authors: Yitian Gong, Luozhijie Jin, Ruifan Deng, Dong Zhang, Xin Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-06-29
+Summary: Speech codecs serve as bridges between speech signals and large language models. An ideal codec for speech language models should not only preserve acoustic information but also capture rich semantic information. However, existing speech codecs struggle to balance high-quality audio reconstruction with ease of modeling by language models. In this study, we analyze the limitations of previous codec...
+
+--- [6] 2506.00843v1 ---
+Title: HASRD: Hierarchical Acoustic and Semantic Representation Disentanglement
+Authors: Amir Hussein, Sameer Khurana, Gordon Wichern, Francois G. Germain, Jonathan Le Roux
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-06-01
+Summary: Effective speech representations for spoken language models must balance semantic relevance with acoustic fidelity for high-quality reconstruction. However, existing approaches struggle to achieve both simultaneously. To address this, we introduce Hierarchical Acoustic and Semantic Representation Disentanglement (HASRD, pronounced `hazard'), a framework that factorizes self-supervised learning rep...
+
+--- [7] 2505.13000v2 ---
+Title: DualCodec: A Low-Frame-Rate, Semantically-Enhanced Neural Audio Codec for Speech Generation
+Authors: Jiaqi Li, Xiaolong Lin, Zhekai Li, Shixi Huang, Yuancheng Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-05-19
+Summary: Neural audio codecs form the foundational building blocks for language model (LM)-based speech generation. Typically, there is a trade-off between frame rate and audio quality. This study introduces a low-frame-rate, semantically enhanced codec model. Existing approaches distill semantically rich self-supervised (SSL) representations into the first-layer codec tokens. This work proposes DualCodec,...
+
+--- [8] 2308.16692v2 ---
+Title: SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models
+Authors: Xin Zhang, Dong Zhang, Shimin Li, Yaqian Zhou, Xipeng Qiu
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2023-08-31
+Summary: Current speech large language models build upon discrete speech representations, which can be categorized into semantic tokens and acoustic tokens. However, existing speech tokens are not specifically designed for speech language modeling. To assess the suitability of speech tokens for building speech language models, we established the first benchmark, SLMTokBench. Our results indicate that neith...
+

@@ -1,0 +1,177 @@
+--- [1] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [2] 2609.04288v1 ---
+Title: Scalable Context Orchestration for Serving LLMs Over Voice
+Authors: Linyi Jiang, Silvery D. Fu, Yifei Zhu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-03
+Summary: Voice AI applications are gaining popularity as advances in large language models (LLMs) enable more natural and accessible spoken interactions. Serving these applications requires accounting not only for what users say, but also for how they speak (e.g., speaking rate) and the conditions under which their audio is captured and transmitted (e.g., background noise and packet loss). However, existin...
+
+--- [3] 2609.03153v1 ---
+Title: VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement
+Authors: Wenzhuo Xu, Yuchen Zhu, Chongjian Ge, Xuan Shen, Jing Shi et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-02
+Summary: Visual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of indicating the obligation a clip violates or the moment it fails. We present VeriPhy, an auditable physical-verification system in which a text-only planner compiles the prompt into typed physical obligations and a statically validated execution plan before any frame is observed....
+
+--- [4] 2609.03107v1 ---
+Title: CRAW: Codec Robust Audio Watermarking
+Authors: David Chernin, Ethan Fetaya
+Primary cat: cs.SD | All cats: cs.SD, cs.CR, cs.LG
+Published: 2026-09-02
+Summary: Recent advances in generative speech models have made it increasingly difficult to distinguish authentic from synthetic audio, enabling new forms of fraud and misinformation. Audio watermarking offers a promising defense by embedding an imperceptible signal into generated speech that can later be detected to verify its provenance. However, recent studies have shown that existing post-hoc watermark...
+
+--- [5] 2608.30329v1 ---
+Title: Ouroboros: Self-Referential Backdoor Attacks on Speech Enhancement via Clean Audio Triggers
+Authors: Yunjie Zhou, Yuheng Huang, Diqun Yan
+Primary cat: cs.SD | All cats: cs.SD, cs.CR
+Published: 2026-08-31
+Summary: Speech enhancement models are widely deployed as frontend modules in real-time speech services, yet their vulnerability to backdoor attacks remains unexplored. Existing backdoor methods are confined to classification tasks and rely on active trigger injection, an assumption incompatible with the passive processing nature of speech enhancement models. In this paper, we propose Ouroboros, a novel ba...
+
+--- [6] 2608.29073v1 ---
+Title: Revolutionizing Turn-by-Turn Navigation with Cloud-Edge Deep Learning
+Authors: Yiming Yang, Hao Fu, Fanxiang Zeng, Xikai Yang, Yue Liu et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-29
+Summary: Turn-by-turn (TBT) navigation systems are integral to modern driving experiences, providing real-time audio instructions to guide drivers safely to destinations. However, existing audio instruction policy often relies on rule-based approaches that struggle to balance informational content with cognitive load, potentially leading to driver confusion or missed turns in complex environments. To overc...
+
+--- [7] 2609.04250v1 ---
+Title: Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue
+Authors: Chengqian Ma, Wei Tao, Haoyu Zhang, Yiwen Guo
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2026-08-28
+Summary: An avatar that holds a conversation should decide what to say and to move while saying it, yet these abilities live in separate model families: spoken dialogue models produce speech without motion, and co-speech motion models produce motion only from audio handed to them. The standard remedy is a cascade that first generates the spoken response and then runs a motion model over the finished audio,...
+
+--- [8] 2608.28693v1 ---
+Title: RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction
+Authors: Zifan Wang, Ziang Ren, Pengyang Shi, Zirui Wang, Chenghuai Lin et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-08-27
+Summary: Enabling humanoid robots to respond to human speech with synchronized and semantically meaningful gestures is fundamental to natural human-robot interaction. However, this task faces three critical barriers: the scarcity of semantically rich datasets, the "modality eclipse" where models ignore audio cues in favor of kinematic inertia, and the sim-to-real gap regarding physical safety. We propose R...
+
+--- [9] 2608.26336v1 ---
+Title: StreamAV-Bench: A Comprehensive Benchmark for Streaming Audio-Video Generation
+Authors: Kaiqi Liu, Haoxuan Zeng, Jingqi Liu, Jiacong Fang, Ziqi Cai et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.MM
+Published: 2026-08-26
+Summary: Recent advancements in generative models are pushing video generation toward unbounded streaming audio-video generation for real-time interactive worlds. However, existing benchmarks primarily evaluate completed sequences and struggle to capture streaming properties. To bridge this gap, we introduce StreamAV-Bench, the first comprehensive benchmark tailored for streaming audio-video generation. St...
+
+--- [10] 2608.25404v1 ---
+Title: CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation
+Authors: Zhiyuan Zhu, Han Wang, Wenxiang Guo, Yu Zhang, Changhao Pan et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-26
+Summary: Spatial audio vocoders are able to convert mel-spectrograms produced by generative models into spatial audio waveforms. Most neural vocoders are designed for monaural audio, and direct extensions to spatial audio can degrade spatial quality by ignoring inter-channel cues. We present CSAVocoder, a causal GAN-based spatial audio vocoder that jointly optimizes waveform fidelity and spatial rendering....
+
+--- [11] 2608.23437v1 ---
+Title: AT-ADD: A Benchmark and Challenge for Robust and All-Type Audio Deepfake Detection
+Authors: Yuankun Xie, Haonan Cheng, Jiayi Zhou, Xiaoxuan Guo, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-24
+Summary: Recent audio generation models can synthesize high-fidelity speech, environmental sound, singing voice, and music, creating new risks for multimedia trust. Existing audio deepfake detection (ADD) benchmarks remain predominantly speech-centric and often underrepresent realistic channel variation and diverse audio types. This paper presents AT-ADD, a large-scale benchmark and challenge designed to e...
+
+--- [12] 2608.22832v1 ---
+Title: Let the Bullets Fly: Multimodal Fake News Detection with Temporal-Aligned Generative Danmaku
+Authors: Xiansheng Luo, Chaowei Zhang, Zewei Zhang, Yi Zhu, Jipeng Qiang
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-24
+Summary: The social interactions among crowds via \textit{Danmaku} (a.k.a., bullet comments) on modern multimedia platforms can facilitate both viewpoint conflicts and consensus, providing fine-grained discriminative social signals that can benefit fake news detection. However, the inherent accumulation latency of \textit{Danmaku} in real-world scenarios violates the real-time necessity of fake news detect...
+
+--- [13] 2608.20958v1 ---
+Title: TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming
+Authors: Yibo Hu, Yu Qian, Mao Gu, Yingfan Tao, Yuhao Chen et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-08-21
+Summary: E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts are distributed across speech, video frames, product images, overlaid text, and user queries. We present TLive-Omni, an omni-modal understanding model tailored to live-commerce scenarios. It maps image, video, audio, and text inputs into a unified representation space. For long-fo...
+
+--- [14] 2608.18832v1 ---
+Title: EfficientSync: Real-Time Lip Synchronization via Deformation-Based Reference Texture Mixing
+Authors: Fa-Ting Hong, Runzhen Liu, Luchuan Song, Hongmin Cai, Chuhua Xian
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-19
+Summary: Audio-driven lip synchronization manipulates the mouth region of a talking-face video to match the driving audio while preserving head pose, identity, and background. Although the task is inherently local editing, prevailing approaches reconstruct the entire lower face with heavy GAN- or diffusion-based decoders, incurring substantial latency and, more critically, hallucinating intra-oral details ...
+
+--- [15] 2608.17972v1 ---
+Title: Target Speaker Identification: A Low-Latency Streaming Pipeline
+Authors: Patrick S. Burke, Satyam Raj, Sean Kinahan
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-18
+Summary: We present a real-time pipeline of open source, pretrained models for streaming identification of a target speaker, motivated by hearing-aid applications where latency as low as 10 ms can be perceptible. We formulate a two-step approach in which incoming audio is first segmented by speaker using low-latency streaming diarization, followed by speaker verification against a registered target speaker...
+
+--- [16] 2608.17707v1 ---
+Title: DynaForcing: Overcoming Dynamic Collapse in Self-Forcing Distillation for Streaming Avatar Generation
+Authors: Yubo Huang, Sirui Zhao, Xinchen Yao, Zhengye Zhang, Jinyang Huang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MM
+Published: 2026-08-18
+Summary: Audio-driven avatar generation requires realistic lip-sync, expressive motion, and real-time streaming. Recent work achieves the latter via self-forcing with Distribution Matching Distillation (DMD), but this paradigm suffers from a critical failure that has not been systematically characterized: dynamic collapse, where the student model converges to a near-static optimum with high perceptual qual...
+
+--- [17] 2608.16498v1 ---
+Title: Sonifying I2S Transport Signals to Detect Transmission Faults
+Authors: Stephen Roddy
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-17
+Summary: This paper outlines a sonification design to support fault detection in the transmission of I2S transport signals. I2S is a protocol for communicating real-time digital audio between integrated circuits that, while in wide and general use, does not include built-in error detection. Moreover, given the nature of the protocol transmission faults affecting timing, framing and alignment can be difficu...
+
+--- [18] 2608.16143v1 ---
+Title: AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model
+Authors: Kwan Yun, Serin Yoon, Sunjin Jung, Jung Eun Yoo, Inyup Lee et al.
+Primary cat: cs.GR | All cats: cs.GR, cs.CV, cs.MM, cs.SD
+Published: 2026-08-17
+Summary: We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any animation data. While existing audio-driven 3D speech animation methods rely on character-specific training data or laborious rigging/re-meshing, AnyTalk circumvents these limitations by leveraging recent video diffusion models trained on extensive video datasets. We first adapt a ...
+
+--- [19] 2608.16125v1 ---
+Title: Navigating Speech Enhancement for Real-Time MRI: A Systematic Assessment of Signal Quality, Source Preservation, and Downstream Tasks
+Authors: Huang-Cheng Chou, Sean Foley, Haley Hsu, Kevin Huang, Szu-Jui Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-17
+Summary: Audio recorded during real-time magnetic resonance imaging (rtMRI) is heavily contaminated by scanner noise, but it remains unclear whether general-purpose speech enhancement improves the signal for speech research and downstream processing. Three off-the-shelf systems---Denoiser, PASE, and RE-USE---are evaluated across five rtMRI corpora using naturally recorded inputs, a clean-input probe, and a...
+
+--- [20] 2608.14916v1 ---
+Title: Distinguishing AI-Generated Music from Edited Audio as a Hard-Negative Robustness Task
+Authors: Alexandru-Stefan Morosanu, Valerian Cecan, Stefan-Daniel Achirei, Laura Erhan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-08-14
+Summary: AI-generated music detectors are commonly evaluated against original songs, but real-world uploads are often remixed, re-encoded, pitch-shifted, or otherwise edited. These edited versions form a difficult negative class: they are not generated by AI, yet they may introduce spectral artifacts that resemble synthetic audio fingerprints. We study this problem as a hard-negative robustness setting for...
+
+--- [21] 2608.14016v1 ---
+Title: Content Based Video Narration of Gameplay with Vision Language Models
+Authors: Mathew Varghese
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.GR
+Published: 2026-08-14
+Summary: Live game commentary is scarce: it exists for professional esports broadcasts and almost nowhere else. We present a content-based video narration system that produces spoken, esports-style commentary for arbitrary gameplay recordings using a general-purpose vision-language model (VLM) and a text-to-speech back end, with no game-specific instrumentation, no engine telemetry, and no task-specific tr...
+
+--- [22] 2608.13957v1 ---
+Title: H2H Music Improv: A Communication Model and Audio-Visual Dataset for Music Improvisation
+Authors: Aleksandra Teng Ma, Anthony Cammarota, Jiayi Wang, Alexandria Smith, Cheng-Zhi Anna Huang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2026-08-14
+Summary: Current real-time AI improvisation systems lack the communication awareness human musicians rely on: rather than treating communication as a foundational algorithm design concern, most systems layer interaction strategies post-hoc onto generative algorithms through explicit controls and predefined modes. This gap persists in part because no formalized, machine-readable communication model with mus...
+
+--- [23] 2608.12814v1 ---
+Title: FastThaiG2P: Lightning-fast Thai Grapheme-to-phoneme Conversion for Voice Agent Pipelines
+Authors: Charin Polpanumas
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-13
+Summary: FastThaiG2P provides sub-millisecond Thai grapheme-to-phoneme conversion for text-to-speech pipelines (International Phonetic Alphabet and Kokoro-TTS conventions) using a PyThaiNLP-tokenized, extensible dictionary and normalization rules for common Central Thai speech. The approach achieves an average latency of 0.15 ms per utterance on a benchmark of 27,242 synthetically generated utterances, of ...
+
+--- [24] 2608.12615v1 ---
+Title: Drive-to-Music: Context-Aware Generative Audio for In-Vehicle Experiences
+Authors: Cosmin Dragoiu, Nooshin Nabizadeh
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-08-12
+Summary: In-vehicle music can serve as an adaptive interface to enhance driver experience, attention, and well-being. We present Drive-to-Music, a context-aware system that generates music in real time from multimodal driving signals. Using dashcam imagery and vehicle telemetry, the system extracts scene semantics and driving context, maps them to high-level musical descriptors, and conditions generative a...
+
+--- [25] 2608.12107v1 ---
+Title: Avatar-Forever: Decoupled Parallel Training for High-Quality Real-Time Infinite Avatars
+Authors: Ruibin Li, Tao Yang, Zhiyuan Ma, Fangzhou Ai, Shilei Wen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-12
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areal-time+AND+abs%3Aaudio+AND+abs%3Ageneration&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Existing streaming video systems often rely on sequential, distillation-centered training pipelines to enable few-step long-video generation. However, this paradigm suffers from two limitations. First, failures or distribution shifts introduced in earlier stages affect later optimization, complicating the training process to converge. Second, the distillation-centric objective favours short-term g...
+

@@ -1,0 +1,142 @@
+--- [1] 2609.09095v1 ---
+Title: Ozaki 2.5: Engineering the Deconstruction Path of fp64-Emulated Dense Matrix Multiplication on FP8 Tensor Cores
+Authors: Satoshi Matsuoka
+Primary cat: cs.MS | All cats: cs.MS, cs.AR, cs.DC, cs.PF
+Published: 2026-09-08
+Summary: FP8 Ozaki II emulates FP64 matrix multiplication by tensor-core products over a CRT residue system; converting the operands into residue planes (the deconstruction term in the Tensor-Memory Equilibrium model of the companion paper "FP8 is All You Need, Part 1") costs integer-pipe and memory resources before tensor instructions issue. This paper engineers that path; every result is a model projecti...
+
+--- [2] 2609.09064v1 ---
+Title: Parity and Pattern Detection in Permutation Streams
+Authors: Mark Braverman, Or Zamir
+Primary cat: cs.DS | All cats: cs.DS
+Published: 2026-09-08
+Summary: Consider a permutation of $[n]$ whose values arrive one at a time. We resolve two questions about the space needed to decide natural properties of such input: First, computing the parity of the permutation requires $Θ(n)$ bits, even with randomization and constant error, and a constant number of passes. Second, every permutation pattern of length three can be detected deterministically in one pass...
+
+--- [3] 2609.09063v1 ---
+Title: The size and mass distribution of cold classical TNOs for $5<H<13$
+Authors: Gary M. Bernstein, Wesley C. Fraser, Marielle R. Eduardo, William M. Grundy, Bryan Hilbert et al.
+Primary cat: astro-ph.EP | All cats: astro-ph.EP
+Published: 2026-09-08
+Summary: The cold classical trans-Neptunian objects (CCs) are the only observable \textit{in situ} population of planetesimal remnants believed to have escaped collisional grinding. Recent JWST observations make it possible to fit the differential absolute magnitude distribution $dN/dH$ of the CCs from $5<H_r<13,$ and infer the differential mass distribution $dN/dM$ across $\ge5$ orders of magnitude in mas...
+
+--- [4] 2609.08987v1 ---
+Title: Exact Phase-Space Rotation in the Trapped Quantum Calogero Model
+Authors: Akash Sarkar
+Primary cat: cond-mat.other | All cats: cond-mat.other, cond-mat.stat-mech
+Published: 2026-09-08
+Summary: We develop a microscopic phase-space description of the quantum Calogero model in the presence of an external harmonic confining potential. Building on the quantum Lax-pair structure, we construct a Hermitian Wigner operator whose expectation value obeys the exact phase-space evolution equation d_t rho + lambda d_x rho - Omega^2 x d_lambda rho = 0 for arbitrary initial states and to all orders in ...
+
+--- [5] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [6] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [7] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [8] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [9] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [10] 2609.08818v1 ---
+Title: Beyond Gait: Person Identification from Millimeter-Wave Point Clouds Across Activities of Daily Living
+Authors: Xilai Wang, Zixiong Han, Saad Rhanmouni, Chenzhe Zhao, Yunze Lu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Person identification from millimeter-wave (mmWave) point clouds has mainly relied on gait. Indoor walking, however, is often brief and interrupted, while other activities of daily living (ADLs) may provide complementary identity information. We investigate identification across seven ADLs using mm-ADL, a new point-cloud dataset collected from 11 subjects under a controlled protocol. This extensio...
+
+--- [11] 2609.08788v1 ---
+Title: Adaptive Anisotropic Attention for Axis-Structured Signals
+Authors: Mahir Jain, Parshva Runwal, Aditya Ray Mishra, Arvasu Kulkarni, Sandeep Singh et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Dense self-attention treats all token pairs as equally plausible before learning, an interaction-isotropic prior that can be mismatched to structured signals. For structured, low signal-to-noise ratio (SNR) signals such as EEG, dependencies are organized along the electrode and time axes, and this uniform prior exposes each token to many irrelevant interactions. We introduce Adaptive Anisotropic A...
+
+--- [12] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [13] 2609.08672v1 ---
+Title: X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR
+Authors: Zhiwei Lin, Kaiqi Fu, Rime Wen, Zehan Liu, Shawn Qin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-08
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+streaming&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Streaming automatic speech recognition (ASR) for real-time voice agents and full-duplex dialogue must provide accurate partial transcripts with low commit latency. Existing systems commonly use a fixed chunk size, look-ahead, or target delay, or encourage emissions near estimated acoustic boundaries. These approaches do not directly optimize how much additional context to use at each output positi...
+
+--- [14] 2609.08542v1 ---
+Title: Spatial Audio Coding Through Relative Room Impulse Response Estimation
+Authors: Nour Bouayed, Adrien Llave, Jérôme Daniel, Pascal Scalart
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate ...
+
+--- [15] 2609.08508v1 ---
+Title: WiDiff: Extracting Changes from Wikidata's Edit History
+Authors: Carolina Cortés, Lisa Ehrlinger, Lorena Etcheverry, Felix Naumann
+Primary cat: cs.DB | All cats: cs.DB
+Published: 2026-09-08
+Summary: Knowledge graphs have become a key resource for integrating heterogeneous data and powering downstream tasks such as question answering, entity linking, and semantic search. They are built and maintained incrementally, either (i) fully automated, e.g., YAGO, (ii) semiautomatically with community oversight, e.g., DBpedia, or (iii) manually through collaborative editing, e.g., Wikidata. Understandin...
+
+--- [16] 2609.08464v1 ---
+Title: PAPR-Aware Multimodal Token Transmission in MLLM-Based Multiuser Networks
+Authors: Molka Trabelsi, Rafik Zayani
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-09-08
+Summary: Task-oriented semantic communication (SemCom) empowered by multimodal large language models (MLLMs) has recently emerged as a promising paradigm for efficiently transmitting multimodal information, yet transmitting token embeddings over OFDM channels faces critical challenges due to hardware impairments, particularly the high peak-to-average power ratio (PAPR) that severely degrades energy efficie...
+
+--- [17] 2609.08429v1 ---
+Title: Semantic Refinement of Universal Audio Representations through Audio-Description Alignment
+Authors: Lejun Min, Junyu Dai, Ruichen Zheng, Xinyue Fan, Yang Xiang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-08
+Summary: Universal audio representations must preserve acoustic detail while making high-level concepts accessible across speech, music, environmental sound, and downstream models of different capacities. We study semantic refinement of an acoustically pretrained encoder by adding audio-description alignment to a foundation of BEST-RQ, reconstruction, and CTC. We compare matched control, shuffled-descripti...
+
+--- [18] 2609.08426v1 ---
+Title: Toward Fully Autonomous 6G Networks: AI-driven Operational Efficiency and Optimization
+Authors: David Reiss, Oriol Sallent, Miguel Catalan-Cid, Daniel Camps-Mur
+Primary cat: cs.NI | All cats: cs.NI
+Published: 2026-09-08
+Summary: Mobile networks evolution is characterized by a substantial increase in system complexity, driven by the need to accommodate a growing number of heterogeneous services on top of the digital infrastructure. This growth in service accommodation is expected to accelerate with the adoption of the Network as a Service (NaaS) paradigm, which has emerged as a promising approach to accelerate network inno...
+
+--- [19] 2609.08413v1 ---
+Title: Generalized Similarity Theory for Plasmas
+Authors: Yangyang Fu
+Primary cat: physics.plasm-ph | All cats: physics.plasm-ph
+Published: 2026-09-08
+Summary: A generalized theory of plasma similarity is established based on the scaling of the Boltzmann equation coupled with the full set of Maxwell's equations. The predicted similarity scalings are demonstrated through first-principles particle-in-cell and fluid simulations across diverse operational regimes, including collisionless plasmas with two-stream instabilities, pure electron diodes spanning th...
+
+--- [20] 2609.08410v1 ---
+Title: Compositional Multilingual and Behavioral Attribute Steering
+Authors: Hyun Gu Kang, Daniil Gurgurov, Tanja Baeumel, Josef van Genabith, Simon Ostermann
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-08
+Summary: This study examines the compositionality of steering vectors for language and behavioral control in large language models. Focusing on language, jailbreak, and conciseness, we investigate whether additive, training-free composition of attribute steering vectors can preserve the intended steering effect of each attribute, across four instruction-tuned models from two model families and two size sca...
+

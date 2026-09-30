@@ -1,0 +1,142 @@
+--- [1] 2609.07440v1 ---
+Title: Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer
+Authors: Koki Shoda, Jun Younes Louhi Kasahara, Aoba Koyanagi, Qi An, Atsushi Yamashita
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-07
+Summary: This paper proposes an open-set ego-noise separation framework for legged-robot audition via annotation-free adaptation and pretrained-model transfer. The framework removes robot-specific ego-noise while preserving environmental sounds whose classes are not specified in advance. Acoustic sensing provides cues about a robot's surroundings beyond the visual field, but walking-induced ego-noise from ...
+
+--- [2] 2609.04256v1 ---
+Title: Probing Warmth-Mediated Harm in Speech-Enabled LLMs for Mental-Health Conversations
+Authors: Eugenia Kim, Bolor-Erdene Jagdagdorj, Dina Pekelis, Leah Zulas, Amanda Minnich
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-01
+Summary: Audio LLM benchmarks measure understanding and dialogue quality, not whether speech-enabled models respond with relational warmth when a vulnerable user discloses a mental-health concern. We introduce a 7-turn scripted-disclosure probe grounded in WHO mental-health clinical guidelines, with each script run on the same model (Azure OpenAI gpt-realtime) in both audio and text-only conditions, and ac...
+
+--- [3] 2608.30776v1 ---
+Title: Likelihood-Constrained Acoustic Reranking for Training-Free Hallucination Mitigation in LLM-Based ASR
+Authors: Jiasheng Kuang, Linru Zheng, Hongjin Song, Zhaoqi Cui, Song Li
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-31
+Summary: Large language model (LLM)-based automatic speech recognition (ASR) systems achieve strong performance on conventional speech data by leveraging powerful linguistic priors and multilingual capabilities. However, under challenging conditions, these priors can override acoustic evidence, resulting in unintended translation, instruction execution, repetition, or catastrophic deletion. We propose Like...
+
+--- [4] 2608.30713v1 ---
+Title: Closing the Verification Loop: Self-Check Captioning for Long-Paragraph Detailed Audio Captioning
+Authors: Fengji Ma, Yan Rong, Xu Li, Chen Zhang, Pengfei Wan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-31
+Summary: Long-paragraph detailed audio captioning, which requires dense and transcript-faithful descriptions of fine-grained audio content, remains unsolved for current audio-visual multimodal language models. We attribute this failure to two structural problems. The first is data poverty, as no public corpus jointly provides long clips, paragraph captions, and verbatim-transcript fidelity. The second is g...
+
+--- [5] 2608.28875v1 ---
+Title: No Detectable Change in Side-Level WER from Prompt-Level Context: A Preregistered Ablation on a Production Oral-History Corpus
+Authors: Theodore O. Cochran, Stephanie Dodson, Keith Nore
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-08-28
+Summary: Supplying context at inference time to a large multimodal model is an inexpensive lever for adapting speech transcription to a domain, and earlier results on smaller models reported large gains. This work tested that mechanism where it ships, in the prompt-conditioning layer of a production oral-history transcription tool, on a sample from its own production corpus. Full prompt-level context did n...
+
+--- [6] 2608.27785v1 ---
+Title: Compositional Failure in Audio-Visual LLMs: Late-Layer Prior Dominance Under Cross-modal Conflict
+Authors: Adarsh Sudheer, David Li, Omar Elbanna, Ishaan Kodarapu, Arjun Bahuguna et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-08-27
+Summary: We study audio-visual conflict as a compositional generalization test for AV-LLMs: the model must combine synchronized but semantically incompatible audio and video evidence and decide whether the pair matches. On VideoLLaMA 2-7B-AV, three alignment configurations remain nearchance on the scored exact-string Yes/No subset of AVHBench, even though their output priors shift substantially. Similarly,...
+
+--- [7] 2608.13610v1 ---
+Title: LoopVSR: A Loop Engineering Framework for Automated Repair of Visual Speech Recognition Inference Pipelines
+Authors: Fei Qin, Bowen Zhang, Chao Fan, Pengcheng Luo, Genke Yang
+Primary cat: eess.IV | All cats: eess.IV, cs.MM
+Published: 2026-08-12
+Summary: Visual speech recognition (VSR) recovers speech from lip movements when audio is noisy or unavailable. Its multi-stage inference pipeline spans video decoding, mouth-region extraction, preprocessing, model invocation, and decoding, where upstream failures can mask downstream faults. Pipeline maintenance therefore still relies largely on predefined checks and manual debugging. We propose LoopVSR, a...
+
+--- [8] 2608.10606v1 ---
+Title: ASR-Roundtrip Evaluation Can Mask Context- and Convention-Dependent Reading Errors in Chinese News TTS
+Authors: Shijun Luo, Lizhi Wan
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-11
+Summary: ASR-roundtrip evaluation is widely used as a scalable proxy for text-to-speech (TTS) intelligibility, but it can produce false negatives for reading errors perceived by listeners. We study Chinese news TTS spans whose correct reading depends on context or domain conventions, such as sports scores, aircraft models, technical units, and membership names. In these cases, Raw TTS can choose a plausibl...
+
+--- [9] 2608.06718v2 ---
+Title: Do Audio Language Models Use Paralinguistic Evidence? Counterfactual Audits for Response Evaluation
+Authors: Kevin Miller, Arjun Chandra, Venkatesh Saligrama
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-07
+Summary: Audio-language models (ALMs) are increasingly used as judges for speech-to-speech systems, but a judge that receives audio may not actually use paralinguistic evidence. We introduce counterfactual audits for paralinguistic response evaluation. Each audit item holds the transcript fixed while varying affect, prosody, or the timing of an affective shift, forcing a valid judge to track the audio cue ...
+
+--- [10] 2607.18912v1 ---
+Title: From a Multilingual Streaming ASR Backbone to Kenyan-Language Systems: Data-Centric Adaptation of Nemotron 3.5 for Kikuyu, Dholuo, and Kalenjin
+Authors: Mark Gatere
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-21
+Summary: Automatic speech recognition (ASR) for African languages is constrained by orthographic inconsistency, annotation artifacts, missing audio, speaker and domain imbalance, and evaluation procedures that differ from deployment. We present an end-to-end engineering study adapting NVIDIA Nemotron 3.5 ASR Streaming 0.6B to Kikuyu, Dholuo, and Kalenjin. Starting from a Kenyan Swahili-adapted checkpoint, ...
+
+--- [11] 2607.18508v1 ---
+Title: Style over Substance: A Shortcut Audit of Emotion-Description Preference Evaluation
+Authors: Jiabing Yang, Yixiang Chen, Yuan Xu, Qisen Ma, Tao Yu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-20
+Summary: Preference over model-generated emotion descriptions is emerging as a standard evaluation metric for multimodal emotion understanding, exemplified by the MER2026 MER-Prefer track on EmoPrefer. Such benchmarks assume that predicting the preferred description requires grounded cross-modal understanding of the video. We conduct a systematic shortcut audit of EmoPrefer using content-blind probes. A si...
+
+--- [12] 2607.17523v1 ---
+Title: Thinking in Video: Can Video Generators Really Reason About the Real World?
+Authors: Yongheng Zhang, Guang Yang, Ruihan Hou, Qiguang Chen, Ziang Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL
+Published: 2026-07-20
+Summary: Recent advances in world models and video generation have given rise to an emerging reasoning paradigm that leverages video generative models to simulate, predict, and reason about real-world dynamics. We redefine this paradigm as Thinking in Video, where video is not merely an output artifact but a medium for constructing, extending, and verifying causal thought. However, this promise remains unv...
+
+--- [13] 2607.14753v1 ---
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Amodel+AND+abs%3Aaudit&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: Large Audio Language Models for Spoofing-Aware Speaker Verification
+Authors: Sofya Savelyeva, Mariia Perunova, Evgeny Kushnir, Artem Dvirniak, Dmitrii Korzh et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-16
+Summary: Recent advances in text-to-speech and voice cloning make high-quality spoofing inexpensive and scalable, threatening voice authentication systems, especially automatic speaker verification (ASV). Existing defenses mainly address this threat through binary countermeasures (CMs) for deepfake detection or spoofing-aware speaker verification (SASV), where current systems are dominated by modular ASV-C...
+
+--- [14] 2607.14189v1 ---
+Title: MultiRef-Compass: Towards Comprehensive Evaluation of Multi-Reference-to-Audio-Video Generation
+Authors: Xiaohan Zhang, Yuqing Wen, Junlin Chen, Yuqi Tang, Yiting He et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-07-15
+Summary: Multi-reference-to-audio-video (MR2AV) generation aims to generate coherent audio-video content conditioned on multiple references and textual instructions. Existing benchmarks mainly focus on text-driven generation, single-reference subject preservation, or isolated audio-video alignment, leaving the emerging MR2AV setting largely unexplored. Compared with these settings, MR2AV requires models to...
+
+--- [15] 2607.13477v1 ---
+Title: Auditing Protocol-Level Shortcuts in Large Audio Language Model Judges for Speech Evaluation
+Authors: Joonyong Park, David M. Chan, Yuki Saito, Hiroshi Saruwatari
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-07-15
+Summary: Large audio-language models (LALMs) are increasingly used as automatic judges for speech evaluation. However, high agreement with human ratings does not guarantee that their verdicts are grounded in the audio. A judge may instead rely on specialist labels or reference data supplied by the evaluation protocol itself, taking a shortcut in place of listening to the audio. In this paper, we audit such...
+
+--- [16] 2607.03213v1 ---
+Title: OpenGlass: A Sensing-Computing Split Architecture for Local MLLM-Driven Real-Time Visual Assistance
+Authors: Mengzhang Li, Yuan Yao
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-07-03
+Summary: We present OpenGlass, an open-source, privacy-oriented, local-first system for low-latency multimodal visual assistance, with a primary focus on blind and low-vision users. Cloud MLLM assistants offer strong visual understanding, but often require uploading first-person visual data and can suffer multi-second network delays; wearable glasses are ideal for sensing, but cannot host large models unde...
+
+--- [17] 2606.31991v1 ---
+Title: Amplifying Membership Signal Through Chained Regeneration
+Authors: Wojciech Łapacz, Stanisław Pawlak
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-06-30
+Summary: The tendency of large generative models to memorize training data makes sample verification critical for privacy auditing and copyright enforcement. Current membership (MIA) and dataset inference (DI) attacks often rely on one-shot generations, which yield weak signals and limited sensitivity across modalities. Inspired by Model Autophagy Disorder (MAD), we introduce MADreMIA, a model-agnostic fra...
+
+--- [18] 2606.26384v1 ---
+Title: What Do Deepfake Benchmarks Measure? An Audit Using Frozen Self-Supervised Representations
+Authors: Samuel Pagon, Yixuan Shen, Vishal Asnani, Feng Liu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-24
+Summary: As deepfake generators approach perceptual indistinguishability, reliable detection becomes critical. Yet, detectors that score well on benchmarks routinely fail in the wild. A concerning feedback loop has emerged: benchmarks drive increasingly complex, engineered detectors, yet if those benchmarks do not reflect real-world deepfakes, this complexity may be solving the wrong problem entirely. This...
+
+--- [19] 2606.24941v2 ---
+Title: EmotionAI: A Privacy-Preserving Computational Intelligence Pipeline for Speech-Emotion-Grounded Conversational Analysis
+Authors: Wai Laam Mak, Isibor Kennedy Ihianle, Pedro Machado
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-22
+Summary: Reviewing recorded interviews for affective cues such as composure and agitation is slow and subjective, and cloud services that could automate the task require sensitive audio to leave the device. EmotionAI is a fully local Computational Intelligence (CI) pipeline that couples Speech Emotion Recognition (SER) with generative reasoning. Speaker diarisation, Whisper Automatic Speech Recognition (AS...
+
+--- [20] 2606.22399v1 ---
+Title: ATCCaps: A Call-Sign-Aware Speech Dataset for Air Traffic Control Recognition
+Authors: Dongdong Li, Jianwei Song, Jianwei Wang, Zhe Wang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-21
+Summary: Call signs are safety-critical entities in air traffic control (ATC) communications because they identify the target aircraft of each spoken instruction. This paper presents ATCCaps, a call-sign-aware ATC speech dataset with caption-level audio-text supervision. Built from real ATC radiotelephony recordings, ATCCaps contains 202.94 hours of curated audio, 170,385 utterances, and 922 unique normali...
+

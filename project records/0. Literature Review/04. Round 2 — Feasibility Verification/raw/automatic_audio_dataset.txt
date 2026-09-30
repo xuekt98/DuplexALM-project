@@ -1,0 +1,142 @@
+--- [1] 2609.06788v1 ---
+Title: When Speech Meets Lips: Interpretable Audio-Visual Synchronization for L2 Pronunciation Assessment
+Authors: Bowen Yu, Mingyu Huang, Yishen Liu, Yue Zhao
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-09-06
+Summary: Automatic Pronunciation Assessment (APA) systems have achieved strong performance with transformer-based models and self-supervised speech representations. However, most methods rely only on acoustic signals and overlook temporal synchronization between speech and articulatory movements, limiting diagnostic feedback on timing mismatches important for L2 pronunciation training. We propose an interp...
+
+--- [2] 2609.04173v1 ---
+Title: Last Translation Benchmark
+Authors: Vilém Zouhar, Niyati Bafna, Mukund Choudhary, Maike Züfle, Sara Rajaee et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-03
+Summary: For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for machine translation are approaching saturation. Further, automatic translation metrics are unreliable, vulnerable to reward-hacking, and provide unactionable assessments. Even gold human evaluation is...
+
+--- [3] 2609.03283v1 ---
+Title: Is Semantics Enough for Speech Mean Opinion Score Prediction?
+Authors: Tianyu Lan, Yufei Shi, Yang Ai, Honghao Sun, Huipeng Du et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-03
+Summary: Mean Opinion Score (MOS) is the gold standard for evaluating synthesized speech naturalness. However, current automatic MOS predictors are dominated by self-supervised learning (SSL) models that prioritize high-level semantics, potentially compromising their ability to capture critical acoustic details. In this paper, we systematically investigate representations from three paradigms: SSLs, acoust...
+
+--- [4] 2609.02474v1 ---
+Title: VAANI Noise Event Dataset: A curated spontaneous speech dataset annotated with timestamps for noise events
+Authors: Pavan Kumar J, Agneedh Basu, Pranav Bhat, Sujith Pulikodan, Suryansh Shukla et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-02
+Summary: Most public sound-event corpora are optimized either for general audio tagging or for clean speech separation, and comparatively few provide strong timestamped noise annotations layered directly on top of spontaneous, real-world speech. We present the VAANI Noise Event Timestamp Dataset, a derived annotation layer built on Project VAANI field recordings of spontaneous speech collected across 165 I...
+
+--- [5] 2608.26517v1 ---
+Title: HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence
+Authors: Fei Ma, Zebang Cheng, Minghui Li, Hongbo Xu, Yuyong Tan et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-27
+Summary: Visual intelligence seeks to perceive, interpret, and synthesize the visual world and is central to modern computer vision. Human-centered visual intelligence is especially demanding because it studies people as expressive, socially situated subjects whose meaning is rarely conveyed by appearance alone. It couples vision with audio and language across four representative tasks: human emotion recog...
+
+--- [6] 2608.22795v1 ---
+Title: VersaDB: A High-Performance AI Storage Database for Unifying Mutimodal Datasets
+Authors: Cong Wang, Zelin Liu, Yang Luo Ran Zhang, Zhijian Guo, Hui Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: The AI field has been rapidly developing, leading to the emergence of a large number of AI training datasets of various types. These datasets contain different modalities, including text, images, audio, etc., and may come in various data storage formats. With the advancement of AI hardware, AI computation units like GPUs, TPUs, and NPUs can greatly accelerate the training speed of AI models, which...
+
+--- [7] 2608.21075v1 ---
+Title: AudioWorldSim: Realistic Binaural Audio Datasets For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-08-21
+Summary: This technical report presents AudioWorldSim, an open-source platform designed to generate realistic binaural audio datasets and advance research in audio-based machine learning, particularly world models. Built as a custom extension of Meta's SoundSpaces 2.0 platform, AudioWorldSim leverages their comprehensive acoustics framework, but focuses on the automatic rollout of random agent navigations,...
+
+--- [8] 2608.19843v1 ---
+Title: Fourier is Frontier: Frequency-Aware Autoencoding for High-Fidelity Music Reconstruction
+Authors: Kangdi Wang, Yusheng Dai, Jin Xu
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-08-20
+Summary: Continuous-latent audio autoencoders form the backbone of latent music generators, yet decoders at high compression rates commonly exhibit three failure modes: high-frequency loss, phase incoherence, and stereo-image collapse. These share a structural root: waveform autoencoders lack an explicit frequency axis, leaving no handle for targeted per-band correction. Among five matched-budget represent...
+
+--- [9] 2608.17114v1 ---
+Title: Automatic Transcription of Microtonal Free-Rhythm Vocal Music: A Case Study in Iranian Classical Music
+Authors: Sepideh Shafiei, Shapour Hakam, Harsh Dange, Joel Rodriguez Caraballo
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-17
+Summary: This paper introduces a computational workflow for automatically transcribing microtonal, free-rhythm vocal music, with Iranian classical music as a case study. Our approach is based on performances by the renowned vocalist Karimi and ground truth transcriptions by the prominent ethnomusicologist Masoudieh [14], which were subsequently incorporated into the IRMA Audio-MIDI dataset [20]. To accurat...
+
+--- [10] 2608.15296v1 ---
+Title: FMReward: Aligning and Evaluating Audio-Driven 3D Facial Animation with Human Preferences
+Authors: Sijing Wu, Yunhao Li, Zhilin Gao, Huiyu Duan, Yucheng Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-15
+Summary: Audio-driven 3D facial animation is essential for advancing immersion and interactivity in virtual experiences. Although recent advances have shown promising capabilities, the training and evaluation of existing methods typically rely on ground-truth-based errors, which fall short of aligning with human preferences. To address this, we present a comprehensive framework that learns an automatic per...
+
+--- [11] 2608.15110v1 ---
+Title: CETalk: Continuous Valence-Arousal Control for Audio-Driven 3D Talking Head Generation
+Authors: Peng Jia, Li Dai, Zhen Xiao, Xueliang Liu, Jia Li
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-15
+Summary: Emotional 3D talking head generation aims to synthesize expressive facial animations with accurate lip synchronization. However, existing methods often rely on discrete emotion categories, which fail to capture the continuous evolution of affect. They also overlook the temporal frequency mismatch between audio articulation and emotional expression. In this paper, we propose CETalk, an audio-driven...
+
+--- [12] 2608.13717v1 ---
+Title: StreamHear: Domain-Adapted Pseudo-Labeling for Semi-Supervised Streaming Speech Recognition
+Authors: Zefang Liu, Chenyang Zhu, Sangwoo Cho, Xujun Peng, Shi-Xiong Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-08-13
+Summary: Streaming automatic speech recognition (ASR) underperforms on domain-shifted target audio, where labeled in-domain data is costly to prepare while unlabeled audio is abundant. We present StreamHear, a semi-supervised pipeline that adapts a pretrained streaming student by fine-tuning an offline transducer teacher on the labeled training set, generating pseudo-labels on the unlabeled portion, and fi...
+
+--- [13] 2608.12034v1 ---
+Title: The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aautomatic+AND+abs%3Aaudio+AND+abs%3Adataset&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao, Yuhang Dai et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-12
+Summary: Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity ...
+
+--- [14] 2608.10573v1 ---
+Title: Beyond Dry References: Learning Relative Audio Effects Representations via Contrastive Distance Learning
+Authors: Xinlu Liu, Huibin Lin, Weixing Wei, Zhenhai Yan
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-11
+Summary: Audio effects (Fx) representation learning plays a key role in intelligent music production, including automatic mixing and Fx style transfer. Existing methods typically rely on dry or nearly dry references for effect modeling, yet truly unprocessed audio is rarely available in practice, as real recordings inevitably reflect the microphone, room acoustics, and preceding signal processing. Instead ...
+
+--- [15] 2608.08235v2 ---
+Title: SraVaani 1.0: Scaling Inclusive Speech Recognition for Indic Languages
+Authors: Sujith Pulikodan, Agneedh Basu, Pavan Kumar J, Pranav D Bhat, Suryansh Shukla et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-08
+Summary: India's linguistic landscape spans over 700 languages and thousands of dialects, yet the vast majority of automatic speech recognition (ASR) systems support only a small fraction of this diversity. We present SraVaani-1.0, a multilingual ASR model covering 65 Indian languages and dialects, many of which currently have no publicly available or competing ASR system. SraVaani-1.0 is built on a FastCo...
+
+--- [16] 2608.05506v1 ---
+Title: Rethinking Automatic Music Mixing as Sequential Stem Blending
+Authors: Yen-Tung Yeh, Chung-Jui Chan,  Yun-Ning,  Hung, Yi-Hsuan Yang
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-06
+Summary: Automatic music mixing, the task of automatically combining individual audio tracks into a cohesive mixture, is typically addressed by parallelized architectures that process all input tracks in a single pass. In this work, inspired by how human mix engineers process stems one at a time, we propose a paradigm shift and ask whether automatic music mixing can be reformulated as a sequential stem ble...
+
+--- [17] 2608.01157v1 ---
+Title: InteracVid: Building a Real Interactive Audio-Visual Response Dataset from Live-Chat Videos
+Authors: Chi Zhang, Haoyang Shi, Yueyi Liu, Zhaokun Yan, Yishu Yin et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-02
+Summary: Large language models have made text the default medium for human--AI interaction, buttext alone cannot express the full range of responses required by multimodal assistants,avatars, and embodied agents. While recent audio-video generative models can synthesizehigh-fidelity synchronized content, existing supervision is largely \emph{descriptive}:models are trained to render captions rather than to...
+
+--- [18] 2607.22794v1 ---
+Title: Multimodal Domain Generalization for Depression Detection: An Attention-Based BiLSTM Network with Domain-Adversarial Training
+Authors: Ali Tabaraei, Federico Simonetta, Stavros Ntalampiras
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL, cs.SD
+Published: 2026-07-24
+Summary: Automatic depression detection with deep learning has shown promise but often suffers from limited generalization due to domain shift arising from inter-speaker variability. To address this critical issue, we present the first patient-independent multimodal depression detection framework that incorporates domain generalization (DG), jointly leveraging both acoustic and textual modalities. The prop...
+
+--- [19] 2607.21496v1 ---
+Title: Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models
+Authors: Yingchao Huang, Xin Wang, Yuhan Su, Shanshan Yao
+Primary cat: eess.SP | All cats: eess.SP, cs.LG
+Published: 2026-07-23
+Summary: Cognitive impairment (CI) is a growing public health concern. Early and accurate diagnosis is critical for enabling timely intervention and improving patient outcomes. Speech-based CI detection has emerged as a promising non-invasive approach, as speech signals encode both linguistic and acoustic markers associated with cognitive decline. Recent advances in large language models (LLMs) further str...
+
+--- [20] 2607.12176v2 ---
+Title: HEDGE: A Calibrated Ensemble for A/H Recognition
+Authors: Josep Cabacas-Maso, Ismael Benito-Altamirano, Carles Ventura
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-13
+Summary: Ambivalence and hesitancy (A/H) undermine digital behaviour-change interventions, and recognizing them automatically from video is the goal of the ABAW A/H challenge on the BAH dataset. We describe HEDGE (Hesitancy/Ambivalence Estimation via Distribution-aware, Generalized Ensembling), our system for the 11th edition of the challenge: a calibrated, equal-weight ensemble of three fusion models over...
+

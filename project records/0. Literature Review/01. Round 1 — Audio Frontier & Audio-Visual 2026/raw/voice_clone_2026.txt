@@ -1,0 +1,30 @@
+# Total entries: 4
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22voice+cloning%22+AND+abs%3A%222026%22&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.18689v2 ---
+Title: Aslema at NADI 2026: Data Augmentation for Intent Recognition and Slot Filling
+Authors: Tajwaar Shafiq, Hunzalah Hassan Bhatti, Firoj Alam, Shammur Absar Chowdhury
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-08-19
+Summary: We present Aslema, our system for NADI 2026 Shared Task 5, which consists of two subtasks: intent recognition and slot filling. We evaluate four omni LLMs in a zero-shot setting and compare them with fine-tuned models. Our results show that fine-tuning consistently outperforms zero-shot inference. We further explore synthetic data augmentation by using an LLM to generate culturally grounded Tunisi...
+
+--- [2] 2606.07240v1 ---
+Title: KIT's Submission to Cross-Lingual Voice Cloning in IWSLT 2026
+Authors: Seymanur Akti, Alexander Waibel
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-06-05
+Summary: Cross-lingual voice cloning aims to generate speech in a target language while preserving speaker identity from a source-language reference. This task is central to speech translation and is the focus of the IWSLT 2026 Cross-Lingual Voice Cloning track. A key challenge is maintaining intelligibility and naturalness in the presence of accent variation and domain-specific vocabulary. We build on a m...
+
+--- [3] 2605.12075v1 ---
+Title: The Deepfakes We Missed: We Built Detectors for a Threat That Didn't Arrive
+Authors: Shaina Raza
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-05-12
+Summary: Nearly a decade of Machine Learning (ML) research on deepfake detection has been organized around a threat model inherited from 2017--2019, revolving around face-swap and talking-head manipulation of public figures, motivated by concerns about large-scale misinformation and video-evidence fraud. This position paper argues that the threat the field prepared for did not arrive, and the threats that ...
+
+--- [4] 2604.26136v2 ---
+Title: One Voice, Many Tongues: Cross-Lingual Voice Cloning for Scientific Speech
+Authors: Amanuel Gizachew Abebe, Yasmin Moslem
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-04-28
+Summary: Preserving a speaker's voice identity while generating speech in a different language remains a fundamental challenge in spoken language technology, particularly in specialized domains such as scientific communication. In this paper, we address this challenge through our system submission to the International Conference on Spoken Language Translation (IWSLT 2026), the Cross-Lingual Voice Cloning s...
+

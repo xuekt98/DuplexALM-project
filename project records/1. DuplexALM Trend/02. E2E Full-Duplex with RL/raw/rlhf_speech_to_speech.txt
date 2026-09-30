@@ -1,0 +1,93 @@
+--- [1] 2606.18747v1 ---
+Title: Generating Natural and Expressive Robot Gestures through Iterative Reinforcement Learning with Human Feedback using LLMs
+Authors: Chris Lee, Flora Salim, Benjamin Tag, Francisco Cruz
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2026-06-17
+Summary: Expressive gestures are essential for natural and effective communication, complementing speech when verbal cues alone are insufficient (e.g., pointing). For social robots such as the humanoid Pepper, producing natural and expressive movements is critical for improving human-robot interaction (HRI) and long-term acceptance. However, generating gestures remains challenging due to reliance on expert...
+
+--- [2] 2605.24652v1 ---
+Title: AVBench: Human-Aligned and Automated Evaluation Benchmark for Audio-Video Generative Models
+Authors: Jialiang Yang, Bin Xia, Ruihang Chu, Dingdong Wang, Wanke Xia et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV, cs.MM, cs.SD
+Published: 2026-05-23
+Summary: Rapid advances in audio-video (AV) generation have enabled high-fidelity synthesis with synchronized sound, particularly for human-related scenarios involving speech and interactions. Yet evaluation for AV generation remains at an early stage, with only a few coarse-grained benchmarks for human-related scenarios and relying on limited preset evaluations with generic multimodal LLMs, leading to ina...
+
+--- [3] 2605.23463v1 ---
+Title: StepAudio 2.5 Technical Report
+Authors: Bin Lin, Bo Zhao, Boyong Wu, Chao Yan, Chen Wu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-22
+Summary: Unified audio-language modeling has emerged as a prominent trend in modern speech systems, promising to bring the reasoning capabilities of large language models to auditory tasks. However, existing unified foundations often struggle to match the depth of specialized systems across automatic speech recognition (ASR), text-to-speech synthesis (TTS), and realtime spoken interaction. Bridging this ga...
+
+--- [4] 2602.13891v1 ---
+Title: GSRM: Generative Speech Reward Model for Speech RLHF
+Authors: Maohao Shen, Tejas Jayashankar, Osama Hanna, Naoyuki Kanda, Yancheng Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-02-14
+Summary: Recent advances in speech language models, such as GPT-4o Voice Mode and Gemini Live, have demonstrated promising speech generation capabilities. Nevertheless, the aesthetic naturalness of the synthesized audio still lags behind that of human speech. Enhancing generation quality requires a reliable evaluator of speech naturalness. However, existing naturalness evaluators typically regress raw audi...
+
+--- [5] 2601.19063v1 ---
+Title: Optimizing Conversational Quality in Spoken Dialogue Systems with Reinforcement Learning from AI Feedback
+Authors: Siddhant Arora, Jinchuan Tian, Jiatong Shi, Hayato Futami, Yosuke Kashiwagi et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-01-27
+Summary: Reinforcement learning from human or AI feedback (RLHF/RLAIF) for speech-in/speech-out dialogue systems (SDS) remains underexplored, with prior work largely limited to single semantic rewards applied at the utterance level. Such setups overlook the multi-dimensional and multi-modal nature of conversational quality, which encompasses semantic coherence, audio naturalness, speaker consistency, emoti...
+
+--- [6] 2511.07477v1 ---
+Title: The Polite Liar: Epistemic Pathology in Language Models
+Authors: Bentley DeVilling
+Primary cat: cs.CY | All cats: cs.CY, cs.AI, cs.CL
+Published: 2025-11-08
+Summary: Large language models exhibit a peculiar epistemic pathology: they speak as if they know, even when they do not. This paper argues that such confident fabrication, what I call the polite liar, is a structural consequence of reinforcement learning from human feedback (RLHF). Building on Frankfurt's analysis of bullshit as communicative indifference to truth, I show that this pathology is not decept...
+
+--- [7] 2508.03123v1 ---
+Title: Fine-Tuning Text-to-Speech Diffusion Models Using Reinforcement Learning with Human Feedback
+Authors: Jingyi Chen, Ju Seung Byun, Micha Elsner, Pichao Wang, Andrew Perrault
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-08-05
+Summary: Diffusion models produce high-fidelity speech but are inefficient for real-time use due to long denoising steps and challenges in modeling intonation and rhythm. To improve this, we propose Diffusion Loss-Guided Policy Optimization (DLPO), an RLHF framework for TTS diffusion models. DLPO integrates the original training loss into the reward function, preserving generative capabilities while reduci...
+
+--- [8] 2507.05911v1 ---
+Title: Differentiable Reward Optimization for LLM based TTS system
+Authors: Changfeng Gao, Zhihao Du, Shiliang Zhang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-07-08
+Summary: This paper proposes a novel Differentiable Reward Optimization (DiffRO) method aimed at enhancing the performance of neural codec language models based text-to-speech (TTS) systems. In contrast to conventional reinforcement learning from human feedback (RLHF) approaches applied to TTS, DiffRO directly compute the rewards based on neural codec tokens, rather than relying on synthesized audio. Furth...
+
+--- [9] 2501.00039v1 ---
+Title: Speech Recognition With LLMs Adapted to Disordered Speech Using Reinforcement Learning
+Authors: Chirag Nagpal, Subhashini Venugopalan, Jimmy Tobin, Marilyn Ladewig, Katherine Heller et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2024-12-25
+Summary: We introduce a large language model (LLM) capable of processing speech inputs and show that tuning it further with reinforcement learning on human preference (RLHF) enables it to adapt better to disordered speech than traditional fine-tuning. Our method replaces low-frequency text tokens in an LLM's vocabulary with audio tokens and enables the model to recognize speech by fine-tuning it on speech ...
+
+--- [10] 2410.13182v1 ---
+Title: Using RLHF to align speech enhancement approaches to mean-opinion quality scores
+Authors: Anurag Kumar, Andrew Perrault, Donald S. Williamson
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-10-17
+Summary: Objective speech quality measures are typically used to assess speech enhancement algorithms, but it has been shown that they are sub-optimal as learning objectives because they do not always align well with human subjective ratings. This misalignment often results in noticeable distortions and artifacts that cause speech enhancement to be ineffective. To address these issues, we propose a reinfor...
+
+--- [11] 2408.01420v1 ---
+Title: Mission Impossible: A Statistical Perspective on Jailbreaking LLMs
+Authors: Jingtong Su, Julia Kempe, Karen Ullrich
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL
+Published: 2024-08-02
+Summary: Large language models (LLMs) are trained on a deluge of text data with limited quality control. As a result, LLMs can exhibit unintended or even harmful behaviours, such as leaking information, fake news or hate speech. Countermeasures, commonly referred to as preference alignment, include fine-tuning the pretrained LLMs with carefully crafted text examples of desired behaviour. Even then, empiric...
+
+--- [12] 2407.02243v1 ---
+Title: Robust Zero-Shot Text-to-Speech Synthesis with Reverse Inference Optimization
+Authors: Yuchen Hu, Chen Chen, Siyin Wang, Eng Siong Chng, Chao Zhang
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2024-07-02
+Summary: In this paper, we propose reverse inference optimization (RIO), a simple and effective method designed to enhance the robustness of autoregressive-model-based zero-shot text-to-speech (TTS) systems using reinforcement learning from human feedback (RLHF). To assess the quality of speech produced by the TTS system without human annotations, RIO introduces a novel concept termed as reverse inference ...
+
+--- [13] 2405.14632v2 ---
+Title: DLPO: Diffusion Model Loss-Guided Reinforcement Learning for Fine-Tuning Text-to-Speech Diffusion Models
+Authors: Jingyi Chen, Ju-Seung Byun, Micha Elsner, Andrew Perrault
+# Total entries: 13
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Arlhf+AND+abs%3Aspeech-to-speech&max_results=25&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2024-05-23
+Summary: Recent advancements in generative models have sparked a significant interest within the machine learning community. Particularly, diffusion models have demonstrated remarkable capabilities in synthesizing images and speech. Studies such as those by Lee et al. (2023), Black et al. (2023), Wang et al. (2023), and Fan et al. (2024) illustrate that Reinforcement Learning with Human Feedback (RLHF) can...
+

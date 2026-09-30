@@ -1,0 +1,177 @@
+--- [1] 2609.34461v1 ---
+Title: CharDuplex: Building Character-Consistent Full-Duplex Spoken Dialogue Models
+Authors: Donghang Wu, Yisi Liu, Chen Chen, Hexin Liu, Eng Siong Chng
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech models are moving voice interaction beyond conventional turn-taking, yet natural conversation is shaped not only by when an agent speaks, but also by how it behaves as a conversational character. We present CharDuplex, a character-driven full-duplex speech model that combines real-time spoken interaction with persona-conditioned behavior. We first adapt GLM-4-Voice to an always-...
+
+--- [2] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [3] 2609.34096v1 ---
+Title: HiThink Turn: An Intent-Aware Turn-Taking Control Module for Full-Duplex Dialogue
+Authors: Feiyang Chen, Wenhan Yang, Bohan Wang, Xinjian Gao, Rongjunchen Zhang et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-28
+Summary: Full-duplex dialogue requires timely yet selective interruption handling, which end-of-turn prediction alone cannot achieve: complete utterances may need no response, while unfinished requests may warrant interruption. To address this challenge, we propose HiThink Turn, an intent-aware streaming turn-state predictor that separates response intent from semantic completeness and conditions decisions...
+
+--- [4] 2609.33865v1 ---
+Title: In-Context Adaptation of Encoder-Decoder Models in Speech Recognition
+Authors: Yen Meng, Sharon Goldwater, Hao Tang
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-27
+Summary: In-context learning offers an appealing approach to adapt automatic speech recognition (ASR) models to new speakers, accents, and domains by providing speech-text pairs as demonstrations at inference time. Recent work shows that some LLM-based speech models are capable of ASR in-context adaptation, when providing interleaved speech-text demonstrations. In this work, we ask whether in-context adapt...
+
+--- [5] 2609.33645v1 ---
+Title: Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training
+Authors: Yifan Yang, Xiaoyu Yang, Zengrui Jin, Xian Shi, Yuxuan Wang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-27
+Summary: Connectionist temporal classification (CTC) naturally supports offline and streaming speech recognition with utterance-level supervision, but conventional implementations materialize frame-by-vocabulary activations in memory, making CTC training with native LLM vocabularies prohibitively memory-intensive. A key observation is that every valid CTC alignment uses only target tokens and blank, and th...
+
+--- [6] 2609.33443v1 ---
+Title: Context Spanning: A Communication Framework for Full-Duplex Speech Models and External LLM Backends
+Authors: Seonghyeon Go, Yongwoo Kim, Hyeonjin Cha, Jaeho Shin
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-27
+Summary: Full-duplex spoken dialogue models can listen and speak simultaneously like the real-time dynamics of human conversation. For natural dialogue, the ability to search for external information in real-time is also an important capability. Many models remain trapped in parametric knowledge, leaving them unable to access real-time information and tool execution. Furthermore, even when Large Language M...
+
+--- [7] 2609.32569v1 ---
+Title: OmniSmartHome: A Multimodal Reasoning Benchmark for Smart-Home Agents
+Authors: Jihoo Jung, Suho Yoo, Jeongsoo Choi, Hyebin Cho, Tae Wook Haam et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-26
+Summary: Smart-home assistants are expected to handle diverse, realistic requests that arise in daily life. In such interactions, users often rely on the surrounding multimodal context-pointing at objects or referring to what they see or hear, leaving their requests underspecified in language alone. Existing smart-home benchmarks, however, express user requests solely through language, leaving context-depe...
+
+--- [8] 2609.32082v1 ---
+Title: mu-bench: A Multilingual Utterance Transcription Benchmark
+Authors: Andrea Li, Soham Ray
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-25
+Summary: Voice agents depend on accurate automatic speech recognition (ASR) to act on what callers say, yet ASR is evaluated on read, English-centric speech with word error rate (WER), which penalizes surface rather than semantic differences. We introduce mu-bench, a dataset of 4,270 caller utterances from 250 phone calls to an AI banking agent in English, Spanish, Turkish, Vietnamese, and Mandarin, center...
+
+--- [9] 2609.31967v1 ---
+Title: IndicFDB: Benchmarking Full-Duplex Voice Agents across Indian Languages
+Authors: Rajarshi Roy, Shobhit Banga, Jonathan Raiman, Supriya Paul, Bhaskar Singh et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-25
+Summary: Full-duplex voice agents must handle pauses, take turns, backchannel, and respond to user interruptions in real time. Full-Duplex-Bench evaluates these behaviors, but its English-only corpus and reliance on word-timestamped ASR and an English-prompted LLM judge make it difficult to extend to Indian languages. We introduce IndicFDB, which extends it to ten languages spoken in India with 12,350 samp...
+
+--- [10] 2609.31588v1 ---
+Title: RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue
+Authors: Sathvik Udupa, Naveen Kumar, Ryan Folmsbee
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-25
+Summary: Many voice interaction applications require exact control over both the content and delivery of responses, typically using pre-recorded lines. Recent full-duplex models respond with low latency but cannot guarantee exact content or reproduce a specific recorded performance, while cascaded systems can be constrained to predefined responses at the cost of additional latency. We propose RePlay, a spo...
+
+--- [11] 2609.30924v1 ---
+Title: Training-Free Pronunciation Transcription via Text-Constrained Acoustic Rescoring
+Authors: Hikaru Asano, Yotaro Kubo, So Kuroki
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-25
+Summary: Accurate and efficient pronunciation transcription is essential for preparing text-to-speech training data at scale. Existing approaches have different limitations: grapheme-to-pronunciation (G2P) and speech-to-pronunciation (S2P) methods each capture only partial information, using only text or only speech, while speech-and-text-to-pronunciation (ST2P) methods use both but require costly pronunci...
+
+--- [12] 2609.30784v1 ---
+Title: Symbiotic Architecture for Post-Hoc Audio Extension of Frozen Language Models
+Authors: Yotaro Kubo, Qi Sun, Yujin Tang
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-25
+Summary: This paper proposes an architecture for equipping large language models (LLMs) with audio-understanding capabilities without fine-tuning their weights. The proposed symbiotic architecture employs an injector module that writes audio-conditioned vectors directly into the target LLM's short-term memory, i.e., the key-value (KV) cache, enabling the LLM to behave as an audio language model (ALM). The ...
+
+--- [13] 2609.30774v1 ---
+Title: Dialogue-Based Streaming Audio-Visual Target Speaker Extraction with Predictive Dialogue Information
+Authors: Shuhan Zhang, Wenxuan Wu, Haizhou Li
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-25
+Summary: In face-to-face, real-time communication, a talking agent must track the target speaker through natural pauses, turn-taking, and backchannels, often amid background cross-talk. Most target speaker extraction (TSE) studies, however, rely on simulated mixtures with full or sparse overlap and ignore the turn-taking of real conversations. We therefore introduce, to our knowledge, the first benchmark f...
+
+--- [14] 2609.30773v1 ---
+Title: Learning Natural Conversational Behavior in Tandem Speech-to-Speech Models with Randomized Guidance
+Authors: Manato Yaguchi, Yotaro Kubo, Hikaru Asano, So Kuroki
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-25
+Summary: Tandem speech-to-speech architectures couple a responsive speech frontend with an asynchronous text backend. In KAME, a large language model (LLM) serves as the backend, supplying candidate responses as guidance to the speech frontend while the user is still speaking. Ordinary conversation recordings capture the eventual response but not the guidance the backend would supply during the user's utte...
+
+--- [15] 2609.30692v1 ---
+Title: LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant
+Authors: Md. Mehedi Hasan Naeem, Mst. Kamrunnahar Ruma, Nafiza Anjum, Shakila Sultana, Md. Sujan Ali
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-09-25
+Summary: Reliable voice interaction is essential in environments with limited internet connectivity and strong privacy. However, most existing voice assistants depend on cloud-based services, which leads to latency issues, dependency on internet access, and privacy vulnerabilities. This research presents LUMO (Lightweight Unified Multilingual Orchestrator), a privacy preserving offline voice assistant desi...
+
+--- [16] 2609.30625v1 ---
+Title: Audio LLMs Know When They Can't Hear You
+Authors: Amirhosein Javadi, Richa Dixit, Mehrdad Farajtabar, Minsik Cho, Devang Naik et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-24
+Summary: Audio large language models allow users to interact with the model through speech. When an input recording is too degraded, the model may misinterpret the user's query and respond based on an incorrect transcription. In this paper, we study model-conditional transcription reliability: whether an Audio LLM can recognize when its own transcription is unreliable. We first prompt the Audio LLM to asse...
+
+--- [17] 2609.30439v1 ---
+Title: Inference-Time Target Speaker Unlearning in LLM-Based Automatic Speech Recognition
+Authors: Bo Su, Yueru Yan, Thai Le
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-24
+Summary: We introduce target-speaker unlearning ASR (TSU-ASR) task in a fully end-to-end framework for multi-speaker ASR and diarization. Given a multi-speaker utterance and a set of opt-out speakers who do not wish to have their speech transcribed, the task requires an ASR system to transcribe all speakers except the opt-out ones, while still indicating when those speakers are active. As a first step towa...
+
+--- [18] 2609.30416v1 ---
+Title: All In Good Time: Causality-Aware Framework for LLM-Based Simultaneous Speech-to-Speech Translation
+Authors: Amir Hussein, Enas Albasiri, Travis M. Bartley, Nourchene Ferchichi, Ke Hu et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-24
+Summary: Large Language Models (LLMs) have shown strong performance in low-resource offline translation; however, extending them to simultaneous speech-to-speech translation (Simul-S2ST) remains challenging due to the scarcity of causally aligned training data with high cross-lingual speaker fidelity. In addition, existing approaches rely on fixed translation policy or confidence heuristics, leading to sub...
+
+--- [19] 2609.29798v1 ---
+Title: Benchmarking and Domain Adaptation of Automatic Speech Recognition (ASR) for Adolescent Health Communication in Ghanaian Languages
+Authors: Stephen E. Moore, Akwasi Asare, Mich-Seth Owusu, Paul Azunre, Joel Budu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-24
+Summary: This paper presents an end-to-end study of automatic speech recognition (ASR) for adolescent health communication in three Ghanaian languages (Twi, Dagbani, and Ewe). The work proceeds in three connected stages; First, we benchmark five ASR systems (three language-specific Wav2Vec2 models and two multimodal LLMs, Gemma 3n and Gemma 4) on a general-domain Bible corpus and a Youth Adolescent Sexual ...
+
+--- [20] 2609.29428v1 ---
+Title: agentic-ger: terminology recovery in long-form speech using global context
+Authors: Yanqiao Zhu, Wupeng Wang, Zhifu Gao, Xiangang Li, Xie Chen
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-24
+Summary: Recent advances in speech language models have improved automatic speech recognition (ASR) for long-form audio. However, accurately and consistently transcribing domain-specific terminology remains challenging. Motivated by the world knowledge and contextual capability of large language models (LLMs), we propose Agentic-GER, an LLM-based agent for terminology correction in long-form speech. The ag...
+
+--- [21] 2609.29371v1 ---
+Title: BanglaTurn: A Benchmark and Whisper-Based Model for End-of-Turn Detection in Bangla Speech
+Authors: Mizbaul Haque Maruf
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-24
+Summary: This paper presents BanglaTurn, a corpus for end-of-turn detection in Bangla conversational speech, and a model trained on it. The corpus holds 35,374 samples of 3 to 15 s of podcast speech, labelled for turn state by combining speaker diarization with an LLM pass, with every label then checked by a human annotator. The model pairs a Whisper encoder with task-specific classification heads. On a cl...
+
+--- [22] 2609.29343v1 ---
+Title: Speech Block Influence: Component-Specific Layer Scoring for Pruning Speech LLMs
+Authors: Siyu Yao, Du Q. Huynh, Lian Xu, Mark Reynolds
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-24
+Summary: Speech LLMs are costly to deploy in resource-constrained settings. Layer pruning can cut this cost, but existing scoring metrics transfer poorly to speech LLMs: they assume a decoder-only architecture with homogeneous token sequences, whereas speech LLMs add encoder and adapter components and process multimodal sequences. We propose Speech Block Influence (SBI), the first layer-importance scoring ...
+
+--- [23] 2609.29238v1 ---
+Title: Exploring a Single Autoregressive LLM for Unified Target Speech Extraction across Synchronous and Asynchronous Cues
+Authors: Wenxuan Wu, Shuhan Zhang, Shuai Wang, Haizhou Li
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2026-09-24
+Summary: Target speech extraction (TSE) typically trains a separate extractor per cue, and visual-cue systems often need corruption-matched training to remain robust under visual frame corruption. We show that one autoregressive LLM backbone, TSE-Omni, can serve both temporally synchronous cues (lip movements, co-speech gestures) and asynchronous cues (enrollment audio, text). TSE-Omni is driven by next-to...
+
+--- [24] 2609.29123v1 ---
+Title: Accent Analogy Guidance: More Speaker Similarity at Equal Accent in Cross-Lingual Voice Cloning
+Authors: Yoomee Cho, Jisun Lee
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-24
+Summary: In cross-lingual zero-shot text-to-speech, the accent of the reference leaks into the target speech. We propose accent analogy guidance (AAG), a training-free sampler term that subtracts an accent direction estimated from the model's own predictions for one synthetic voice rendered in both languages, so the voice cancels and only the accent remains. By a blind LLM accent judge on real dubbing data...
+
+--- [25] 2609.28812v1 ---
+Title: Signals of AI Hallucination: Designing Hallucination-Aware Cues for Embodied Conversational Agents in VR
+Authors: Xiaoran Yang, Yang Zhan, Xie He, Yuxuan Huang, Yichen Yu et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-23
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspeech-to-speech+AND+abs%3Allm&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: LLM-powered conversational agents (CAs) often present uncertainty and provenance cues alongside their responses to help users assess response reliability and identify potential hallucinations. In immersive environments such as Virtual Reality (VR), CAs often take the form of speech-based embodied conversational agents (ECAs), where uncertainty and provenance cues cannot rely on persistent inline t...
+

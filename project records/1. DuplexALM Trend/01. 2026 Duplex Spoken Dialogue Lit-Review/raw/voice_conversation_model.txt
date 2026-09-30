@@ -1,0 +1,177 @@
+--- [1] 2609.35645v1 ---
+Title: CoSE-E: A Benchmark for Code-switched Speech Evaluation in Enterprise Settings
+Authors: Shama Gupta, Hoang H Nguyen, Chelsea Huang, Lindsay Devon Brin, Fanny Riols
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2026-09-28
+Summary: Code-switching (CS), a seamless alternation between languages within a single utterance, remains a critical challenge in automatic speech recognition (ASR). While prior works focus on conversational CS-ASR, enterprise settings demand evaluation of operational impact beyond edit-distance errors: how code-switching transcription errors propagate to downstream voice agent task failures. In this work,...
+
+--- [2] 2609.34461v1 ---
+Title: CharDuplex: Building Character-Consistent Full-Duplex Spoken Dialogue Models
+Authors: Donghang Wu, Yisi Liu, Chen Chen, Hexin Liu, Eng Siong Chng
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech models are moving voice interaction beyond conventional turn-taking, yet natural conversation is shaped not only by when an agent speaks, but also by how it behaves as a conversational character. We present CharDuplex, a character-driven full-duplex speech model that combines real-time spoken interaction with persona-conditioned behavior. We first adapt GLM-4-Voice to an always-...
+
+--- [3] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [4] 2609.33403v1 ---
+Title: DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration
+Authors: Yupeng Xie, Zhenyang Wang, Liangwei Wang, Jiayi Zhu, Zhouan Shen et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.DB, cs.MA
+Published: 2026-09-27
+Summary: Data videos communicate data insights through dynamic charts, voice narration, and synchronized animations, and have become a widely adopted form of data storytelling. However, producing them requires expertise in data analysis, narrative design, and video editing. Static visualization tools lack narrative and animation capabilities; authoring tools rely on pre-prepared charts rather than raw data...
+
+--- [5] 2609.32777v1 ---
+Title: DEFINE: Exemplar-Guided Accent Control for Zero-Shot TTS
+Authors: Ambuj Mehrish, Abhinaba Roy, Alex Ivanov, Tawsif Ahmed, Dorien Herremans
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-26
+Summary: Zero-shot text-to-speech (TTS) can reproduce an unseen speaker from a short reference recording, but typically entangles speaker identity and accent within the same reference. We introduce DEFINE, an end-to-end framework that decouples these factors by conditioning speaker identity and target accent on separate audio exemplars. A single inference-time guidance weight continuously controls accent s...
+
+--- [6] 2609.31967v1 ---
+Title: IndicFDB: Benchmarking Full-Duplex Voice Agents across Indian Languages
+Authors: Rajarshi Roy, Shobhit Banga, Jonathan Raiman, Supriya Paul, Bhaskar Singh et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-25
+Summary: Full-duplex voice agents must handle pauses, take turns, backchannel, and respond to user interruptions in real time. Full-Duplex-Bench evaluates these behaviors, but its English-only corpus and reliance on word-timestamped ASR and an English-prompted LLM judge make it difficult to extend to Indian languages. We introduce IndicFDB, which extends it to ten languages spoken in India with 12,350 samp...
+
+--- [7] 2609.31588v1 ---
+Title: RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue
+Authors: Sathvik Udupa, Naveen Kumar, Ryan Folmsbee
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-25
+Summary: Many voice interaction applications require exact control over both the content and delivery of responses, typically using pre-recorded lines. Recent full-duplex models respond with low latency but cannot guarantee exact content or reproduce a specific recorded performance, while cascaded systems can be constrained to predefined responses at the cost of additional latency. We propose RePlay, a spo...
+
+--- [8] 2609.30975v1 ---
+Title: A Comprehensive Study of Content Representations for Speech Synthesis
+Authors: Diego Torres, Axel Roebel, Nicolas Obin
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2026-09-25
+Summary: Speech content representations are central to voice conversion, speech-to-speech translation, and multimodal language models, yet they are rarely compared under a common generative framework that directly measures what each representation contains. We address this by training a generative model conditioned solely on each representation and evaluating the generated audio along the content, speaker ...
+
+--- [9] 2609.30692v1 ---
+Title: LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant
+Authors: Md. Mehedi Hasan Naeem, Mst. Kamrunnahar Ruma, Nafiza Anjum, Shakila Sultana, Md. Sujan Ali
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-09-25
+Summary: Reliable voice interaction is essential in environments with limited internet connectivity and strong privacy. However, most existing voice assistants depend on cloud-based services, which leads to latency issues, dependency on internet access, and privacy vulnerabilities. This research presents LUMO (Lightweight Unified Multilingual Orchestrator), a privacy preserving offline voice assistant desi...
+
+--- [10] 2609.29431v1 ---
+Title: Calibrating LLM Judges for Human and AI Conversations
+Authors: Maike Züfle, Patrícia Schmidtová, Vilém Zouhar, Shree Harsha Bokkahalli Satish, Erica Cooper et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-24
+Summary: Measuring how successful a conversation is remains difficult, even for humans judging spoken dialogue. We evaluate state-of-the-art LLMs as pointwise and pairwise judges of conversational success on CANDOR, finding pointwise scoring correlates moderately with human ratings, while pairwise comparison suffers from long transcripts and positional bias. Since this leaves judge scores incomparable acro...
+
+--- [11] 2609.28806v1 ---
+Title: A Harness for Synthesizing Diverse Naturalistic Full-Duplex Conversations
+Authors: Matthew Sun, Vinay Kothapally, Meng Yu, Chao Huang, Hao Zhang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-09-23
+Summary: Full-duplex dialogue systems, which listen while speaking, must distinguish a completed turn from a pause within a turn and an interruption that requests a turn from a brief acknowledgment or speech addressed to a third party. Yet existing conversational corpora provide limited control over these events and limited labels for their intent. We present a pipeline for synthesizing intent-labeled, two...
+
+--- [12] 2609.28317v1 ---
+Title: Multimodal Voice Activity Projection for Social Robot Mediation: Expected Behavior and Deployment Constraints
+Authors: Antonio Cano, Guillermo Perez, Luis Merino, Randy Gomez
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-23
+Summary: Turn-taking prediction is especially relevant for social robots that act as mediators in human-human interaction, where the expected action is often not to speak, but to orient, wait, avoid interruption, or prepare a balanced intervention. This paper presents Multimodal Voice Activity Projection (MM-VAP) as a human state-aware perception layer for future robot mediation behavior. The model estimat...
+
+--- [13] 2609.27230v2 ---
+Title: One-Step Voice Conversion by Learning kNN Transport in WavLM Space
+Authors: Anton Selitskiy, David Millard
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-23
+Summary: Voice conversion (VC) systems fall into two families: non-parametric embedding-space methods, which need no trained model but degrade on short target utterances, and spectrogram-based neural architectures, which achieve strong quality via multi-module pipelines with tens of millions of parameters. We propose kNN-FM-VC, a single conditional flow-matching network that learns to approximate the kNN-V...
+
+--- [14] 2609.25195v1 ---
+Title: Qwen-Audio-Agent Technical Report
+Authors: Chong Deng, Yunjie Ji, Yuxiang Kong, Xiangang Li, Xu Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.MA
+Published: 2026-09-21
+Summary: We present Qwen-Audio-Agent, a harness that combines full-duplex voice interaction with asynchronous task execution through a foreground-background architecture. A Frontend Agent manages dialogue and selects between direct tool use and delegation, while a Backend Agent carries out delegated tasks in a separate context. An Orchestration Runtime maintains task state, coordinates requests for user in...
+
+--- [15] 2609.24812v1 ---
+Title: MSI-Bench: Evaluating Multi-Speaker Voice Interaction for Collaborative AI Agents
+Authors: Chenxu Xiong, Dongming Shen, Yuzhi Tang, Wentao Ma, Mu Li et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-21
+Summary: Voice provides a natural and immediate interface for AI agents. Many settings in which voice agents could be useful, including meetings, households, and collaborative work, are inherently multi-speaker. Supporting these settings introduces challenges that are largely absent from one-on-one interaction. We introduce the Multi-Speaker Interaction Benchmark (MSI-Bench) for evaluating multi-speaker vo...
+
+--- [16] 2609.24688v1 ---
+Title: Understanding Hyperspherical Geometry of ECAPA-TDNN Embedding and Its Impact on Zero-Shot Voice Conversion
+Authors: Mathilde Abrassart, Nicolas Obin, Axel Roebel
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-21
+Summary: Angular-margin speaker encoders are widely used in voice conversion, yet the geometry of their classifier prototypes remains poorly understood. We analyze ECAPA-TDNN classifier prototypes as points on the unit hypersphere and characterize their organization using rotation-invariant angular statistics together with global and local effective dimensionality measures. Our analysis shows that standard...
+
+--- [17] 2609.25176v2 ---
+Title: Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction
+Authors: Lujia Bao, Qian Chen, Luyao Cheng, Chong Deng, Yuxiang Kong et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2026-09-21
+Summary: Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning with Multimodality and Multi-Teacher On-Policy Distillation (M$^{2}$-OPD) to transfer language capabilities and develop native aud...
+
+--- [18] 2609.22913v1 ---
+Title: AVTR-1: Open Stack for Real-Time Interactive Avatars
+Authors: Artem Kravtsov, Dmitrii Ziganshin, Vsevolod Poletaev, Gleb Balitskiy, Anastasia Tikhonova et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.LG
+Published: 2026-09-19
+Summary: Talking-head and dyadic models now achieve real-time inference, yet fast motion generation alone does not produce an interactive conversation. A live system must synchronize the model's output with speech from an external voice agent, schedule video frames for playback, and handle interruptions. We introduce AVTR-1, an open stack for real-time interactive avatar conversations, built around a compa...
+
+--- [19] 2609.20995v1 ---
+Title: Voice-Light: A Full-Duplex Cascaded Voice Agent with Causal Turn-Taking and Speculative Generation
+Authors: Bertil Braun
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-17
+Summary: Natural spoken interaction requires more than streaming ASR, language generation, and speech synthesis: a system must react to overlap without canceling on every acknowledgment, prepare a response before a turn is certain, and ensure canceled audio cannot enter conversation history. We present Voice-Light, a full-duplex cascaded voice agent that combines immediate acoustic onset, a causal adapter ...
+
+--- [20] 2609.20152v1 ---
+Title: MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents
+Authors: Pritish Mishra, Ishaan Kumar, Akshat Mandoli, Sudarshan Kamath
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-17
+Summary: Generally, most voice agents are cascaded systems, i.e., an ASR model transcribes the caller's audio, a language model reads the transcript and decides what to say and which backend tools to call, and a TTS model speaks the reply. Nearly all of the decision making happens in the language model, but existing evaluations measure it either too broadly or too narrowly. End-to-end voice benchmarks scor...
+
+--- [21] 2609.19334v2 ---
+Title: A frontend-backend architecture for tool calls in full-duplex speech models
+Authors: Ke Hu, Slyne Deng, Chen Chen, Elena Rastorgueva, Edresson Casanova et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-16
+Summary: Full-duplex speech-to-speech (S2S) models provide natural, low-latency conversational interaction and would benefit from the ability to use external tools and complete voice-agent tasks. We propose a frontend-backend architecture where a duplex speech-to-text frontend learns to emit a delegation token and forwards streaming ASR transcripts to a text-based backend LLM for tool calls. Tool-call resu...
+
+--- [22] 2609.16989v1 ---
+Title: Taming Long-form Text-to-Speech
+Authors: Rongxiang Wang, Berkin Durmus, Aysegul Orhon, Eduardo Pacheco, Atila Orhon
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-15
+Summary: Long-form text-to-speech (TTS) enables multi-turn conversations with consistent prosody and higher quality voice cloning from longer reference audio. Recent open-weights autoregressive TTS models such as Qwen3-TTS and VoxCPM2 attain state-of-the-art word error rate (WER) and speaker similarity (SIM) on short-form prompts but significantly deteriorate when used with long-form prompts. We propose Lo...
+
+--- [23] 2609.14666v1 ---
+Title: Exploring Multimodal Turn-Taking Cues in Face-to-Face Conversation using Voice Activity Projection
+Authors: Willem Berner, Julio Cesar Cavalcanti, Kalle Åström, Gabriel Skantze
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD
+Published: 2026-09-13
+Summary: Turn-taking is a fundamental component of spoken interaction, and while humans naturally rely on both verbal and non-verbal signals, dialogue systems usually depend on audio cues alone. This paper investigates whether visual features from face-to-face conversations can enhance turn-taking prediction beyond what is achievable from audio-only. We extend the Voice Activity Projection (VAP) model, a s...
+
+--- [24] 2609.14005v2 ---
+Title: StepAudio 3 Realtime Technical Report
+Authors: Bin Lin, Bo Zhao, Boyang Zhang, Boyong Wu, Chao Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-12
+Summary: Realtime spoken interaction demands deep reasoning, prompt responses, and fluid turn-taking. We present StepAudio 3 Realtime, an audio-language foundation model organized around a continuous listen-converse-think-act loop. Deep Perception captures rich acoustic cues to interpret user intent, while Seamless Duplex models synchronized audio streams to handle pauses, backchannels, and interruptions n...
+
+--- [25] 2609.13842v1 ---
+Title: CRAF: Cross-View Residual-Aware Fusion for Deepfake Speech Detection
+Authors: Minh-Xuan Phan, Khalid Zaman, Candy Olivia Mawalim, Masashi Unoki
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-12
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Avoice+AND+abs%3Aconversation+AND+abs%3Amodel&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Recent advances in speech synthesis and voice conversion have made deepfake speech increasingly realistic, making generalization to unseen spoofing attacks a critical challenge. Pretrained speech and audio models offer a promising direction for improving robustness to such unseen attacks. Self-supervised learning (SSL) models capture fine-grained, low-level acoustic characteristics, whereas Audito...
+

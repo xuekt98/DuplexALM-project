@@ -1,0 +1,142 @@
+--- [1] 2609.07667v1 ---
+Title: A monadic interpreter and type-and-effect checker
+Authors: Stefano Raviola, Paola Giannini, Francesco Dagnino
+Primary cat: cs.PL | All cats: cs.PL
+Published: 2026-09-07
+Summary: We present a concrete implementation in Haskell of a monadic framework that includes both a small-step interpreter and a type-and-effect checker for the corresponding language. Our approach separates the language syntax from the semantics of its effects. This design allows the interpreter to remain parametric over the underlying monad, while the static checker approximates effects independently of...
+
+--- [2] 2609.06991v1 ---
+Title: AV-SafetyBench: A Safety Benchmark for Text-to-Audio-Video Generation
+Authors: Suah Choi, Tae-Young Lee, Gyeong-Moon Park
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-07
+Summary: Recent text-to-audio-video (T2AV) models jointly generate video, speech, sound effects, and ambience from a single text prompt. This capability poses new challenges for safety evaluation, as unsafe content may be conveyed through the audio track or arise only when the visual and audio tracks are interpreted jointly. Existing safety benchmarks largely focus on either generated video or generated au...
+
+--- [3] 2609.05639v1 ---
+Title: Effective Field Theory of Gravity in Relativistic Media
+Authors: Beka Modrekiladze
+Primary cat: gr-qc | All cats: gr-qc, astro-ph.HE, hep-th
+Published: 2026-09-04
+Summary: We develop an effective field theory of gravity in relativistic media. Integrating out the medium leaves vacuum gravity with updated Feynman rules: a graviton propagator dressed by the stress-energy two-point function of the environment, medium-induced bulk graviton vertices from higher correlators, and generalized worldline couplings encoded in matched Wilson coefficients. The diagram topologies ...
+
+--- [4] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [5] 2609.04085v1 ---
+Title: Deep Neural Compression for RIR-Characterized Acoustic Environments with Structure-Aware Constraints
+Authors: Chen-Yuan Ning, Yang Ai, Hui-Peng Du, Xiao-Hang Jiang, Zhen-Hua Ling
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-03
+Summary: Room impulse responses (RIRs) characterize the acoustic environment of a room by capturing how sound propagates and decays within an enclosed space. In applications such as immersive audio rendering, accurate acoustic reconstruction often relies on spatially densely sampled RIRs. This consequently gives rise to a large volume of RIR data, imposing a substantial burden on storage. Although recent n...
+
+--- [6] 2609.03998v1 ---
+Title: Typed Flexible-Arity Slotted E-Graphs: A Soundness Construction and an Alloy Case Study
+Authors: Guanxuan Wu, Allison Sullivan
+Primary cat: cs.PL | All cats: cs.PL, cs.LO
+Published: 2026-09-03
+Summary: Slotted e-graphs represent open terms modulo consistent renaming, while algebraic operators benefit from canonical sequence, bag, or set children. We compose the two at a specification level: typed slot-mapped invocations inhabit operator-declared ports whose sibling quotient and recursive flattening licenses are certified separately. A generic finite quotient presentation proves exactness of its ...
+
+--- [7] 2609.03955v1 ---
+Title: Two-Stage Reinforcement Learning for Sound and Adversarial Test Generation in Code LLMs
+Authors: Jiacheng Xu, Wentao Zhang, Zhiyi Lyu, Fuxiang Zhang, Chaojie Wang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.LG
+Published: 2026-09-03
+Summary: Reinforcement learning (RL) has substantially advanced code generation with large language models (LLMs) through executable feedback. The feedback for coding problems mainly comes from specific test cases, where high-quality test cases are often scarce since they should be both sound and discriminative. We thus turn to study the auto-generation of test cases using the learned model. We find this i...
+
+--- [8] 2609.03592v1 ---
+Title: Code Transformation Rule Synthesis using LLMs: Potential and Limits
+Authors: Axel Allain, Aymeric Blot, Djamel Eddine Khelladi, Mathieu Acher
+Primary cat: cs.SE | All cats: cs.SE
+Published: 2026-09-03
+Summary: Due to their black-box nature, LLMs suffer from limited explain- ability and a lack of determinism. Their usage cost can also rise, particularly with repetitive tasks on large codebases. To mitigate this, we conduct a novel empirical study targeting three domain- specific languages for transformation rules, namely Comby, GritQL, and Ast-Grep. We evaluate three LLMs (GPT-5.4, GPT-oss-120B, and Llam...
+
+--- [9] 2609.03586v1 ---
+Title: The Attention Triangle in Audio-Video Models
+Authors: Sagi Polaczek, Noa Kraicer, Gal Metzer, Zhuo Ning, Ali Mahdavi-Amiri et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same mechanism can introduce subtle and systematic semantic leakage. We study these models by probing and analyzing the ``attention triangle,'' comprising the three cross-attention edges connecting the text, audio, and video streams, and examine how semantic information is routed acro...
+
+--- [10] 2609.03385v1 ---
+Title: Meson mass spectrum in isospin QCD medium from the $N_f=2+1$ quark-meson model
+Authors: Yu-Han Gao, Xu-Guang Huang, Daiki Suenaga
+Primary cat: hep-ph | All cats: hep-ph
+Published: 2026-09-03
+Summary: We study phase structures, meson mass spectra, and sound velocities at finite temperature and density in QCD with isospin chemical potential ($μ_I$). We employ the quark-meson model with $N_f=2+1$, incorporating the Kobayashi-Maskawa-'t Hooft type coupling to capture dynamical effects of the $U(1)_A$ axial anomaly. Within the mean-field approximation at quark one-loop, we analyze the onset of pion...
+
+--- [11] 2609.03237v1 ---
+Title: Non-extensive entropy signatures in compact star
+Authors: B. N. Jayawiguna, M. H. Al Ghifari, A. Rohim, A. Sulaksono
+Primary cat: gr-qc | All cats: gr-qc, astro-ph.HE
+Published: 2026-09-03
+Summary: The non-extensive entropy models applied to the black-hole horizon are connected to the generalized Einstein--Hilbert action, $f(R)$, via the Wald entropy formalism. We demonstrate that quark star configurations characterized by the MIT bag model under this modified gravity approach conform to the observational lower and upper bounds established for compact objects linked to HESS J1731$-$347 and G...
+
+--- [12] 2609.02852v1 ---
+Title: The Implications of Linguistic Illegibility for LLM Security
+Authors: James Mickens
+Primary cat: cs.LG | All cats: cs.LG, cs.CR
+Published: 2026-09-02
+Summary: LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an unreliable lens for understanding internal model computation. We introduce the term ``linguistic illegibility'' to broadly refer to scenarios in which an LLM's externalized or mechanistically-probed la...
+
+--- [13] 2609.02046v1 ---
+Title: Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation
+Authors: Param Thakkar, Parsika Paresh Shah, Manisha Sushant Gote
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2026-09-02
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Asound+AND+abs%3Aeffect+AND+abs%3Ageneration&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Monolithic world models predict the entire next state at every step, spending capacity re-predicting the static majority of a scene and injecting error into it. We ask whether explicitly modeling change (a per-object change gate plus a residual delta head that perturbs only the objects the gate flags) is a more effective and interpretable bias for physical prediction and control. On a MuJoCo table...
+
+--- [14] 2609.01762v1 ---
+Title: Synthesis of Compact and Expressive Quantum-Circuit Optimizations
+Authors: Wei Qiang, Ronghui Gu
+Primary cat: cs.PL | All cats: cs.PL
+Published: 2026-09-01
+Summary: Today's quantum devices are noisy, so reducing circuit size is critical for reliable execution. Existing rule-based optimizers often rely on large rule sets that are difficult to manage and still miss long-distance transformations. We present QSymb, a framework for synthesizing compact and expressive quantum-circuit rewrite rules with formal guarantees. We formalize symbolic rewrite rules in which...
+
+--- [15] 2608.30689v1 ---
+Title: CANVAS: Consistency-Aware Navigation via Visual Adaptive Sampling for Long-Context Text-to-SVG Generation
+Authors: Yichen Wu, Haoxuan Qu, Yihang Lou, Hossein Rahmani, Jun Liu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Autoregressive large models have recently advanced Text-to-SVG generation from simple icons to complex, long-context graphics, yet standard autoregressive decoding often fails to maintain global consistency across geometry, layout, occlusion, and composition. We introduce CANVAS (Consistency-Aware Navigation via Visual Adaptive Sampling), a training-free, render-aware inference framework that comb...
+
+--- [16] 2608.28851v1 ---
+Title: Evoking Harmony via Convolution
+Authors: Michael Gogins
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-28
+Summary: I show how to evoke the pitch-class content of a chord from an arbitrary source sound by convolving the source with an impulse response whose grains are one windowed sinusoid per pitch-class, across each octave of hearing range; while, at the same time, minimizing artifacts. A Csound user-defined opcode, chord_convolver, mixes a dry Dirac component into that response, and applies partitioned convo...
+
+--- [17] 2608.27981v1 ---
+Title: CHISEL-ing Back Source Code with AI-enabled Iterative Recovery
+Authors: Varun Kohli, N Raghava, Biplab Sikdar, Dinil Mon Divakaran
+Primary cat: cs.CR | All cats: cs.CR, cs.SE
+Published: 2026-08-28
+Summary: Decompilation aims to recover high-level, compilable, and semantically equivalent code from binaries. Traditional decompilers produce pseudo-C that is difficult to read and does not compile, while the recent LLM-assisted approaches generate readable, but semantically incorrect code. LLM-aided iterative recovery is an emerging branch of research, but prior works rely on supplied test suites for sem...
+
+--- [18] 2608.27698v1 ---
+Title: Evaluating Loss Functions in Differentiable Out-of-Domain Sound-Matching with Partial Parameter Distance
+Authors: Amir Salimi, Daniel Penner, Kalvin Eng, Abram Hindle, Osmar R. Zaïane
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-27
+Summary: In out-of-domain (OOD) sound-matching, a synthesizer is optimized to mimic a sound it did not generate. OOD evaluation of loss functions is underexplored in part because the standard "parameter loss" metric requires a shared parameter space between target and imitator, which OOD settings lack. We introduce Partial Parameter Distance (PPD), which applies parameter loss only to the critical paramete...
+
+--- [19] 2608.24558v3 ---
+Title: Array-Agnostic Ambisonics Encoding via Diffusion Posterior Sampling
+Authors: Amit Milstein, Nir Shlezinger, Boaz Rafaely
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-25
+Summary: Spatial audio enhances user immersion by reproducing 3D sound fields, with Ambisonics being a widely adopted representation. While Ambisonics is theoretically independent of the recording setup, practical microphone arrays introduce hardware-dependent encoding artifacts. Moreover, existing data-driven solutions lack flexibility, as they are typically restricted to fixed array geometries. To overco...
+
+--- [20] 2608.23437v1 ---
+Title: AT-ADD: A Benchmark and Challenge for Robust and All-Type Audio Deepfake Detection
+Authors: Yuankun Xie, Haonan Cheng, Jiayi Zhou, Xiaoxuan Guo, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-24
+Summary: Recent audio generation models can synthesize high-fidelity speech, environmental sound, singing voice, and music, creating new risks for multimedia trust. Existing audio deepfake detection (ADD) benchmarks remain predominantly speech-centric and often underrepresent realistic channel variation and diverse audio types. This paper presents AT-ADD, a large-scale benchmark and challenge designed to e...
+

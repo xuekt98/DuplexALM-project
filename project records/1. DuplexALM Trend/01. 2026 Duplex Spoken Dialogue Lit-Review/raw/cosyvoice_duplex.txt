@@ -1,0 +1,2 @@
+# Total entries: 0
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Acosyvoice+AND+abs%3Aduplex&max_results=25&sortBy=submittedDate&sortOrder=descending

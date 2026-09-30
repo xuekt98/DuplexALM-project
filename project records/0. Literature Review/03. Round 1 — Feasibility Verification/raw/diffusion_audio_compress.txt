@@ -1,0 +1,177 @@
+--- [1] 2608.20743v2 ---
+Title: Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis
+Authors: Yantao Li, Huanlin Gao, Fang Zhao, Chao Tan, Qiang Hui et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-21
+Summary: Speculative decoding accelerates autoregressive generation by allowing a lightweight drafter to propose future tokens while a target model verifies them in parallel. Its lossless guarantee has motivated a line of work that pushes the drafter itself toward parallel generation. The most recent paradigm is block-parallel generative drafting, including diffusion-based methods such as DFlash and DSpark...
+
+--- [2] 2608.11913v1 ---
+Title: HarmoniDPO: Video-guided Audio Generation via Preference-Optimized Diffusion
+Authors: Wenshuo Peng, Kaipeng Zhang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-12
+Summary: Video-to-audio (V2A) generation faces significant challenges in achieving precise temporal synchronization and high perceptual quality due to the complex, ambiguous relationship between visual and auditory cues. Existing methods typically compress video inputs into single feature representations, leading to significant loss of temporal dynamics and fine-grained visual information. These approaches...
+
+--- [3] 2608.05798v1 ---
+Title: KVAE: Family of Tokenizers for Multimodal Generative Models
+Authors: Andrey Shutkin, Denis Parkhomenko, Ivan Kirillov, Kirill Chernyshev, Kirill Malakhov et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.SD
+Published: 2026-08-06
+Summary: Latent diffusion modeling (LDM), a prominent paradigm, utilizes tokenizers to map input signal to compressed representation. This dependency positions tokenizer as an integral part of generation process itself, since it affects learning speed, quality of synthesized samples and lay foundation for later applications. This report presents series of KVAE tokenizers for audio, image and video, all des...
+
+--- [4] 2608.02602v1 ---
+Title: AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling
+Authors: Jiajun Liang, Yucheng Liao, Yukang Cao, Jiazhe Wei, Ken Li et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-03
+Summary: Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generation and decoding, or compress autoencoded latents to ease diffusion, sacrificing token-level fidelity....
+
+--- [5] 2607.27011v2 ---
+Title: Qwen-Audio-3.0-Gen-Preview Technical Report
+Authors: Junyu Dai, Xiaoyue Duan, Xinyue Fan, Yihan Feng, Jingbei Li et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-29
+Summary: Existing single-domain and multi-task audio systems remain limited in directly organizing heterogeneous audio components, ambience, and multiple roles into long-form temporal scenes. We present Qwen-Audio-3.0-Gen-Preview, a unified non-autoregressive framework that uses a Diffusion Transformer (DiT) and a shared variational autoencoder (VAE) to generate the complete mixed waveform. Prompt enhancem...
+
+--- [6] 2607.11143v2 ---
+Title: Anysynth:Zero-Shot Instrument Cloning via In-Context Learning and Asymmetric Hierarchical Guidance
+Authors: Chong Jing, Junan Zhang, Jing Yang, Yulun Wu, Fan Fan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-13
+Summary: Zero-shot instrument cloning aims to render an arbitrary [Target MIDI] sequence with the acoustic identity of an unseen instrument given only a short [Reference Audio, Reference MIDI] pair. Existing methods rely on pre-trained embeddings (e.g., CLAP) that compress the reference audio into a fixed-length vector, discarding fine-grained acoustic cues essential for faithful timbre reconstruction. We ...
+
+--- [7] 2607.09134v1 ---
+Title: ReGen: Hierarchical Multi-Prompt Representation Generation for Efficient Waveform Diffusion Models
+Authors: Sang-Hoon Lee, Ha-Yeong Choi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS, eess.SP
+Published: 2026-07-10
+Summary: Representation alignment (REPA) has been investigated to accelerate diffusion training, but we observe that regularizing intermediate representations in diffusion Transformers (DiT) may implicitly entangle latents and limit generative capacity. To address this issue, we propose ReGen, a hierarchical multi-prompt representation generation framework that jointly estimates multiple vector fields for ...
+
+--- [8] 2606.23064v1 ---
+Title: STAR-VAE: Structured Topology-Aware Regularization for Audio Reconstruction and Generation
+Authors: Huadai Liu, Wen Wang, Kaicheng Luo, Qian Chen, Xiangang Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-22
+Summary: Continuous Variational Autoencoders (VAEs) serve as the fundamental continuous tokenizer for modern neural audio generation systems, enabling high-fidelity reconstruction while providing a compact, smooth latent space for downstream generative priors. However, continuous VAEs face a fundamental conflict among compression rate, reconstruction fidelity, and latent space topology, which we formalize ...
+
+--- [9] 2606.22905v2 ---
+Title: InteractiveAvatar: Real-Time Streaming Video Generation for Consistent and Intent-Aware Avatars
+Authors: Quanyue Song, Yishan He, Yanfei Zhang, Shihao Cheng, Zhixiang He et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-22
+Summary: Recent diffusion-based models have enabled realistic audio-driven avatar generation in real-time streaming. However, existing approaches struggle to maintain visual temporal consistency and fail to explicitly perceive user intent in complex interactive streaming scenarios. To address these challenges, we propose InteractiveAvatar, a real-time infinite-streaming video generation framework that supp...
+
+--- [10] 2606.03455v1 ---
+Title: WavTTS: Towards High-Quality Zero-Shot TTS via Direct Raw Waveform Modeling
+Authors: Wenxi Chen, Dongya Jia, Yushen Chen, Zhikang Niu, Yuzhe Liang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-02
+Summary: Recently, diffusion models operating on VAE latents or mel-spectrograms have become the dominant paradigm for zero-shot TTS. Although these compressed representations improve generation efficiency, they inevitably suffer from information loss and non-end-to-end training. Theoretically, directly modeling raw waveforms circumvents these issues; however, this direction remains underexplored and is of...
+
+--- [11] 2606.01620v1 ---
+Title: Real-Time Generation of Streamable Talking Portrait Video with Reference-Guided Deep Compression VAEs
+Authors: Sicheng Xu, Yu Deng, Shoukang Hu, Yichuan Wang, Yizhong Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-01
+Summary: Video diffusion models have significantly advanced portrait video generation, yet their high computational demands limit their use in interactive applications. This work presents a framework for streamable talking portrait video generation conditioned on speech audio and reference images. Designed meticulously for streaming scenarios, it features a causal video VAE for deep latent compression and ...
+
+--- [12] 2605.27840v1 ---
+Title: LoSATok: Low-dimensional Semantic-Acoustic Tokenizer for Cross-Domain Audio Understanding and Generation
+Authors: Zhisheng Zhang, Xiang Li, Yixuan Zhou, Jing Peng, Guoyang Zeng et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2026-05-27
+Summary: Audio tokenizers are fundamental to unifying audio understanding and generation. Understanding requires high-level semantics, while generation demands semantic and acoustic details. Existing unified tokenizers jointly encode both in high-dimensional continuous latents, which increases the modeling burden of Diffusion Transformers (DiTs) for generation. We propose LoSATok, a low-dimensional audio t...
+
+--- [13] 2605.17085v1 ---
+Title: Taming Audio VAEs via Target-KL Regularization
+Authors: Prem Seetharaman, Rithesh Kumar
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-05-16
+Summary: Latent diffusion models have emerged as the dominant paradigm for many generation tasks including audio generation such as text-to-audio, text-to-music and text-to-speech. A key component of latent diffusion is an autoencoder (VAE) that compresses high-dimensional signals into a low frame rate continuous representation that is conducive for downstream prediction. Regularizing these VAEs is challen...
+
+--- [14] 2604.14580v2 ---
+Title: TurboTalk: Progressive Distillation for One-Step Audio-Driven Talking Avatar Generation
+Authors: Xiangyu Liu, Feng Gao, Xiaomei Zhang, Yong Zhang, Xiaoming Wei et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-04-16
+Summary: Existing audio-driven video digital human generation models rely on multi-step denoising, resulting in substantial computational overhead that severely limits their deployment in real-world settings. While one-step distillation approaches can significantly accelerate inference, they often suffer from training instability. To address this challenge, we propose TurboTalk, a two-stage progressive dis...
+
+--- [15] 2604.09344v3 ---
+Title: DialogueSidon: Recovering Full-Duplex Dialogue Tracks from In-the-Wild Dialogue Audio
+Authors: Wataru Nakata, Yuki Saito, Kazuki Yamauchi, Emiru Tsunoo, Hiroshi Saruwatari
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-04-10
+Summary: Full-duplex dialogue audio, in which each speaker is recorded on a separate track, is an important resource for spoken dialogue research, but is difficult to collect at scale. Most in-the-wild two-speaker dialogue is available only as degraded monaural mixtures, making it unsuitable for systems requiring clean speaker-wise signals. We propose DialogueSidon, a model for joint restoration and separa...
+
+--- [16] 2603.21608v1 ---
+Title: DiT-Flow: Speech Enhancement Robust to Multiple Distortions based on Flow Matching in Latent Space and Diffusion Transformers
+Authors: Tianyu Cao, Helin Wang, Ari Frummer, Yuval Sieradzki, Adi Arbel et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2026-03-23
+Summary: Recent advances in generative models, such as diffusion and flow matching, have shown strong performance in audio tasks. However, speech enhancement (SE) models are typically trained on limited datasets and evaluated under narrow conditions, limiting real-world applicability. To address this, we propose DiT-Flow, a flow matching-based SE framework built on the latent Diffusion Transformer (DiT) ba...
+
+--- [17] 2603.10314v1 ---
+Title: PRoADS: Provably Secure and Robust Audio Diffusion Steganography with latent optimization and backward Euler Inversion
+Authors: YongPeng Yan, Yanan Li, Qiyang Xiao, Yanzhen Ren
+Primary cat: cs.CR | All cats: cs.CR, cs.MM, cs.SD
+Published: 2026-03-11
+Summary: This paper proposes PRoADS, a provably secure and robust audio steganographic framework based on audio diffusion models. As a generative steganography scheme, PRoADS embeds secret messages into the initial noise of diffusion models via orthogonal matrix projection. To address the reconstruction errors in diffusion inversion that cause high bit error rates (BER), we introduce Latent Optimization an...
+
+--- [18] 2602.15082v2 ---
+Title: S-PRESSO: Ultra Low Bitrate Sound Effect Compression With Diffusion Autoencoders And Offline Quantization
+Authors: Zineb Lahrichi, Gaëtan Hadjeres, Gaël Richard, Geoffroy Peeters
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM
+Published: 2026-02-16
+Summary: Neural audio compression models have recently achieved extreme compression rates, enabling efficient latent generative modeling. Conversely, latent generative models have been applied to compression, pushing the limits of continuous and discrete approaches. However, existing methods remain constrained to low-resolution audio and degrade substantially at very low bitrates, where audible artifacts a...
+
+--- [19] 2602.00568v1 ---
+Title: Dual-View Predictive Diffusion: Lightweight Speech Enhancement via Spectrogram-Image Synergy
+Authors: Ke Xue, Rongfei Fan, Kai Li, Shanping Yu, Puning Zhao et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-01-31
+Summary: Diffusion models have recently set new benchmarks in Speech Enhancement (SE). However, most existing score-based models treat speech spectrograms merely as generic 2D images, applying uniform processing that ignores the intrinsic structural sparsity of audio, which results in inefficient spectral representation and prohibitive computational complexity. To bridge this gap, we propose DVPD, an extre...
+
+--- [20] 2601.02731v3 ---
+Title: Omni2Sound: Towards Unified Video-Text-to-Audio Generation
+Authors: Yusheng Dai, Zehua Chen, Yuxuan Jiang, Baolong Gao, Qiuhong Ke et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.MM
+Published: 2026-01-06
+Summary: Training a unified model integrating video-to-audio (V2A), text-to-audio (T2A), and joint video-text-to-audio (VT2A) generation offers significant application flexibility, yet faces two unexplored foundational challenges: (1) the scarcity of high-quality audio captions with tight V-A-T alignment, leading to severe semantic conflict between multimodal conditions, and (2) cross-task and intra-task c...
+
+--- [21] 2601.02359v1 ---
+Title: ExposeAnyone: Personalized Audio-to-Expression Diffusion Models Are Robust Zero-Shot Face Forgery Detectors
+Authors: Kaede Shiohara, Toshihiko Yamasaki, Vladislav Golyanik
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-01-05
+Summary: Detecting unknown deepfake manipulations remains one of the most challenging problems in face forgery detection. Current state-of-the-art approaches fail to generalize to unseen manipulations, as they primarily rely on supervised training with existing deepfakes or pseudo-fakes, which leads to overfitting to specific forgery patterns. In contrast, self-supervised methods offer greater potential fo...
+
+--- [22] 2512.15262v1 ---
+Title: Audio-Visual Cross-Modal Compression for Generative Face Video Coding
+Authors: Youmin Xu, Mengxi Guo, Shijie Zhao, Weiqi Li, Junlin Li et al.
+Primary cat: eess.IV | All cats: eess.IV, cs.MM
+Published: 2025-12-17
+Summary: Generative face video coding (GFVC) is vital for modern applications like video conferencing, yet existing methods primarily focus on video motion while neglecting the significant bitrate contribution of audio. Despite the well-established correlation between audio and lip movements, this cross-modal coherence has not been systematically exploited for compression. To address this, we propose an Au...
+
+--- [23] 2512.11229v3 ---
+Title: REST: Diffusion-based Real-time End-to-end Streaming Talking Head Generation via ID-Context Caching and Asynchronous Streaming Distillation
+Authors: Haotian Wang, Yuzhe Weng, Jun Du, Haoran Xu, Xiaoyan Wu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2025-12-12
+Summary: Diffusion models have significantly advanced the field of talking head generation (THG). However, slow inference speeds and prevalent non-autoregressive paradigms severely constrain the application of diffusion-based THG models. In this study, we propose REST, a pioneering diffusion-based, real-time, end-to-end streaming audio-driven talking head generation framework. To support real-time end-to-e...
+
+--- [24] 2510.20595v1 ---
+Title: Diffusion Autoencoders with Perceivers for Long, Irregular and Multimodal Astronomical Sequences
+Authors: Yunyi Shen, Alexander Gagliano
+Primary cat: stat.ML | All cats: stat.ML, cs.LG
+Published: 2025-10-23
+Summary: Self-supervised learning has become a central strategy for representation learning, but the majority of architectures used for encoding data have only been validated on regularly-sampled inputs such as images, audios. and videos. In many scientific domains, data instead arrive as long, irregular, and multimodal sequences. To extract semantic information from these data, we introduce the Diffusion ...
+
+--- [25] 2509.17609v3 ---
+Title: Audio Super-Resolution with Latent Bridge Models
+Authors: Chang Li, Zehua Chen, Liyuan Wang, Jun Zhu
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Adiffusion+AND+abs%3Aaudio+AND+abs%3Acompress&max_results=25&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2025-09-22
+Summary: Audio super-resolution (SR), i.e., upsampling the low-resolution (LR) waveform to the high-resolution (HR) version, has recently been explored with diffusion and bridge models, while previous methods often suffer from sub-optimal upsampling quality due to their uninformative generation prior. Towards high-quality audio super-resolution, we present a new system with latent bridge models (LBMs), whe...
+

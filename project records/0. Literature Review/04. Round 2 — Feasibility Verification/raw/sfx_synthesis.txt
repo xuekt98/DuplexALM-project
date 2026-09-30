@@ -1,0 +1,142 @@
+--- [1] 2609.03592v1 ---
+Title: Code Transformation Rule Synthesis using LLMs: Potential and Limits
+Authors: Axel Allain, Aymeric Blot, Djamel Eddine Khelladi, Mathieu Acher
+Primary cat: cs.SE | All cats: cs.SE
+Published: 2026-09-03
+Summary: Due to their black-box nature, LLMs suffer from limited explain- ability and a lack of determinism. Their usage cost can also rise, particularly with repetitive tasks on large codebases. To mitigate this, we conduct a novel empirical study targeting three domain- specific languages for transformation rules, namely Comby, GritQL, and Ast-Grep. We evaluate three LLMs (GPT-5.4, GPT-oss-120B, and Llam...
+
+--- [2] 2608.27698v1 ---
+Title: Evaluating Loss Functions in Differentiable Out-of-Domain Sound-Matching with Partial Parameter Distance
+Authors: Amir Salimi, Daniel Penner, Kalvin Eng, Abram Hindle, Osmar R. Zaïane
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-27
+Summary: In out-of-domain (OOD) sound-matching, a synthesizer is optimized to mimic a sound it did not generate. OOD evaluation of loss functions is underexplored in part because the standard "parameter loss" metric requires a shared parameter space between target and imitator, which OOD settings lack. We introduce Partial Parameter Distance (PPD), which applies parameter loss only to the critical paramete...
+
+--- [3] 2608.09571v1 ---
+Title: SonicWeave: Chunk-Routed Mixture-of-Experts for Unified Audio Scene Generation
+Authors: Yunrui Cai, Xu Li, Yucheng Zhou, Jinchao Li, Dingdong Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-10
+Summary: Text-conditioned general audio generation is moving beyond isolated speech, music, and sound-effect synthesis toward a single model that can compose them into controllable, coherent audio scenes. This unified setting is particularly challenging: heterogeneous components impose conflicting structural requirements on a shared backbone, while a complex mixed scene may contain locally distinct or over...
+
+--- [4] 2608.06900v1 ---
+Title: MMAG: A Multi-Control Mixed Audio Generation Benchmark
+Authors: Zihao Zheng, Xuenan Xu, Jiahao Mei, Yixuan Li, Minghao Lv et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-07
+Summary: Recent audio generation systems have progressed from single-modality synthesis to generating complex acoustic scenes containing speech, music, and sound effects. Therefore, evaluating these models requires assessing multiple interacting capabilities, including semantic fidelity, speaker consistency, and temporal control, yet existing benchmarks focus on isolated domains or coarse-grained descripti...
+
+--- [5] 2608.03742v1 ---
+Title: AI-Based Sound Effect Generation: A Narrative Review of Generative Models Across Input Modalities
+Authors: Sandy Abdo, Bill Kapralos, Priyamvada Tripathi, KC Collins, Adam Dubrowski
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-04
+Summary: Sound effects play a crucial role in conveying actions, events, and environmental cues across digital applications, often requiring a high degree of variation and contextual adaptability. Artificial intelligence (AI)-driven audio generative models are rapidly growing in popularity and have the potential to transform the way sound is synthesized and used across various applications. In response to ...
+
+--- [6] 2607.27606v1 ---
+Title: LimICE: Integrating LLM into ICE Framework for Efficient Loop Invariant Inference
+Authors: Kai Fan, ShiWen Yu, GuangSheng Fan, HaoAng Chi, WanWei Liu et al.
+Primary cat: cs.SE | All cats: cs.SE
+Published: 2026-07-30
+Summary: Loop invariant synthesis is a fundamental problem in program verification, yet the inherent undecidability makes it highly challenging. Recent studies have increasingly employed various machine learning techniques to generate loop invariants. However, most of these methods adopt a monolithic approach. Due to the inability to strictly constrain the learning process, learning-based methods struggle ...
+
+--- [7] 2607.23023v2 ---
+Title: OmniMate: Open-Ended Real-Time Streaming Audio-Visual Generation for Interactive Avatars
+Authors: Quanyue Song, Yishan He, Yanbo Ding, Zhixiang He, Yongxiang Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-25
+Summary: Recent advances in diffusion-based generative models have enabled real-time audio-driven avatar generation and unified audio-visual synthesis, providing a promising foundation for interactive avatar systems. However, extending unified audio-visual synthesis to real-time interactive streaming remains challenging, as the generation horizon is unknown in advance and the generated identity may drift o...
+
+--- [8] 2607.11364v1 ---
+Title: BackgroundMellow: A Multi-Modal Cohesive Framework for Narrative-Driven Rich Cinematic Soundscape Generation
+Authors: Ajitesh Jamulkar, Aritra Hazra
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.MM
+Published: 2026-07-13
+Summary: Generating immersive, synchronized and cinematic audio for long-form textual narratives remains a significant challenge in multi-modal AI. While current Text-to-Audio (TTA) frameworks successfully synthesize isolated sound effects, they struggle with narrative cohesion, temporal alignment, and cinematic emotional depth. We present BackgroundMellow, a framework that treats story-to-audio generation...
+
+--- [9] 2606.30114v1 ---
+Title: Evaluation of Head-Related Transfer Functions Across Five Levels of Individualisation in Virtual Reality
+Authors: Ludovic Pirard, Katarina C. Poole
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-29
+Summary: Head-related transfer functions (HRTFs) underpin spatial hearing in virtual and augmented reality systems. Whilst individual HRTFs capture listener-specific morphology, their practical limitations have led to widespread use of generic HRTFs and growing interest in synthetic approaches. Yet their relative perceptual impact remains rarely compared within a single study. In this study, we analysed da...
+
+--- [10] 2606.09098v2 ---
+Title: HoliDubber: Holistic Video Dubbing for Complex Acoustic Scenes via Text-Guided Audio Synthesis
+Authors: Wenhao Guan, Yifan Duan, Junxi Liu, Yu Gu, Feng Dang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-08
+Summary: Video dubbing is a cornerstone of multimedia content creation, aiming to synthesize synchronized acoustic sequences for visual streams. While Text-to-Speech (TTS) and Text-to-Audio (TTA) generation have each achieved remarkable progress, existing dubbing systems remain confined to isolated speech synthesis without incorporating sound effects and ambient audio, forcing practitioners to rely on frag...
+
+--- [11] 2606.03672v1 ---
+Title: Foley-Omni: A Unified Multimodal Generation Model from Task-Level Audio Synthesis to Complete Video Soundtrack Generation
+Authors: Ye Tao, Lupeng Liu, Xuenan Xu, Jiasun Feng, Jiarui Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-06-02
+Summary: Recent unified audio generation models can support diverse tasks across speech, sound effects, and music, but most of them still focus on isolated task-level synthesis. However, real video production often requires multiple components of a complete audio track to be generated jointly and consistently for the same video. We present Foley-Omni, a unified multimodal audio generation model that extend...
+
+--- [12] 2606.00629v1 ---
+Title: Quality Audio Prototyping: a prototype system for unified sound retrieval and procedural generation
+Authors: Nelly Garcia, Aditya Bhattacharjee, Gabryel Mason-Williams, Israel Mason-Williams, Emmanouil Benetos et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.HC, cs.LG, eess.AS
+Published: 2026-05-30
+Summary: Sound design workflows frequently oscillate between time-consuming library searches and the complexity of procedural synthesis, with practitioners typically relying on disconnected tools to address each challenge separately. This paper introduces Quality Audio Prototyping (QuAP), a working prototype that unifies content-based audio retrieval and procedural sound generation within a single interfac...
+
+--- [13] 2605.23859v1 ---
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Asound+AND+abs%3Aeffect+AND+abs%3Asynthesis&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: Natural Yet Challenging to Detect: Robust In-the-Wild TTS through EMA and Dual-Scoring Prompt Selection -- Submission for WildSpoof 2026 TTS Track
+Authors: Renhe Sun, Jiayi Zhou, Haolin He, Yueying Feng, Jian Liu
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-22
+Summary: In this technical report, we describe our submission for the WildSpoof Challenge TTS Track: Text-to-Speech with In-the-Wild Data. We introduce F5-TTS-DPS, a model built upon the F5-TTS architecture. Our approach integrates Exponential Moving Average (EMA) into supervised fine-tuning to stabilize training and improve generalization. To enhance synthesis fidelity, we leverage large language models (...
+
+--- [14] 2605.12581v1 ---
+Title: Ensuring Logic in the Fog: Sound POMDP Synthesis with LTL Objectives
+Authors: Can Zhou, Yulong Gao, Pian Yu
+Primary cat: cs.LO | All cats: cs.LO, cs.AI, cs.FL, math.OC
+Published: 2026-05-12
+Summary: Synthesising autonomous agents that can navigate uncertain environments while adhering to complex temporal constraints remains a fundamental challenge. While Linear Temporal Logic (LTL) provides a rigorous language for specifying such tasks, the inherent undecidability of qualitatively verifying LTL satisfaction in partially observable Markov decision processes renders quantitative synthesis diffi...
+
+--- [15] 2604.23909v1 ---
+Title: AMAVA: Adaptive Motion-Aware Video-to-Audio Framework for Visually-Impaired Assistance
+Authors: Benjamin Klein, Kazi Ruslan Rahman, Sanchita Ghose
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-26
+Summary: Navigational aids for blind and low vision individuals struggle conveying dynamic real-world environments, leading to cognitive overload from continuous, undifferentiated feedback. We present AMAVA, a novel real-time video-to-audio framework that converts mobile device video into contextually relevant sound effects or text-to-speech descriptions. We propose a motion-aware pipeline using a lightwei...
+
+--- [16] 2604.05751v1 ---
+Title: Brain-to-Speech: Prosody Feature Engineering and Transformer-Based Reconstruction
+Authors: Mohammed Salah Al-Radhi, Géza Németh, Andon Tchechmedjiev, Binbin Xu
+Primary cat: eess.SP | All cats: eess.SP, cs.LG, cs.SD
+Published: 2026-04-07
+Summary: This chapter presents a novel approach to brain-to-speech (BTS) synthesis from intracranial electroencephalography (iEEG) data, emphasizing prosody-aware feature engineering and advanced transformer-based models for high-fidelity speech reconstruction. Driven by the increasing interest in decoding speech directly from brain activity, this work integrates neuroscience, artificial intelligence, and ...
+
+--- [17] 2603.26113v1 ---
+Title: Cinematic Audio Source Separation Using Visual Cues
+Authors: Kang Zhang, Suyeon Lee, Arda Senocak, Joon Son Chung
+Primary cat: cs.MM | All cats: cs.MM, cs.SD, eess.AS
+Published: 2026-03-27
+Summary: Cinematic Audio Source Separation (CASS) aims to decompose mixed film audio into speech, music, and sound effects, enabling applications like dubbing and remastering. Existing CASS approaches are audio-only, overlooking the inherent audio-visual nature of films, where sounds often align with visual cues. We present the first framework for audio-visual CASS (AV-CASS), leveraging visual context to e...
+
+--- [18] 2603.22363v1 ---
+Title: Early Discoveries of Algorithmist I: Promise of Provable Algorithm Synthesis at Scale
+Authors: Janardhan Kulkarni
+Primary cat: cs.SE | All cats: cs.SE, cs.AI
+Published: 2026-03-23
+Summary: Designing algorithms with provable guarantees that also work well in practice remains difficult, requiring both mathematical reasoning and careful implementation. Existing approaches that bridge worst-case theory and empirical performance, such as beyond-worst-case analysis and data-driven algorithm selection, typically assume prior distributional knowledge or restrict attention to a fixed pool of...
+
+--- [19] 2603.18477v1 ---
+Title: Leveraging Large Language Models for Generalizing Peephole Optimizations
+Authors: Chunhao Liao, Hongxu Xu, Xintong Zhou, Zhenyang Xu, Chengnian Sun
+Primary cat: cs.PL | All cats: cs.PL
+Published: 2026-03-19
+Summary: Peephole optimizations are a core component of modern optimizing compilers. It rewrites specific instruction into semantically equivalent but more efficient forms. In practice, creating a new peephole optimization often starts from a concrete optimization instance and requires lifting it into a more general rewrite rule that matches a wider range of instruction patterns. This generalization step i...
+
+--- [20] 2603.16682v1 ---
+Title: A Semantic Timbre Dataset for the Electric Guitar
+Authors: Joseph Cameron, Alan Blackwell
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-17
+Summary: Understanding and manipulating timbre is central to audio synthesis, yet this remains under-explored in machine learning due to a lack of annotated datasets linking perceptual timbre dimensions to semantic descriptors. We present the Semantic Timbre Dataset, a curated collection of monophonic electric guitar sounds, each labeled with one of 19 semantic timbre descriptors and corresponding magnitud...
+

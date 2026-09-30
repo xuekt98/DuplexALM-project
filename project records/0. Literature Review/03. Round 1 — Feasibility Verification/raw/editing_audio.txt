@@ -1,0 +1,142 @@
+--- [1] 2609.09054v1 ---
+Title: Training-Free Task Vectors for LLM Behavioral Control
+Authors: Gabriel J. Perin, Lucas Boscaini, André Araujo, Nina S. T. Hirata
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Task vectors enable post-training model editing by identifying semantically meaningful directions in weight space, typically computed as the difference between a fine-tuned model and its pretrained initialization. However, this reliance on fine-tuning makes discovering such directions costly and limits the practicality of post-training model editing. To address this limitation, we introduce Traini...
+
+--- [2] 2609.08965v1 ---
+Title: PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving
+Authors: Yuan Gao, Sebastian Müller, Mattia Piccinini, Marc Kaufeld, Yuchen Zhang et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.RO
+Published: 2026-09-08
+Summary: Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which scenario generation, retrieval, modification, ADS execution, and results analysis are performed by separate tools with little interaction. Large Language Model (LLM) agents have sh...
+
+--- [3] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [4] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [5] 2609.08944v1 ---
+Title: SkillAdam: Stable and Efficient Skill Evolution for Agents
+Authors: Gaoyuan Li, Meihao Fan, Yizhe Liu, Shaolei Zhang, Ju Fan et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Agent skills provide a lightweight way to equip frozen language-model agents with domain knowledge and procedural guidance, yet obtaining high-quality skills remains costly and difficult to scale. Expert-written skills require substantial human effort. Recent skill self-evolution methods automate an iterative loop that uses execution feedback to revise skills, but their heuristic update strategies...
+
+--- [6] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [7] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [8] 2609.08919v1 ---
+Title: Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents
+Authors: Wenbo Gao, Zhaomou Song, Zhiyuan Ji, Renxi Liu, Xing Li et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-08
+Summary: Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future behavior through self-evolution. A fundamental challenge is how to transform abundant, task-specific interaction experience into reusable model competence without sacrificing the ability to adapt rapidly to newly observed evidence. Explicit tex...
+
+--- [9] 2609.08855v1 ---
+Title: Earth System World Model for What-If Simulations: A Case Study for Terrestrial Ecosystems
+Authors: Zhihao Wang, Ruichen Wang, Ruohan Li, Lei Ma, George Hurtt et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Machine learning emulators have become essential for accelerating expensive Earth-system simulations, but most existing approaches remain passive forecasters: they reproduce simulator trajectories under prescribed forcings without an explicit interaction mechanism for user-specified interventions. This limits their use in interactive scientific workflows and Earth-system digital twins, where users...
+
+--- [10] 2609.08788v1 ---
+Title: Adaptive Anisotropic Attention for Axis-Structured Signals
+Authors: Mahir Jain, Parshva Runwal, Aditya Ray Mishra, Arvasu Kulkarni, Sandeep Singh et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Dense self-attention treats all token pairs as equally plausible before learning, an interaction-isotropic prior that can be mismatched to structured signals. For structured, low signal-to-noise ratio (SNR) signals such as EEG, dependencies are organized along the electrode and time axes, and this uniform prior exposes each token to many irrelevant interactions. We introduce Adaptive Anisotropic A...
+
+--- [11] 2609.08722v1 ---
+Title: Inverse Digital Marbling: Recovering Gesture Programs with a Replay Adjoint
+Authors: Tianqi Liu, Yushan Han, Hang Liu
+Primary cat: cs.GR | All cats: cs.GR, cs.CV
+Published: 2026-09-08
+Summary: Pigment deposition in paper marbling displaces the pattern already present, coupling the appearance of each gesture to later actions. We recover executable programs for a deposition-based digital marbling model: given a target image, we optimise an ordered program of capsule insertions whose replay approximates it. The capsule primitive continuously joins circular drops to elongated deposits. Its ...
+
+--- [12] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [13] 2609.08657v1 ---
+Title: Charts Are Beyond Pixels: Probing for Layer-Wise Chart Understanding and Editing
+Authors: Xiaochuan Zhong, Yifan Hou, Chenxi Pang, Shaobo Cui
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-09-08
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+editing&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Charts are structured visual compositions whose elements have distinct functional roles, semantic correspondences, and visibility relations. This structural view motivates evaluating whether models can understand and manipulate charts at the layer level. Existing chart benchmarks, however, primarily assess the correctness or fidelity of final outputs and do not directly evaluate these layer-wise b...
+
+--- [14] 2609.08542v1 ---
+Title: Spatial Audio Coding Through Relative Room Impulse Response Estimation
+Authors: Nour Bouayed, Adrien Llave, Jérôme Daniel, Pascal Scalart
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate ...
+
+--- [15] 2609.08517v1 ---
+Title: Concept-Level Risk and Calibration for Governance in Diffusion Foundation Models
+Authors: Kun Xu, Yushu Zhang, Tao Wang, Shuren Qi, Barbara Carminati et al.
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-09-08
+Summary: Diffusion models have become a core paradigm for multimedia generation, offering powerful concept-driven controllability for personalization, semantic editing, and selective unlearning. However, as semantic control extends beyond natural-language prompts to learned embeddings and intervention pipelines, the safety and governance of these systems become increasingly difficult to evaluate in a unifi...
+
+--- [16] 2609.08508v1 ---
+Title: WiDiff: Extracting Changes from Wikidata's Edit History
+Authors: Carolina Cortés, Lisa Ehrlinger, Lorena Etcheverry, Felix Naumann
+Primary cat: cs.DB | All cats: cs.DB
+Published: 2026-09-08
+Summary: Knowledge graphs have become a key resource for integrating heterogeneous data and powering downstream tasks such as question answering, entity linking, and semantic search. They are built and maintained incrementally, either (i) fully automated, e.g., YAGO, (ii) semiautomatically with community oversight, e.g., DBpedia, or (iii) manually through collaborative editing, e.g., Wikidata. Understandin...
+
+--- [17] 2609.08503v1 ---
+Title: TSBench: A physics-grounded benchmark for evaluating LLM understanding of chemical reaction mechanisms
+Authors: Xiaohu Xu, Tong Zhu
+Primary cat: physics.chem-ph | All cats: physics.chem-ph
+Published: 2026-09-08
+Summary: Understanding a chemical reaction requires mapping a symbolic reactant-product description onto the three-dimensional pathway through which atoms rearrange, yet chemistry benchmarks for large language models (LLMs) largely probe factual knowledge and text-based reasoning. Here we introduce TSBench, a benchmark in which an LLM agent uses structure-editing tools to construct three-dimensional transi...
+
+--- [18] 2609.08464v1 ---
+Title: PAPR-Aware Multimodal Token Transmission in MLLM-Based Multiuser Networks
+Authors: Molka Trabelsi, Rafik Zayani
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-09-08
+Summary: Task-oriented semantic communication (SemCom) empowered by multimodal large language models (MLLMs) has recently emerged as a promising paradigm for efficiently transmitting multimodal information, yet transmitting token embeddings over OFDM channels faces critical challenges due to hardware impairments, particularly the high peak-to-average power ratio (PAPR) that severely degrades energy efficie...
+
+--- [19] 2609.08459v1 ---
+Title: Detecting Authorship in Political Texts with Inductive Stylometry
+Authors: Gennadii Iakovlev, Levente Littvay
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-08
+Summary: Political texts are rarely authored by the nominal speaker alone. Tweets, speeches, reports, and official statements are drafted, edited, or harmonized by staff, yet political science has paid limited attention to the stylistic traces these hidden authors leave behind. This paper develops and stress-tests an inductive stylometric approach for recovering latent authorship structure in political com...
+
+--- [20] 2609.08429v1 ---
+Title: Semantic Refinement of Universal Audio Representations through Audio-Description Alignment
+Authors: Lejun Min, Junyu Dai, Ruichen Zheng, Xinyue Fan, Yang Xiang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-08
+Summary: Universal audio representations must preserve acoustic detail while making high-level concepts accessible across speech, music, environmental sound, and downstream models of different capacities. We study semantic refinement of an acoustically pretrained encoder by adding audio-description alignment to a foundation of BEST-RQ, reconstruction, and CTC. We compare matched control, shuffled-descripti...
+

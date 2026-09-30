@@ -1,0 +1,177 @@
+--- [1] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [2] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [3] 2609.08147v1 ---
+Title: ConversationalVoice: Full-Duplex Speech Data from Real Conversations through Source-Faithful Reconstruction and Conversation-Grounded Expansion
+Authors: Richard Yucheng He, Baodong Cao, Chen Xu, Yihang Liu, Tairan Chen
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-08
+Summary: Full-duplex speech models require training data that preserves turn-taking, overlap, interruption, and backchannel behavior, yet these signals are entangled across speakers in noisy real-world recordings. We present Conversational Voice, a pipeline that converts real two-speaker excerpts into three complementary training-data artifacts. (1) Separation recovers speaker-specific tracks with stable s...
+
+--- [4] 2609.07594v1 ---
+Title: Large-Scale User Behavior Analysis in Multimodal AI-Assisted Manual Task Execution
+Authors: Rafael Ferreira, Diogo Tavares, Diogo Glória-Silva, David Semedo, João Magalhães
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CL
+Published: 2026-09-07
+Summary: Conversational Task Assistants (CTAs) are multimodal dialogue systems that support users in complex real-world tasks such as cooking and DIY through voice, text, image, and video interactions. Prior user studies have focused on controlled settings, leaving limited understanding of real-world CTA usage at scale. In this work, we present a large-scale study of CTA usage based on thousands of users i...
+
+--- [5] 2609.07200v1 ---
+Title: KABURI-TTS: Phoneme-Keyed Activity-conditioned Bi-channel Utterance Rendering for Interaction
+Authors: Ryuichiro Higashinaka, Shinnosuke Takamichi, Tetsuji Ogawa
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-09-07
+Summary: Realizing full-duplex spoken dialogue requires large amounts of two-channel, one-speaker-per-channel conversational speech data. Although conversational text-to-speech (TTS) engines have been developed, they are not necessarily robust to two-party simultaneous phenomena such as backchannels, interruptions, and overlaps that occur while the interlocutor is speaking. In this work, aiming at conversa...
+
+--- [6] 2609.06851v1 ---
+Title: You Are What You Read: Misalignment via In-Context Persona Induction
+Authors: Kyuhee Kim, Benjamin Berczi, Cozmin Ududec
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-06
+Summary: Broad misalignment has been produced by finetuning on narrow data, harmful or benign, and in context only by demonstrations of the undesirable behaviour itself. We show that benign data suffices in context, with no finetuning and no demonstration of harmful behaviour in the prompt. Biographical facts that converge on a single figure, placed in a model's context as ordinary conversational turns, le...
+
+--- [7] 2609.05631v1 ---
+Title: TamilEOT: A Dataset and Model for Semantic End-of-Turn Detection in Tamil Telephone Speech
+Authors: Santhoshkumar V
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-09-04
+Summary: A voice agent has to decide, at every pause, whether the user has finished speaking. Without a model of the language that decision falls back to a fixed silence timeout: set it short and the agent interrupts, set it long and every turn pays the full wait. Open semantic end-of-turn detectors exist, but to our knowledge none covers a South Indian language. We release TamilEOT: 18,485 labelled turn b...
+
+--- [8] 2609.03992v1 ---
+Title: Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis
+Authors: Sanyuan Chen, Min-Jae Hwang, Sho Inoue, Anna Sun, Bokai Yu et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-03
+Summary: We present Alignment-Free Text-Audiobox (Text-AB), a unified framework for high-quality voice dubbing and full-duplex dialogue synthesis. Building on a Diffusion Transformer trained with a flow-matching objective, Text-AB departs from the Audiobox system along three dimensions. First, it operates in a latent diffusion framework using DAC-VAE features that encode 48 kHz waveforms into a 25 Hz laten...
+
+--- [9] 2609.04288v1 ---
+Title: Scalable Context Orchestration for Serving LLMs Over Voice
+Authors: Linyi Jiang, Silvery D. Fu, Yifei Zhu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-03
+Summary: Voice AI applications are gaining popularity as advances in large language models (LLMs) enable more natural and accessible spoken interactions. Serving these applications requires accounting not only for what users say, but also for how they speak (e.g., speaking rate) and the conditions under which their audio is captured and transmitted (e.g., background noise and packet loss). However, existin...
+
+--- [10] 2609.03423v1 ---
+Title: DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through explicit turn-management instructions, while deployed agents are often configured through roles or personas from which the appropriate conversational behavior must be inferred. We introduce DuplexSpeech...
+
+--- [11] 2609.03363v1 ---
+Title: PACodec: A Low-bitrate Neural Speech Codec with Parallel Additive Vector Quantization
+Authors: Fei Liu, Yang Ai, Xiao-Hang Jiang, Zhen-Hua Ling
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-03
+Summary: This paper proposes PACodec, a novel low-bitrate neural speech codec based on parallel additive vector quantization (PAVQ). Unlike the mainstream residual vector quantization (RVQ) used in most neural speech codecs, where vector quantizers (VQs) are sequentially dependent, the PAVQ strategy adopted in PACodec aggregates parallel quantization results to optimize bitrate usage. Specifically, the PAV...
+
+--- [12] 2609.00961v1 ---
+Title: Few-Shot Out of Domain Intent Detection with Covariance Corrected Mahalanobis Distance
+Authors: Jayasimha Talur, Oleg Smirnov, Paul Missault
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-01
+Summary: Conversational agents like chatbots and voice assistants are trained to understand and respond to user intents. On encountering an utterance with an intent different from the ones they have been trained on, these agents are expected to classify the intent as `unknown' or `out of domain'. This problem is known as out of domain (OOD) intent detection. Podolskiy et al. (2021), showed that Mahalanobis...
+
+--- [13] 2609.00570v2 ---
+Title: VoiceLongMemEval: Do Assistants Remember How You Sounded?
+Authors: Ramit Pahwa, Parivesh Priye, Apoorva Beedu
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-09-01
+Summary: With the growing scale of multi-agent architectures and large language models, deployed AI assistants are increasingly tasked with reasoning over long, continuous, multi-session conversation histories. Current benchmarks evaluate this dialogue history as information retrieval over long horizon, temporal reasoning, or knowledge updates, while crucially ignoring the fundamental dynamics of human-age...
+
+--- [14] 2609.00441v1 ---
+Title: Conversation Coach: A Voice-enabled AI System that Helps Practice Difficult Workplace Conversations
+Authors: Fanyou Wu, Suraj Maharjan, Ainur Yessenalina, Dennis Xu Chen, Rahul Srivastava et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-31
+Summary: Effective manager-employee communication is critical for retaining high performers and developing underperformers, yet training managers in these skills remains costly. Text-based chatbots offer a scalable approach but cannot provide realistic rehearsal: managers need to practice speaking aloud to build confidence before high-stakes conversations. In this paper, we propose Conversation Coach, a vo...
+
+--- [15] 2608.29241v1 ---
+Title: When Patients Cut In: Extending Clinical Conversational AI Safety to Interruptions
+Authors: Zachary Ellis, Spencer Hazel, Adam Brandt, Yajie Vera He, Ernest Lim et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-29
+Summary: Clinical voice agents are now deployed in routine care, where real patients do not wait their turn: they interrupt. These systems typically use a cascaded architecture (speech-to-text -> LLM -> text-to-speech), so when a patient cuts the agent off mid-utterance, clinically required content can be lost even when the model handles cooperative transcripts well. Yet clinical conversational-AI benchmar...
+
+--- [16] 2609.04250v1 ---
+Title: Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue
+Authors: Chengqian Ma, Wei Tao, Haoyu Zhang, Yiwen Guo
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2026-08-28
+Summary: An avatar that holds a conversation should decide what to say and to move while saying it, yet these abilities live in separate model families: spoken dialogue models produce speech without motion, and co-speech motion models produce motion only from audio handed to them. The standard remedy is a cascade that first generates the spoken response and then runs a motion model over the finished audio,...
+
+--- [17] 2608.27360v1 ---
+Title: Your Voice Cloning System is Secretly a Voice Anonymizer
+Authors: Romolo Muletta, Felix Matthias Saaro, Mark Cieliebak, Jan Deriu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-27
+Summary: Speaker anonymization suppresses speaker-identifying attributes from speech while preserving linguistic content and quality. We propose repurposing XTTSv2, a multilingual voice cloning model trained on 27k hours of speech, for speaker anonymization without retraining. Our key insight is that XTTSv2's voice cloning capabilities preserve prosodic structure independently of speaker identity, enabling...
+
+--- [18] 2608.26697v1 ---
+Title: Scaling phoneme-based TTS augmentation for ASR: A unified pipeline and controlled study
+Authors: Zhen Wang, TianRui Wu, RongQi Han, Hao Wu, Wei Liang
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-27
+Summary: Synthetic speech provides scalable supervision for automatic speech recognition (ASR), but its benefit depends on the selected texts, reference speech, and amount of synthesized data. We present a unified phoneme-based TTS-to-ASR augmentation pipeline built around a multilingual TTS model trained from scratch using the F5-TTS architecture with language-ID conditioning. The pipeline combines langua...
+
+--- [19] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [20] 2608.24314v1 ---
+Title: Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight
+Authors: Anupam Purwar, Shashank Singh, Kritika Srivastava
+Primary cat: cs.AI | All cats: cs.AI, cs.ET
+Published: 2026-08-25
+Summary: Evaluating conversational voice agents at scale re- quires reliable assessment methods that capture both observ- able interaction quality and the contextual judgment typically provided by human evaluators. We investigate LLM-as-a-Judge evaluation by comparing human judgments with GPT-4.1 and GPT-5 on telecom and retail voice-agent conversations, across conversational quality and safety dimensions....
+
+--- [21] 2608.24127v1 ---
+Title: Anatomy of a Scam Call: What 10,000 real scam and spam calls reveal about how phone scammers operate
+Authors: Ethan Traister, Ankit Raj, Jiaqi Gan, Xingyu Shen, Tyler Wu et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.CL, cs.CY, cs.LG
+Published: 2026-08-25
+Summary: Telephone fraud is pervasive and costly, but its inner workings are rarely observed at scale. We analyze a complete corpus of 10,211 inbound scam and spam calls -- 913 hours of audio and 330,956 transcribed turns from 5,780 distinct numbers -- collected over 54 days by an AI voice-agent honeypot that answered callers and kept them talking, and introduced in a companion data descriptor. We separate...
+
+--- [22] 2608.23780v2 ---
+Title: When Youth Enter The Chat: An Epistemic Shift in the Validation of LLM-Based Measures of Student Talk
+Authors: Liliana Santos-Deonizio, James Malamut, Ramón Antonio Martínez, Dorottya Demszky
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC
+Published: 2026-08-24
+Summary: LLMs are being used increasingly to measure aspects of student discourse (e.g. talk moves, collaboration, equity of voice) at scale. Typically, LLM-based measures of student talk use transcriptions of classroom conversations that only include verbal contributions, which de-contextualize student language. Common practices for validating these measures include comparing outputs against expert annota...
+
+--- [23] 2608.22101v1 ---
+Title: Beyond Fresh Starts: Stateful Inference for Streaming ASR in Conversational Voice Agents
+Authors: Sameep Chattopadhyay, Alexander Erdmann, Mari Ostendorf
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-08-22
+Summary: Modern voice-agent systems rely on streaming speech recognition models that operate under stringent latency constraints. This study shows that, due to the limited memory constraints of real-time processing, these systems are adversely impacted by conversational phenomena such as long silences and backchannels. While many agentic pipelines mitigate this by resetting state at each turn, this approac...
+
+--- [24] 2608.26185v1 ---
+Title: Can You Say This for Me? Speaking Up by Proxy in Co-Located Discussion
+Authors: Yue Shen, Rehema Abulikemu, Ryan P. McMahan, Yan Chen
+Primary cat: cs.AI | All cats: cs.AI, cs.ET, cs.HC
+Published: 2026-08-22
+Summary: Equal participation in co-located discussion is important for effective collaboration, yet people often hold back when they anticipate negative interpersonal or professional consequences, especially when raising a point requires voicing it themselves. We present SecondVoice, a mixed-reality system that enables people to speak up through an embodied virtual proxy. By separating what is said from wh...
+
+--- [25] 2608.20539v2 ---
+Title: ExploraTwin, a Non-Profit Research Platform for Digital Twin Simulations
+Authors: Naveen Venkat, Yuchen Qiu, Tianyi Peng, George Gui, Olivier Toubia
+Primary cat: cs.CY | All cats: cs.CY, cs.AI, cs.HC
+Published: 2026-08-20
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Avoice+AND+abs%3Aconversion&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Digital twin simulations show promise, but current empirical evidence suggests that the approach should be tested before being deployed in any particular context. To lower the friction for researchers and practitioners to test and deploy digital twin simulations, this brief commentary introduces ExploraTwin (https://exploratwin.org), an open-access, non-profit research platform for digital twin su...
+

@@ -1,0 +1,177 @@
+--- [1] 2609.34461v1 ---
+Title: CharDuplex: Building Character-Consistent Full-Duplex Spoken Dialogue Models
+Authors: Donghang Wu, Yisi Liu, Chen Chen, Hexin Liu, Eng Siong Chng
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech models are moving voice interaction beyond conventional turn-taking, yet natural conversation is shaped not only by when an agent speaks, but also by how it behaves as a conversational character. We present CharDuplex, a character-driven full-duplex speech model that combines real-time spoken interaction with persona-conditioned behavior. We first adapt GLM-4-Voice to an always-...
+
+--- [2] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [3] 2609.34096v1 ---
+Title: HiThink Turn: An Intent-Aware Turn-Taking Control Module for Full-Duplex Dialogue
+Authors: Feiyang Chen, Wenhan Yang, Bohan Wang, Xinjian Gao, Rongjunchen Zhang et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-28
+Summary: Full-duplex dialogue requires timely yet selective interruption handling, which end-of-turn prediction alone cannot achieve: complete utterances may need no response, while unfinished requests may warrant interruption. To address this challenge, we propose HiThink Turn, an intent-aware streaming turn-state predictor that separates response intent from semantic completeness and conditions decisions...
+
+--- [4] 2609.33443v1 ---
+Title: Context Spanning: A Communication Framework for Full-Duplex Speech Models and External LLM Backends
+Authors: Seonghyeon Go, Yongwoo Kim, Hyeonjin Cha, Jaeho Shin
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-27
+Summary: Full-duplex spoken dialogue models can listen and speak simultaneously like the real-time dynamics of human conversation. For natural dialogue, the ability to search for external information in real-time is also an important capability. Many models remain trapped in parametric knowledge, leaving them unable to access real-time information and tool execution. Furthermore, even when Large Language M...
+
+--- [5] 2609.31967v1 ---
+Title: IndicFDB: Benchmarking Full-Duplex Voice Agents across Indian Languages
+Authors: Rajarshi Roy, Shobhit Banga, Jonathan Raiman, Supriya Paul, Bhaskar Singh et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-25
+Summary: Full-duplex voice agents must handle pauses, take turns, backchannel, and respond to user interruptions in real time. Full-Duplex-Bench evaluates these behaviors, but its English-only corpus and reliance on word-timestamped ASR and an English-prompted LLM judge make it difficult to extend to Indian languages. We introduce IndicFDB, which extends it to ten languages spoken in India with 12,350 samp...
+
+--- [6] 2609.31588v1 ---
+Title: RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue
+Authors: Sathvik Udupa, Naveen Kumar, Ryan Folmsbee
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-25
+Summary: Many voice interaction applications require exact control over both the content and delivery of responses, typically using pre-recorded lines. Recent full-duplex models respond with low latency but cannot guarantee exact content or reproduce a specific recorded performance, while cascaded systems can be constrained to predefined responses at the cost of additional latency. We propose RePlay, a spo...
+
+--- [7] 2609.28806v1 ---
+Title: A Harness for Synthesizing Diverse Naturalistic Full-Duplex Conversations
+Authors: Matthew Sun, Vinay Kothapally, Meng Yu, Chao Huang, Hao Zhang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-09-23
+Summary: Full-duplex dialogue systems, which listen while speaking, must distinguish a completed turn from a pause within a turn and an interruption that requests a turn from a brief acknowledgment or speech addressed to a third party. Yet existing conversational corpora provide limited control over these events and limited labels for their intent. We present a pipeline for synthesizing intent-labeled, two...
+
+--- [8] 2609.19334v2 ---
+Title: A frontend-backend architecture for tool calls in full-duplex speech models
+Authors: Ke Hu, Slyne Deng, Chen Chen, Elena Rastorgueva, Edresson Casanova et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-16
+Summary: Full-duplex speech-to-speech (S2S) models provide natural, low-latency conversational interaction and would benefit from the ability to use external tools and complete voice-agent tasks. We propose a frontend-backend architecture where a duplex speech-to-text frontend learns to emit a delegation token and forwards streaming ASR transcripts to a text-based backend LLM for tool calls. Tool-call resu...
+
+--- [9] 2609.16614v1 ---
+Title: RoleBreak: Benchmarking Long-Horizon Role-Playing Robustness in Spoken Dialogue
+Authors: Yuqi Wang, Fengyuan Liu, Haochen Luo, Zhiqi Yu, Qi Liu
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-15
+Summary: Speech-to-speech dialogue models increasingly support persona control, yet existing spoken role-playing benchmarks remain largely character-centric and short-horizon. This leaves open whether spoken dialogue models can sustain diverse roles over extended interactions, especially beyond predefined fictional characters. We introduce RoleBreak, an open benchmark for long-horizon role-playing robustne...
+
+--- [10] 2609.13445v2 ---
+Title: Causal Analysis and Mitigation of Spurious Onsets in Full-Duplex Speech LLMs
+Authors: Kento Nishi
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-11
+Summary: Speech-to-speech LLMs like Moshi, and its derivative PersonaPlex, can listen and speak concurrently through full-duplex generation. However, they can begin speaking inappropriately during prolonged user silence: under digital-zero input, Moshi and PersonaPlex initiate speech in 30% and 27.5% of five-minute continuations, respectively. What causes this spurious speech? We investigate two hypotheses...
+
+--- [11] 2609.12872v2 ---
+Title: DuplexDrama: A Synthesized Dialogue Dataset with Scenarios, Full-Duplex Behaviors, Expressive Speech, and Sound Events
+Authors: Qingxiang Guo, Wenke Fan, Shuofeng Zhao, Dawei Yang, Zhiyang Zhou et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-11
+Summary: We present DuplexDrama, the first synthesized spoken dialogue dataset that simultaneously covers four dimensions: (i) complete persona and scenario settings; (ii) three full-duplex behaviors (interruption, backchannel, incomplete); (iii) expressive speech with persona-aligned emotion labels; and (iv) script-aware sound events. DuplexDrama is built via a 4-stage pipeline; quality validation on both...
+
+--- [12] 2609.08390v1 ---
+Title: Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models
+Authors: Bella Godiva, Yeonju Kim, Yong Man Ro
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.HC
+Published: 2026-09-08
+Summary: Full-duplex spoken dialogue systems enable simultaneous listening and speaking, but their audio-only perception often fails under background noise and overlapping speech, leading to incoherent responses. Recent audio-visual dialogue approaches show that incorporating visual cues such as lip movements improve robustness under audio corruption. However, existing approaches often adapt the large spee...
+
+--- [13] 2609.03423v2 ---
+Title: DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Full-duplex voice agents must continuously decide when to speak, listen, backchannel, interrupt, overlap, and yield the conversational floor. Existing benchmarks evaluate these behaviors through explicit turn-management instructions, whereas voice agents are often configured through roles or personas from which appropriate conversational behavior must be inferred. We introduce DuplexSpeechBench-IF...
+
+--- [14] 2608.16053v2 ---
+Title: Agentic-DuplexGen: Decoupling Content, Timing, and Acoustics for Synthetic Dialogue Speech
+Authors: Pengcheng Wang, Sheng Li, Jiyi Li, Takahiro Shinozaki
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-08-17
+Summary: Synthetic conversational speech has become an important resource for developing and evaluating conversational speech systems. However, existing dialogue synthesis pipelines typically generate dialogue content first and then insert interruptions, overlap, and backchannels using handcrafted markers or timing rules, making conversational timing prescribed rather than interaction-driven. We present Ag...
+
+--- [15] 2608.13831v1 ---
+Title: VoiceChat-TTS: A Low-Latency Continuous Speech Synthesis Model for Interactive Agents
+Authors: Edresson Casanova, Jaehyeon Kim, Mariana Graterol Fuenmayor, Shehzeen Hussain, Viacheslav Klimkov et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-08-13
+Summary: Spoken dialogue is a natural form of human--computer interaction, yet most speech language models remain limited to turn-based operation and lack real-time adaptability, such as user barge-in. Recent duplex speech-to-speech and speech-to-text models reduce latency by replacing multi-stage pipelines, but often compromise speech quality because accurate ASR, interruption handling, and high-fidelity ...
+
+--- [16] 2608.07631v1 ---
+Title: PACE: A Playback-Aligned Context Engine for LLM-Based Full-Duplex Voice Dialogue
+Authors: Shibo Wang, Zicheng Zhang, Libo Wang, Junfeng Ma
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM
+Published: 2026-08-07
+Summary: LLM-based full-duplex voice services allow users to speak while the assistant is responding. Because servers can generate output and advance dialogue state faster than clients can play it, subsequent user speech may be interpreted based on content the user never heard. We call this failure Generative Context Mis-anchoring (GCM). To address GCM issues, we present PACE, a provider-independent middle...
+
+--- [17] 2609.04240v1 ---
+Title: TurnFSM for Full-Duplex Dialogue System: Internalizing State-Machine Logic for Streaming Semantic Voice Activity Detection and Utterance-Level Rejection
+Authors: Zhiwei Lin, Tianjiao Du, Qiaochu Huang, Zihan Zhang, Naijun Zheng et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-05
+Summary: Full-duplex voice assistants must continuously listen while speaking, handling user interruptions under low-latency and resource-constrained streaming conditions. Existing end-to-end full-duplex models can compromise reasoning-related capabilities after speech-domain adaptation, whereas cascaded pipelines introduce extra inference overhead and handcrafted control logic. We propose TurnFSM, an LLM-...
+
+--- [18] 2607.26178v2 ---
+Title: DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues
+Authors: Takyoung Kim, Kang-wook Kim, Sang Hoon Woo, Julia Hirschberg, Gunhee Kim et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-28
+Summary: Turn-taking is a central component of full-duplex interaction. Which turn-taking behaviors are appropriate varies with the scenario, yet current models apply a single norm regardless of context. This limitation originates in their training data: human-human speech corpora capture natural timing phenomena but provide little role grounding or scenario-specific norms, while heuristic or prompted synt...
+
+--- [19] 2606.14528v1 ---
+Title: BayLing-Duplex: Native Full-Duplex Speech Dialogue with a Single Autoregressive LLM
+Authors: Qingkai Fang, Shoutao Guo, Yang Feng
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-06-12
+Summary: Real-time, full-duplex speech interaction is a key feature of next-generation spoken chatbots, allowing the model to listen and speak at the same time and to handle natural phenomena such as overlap, hesitation, and barge-in. Existing speech language models (SpeechLMs) such as LLaMA-Omni and GLM-4-Voice are still turn-based and rely on an external Voice Activity Detection (VAD) module to mark the ...
+
+--- [20] 2606.07547v2 ---
+Title: Liberating LLM Capabilities in Full-Duplex Speech Models
+Authors: Luoyuan Zhang, Bokai Xu, Junbo Cui, Weiyue Sun, Yingjing Xu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-05-04
+Summary: Speech-based large language models are typically constrained to spoken replies, which limits their user-facing outputs to what can be verbalized and suppresses text-native capabilities such as code generation, structured analysis, and multi-step reasoning in realtime interaction, for tasks that require persistent, structured, and inspectable intermediate outputs. Existing work improves spoken reas...
+
+--- [21] 2604.19221v2 ---
+Title: UAF: A Unified Audio Front-end LLM for Full-Duplex Speech Interaction
+Authors: Yadong Li, Guoxin Wu, Haiping Hou, Biye Li
+Primary cat: cs.AI | All cats: cs.AI, cs.SD, eess.AS
+Published: 2026-04-21
+Summary: Full-duplex speech interaction, as the most natural and intuitive mode of human communication, is driving artificial intelligence toward more human-like conversational systems. Traditional cascaded speech processing pipelines suffer from critical limitations, including accumulated latency, information loss, and error propagation across modules. To address these issues, recent efforts focus on the ...
+
+--- [22] 2605.23912v1 ---
+Title: Raon-Speech Technical Report
+Authors: Beomsoo Kim, Changho Choi, Dohyun Kim, Dongki Lee, Ethan Ewer et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-04-08
+Summary: We present Raon-Speech, a top-performing 9B-parameter speech language model (SpeechLM) for English and Korean speech understanding, answering, and generation, and Raon-SpeechChat, a high-performing full-duplex extension for natural real-time conversation. Raon-Speech successfully transforms a pre-trained LLM into a SpeechLM that both understands and generates speech while preserving strong text ca...
+
+--- [23] 2603.23346v2 ---
+Title: RelayS2S: A Dual-Path Speculative Generation for Real-Time Dialogue
+Authors: Long Mai, Junli Liang
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-03-24
+Summary: Real-time spoken dialogue systems face a fundamental tension between latency and response quality. End-to-end speech-to-speech (S2S) models respond immediately and naturally handle turn-taking, backchanneling, and interruption, but produce semantically weaker outputs. Cascaded pipelines (ASR -> LLM) deliver stronger responses at the cost of latency that grows with model size. We present RelayS2S, ...
+
+--- [24] 2603.25750v2 ---
+Title: Sommelier: Scalable Open Multi-turn Audio Pre-processing for Full-duplex Speech Language Models
+Authors: Kyudan Jung, Jihwan Kim, Soyoon Kim, Jeonghoon Kim, Jaegul Choo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-03-20
+Summary: As the paradigm of AI shifts from text-based LLMs to Speech Language Models (SLMs), there is a growing demand for full-duplex systems capable of real-time, natural human-computer interaction. However, the development of such models is constrained by the scarcity of high-quality, multi-speaker conversational data, as existing large-scale resources are predominantly single-speaker or limited in volu...
+
+--- [25] 2603.09180v1 ---
+Title: DuplexCascade: Full-Duplex Speech-to-Speech Dialogue with VAD-Free Cascaded ASR-LLM-TTS Pipeline and Micro-Turn Optimization
+Authors: Jianing Yang, Yusuke Fujita, Yui Sudo
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-03-10
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspeech+AND+abs%3Allm+AND+abs%3Aduplex&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Spoken dialog systems with cascaded ASR-LLM-TTS modules retain strong LLM intelligence, but VAD segmentation often forces half-duplex turns and brittle control. On the other hand, VAD-free end-to-end model support full-duplex interaction but is hard to maintain conversational intelligence. In this paper, we present DuplexCascade, a VAD-free cascaded streaming pipeline for full-duplex speech-to-spe...
+

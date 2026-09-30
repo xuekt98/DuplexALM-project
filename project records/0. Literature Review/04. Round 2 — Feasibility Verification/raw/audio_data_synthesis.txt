@@ -1,0 +1,142 @@
+--- [1] 2609.04516v1 ---
+Title: Pitch-class Steering for Diffusion-based Music Generation via Latent-space Probes
+Authors: Yushi Ye, Wilson Zheng, Yongyi Zang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Recent work on controllable music generation has focused on autoregressive models, leaving diffusion-based systems comparatively underexplored. We present a lightweight method for steering the pitch content of audio produced by Stable Audio Open, a latent diffusion model for music synthesis. A small convolutional probe containing approximately 125k parameters is trained to decode frame-level pitch...
+
+--- [2] 2609.00206v1 ---
+Title: Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation
+Authors: Ruotong Wang, Zihao Zhu, Siwei Lyu, Xin Tao, Baoyuan Wu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-31
+Summary: Despite their growing use in video moderation, multimodal large language models (MLLMs) exhibit a compositional safety blind spot: videos composed of seemingly benign components can convey harmful meaning when interpreted as a whole. We refer to this phenomenon as Distributed Implicit Harm (DIH), where harm arises from relations among components distributed along a decomposition axis of the video,...
+
+--- [3] 2609.04249v1 ---
+Title: Encore: Infinite Audio-Video Generation with Adaptive Signal Routing
+Authors: Shaohua Pan, Junbao Chen, Shengyi He, Jingfeng Xue, Wen Tao et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-08-28
+Summary: Existing audio-video generation methods produce well-synchronized clips but are limited to short durations, while long-video generation methods extend duration through chunk-based iterative synthesis yet lack audio entirely. Generating long audio-video jointly is fundamentally harder than either task alone: each chunk must simultaneously maintain video temporal coherence, audio temporal coherence,...
+
+--- [4] 2608.24726v1 ---
+Title: Arbitrary Polygon Oscillator: Generalizing Polygonal Synthesis to Arbitrary Shapes, Morphing, and Three-Dimensional Polyhedra
+Authors: Antonio Argentieri, Francesco Scagliola
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-08-25
+Summary: Polygonal synthesis generates audio by traversing the perimeter of a polygon with a phasor; prior work uses a constant angular velocity, whereas the proposed system adopts constant arc-length (perimeter) velocity. Existing formulations operate on regular, parametrically defined polygons, producing smooth timbral transitions within a single family of shapes. This paper generalizes polygonal synthes...
+
+--- [5] 2608.23938v1 ---
+Title: Generalization, memorization, and overfitting for diffusion models trained in the lazy high-dimensional regime
+Authors: Hugo Latourelle-Vigeant, Sinho Chewi, Aram-Alexandre Pooladian, John Sous, Theodor Misiakiewicz
+Primary cat: stat.ML | All cats: stat.ML, cs.LG, math.ST
+Published: 2026-08-25
+Summary: Modern score-based generative models have achieved remarkable empirical success in high-dimensional tasks such as image, audio, and video synthesis. These models reduce distribution learning to a sequence of regression problems that, if solved exactly on finite data, would ultimately reproduce the training samples. Their ability to generalize must therefore arise from the implicit or explicit regu...
+
+--- [6] 2608.12951v2 ---
+Title: VoxAudio: Vocalized Audio Synthesis via Multi-Reward Autoregressive Flow Matching
+Authors: Wenxiang Guo, Changhao Pan, Ziyue Jiang, Zhou Zhao, Fei Wu
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-13
+Summary: Vocalized audio synthesis, the task of generating audio in which intelligible speech is embedded within an environmental soundscape, underpins applications such as podcast production and video dubbing. Existing Text-to-Audio (T2A) systems either reduce quoted speech to unintelligible vocal murmur or delegate it to a separate TTS model with post-hoc mixing, which forfeits control over when speech o...
+
+--- [7] 2608.05803v1 ---
+Title: Vorch-Omni: Multi-Task Orchestration of Sight and Sound
+Authors:  Vorch Team, Xiaoyu Chen, Yang Ding, Cong Han, Menglin Han et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-06
+Summary: Recent advances in generative video modeling have enabled diverse generation, reference-based synthesis, extension, and editing, but existing approaches often rely on fragmented task-specific models. A general model must distinguish heterogeneous target, source, and reference signals to determine what to generate, preserve, or use as guidance, while reducing interference among tasks. Joint audio-v...
+
+--- [8] 2608.05506v1 ---
+Title: Rethinking Automatic Music Mixing as Sequential Stem Blending
+Authors: Yen-Tung Yeh, Chung-Jui Chan,  Yun-Ning,  Hung, Yi-Hsuan Yang
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-06
+Summary: Automatic music mixing, the task of automatically combining individual audio tracks into a cohesive mixture, is typically addressed by parallelized architectures that process all input tracks in a single pass. In this work, inspired by how human mix engineers process stems one at a time, we propose a paradigm shift and ask whether automatic music mixing can be reformulated as a sequential stem ble...
+
+--- [9] 2608.02162v1 ---
+Title: Lossless Tensor Compression as Program Synthesis
+Authors: Jieke Shi, Junda He, Wenjia Jiang, Weifeng Sun, Shidong Pan et al.
+Primary cat: cs.SE | All cats: cs.SE, cs.AI, cs.PL
+Published: 2026-08-03
+Summary: Model checkpoints are growing in both number and size, which makes archival, transfer, and deployment increasingly costly. General-purpose compressors can reduce storage requirements but ignore tensor structure, whereas existing tensor-specific compressors rely on fixed and format-specific pipelines. We present Brevis, which formulates lossless tensor compression as program synthesis. We design a ...
+
+--- [10] 2607.28351v2 ---
+Title: Teffic-Audio: Tell Fact from Fiction
+Authors: Wan Lin, Li Wang, Jindong Wang, Kunyu Feng, Zhizheng Wu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-30
+Summary: Speech deepfake detection has expanded in scope with increasingly heterogeneous spoofing mechanisms, including speech synthesis, voice conversion, vocoder reconstruction, and neural-codec resynthesis. The resulting spoofing artifacts can be further shaped by variability in source speech, recording environments, and transmission channels. This variability makes robust generalization across heteroge...
+
+--- [11] 2607.21857v1 ---
+Title: SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision
+Authors: Hao Zhang, Yiwen Zhao, Yixuan Zhang, Yiwen Shao, Steve Yves
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-23
+Summary: We present an agentic soundscape construction framework for controllable compositional audio generation that makes explicit the scene planning, source selection, temporal layout, and rendering steps typically handled implicitly by single-shot text-to-audio models. An LLM-based agent converts user intent into an executable scene plan, acquires assets through retrieval and on-demand generation, rend...
+
+--- [12] 2608.24909v1 ---
+Title: Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans
+Authors: Wentao Jiang, Youchen Xie, Haidi Fan, Yajing Chen, Xin Wang et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.CV, cs.SD
+Published: 2026-07-22
+Summary: Existing co-speech gesture generation methods are predominantly studied in offline settings, where gestures are synthesized from complete speech segments. However, interactive digital humans in real-world scenarios are required to generate speech-synchronous gestures online, using only currently available response audio under strict latency constraints. As a result, prior methods are unsuitable fo...
+
+--- [13] 2607.13278v2 ---
+Title: Adapting Diffusion-Based Music Synthesis to Speech and Singing Voice Conversion
+Authors: Ben Maman, Frank Zalkow, Hans-Ulrich Berendes, Paolo Sani, Christian Dittmar et al.
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Adata+AND+abs%3Asynthesis&max_results=20&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-14
+Summary: Recent diffusion-based generative models have achieved strong results in domain-specific audio generation tasks such as speech, singing, and instrumental music synthesis. However, these models are typically specialized and do not generalize well to mixed or intermediate audio types. In this work, we adapt a diffusion-based model originally designed for multi-instrument music synthesis to voice con...
+
+--- [14] 2606.31259v1 ---
+Title: SwiftAudio: Data-Efficient Caption-Only Distillation for One-Step Text-to-Audio Diffusion-based Generation
+Authors: Binh Mai, Tran Quoc Bao Le, Hung Dinh, Cong Tran
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM, eess.AS
+Published: 2026-06-30
+Summary: Diffusion-based text-to-audio (TTA) models achieve impressive synthesis quality but suffer from high inference latency due to iterative multi-step denoising. Existing one-step approaches alleviate this issue but still rely on paired text--audio data during distillation. To address these limitations, we propose SwiftAudio, a one-step TTA framework that performs audio-free distillation from a pretra...
+
+--- [15] 2606.23080v1 ---
+Title: AudioCALM: Continuous Autoregressive Language Modeling for Universal Audio Generation
+Authors: Huadai Liu, Kaicheng Luo, Wen Wang, Qian Chen, Bin Ma et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-22
+Summary: Unifying speech, sound, and music generation in one model is hindered by tradeoffs between fidelity, end-to-end training, in-context conditioning, and variable-length synthesis that no current paradigm fully resolves. To address this challenge, we present AudioCALM, a universal audio generation framework that extends autoregressive (AR) next-token prediction from discrete tokens to continuous audi...
+
+--- [16] 2608.00011v1 ---
+Title: DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis
+Authors: Wasim Madha, Nityanand Mathur, Hamees Sayed, Apoorv Singh, Sameer Khurana et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-19
+Summary: Current text-to-speech systems face a trade-off: autoregres- sive codec language models produce highly intelligible speech but require large-scale models and training data and decode tokens sequentially, while non-autoregressive approaches im- prove speed at the cost of linguistic accuracy. We present DLLM-TTS, a framework that formulates TTS as conditional block discrete diffusion over X-Codec2 n...
+
+--- [17] 2606.21521v1 ---
+Title: Gradient-Based Learning of Parametric Engine Sound Representations for Real-Time Resynthesis and Tuning on Embedded Systems
+Authors: Robin Doerfler, Matthieu Kuntz, Clemens Zimmer
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-06-19
+Summary: Engine order enhancement is central in automotive sound design, where selective harmonics are synthesized to shape perceptual qualities such as sportiness, refinedness, or power. This paper investigates a neural network-based approach to combustion engine sound modeling that extends conventional engine order analysis and enhancement by deriving synthesis parameters from audio data with machine lea...
+
+--- [18] 2606.21053v1 ---
+Title: Imitation Learning for Elder-Facing Speech Synthesis
+Authors: Dongrui Han, Weidong Chen, Jiawen Kang, Mingyu Cui, Helen Meng et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-19
+Summary: Recent advances in text-to-speech (TTS) synthesis have achieved highly natural and expressive speech generation. However, these systems are designed for general adults and overlook older adults' speech comprehension needs due to age-related sensory and cognitive decline. Prior work involves older adults by collecting preference feedback to tune model parameters. However, obtaining sufficient prefe...
+
+--- [19] 2606.18122v1 ---
+Title: Embedded Machine Learning for Microcontroller-Class Edge Devices: Data, Feature, Evaluation, and Deployment Pipelines
+Authors: Mostafa Darvishi
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.AR, eess.AS, eess.SP
+Published: 2026-06-16
+Summary: Embedded machine learning moves inference from cloud services to resource-constrained devices that must acquire data, preprocess signals, run a model, and act within tight limits on memory, energy, and latency. This paper presents a systems-oriented synthesis of an embedded machine-learning workflow for microcontroller-class platforms. The emphasis is placed on engineering decisions that are often...
+
+--- [20] 2606.17598v2 ---
+Title: MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation
+Authors: Xingyuming Liu, Ruichun Ma, Heyu Guo, Qixiu Li, Qingwen Yang et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-06-16
+Summary: Humans naturally leverage diverse sensing modalities to interact with the physical world, while most Vision-Language-Action (VLA) models for robotics rely solely on RGB observations. This limits their ability to perceive physical properties that are difficult or impossible to infer from RGB cameras, such as temperature, sound, or radar response. We present MuseVLA, an adaptive multimodal sensing V...
+

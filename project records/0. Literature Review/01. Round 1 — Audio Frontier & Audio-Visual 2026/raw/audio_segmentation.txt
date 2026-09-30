@@ -1,0 +1,72 @@
+# Total entries: 10
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio%22+AND+abs%3A%22segmentation%22+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.06078v1 ---
+Title: Report of the 8th LSVOS Challenge: Complex and Multimodal Video Object Segmentation
+Authors: Chang Liu, Henghui Ding, Lingyi Hong, Ning Xu, Linjie Yang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: This report summarizes the 8th Large-scale Video Object Segmentation (LSVOS) Challenge, held in conjunction with ECCV 2026. The challenge evaluates video segmentation in three complementary settings: complex semi-supervised video object segmentation on MOSEv2, text-guided referring video object segmentation on MeViSv2-Text, and audio-guided referring video object segmentation on MeViSv2-Audio. We ...
+
+--- [2] 2608.27480v1 ---
+Title: Effectiveness of IoT and Deep Learning for Detection and Severity Assessment of Postelectrotermes militaris in Tea Plantations
+Authors: D. K. C. Senevirathna, A. A. E. Nanayakkara, H. M. C. K. Kulathunga, J. K. D. P. Nadula, R. M. Mapatuna et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.LG, cs.SD
+Published: 2026-08-22
+Summary: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial damage when infestations remain undetected. This study proposes an IoT-enabled acoustic monitoring framework integrated with deep learning for early detection and severity assessment of ULWT infestations in tea plantations. Research Method: Audio sign...
+
+--- [3] 2607.25543v1 ---
+Title: Less is More: Modality-Decoupling for General AIGC Audio-Video Detection
+Authors: Jielun Peng, Yabin Wang, Yaqi Li, Jincheng Liu, Xiaopeng Hong et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-28
+Summary: Generative AI has rapidly expanded audio-visual forgery beyond human-centric deepfakes into general scenes. Existing AIGC detection methods assume audio-visual content correspondence, identifying forgeries by spotting cross-modal inconsistencies. However, we empirically find that this assumption does not consistently hold in general scenarios. We argue that, for general audio-visual AIGC detection...
+
+--- [4] 2608.24909v1 ---
+Title: Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans
+Authors: Wentao Jiang, Youchen Xie, Haidi Fan, Yajing Chen, Xin Wang et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.CV, cs.SD
+Published: 2026-07-22
+Summary: Existing co-speech gesture generation methods are predominantly studied in offline settings, where gestures are synthesized from complete speech segments. However, interactive digital humans in real-world scenarios are required to generate speech-synchronous gestures online, using only currently available response audio under strict latency constraints. As a result, prior methods are unsuitable fo...
+
+--- [5] 2607.17867v1 ---
+Title: The tttAI System for the TSA-ASR Task of the SmartGlasses Challenge 2026
+Authors: Xuanji He, Gaoyang Dong, Xiaoxiao Li, Minchuan Chen, Fengjie Zhu
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-20
+Summary: This paper presents the tttAI system submitted to the TSA-ASR task of the SmartGlasses Challenge 2026, evaluated on both two-person dialogues (Track 1) and multi-party meetings (Track 2). The task requires time-stamped speaker-attributed speech recognition from smart-glasses recordings. This is particularly challenging due to long-form audio, multiple speakers, and frequent overlapping speech. We ...
+
+--- [6] 2607.08208v2 ---
+Title: Diarization-Guided Qwen-ASR Adaptation for Multilingual Two-Speaker Conversational Speech
+Authors: Hao Wu, RongQi Han, Zhen Wang, Wei Liang, Wei Xu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-09
+Summary: This paper describes our self-designed system for Task 1 of the MLC-SLM 2026 Challenge for multilingual two-speaker conversational speech. The system combines a modular speaker diarization front end with a challenge-adapted Qwen3-ASR-1.7B recognizer. The diarization front end performs voice activity detection, subsegment generation, CAMPPlus speaker embedding extraction, two-speaker spectral clust...
+
+--- [7] 2606.24512v1 ---
+Title: A Multi-Stage Separation-and-Classification Framework Guided by Complementary Acoustic-to-Semantic Clues
+Authors: Younghoo Kwon, Junwoo Park, Han Yin, Jung-Woo Choi
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-23
+Summary: This report describes the system proposed for the DCASE 2026 Challenge Task 4: Spatial Semantic Segmentation of Sound Scenes (S5). Specifically, we develop a multi-stage framework in which each stage couples a separation model with a classification model. The first stage performs source separation and classification directly on the multi-channel mixture. Its outputs are then propagated to the foll...
+
+--- [8] 2606.07387v1 ---
+Title: Making the Most of Limited Data: Score-Aware Training for Text-to-Music Generation
+Authors: Yun-Chen Cheng, Tzu-Hung Huang, Chih-Pin Tan
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-06-05
+Summary: State-of-the-art text-to-music generation systems rely on massive proprietary datasets and industrial-scale compute, making it impossible to disentangle architectural contributions from resource advantages. We propose \textit{score-aware training}, which treats audio-caption alignment score as a direct supervision signal throughout the pipeline. Rather than discarding low-scoring segments, we repu...
+
+--- [9] 2604.26031v1 ---
+Title: Report of the 5th PVUW Challenge: Towards More Diverse Modalities in Pixel-Level Understanding
+Authors: Chang Liu, Henghui Ding, Nikhila Ravi, Yunchao Wei, Shuting He et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-28
+Summary: This report summarizes the objectives, datasets, and top-performing methodologies of the 2026 Pixel-level Video Understanding in the Wild (PVUW) Challenge, hosted at CVPR 2026, which evaluates state-of-the-art models under highly unconstrained conditions. To provide a comprehensive assessment, the 2026 edition features three specialized tracks: the MOSE track for tracking objects within densely cl...
+
+--- [10] 2604.00776v2 ---
+Title: Description and Discussion on DCASE 2026 Challenge Task 4: Spatial Semantic Segmentation of Sound Scenes
+Authors: Binh Thien Nguyen, Masahiro Yasuda, Noboru Harada, Romain Serizel, Mayank Mishra et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-01
+Summary: This paper presents an overview of the Detection and Classification of Acoustic Scenes and Events (DCASE) 2026 Challenge Task 4, Spatial Semantic Segmentation of Sound Scenes (S5). The S5 task focuses on the joint detection and separation of sound events in complex spatial audio mixtures, contributing to the foundation of immersive communication. First introduced in DCASE 2025, the S5 task continu...
+

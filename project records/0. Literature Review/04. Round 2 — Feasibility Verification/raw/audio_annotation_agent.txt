@@ -1,0 +1,142 @@
+--- [1] 2609.05631v1 ---
+Title: TamilEOT: A Dataset and Model for Semantic End-of-Turn Detection in Tamil Telephone Speech
+Authors: Santhoshkumar V
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-09-04
+Summary: A voice agent has to decide, at every pause, whether the user has finished speaking. Without a model of the language that decision falls back to a fixed silence timeout: set it short and the agent interrupts, set it long and every turn pays the full wait. Open semantic end-of-turn detectors exist, but to our knowledge none covers a South Indian language. We release TamilEOT: 18,485 labelled turn b...
+
+--- [2] 2609.03203v2 ---
+Title: VoxReason: Listener-Free Evaluation of Source-Grounded Speech Planning Before Synthesis
+Authors: Mengzhe Geng
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2026-09-02
+Summary: Expressive speech systems have to decide how an utterance is delivered before any waveform is rendered. In dialogue agents, narration, and role-conditioned TTS, that planning step sets affect, pitch, energy, rate, pause, emphasis, and stance, yet standard audio metrics rarely show whether those choices were actually licensed by the source record. This leaves a practical evaluation gap: a system ma...
+
+--- [3] 2609.00570v2 ---
+Title: VoiceLongMemEval: Do Assistants Remember How You Sounded?
+Authors: Ramit Pahwa, Parivesh Priye, Apoorva Beedu
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-09-01
+Summary: With the growing scale of multi-agent architectures and large language models, deployed AI assistants are increasingly tasked with reasoning over long, continuous, multi-session conversation histories. Current benchmarks evaluate this dialogue history as information retrieval over long horizon, temporal reasoning, or knowledge updates, while crucially ignoring the fundamental dynamics of human-age...
+
+--- [4] 2609.00206v1 ---
+Title: Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation
+Authors: Ruotong Wang, Zihao Zhu, Siwei Lyu, Xin Tao, Baoyuan Wu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-31
+Summary: Despite their growing use in video moderation, multimodal large language models (MLLMs) exhibit a compositional safety blind spot: videos composed of seemingly benign components can convey harmful meaning when interpreted as a whole. We refer to this phenomenon as Distributed Implicit Harm (DIH), where harm arises from relations among components distributed along a decomposition axis of the video,...
+
+--- [5] 2608.28932v2 ---
+Title: VocalAffectBench: Evaluating Vocal Emotion Recognition in AI Audio Models
+Authors: Luc Debaupte, Tyler Baumgartner, Brandon Tai, Candice Fan, Bill Wang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-08-28
+Summary: Voice products increasingly need affective cues that are present in speech but absent from transcripts. We introduce VocalAffectBench, a public, test-only benchmark for evaluating whether AI audio models can identify expressed vocal emotion from raw audio. The benchmark contains 273 human-recorded English WAV clips from 51 speaker accounts totaling 1.95 hours across seven labels: angry, disgusted,...
+
+--- [6] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [7] 2608.13558v1 ---
+Title: OmniScientist: An Omni-Modal Omni-Discipline AI Scientist
+Authors: Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-08-13
+Summary: Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scie...
+
+--- [8] 2608.06900v1 ---
+Title: MMAG: A Multi-Control Mixed Audio Generation Benchmark
+Authors: Zihao Zheng, Xuenan Xu, Jiahao Mei, Yixuan Li, Minghao Lv et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-07
+Summary: Recent audio generation systems have progressed from single-modality synthesis to generating complex acoustic scenes containing speech, music, and sound effects. Therefore, evaluating these models requires assessing multiple interacting capabilities, including semantic fidelity, speaker consistency, and temporal control, yet existing benchmarks focus on isolated domains or coarse-grained descripti...
+
+--- [9] 2608.05703v1 ---
+Title: StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding
+Authors: Xichen Zhang, Guankai Li, Yinghao Zhu, Shijian Wang, Sitong Wu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-06
+Summary: Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio-visual streams and maintain hour-scale memory. However, current evaluations predominantly rely on brief clips and multiple-choice formats. This design allows minimal baselines that process only the last four frames to match or surpass complex streaming models, while answer options ...
+
+--- [10] 2608.05495v1 ---
+Title: PromptShield Home: Ambient Multimodal Prompt Injection Defense for Smart-Home Agents
+Authors: He Zhang, Feilong Li, Dingning Long, Yilin Cui, Peijun Zhang et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.HC
+Published: 2026-08-06
+Summary: Smart-home assistants increasingly use multimodal large language models (MLLMs) that perceive video and audio directly. This raises a safety question specific to the home: can the agent tell a genuine user command from ambient or externally-sourced content, television speech, on-screen text, or an overheard conversation, that merely looks like a command? We introduce PromptShield-Home, a pilot ben...
+
+--- [11] 2609.04225v1 ---
+Title: The Trade-off Was in the Labels: Causal Supervision for Turn-Aware Streaming ASR
+Authors: Bojie Li, Noah Shi
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-07-12
+Summary: A voice agent must decide, moment to moment, whether the user has finished; silence rarely settles it: a caller reading a phone number pauses mid-digits, a one-word "Stop!" ends a turn, a long question carries pauses longer than real turn-gaps. A voice-activity detector plus a silence timeout (the deployed default) cannot separate these, because within-turn pauses routinely exceed between-turn gap...
+
+--- [12] 2607.08705v2 ---
+Title: HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales
+Authors: Wenbo Xu, Zhimin Chen, Xiaojie Liang, Hengrui Liu, Ziqi Sheng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-09
+Summary: Rapid advancements in video diffusion models and temporal editing tools have enabled the generation of highly realistic human-centric videos, presenting unprecedented challenges to digital content forensics. Existing benchmarks primarily focus on face-swapping or global text-to-video synthesis, overlooking the crucial dimensions of multimodal alignment and complex human-object or human-human inter...
+
+--- [13] 2607.06691v1 ---
+Title: CoMind: Understanding Collaborative Human Activity from Multiple Minds and Views
+Authors: Alexey Gavryushin, Dingxi Zhang, Zhao Huang, Alexandros Delitzas, Jiaqi Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-07
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+(abs%3Aannotation+OR+abs%3Alabeling)+AND+abs%3Aagent&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Human-human collaboration is a fundamental aspect of everyday life, essential to success in a wide range of goal-directed activities from household tasks to professional teamwork. While much research has focused on modeling coordination and task execution, the cognitive processes that support such collaboration, particularly Theory of Mind (the ability to infer the mental states of others), remain...
+
+--- [14] 2606.19595v1 ---
+Title: IHBench: Evaluating Post-Interruption Recovery in Voice Agents with Structured Workflows
+Authors: Ahmad Salimi, Wentao Ma, Yuzhi Tang, Dongming Shen, Mu Li et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-06-17
+Summary: Voice agents deployed in structured workflows (customer service, healthcare scheduling, account management) must handle frequent user interruptions while maintaining progress through multi-step procedures. Existing benchmarks for speech-capable models focus on the timing of interruptions: barge-in detection, endpointing, and turn-taking dynamics. They leave unmeasured what happens after the interr...
+
+--- [15] 2606.14784v2 ---
+Title: LLM-Based Synthetic Ground Truth Generation for Audio-Based Emotion Classification via In-Context Learning
+Authors: Qing Huang, Pooja Pol, Jianing Zhang
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-06-10
+Summary: Understanding human states and interaction dynamics is a core goal of human-computer interaction (HCI). As interaction paradigms become more immersive, virtual reality (VR) has emerged as a powerful platform for studying collaborative work. In such settings, evaluating team collaboration states, including team performance and team resilience, requires continuous and reliable inference of latent te...
+
+--- [16] 2606.07397v1 ---
+Title: Audio-Oscar: A Multi-Agent System for Complex Audio Scene Generation, Orchestration, and Refinement
+Authors: Yifan Duan, Qixiang Xu, Hengtao Wu, Zhanxun Liu, Wenhao Guan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-05
+Summary: In recent years, audio generation has made significant progress in tasks such as text-to-speech (TTS), text-to-audio (TTA) and text-to-music (TTM). However, generating long-form and controllable audio from complex audio scene descriptions remains a significant challenge, as such scenes often require coordinated speech, sound effects, music, songs, temporal structure, and post-production. In this w...
+
+--- [17] 2606.01802v3 ---
+Title: MOSS-Audio Technical Report
+Authors: Chen Yang, Chufan Yu, Hanfu Chen, Jie Zhu, Jingqi Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-01
+Summary: MOSS-Audio is a unified audio-language model for speech, environmental sound, and music understanding, supporting audio captioning, time-aware question answering, timestamped transcription, and audio-grounded reasoning. MOSS-Audio couples a dedicated audio encoder with a modality adapter and a large language model: the encoder produces 12.5 Hz temporal representations, the adapter projects them in...
+
+--- [18] 2606.01686v1 ---
+Title: HAIM: Human-AI Music Datasets for AI Music Production Tracking Benchmark
+Authors: Seonghyeon Go, Yumin Kim
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-01
+Summary: As generative platforms such as Suno and Udio reach human-grade audio quality, the scope of AI's utility has expanded across the entire music production workflow. Beyond simple track generation, these advancements have catalyzed the adoption of AI-driven methodologies in diverse forms. These include vocal synthesis, arrangement, and professional mastering. However, current detection research remai...
+
+--- [19] 2606.00825v1 ---
+Title: SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory
+Authors: Samiul Alam, Shakhrul Iman Siam, Michael J. Proulx, James Fort, Richard Newcombe et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.ET, cs.HC, cs.MA
+Published: 2026-05-30
+Summary: AI glasses present a compelling platform for AI agents to serve as personalized memory assistants. To be genuinely useful, such systems must move beyond short-term video comprehension and address memory gaps that humans experience for practical, personal, or social purposes over longitudinal egocentric video streams. However, existing egocentric datasets predominantly focus on action recognition o...
+
+--- [20] 2606.02246v1 ---
+Title: Ego-METAS: Egocentric online Multimodal Energy-efficient Temporal Action Segmentation benchmark
+Authors: Maria Santos-Villafranca, Jesus Bermudez-cameo, Alejandro Perez-Yus, Giovanni Maria Farinella, Antonino Furnari
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-29
+Summary: To operate in the physical world, embodied agents must perceive their environment in an "always-on" fashion, selectively accessing the most informative sensors to balance energy constraints and task accuracy. Despite its importance for resource-constrained devices, energy-aware perception remains under-explored, with most prior work assuming unlimited compute. To address this, we introduce Ego-MET...
+

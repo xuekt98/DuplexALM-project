@@ -1,0 +1,177 @@
+--- [1] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [2] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [3] 2608.22796v1 ---
+Title: DiaScriber: A Speech LLM for Joint Diarization and Transcription in Multi-Speaker Scenarios
+Authors: Bingshen Mu, Xian Shi, Xiong Wang, Zhifang Guo, Ting He et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-24
+Summary: Multi-speaker automatic speech recognition (MSASR) aims to jointly predict content transcriptions, speaker identities, and timestamps, thereby addressing the key question of "who spoke what and when" and holds substantial practical value in real-world multi-speaker scenarios. However, MSASR still encounters considerable challenges in the presence of fast turn transitions, overlapping speech, and c...
+
+--- [4] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+
+--- [5] 2607.08208v2 ---
+Title: Diarization-Guided Qwen-ASR Adaptation for Multilingual Two-Speaker Conversational Speech
+Authors: Hao Wu, RongQi Han, Zhen Wang, Wei Liang, Wei Xu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-09
+Summary: This paper describes our self-designed system for Task 1 of the MLC-SLM 2026 Challenge for multilingual two-speaker conversational speech. The system combines a modular speaker diarization front end with a challenge-adapted Qwen3-ASR-1.7B recognizer. The diarization front end performs voice activity detection, subsegment generation, CAMPPlus speaker embedding extraction, two-speaker spectral clust...
+
+--- [6] 2604.14932v1 ---
+Title: WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training
+Authors: Yifu Chen, Shengpeng Ji, Qian Chen, Tianle Liang, Yangzhuo Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-04-16
+Summary: End-to-end spoken dialogue models have garnered significant attention because they offer a higher potential ceiling in expressiveness and perceptual ability than cascaded systems. However, the intelligence and expressiveness of current open-source spoken dialogue models often remain below expectations. Motivated by the success of online reinforcement learning(RL) in other domains, one might attemp...
+
+--- [7] 2604.10065v1 ---
+Title: ASPIRin: Action Space Projection for Interactivity-Optimized Reinforcement Learning in Full-Duplex Speech Language Models
+Authors: Chi-Yuan Hsiao, Ke-Han Lu, Yu-Kuan Fu, Guan-Ting Lin, Hsiao-Tsung Hung et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2026-04-11
+Summary: End-to-end full-duplex Speech Language Models (SLMs) require precise turn-taking for natural interaction. However, optimizing temporal dynamics via standard raw-token reinforcement learning (RL) degrades semantic quality, causing severe generative collapse and repetition. We propose ASPIRin, an interactivity-optimized RL framework that explicitly decouples when to speak from what to say. Using Act...
+
+--- [8] 2603.24596v3 ---
+Title: X-OPD: Cross-Modal On-Policy Distillation for Capability Alignment in Speech LLMs
+Authors: Di Cao, Dongjie Fu, Hai Yu, Siqi Zheng, Xu Tan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL
+Published: 2026-03-06
+Summary: While the shift from cascaded dialogue systems to end-to-end (E2E) speech Large Language Models (LLMs) improves latency and paralinguistic modeling, E2E models often exhibit a significant performance degradation compared to their text-based counterparts. The standard Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) training methods fail to close this gap. To address this, we propose X-...
+
+--- [9] 2601.13409v1 ---
+Title: RLBR: Reinforcement Learning with Biasing Rewards for Contextual Speech Large Language Models
+Authors: Bo Ren, Ruchao Fan, Yelong Shen, Weizhu Chen, Jinyu Li
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-01-19
+Summary: Speech large language models (LLMs) have driven significant progress in end-to-end speech understanding and recognition, yet they continue to struggle with accurately recognizing rare words and domain-specific terminology. This paper presents a novel fine-tuning method, Reinforcement Learning with Biasing Rewards (RLBR), which employs a specialized biasing words preferred reward to explicitly emph...
+
+--- [10] 2511.10076v3 ---
+Title: Mitigating Error Accumulation in Co-Speech Motion Generation via Global Rotation Diffusion and Multi-Level Constraints
+Authors: Xiangyue Zhang, Jianfang Li, Jianqiang Ren, Jiaxu Zhang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-11-13
+Summary: Reliable long-horizon co-speech gesture generation requires precise motion representation and consistent structural priors across all joints. Existing generative methods typically operate on local joint rotations, which are defined hierarchically based on the skeleton structure. This leads to cumulative errors during generation, manifesting as unstable and implausible motions at end-effectors. In ...
+
+--- [11] 2511.08723v2 ---
+Title: ParaS2S: Benchmarking and Aligning Spoken Language Models for Paralinguistic-aware Speech-to-Speech Interaction
+Authors: Shu-wen Yang, Ming Tu, Andy T. Liu, Xinghua Qu, Hung-yi Lee et al.
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2025-11-11
+Summary: Speech-to-Speech (S2S) models have shown promising dialogue capabilities, but their ability to handle paralinguistic cues - such as emotion, tone, and speaker attributes - and to respond appropriately in both content and style remains under-explored. Progress is further hindered by the scarcity of high-quality and expressive demonstrations. To address this, we introduce a new reinforcement learnin...
+
+--- [12] 2510.08618v2 ---
+Title: VAPO: End-to-end Slide-Enhanced Speech Recognition with Omni-modal Large Language Models
+Authors: Rui Hu, Delai Qiu, Yining Wang, Shengping Liu, Jitao Sang
+Primary cat: eess.AS | All cats: eess.AS, cs.CV, cs.SD
+Published: 2025-10-08
+Summary: Omni-modal large language models (OLLMs) offer a promising end-to-end solution for slide-enhanced speech recognition due to their inherent multimodal capabilities. However, we found a fundamental issue faced by OLLMs: \textit{Visual Interference}, where models show a bias towards visible text over auditory signals, causing them to hallucinate slide content that was never spoken. To address this, w...
+
+--- [13] 2509.21574v1 ---
+Title: X-Streamer: Unified Human World Modeling with Audiovisual Interaction
+Authors: You Xie, Tianpei Gu, Zenan Li, Chenxu Zhang, Guoxian Song et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-09-25
+Summary: We introduce X-Streamer, an end-to-end multimodal human world modeling framework for building digital human agents capable of infinite interactions across text, speech, and video within a single unified architecture. Starting from a single portrait, X-Streamer enables real-time, open-ended video calls driven by streaming multimodal inputs. At its core is a Thinker-Actor dual-transformer architectu...
+
+--- [14] 2509.16193v1 ---
+Title: Are Multimodal Foundation Models All That Is Needed for Emofake Detection?
+Authors: Mohd Mujtaba Akhtar,  Girish, Orchid Chetia Phukan, Swarup Ranjan Behera, Pailla Balakrishna Reddy et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-19
+Summary: In this work, we investigate multimodal foundation models (MFMs) for EmoFake detection (EFD) and hypothesize that they will outperform audio foundation models (AFMs). MFMs due to their cross-modal pre-training, learns emotional patterns from multiple modalities, while AFMs rely only on audio. As such, MFMs can better recognize unnatural emotional shifts and inconsistencies in manipulated audio, ma...
+
+--- [15] 2508.20916v2 ---
+Title: SageLM: A Multi-aspect and Explainable Large Language Model for Speech Judgement
+Authors: Yuan Ge, Junxiang Zhang, Xiaoqian Liu, Bei Li, Xiangnan Ma et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-08-28
+Summary: Speech-to-Speech (S2S) Large Language Models (LLMs) are foundational to natural human-computer interaction, enabling end-to-end spoken dialogue systems. However, evaluating these models remains a fundamental challenge. We propose \texttt{SageLM}, an end-to-end, multi-aspect, and explainable speech LLM for comprehensive S2S LLMs evaluation. First, unlike cascaded approaches that disregard acoustic ...
+
+--- [16] 2507.17527v3 ---
+Title: Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice
+Authors: Shanbo Cheng, Yu Bao, Zhichao Huang, Yu Lu, Ningxin Peng et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-07-23
+Summary: Simultaneous Interpretation (SI) represents one of the most daunting frontiers in the translation industry, with product-level automatic systems long plagued by intractable challenges: subpar transcription and translation quality, lack of real-time speech generation, multi-speaker confusion, and translated speech inflation, especially in long-form discourses. In this study, we introduce Seed-LiveI...
+
+--- [17] 2507.16632v3 ---
+Title: Step-Audio 2 Technical Report
+Authors: Boyong Wu, Chao Yan, Chen Hu, Cheng Yi, Chengli Feng et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-07-22
+Summary: This paper presents Step-Audio 2, an end-to-end multi-modal large language model designed for industry-strength audio understanding and speech conversation. By integrating a latent audio encoder and reasoning-centric reinforcement learning (RL), Step-Audio 2 achieves promising performance in automatic speech recognition (ASR) and audio understanding. To facilitate genuine end-to-end speech convers...
+
+--- [18] 2505.09558v2 ---
+Title: WavReward: Spoken Dialogue Models With Generalist Reward Evaluators
+Authors: Shengpeng Ji, Tianle Liang, Yangzhuo Li, Jialong Zuo, Minghui Fang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2025-05-14
+Summary: End-to-end spoken dialogue models such as GPT-4o-audio have recently garnered significant attention in the speech domain. However, the evaluation of spoken dialogue models' conversational performance has largely been overlooked. This is primarily due to the intelligent chatbots convey a wealth of non-textual information which cannot be easily measured using text-based language models like ChatGPT....
+
+--- [19] 2411.01834v2 ---
+Title: Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback
+Authors: Guan-Ting Lin, Prashanth Gurunath Shivakumar, Aditya Gourav, Yile Gu, Ankur Gandhe et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2024-11-04
+Summary: While textless Spoken Language Models (SLMs) have shown potential in end-to-end speech-to-speech modeling, they still lag behind text-based Large Language Models (LLMs) in terms of semantic coherence and relevance. This work introduces the Align-SLM framework, which leverages preference optimization inspired by Reinforcement Learning with AI Feedback (RLAIF) to enhance the semantic understanding o...
+
+--- [20] 2409.16404v1 ---
+Title: FastTalker: Jointly Generating Speech and Conversational Gestures from Text
+Authors: Zixin Guo, Jian Zhang
+Primary cat: cs.MM | All cats: cs.MM, cs.SD, eess.AS
+Published: 2024-09-24
+Summary: Generating 3D human gestures and speech from a text script is critical for creating realistic talking avatars. One solution is to leverage separate pipelines for text-to-speech (TTS) and speech-to-gesture (STG), but this approach suffers from poor alignment of speech and gestures and slow inference times. In this paper, we introduce FastTalker, an efficient and effective framework that simultaneou...
+
+--- [21] 2409.12121v3 ---
+Title: WMCodec: End-to-End Neural Speech Codec with Deep Watermarking for Authenticity Verification
+Authors: Junzuo Zhou, Jiangyan Yi, Yong Ren, Jianhua Tao, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-09-18
+Summary: Recent advances in speech spoofing necessitate stronger verification mechanisms in neural speech codecs to ensure authenticity. Current methods embed numerical watermarks before compression and extract them from reconstructed speech for verification, but face limitations such as separate training processes for the watermark and codec, and insufficient cross-modal information integration, leading t...
+
+--- [22] 2409.00855v1 ---
+Title: LanguaShrink: Reducing Token Overhead with Psycholinguistics
+Authors: Xuechen Liang, Meiling Tao, Yinghui Xia, Tianyu Shi, Jun Wang et al.
+Primary cat: cs.CL | All cats: cs.CL, stat.ML
+Published: 2024-09-01
+Summary: As large language models (LLMs) improve their capabilities in handling complex tasks, the issues of computational cost and efficiency due to long prompts are becoming increasingly prominent. To accelerate model inference and reduce costs, we propose an innovative prompt compression framework called LanguaShrink. Inspired by the observation that LLM performance depends on the density and position o...
+
+--- [23] 2406.02430v1 ---
+Title: Seed-TTS: A Family of High-Quality Versatile Speech Generation Models
+Authors: Philip Anastassiou, Jiawei Chen, Jitong Chen, Yuanzhe Chen, Zhuo Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-06-04
+Summary: We introduce Seed-TTS, a family of large-scale autoregressive text-to-speech (TTS) models capable of generating speech that is virtually indistinguishable from human speech. Seed-TTS serves as a foundation model for speech generation and excels in speech in-context learning, achieving performance in speaker similarity and naturalness that matches ground truth human speech in both objective and sub...
+
+--- [24] 2312.08641v1 ---
+Title: Towards Automatic Data Augmentation for Disordered Speech Recognition
+Authors: Zengrui Jin, Xurong Xie, Tianzi Wang, Mengzhe Geng, Jiajun Deng et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2023-12-14
+Summary: Automatic recognition of disordered speech remains a highly challenging task to date due to data scarcity. This paper presents a reinforcement learning (RL) based on-the-fly data augmentation approach for training state-of-the-art PyChain TDNN and end-to-end Conformer ASR systems on such data. The handcrafted temporal and spectral mask operations in the standard SpecAugment method that are task an...
+
+--- [25] 2307.11880v3 ---
+Title: Bans vs. Warning Labels: Examining Bystanders' Support for Community-wide Moderation Interventions
+Authors: Shagun Jhaver
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aend-to-end+AND+abs%3Areinforcement+AND+abs%3Aspeech&max_results=25&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2023-07-21
+Summary: Social media platforms like Facebook and Reddit host thousands of user-governed online communities. These platforms sanction communities that frequently violate platform policies; however, public perceptions of such sanctions remain unclear. In a pre-registered survey conducted in the US, I explore bystander perceptions of content moderation for communities that frequently feature hate speech, vio...
+

@@ -1,0 +1,142 @@
+--- [1] 2609.09089v1 ---
+Title: Sieve Estimation of Optimal Transport Maps from Paired Data in Gaussian Spaces
+Authors: Xin Jin, Kit Chan, Riddhi Pratim Ghosh
+Primary cat: math.ST | All cats: math.ST, stat.ME
+Published: 2026-09-08
+Summary: We estimate optimal transport maps on an infinite-dimensional Hilbert space with a Gaussian reference measure, from noisy paired observations. A source draw is seen together with a noisy evaluation of its image, rather than through independent unpaired samples. The estimator is a cylindrical sieve of Cameron--Martin gradient maps, restricted to a compact parameter set; individual sieve elements ne...
+
+--- [2] 2609.09070v1 ---
+Title: Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics
+Authors: Andy Nkansah, Hanna Plotnitskaya, Stanislau Salavei, Anna Kozlova, Piotr Gibas et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC
+Published: 2026-09-08
+Summary: Clinical AI evaluation should encompass diagnosis and management after adaptive information gathering. We compared Doctorina, eight physicians and four standalone frontier language models in 150 synthetic Polish-language primary-care consultations. Doctorina achieved 82.0% Top-1 concordance versus 57.0% for physicians (difference, 25.0 percentage points; 95% confidence interval, 17.7-32.7) and 97....
+
+--- [3] 2609.09023v1 ---
+Title: DYAD: A Multimodal Dataset of Co-Located Human Assistance
+Authors: Akhil Ajikumar, Mahya Qorbani, Sakib Reza, Sean Andrist, Mohsen Moghaddam
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: An embodied assistant working beside a person must track task state, recognize help seeking, choose how to intervene, and produce an appropriate response. Existing procedural datasets richly describe individual execution, while interactive datasets capture remote verbal instruction or undifferentiated co-working. They do not jointly link a co-located helper's verbal and physical interventions to p...
+
+--- [4] 2609.08981v1 ---
+Title: Transformers as In-Context Samplers: From Closed-Form Diffusion to Estimation-Free Sampling
+Authors: Arman Adibi, Alireza Jafari, Mohammad Ghavamzadeh, Hadi Daneshmand
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, stat.AP, stat.CO, stat.ML
+Published: 2026-09-08
+Summary: A growing body of work establishes that large language models are not mere statistical memorizers, but are capable of in-context learning: performing inference at test time using only examples provided in the prompt, without any parameter updates. Prior theoretical work has shown that this capability extends to supervised learning tasks such as linear regression. We prove that in-context learning ...
+
+--- [5] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [6] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [7] 2609.08949v1 ---
+Title: Prior-free relative 6D pose estimation of multiple object instances
+Authors: Behdad Khodabandehloo, Andrea Caraffa, Davide Boscaini, Fabio Poiesi
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Object 6D pose estimation formulations have progressively reduced reliance on object-specific priors, evolving from explicit 3D models to multi-view object captures to single reference images. We take this progression to its extreme by introducing prior-free relative 6D pose estimation, which lifts the assumption of knowing which object is to be posed within the scene. This novel setting aims to e...
+
+--- [8] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [9] 2609.08947v1 ---
+Title: ONE CYLinder: A Benchmark for Graph-Based Surrogate Modeling of Unsteady Bluff-Body Flows
+Authors: Théodore Michel, Antoine Campos, Alban Dujardin, Henry Areiza, Philippe Meliga et al.
+Primary cat: physics.flu-dyn | All cats: physics.flu-dyn, cs.LG
+Published: 2026-09-08
+Summary: Graph-based surrogate models offer a promising route to accelerate computational fluid dynamics (CFD) simulations on unstructured meshes. However, their development is limited by the scarcity of benchmark datasets spanning multiple flow regimes and standardized protocols for long-horizon autoregressive prediction. We introduce ONECYL (ONE CYLinder), a new benchmark for unsteady flow past a circula...
+
+--- [10] 2609.08946v1 ---
+Title: ContinuumBench: Benchmarking Joint Autoscaling and Placement Across Evaluation Regimes in the Cloud-Edge Continuum
+Authors: Lanpei Li, Antonino Vaccarella, Vincenzo Lomonaco, Massimo Coppola
+Primary cat: cs.DC | All cats: cs.DC
+Published: 2026-09-08
+Summary: Cloud-edge controllers coordinate service placement, replica scaling, and resource pre-warming to keep end-to-end latency within application deadlines. But evaluations often obscure the source of a reported gain: placement and scaling are studied separately; workload, connectivity, and calibration assumptions remain implicit; and metrics over completed tasks hide unfinished work. We present Contin...
+
+--- [11] 2609.08938v1 ---
+Title: EgoSIS: From Factorized Visual Ego-Transitions to Motion-Canonical Spatial Evidence for UAV Reasoning
+Authors: Jingpu Yang, Fengxian Ji, Mingxuan Cui, Yilin Sun, Hang Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: UAV video question answering requires separating camera motion from changes in the scene, but RGB-only multimodal models receive no explicit, stable reference for that separation. We present EgoSIS, a pose-free adapter that converts RGB-derived bidirectional flow into motion-canonical visual evidence in three stages. Factorized Visual Ego-Transitions (FVET) fits a robust image-plane transition and...
+
+--- [12] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areference+audio&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [13] 2609.08932v1 ---
+Title: Real-time Dyson expansion for the nonequilibrium $GW$ approximation: Correlated spectra and dependence on the reference propagator
+Authors: Erik Schroedter, Jan-Philip Joost, Michael Bonitz, Vojtech Vlcek
+Primary cat: cond-mat.str-el | All cats: cond-mat.str-el
+Published: 2026-09-08
+Summary: Electronic spectra provide direct insight into the excitations and correlations of condensed matter systems. Their description requires electron correlations beyond mean field. In equilibrium, the $GW$ approximation has become the method of choice for many materials. Extending this approximation to nonequilibrium, however, is challenging. Full two-time $GW$ simulations within the nonequilibrium Gr...
+
+--- [14] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [15] 2609.08913v1 ---
+Title: Zirconium Carbide as a High-Temperature Benchmark for the Beyond Quasi-Harmonic Method
+Authors: Christopher M. Stanley
+Primary cat: cond-mat.mtrl-sci | All cats: cond-mat.mtrl-sci, quant-ph
+Published: 2026-09-08
+Summary: Molar heat capacity at constant pressure, C_p (T), is a central thermodynamic quantity in materials science, but it remains difficult to calculate accurately from first principles when anharmonic vibrational effects become important. In this work, rocksalt ZrC is used as a high-temperature benchmark for the Beyond Quasi-Harmonic (BQH) method, a prepared-supercell first-principles approach that ext...
+
+--- [16] 2609.08899v1 ---
+Title: From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection
+Authors: Mengzhe Geng, Yujia Lu, Patrick Littell, Manuela Kunz, Xie Chen
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-08
+Summary: Speech deepfakes can mimic a speaker's voice convincingly enough to deceive listeners and automated systems. This has driven strong progress in speech deepfake detection, but most detectors still end with one score per utterance. That score is useful for ranking systems, yet it says little about why a borderline item should be trusted, deferred, or reviewed. Two utterances can fall in the same sco...
+
+--- [17] 2609.08886v1 ---
+Title: FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory
+Authors: Woosang Jeon, Sanghyeok Choi, Minwoo Kim, Taehyun Jung, Taehyeong Kim
+Primary cat: cs.CV | All cats: cs.CV, cs.RO
+Published: 2026-09-08
+Summary: Language-guided robots need persistent scene memories to follow instructions, revisit objects, and resolve references to objects encountered over time. While much of language-guided scene-memory retrieval has emphasized spatial or relational references, many everyday object references specify objects by multiple persistent attributes, such as category, material, size, or surface appearance. We for...
+
+--- [18] 2609.08883v1 ---
+Title: Dynamic Sensing via Photomodulated Gas Desorption in Plasmonic Nanoparticle Chemiresistors
+Authors: Lukas Mielke, Dahee Heo, Gabriele Carelli, Hendrik Schlicke
+Primary cat: physics.app-ph | All cats: physics.app-ph, cond-mat.mtrl-sci
+Published: 2026-09-08
+Summary: Quasi-static sensing, i.e., measurement of a sensor signal change induced by analyte presence with respect to a baseline signal observed in a reference gas beforehand, is the state of the art for qualitative and quantitative analyte identification in chemiresistive sensing. However, this approach is prone to baseline drift and, especially for inexpensive miniaturized point-of-care sensors, repeate...
+
+--- [19] 2609.08869v1 ---
+Title: OntoKG-EQ: A provenance-grounded, competency-question-governed knowledge graph for auditable analyst querying
+Authors: Furqan Nasir, Muhammad Atif Saeed, Muhammad Ehsan, Sher Jeel Ahmad, Abdul Moiz Altaf
+Primary cat: cs.ET | All cats: cs.ET, cs.AI, cs.DB
+Published: 2026-09-08
+Summary: Analysts in emerging equity markets keep answering the same questions. Did fundamentals match the market's response? How does the local currency co-move with returns? Which firms outperform sector and benchmark, and which disclosures coincide with abnormal trading? These answers come from ad-hoc spreadsheets that are hard to reproduce, audit, or trust. We present OntoKG-EQ, a knowledge-based syste...
+
+--- [20] 2609.08826v1 ---
+Title: A Closed-Form Estimator and Diagnostic Battery for Anchor-Judge Error Correlation, Under a Single-Common-Factor Model
+Authors: Veerendra Kumar Sunkavalli
+Primary cat: stat.ME | All cats: stat.ME, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: When an external reference set (an anchor) is used to decompose an LLM-judge panel's error into a quality signal and a shared common-mode error, standard practice assumes the anchor is uncontaminated: its error uncorrelated with the judges' shared error. We study when that assumption can be dropped and replaced by an estimate. Under a single-common-factor model, >=2 judges and >=2 anchors point-id...
+

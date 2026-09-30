@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Appo+AND+abs%3Afull-duplex&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2604.14309v2 ---
+Title: Aerial Multi-Functional RIS in Fluid Antennas-Aided Full-Duplex Networks: A Self-Optimized Hybrid Deep Reinforcement Learning Approach
+Authors: Li-Hsiang Shen, Yu-Quan Zheng
+Primary cat: cs.IT | All cats: cs.IT, cs.AI, eess.SP
+Published: 2026-04-15
+Summary: To address high data traffic demands of sixth-generation (6G) networks, this paper proposes a novel architecture that integrates autonomous aerial vehicles (AAVs) and multi-functional reconfigurable intelligent surfaces (MF-RISs) as AM-RIS in fluid antenna (FA)-assisted full-duplex (FD) networks. The AM-RIS provides hybrid functionalities, including signal reflection, amplification, and energy har...
+

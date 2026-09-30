@@ -1,0 +1,65 @@
+# Total entries: 9
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ADeepSeek+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.01481v1 ---
+Title: Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement
+Authors: Haoyang Yan, Min-le Su, Hangfan Zhang, Zhanhao Li, Chen Zhang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-01
+Summary: This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements into complete, functional, and usable software systems without human intervention. We introduce Harness-of-Harness (HoH), a framework that enables coding agents to continually improve software during autonomous development. HoH operates on existing coding-agent harnesses, and orga...
+
+--- [2] 2608.14385v1 ---
+Title: DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding
+Authors: Zewen Jin, Shen Fu, Zeping Duan, Shannon Wang, Weihao Wu et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-08-14
+Summary: Mixture-of-Experts (MoE) models have been widely adopted in real-time interactive applications such as coding assistants, real-time audio-video interaction systems. To meet the extremely low response latency requirements of these scenarios, practitioners commonly employ small-batch decoding, under which MoE inference becomes memory-bound and is severely bottlenecked by expert weight loading. Howev...
+
+--- [3] 2606.28649v1 ---
+Title: RIPA: Sensory-Vector Prompt Injection Attacks on LLM-Controlled ROS 2 Robots
+Authors: Nima Dorzhiev
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.RO
+Published: 2026-06-26
+Summary: We present RIPA, the first systematic multi-channel empirical study of prompt injection attacks delivered through the sensory pipeline of a ROS 2-based LLM-controlled robotic system. Across 100 independent runs per injection variant on five LLMs spanning four model families and parameter scales from approximately 4B to approximately 284B (DeepSeek-V4-Flash, Llama-3-8B-Instruct-Lite, Llama-3.3-70B-...
+
+--- [4] 2601.07014v1 ---
+Title: DIVINE: Coordinating Multimodal Disentangled Representations for Oro-Facial Neurological Disorder Assessment
+Authors: Mohd Mujtaba Akhtar,  Girish, Muskaan Singh
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-01-11
+Summary: In this study, we present a multimodal framework for predicting neuro-facial disorders by capturing both vocal and facial cues. We hypothesize that explicitly disentangling shared and modality-specific representations within multimodal foundation model embeddings can enhance clinical interpretability and generalization. To validate this hypothesis, we propose DIVINE a fully disentangled multimodal...
+
+--- [5] 2506.15051v1 ---
+Title: Sequential Policy Gradient for Adaptive Hyperparameter Optimization
+Authors: Zheng Li, Jerry Cheng, Huanying Helen Gu
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2025-06-18
+Summary: Reinforcement learning is essential for neural architecture search and hyperparameter optimization, but the conventional approaches impede widespread use due to prohibitive time and computational costs. Inspired by DeepSeek-V3 multi-token prediction architecture, we propose Sequential Policy Gradient modeling (SPG), a novel trajectory generation paradigm for lightweight online hyperparameter optim...
+
+--- [6] 2504.15900v3 ---
+Title: SARI: Structured Audio Reasoning via Curriculum-Guided Reinforcement Learning
+Authors: Cheng Wen, Tingwei Guo, Shuaijiang Zhao, Wei Zou, Xiangang Li
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-04-22
+Summary: Recent work shows that reinforcement learning(RL) can markedly sharpen the reasoning ability of large language models (LLMs) by prompting them to "think before answering." Yet whether and how these gains transfer to audio-language reasoning remains largely unexplored. We extend the Group-Relative Policy Optimization (GRPO) framework from DeepSeek-R1 to a Large Audio-Language Model (LALM), and cons...
+
+--- [7] 2503.01743v2 ---
+Title: Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs
+Authors:  Microsoft,  :, Abdelrahman Abouelenin, Atabak Ashfaq, Adam Atkinson et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG
+Published: 2025-03-03
+Summary: We introduce Phi-4-Mini and Phi-4-Multimodal, compact yet highly capable language and multimodal models. Phi-4-Mini is a 3.8-billion-parameter language model trained on high-quality web and synthetic data, significantly outperforming recent open-source models of similar size and matching the performance of models twice its size on math and coding tasks requiring complex reasoning. This achievement...
+
+--- [8] 2501.18648v2 ---
+Title: Multimodal Large Language Models for Image, Text, and Speech Data Augmentation: A Survey
+Authors: Ranjan Sapkota, Shaina Raza, Maged Shoman, Achyut Paudel, Manoj Karkee
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-01-29
+Summary: In the past five years, research has shifted from traditional Machine Learning (ML) and Deep Learning (DL) approaches to leveraging Large Language Models (LLMs) , including multimodality, for data augmentation to enhance generalization, and combat overfitting in training deep convolutional neural networks. However, while existing surveys predominantly focus on ML and DL techniques or limited modal...
+
+--- [9] 2406.10591v1 ---
+Title: MINT: a Multi-modal Image and Narrative Text Dubbing Dataset for Foley Audio Content Planning and Generation
+Authors: Ruibo Fu, Shuchen Shi, Hongming Guo, Tao Wang, Chunyu Qiang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CV, cs.MM, cs.SD
+Published: 2024-06-15
+Summary: Foley audio, critical for enhancing the immersive experience in multimedia content, faces significant challenges in the AI-generated content (AIGC) landscape. Despite advancements in AIGC technologies for text and image generation, the foley audio dubbing remains rudimentary due to difficulties in cross-modal scene matching and content correlation. Current text-to-audio technology, which relies on...
+

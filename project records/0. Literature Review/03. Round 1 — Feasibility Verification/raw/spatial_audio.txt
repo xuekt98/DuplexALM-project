@@ -1,0 +1,142 @@
+--- [1] 2609.09069v1 ---
+Title: Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering
+Authors: Jiahui Zhang, Bonian Han, Gongbo Liang, Yu Zhang
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-09-08
+Summary: Autonomous 3D active mapping requires a space robot to choose where to sense while building the geometry needed for navigation. Learned occupancy completion extends spatial context beyond the current field of view, but one predicted map often serves two planning roles: it scores expected surface gain and constrains collision-free motion. Unsupported occupancy can therefore distort both where the r...
+
+--- [2] 2609.09024v1 ---
+Title: Fish navigate a hydrodynamic maze via yaw-mediated lateral migration
+Authors: Michael A. Calicchia, Rui Ni
+Primary cat: physics.flu-dyn | All cats: physics.flu-dyn, physics.bio-ph
+Published: 2026-09-08
+Summary: In aquatic environments, gradients in flow velocity and turbulence define a constantly shifting landscape that sets the physical constraints on propulsion and energy expenditure in fish. Successfully navigating these complex flows depends on the ability to sense and respond to subtle hydrodynamic cues in an energy-efficient manner. Revealing these mechanisms is central to understanding how fish id...
+
+--- [3] 2609.09012v1 ---
+Title: Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild
+Authors: Fei Teng, Sheng Wu, Mengfei Duan, Guoqiang Zhao, Junhui Ma et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.RO, eess.IV
+Published: 2026-09-08
+Summary: Spherical observations provide global visual context for 3D scene understanding. However, visual information is encoded in an angular domain, whereas the physical world is represented in Cartesian coordinates. This cross-space representation gap complicates geometric correspondence and semantic evidence aggregation. To delve into this challenge, we introduce Spheriverse, comprising $64,400$ tempor...
+
+--- [4] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [5] 2609.08973v1 ---
+Title: Restart and first detection in a lackadaisical quantum walk with flat-band localization
+Authors: Debraj Das
+Primary cat: quant-ph | All cats: quant-ph, cond-mat.stat-mech
+Published: 2026-09-08
+Summary: We study stochastic and sharp restart in a one-dimensional lackadaisical discrete-time quantum walk with self-loop weight $\ell$. In the absence of restart, the dynamics has a flat band responsible for intrinsic localization and two dispersive bands supporting ballistic propagation. We compare two initially localized benchmark states: a flat-band-active state with finite flat-band overlap and a fl...
+
+--- [6] 2609.08969v1 ---
+Title: Singular Turing bifurcations and spatial canard solutions in nonlinear reaction-diffusion systems
+Authors: Robert Jencks, Tasso J. Kaper, Theodore Vo
+Primary cat: math.DS | All cats: math.DS
+Published: 2026-09-08
+Summary: We study a general class of nonlinear reaction-diffusion equations that model pattern-forming systems. The class includes the Gierer-Meinhardt PDE, Brusselator model, and van der Pol PDE, as well as the Gray-Scott, Klausmeier, Lengyel-Epstein, Schnakenberg PDEs and others of activator-inhibitor type. In the limit in which the activator diffusivity is much smaller than that of the inhibitor, these ...
+
+--- [7] 2609.08964v1 ---
+Title: Can the Universe Change Signature When Gravity is Dynamical?
+Authors: Yaghoub Heydarzade
+Primary cat: gr-qc | All cats: gr-qc
+Published: 2026-09-08
+Summary: Can a universe undergo a regular Euclidean-Lorentzian signature transition when the gravitational coupling itself is dynamical? We address this question in scalar-tensor gravity with nonminimal coupling $F(φ)R$. Although the spatially flat Friedmann-Lemaitre-Robertson-Walker (FLRW) sector can be mapped to the Einstein frame for $F>0$ and a nondegenerate scalar redefinition, not all transition prop...
+
+--- [8] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [9] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [10] 2609.08938v1 ---
+Title: EgoSIS: From Factorized Visual Ego-Transitions to Motion-Canonical Spatial Evidence for UAV Reasoning
+Authors: Jingpu Yang, Fengxian Ji, Mingxuan Cui, Yilin Sun, Hang Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: UAV video question answering requires separating camera motion from changes in the scene, but RGB-only multimodal models receive no explicit, stable reference for that separation. We present EgoSIS, a pose-free adapter that converts RGB-derived bidirectional flow into motion-canonical visual evidence in three stages. Factorized Visual Ego-Transitions (FVET) fits a robust image-plane transition and...
+
+--- [11] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [12] 2609.08935v1 ---
+Title: Polynomial mixing for the weakly damped stochastic nonlinear Schrödinger equation on the whole space
+Authors: Vahagn Nersesyan, Tianyi Pan
+Primary cat: math.PR | All cats: math.PR, math.AP
+Published: 2026-09-08
+Summary: We consider the weakly damped stochastic nonlinear Schrödinger (NLS) equation on the real line, driven by a noise that is white in time and smooth in space. Assuming that the noise is sufficiently non-degenerate, we prove that the equation has a unique stationary measure in the class of probability measures concentrated on $H^2$, and establish polynomial mixing in the dual-Lipschitz metric over $H...
+
+--- [13] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspatial+audio&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [14] 2609.08910v1 ---
+Title: On spatial decoherence in many-body systems
+Authors: Stefano Marcantoni, Marco Merkli
+Primary cat: math-ph | All cats: math-ph, quant-ph
+Published: 2026-09-08
+Summary: We study the dynamics of a many-body quantum system strongly interacting with a bosonic reservoir. The coupling is given by a potential operator for the system and it is linear in the field. We show that in the limit of infinite coupling strength the system undergoes instantaneous spatial decoherence. To resolve the decoherence process in time we consider large coupling strengths $λ$ and short tim...
+
+--- [15] 2609.08905v1 ---
+Title: Visible-Reachable Workspace for Perception-Aware Humanoid Design
+Authors: Boxi Xia, Zijiang Yang, Ryan Shin, Bokuan Li, Eric Wun-Hao Lu et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it. The robot must then redirect its sensing or move its body to acquire a view, turning a perception limitation into additional motion. Existing humanoids largely inher...
+
+--- [16] 2609.08902v1 ---
+Title: Relativistic spatial distributions of transverse angular momentum
+Authors: Cédric Lorcé, Asmita Mukherjee, Ravi Singh, Ho-Yeon Won
+Primary cat: hep-ph | All cats: hep-ph, hep-th, nucl-th
+Published: 2026-09-08
+Summary: In our previous work [C. Lorcé et al., Phys. Lett. B 868 (2025) 139792], we investigated the 2D spatial distributions of transverse total angular momentum, including orbital angular momentum and intrinsic spin, relative to the canonical center (or center of spin). In the present work, we extend this analysis in two directions. First, we study the corresponding transverse boost distributions relati...
+
+--- [17] 2609.08899v1 ---
+Title: From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection
+Authors: Mengzhe Geng, Yujia Lu, Patrick Littell, Manuela Kunz, Xie Chen
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-08
+Summary: Speech deepfakes can mimic a speaker's voice convincingly enough to deceive listeners and automated systems. This has driven strong progress in speech deepfake detection, but most detectors still end with one score per utterance. That score is useful for ranking systems, yet it says little about why a borderline item should be trusted, deferred, or reviewed. Two utterances can fall in the same sco...
+
+--- [18] 2609.08892v1 ---
+Title: The hyperfinite II_1 factor is not quasidiagonal
+Authors: Narutaka Ozawa
+Primary cat: math.OA | All cats: math.OA
+Published: 2026-09-08
+Summary: We construct an MF C*-algebra A such that the spatial tensor product of A and the hyperfinite II_1 factor R contains a proper isometry. Consequently, stable finiteness of C*-algebras is not stable under tensor product and the hyperfinite II_1 factor is not a quasidiagonal C*-algebra. The C*-algebra A is non-simple and has only non-faithful tracial states. This result was obtained using OpenAI's Ch...
+
+--- [19] 2609.08891v1 ---
+Title: Four triangle-free intrinsically knotted graphs with 22 edges
+Authors: Hyoungjun Kim, Thomas W. Mattman, Seungsang Oh
+Primary cat: math.CO | All cats: math.CO
+Published: 2026-09-08
+Summary: An intrinsically knotted graph is one for which every spatial embedding contains a nontrivially knotted cycle. Classifying such graphs is a central problem in spatial graph theory. It is known that every intrinsically knotted graph has at least 21 edges, and the case of 21 edges has been completely resolved. For 22 edges, however, the classification remains incomplete. In particular, exactly eight...
+
+--- [20] 2609.08886v1 ---
+Title: FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory
+Authors: Woosang Jeon, Sanghyeok Choi, Minwoo Kim, Taehyun Jung, Taehyeong Kim
+Primary cat: cs.CV | All cats: cs.CV, cs.RO
+Published: 2026-09-08
+Summary: Language-guided robots need persistent scene memories to follow instructions, revisit objects, and resolve references to objects encountered over time. While much of language-guided scene-memory retrieval has emphasized spatial or relational references, many everyday object references specify objects by multiple persistent attributes, such as category, material, size, or surface appearance. We for...
+

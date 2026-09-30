@@ -1,0 +1,142 @@
+--- [1] 2609.04452v1 ---
+Title: TRILOGUE: A Trilingual Spoken Dialogue Fact-Checking Benchmark with Evidence and Paired Audio
+Authors: Chaewan Chun, Meruyert Aristombayeva, Jiyoung Choi, Mahjabin Nahar, Delvin Ce Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-03
+Summary: Modern misinformation is often heard before it is read, yet fact-checking systems are still evaluated mainly on clean written claims. Spoken dialogue remains different even when systems operate on transcripts: claims may be distributed across speakers and turns, depend on prior context, and become harder to verify when Automatic Speech Recognition (ASR) errors distort the available text. Prior spo...
+
+--- [2] 2608.12703v1 ---
+Title: Alignment Drift in Single-Model Speculative Decoding for ASR: Mechanism, Correction, and Cost
+Authors: Xinyu Wang, Huapeng Zhou, Ziyu Zhao, Silin Meng, Ke Bai et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-08-13
+Summary: Speculative decoding speeds up generation by letting a cheap draft propose several tokens that a target model checks in one pass. In the single-model form, the draft is a lightweight module attached to the target rather than a separate model. Applying this design to Automatic Speech Recognition (ASR) introduces an extra problem. The draft can read the whole audio at every step, yet its proposals g...
+
+--- [3] 2607.25041v1 ---
+Title: ScoreShield: Differentially Private Release of Similarity Scores
+Authors: Behrooz Razeghi, Parsa Rahimi
+Primary cat: cs.IR | All cats: cs.IR, cs.CR, cs.CV, cs.LG
+Published: 2026-07-27
+Summary: A growing number of applications, such as biometrics and retrieval-augmented generation (RAG), rely on cosine similarity scores computed between vector embeddings of text, images, or audio. These systems return similarity scores through their APIs for ranking and verification. However, such releases can leak information about individual records and enable membership inference attacks. While differ...
+
+--- [4] 2607.11433v1 ---
+Title: Omni-Decision: A Progressive Evidence-State Agent System for Omni-Modal QA
+Authors: Ming Ma, Yi Zhu, Yiran Zhong, Feida Zhu, Weigao Sun et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-13
+Summary: Omni-modal evidence-seeking QA requires agents to answer questions whose evidence is sparsely distributed across videos, audio, images, web pages, and computation results. Existing agentic multimodal systems often leave evidence in scratchpads, tool trajectories, or free-form histories, making it difficult to track what has been grounded, what remains missing, and when the evidence is sufficient t...
+
+--- [5] 2606.20893v1 ---
+Title: Exploiting Neural Audio Codec Latents for Adversarial Audio Attacks
+Authors: Sameek Bhattacharya, Bharath Krishnamurthy, Ajita Rattani
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR
+Published: 2026-06-18
+Summary: Deep learning-based audio classification systems, including automatic speaker verification, are vulnerable to adversarial attacks. Realistic real-time threat assessment remains difficult because optimization-based methods, such as projected gradient descent (PGD) and Carlini-Wagner, require costly iterative updates in the high-dimensional waveform domain. Generative attacks allow single-shot synth...
+
+--- [6] 2606.14591v2 ---
+Title: AudioDER: A Deduplication-Enhanced Reasoning Dataset for Post-Training Large Audio-Language Models
+Authors: Hui Geng, Yi Su, Zijian Gao, Tianjiao Wan, Qisheng Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-12
+Summary: Recent advances in pretrained large audio-language models (LALMs) have demonstrated strong capabilities across speech, sound, and music. To adapt these models to downstream tasks without the cost of pretraining from scratch, post-training has become a widely adopted paradigm. However, the effectiveness of post-training depends critically on the quality of the training corpus. We observe that exist...
+
+--- [7] 2606.11420v1 ---
+Title: Context-Aware Multimodal Claim Verification in Spoken Dialogues
+Authors: Chaewan Chun, Delvin Ce Zhang, Dongwon Lee
+Primary cat: cs.CL | All cats: cs.CL, cs.SI
+Published: 2026-06-09
+Summary: Every day, millions absorb claims from podcasts and streams that no fact-checker ever sees. Spoken misinformation is built through conversation, where credibility comes not from facts alone but from how claims are framed, reinforced, or left unchallenged across turns. Yet fact-checking has focused on isolated text, leaving dialogue audio under-studied. We introduce MAD2, a new Multi-turn Audio Dia...
+
+--- [8] 2605.08762v1 ---
+Title: Omni-DeepSearch: A Benchmark for Audio-Driven Omni-Modal Deep Search
+Authors: Tao Yu, yiming ding, Shenghua Chai, Minghui Zhang, Zhongtian Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-05-09
+Summary: Current omni-modal benchmarks mainly evaluate models under settings where multiple modalities are provided simultaneously, while the ability to start from audio alone and actively search for cross-modal evidence remains underexplored. In this paper, we introduce \textbf{Omni-DeepSearch}, a benchmark for audio-driven omni-modal deep search. Given one or more audio clips and a related question, mode...
+
+--- [9] 2604.25591v1 ---
+Title: Walking Through Uncertainty: An Empirical Study of Uncertainty Estimation for Audio-Aware Large Language Models
+Authors: Chun-Yi Kuan, Wei-Ping Huang, Hung-yi Lee
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.LG, cs.SD
+Published: 2026-04-28
+Summary: Recent audio-aware large language models (ALLMs) have demonstrated strong capabilities across diverse audio understanding and reasoning tasks, but they still frequently produce hallucinated or overly confident outputs. While uncertainty estimation has been extensively studied in text-only LLMs, it remains largely unexplored for ALLMs, where audio-conditioned generation introduces additional challe...
+
+--- [10] 2604.13776v2 ---
+Title: Who Gets Flagged? The Pluralistic Evaluation Gap in AI Content Watermarking
+Authors: Alexander Nemecek, Osama Zafar, Yuqiao Xu, Wenbiao Li, Erman Ayday
+Primary cat: cs.CY | All cats: cs.CY, cs.CL, cs.CR, cs.CV
+Published: 2026-04-15
+Summary: Watermarking is becoming the default mechanism for AI content authentication, with governance policies and frameworks referencing it as infrastructure for content provenance. Yet across text, image, and audio modalities, watermark signal strength, detectability, and robustness depend on statistical properties of the content itself, properties that vary systematically across languages, cultural vis...
+
+--- [11] 2604.05683v1 ---
+Title: Time-Domain Voice Identity Morphing (TD-VIM): A Signal-Level Approach to Morphing Attacks on Speaker Verification Systems
+Authors: Aravinda Reddy PN, Raghavendra Ramachandra, K. Sreenivasa Rao, Pabitra Mitra, Kunal Singh
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-04-07
+Summary: In biometric systems, it is a common practice to associate each sample or template with a specific individual. Nevertheless, recent studies have demonstrated the feasibility of generating "morphed" biometric samples capable of matching multiple identities. These morph attacks have been recognized as potential security risks for biometric systems. However, most research on morph attacks has focused...
+
+--- [12] 2603.18103v1 ---
+Title: STEP: Detecting Audio Backdoor Attacks via Stability-based Trigger Exposure Profiling
+Authors: Kun Wang, Meng Chen, Junhao Wang, Yuli Wu, Li Lu et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.LG, cs.SD
+Published: 2026-03-18
+Summary: With the widespread deployment of deep-learning-based speech models in security-critical applications, backdoor attacks have emerged as a serious threat: an adversary who poisons a small fraction of training data can implant a hidden trigger that controls the model's output while preserving normal behavior on clean inputs. Existing inference-time defenses are not well suited to the audio domain, a...
+
+--- [13] 2603.14794v2 ---
+Title: Face-to-Face: A Video Dataset for Multi-Person Interaction Modeling
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Adependency+AND+abs%3Averification&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Ernie Chu, Vishal M. Patel
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-03-16
+Summary: Modeling the reactive tempo of human conversation remains difficult because most audio-visual datasets portray isolated speakers delivering short monologues. We introduce \textbf{Face-to-Face with Jimmy Fallon (F2F-JF)}, a 70-hour, 14k-clip dataset of two-person talk-show exchanges that preserves the sequential dependency between a guest turn and the host's response. A semi-automatic pipeline comb...
+
+--- [14] 2509.19755v1 ---
+Title: Can Audio Large Language Models Verify Speaker Identity?
+Authors: Yiming Ren, Xuenan Xu, Baoxiang Li, Shuai Wang, Chao Zhang
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-09-24
+Summary: This paper investigates adapting Audio Large Language Models (ALLMs) for speaker verification (SV). We reformulate SV as an audio question-answering task and conduct comprehensive zero-shot evaluations on public benchmarks, showing that current ALLMs have limited zero-shot SV capability and often struggle in diverse acoustic conditions. To address this challenge, we perform supervised fine-tuning ...
+
+--- [15] 2407.06957v1 ---
+Title: Listen and Speak Fairly: A Study on Semantic Gender Bias in Speech Integrated Large Language Models
+Authors: Yi-Cheng Lin, Tzu-Quan Lin, Chih-Kai Yang, Ke-Han Lu, Wei-Chih Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.CY
+Published: 2024-07-09
+Summary: Speech Integrated Large Language Models (SILLMs) combine large language models with speech perception to perform diverse tasks, such as emotion recognition to speaker verification, demonstrating universal audio understanding capability. However, these models may amplify biases present in training data, potentially leading to biased access to information for marginalized groups. This work introduce...
+
+--- [16] 2311.12130v1 ---
+Title: Formal Verification of Long Short-Term Memory based Audio Classifiers: A Star based Approach
+Authors: Neelanjana Pal, Taylor T Johnson
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2023-11-16
+Summary: Formally verifying audio classification systems is essential to ensure accurate signal classification across real-world applications like surveillance, automotive voice commands, and multimedia content management, preventing potential errors with serious consequences. Drawing from recent research, this study advances the utilization of star-set-based formal verification, extended through reachabil...
+
+--- [17] 2303.11020v3 ---
+Title: DS-TDNN: Dual-stream Time-delay Neural Network with Global-aware Filter for Speaker Verification
+Authors: Yangfu Li, Jiapan Gan, Xiaodan Lin
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2023-03-20
+Summary: Conventional time-delay neural networks (TDNNs) struggle to handle long-range context, their ability to represent speaker information is therefore limited in long utterances. Existing solutions either depend on increasing model complexity or try to balance between local features and global context to address this issue. To effectively leverage the long-term dependencies of audio signals and constr...
+
+--- [18] 2208.10238v1 ---
+Title: Learning Branched Fusion and Orthogonal Projection for Face-Voice Association
+Authors: Muhammad Saad Saeed, Shah Nawaz, Muhammad Haris Khan, Sajid Javed, Muhammad Haroon Yousaf et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2022-08-22
+Summary: Recent years have seen an increased interest in establishing association between faces and voices of celebrities leveraging audio-visual information from YouTube. Prior works adopt metric learning methods to learn an embedding space that is amenable for associated matching and verification tasks. Albeit showing some progress, such formulations are, however, restrictive due to dependency on distanc...
+
+--- [19] 2207.05506v1 ---
+Title: Label-Efficient Self-Supervised Speaker Verification With Information Maximization and Contrastive Learning
+Authors: Théo Lepage, Réda Dehak
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2022-07-12
+Summary: State-of-the-art speaker verification systems are inherently dependent on some kind of human supervision as they are trained on massive amounts of labeled data. However, manually annotating utterances is slow, expensive and not scalable to the amount of data available today. In this study, we explore self-supervised learning for speaker verification by learning representations directly from raw au...
+
+--- [20] 2112.13353v1 ---
+Title: Novel Hybrid DNN Approaches for Speaker Verification in Emotional and Stressful Talking Environments
+Authors: Ismail Shahin, Ali Bou Nassif, Nawel Nemmour, Ashraf Elnagar, Adi Alhudhaif et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2021-12-26
+Summary: In this work, we conducted an empirical comparative study of the performance of text-independent speaker verification in emotional and stressful environments. This work combined deep models with shallow architecture, which resulted in novel hybrid classifiers. Four distinct hybrid models were utilized: deep neural network-hidden Markov model (DNN-HMM), deep neural network-Gaussian mixture model (D...
+

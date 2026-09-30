@@ -1,0 +1,23 @@
+# Total entries: 3
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aonline+AND+abs%3Areinforcement+AND+abs%3Alearning+AND+abs%3Avoice&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2605.28272v1 ---
+Title: EchoAvatar: Real-time Generative Avatar Animation from Audio Streams
+Authors: Bohong Chen, Yumeng Li, Yinglin Xu, Youyi Zheng, Yanlin Weng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-27
+Summary: Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively. In this paper, we introduce a novel framework designed to ...
+
+--- [2] 2604.08709v1 ---
+Title: Enhancing Conversational TTS with Cascaded Prompting and ICL-Based Online Reinforcement Learning
+Authors: Zhicheng Ouyang, Seong-Gyun Leem, Bach Viet Do, Haibin Wu, Ariya Rastrow et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-09
+Summary: Conversational AI has made significant progress, yet generating expressive and controllable text-to-speech (TTS) remains challenging. Specifically, controlling fine-grained voice styles and emotions is notoriously difficult and typically requires massive amounts of heavily annotated training data. To overcome this data bottleneck, we present a scalable, data-efficient cascaded framework that pairs...
+
+--- [3] 2510.14098v1 ---
+Title: Modeling Public Opinion Dynamics: The Spiral of silence in clustered homophilic networks
+Authors: Juan Castillo, Emanuele Cozzo
+Primary cat: physics.soc-ph | All cats: physics.soc-ph
+Published: 2025-10-15
+Summary: Public discourse emerges from the interplay between individuals' willingness to voice their opinions and the structural features of the social networks in which they are embedded. In this work we investigate how choice homophily and triadic closure shape the emergence of the spiral of silence, the phenomenon whereby minority views are progressively silenced due to fear of isolation. We advance the...
+

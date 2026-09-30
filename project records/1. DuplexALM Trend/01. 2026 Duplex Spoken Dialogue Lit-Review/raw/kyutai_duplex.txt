@@ -1,0 +1,58 @@
+# Total entries: 8
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Akyutai&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2605.22769v2 ---
+Title: Understanding Data Temporality Impact on Large Language Models Pre-training
+Authors: Hippolyte Pilchen, Romain Fabre, Franck Signe Talla, Patrick Perez, Edouard Grave
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-05-21
+Summary: Large language models (LLMs) are typically trained on shuffled corpora, yielding models whose knowledge is frozen at train time and whose temporal grounding remains poorly understood. In this work, we study the impact of pre-training dynamics on the acquisition of time-sensitive factual knowledge, focusing specifically on data ordering. Our main contributions are twofold. First, we introduce a com...
+
+--- [2] 2604.11154v1 ---
+Title: Environmental Footprint of GenAI Research: Insights from the Moshi Foundation Model
+Authors: Marta López-Rauhut, Loic Landrieu, Mathieu Aubry, Anne-Laure Ligozat
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-04-13
+Summary: New multi-modal large language models (MLLMs) are continuously being trained and deployed, following rapid development cycles. This generative AI frenzy is driving steady increases in energy consumption, greenhouse gas emissions, and a plethora of other environmental impacts linked to datacenter construction and hardware manufacturing. Mitigating the environmental consequences of GenAI remains cha...
+
+--- [3] 2603.23488v3 ---
+Title: One View Is Enough: In-the-Wild Monocular Pretraining for Novel View Generation
+Authors: Adrien Ramanana Rahary, Nicolas Dufour, Patrick Perez, David Picard
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-24
+Summary: Monocular novel-view synthesis has long required multi-view image pairs for supervision, limiting training to a narrow set of purpose-built datasets. We propose in-the-wild monocular pretraining: a frozen depth estimator lifts each source image into 3D and reprojects under sampled poses to yield pseudo-target views; masked losses restrict supervision to valid regions and an adversarial objective c...
+
+--- [4] 2510.20535v2 ---
+Title: ARC-Encoder: learning compressed text representations for large language models
+Authors: Hippolyte Pilchen, Edouard Grave, Patrick Pérez
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2025-10-23
+Summary: Recent techniques such as retrieval-augmented generation or chain-of-thought reasoning have led to longer contexts and increased inference costs. Context compression techniques can reduce these costs, but the most effective approaches require fine-tuning the target model or even modifying its architecture. This can degrade its general abilities when not used for this specific purpose. Here we expl...
+
+--- [5] 2509.08753v2 ---
+Title: Streaming Sequence-to-Sequence Learning with Delayed Streams Modeling
+Authors: Neil Zeghidour, Eugene Kharitonov, Manu Orsini, Václav Volhejn, Gabriel de Marmiesse et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-09-10
+Summary: We introduce Delayed Streams Modeling (DSM), a flexible formulation for streaming, multimodal sequence-to-sequence learning. Sequence-to-sequence generation is often cast in an offline manner, where the model consumes the complete input sequence before generating the first output timestep. Alternatively, streaming sequence-to-sequence rely on learning a policy for choosing when to advance on the i...
+
+--- [6] 2509.06926v3 ---
+Title: Continuous Audio Language Models
+Authors: Simon Rouard, Manu Orsini, Axel Roebel, Neil Zeghidour, Alexandre Défossez
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-09-08
+Summary: Audio Language Models (ALM) have emerged as the dominant paradigm for speech and music generation by representing audio as sequences of discrete tokens. Yet, unlike text tokens, which are invertible, audio tokens are extracted from lossy codecs with a limited bitrate. As a consequence, increasing audio quality requires generating more tokens, which imposes a trade-off between fidelity and computat...
+
+--- [7] 2508.02974v1 ---
+Title: Real-time speech enhancement in noise for throat microphone using neural audio codec as foundation model
+Authors: Julien Hauret, Thomas Joubaud, Éric Bavu
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-08-05
+Summary: We present a real-time speech enhancement demo using speech captured with a throat microphone. This demo aims to showcase the complete pipeline, from recording to deep learning-based post-processing, for speech captured in noisy environments with a body-conducted microphone. The throat microphone records skin vibrations, which naturally attenuate external noise, but this robustness comes at the co...
+
+--- [8] 2410.00037v2 ---
+Title: Moshi: a speech-text foundation model for real-time dialogue
+Authors: Alexandre Défossez, Laurent Mazaré, Manu Orsini, Amélie Royer, Patrick Pérez et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.LG, cs.SD
+Published: 2024-09-17
+Summary: We introduce Moshi, a speech-text foundation model and full-duplex spoken dialogue framework. Current systems for spoken dialogue rely on pipelines of independent components, namely voice activity detection, speech recognition, textual dialogue and text-to-speech. Such frameworks cannot emulate the experience of real conversations. First, their complexity induces a latency of several seconds betwe...
+

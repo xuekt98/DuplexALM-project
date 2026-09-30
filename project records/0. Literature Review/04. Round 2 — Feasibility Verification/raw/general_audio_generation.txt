@@ -1,0 +1,142 @@
+--- [1] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [2] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [3] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [4] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [5] 2609.08275v1 ---
+Title: Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation
+Authors: Tianyi Zeng, Junchao Liao, Yujie Wei, Ziying Zhang, Litao Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Recent multi-shot audio-video generators can produce increasingly coherent and cinematic outputs, but coherence does not imply the ability to execute editing techniques. Professional editing depends on shot structure, transition grammar, audio-video cut relations, and montage, yet existing benchmarks largely rely on proxies such as content quality, synchronization, or physical plausibility, system...
+
+--- [6] 2609.08026v1 ---
+Title: Geometry-Informed Distributed Acoustic Scene Understanding
+Authors: Yiyuan Yang, Shitong Xu, Niki Trigoni, Andrew Markham
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-07
+Summary: Acoustic scene understanding in multi-room environments is a difficult task. Most existing systems use a single centralized microphone array, and they often fail because walls and doors block sound signals. To address this challenge, we propose a geometry-informed distributed acoustic scene understanding framework. Our system leverages distributed microphones and uses an audio spectrogram transfor...
+
+--- [7] 2609.07688v1 ---
+Title: Silent Metronome: Rhythmic Grounding for Live Music Accompaniment
+Authors: Kevin Bretz, Derya Soydaner, Aske Plaat
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-07
+Summary: Live accompaniment models generate music for an incoming audio stream, committing to each output frame before hearing what comes next. In this strictly causal setting the model must infer tempo, meter, and metrical phase from its own imperfect past, whereby compounding errors quickly become audible as rhythmic drift. Put simply, the model has ears but no temporal reference, so when the ears hear i...
+
+--- [8] 2609.07440v1 ---
+Title: Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer
+Authors: Koki Shoda, Jun Younes Louhi Kasahara, Aoba Koyanagi, Qi An, Atsushi Yamashita
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-07
+Summary: This paper proposes an open-set ego-noise separation framework for legged-robot audition via annotation-free adaptation and pretrained-model transfer. The framework removes robot-specific ego-noise while preserving environmental sounds whose classes are not specified in advance. Acoustic sensing provides cues about a robot's surroundings beyond the visual field, but walking-induced ego-noise from ...
+
+--- [9] 2609.07226v1 ---
+Title: Iterative Audio Separation with Mixture Consistency via MIMO Model Extension
+Authors: Yukara Ikemiya, WeiHsiang Liao, Yuki Mitsufuji
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-07
+Summary: This paper proposes a general framework for stable and effective iterative audio separation with mixture consistency by extending source separation models to a multi-input multi-output (MIMO) configuration. In the field of audio separation, mixture consistency is an essential property for many applications that require accurate phase and timbral information of target sources. While iterative appro...
+
+--- [10] 2609.06991v1 ---
+Title: AV-SafetyBench: A Safety Benchmark for Text-to-Audio-Video Generation
+Authors: Suah Choi, Tae-Young Lee, Gyeong-Moon Park
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-07
+Summary: Recent text-to-audio-video (T2AV) models jointly generate video, speech, sound effects, and ambience from a single text prompt. This capability poses new challenges for safety evaluation, as unsafe content may be conveyed through the audio track or arise only when the visual and audio tracks are interpreted jointly. Existing safety benchmarks largely focus on either generated video or generated au...
+
+--- [11] 2609.06488v1 ---
+Title: Lead Vocal Separation from Vocal Ensemble Mixtures Using Phoneme Alignment
+Authors: Yuma Narahata, Tomohiko Nakamura, Yuki Saito, Hiroshi Saruwatari
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-06
+Summary: Contemporary a cappella singing often has a lead-and-accompaniment texture, where the lead vocal (Vo) part carries the main melody and the remaining vocal parts provide accompaniment. Owing to their distinct roles, separating the Vo part from the remaining vocal parts, referred to as Vo separation, enables downstream applications such as lyric recognition and minus-one accompaniment generation for...
+
+--- [12] 2609.06144v1 ---
+Title: TBDub: Production-Oriented Visual Dubbing
+Authors: Bihan Li, Xinyang Li, Zeran Xu, Meiguang Jin, Junfeng Ma
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: Visual dubbing must synchronize mouth motion with replacement speech while preserving identity, appearance, and temporal consistency. Although X-Dub provides a strong mask-free video-editing baseline, its application to livestream and generated-video content reveals limitations in production-domain robustness, temporal and motion stability, identity and oral-detail preservation, and inference effi...
+
+--- [13] 2609.05871v1 ---
+Title: Where Does the Sound Go? Tracing Acoustic Information Loss in Audio-Conditioned LLMs
+Authors: Song-ha Jo, Sehyun Lee, Soyoon Kim, Jaesik Choi, Sanghyuk Choi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-05
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Ageneral+AND+abs%3Aaudio+AND+abs%3Ageneration&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Audio-conditioned language models often underuse acoustic cues such as prosody, emotion, and non-speech sounds, raising the question of whether ASR-supervised frontends discard this information before it reaches the LM. We test whether the frontend is responsible by comparing Whisper-Tiny and Whisper-Small with EnCodec, DAC-VAE, and WavTokenizer in a shared Qwen3.5-4B audio-LM pipeline on ASR, emo...
+
+--- [14] 2609.05592v1 ---
+Title: What Did I Just Say? Self-Listening for Full-Duplex Speech Models
+Authors: Xuanning Zhou, Junyi Ao, Xiaotong Liu, Tom Ko, Benyou Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Full-duplex spoken language models can listen and speak simultaneously, enabling them to handle interruptions and backchannels in human conversation. However, text generation, speech synthesis, and audio playback proceed asynchronously. As a result, what a model believes it has said may not match what has actually been played to the user. We refer to the problem of recovering from an interruption ...
+
+--- [15] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [16] 2609.04903v1 ---
+Title: InterSing: Explicit Interaction Dynamics for 3D Duet Singing Animation and Beyond
+Authors: Yihan Zhou, Zikai Huang, Yuyang Yu, Xuemiao Xu, Cheng Xu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-04
+Summary: We present InterSing, a framework for generating realistic 3D head animations for duet singing performances. Unlike solo singing, duet performance requires each singer to balance individual expressiveness with intermittent interaction at musically salient moments, such as phrase boundaries, synchronized rhythms, and call-and-response passages. Because these interactions are sparse and rhythm-depen...
+
+--- [17] 2609.04867v1 ---
+Title: PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation
+Authors: Yuchen Sun, Qian Yang, Jun Wang, Detai Xin, Guoqiao Yu et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI, cs.SD
+Published: 2026-09-04
+Summary: Text-to-audio-video (T2AV) generation has advanced rapidly, but its evaluation still underestimates the audio modality. Existing benchmarks either treat audio as an auxiliary component of video quality or assess it in isolation from audiovisual grounding, making it difficult to diagnose where current systems truly succeed or fail in audio generation. We present PRISM-Bench, the first audio-centric...
+
+--- [18] 2609.04634v1 ---
+Title: SCAPES: Semantically Conditioned Autoregressive Prior for Environmental Sounds
+Authors: Esteban Gutiérrez, Lonce Wyse, Frederic Font, Xavier Serra
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-09-04
+Summary: As generative audio models grow in complexity, the computational and ecological costs of synthesizing everyday sounds have become increasingly prohibitive, often requiring industrial-scale resources and massive datasets. In this paper, we present SCAPES: a Semantically Conditioned Autoregressive Prior for Environmental Sounds. SCAPES is a lightweight, resource-efficient generative model designed t...
+
+--- [19] 2609.04516v1 ---
+Title: Pitch-class Steering for Diffusion-based Music Generation via Latent-space Probes
+Authors: Yushi Ye, Wilson Zheng, Yongyi Zang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Recent work on controllable music generation has focused on autoregressive models, leaving diffusion-based systems comparatively underexplored. We present a lightweight method for steering the pitch content of audio produced by Stable Audio Open, a latent diffusion model for music synthesis. A small convolutional probe containing approximately 125k parameters is trained to decode frame-level pitch...
+
+--- [20] 2609.04134v1 ---
+Title: Prospective Coding Improves Learning in Deep Continuous-Time Recurrent Networks
+Authors: Shivang Rawat, Mirko Morello, Flaviano Morone, David J. Heeger
+Primary cat: cs.LG | All cats: cs.LG, cs.NE, q-bio.NC
+Published: 2026-09-03
+Summary: Temporal integration gives continuous-time recurrent networks memory, but in deep stacks it also delays bottom-up signals and attenuates top-down errors. We develop Recursive Quadrature Filters (RQFs), biologically motivated complex-valued temporal filters that are a special case of diagonal state-space models (SSMs), and ask whether this failure mode can be addressed by making each layer's bottom...
+

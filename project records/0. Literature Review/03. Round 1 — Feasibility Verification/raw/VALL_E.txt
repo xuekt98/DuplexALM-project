@@ -1,0 +1,107 @@
+--- [1] 2506.01322v1 ---
+Title: Zero-Shot Text-to-Speech for Vietnamese
+Authors: Thi Vu, Linh The Nguyen, Dat Quoc Nguyen
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-06-02
+Summary: This paper introduces PhoAudiobook, a newly curated dataset comprising 941 hours of high-quality audio for Vietnamese text-to-speech. Using PhoAudiobook, we conduct experiments on three leading zero-shot TTS models: VALL-E, VoiceCraft, and XTTS-V2. Our findings demonstrate that PhoAudiobook consistently enhances model performance across various metrics. Moreover, VALL-E and VoiceCraft exhibit supe...
+
+--- [2] 2505.04885v1 ---
+Title: A Multi-Agent AI Framework for Immersive Audiobook Production through Spatial Audio and Neural Narration
+Authors: Shaja Arul Selvamani, Nia D'Souza Ganapathy
+Primary cat: cs.SD | All cats: cs.SD, cs.HC, cs.MA, cs.MM, eess.AS
+Published: 2025-05-08
+Summary: This research introduces an innovative AI-driven multi-agent framework specifically designed for creating immersive audiobooks. Leveraging neural text-to-speech synthesis with FastSpeech 2 and VALL-E for expressive narration and character-specific voices, the framework employs advanced language models to automatically interpret textual narratives and generate realistic spatial audio effects. These...
+
+--- [3] 2504.10352v3 ---
+Title: Pseudo-Autoregressive Neural Codec Language Models for Efficient Zero-Shot Text-to-Speech Synthesis
+Authors: Yifan Yang, Shujie Liu, Jinyu Li, Yuxuan Hu, Haibin Wu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2025-04-14
+Summary: Recent zero-shot text-to-speech (TTS) systems face a common dilemma: autoregressive (AR) models suffer from slow generation and lack duration controllability, while non-autoregressive (NAR) models lack temporal modeling and typically require complex designs. In this paper, we introduce a novel pseudo-autoregressive (PAR) codec language modeling approach that unifies AR and NAR modeling. Combining ...
+
+--- [4] 2502.01084v2 ---
+Title: Continuous Autoregressive Modeling with Stochastic Monotonic Alignment for Speech Synthesis
+Authors: Weiwei Lin, Chenghan He
+Primary cat: cs.LG | All cats: cs.LG, cs.SD, eess.AS
+Published: 2025-02-03
+Summary: We propose a novel autoregressive modeling approach for speech synthesis, combining a variational autoencoder (VAE) with a multi-modal latent space and an autoregressive model that uses Gaussian Mixture Models (GMM) as the conditional probability distribution. Unlike previous methods that rely on residual vector quantization, our model leverages continuous speech representations from the VAE's lat...
+
+--- [5] 2501.00018v1 ---
+Title: SECodec: Structural Entropy-based Compressive Speech Representation Codec for Speech Language Models
+Authors: Linqin Wang, Yaping Liu, Zhengtao Yu, Shengxiang Gao, Cunli Mao et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-12-16
+Summary: With the rapid advancement of large language models (LLMs), discrete speech representations have become crucial for integrating speech into LLMs. Existing methods for speech representation discretization rely on a predefined codebook size and Euclidean distance-based quantization. However, 1) the size of codebook is a critical parameter that affects both codec performance and downstream task train...
+
+--- [6] 2412.08635v1 ---
+Title: Multimodal Latent Language Modeling with Next-Token Diffusion
+Authors: Yutao Sun, Hangbo Bao, Wenhui Wang, Zhiliang Peng, Li Dong et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.CV, cs.LG
+Published: 2024-12-11
+Summary: Multimodal generative models require a unified approach to handle both discrete data (e.g., text and code) and continuous data (e.g., image, audio, video). In this work, we propose Latent Language Modeling (LatentLM), which seamlessly integrates continuous and discrete data using causal Transformers. Specifically, we employ a variational autoencoder (VAE) to represent continuous data as latent vec...
+
+--- [7] 2410.04380v1 ---
+Title: HALL-E: Hierarchical Neural Codec Language Model for Minute-Long Zero-Shot Text-to-Speech Synthesis
+Authors: Yuto Nishimura, Takumi Hirose, Masanari Ohi, Hideki Nakayama, Nakamasa Inoue
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-10-06
+Summary: Recently, Text-to-speech (TTS) models based on large language models (LLMs) that translate natural language text into sequences of discrete audio tokens have gained great research attention, with advances in neural audio codec (NAC) models using residual vector quantization (RVQ). However, long-form speech synthesis remains a significant challenge due to the high frame rate, which increases the le...
+
+--- [8] 2409.03717v1 ---
+Title: Sample-Efficient Diffusion for Text-To-Speech Synthesis
+Authors: Justin Lovelace, Soham Ray, Kwangyoun Kim, Kilian Q. Weinberger, Felix Wu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2024-09-01
+Summary: This work introduces Sample-Efficient Speech Diffusion (SESD), an algorithm for effective speech synthesis in modest data regimes through latent diffusion. It is based on a novel diffusion architecture, that we call U-Audio Transformer (U-AT), that efficiently scales to long sequences and operates in the latent space of a pre-trained audio autoencoder. Conditioned on character-aware language model...
+
+--- [9] 2408.17432v3 ---
+Title: Text-to-Speech for Unseen Speakers via Low-Complexity Discrete Unit-Based Frame Selection
+Authors: Ismail Rasim Ulgen, Shreeram Suresh Chandra, Junchen Lu, Berrak Sisman
+Primary cat: eess.AS | All cats: eess.AS, cs.LG
+Published: 2024-08-30
+Summary: Synthesizing the voices of unseen speakers remains a persisting challenge in multi-speaker text-to-speech (TTS). Existing methods model speaker characteristics through speaker conditioning during training, leading to increased model complexity and limiting reproducibility and accessibility. A low-complexity alternative would broaden the reach of speech synthesis research, particularly in settings ...
+
+--- [10] 2408.17175v3 ---
+Title: Codec Does Matter: Exploring the Semantic Shortcoming of Codec for Audio Language Model
+Authors: Zhen Ye, Peiwen Sun, Jiahe Lei, Hongzhan Lin, Xu Tan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2024-08-30
+Summary: Recent advancements in audio generation have been significantly propelled by the capabilities of Large Language Models (LLMs). The existing research on audio LLM has primarily focused on enhancing the architecture and scale of audio language models, as well as leveraging larger datasets, and generally, acoustic codecs, such as EnCodec, are used for audio tokenization. However, these codecs were or...
+
+--- [11] 2408.13893v2 ---
+Title: SimpleSpeech 2: Towards Simple and Efficient Text-to-Speech with Flow-based Scalar Latent Transformer Diffusion Models
+Authors: Dongchao Yang, Rongjie Huang, Yuanyuan Wang, Haohan Guo, Dading Chong et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2024-08-25
+Summary: Scaling Text-to-speech (TTS) to large-scale datasets has been demonstrated as an effective method for improving the diversity and naturalness of synthesized speech. At the high level, previous large-scale TTS models can be categorized into either Auto-regressive (AR) based (\textit{e.g.}, VALL-E) or Non-auto-regressive (NAR) based models (\textit{e.g.}, NaturalSpeech 2/3). Although these works dem...
+
+--- [12] 2407.09732v1 ---
+Title: Speech Slytherin: Examining the Performance and Efficiency of Mamba for Speech Separation, Recognition, and Synthesis
+Authors: Xilin Jiang, Yinghao Aaron Li, Adrian Nicolas Florea, Cong Han, Nima Mesgarani
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2024-07-13
+Summary: It is too early to conclude that Mamba is a better alternative to transformers for speech before comparing Mamba with transformers in terms of both performance and efficiency in multiple speech-related tasks. To reach this conclusion, we propose and evaluate three models for three tasks: Mamba-TasNet for speech separation, ConMamba for speech recognition, and VALL-M for speech synthesis. We compar...
+
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AVALL-E&max_results=15&sortBy=submittedDate&sortOrder=descending
+--- [13] 2407.08551v2 ---
+Title: Autoregressive Speech Synthesis without Vector Quantization
+Authors: Lingwei Meng, Long Zhou, Shujie Liu, Sanyuan Chen, Bing Han et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2024-07-11
+Summary: We present MELLE, a novel continuous-valued token based language modeling approach for text-to-speech synthesis (TTS). MELLE autoregressively generates continuous mel-spectrogram frames directly from text condition, bypassing the need for vector quantization, which is typically designed for audio compression and sacrifices fidelity compared to continuous representations. Specifically, (i) instead ...
+
+--- [14] 2406.15752v1 ---
+Title: TacoLM: GaTed Attention Equipped Codec Language Model are Efficient Zero-Shot Text to Speech Synthesizers
+Authors: Yakun Song, Zhuo Chen, Xiaofei Wang, Ziyang Ma, Guanrou Yang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL
+Published: 2024-06-22
+Summary: Neural codec language model (LM) has demonstrated strong capability in zero-shot text-to-speech (TTS) synthesis. However, the codec LM often suffers from limitations in inference speed and stability, due to its auto-regressive nature and implicit alignment between text and audio. In this work, to handle these challenges, we introduce a new variant of neural codec LM, namely TacoLM. Specifically, T...
+
+--- [15] 2406.07855v1 ---
+Title: VALL-E R: Robust and Efficient Zero-Shot Text-to-Speech Synthesis via Monotonic Alignment
+Authors: Bing Han, Long Zhou, Shujie Liu, Sanyuan Chen, Lingwei Meng et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2024-06-12
+Summary: With the help of discrete neural audio codecs, large language models (LLM) have increasingly been recognized as a promising methodology for zero-shot Text-to-Speech (TTS) synthesis. However, sampling based decoding strategies bring astonishing diversity to generation, but also pose robustness issues such as typos, omissions and repetition. In addition, the high sampling rate of audio also brings h...
+

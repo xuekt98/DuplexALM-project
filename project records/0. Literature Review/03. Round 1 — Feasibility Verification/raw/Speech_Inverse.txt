@@ -1,0 +1,107 @@
+--- [1] 2607.23846v1 ---
+Title: Automatic Audio Equalization with Semantic Embeddings
+Authors: Eloi Moliner, Vesa Välimäki, Konstantinos Drossos, Matti S. Hämäläinen
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-07-26
+Summary: This paper presents a data-driven approach to automatic blind equalization of audio by predicting log-mel spectral features and deriving an inverse filter. The method uses a deep neural network, where a pre-trained model provides semantic embeddings as a backbone, and only a lightweight head is trained. This design is intended to enhance training efficiency and generalization. Trained on both musi...
+
+--- [2] 2607.20086v1 ---
+Title: Cumsum-Composable Phase Transport for Low-Cost Streaming Keyword Spotting
+Authors: Mahesh Godavarti
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-07-22
+Summary: State-space sequence models are attractive for streaming speech because they maintain compact recurrent state, but scan-style training kernels can have unfavorable constants for short audio tasks. We study cumsum-composable phase transport, a streaming-native temporal layer for keyword spotting. Each layer projects acoustic frames to complex channels, transports them by learned unitary rotations, ...
+
+--- [3] 2607.16870v1 ---
+Title: Do Speech Tokens Leak Voiceprints? Speaker Inversion Attacks Against End-to-End Speech Language Models
+Authors: Ye Lu, Yihan Yan, Zhaoyang Zhang, Zhitao Ou, Runze Liu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR
+Published: 2026-07-18
+Summary: End-to-end speech language models increasingly represent user speech with speech tokens rather than relying exclusively on cascaded ASR--LLM--TTS pipelines. Although these tokens support expressive and low-latency spoken interaction, they may also preserve sensitive speaker characteristics. We investigate whether exposed speech tokens leak voiceprints and formulate this risk as a speaker inversion...
+
+--- [4] 2608.21378v1 ---
+Title: sanoTTS: The Smallest Real-Time Neural TTS on a General-Purpose Microcontroller
+Authors: Ashish Thapa
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-14
+Summary: This paper describes an audited neural text-to-speech stack that runs from phoneme IDs to 22.05-kHz PCM on general-purpose microcontrollers. Its deployed graph has 567,008 parameters, and its two int8 blobs occupy 679,832 bytes. On an ESP32-S3, the complete duration-acoustic-inverse-STFT path generates 4.54 s of speech in 1.02 s (0.22x real time) without a neural accelerator. The same portable C c...
+
+--- [5] 2607.10930v1 ---
+Title: The Singularity Space: A Generative Diffusion Framework for Signal Representation
+Authors: Eli Bar-Yosef, Amir Averbuch, Eli Turkel
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, eess.SP, math.NA
+Published: 2026-07-12
+Summary: Generative models often represent signals as dense grids of amplitudes, blurring sharp transients that are crucial for the correctness of physical signals. We introduce Singularity Space, a generative framework that represents signals through complex-plane singularities, rooted in the classical pole-residue representation of meromorphic functions. We learn a latent space of physically constrained,...
+
+--- [6] 2607.05060v1 ---
+Title: Towards Language-Agnostic Speech Inversion
+Authors: Saba Tabatabaee, Mark Tiede, Suzanne Boyce, Liran Oren, Carol Espy-Wilson
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-06
+Summary: Characteristic timing patterns are reflected in the acoustic speech signal, encompassing both vocal tract configuration and acoustic excitation. Previous studies have demonstrated that speech inversion (SI) systems can recover these timing patterns from speech, including oral tract variables (tongue and lip constrictions) and source information such as periodic and aperiodic energies and fundament...
+
+--- [7] 2609.02901v1 ---
+Title: Dual-Form ASR: Semantics-Aware Inverse Text Normalization for Chinese Speech Recognition
+Authors: Fengrun Zhang, Li Fu, Wangjin Zhou, Lu Fan, Youzheng Wu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-07-06
+Summary: Modern automatic speech recognition (ASR) scenarios require both spoken-form transcripts for faithful transcription and readable written-form transcripts with inverse text normalization (ITN). However, these forms are typically produced by cascaded modules, where a spoken-form ASR output is rewritten by a separate ITN component, making written-form ASR-ITN vulnerable to recognition errors and deco...
+
+--- [8] 2607.01594v1 ---
+Title: Enhancing Acoustic-to-Articulatory Inversion with Multi-Target Pretraining for Low-Resource Settings
+Authors: Jesuraj Bandekar, Prasanta Kumar Ghosh
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-02
+Summary: Acoustic-to-Articulatory Inversion (AAI) estimates vocal tract articulator movements from speech, benefiting tasks like ASR, speech synthesis, and speaker verification. While deep learning-based methods (CNNs, RNNs, Transformers) have advanced AAI, recent studies show that Self-Supervised Learning (SSL) features further enhance performance, particularly in low-resource settings. However, SSL featu...
+
+--- [9] 2606.22364v1 ---
+Title: Physics-Informed Neural Operator for Speech Production Analysis
+Authors: Kazuya Yokota, Xinmeng Luan, Debasish Ray Mohapatra, Gary Scavone, Sidney Fels
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-21
+Summary: Physics-informed neural operators (PINOs) have recently gained attention as fast numerical simulators with potential for solving inverse problems. This study proposes the first PINO-based method for speech production analysis. The model learns the governing one-dimensional wave equations directly without requiring pre-computed supervised training data. Using vocal tract shape data as input feature...
+
+--- [10] 2606.24915v1 ---
+Title: Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction
+Authors: Mohammad Aref Jafari-Raddani
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.IR
+Published: 2026-06-19
+Summary: End-to-end automatic speech recognition systems frequently hallucinate rare entities and domain-specific terms, especially in low-resource languages. While retrieval-augmented generation frameworks can mitigate these errors using large language models, current architectures face significant challenges. They either rely on standard sparse retrieval that ignores phonetic misrecognitions or utilize h...
+
+--- [11] 2606.16327v1 ---
+Title: ArtBoost: Synthetic Articulatory Data Augmentation for Acoustic-to-Articulatory Inversion
+Authors: Hyung Kyu Kim, Byungchan Hwang, Hak Gu Kim
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-06-15
+Summary: Recent acoustic-to-articulatory inversion (AAI) models rely on electromagnetic articulography (EMA) data, which are costly and limited in scale. To address this limitation, we propose \textit{ArtBoost}, a novel data augmentation strategy that leverages large-scale speech--mesh datasets originally developed for speech-driven 3D facial animation to improve AAI under limited EMA supervision. \textit{...
+
+--- [12] 2606.06183v1 ---
+Title: Revisiting Lexicon Evaluation in Unsupervised Word Discovery
+Authors: Simon Malan, Danel Slabbert, Herman Kamper
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-06-04
+Summary: Building a lexicon from discovered word-like units is a central goal in zero-resource speech processing. But do our evaluations provide a trustworthy indication of lexicon quality? A common metric, normalized edit distance, averages the phoneme edit distances between discovered units in each cluster. We show that this metric has an inherent bias toward the quality of large clusters, inhibiting fai...
+
+--- [13] 2605.27545v1 ---
+Title: PAST2HARM: A Simple Adaptive Past Tense Attack for Jailbreaking Multimodal AI
+Authors: Snehasis Mukhopadhyay
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-05-26
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspeech+AND+abs%3Ainversion&max_results=15&sortBy=submittedDate&sortOrder=descending
+Summary: Jailbreak attacks on multimodal AI systems remain underexplored, even though unsafe image generation can have more severe consequences than unsafe text and current defenses are relatively immature. We introduce PAST2HARM, a simple yet effective adaptive jailbreak framework that bypasses refusal training in state of the art multimodal text to image models. Building on prior findings that past tense...
+
+--- [14] 2605.26812v1 ---
+Title: CFMDCTCodec: A Low-Bitrate Neural Speech Codec with Noise-Prior-aware Conditional Flow Matching for MDCT-Spectral Enhancement
+Authors: Xiao-Hang Jiang, Yang Ai, Hui-Peng Du, Zhen-Hua Ling, Ji Wu
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-26
+Summary: High-quality speech coding at low bitrates is crucial for bandwidth-constrained applications, yet remains challenging due to the severe loss of quality-critical information in highly compressed representations. To overcome this challenge, we propose CFMDCTCodec, a low-bitrate neural speech codec that operates entirely in the modified discrete cosine transform (MDCT) domain. CFMDCTCodec integrates ...
+
+--- [15] 2604.18249v1 ---
+Title: Where Do Self-Supervised Speech Models Become Unfair?
+Authors: Felix Herron, Maja Hjuler, Solange Rossato, Alexandre Allauzen, François Portet
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-04-20
+Summary: Speech encoder models are known to model members of some speaker groups (SGs) better than others. However, there has been little work in establishing why this occurs on a technological level. To our knowledge, we present the first layerwise fairness analysis of pretrained self-supervised speech encoder models (S3Ms), probing each embedding layer for speaker identification (SID) automatic speech re...
+

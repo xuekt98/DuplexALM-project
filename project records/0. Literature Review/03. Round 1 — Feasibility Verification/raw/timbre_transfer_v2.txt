@@ -1,0 +1,177 @@
+--- [1] 2608.11752v2 ---
+Title: UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos
+Authors: Yuxuan Zhang, Haozhong Xiong, Jiayi Song, Jinpeng Yu, Yang Shi et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-08-12
+Summary: Talking-video character replacement requires coordinated transfer of appearance and voice while preserving the source motion, scene, linguistic content, and audio-video timing. Existing methods use separately optimized models for the two modalities, making audio-visual consistency difficult to enforce. We present UniSwap, the first framework for streaming joint audio-visual identity replacement in...
+
+--- [2] 2607.23027v1 ---
+Title: Singlish, Can or Not? Fine-Tuning and Evaluating Zero-Shot TTS for Singapore English
+Authors: Ivan Kukanov, Zheng Xin Chai
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-25
+Summary: Zero-shot text-to-speech (ZS-TTS) achieves near-human quality for standard English, but it copies regional accents poorly. Prompted with a short Singlish utterance, state-of-the-art systems reproduce a speaker's timbre while flattening the accent toward generic English. We investigate whether targeted fine-tuning off-the-shelf ZS-TTS can close the gap for Singapore English (Singlish). We fine-tune...
+
+--- [3] 2607.17526v1 ---
+Title: FlowSonic: Stable Zero-Shot Music Editing via High-Order Trajectory Integration
+Authors: Ali Boudaghi, Hadi Zare
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS, eess.SP, math.NA
+Published: 2026-07-20
+Summary: Zero-shot text-guided editing of real-world music recordings requires balancing semantic modification with faithful preservation of the original musical structure. Although recent diffusion transformers trained with rectified flow have achieved remarkable success in text-to-music generation, extending them to edit existing recordings remains challenging because editing requires accurate determinis...
+
+--- [4] 2607.13278v2 ---
+Title: Adapting Diffusion-Based Music Synthesis to Speech and Singing Voice Conversion
+Authors: Ben Maman, Frank Zalkow, Hans-Ulrich Berendes, Paolo Sani, Christian Dittmar et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-14
+Summary: Recent diffusion-based generative models have achieved strong results in domain-specific audio generation tasks such as speech, singing, and instrumental music synthesis. However, these models are typically specialized and do not generalize well to mixed or intermediate audio types. In this work, we adapt a diffusion-based model originally designed for multi-instrument music synthesis to voice con...
+
+--- [5] 2608.20387v1 ---
+Title: Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions
+Authors: Junhui Zhang, Qianhui Xu, Qingxiang Guo, Dawei Yang, Ling Miao et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-30
+Summary: While recent text-to-speech (TTS) models achieve high naturalness, controlling fine-grained expression via natural-language instructions remains challenging. We introduce Poly- InstructTTS, which learns expressive speech from open-ended instructions using in-the-wild audiovisual data. We build a scalable multi-modal pipeline to construct a 1,000-hour instruction-annotated corpus covering 1,000+ fi...
+
+--- [6] 2606.21888v1 ---
+Title: ProsoCodec: Prosody-Oriented Speech Codec for Voice Conversion
+Authors: Jeongsoo Choi, Ji-Hoon Kim, Shujie Hu, Joon Son Chung
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-20
+Summary: Neural speech codecs efficiently compress speech and have become a foundation for speech generation, but they are typically learned as holistic representations that intertwine linguistic content, speaker identity, and prosody. While this design is effective for zero-shot voice cloning, it hinders downstream tasks that require prosody preservation or transfer, such as voice conversion. To address t...
+
+--- [7] 2606.18968v1 ---
+Title: Audio-to-Audio via Diffusion Warm Initialization
+Authors: Cristóbal Andrade, Sebastian J. Schlecht
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-17
+Summary: In this paper, we propose diffusion warm initialization as a simple yet effective approach for a range of audio-to-audio transformation tasks. To illustrate the generality of the approach, we demonstrate its use in timbre transfer, MIDI-to-Real synthesis, and multiple audio enhancement tasks. We conduct a detailed empirical analysis on timbre transfer to investigate the role of the initialization ...
+
+--- [8] 2606.15813v1 ---
+Title: AdaTT: Text-Guided Instrument Timbre Transfer with Target-Adaptive Structural Control
+Authors: Dabin Kim, Junwon Lee, Juhan Nam
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-14
+Summary: This paper addresses timbral ambiguity in instrument timbre transfer under fine-grained structural conditions. We argue this issue stems from instrument-specific expressive details in these conditions, which conflict with the target timbral properties. For example, imposing a violin's pitch-dominant vibrato contours onto a flute, which naturally exhibits loudness-dominant vibrato, impairs timbral ...
+
+--- [9] 2606.07015v2 ---
+Title: Towards Unified Song Generation and Singing Voice Conversion with Accompaniment Co-Generation
+Authors: Ziyu Zhang, Chunyu Qiang, Xiaopeng Wang, Yuxin Guo, Kang Yin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-05
+Summary: While song generation and singing voice conversion (SVC) have evolved significantly, they have long been developed isolated: the former lacks zero-shot speaker cloning, while the latter overlooks vocal-accompaniment synergy. To bridge this gap, we propose UniSinger, the first end-to-end framework unifying speaker cloning song generation and accompaniment co-generation SVC. Building on the multimod...
+
+--- [10] 2605.10203v1 ---
+Title: Polyphonia: Zero-Shot Timbre Transfer in Polyphonic Music with Acoustic-Informed Attention Calibration
+Authors: Haowen Li, Tianxiang Li, Yi Yang, Boyu Cao, Qi Liu
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-05-11
+Summary: The advancement of diffusion-based text-to-music generation has opened new avenues for zero-shot music editing. However, existing methods fail to achieve stem-specific timbre transfer, which requires altering specific stems while strictly preserving the background accompaniment. This limitation severely hinders practical application, since real-world production necessitates precise manipulation of...
+
+--- [11] 2605.09259v1 ---
+Title: Remix the Timbre: Diffusion-Based Style Transfer Across Polyphonic Stems
+Authors: Leduo Chen, Junchuan Zhao, Shengchen Li
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-05-10
+Summary: Timbre transfer aims to modify the timbral identity of a musical recording while preserving the original melody and rhythm. While single-instrument timbre transfer has made substantial progress, existing approaches to multi-instrument settings rely on separate-then-transfer pipelines that propagate source separation artifacts and produce incoherent synthesized timbres across stems. This paper prop...
+
+--- [12] 2603.22252v1 ---
+Title: SelfTTS: cross-speaker style transfer through explicit embedding disentanglement and self-refinement using self-augmentation
+Authors: Lucas H. Ueda, João G. T. Lima, Pedro R. Corrêa, Flávio O. Simões, Mário U. Neto et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-03-23
+Summary: This paper presents SelfTTS, a text-to-speech (TTS) model designed for cross-speaker style transfer that eliminates the need for external pre-trained speaker or emotion encoders. The architecture achieves emotional expressivity in neutral speakers through an explicit disentanglement strategy utilizing Gradient Reversal Layers (GRL) combined with cosine similarity loss to decouple speaker and emoti...
+
+--- [13] 2603.15597v2 ---
+Title: AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer
+Authors: Pengjun Fang, Yingqing He, Yazhou Xing, Qifeng Chen, Ser-Nam Lim et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.LG, cs.MM, eess.AS
+Published: 2026-03-16
+Summary: Existing video-to-audio (V2A) generation methods predominantly rely on text prompts alongside visual information to synthesize audio. However, two critical bottlenecks persist: semantic granularity gaps in training data, such as conflating acoustically distinct sounds under coarse labels, and textual ambiguity in describing micro-acoustic features. These bottlenecks make it difficult to perform fi...
+
+--- [14] 2602.09389v1 ---
+Title: TVTSyn: Content-Synchronous Time-Varying Timbre for Streaming Voice Conversion and Anonymization
+Authors: Waris Quamer, Mu-Ruei Tseng, Ghady Nasrallah, Ricardo Gutierrez-Osuna
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2026-02-10
+Summary: Real-time voice conversion and speaker anonymization require causal, low-latency synthesis without sacrificing intelligibility or naturalness. Current systems have a core representational mismatch: content is time-varying, while speaker identity is injected as a static global embedding. We introduce a streamable speech synthesizer that aligns the temporal granularity of identity and content via a ...
+
+--- [15] 2601.20883v1 ---
+Title: VoxMorph: Scalable Zero-shot Voice Identity Morphing via Disentangled Embeddings
+Authors: Bharath Krishnamurthy, Ajita Rattani
+Primary cat: cs.SD | All cats: cs.SD, cs.CR, cs.LG, eess.AS
+Published: 2026-01-27
+Summary: Morphing techniques generate artificial biometric samples that combine features from multiple individuals, allowing each contributor to be verified against a single enrolled template. While extensively studied in face recognition, this vulnerability remains largely unexplored in voice biometrics. Prior work on voice morphing is computationally expensive, non-scalable, and limited to acoustically s...
+
+--- [16] 2601.14777v1 ---
+Title: FunCineForge: A Unified Dataset Toolkit and Model for Zero-Shot Movie Dubbing in Diverse Cinematic Scenes
+Authors: Jiaxuan Liu, Yang Xiang, Han Zhao, Xiangang Li, Zhenhua Ling
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-01-21
+Summary: Movie dubbing is the task of synthesizing speech from scripts conditioned on video scenes, requiring accurate lip sync, faithful timbre transfer, and proper modeling of character identity and emotion. However, existing methods face two major limitations: (1) high-quality multimodal dubbing datasets are limited in scale, suffer from high word error rates, contain sparse annotations, rely on costly ...
+
+--- [17] 2601.10629v2 ---
+Title: VoiceSculptor: Your Voice, Designed By You
+Authors: Jingbin Hu, Huakang Chen, Linhan Ma, Dake Guo, Qirui Zhan et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-01-15
+Summary: Despite rapid progress in text-to-speech (TTS), open-source systems still lack truly instruction-following, fine-grained control over core speech attributes (e.g., pitch, speaking rate, age, emotion, and style). We present VoiceSculptor, an open-source unified system that bridges this gap by integrating instruction-based voice design and high-fidelity voice cloning in a single framework. It genera...
+
+--- [18] 2601.02357v1 ---
+Title: DARC: Drum accompaniment generation with fine-grained rhythm control
+Authors: Trey Brosnan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-01-05
+Summary: In music creation, rapid prototyping is essential for exploring and refining ideas, yet existing generative tools often fall short when users require both structural control and stylistic flexibility. Prior approaches in stem-to-stem generation can condition on other musical stems but offer limited control over rhythm, and timbre-transfer methods allow users to specify specific rhythms, but cannot...
+
+--- [19] 2601.01294v2 ---
+Title: Diffusion Timbre Transfer Via Mutual Information Guided Inpainting
+Authors: Ching Ho Lee, Javier Nistal, Stefan Lattner, Marco Pasini, George Fazekas
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-01-03
+Summary: We study timbre transfer as an inference-time editing problem for music audio. Starting from a strong pre-trained latent diffusion model, we introduce a lightweight procedure that requires no additional training: (i) a dimension-wise noise injection that targets latent channels most informative of instrument identity, and (ii) an early-step clamping mechanism that re-imposes the input's melodic an...
+
+--- [20] 2512.14629v2 ---
+Title: Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems
+Authors: Yash Vishe, Eric Xue, Xunyi Jiang, Zachary Novack, Junda Wu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2025-12-16
+Summary: Music editing plays a vital role in modern music production, with applications in film, broadcasting, and game development. Recent advances in music editing systems have enabled diverse editing tasks such as timbre transfer, instrument substitution, and genre transformation. However, many existing works overlook evaluating their ability to preserve musical facets that should remain unchanged durin...
+
+--- [21] 2511.17425v1 ---
+Title: AI in Music and Sound: Pedagogical Reflections, Post-Structuralist Approaches and Creative Outcomes in Seminar Practice
+Authors: Guilherme Coelho
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-11-21
+Summary: This paper presents a pedagogical and conceptual account of the course AI in Music and Sound: Modalities, Tools and Creative Applications, offered within the Music Informatics and Media Art module of an M.Sc. in Audio Communication. The course engaged students with a range of AI modalities such as symbolic composition, voice synthesis, timbre transfer, neural audio synthesis, and text-to-audio sys...
+
+--- [22] 2511.17136v1 ---
+Title: Device-Guided Music Transfer
+Authors: Manh Pham Hung, Changshuo Hu, Ting Dang, Dong Ma
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2025-11-21
+Summary: Device-guided music transfer adapts playback across unseen devices for users who lack them. Existing methods mainly focus on modifying the timbre, rhythm, harmony, or instrumentation to mimic genres or artists, overlooking the diverse hardware properties of the playback device (i.e., speaker). Therefore, we propose DeMT, which processes a speaker's frequency response curve as a line graph using a ...
+
+--- [23] 2511.12074v2 ---
+Title: MF-Speech: Achieving Fine-Grained and Compositional Control in Speech Generation via Factor Disentanglement
+Authors: Xinyue Yu, Youqing Fang, Pingyu Wu, Guoyang Ye, Wenbo Zhou et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2025-11-15
+Summary: Generating expressive and controllable human speech is one of the core goals of generative artificial intelligence, but its progress has long been constrained by two fundamental challenges: the deep entanglement of speech factors and the coarse granularity of existing control mechanisms. To overcome these challenges, we have proposed a novel framework called MF-Speech, which consists of two core c...
+
+--- [24] 2510.11124v1 ---
+Title: Perturbation Self-Supervised Representations for Cross-Lingual Emotion TTS: Stage-Wise Modeling of Emotion and Speaker
+Authors: Cheng Gong, Chunyu Qiang, Tianrui Wang, Yu Jiang, Yuheng Lu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-10-13
+Summary: Cross-lingual emotional text-to-speech (TTS) aims to produce speech in one language that captures the emotion of a speaker from another language while maintaining the target voice's timbre. This process of cross-lingual emotional speech synthesis presents a complex challenge, necessitating flexible control over emotion, timbre, and language. However, emotion and timbre are highly entangled in spee...
+
+--- [25] 2510.08392v3 ---
+Title: MeanVC: Lightweight and Streaming Zero-Shot Voice Conversion via Mean Flows
+Authors: Guobin Ma, Jixun Yao, Ziqian Ning, Yuepeng Jiang, Lingxin Xiong et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-10-09
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Atimbre+AND+abs%3Atransfer&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Zero-shot voice conversion (VC) aims to transfer timbre from a source speaker to any unseen target speaker while preserving linguistic content. Growing application scenarios demand models with streaming inference capabilities. This has created a pressing need for models that are simultaneously fast, lightweight, and high-fidelity. However, existing streaming methods typically rely on either autore...
+

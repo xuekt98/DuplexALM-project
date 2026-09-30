@@ -1,0 +1,142 @@
+--- [1] 2609.03586v1 ---
+Title: The Attention Triangle in Audio-Video Models
+Authors: Sagi Polaczek, Noa Kraicer, Gal Metzer, Zhuo Ning, Ali Mahdavi-Amiri et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same mechanism can introduce subtle and systematic semantic leakage. We study these models by probing and analyzing the ``attention triangle,'' comprising the three cross-attention edges connecting the text, audio, and video streams, and examine how semantic information is routed acro...
+
+--- [2] 2609.02792v1 ---
+Title: Phonon-limited detection thresholds for genetically encoded fluorescent-protein spin-qubit relaxometry of neural radicals
+Authors: Parul Raghuvanshi, Sagnik Ganguly, Sharika E, Mohana Priya T., Vishvendra S. Poonia
+Primary cat: quant-ph | All cats: quant-ph
+Published: 2026-09-02
+Summary: The demonstration that enhanced yellow fluorescent protein hosts an optically addressable spin-1 qubit in its metastable triplet state raises the prospect of genetically encoded quantum sensing at molecular length scales. We develop a detection-limit theory for using this fluorescent-protein spin qubit (FPSQ) to sense paramagnetic neural signaling radicals by spin relaxometry. We derive the transi...
+
+--- [3] 2608.28380v1 ---
+Title: Nonholonomic collective flows: velocity--orientation locking in a continuum with microstructure
+Authors: Gaetano Napoli
+Primary cat: cond-mat.soft | All cats: cond-mat.soft, math-ph
+Published: 2026-08-28
+Summary: We develop a continuum theory for a fluid of elongated particles that advance along their own axes. The same kinematics is ideally shared by flocks of sheep, self-propelled rods, vehicular traffic, and turning flocks of birds. Within the framework of continua with vectorial microstructure, in which each point also carries an orientation, we impose the no-side-slip (skate) condition $\vv=u\,\nn$ as...
+
+--- [4] 2608.20324v1 ---
+Title: Correspondence between hydrodynamic frames, transport coefficients, and hydrodynamic modes in relativistic fluids
+Authors: Md Hasanujjaman, Mahfuzur Rahaman
+Primary cat: nucl-th | All cats: nucl-th, hep-ph
+Published: 2026-08-20
+Summary: The choice of hydrodynamic frame directly influences the numerical values of transport coefficients in relativistic dissipative hydrodynamics. We derive the exact transformation between the Eckart and Landau--Lifshitz frames and show that their thermal conductivities are related by an enthalpy-dependent factor. Using a baryon-rich relativistic fluid described by a Boltzmann nucleon gas equation of...
+
+--- [5] 2608.13339v1 ---
+Title: Thermal transport in crystals: from the quantum Dyson equation to mesoscopic phonon hydrodynamics
+Authors: Enrico Di Lucente, Michele Simoncelli, Nicola Marzari
+Primary cat: cond-mat.mtrl-sci | All cats: cond-mat.mtrl-sci, cond-mat.other, physics.app-ph, physics.comp-ph, physics.flu-dyn
+Published: 2026-08-13
+Summary: Thermal transport in dielectric, non-magnetic crystals is mediated by quantized lattice vibrations, which drift and interact when driven out of equilibrium by a temperature gradient. This phenomenon can be described at multiple theoretical levels, ranging from fully quantum descriptions to semiclassical and mesoscopic continuum approaches. This review rigorously discusses the theoretical steps and...
+
+--- [6] 2608.09571v1 ---
+Title: SonicWeave: Chunk-Routed Mixture-of-Experts for Unified Audio Scene Generation
+Authors: Yunrui Cai, Xu Li, Yucheng Zhou, Jinchao Li, Dingdong Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-10
+Summary: Text-conditioned general audio generation is moving beyond isolated speech, music, and sound-effect synthesis toward a single model that can compose them into controllable, coherent audio scenes. This unified setting is particularly challenging: heterogeneous components impose conflicting structural requirements on a shared backbone, while a complex mixed scene may contain locally distinct or over...
+
+--- [7] 2607.26047v1 ---
+Title: S2A2: Audio-Visual Imitation Learning for Manipulation Tasks Using Acoustic Spatial Information
+Authors: Kaneyoshi Hiratsuka, Benjamin Yen, Ryosuke Kojima
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-28
+Summary: Acoustic information provides rich cues about object location, material properties, and changes caused by contact or motion. This paper introduces a new set of acoustic-aware manipulation tasks for imitation learning, in which robots must use auditory cues to determine manipulation targets. These tasks require sound source localization and identification for active exploration in robotic manipulat...
+
+--- [8] 2607.23023v2 ---
+Title: OmniMate: Open-Ended Real-Time Streaming Audio-Visual Generation for Interactive Avatars
+Authors: Quanyue Song, Yishan He, Yanbo Ding, Zhixiang He, Yongxiang Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-25
+Summary: Recent advances in diffusion-based generative models have enabled real-time audio-driven avatar generation and unified audio-visual synthesis, providing a promising foundation for interactive avatar systems. However, extending unified audio-visual synthesis to real-time interactive streaming remains challenging, as the generation horizon is unknown in advance and the generated identity may drift o...
+
+--- [9] 2607.12576v1 ---
+Title: UD-ASD: A Unified Diffusion Model for Anomalous Sound Detection
+Authors: Pengxiang Gao, Yu Qiu, Yanzhi Song
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-14
+Summary: Anomalous Sound Detection (ASD) aims to determine whether faults have occurred by monitoring sounds. Existing methods detect a limited range of anomalies, exhibit poor generalization, or train a separate model for each machine. Diffusion models possess strong generalization and can generate specific data with condition guidance. We propose a unified diffusion model only with a small module. The au...
+
+--- [10] 2607.11364v1 ---
+Title: BackgroundMellow: A Multi-Modal Cohesive Framework for Narrative-Driven Rich Cinematic Soundscape Generation
+Authors: Ajitesh Jamulkar, Aritra Hazra
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.MM
+Published: 2026-07-13
+Summary: Generating immersive, synchronized and cinematic audio for long-form textual narratives remains a significant challenge in multi-modal AI. While current Text-to-Audio (TTA) frameworks successfully synthesize isolated sound effects, they struggle with narrative cohesion, temporal alignment, and cinematic emotional depth. We present BackgroundMellow, a framework that treats story-to-audio generation...
+
+--- [11] 2607.09427v1 ---
+Title: Effective theories for many-body systems with nonuniform symmetries
+Authors: Aleksander Głódkowski
+Primary cat: cond-mat.str-el | All cats: cond-mat.str-el, cond-mat.quant-gas, hep-th
+Published: 2026-07-10
+Summary: The low-energy dynamics of many-body systems is governed by gapless modes whose properties are dictated by symmetry. Their existence follows from Goldstone's theorem, while their effective description at zero temperature is determined by the pattern of symmetry breaking. At finite temperature, an analogous role is played by hydrodynamics, which describes the universal behavior of many-body systems...
+
+--- [12] 2606.21879v1 ---
+Title: Revisiting Theoretical Modeling of Seebeck Coefficient of Semiconductors
+Authors: Yuchao Hua
+Primary cat: physics.app-ph | All cats: physics.app-ph, cond-mat.mtrl-sci
+Published: 2026-06-20
+Summary: We revisit the closed-form models of Seebeck coefficient, and identify the thermodynamic flaws in those extensively-used methodologies, essentially including the confusion of electrochemical potential and electrical potential within the definition, arbitrarily neglecting the dependence on conduction band bottom and Fermi level when calculating distribution function spatial gradient, and the improp...
+
+--- [13] 2606.09098v2 ---
+Title: HoliDubber: Holistic Video Dubbing for Complex Acoustic Scenes via Text-Guided Audio Synthesis
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Asound+AND+abs%3Aeffect+AND+abs%3Adiffusion&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Wenhao Guan, Yifan Duan, Junxi Liu, Yu Gu, Feng Dang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-08
+Summary: Video dubbing is a cornerstone of multimedia content creation, aiming to synthesize synchronized acoustic sequences for visual streams. While Text-to-Speech (TTS) and Text-to-Audio (TTA) generation have each achieved remarkable progress, existing dubbing systems remain confined to isolated speech synthesis without incorporating sound effects and ambient audio, forcing practitioners to rely on frag...
+
+--- [14] 2605.30965v1 ---
+Title: ImmersiveTTS: Environment-Aware Text-to-Speech with Multimodal Diffusion Transformer and Domain-Specific Representation Alignment
+Authors: Jun-Hak Yun, Seung-Bin Kim, Seong-Whan Lee
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL
+Published: 2026-05-29
+Summary: Recent advancements in text-guided audio generation have yielded promising results in diverse domains, including sound effects, speech, and music. However, jointly generating speech with environmental audio remains challenging due to the inherent disparities in their acoustic patterns and temporal dynamics. We propose ImmersiveTTS, an environment-aware text-to-speech (TTS) model that generates nat...
+
+--- [15] 2605.25630v2 ---
+Title: A Semigroup Approach to Weighted Weyl-Sonine Operators: Bypassing Bernstein Functions for Well-Posedness
+Authors: Gustavo Dorrego
+Primary cat: math.FA | All cats: math.FA, math.AP
+Published: 2026-05-25
+Summary: This paper establishes a rigorous functional analytic framework for weighted Weyl-Sonine fractional operators on semi-infinite intervals. While the classical Phillips functional calculus relies strictly on completely monotonic Bernstein functions to subordinate linear semigroups, we demonstrate that this structural restriction can be entirely bypassed. By exploiting the intrinsic topological decay...
+
+--- [16] 2605.17504v1 ---
+Title: A Distributional View for Visual Mechanistic Interpretability: KL-Minimal Soft-Constraint Principle
+Authors: Guancheng Zhou, Yisi Luo, Zhengfu He, Zhenyu Jin, Xuyang Ge et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-05-17
+Summary: Most current paradigms in visual mechanistic interpretability (MI) remain confined to interpreting internal units of the vision model via heuristic methods (e.g., top-$K$ activation retrieval or optimization with regularization). In this work, we establish a theoretical distributional view for visual MI, which models the influence of a feature activation on the natural image distribution, thereby ...
+
+--- [17] 2605.16751v1 ---
+Title: Spatial curvature in Unimodular Gravity
+Authors: Gilberto Aguilar-Pérez, Miguel Cruz, Samuel Lepe
+Primary cat: gr-qc | All cats: gr-qc
+Published: 2026-05-16
+Summary: We investigate the cosmological implications of unimodular gravity (UG) featuring energy diffusion and spatial curvature. While standard diffusion models often suffer from thermodynamic inconsistencies, we propose a phenomenologically viable power-law Ansatz for the diffusion function, $Q(z) = Q_0(1+z)^β$, which strictly satisfies the second law of thermodynamics by demanding positive entropy prod...
+
+--- [18] 2605.20231v2 ---
+Title: CMB Acoustic Power Spectra in STVG-MOG
+Authors: John W. Moffat
+Primary cat: astro-ph.CO | All cats: astro-ph.CO, gr-qc
+Published: 2026-05-15
+Summary: We present a cosmological realization of Scalar--Tensor--Vector Gravity (STVG--MOG) in which the pre-recombination scalar perturbation dynamics become degenerate with those of $Λ$CDM without invoking particle dark matter. In the early universe, nonrelativistic excitations of the massive STVG vector field $φ_μ$ behave as a collisionless, pressureless component with vanishing sound speed and backgro...
+
+--- [19] 2604.22209v1 ---
+Title: UniSonate: A Unified Model for Speech, Music, and Sound Effect Generation with Text Instructions
+Authors: Chunyu Qiang, Xiaopeng Wang, Kang Yin, Yuzhe Liang, Yuxin Guo et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2026-04-24
+Summary: Generative audio modeling has largely been fragmented into specialized tasks, text-to-speech (TTS), text-to-music (TTM), and text-to-audio (TTA), each operating under heterogeneous control paradigms. Unifying these modalities remains a fundamental challenge due to the intrinsic dissonance between structured semantic representations (speech/music) and unstructured acoustic textures (sound effects)....
+
+--- [20] 2604.05751v1 ---
+Title: Brain-to-Speech: Prosody Feature Engineering and Transformer-Based Reconstruction
+Authors: Mohammed Salah Al-Radhi, Géza Németh, Andon Tchechmedjiev, Binbin Xu
+Primary cat: eess.SP | All cats: eess.SP, cs.LG, cs.SD
+Published: 2026-04-07
+Summary: This chapter presents a novel approach to brain-to-speech (BTS) synthesis from intracranial electroencephalography (iEEG) data, emphasizing prosody-aware feature engineering and advanced transformer-based models for high-fidelity speech reconstruction. Driven by the increasing interest in decoding speech directly from brain activity, this work integrates neuroscience, artificial intelligence, and ...
+

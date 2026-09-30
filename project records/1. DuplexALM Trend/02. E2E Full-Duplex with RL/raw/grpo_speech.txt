@@ -1,0 +1,177 @@
+--- [1] 2609.31892v1 ---
+Title: NVAlign: Direct-Gradient Optimization for Non-Verbal Control in Continuous Autoregressive Flow Matching Text-to-Speech
+Authors: Qiaolin Wang, Pedro Sandoval-Segura, Anunaya Joshi, Edvardas Jurkonis, Jake Downie
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-09-25
+Summary: While modern text-to-speech (TTS) systems generate highly natural speech and support inline non-verbal vocalization (NVV) tags, accurate control over these events remains challenging. A key gap is the lack of established post-training methods for non-verbal control in continuous autoregressive flow-matching TTS. To this end, we present NVAlign, a direct-gradient post-training framework for NVV tag...
+
+--- [2] 2609.29217v1 ---
+Title: AdaptDuplex: from static to adaptive full-duplex spoken dialogue
+Authors: Zhiyang Zhou, Yingxin Shang, Zhou Wang, Hongwei Cai, Weixu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-24
+Summary: Full-duplex spoken dialogue requires simultaneous listening and speaking at sub-second latency, under conversational timing and cognitive demands that change moment to moment. Yet current models mostly impose static operating points, lacking a systematic mechanism for adaptive decisions. We present AdaptDuplex, which upgrades Qwen3-Omni with such a mechanism, co-designed across three layers. A com...
+
+--- [3] 2609.27599v1 ---
+Title: EmphTTS: an emphasis-control TTS with reinforcement learning
+Authors: Zirui Li, Rech Silas, Lauri Juvela, Tom Backstrom, Mikko Kurimo
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-23
+Summary: Generating controllable and human-like emphasis remains an open challenge in text-to-speech, even when explicit emphasis control signals are provided in the text input, limiting the communicative accuracy of synthetic speech in real-world applications. Reinforcement learning has recently shown promise for post-training TTS systems to align with human preference, yet existing methods have not been ...
+
+--- [4] 2609.26536v1 ---
+Title: Transcribe, Translate, and Optimize: Joint Reward Learning for Speech Translation
+Authors: Yanghe Dong, Wanting Huang, Weiran Wang
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-22
+Summary: In LLM-based speech translation, transcription-based chain-of-thought (CoT) suffers from a mismatch between reference transcripts used in supervised fine-tuning (SFT) and model-generated transcripts at inference. To address this, we propose joint recognition and translation fine-tuning via group relative policy optimization (GRPO). We score both transcripts and translations, with translation condi...
+
+--- [5] 2609.25176v2 ---
+Title: Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction
+Authors: Lujia Bao, Qian Chen, Luyao Cheng, Chong Deng, Yuxiang Kong et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2026-09-21
+Summary: Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning with Multimodality and Multi-Teacher On-Policy Distillation (M$^{2}$-OPD) to transfer language capabilities and develop native aud...
+
+--- [6] 2609.21738v1 ---
+Title: GenTraceBench: A Benchmark for Tracing Audio Deepfakes Across Pre- and Post-training Stages
+Authors: Li Wang, Kunyu Feng, Wan Lin, Dekun Chen, Qinke Ni et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-18
+Summary: Modern text-to-speech (TTS) systems are rarely deployed as unchanged pre-trained models. They are often adapted through supervised fine-tuning (SFT) or preference optimization such as DPO and GRPO. This raises a practical question for audio deepfake forensics: do fingerprints learned from a foundation generator remain valid after adaptation? We present GenTraceBench, a controlled benchmark spannin...
+
+--- [7] 2609.20124v1 ---
+Title: Multi-Dimensional Prosody Judgment For Live Streaming Speech Synthesis
+Authors: Zifan Guan, Longyu Lu, Junan Zhang, Zhizheng Wu, Meiguang Jin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-17
+Summary: Evaluating live streaming speech synthesis (TTS) requires assessing fine-grained, highly expressive prosody such as emotion, intonation, and energy which traditional MOS predictors fail to capture. While proprietary Large Language Models (LLMs) like Gemini can evaluate these aspects, they are too costly for massive inference and reinforcement learning feedback. To address this, we first introduce ...
+
+--- [8] 2609.18632v1 ---
+Title: VibeAvatar: Aligning Phonetic Kinematics and Human Aesthetics for High-Fidelity Talking Avatar Synthesis
+Authors: Qilin Wang, Mingyu Li, Hao Tang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-16
+Summary: Multi-modal talking avatar synthesis aims to generate realistic talking videos from a reference portrait and speech. Despite rapid progress in diffusion-based methods, existing approaches still struggle to jointly achieve accurate lip articulation, human-preferred motion aesthetics, and efficient inference. We observe that phonetic accuracy and motion aesthetics arise from fundamentally different ...
+
+--- [9] 2609.18333v1 ---
+Title: Look Less, Hear Better: Jointly Rewarded GRPO for Streaming ASR
+Authors: Xiuwen Zheng
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-16
+Summary: Streaming automatic speech recognition (ASR) must be judged jointly on what it transcribes and on how quickly it commits each word. Delayed streams modeling (DSM) has become the dominant paradigm for streaming large audio-language models, exposing a structural delay $τ$ that bounds the decoder's lookahead. We show that $τ$ is a poor proxy for user-perceived latency, and that the alignment-based su...
+
+--- [10] 2609.14455v1 ---
+Title: Grounded in Sound: Reinforcement Learning with a Frozen Acoustic Judge to Curb ASR Insertion Hallucinations
+Authors: Tingzhen Xiong, Rilin Chen, Weiwei Li, Wentao Zhang, Qicong Xie
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2026-09-13
+Summary: When reinforcement learning (RL) is used for post-training automatic speech recognition (ASR), the reward almost always lives in the text space: it compares a hypothesis with the reference and never checks whether the hypothesis is supported by the audio. On highly regular speech this licenses a shortcut - guessing from a strong language prior rather than listening. Once the acoustics degrade, the...
+
+--- [11] 2608.31035v1 ---
+Title: When Does Predictor-Based RL Align with Human Perception? A Study of Subjective Rewards in Codec-Based Speech Language Models
+Authors: Joonyong Park, Jerry Li
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-08-31
+Summary: Codec-based text-to-speech (TTS) models make language-model post-training applicable to speech generation, but it remains unclear when learned perceptual predictors can serve as reinforcement learning rewards without losing alignment with human listeners. We study this question with Group Relative Policy Optimization (GRPO) using learned rewards for anime-like speaking style, naturalness, likabili...
+
+--- [12] 2608.29999v1 ---
+Title: TEMPO: Temporally-grounded Multi-task Post-training for Large Audio-Language Models
+Authors: Apoorva Kulkarni, Kaousheik Jayakumar, Sreyan Ghosh, Utathya Aich, Ramani Duraiswami et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-08-30
+Summary: Large audio-language models (LALMs) describe audio at the clip level but cannot assign timestamps to the events, speakers, or sounds they identify. Despite being essential for downstream tasks like speech recognition and dense audio captioning, timestamping remains a key limitation of most LALMs. We present TEMPO (Temporally-grounded Multi-task Post-training), the first unified model to handle aud...
+
+--- [13] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [14] 2608.20958v1 ---
+Title: TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming
+Authors: Yibo Hu, Yu Qian, Mao Gu, Yingfan Tao, Yuhao Chen et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-08-21
+Summary: E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts are distributed across speech, video frames, product images, overlaid text, and user queries. We present TLive-Omni, an omni-modal understanding model tailored to live-commerce scenarios. It maps image, video, audio, and text inputs into a unified representation space. For long-fo...
+
+--- [15] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+
+--- [16] 2608.03215v1 ---
+Title: GROW: Group-Relative Advantage-Weighted On-Policy Reinforcement Learning of Autoregressive-Diffusion Text-to-Speech model
+Authors: Guanrou Yang, Tian Tan, Qian Chen, Ziyang Ma, Yakun Song et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL
+Published: 2026-08-04
+Summary: Reinforcement learning for flow-matching text-to-speech is complicated by deterministic ODE sampling: trajectory-level policy-gradient methods typically convert the ODE into an SDE and track per-step likelihood ratios, introducing stochastic perturbations and substantial overhead. We propose GROW, a group-relative advantage-weighted on-policy RL method that acts directly on the standard flow-match...
+
+--- [17] 2608.03054v1 ---
+Title: Towards More Expressive Spoken LLMs: Fine-Grained Intent Benchmarking and Acoustic-Lexical Decoupled Policy Optimization
+Authors: Xiang Lin, Tian-Hao Zhang, Chunfeng Wang, Zhou Pan, Kun Zhan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-04
+Summary: Spoken emotional dialogue requires a model to understand a user's spoken input and generate a response that is both semantically appropriate and emotionally expressive. This is challenging because communicative intent may be stated explicitly in lexical content or conveyed more implicitly through paralinguistic cues, which can complement or diverge from the words themselves. However, two limitatio...
+
+--- [18] 2608.02023v2 ---
+Title: SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks
+Authors: Yu Zhang, Ruiqi Li, Changhao Pan, Ke Lei, Xiang Yin et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-03
+Summary: Speech and audio generation is often needed in animation dubbing, audio drama, movies, advertising, games, podcasts, and short-video production. In these scenarios, creators may need to design voices without reference recordings, control speaker styles with natural language, support acoustic scenes with environments and audio effects, and later reuse the designed voices. Therefore, it is important...
+
+--- [19] 2607.18718v1 ---
+Title: Summary of DCASE 2026 Task 5: Audio-Dependent Question Answering
+Authors: Haolin He, Renhe Sun, Zheqi Dai, Xingjian Du, Chunyat Wu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-21
+Summary: DCASE~2026 Task~5 introduces Audio-Dependent Question Answering (ADQA), which tests whether large audio-language models answer from the audio rather than from textual priors. An Audio-Dependency Filtering (ADF) pipeline combines silent-audio probing, per-option perplexity, a large language model (LLM) commonsense check, and human review to remove items solvable from text alone. The 3000 items that...
+
+--- [20] 2607.08409v1 ---
+Title: When Synthetic Speech Is All You Have: Better Call GRPO
+Authors: Shashi Kumar, Yanis Labrak, Hasindri Watawana, Sergio Burdisso, Esaú Villatoro-Tello et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-07-09
+Summary: LLM-based ASR adapted to regulated domains such as banking is bottlenecked by privacy: real speech is costly and legally constrained to collect, making synthetic text-to-speech (TTS) an attractive substitute. Yet synthetic speech stays acoustically mismatched with real recordings, and work on this gap has stayed within supervised fine-tuning (SFT). We instead turn to reinforcement learning, and sh...
+
+--- [21] 2607.08208v2 ---
+Title: Diarization-Guided Qwen-ASR Adaptation for Multilingual Two-Speaker Conversational Speech
+Authors: Hao Wu, RongQi Han, Zhen Wang, Wei Liang, Wei Xu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-09
+Summary: This paper describes our self-designed system for Task 1 of the MLC-SLM 2026 Challenge for multilingual two-speaker conversational speech. The system combines a modular speaker diarization front end with a challenge-adapted Qwen3-ASR-1.7B recognizer. The diarization front end performs voice activity detection, subsegment generation, CAMPPlus speaker embedding extraction, two-speaker spectral clust...
+
+--- [22] 2607.03928v1 ---
+Title: TokAN: Accent Normalization Using Self-Supervised Speech Tokens
+Authors: Qibing Bai, Shuai Wang, Yuhan Du, Bohan Li, Yannan Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-07-04
+Summary: Accent normalization (AN) seeks to convert non-native (L2) accented speech into standard (L1) speech while preserving speaker identity. The current techniques either require naturally recorded parallel L1-L2 speech for training, or suffer from quality degradation when supervised by synthesized targets. In this paper, we present TokAN, a token-based accent normalization framework that operates on s...
+
+--- [23] 2606.26534v1 ---
+Title: VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation
+Authors: Tianxin Xie, Chenxing Li, Dong Yu, Li Liu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-25
+Summary: Recently, zero-shot text-to-speech (TTS) has enabled high-fidelity and expressive speech synthesis, but it often fails to imitate unseen speaking styles from uncommon scenarios (e.g., crosstalk, dialects). Moreover, fine-tuning pretrained models requires large, high-quality datasets, limiting rapid personalization. We propose VoiceTTA, a reinforcement learning-based test-time adaptation (TTA) meth...
+
+--- [24] 2606.23190v2 ---
+Title: FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech
+Authors: Haoxu Wang, Biao Tian, Weiqin Li, Xiang Lv, Han Zhao et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-22
+Summary: Existing Reinforcement Learning (RL) research for Text-to-Speech (TTS) focuses on large language models (LLMs), leaving Flow-Matching (FM) under-explored. We present FlowTTS-GRPO, an online RL framework for FM-based TTS. By converting ordinary differential equation (ODE) trajectories into stochastic differential equation (SDE) paths, our method enables direct fine-tuning of open-source FM models w...
+
+--- [25] 2606.21053v1 ---
+Title: Imitation Learning for Elder-Facing Speech Synthesis
+Authors: Dongrui Han, Weidong Chen, Jiawen Kang, Mingyu Cui, Helen Meng et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Agrpo+AND+abs%3Aspeech&max_results=25&sortBy=submittedDate&sortOrder=descending
+Published: 2026-06-19
+Summary: Recent advances in text-to-speech (TTS) synthesis have achieved highly natural and expressive speech generation. However, these systems are designed for general adults and overlook older adults' speech comprehension needs due to age-related sensory and cognitive decline. Prior work involves older adults by collecting preference feedback to tune model parameters. However, obtaining sufficient prefe...
+

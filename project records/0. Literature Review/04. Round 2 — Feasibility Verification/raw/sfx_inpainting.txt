@@ -1,0 +1,37 @@
+# Total entries: 5
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Asound+AND+abs%3Aeffect+AND+abs%3Ainpainting&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.09973v1 ---
+Title: A Production-Oriented Framework for Evaluation of SFX Generation
+Authors: Mélodie Desbos, Yara Bahram, Eric Granger, Mohammadhadi Shateri
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS, eess.SP, eess.SY
+Published: 2026-07-10
+Summary: Industrial sound design requires audio generation systems that not only produce realistic audio, but also preserve the perceptual identity of a reference, support controllable variation, and remain efficient for practical workflows. Existing evaluations are usually tied to text-to-audio (TTA), unconditional, or task-specific settings, limiting assessment for reference-guided sound effects (SFX) va...
+
+--- [2] 2601.13513v1 ---
+Title: Event Classification by Physics-informed Inpainting for Distributed Multichannel Acoustic Sensor with Partially Degraded Channels
+Authors: Noriyuki Tonami, Wataru Kohno, Yoshiyuki Yajima, Sakiko Mishima, Yumi Arai et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-01-20
+Summary: Distributed multichannel acoustic sensing (DMAS) enables large-scale sound event classification (SEC), but performance drops when many channels are degraded and when sensor layouts at test time differ from training layouts. We propose a learning-free, physics-informed inpainting frontend based on reverse time migration (RTM). In this approach, observed multichannel spectrograms are first back-prop...
+
+--- [3] 2504.20625v1 ---
+Title: DiffusionRIR: Room Impulse Response Interpolation using Diffusion Models
+Authors: Sagi Della Torre, Mirco Pezzoli, Fabio Antonacci, Sharon Gannot
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-04-29
+Summary: Room Impulse Responses (RIRs) characterize acoustic environments and are crucial in multiple audio signal processing tasks. High-quality RIR estimates drive applications such as virtual microphones, sound source localization, augmented reality, and data augmentation. However, obtaining RIR measurements with high spatial resolution is resource-intensive, making it impractical for large spaces or wh...
+
+--- [4] 2310.07663v1 ---
+Title: Deep Video Inpainting Guided by Audio-Visual Self-Supervision
+Authors: Kyuyeon Kim, Junsik Jung, Woo Jae Kim, Sung-Eui Yoon
+Primary cat: eess.AS | All cats: eess.AS, cs.CV, cs.SD
+Published: 2023-10-11
+Summary: Humans can easily imagine a scene from auditory information based on their prior knowledge of audio-visual events. In this paper, we mimic this innate human ability in deep learning models to improve the quality of video inpainting. To implement the prior knowledge, we first train the audio-visual network, which learns the correspondence between auditory and visual information. Then, the audio-vis...
+
+--- [5] 2304.00830v2 ---
+Title: AUDIT: Audio Editing by Following Instructions with Latent Diffusion Models
+Authors: Yuancheng Wang, Zeqian Ju, Xu Tan, Lei He, Zhizheng Wu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.LG, eess.AS
+Published: 2023-04-03
+Summary: Audio editing is applicable for various purposes, such as adding background sound effects, replacing a musical instrument, and repairing damaged audio. Recently, some diffusion-based methods achieved zero-shot audio editing by using a diffusion and denoising process conditioned on the text description of the output audio. However, these methods still have some problems: 1) they have not been train...
+

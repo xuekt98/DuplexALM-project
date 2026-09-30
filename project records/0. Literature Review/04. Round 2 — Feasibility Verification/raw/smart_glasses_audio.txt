@@ -1,0 +1,142 @@
+--- [1] 2608.12034v1 ---
+Title: The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models
+Authors: Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao, Yuhang Dai et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-12
+Summary: Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity ...
+
+--- [2] 2607.17867v1 ---
+Title: The tttAI System for the TSA-ASR Task of the SmartGlasses Challenge 2026
+Authors: Xuanji He, Gaoyang Dong, Xiaoxiao Li, Minchuan Chen, Fengjie Zhu
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-20
+Summary: This paper presents the tttAI system submitted to the TSA-ASR task of the SmartGlasses Challenge 2026, evaluated on both two-person dialogues (Track 1) and multi-party meetings (Track 2). The task requires time-stamped speaker-attributed speech recognition from smart-glasses recordings. This is particularly challenging due to long-form audio, multiple speakers, and frequent overlapping speech. We ...
+
+--- [3] 2607.08083v2 ---
+Title: HeadRoom: Lightweight, Edge-deployable Pipeline for Adaptive Notification Routing
+Authors: Dinithi Dissanayake, Prasanth Sasikumar, Suranga Nanayakkara
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-07-09
+Summary: Emerging wearables, such as smart glasses, can deliver notifications through multiple sensory channels, but there is still a limited understanding of how to choose the right channel at the right moment. We propose HeadRoom, a lightweight, edge-deployable pipeline that estimates the availability of visual and auditory channels in real time from egocentric video and audio. Our controlled user study ...
+
+--- [4] 2604.05519v1 ---
+Title: Active noise cancellation on open-ear smart glasses
+Authors: Kuang Yuan, Freddy Yifei Liu, Tong Xiao, Yiwen Song, Chengyi Shen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.HC, cs.LG, cs.SD, eess.SP
+Published: 2026-04-07
+Summary: Smart glasses are becoming an increasingly prevalent wearable platform, with audio as a key interaction modality. However, hearing in noisy environments remains challenging because smart glasses are equipped with open-ear speakers that do not seal the ear canal. Furthermore, the open-ear design is incompatible with conventional active noise cancellation (ANC) techniques, which rely on an error mic...
+
+--- [5] 2603.29095v1 ---
+Title: VueBuds: Visual Intelligence with Wireless Earbuds
+Authors: Maruchi Kim, Rasya Fawwaz, Zhi Yang Lim, Brinda Moudgalya, Hexi Wang et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-03-31
+Summary: Despite their ubiquity, wireless earbuds remain audio-centric due to size and power constraints. We present VueBuds, the first camera-integrated wireless earbuds for egocentric vision, capable of operating within stringent power and form-factor limits. Each VueBud embeds a camera into a Sony WF-1000XM3 to stream visual data over Bluetooth to a host device for on-device vision language model (VLM) ...
+
+--- [6] 2603.10324v1 ---
+Title: NasoVoce: A Nose-Mounted Low-Audibility Speech Interface for Always-Available Speech Interaction
+Authors: Jun Rekimoto, Yu Nishimura, Bojian Yang
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.LG, cs.SD
+Published: 2026-03-11
+Summary: Silent and whispered speech offer promise for always-available voice interaction with AI, yet existing methods struggle to balance vocabulary size, wearability, silence, and noise robustness. We present NasoVoce, a nose-bridge-mounted interface that integrates a microphone and a vibration sensor. Positioned at the nasal pads of smart glasses, it unobtrusively captures both acoustic and vibration s...
+
+--- [7] 2602.16323v1 ---
+Title: Wearable AR for Restorative Breaks: How Interactive Narrative Experiences Support Relaxation for Young Adults
+Authors: Jindu Wang, Runze Cai, Shuchang Xu, Tianrui Hu, Huamin Qu et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-02-18
+Summary: Young adults often take breaks from screen-intensive work by consuming digital content on mobile phones, which undermines rest through visual fatigue and inactivity. We introduce a design framework that embeds light break activities into media content on AR smart glasses, balancing engagement and recovery. The framework employs three strategies: (1) seamlessly guiding users by embedding activity c...
+
+--- [8] 2602.07211v1 ---
+Title: Equipping LLM with Directional Multi-Talker Speech Understanding Capabilities
+Authors: Ju Lin, Jing Pan, Ruizhi Li, Ming Sun, Yuzong Liu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-02-06
+Summary: Recent studies have demonstrated that prompting large language models (LLM) with audio encodings enables effective speech understanding capabilities. However, most speech LLMs are trained on single-channel, single-talker data, which makes it challenging to directly apply them to multi-talker and multi-channel speech understanding task. In this work, we present a comprehensive investigation on how ...
+
+--- [9] 2601.21271v1 ---
+Title: Envisioning Audio Augmented Reality in Everyday Life
+Authors: Tram Thi Minh Tran, Soojeong Yoo, Oliver Weidlich, Yidan Cao, Xinyan Yu et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-01-29
+Summary: While visual augmentation dominates the augmented reality landscape, devices like Meta Ray-Ban audio smart glasses signal growing industry movement toward audio augmented reality (AAR). Hearing is a primary channel for sensing context, anticipating change, and navigating social space, yet AAR's everyday potential remains underexplored. We address this gap through a collaborative autoethnography (N...
+
+--- [10] 2601.21264v3 ---
+Title: Evaluating Spatialized Auditory Cues for Rapid Attention Capture in XR
+Authors: Yoonsang Kim, Swapnil Dey, Arie Kaufman
+Primary cat: cs.HC | All cats: cs.HC, cs.SD, eess.AS
+Published: 2026-01-29
+Summary: In time-critical eXtended reality (XR) scenarios where users must rapidly reorient their attention to hazards, alerts, or instructions while engaged in a primary task, spatial audio can provide an immediate directional cue without occupying visual bandwidth. However, such scenarios can afford only a brief auditory exposure, requiring users to interpret sound direction quickly and without extended ...
+
+--- [11] 2601.18157v3 ---
+Title: Agentic Very Long Video Understanding
+Authors: Aniket Rege, Arka Sadhu, Yuliang Li, Kejie Li, Ramya Korlakai Vinayak et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-01-26
+Summary: The advent of always-on personal AI assistants, enabled by all-day wearable devices such as smart glasses, demands a new level of contextual understanding, one that goes beyond short, isolated events to encompass the continuous, longitudinal stream of egocentric video. Achieving this vision requires advances in long-horizon video understanding, where systems must interpret and recall visual and au...
+
+--- [12] 2511.14119v1 ---
+Title: Real-Time Mobile Video Analytics for Pre-arrival Emergency Medical Services
+Authors: Liuyi Jin, Amran Haroon, Radu Stoleru, Pasan Gunawardena, Michael Middleton et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI
+Published: 2025-11-18
+Summary: Timely and accurate pre-arrival video streaming and analytics are critical for emergency medical services (EMS) to deliver life-saving interventions. Yet, current-generation EMS infrastructure remains constrained by one-to-one video streaming and limited analytics capabilities, leaving dispatchers and EMTs to manually interpret overwhelming, often noisy or redundant information in high-stress envi...
+
+--- [13] 2510.22443v1 ---
+Title: Benchmarking Egocentric Multimodal Goal Inference for Assistive Wearable Agents
+Authors: Vijay Veerabadran, Fanyi Xiao, Nitin Kamra, Pedro Matias, Joy Chen et al.
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Asmart+AND+abs%3Aglasses+AND+abs%3Aaudio&max_results=20&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2025-10-25
+Summary: There has been a surge of interest in assistive wearable agents: agents embodied in wearable form factors (e.g., smart glasses) who take assistive actions toward a user's goal/query (e.g. "Where did I leave my keys?"). In this work, we consider the important complementary problem of inferring that goal from multi-modal contextual observations. Solving this "goal inference" problem holds the promis...
+
+--- [14] 2509.20799v5 ---
+Title: AuthGlass: Benchmarking Voice Liveness Detection and Authentication on Smart Glasses via Comprehensive Acoustic Features
+Authors: Weiye Xu, Zhang Jiang, Siqi Zheng, Xiyuxing Zhang, Changhao Zhang et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.SD
+Published: 2025-09-25
+Summary: With the rapid advancement of smart glasses, voice interaction has been widely adopted due to its naturalness and convenience. However, its practical deployment is often undermined by vulnerability to spoofing attacks, while no public dataset currently exists for voice liveness detection and authentication in smart-glasses scenarios. To address this challenge, we first collect a multi-acoustic-mod...
+
+--- [15] 2508.01915v1 ---
+Title: EgoTrigger: Toward Audio-Driven Image Capture for Human Memory Enhancement in All-Day Energy-Efficient Smart Glasses
+Authors: Akshay Paruchuri, Sinan Hersek, Lavisha Aggarwal, Qiao Yang, Xin Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.ET, cs.HC, cs.LG, cs.SD
+Published: 2025-08-03
+Summary: All-day smart glasses are likely to emerge as platforms capable of continuous contextual sensing, uniquely positioning them for unprecedented assistance in our daily lives. Integrating the multi-modal AI agents required for human memory enhancement while performing continuous sensing, however, presents a major energy efficiency challenge for all-day usage. Achieving this balance requires intellige...
+
+--- [16] 2507.05609v1 ---
+Title: MMW: Side Talk Rejection Multi-Microphone Whisper on Smart Glasses
+Authors: Yang Liu, Li Wan, Yiteng Huang, Yong Xu, yangyang shi et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-07-08
+Summary: Smart glasses are increasingly positioned as the next-generation interface for ubiquitous access to large language models (LLMs). Nevertheless, achieving reliable interaction in real-world noisy environments remains a major challenge, particularly due to interference from side speech. In this work, we introduce a novel side-talk rejection multi-microphone Whisper (MMW) framework for smart glasses,...
+
+--- [17] 2506.14973v1 ---
+Title: Thinking in Directivity: Speech Large Language Model for Multi-Talker Directional Speech Recognition
+Authors: Jiamin Xie, Ju Lin, Yiteng Huang, Tyler Vuong, Zhaojiang Lin et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2025-06-17
+Summary: Recent studies have demonstrated that prompting large language models (LLM) with audio encodings enables effective speech recognition capabilities. However, the ability of Speech LLMs to comprehend and process multi-channel audio with spatial cues remains a relatively uninvestigated area of research. In this work, we present directional-SpeechLlama, a novel approach that leverages the microphone a...
+
+--- [18] 2410.05986v1 ---
+Title: The USTC-NERCSLIP Systems for the CHiME-8 MMCSG Challenge
+Authors: Ya Jiang, Hongbo Lan, Jun Du, Qing Wang, Shutong Niu
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-10-08
+Summary: In the two-person conversation scenario with one wearing smart glasses, transcribing and displaying the speaker's content in real-time is an intriguing application, providing a priori information for subsequent tasks such as translation and comprehension. Meanwhile, multi-modal data captured from the smart glasses is scarce. Therefore, we propose utilizing simulation data with multiple overlap rat...
+
+--- [19] 2409.00784v1 ---
+Title: SonoHaptics: An Audio-Haptic Cursor for Gaze-Based Object Selection in XR
+Authors: Hyunsung Cho, Naveen Sendhilnathan, Michael Nebeling, Tianyi Wang, Purnima Padmanabhan et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2024-09-01
+Summary: We introduce SonoHaptics, an audio-haptic cursor for gaze-based 3D object selection. SonoHaptics addresses challenges around providing accurate visual feedback during gaze-based selection in Extended Reality (XR), e.g., lack of world-locked displays in no- or limited-display smart glasses and visual inconsistencies. To enable users to distinguish objects without visual feedback, SonoHaptics employ...
+
+--- [20] 2408.03581v3 ---
+Title: Design and Analysis of Binaural Signal Matching with Arbitrary Microphone Arrays and Listener Head Rotations
+Authors: Lior Madmoni, Zamir Ben-Hur, Jacob Donley, Vladimir Tourbabin, Boaz Rafaely
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2024-08-07
+Summary: Binaural reproduction is rapidly becoming a topic of great interest in the research community, especially with the surge of new and popular devices, such as virtual reality headsets, smart glasses, and head-tracked headphones. In order to immerse the listener in a virtual or remote environment with such devices, it is essential to generate realistic and accurate binaural signals. This is challengi...
+

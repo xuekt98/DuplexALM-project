@@ -1,0 +1,65 @@
+# Total entries: 9
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspeechgpt&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2509.22061v2 ---
+Title: Speak Your Mind: The Speech Continuation Task as a Probe of Voice-Based Model Bias
+Authors: Shree Harsha Bokkahalli Satish, Harm Lameris, Olivier Perrotin, Gustav Eje Henter, Éva Székely
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD
+Published: 2025-09-26
+Summary: Speech Continuation (SC) is the task of generating a coherent extension of a spoken prompt while preserving both semantic context and speaker identity. Because SC is constrained to a single audio stream, it offers a more direct setting for probing biases in speech foundation models than dialogue does. In this work we present the first systematic evaluation of bias in SC, investigating how gender a...
+
+--- [2] 2505.18864v1 ---
+Title: Audio Jailbreak Attacks: Exposing Vulnerabilities in SpeechGPT in a White-Box Framework
+Authors: Binhao Ma, Hanqing Guo, Zhengping Jay Luo, Rui Duan
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-05-24
+Summary: Recent advances in Multimodal Large Language Models (MLLMs) have significantly enhanced the naturalness and flexibility of human computer interaction by enabling seamless understanding across text, vision, and audio modalities. Among these, voice enabled models such as SpeechGPT have demonstrated considerable improvements in usability, offering expressive, and emotionally responsive interactions t...
+
+--- [3] 2406.18862v1 ---
+Title: Streaming Decoder-Only Automatic Speech Recognition with Discrete Speech Units: A Pilot Study
+Authors: Peikun Chen, Sining Sun, Changhao Shan, Qing Yang, Lei Xie
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-06-27
+Summary: Unified speech-text models like SpeechGPT, VioLA, and AudioPaLM have shown impressive performance across various speech-related tasks, especially in Automatic Speech Recognition (ASR). These models typically adopt a unified method to model discrete speech and text tokens, followed by training a decoder-only transformer. However, they are all designed for non-streaming ASR tasks, where the entire s...
+
+--- [4] 2405.10025v1 ---
+Title: Listen Again and Choose the Right Answer: A New Paradigm for Automatic Speech Recognition with Large Language Models
+Authors: Yuchen Hu, Chen Chen, Chengwei Qin, Qiushi Zhu, Eng Siong Chng et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG, cs.SD, eess.AS
+Published: 2024-05-16
+Summary: Recent advances in large language models (LLMs) have promoted generative error correction (GER) for automatic speech recognition (ASR), which aims to predict the ground-truth transcription from the decoded N-best hypotheses. Thanks to the strong language generation ability of LLMs and rich information in the N-best list, GER shows great effectiveness in enhancing ASR results. However, it still suf...
+
+--- [5] 2404.05600v1 ---
+Title: SpeechAlign: Aligning Speech Generation to Human Preferences
+Authors: Dong Zhang, Zhaowei Li, Shimin Li, Xin Zhang, Pengyu Wang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2024-04-08
+Summary: Speech language models have significantly advanced in generating realistic speech, with neural codec language models standing out. However, the integration of human feedback to align speech outputs to human preferences is often neglected. This paper addresses this gap by first analyzing the distribution gap in codec language models, highlighting how it leads to discrepancies between the training a...
+
+--- [6] 2401.13527v2 ---
+Title: SpeechGPT-Gen: Scaling Chain-of-Information Speech Generation
+Authors: Dong Zhang, Xin Zhang, Jun Zhan, Shimin Li, Yaqian Zhou et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2024-01-24
+Summary: Benefiting from effective speech modeling, current Speech Large Language Models (SLLMs) have demonstrated exceptional capabilities in in-context speech generation and efficient generalization to unseen speakers. However, the prevailing information modeling process is encumbered by certain redundancies, leading to inefficiencies in speech generation. We propose Chain-of-Information Generation (CoIG...
+
+--- [7] 2311.04534v2 ---
+Title: Loss Masking Is Not Needed in Decoder-only Transformer for Discrete-token-based ASR
+Authors: Qian Chen, Wen Wang, Qinglin Zhang, Siqi Zheng, Shiliang Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2023-11-08
+Summary: Recently, unified speech-text models, such as SpeechGPT, VioLA, and AudioPaLM, have achieved remarkable performance on various speech tasks. These models discretize speech signals into tokens (speech discretization) and use a shared vocabulary for both text and speech tokens. Then they train a single decoder-only Transformer on a mixture of speech tasks. However, these models rely on the Loss Mask...
+
+--- [8] 2310.02050v1 ---
+Title: Tuning Large language model for End-to-end Speech Translation
+Authors: Hao Zhang, Nianwen Si, Yaqi Chen, Wenlin Zhang, Xukui Yang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2023-10-03
+Summary: With the emergence of large language models (LLMs), multimodal models based on LLMs have demonstrated significant potential. Models such as LLaSM, X-LLM, and SpeechGPT exhibit an impressive ability to comprehend and generate human instructions. However, their performance often falters when faced with complex tasks like end-to-end speech translation (E2E-ST), a cross-language and cross-modal transl...
+
+--- [9] 2305.11000v2 ---
+Title: SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities
+Authors: Dong Zhang, Shimin Li, Xin Zhang, Jun Zhan, Pengyu Wang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2023-05-18
+Summary: Multi-modal large language models are regarded as a crucial step towards Artificial General Intelligence (AGI) and have garnered significant interest with the emergence of ChatGPT. However, current speech-language models typically adopt the cascade paradigm, preventing inter-modal knowledge transfer. In this paper, we propose SpeechGPT, a large language model with intrinsic cross-modal conversatio...
+

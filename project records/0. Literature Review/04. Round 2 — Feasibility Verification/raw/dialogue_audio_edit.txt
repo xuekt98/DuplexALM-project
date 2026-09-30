@@ -1,0 +1,72 @@
+# Total entries: 10
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Adialogue+AND+abs%3Aaudio+AND+abs%3Aedit&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.01828v1 ---
+Title: AVERT: Audio-Verified Adjudication for Spoken Dialogue State Tracking
+Authors: Chunggi Lee, Hanspeter Pfister
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-01
+Summary: Spoken dialogue state tracking recovers slot-value pairs from speech, where ASR errors concentrate in entity values and persist across turns, making it both a generation and an editing problem. A strong per-turn text editor corrects much of this but, operating on the transcript alone, leaves three recoverable errors: a value predicted inconsistently across turns, an omitted slot, and a value the a...
+
+--- [2] 2608.30068v2 ---
+Title: TAKE 85: Testing Audiovisual filmmaKer's intEnt across 85 Hours of Film
+Authors: Kaishuu Shinozaki-Conefrey, Olivier Pascaud, Robin Courant, Xi Wang, Dimitris Samaras et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-30
+Summary: Films communicate through deliberate creative choices, including lighting, color, composition, editing, dialogue, music, and sound. Humans naturally interpret these signals as directorial intent, yet current multimodal large language models (MLLMs) are evaluated almost exclusively on understanding what happens rather than why it is presented that way. We introduce TAKE 85, the first benchmark for ...
+
+--- [3] 2608.08349v1 ---
+Title: Dramarrator: Object-Based Audio Editing for Audio Drama Production from Books
+Authors: Karim Benharrak, Oriol Nieto, Bryan Wang, Zeyu Jin, Amy Pavel
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.MM
+Published: 2026-08-08
+Summary: Audio dramas weave dialogue, sound effects, and music into immersive stories. Creators often adapt books into audio dramas, but this process remains labor-intensive, requiring them to interpret source material, author scripts, generate audio assets, and assemble them on a timeline. Because story elements like characters and scenes manifest across many interdependent assets, a single change can rip...
+
+--- [4] 2602.17097v1 ---
+Title: AudioChat: Unified Audio Storytelling, Editing, and Understanding with Transfusion Forcing
+Authors: William Chen, Prem Seetharaman, Rithesh Kumar, Oriol Nieto, Shinji Watanabe et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-02-19
+Summary: Despite recent breakthroughs, audio foundation models struggle in processing complex multi-source acoustic scenes. We refer to this challenging domain as audio stories, which can have multiple speakers and background/foreground sound effects. Compared to traditional audio processing tasks, audio stories introduce new layers of semantic, temporal, and physical complexity. To address this challenge,...
+
+--- [5] 2512.23808v1 ---
+Title: MiMo-Audio: Audio Language Models are Few-Shot Learners
+Authors: Xiaomi LLM-Core Team,  :, Dong Zhang, Gang Wang, Jinlong Xue et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-12-29
+Summary: Existing audio language models typically rely on task-specific fine-tuning to accomplish particular audio tasks. In contrast, humans are able to generalize to new audio tasks with only a few examples or simple instructions. GPT-3 has shown that scaling next-token prediction pretraining enables strong generalization capabilities in text, and we believe this paradigm is equally applicable to the aud...
+
+--- [6] 2512.14865v1 ---
+Title: Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction
+Authors: Advait Gosai, Tyler Vuong, Utkarsh Tyagi, Steven Li, Wenjia You et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2025-12-16
+Summary: End-to-end (E2E) spoken dialogue systems are increasingly replacing cascaded pipelines for voice-based human-AI interaction, processing raw audio directly without intermediate transcription. Existing benchmarks primarily evaluate these models on synthetic speech and single-turn tasks, leaving realistic multi-turn conversational ability underexplored. We introduce Audio MultiChallenge, an open-sour...
+
+--- [7] 2510.22857v2 ---
+Title: Storycaster: An AI System for Immersive Room-Based Storytelling
+Authors: Naisha Agarwal, Judith Amores, Andrew D. Wilson
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-10-26
+Summary: While Cave Automatic Virtual Environment (CAVE) systems have long enabled room-scale virtual reality and various kinds of interactivity, their content has largely remained predetermined. We present \textit{Storycaster}, a generative AI CAVE system that transforms physical rooms into responsive storytelling environments. Unlike headset-based VR, \textit{Storycaster} preserves spatial awareness, usi...
+
+--- [8] 2403.09527v3 ---
+Title: WavCraft: Audio Editing and Generation with Large Language Models
+Authors: Jinhua Liang, Huan Zhang, Haohe Liu, Yin Cao, Qiuqiang Kong et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2024-03-14
+Summary: We introduce WavCraft, a collective system that leverages large language models (LLMs) to connect diverse task-specific models for audio content creation and editing. Specifically, WavCraft describes the content of raw audio materials in natural language and prompts the LLM conditioned on audio descriptions and user requests. WavCraft leverages the in-context learning ability of the LLM to decompo...
+
+--- [9] 2002.04678v1 ---
+Title: Adjusting Image Attributes of Localized Regions with Low-level Dialogue
+Authors: Tzu-Hsiang Lin, Alexander Rudnicky, Trung Bui, Doo Soon Kim, Jean Oh
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2020-02-11
+Summary: Natural Language Image Editing (NLIE) aims to use natural language instructions to edit images. Since novices are inexperienced with image editing techniques, their instructions are often ambiguous and contain high-level abstractions that tend to correspond to complex editing steps to accomplish. Motivated by this inexperience aspect, we aim to smooth the learning curve by teaching the novices to ...
+
+--- [10] 1906.01524v1 ---
+Title: Text-based Editing of Talking-head Video
+Authors: Ohad Fried, Ayush Tewari, Michael Zollhöfer, Adam Finkelstein, Eli Shechtman et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.GR, cs.LG
+Published: 2019-06-04
+Summary: Editing talking-head video to change the speech content or to remove filler words is challenging. We propose a novel method to edit talking-head video based on its transcript to produce a realistic output video in which the dialogue of the speaker has been modified, while maintaining a seamless audio-visual flow (i.e. no jump cuts). Our method automatically annotates an input talking-head video wi...
+

@@ -1,0 +1,177 @@
+--- [1] 2608.26517v1 ---
+Title: HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence
+Authors: Fei Ma, Zebang Cheng, Minghui Li, Hongbo Xu, Yuyong Tan et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-27
+Summary: Visual intelligence seeks to perceive, interpret, and synthesize the visual world and is central to modern computer vision. Human-centered visual intelligence is especially demanding because it studies people as expressive, socially situated subjects whose meaning is rarely conveyed by appearance alone. It couples vision with audio and language across four representative tasks: human emotion recog...
+
+--- [2] 2608.18689v2 ---
+Title: Aslema at NADI 2026: Data Augmentation for Intent Recognition and Slot Filling
+Authors: Tajwaar Shafiq, Hunzalah Hassan Bhatti, Firoj Alam, Shammur Absar Chowdhury
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-08-19
+Summary: We present Aslema, our system for NADI 2026 Shared Task 5, which consists of two subtasks: intent recognition and slot filling. We evaluate four omni LLMs in a zero-shot setting and compare them with fine-tuned models. Our results show that fine-tuning consistently outperforms zero-shot inference. We further explore synthetic data augmentation by using an LLM to generate culturally grounded Tunisi...
+
+--- [3] 2608.17492v2 ---
+Title: FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations
+Authors: Feiyu Shen, Kun Xie, Yichen Wu, Ziqi Dai, Yichen Han et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-18
+Summary: Recent continuous autoregressive TTS models operate directly on continuous speech representations, preserving rich acoustic details while leveraging the instruction-following capabilities of text LLMs. This paradigm opens new possibilities for voice cloning, instruction-controlled voice design, and speech editing, but remains susceptible to error accumulation during autoregressive generation. Exis...
+
+--- [4] 2608.11650v1 ---
+Title: Confucius4-TTS: Transcript-Free Cross-Lingual Zero-Shot TTS with a Learnable Speaker Encoder
+Authors: Huaxuan Wang, Huimin Wang, Ruiyu Zhang, Yingjie Li, Yitao Duan
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-08-12
+Summary: Recent advances in zero-shot text-to-speech (TTS) have substantially improved speech quality and voice cloning fidelity. However, many zero-shot TTS systems still depend on audio prompt transcripts at inference time. This dependency limits cross-lingual voice cloning, since in-the-wild reference audio is often untranscribed. In this technical report, we present Confucius4-TTS, a multilingual zero-...
+
+--- [5] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+
+--- [6] 2608.08638v2 ---
+Title: CuteTTS: Efficient and High-Quality Speech Synthesis via Autoregressive Modeling of Continuous Latents
+Authors: Yuqian Zhang, Yao Shi, Kexin Huang, Botian Jiang, Zhe Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-09
+Summary: Zero-shot text-to-speech (TTS) now supports interactive assistants, personalized media, and accessibility tools. All TTS systems require faithful linguistic rendering, consistent speaker identity, and low-latency response. Yet compact streaming systems must preserve sufficient acoustic detail in a predictable low-rate latent sequence, while iterative diffusion sampling and classifier-free guidance...
+
+--- [7] 2608.08362v1 ---
+Title: CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis
+Authors: Zhisheng Zheng, Xiaohang Sun, Zhu Liu, Caren Chen, Rohith Kumar et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.HC, cs.SD
+Published: 2026-08-08
+Summary: Recent Text-To-Speech (TTS) systems have achieved strong naturalness and zero-shot voice cloning performance, but fine-grained control of expressive speech at the word or phoneme level remains challenging. We propose CtrlSpeech, a controllable, expressive TTS framework with coarse-to-fine control. Built on the DiTAR architecture, CtrlSpeech combines global speaker conditioning with phone-aligned p...
+
+--- [8] 2607.26742v1 ---
+Title: Zero-Shot Face-to-Speech Synthesis via Latent Space Adaptation of a Style-Diffusion TTS Model
+Authors: Carlos Muñoz-Romero, Jose A. Gonzalez-Lopez
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2026-07-29
+Summary: Zero-shot text-to-speech (TTS) clones a voice from a short audio prompt, but this reliance on reference audio is a barrier when only visual information is available, e.g. for historical figures or video-game characters. In this work, we propose a Face-to-Speech (F2S) framework that predicts a plausible voice from a static facial image. A lightweight Face Adapter, together with soft-tuning of the f...
+
+--- [9] 2607.14753v1 ---
+Title: Large Audio Language Models for Spoofing-Aware Speaker Verification
+Authors: Sofya Savelyeva, Mariia Perunova, Evgeny Kushnir, Artem Dvirniak, Dmitrii Korzh et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-16
+Summary: Recent advances in text-to-speech and voice cloning make high-quality spoofing inexpensive and scalable, threatening voice authentication systems, especially automatic speaker verification (ASV). Existing defenses mainly address this threat through binary countermeasures (CMs) for deepfake detection or spoofing-aware speaker verification (SASV), where current systems are dominated by modular ASV-C...
+
+--- [10] 2609.04222v1 ---
+Title: GEPARD - Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue
+Authors: Denis Pavlov, Ulanbek Abdurazakov, Nursultan Bakashov
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2026-07-04
+Summary: We present GEPARD (Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue), a streaming text-to-speech model for real-time spoken dialogue. GEPARD generates speech autoregressively with an LLM backbone - text and audio embeddings are trained together in a single decoder-only model - and decodes it to a waveform with an FSQ-based neural codec, streaming audio chunk-by-...
+
+--- [11] 2606.21888v1 ---
+Title: ProsoCodec: Prosody-Oriented Speech Codec for Voice Conversion
+Authors: Jeongsoo Choi, Ji-Hoon Kim, Shujie Hu, Joon Son Chung
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-20
+Summary: Neural speech codecs efficiently compress speech and have become a foundation for speech generation, but they are typically learned as holistic representations that intertwine linguistic content, speaker identity, and prosody. While this design is effective for zero-shot voice cloning, it hinders downstream tasks that require prosody preservation or transfer, such as voice conversion. To address t...
+
+--- [12] 2606.19823v1 ---
+Title: Low-Burden Data Augmentation for Dysarthric ASR via Zero-Shot Voice Cloning
+Authors: Satwinder Singh, Qianli Wang, Zihan Zhong, Clarion Mendes,  Hasegawa-Johnson et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.LG
+Published: 2026-06-18
+Summary: Automatic speech recognition remains unreliable for dysarthric speech due to data scarcity and high inter-speaker variability. While synthetic data can address these gaps, traditional methods often require extensive speaker-specific data, reintroducing the collection bottleneck. We investigate zero-shot voice cloning as a low-burden augmentation strategy, using Higgs Audio V2 to clone speakers in ...
+
+--- [13] 2606.09141v2 ---
+Title: FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation
+Authors: Hanke Xie, Xiaming Ren, Dake Guo, Ruonan You, Wenhao Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-08
+Summary: Recent progress in speech dialogue systems requires Text-to-Speech (TTS) models to be faster and more responsive. Modern speech dialogue systems impose two primary requirements on TTS models: low latency and support for streaming inputs and outputs. However, most existing single-codebook LLM-based TTS methods rely on multi-stage pipelines that lack native streaming capabilities. These systems typi...
+
+--- [14] 2606.09048v1 ---
+Title: BareWave: Waveform-Native Flow-Matching Text-to-Speech
+Authors: Wei Fan, Chao-Hong Tan, Qian Chen, Wen Wang, Xiangang Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2026-06-08
+Summary: Removing intermediate representations and separately trained decoding stages has become an important direction in generative modeling. In text-to-speech, however, high-quality systems are still commonly built through an intermediate acoustic representation before waveform synthesis. In this work, we present BareWave, a fully waveform-native framework for direct text-to-wave generation in flow-matc...
+
+--- [15] 2606.07015v2 ---
+Title: Towards Unified Song Generation and Singing Voice Conversion with Accompaniment Co-Generation
+Authors: Ziyu Zhang, Chunyu Qiang, Xiaopeng Wang, Yuxin Guo, Kang Yin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-05
+Summary: While song generation and singing voice conversion (SVC) have evolved significantly, they have long been developed isolated: the former lacks zero-shot speaker cloning, while the latter overlooks vocal-accompaniment synergy. To bridge this gap, we propose UniSinger, the first end-to-end framework unifying speaker cloning song generation and accompaniment co-generation SVC. Building on the multimod...
+
+--- [16] 2606.06928v1 ---
+Title: VoxCPM2 Technical Report
+Authors: Yixuan Zhou, Guoyang Zeng, Xin Liu, Xiang Li, Renjie Yu et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-06-05
+Summary: We present VoxCPM2, a https://info.arxiv.org/help/prep#abstractsfully open-source multilingual and controllable speech generation foundation model that extends the hierarchical diffusion-autoregressive modeling paradigm of VoxCPM. VoxCPM2 advances the framework in three key dimensions: (i) capability, by unifying 30 languages, 9 Chinese dialects, natural-language voice design, style-controllable v...
+
+--- [17] 2605.27258v2 ---
+Title: PilotTTS: A Disciplined Modular Recipe for Competitive Speech Synthesis
+Authors: Bowen Li, Shaotong Guo, Zhen Wang, Yang Xiang, Mingli Jin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-05-26
+Summary: Building state-of-the-art text-to-speech (TTS) systems typically demands millions of hours of proprietary data and complex multi-stage architectures, creating substantial barriers for resource-constrained research teams. In this report, we present PilotTTS, a lightweight autoregressive TTS system that achieves competitive performance through minimalist architecture and rigorous data engineering. P...
+
+--- [18] 2605.05611v2 ---
+Title: X-Voice: Enabling Everyone to Speak 30 Languages via Zero-Shot Cross-Lingual Voice Cloning
+Authors: Rixi Xu, Qingyu Liu, Haitao Li, Yushen Chen, Zhikang Niu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-05-07
+Summary: In this paper, we present X-Voice, a 0.4B multilingual zero-shot voice cloning model that clones arbitrary voices and enables everyone to speak 30 languages. X-Voice is trained on a 420K-hour multilingual corpus using the International Phonetic Alphabet (IPA) as a unified representation. To eliminate the reliance on prompt text without complex preprocessing like forced alignment, we design a two-s...
+
+--- [19] 2605.02223v1 ---
+Title: Toward Fine-Grained Speech Inpainting Forensics:A Dataset, Method, and Metric for Multi-Region Tampering Localization
+Authors: Tung Vu, Yen Nguyen, Hai Nguyen, Cuong Pham, Cong Tran
+Primary cat: cs.SD | All cats: cs.SD, cs.CV
+Published: 2026-05-04
+Summary: Recent advances in voice cloning and text-to-speech synthesis have made partial speech manipulation - where an adversary replaces a few words within an utterance to alter its meaning while preserving the speaker's identity - an increasingly realistic threat. Existing audio deepfake detection benchmarks focus on utterance-level binary classification or single-region tampering, leaving a critical ga...
+
+--- [20] 2604.22821v2 ---
+Title: Audio2Tool: Speak, Call, Act -- A Dataset for Benchmarking Speech Tool Use
+Authors: Ramit Pahwa, Apoorva Beedu, Parivesh Priye, Rutu Gandhi, Saloni Takawale et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-04-17
+Summary: Voice assistants increasingly rely on Speech Language Models (SpeechLMs) to interpret spoken queries and execute complex tasks, yet existing benchmarks lack domain breadth, acoustic diversity, and compositional reasoning complexity to evaluate tool-calling performance. We introduce Audio2Tool, a large-scale dataset comprising approximately 30,000 queries designed to assess tool-calling capabilitie...
+
+--- [21] 2605.27383v1 ---
+Title: Bridging the Stability-Expressivity Gap: Synthetic Data Scaling and Preference Alignment for Low-Resource Spoken Language Models
+Authors: Yizhong Geng, Yanliang Li, Jinghan Yang, Tianhan Jiang, Boxun An et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-04-10
+Summary: Spoken Language Models (SLMs) have emerged as a promising paradigm for speech synthesis by bypassing explicit grapheme-to-phoneme pipelines. However, their effectiveness in low-resource languages remains fundamentally limited by the scarcity of transcribed speech. In practice, synthetic data has become the primary strategy for scaling SLMs in such settings, providing reliable phonetic supervision ...
+
+--- [22] 2604.01760v1 ---
+Title: T5Gemma-TTS Technical Report
+Authors: Chihiro Arata, Kiyoshi Kurihara
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-02
+Summary: Autoregressive neural codec language models have shown strong zero-shot voice cloning ability, but decoder-only architectures treat input text as a prefix that competes with the growing audio sequence for positional capacity, weakening text conditioning over long utterances. We present T5Gemma-TTS, an encoder-decoder codec language model that maintains persistent text conditioning by routing bidir...
+
+--- [23] 2603.29339v1 ---
+Title: LongCat-AudioDiT: High-Fidelity Diffusion Text-to-Speech in the Waveform Latent Space
+Authors: Detai Xin, Shujie Hu, Chengzuo Yang, Chen Huang, Guoqiao Yu et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-03-31
+Summary: We present LongCat-AudioDiT, a novel, non-autoregressive diffusion-based text-to-speech (TTS) model that achieves state-of-the-art (SOTA) performance. Unlike previous methods that rely on intermediate acoustic representations such as mel-spectrograms, the core innovation of LongCat-AudioDiT lies in operating directly within the waveform latent space. This approach effectively mitigates compounding...
+
+--- [24] 2603.19739v1 ---
+Title: MOSS-TTSD: Text to Spoken Dialogue Generation
+Authors: Yuqian Zhang, Donghua Yu, Zhengyuan Lin, Botian Jiang, Mingshu Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-03-20
+Summary: Spoken dialogue generation is crucial for applications like podcasts, dynamic commentary, and entertainment content, but poses significant challenges compared to single-utterance text-to-speech (TTS). Key requirements include accurate turn-taking, cross-turn acoustic consistency, and long-form stability, which current models often fail to address due to a lack of dialogue context modeling. To brid...
+
+--- [25] 2603.18090v2 ---
+Title: MOSS-TTS Technical Report
+Authors: Yitian Gong, Botian Jiang, Yiwei Zhao, Yucheng Yuan, Kuangwei Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-03-18
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Azero-shot+AND+abs%3Avoice+AND+abs%3Acloning&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: This technical report presents MOSS-TTS, a speech generation foundation model built on a scalable recipe: discrete audio tokens, autoregressive modeling, and large-scale pretraining. Built on MOSS-Audio-Tokenizer, a causal Transformer tokenizer that compresses 24 kHz audio to 12.5 fps with variable-bitrate RVQ and unified semantic-acoustic representations, we release two complementary generators: ...
+

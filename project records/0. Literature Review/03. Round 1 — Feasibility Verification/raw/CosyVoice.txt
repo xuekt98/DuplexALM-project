@@ -1,0 +1,107 @@
+--- [1] 2608.30325v1 ---
+Title: Sequential Trajectories and Simultaneous Blending: Multi-Emotion Modeling for Instruction-Following TTS
+Authors: Yan Zhou, Yun Hong, Yang Feng
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-08-31
+Summary: Natural-language instructions enable flexible control of synthesized speech, yet emotional TTS systems primarily model a single utterance-level affect, leaving multi-emotion control underexplored. We study two complementary multi-emotion TTS tasks: emotion trajectory, which spans several ordered affective stages, and emotion blending, in which multiple emotions coexist throughout an utterance. The...
+
+--- [2] 2608.10606v1 ---
+Title: ASR-Roundtrip Evaluation Can Mask Context- and Convention-Dependent Reading Errors in Chinese News TTS
+Authors: Shijun Luo, Lizhi Wan
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-11
+Summary: ASR-roundtrip evaluation is widely used as a scalable proxy for text-to-speech (TTS) intelligibility, but it can produce false negatives for reading errors perceived by listeners. We study Chinese news TTS spans whose correct reading depends on context or domain conventions, such as sports scores, aircraft models, technical units, and membership names. In these cases, Raw TTS can choose a plausibl...
+
+--- [3] 2607.23027v1 ---
+Title: Singlish, Can or Not? Fine-Tuning and Evaluating Zero-Shot TTS for Singapore English
+Authors: Ivan Kukanov, Zheng Xin Chai
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-25
+Summary: Zero-shot text-to-speech (ZS-TTS) achieves near-human quality for standard English, but it copies regional accents poorly. Prompted with a short Singlish utterance, state-of-the-art systems reproduce a speaker's timbre while flattening the accent toward generic English. We investigate whether targeted fine-tuning off-the-shelf ZS-TTS can close the gap for Singapore English (Singlish). We fine-tune...
+
+--- [4] 2607.17615v1 ---
+Title: Re-Sonance: A Dysarthric Asynchronous Real-Time Speech Conversion System Based on a Three-Stage Cascaded ASR-LLM-TTS Architecture
+Authors: Yuxuan Wu, Yifan Xu, Junkun Wang, Jiayong Jiang, Xin Zhao et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-20
+Summary: Individuals with dysarthria face significant challenges in professional speaking scenarios such as conferences, presentations, and meetings, where real-time communication is crucial. While existing Augmentative and Alternative Communication (AAC) systems provide basic support, they often fail to meet the demands of professional speaking environments due to high latency and unnatural speech pattern...
+
+--- [5] 2606.23190v2 ---
+Title: FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech
+Authors: Haoxu Wang, Biao Tian, Weiqin Li, Xiang Lv, Han Zhao et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-22
+Summary: Existing Reinforcement Learning (RL) research for Text-to-Speech (TTS) focuses on large language models (LLMs), leaving Flow-Matching (FM) under-explored. We present FlowTTS-GRPO, an online RL framework for FM-based TTS. By converting ordinary differential equation (ODE) trajectories into stochastic differential equation (SDE) paths, our method enables direct fine-tuning of open-source FM models w...
+
+--- [6] 2605.20830v2 ---
+Title: Raon-OpenTTS: Open Models and Data for Robust Text-to-Speech
+Authors: Semin Kim, Seungjun Chung, Taehong Moon, Sangheon Lee, Minyoung Ahn et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-20
+Summary: Recent advances in text-to-speech (TTS) models show impressive speech naturalness and quality, yet the role of large-scale open data in driving this progress remains underexplored. In this work, we introduce Raon-OpenTTS, an open TTS model that performs competitively with state-of-the-art closed-data TTS models, and Raon-OpenTTS-Pool, a large-scale open dataset for reproducible TTS training. Raon-...
+
+--- [7] 2603.26364v1 ---
+Title: LLaDA-TTS: Unifying Speech Synthesis and Zero-Shot Editing via Masked Diffusion Modeling
+Authors: Xiaoyu Fan, Huizhi Xie, Wei Zou, Yunzhang Chen
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-27
+Summary: Large language model (LLM)-based text-to-speech (TTS) systems achieve remarkable naturalness via autoregressive (AR) decoding, but require N sequential steps to generate N speech tokens. We present LLaDA-TTS, which replaces the AR LLM with a masked diffusion model that completes generation in a fixed number of parallel steps, decoupling inference latency from sequence length. Remarkably, using onl...
+
+--- [8] 2603.06444v1 ---
+Title: Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input
+Authors: Changsong Liu, Tianrui Wang, Ye Ni, Yizhou Peng, Eng Siong Chng
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-03-06
+Summary: Streaming TTS that receives streaming text is essential for interactive systems, yet this scheme faces two major challenges: unnatural prosody due to missing lookahead and long-form collapse due to unbounded context. We propose a prosodic-boundary-aware post-training strategy, adapting a pretrained LLM-based TTS model using weakly time-aligned data. Specifically, the model is adapted to learn earl...
+
+--- [9] 2601.05329v2 ---
+Title: CosyEdit: Unlocking End-to-End Speech Editing Capability from Zero-Shot Text-to-Speech Models
+Authors: Junyang Chen, Yuhang Jia, Hui Wang, Jiaming Zhou, Yong Qin
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-01-08
+Summary: Automatic speech editing aims to modify spoken content based on textual instructions, yet traditional cascade systems rely on explicit temporal alignment and complex preprocessing. To address these limitations, we propose CosyEdit, an end-to-end speech editing model adapted from CosyVoice through task-specific post-training and a complementary training paradigm, which internalizes text--speech ali...
+
+--- [10] 2512.04552v3 ---
+Title: RRPO: Robust Reward Policy Optimization for LLM-based Emotional TTS
+Authors: Cong Wang, Changfeng Gao, Yang Xiang, Zhihao Du, Keyu An et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-12-04
+Summary: Differentiable reinforcement learning (RL) frameworks like DiffRO offer a powerful approach for controllable text-to-speech (TTS), but are vulnerable to reward hacking, particularly for nuanced tasks like emotion control. The policy model can exploit a vanilla Reward Model (RM) by generating acoustic artifacts to achieve spurious rewards, but at the cost of degrading perceptual quality. To address...
+
+--- [11] 2511.07821v2 ---
+Title: SynTTS-Commands: A Public Dataset for On-Device KWS via TTS-Synthesized Multilingual Speech
+Authors: Lu Gan, Xi Li
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-11-11
+Summary: The development of high-performance, on-device keyword spotting (KWS) systems for ultra-low-power hardware is critically constrained by the scarcity of specialized, multi-command training datasets. Traditional data collection through human recording is costly, slow, and lacks scalability. This paper introduces SYNTTS-COMMANDS, a novel, multilingual voice command dataset entirely generated using st...
+
+--- [12] 2506.14226v1 ---
+Title: Investigation of Zero-shot Text-to-Speech Models for Enhancing Short-Utterance Speaker Verification
+Authors: Yiyang Zhao, Shuai Wang, Guangzhi Sun, Zehua Chen, Chao Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-06-17
+Summary: Short-utterance speaker verification presents significant challenges due to the limited information in brief speech segments, which can undermine accuracy and reliability. Recently, zero-shot text-to-speech (ZS-TTS) systems have made considerable progress in preserving speaker identity. In this study, we explore, for the first time, the use of ZS-TTS systems for test-time data augmentation for spe...
+
+--- [13] 2505.17589v2 ---
+Title: CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training
+Authors: Zhihao Du, Changfeng Gao, Yuxuan Wang, Fan Yu, Tianyu Zhao et al.
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ACosyVoice&max_results=15&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-05-23
+Summary: In our prior works, we introduced a scalable streaming speech synthesis model, CosyVoice 2, which integrates a large language model (LLM) and a chunk-aware flow matching (FM) model, and achieves low-latency bi-streaming speech synthesis and human-parity quality. Despite these advancements, CosyVoice 2 exhibits limitations in language coverage, domain diversity, data volume, text formats, and post-...
+
+--- [14] 2505.04113v2 ---
+Title: Advancing Zero-shot Text-to-Speech Intelligibility across Diverse Domains via Preference Alignment
+Authors: Xueyao Zhang, Yuancheng Wang, Chaoren Wang, Ziniu Li, Zhuo Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-05-07
+Summary: Modern zero-shot text-to-speech (TTS) systems, despite using extensive pre-training, often struggle in challenging scenarios such as tongue twisters, repeated words, code-switching, and cross-lingual synthesis, leading to intelligibility issues. To address these limitations, this paper leverages preference alignment techniques, which enable targeted construction of out-of-pretraining-distribution ...
+
+--- [15] 2504.03289v1 ---
+Title: RWKVTTS: Yet another TTS based on RWKV-7
+Authors: Lin yueyu, Liu Xiao
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2025-04-04
+Summary: Human-AI interaction thrives on intuitive and efficient interfaces, among which voice stands out as a particularly natural and accessible modality. Recent advancements in transformer-based text-to-speech (TTS) systems, such as Fish-Speech, CosyVoice, and MegaTTS 3, have delivered remarkable improvements in quality and realism, driving a significant evolution in the TTS domain. In this paper, we in...
+

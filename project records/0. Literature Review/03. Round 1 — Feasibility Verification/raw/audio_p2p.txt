@@ -1,0 +1,142 @@
+--- [1] 2609.08275v1 ---
+Title: Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation
+Authors: Tianyi Zeng, Junchao Liao, Yujie Wei, Ziying Zhang, Litao Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Recent multi-shot audio-video generators can produce increasingly coherent and cinematic outputs, but coherence does not imply the ability to execute editing techniques. Professional editing depends on shot structure, transition grammar, audio-video cut relations, and montage, yet existing benchmarks largely rely on proxies such as content quality, synchronization, or physical plausibility, system...
+
+--- [2] 2607.23588v1 ---
+Title: JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents
+Authors: Yunlong Lin, Zixu Lin, Zhaohu Xing, Biqiang Li, Chenxin Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Creative AI is moving from single-step asset generation toward long-horizon multimodal production. Although recent generative models can synthesize high-quality images, videos, audio clips, UI elements, storyboards, slides, and other creative assets, real-world creative work requires more than isolated prompt-output interactions. It involves references, drafts, alternatives, edits, failed attempts...
+
+--- [3] 2607.08705v2 ---
+Title: HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales
+Authors: Wenbo Xu, Zhimin Chen, Xiaojie Liang, Hengrui Liu, Ziqi Sheng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-09
+Summary: Rapid advancements in video diffusion models and temporal editing tools have enabled the generation of highly realistic human-centric videos, presenting unprecedented challenges to digital content forensics. Existing benchmarks primarily focus on face-swapping or global text-to-video synthesis, overlooking the crucial dimensions of multimodal alignment and complex human-object or human-human inter...
+
+--- [4] 2606.15149v2 ---
+Title: EchoEdit: Stabilizing Inversion-Free Audio Editing via Optimal Transport Geometry
+Authors: Zhongyuan Fu, Yuhang Jia, Hui Wang, Pengjun Chen, Jian Gao et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-06-13
+Summary: Text-guided audio editing with pretrained generative models is commonly implemented through inversion or noising. This topology induces a structural trade-off, as stronger edits require deeper corruption of the very rhythm, transients, timbre, and long-range form that should remain unchanged. Here, we introduce EchoEdit, a training-free and inversion-free framework for real-audio editing that dire...
+
+--- [5] 2605.17991v1 ---
+Title: Stable Audio 3
+Authors: Zach Evans, Julian D. Parker, Matthew Rice, CJ Carr, Zack Zukowski et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-05-18
+Summary: Stable Audio 3 is a family of fast latent diffusion models (small, medium, large) for variable-length audio generation and editing. Since our models can generate several minutes of audio, variable-length generations are key to avoid the cost of producing full-length generations for short sounds. We also support inpainting, enabling targeted audio editing and the continuation of short recordings. O...
+
+--- [6] 2602.21818v3 ---
+Title: SkyReels-V4: Multi-modal Video-Audio Generation, Inpainting and Editing model
+Authors: Guibin Chen, Dixuan Lin, Jiangping Yang, Youqiang Zhang, Zhengcong Fei et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-25
+Summary: SkyReels V4 is a unified multi modal video foundation model for joint video audio generation, inpainting, and editing. The model adopts a dual stream Multimodal Diffusion Transformer (MMDiT) architecture, where one branch synthesizes video and the other generates temporally aligned audio, while sharing a powerful text encoder based on the Multimodal Large Language Models (MLLM). SkyReels V4 accept...
+
+--- [7] 2601.22127v1 ---
+Title: EditYourself: Audio-Driven Generation and Manipulation of Talking Head Videos with Diffusion Transformers
+Authors: John Flynn, Wolfgang Paier, Dimitar Dinev, Sam Nhut Nguyen, Hayk Poghosyan et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.GR, cs.LG, cs.MM
+Published: 2026-01-29
+Summary: Current generative video models excel at producing novel content from text and image prompts, but leave a critical gap in editing existing pre-recorded videos, where minor alterations to the spoken script require preserving motion, temporal coherence, speaker identity, and accurate lip synchronization. We introduce EditYourself, a DiT-based framework for audio-driven video-to-video (V2V) editing t...
+
+--- [8] 2601.21463v3 ---
+Title: Unifying Speech Editing Detection and Content Localization via Prior-Enhanced Audio LLMs
+Authors: Jun Xue, Yi Chai, Yanzhen Ren, Jinshen He, Zhiqiang Tang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-01-29
+Summary: Existing speech editing detection (SED) datasets are predominantly constructed using manual splicing or limited editing operations, resulting in restricted diversity and poor coverage of realistic editing scenarios. Meanwhile, current SED methods rely heavily on frame-level supervision to detect observable acoustic anomalies, which fundamentally limits their ability to handle deletion-type edits, ...
+
+--- [9] 2512.07209v2 ---
+Title: Coherent Audio-Visual Editing via Conditional Audio Generation Following Video Edits
+Authors: Masato Ishii, Akio Hayakawa, Takashi Shibuya, Yuki Mitsufuji
+Primary cat: cs.MM | All cats: cs.MM, cs.LG, cs.SD
+Published: 2025-12-08
+Summary: We introduce a novel pipeline for joint audio-visual editing that enhances the coherence between edited video and its accompanying audio. Our approach first applies state-of-the-art video editing techniques to produce the target video, then performs audio editing to align with the visual changes. To achieve this, we present a new video-to-audio generation model that conditions on the source audio,...
+
+--- [10] 2511.21146v1 ---
+Title: AV-Edit: Multimodal Generative Sound Effect Editing via Audio-Visual Semantic Joint Control
+Authors: Xinyue Guo, Xiaoran Yang, Lipan Zhang, Jianxuan Yang, Zhao Wang et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2025-11-26
+Summary: Sound effect editing-modifying audio by adding, removing, or replacing elements-remains constrained by existing approaches that rely solely on low-level signal processing or coarse text prompts, often resulting in limited flexibility and suboptimal audio quality. To address this, we propose AV-Edit, a generative sound effect editing framework that enables fine-grained editing of existing audio tra...
+
+--- [11] 2511.03227v2 ---
+Title: Node-Based Editing for Multimodal Generation of Text, Audio, Image, and Video
+Authors: Alexander Htet Kyaw, Lenin Ravindranath Sivalingam
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.MM
+Published: 2025-11-05
+Summary: We present a node-based storytelling system for multimodal content generation. The system represents stories as graphs of nodes that can be expanded, edited, and iteratively refined through direct user edits and natural-language prompts. Each node can integrate text, images, audio, and video, allowing creators to compose multimodal narratives. A task selection agent routes between specialized gene...
+
+--- [12] 2510.22810v1 ---
+Title: MAGIC-Talk: Motion-aware Audio-Driven Talking Face Generation with Customizable Identity Control
+Authors: Fatemeh Nazarieh, Zhenhua Feng, Diptesh Kanojia, Muhammad Awais, Josef Kittler
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-10-26
+Summary: Audio-driven talking face generation has gained significant attention for applications in digital media and virtual avatars. While recent methods improve audio-lip synchronization, they often struggle with temporal consistency, identity preservation, and customization, especially in long video generation. To address these issues, we propose MAGIC-Talk, a one-shot diffusion-based framework for cust...
+
+--- [13] 2510.22795v1 ---
+Title: SAO-Instruct: Free-form Audio Editing using Natural Language Instructions
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aprompt-based+AND+abs%3Aedit&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Michael Ungersböck, Florian Grötschla, Luca A. Lanzendörfer, June Young Yi, Changho Choi et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2025-10-26
+Summary: Generative models have made significant progress in synthesizing high-fidelity audio from short textual descriptions. However, editing existing audio using natural language has remained largely underexplored. Current approaches either require the complete description of the edited audio or are constrained to predefined edit instructions that lack flexibility. In this work, we introduce SAO-Instruc...
+
+--- [14] 2509.16975v2 ---
+Title: Interpretable Audio Editing Evaluation via Chain-of-Thought Difference-Commonality Reasoning with Multimodal LLMs
+Authors: Yuhang Jia, Xu Zhang, Yang Chen, Hui Wang, Enzhi Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-09-21
+Summary: Automatic mean opinion score (MOS) prediction serves as a principled alternative to both subjective listening tests and objective metrics, providing scalable and consistent audio evaluation. Inspired by the LLM-as-Judge paradigm, recent multimodal large language models offer strong perceptual modeling and reasoning capabilities, enabling audio quality assessment. In this work, we address the chall...
+
+--- [15] 2509.14003v2 ---
+Title: RFM-Editing: Rectified Flow Matching for Text-guided Audio Editing
+Authors: Liting Gao, Yi Yuan, Yaru Chen, Yuelan Cheng, Zhenbo Li et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2025-09-17
+Summary: Diffusion models have shown remarkable progress in text-to-audio generation. However, text-guided audio editing remains in its early stages. This task focuses on modifying the target content within an audio signal while preserving the rest, thus demanding precise localization and faithful editing according to the text prompt. Existing training-based and zero-shot methods that rely on full-caption ...
+
+--- [16] 2507.11096v1 ---
+Title: EditGen: Harnessing Cross-Attention Control for Instruction-Based Auto-Regressive Audio Editing
+Authors: Vassilis Sioros, Alexandros Potamianos, Giorgos Paraskevopoulos
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-07-15
+Summary: In this study, we investigate leveraging cross-attention control for efficient audio editing within auto-regressive models. Inspired by image editing methodologies, we develop a Prompt-to-Prompt-like approach that guides edits through cross and self-attention mechanisms. Integrating a diffusion-based strategy, influenced by Auffusion, we extend the model's functionality to support refinement edits...
+
+--- [17] 2506.15530v1 ---
+Title: Diff-TONE: Timestep Optimization for iNstrument Editing in Text-to-Music Diffusion Models
+Authors: Teysir Baoueb, Xiaoyu Bie, Xi Wang, Gaël Richard
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS, eess.SP
+Published: 2025-06-18
+Summary: Breakthroughs in text-to-music generation models are transforming the creative landscape, equipping musicians with innovative tools for composition and experimentation like never before. However, controlling the generation process to achieve a specific desired outcome remains a significant challenge. Even a minor change in the text prompt, combined with the same random seed, can drastically alter ...
+
+--- [18] 2505.08203v2 ---
+Title: Not that Groove: Zero-Shot Symbolic Music Editing
+Authors: Li Zhang
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2025-05-13
+Summary: While recent advancements in AI music generation have predominantly focused on direct audio synthesis, these systems suffer from inherent rigidity, limiting their utility for professional music producers who require granular, highly malleable creative control. Symbolic music (e.g., MIDI) resolves this constraint by providing editable note-level parameters, yet the natural progression to instructio...
+
+--- [19] 2503.03134v1 ---
+Title: Making AI-Enhanced Videos: Analyzing Generative AI Use Cases in YouTube Content Creation
+Authors: Torin Anderson, Shuo Niu
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-03-05
+Summary: Generative AI (GenAI) tools enhance social media video creation by streamlining tasks such as scriptwriting, visual and audio generation, and editing. These tools enable the creation of new content, including text, images, audio, and video, with platforms like ChatGPT and MidJourney becoming increasingly popular among YouTube creators. Despite their growing adoption, knowledge of their specific us...
+
+--- [20] 2412.03220v1 ---
+Title: Survey of different Large Language Model Architectures: Trends, Benchmarks, and Challenges
+Authors: Minghao Shao, Abdul Basit, Ramesh Karri, Muhammad Shafique
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2024-12-04
+Summary: Large Language Models (LLMs) represent a class of deep learning models adept at understanding natural language and generating coherent responses to various prompts or queries. These models far exceed the complexity of conventional neural networks, often encompassing dozens of neural network layers and containing billions to trillions of parameters. They are typically trained on vast datasets, util...
+

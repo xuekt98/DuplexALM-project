@@ -1,0 +1,142 @@
+--- [1] 2609.06837v1 ---
+Title: BinauralVAE: Spatial Audio Reconstruction For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-06
+Summary: Embodied artificial intelligence has historically very much relied on visual perception, leading to a proliferation of multiple vision-centric world models. However, this reliance fails to capture spatial understanding in its entirety and can even present vulnerabilities in environments with visual occlusions, low-light conditions, or blackouts-scenarios, where acoustic information becomes a criti...
+
+--- [2] 2609.03502v1 ---
+Title: Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech
+Authors: Kunat Pipatanakul, Potsawee Manakul, Warit Sirichotedumrong, Sittipong Sripaisarnmongkol, Pakorn Nathong et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-03
+Summary: In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus. We study a third route: using a large voice-cloning model as a programmable data source to turn a short voice reference (e.g., 15 seconds) into a compact fixed-voice student trained entirely on synthet...
+
+--- [3] 2609.02623v1 ---
+Title: Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction
+Authors: Kenichi Fujita, Yusuke Ijima
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-02
+Summary: Voice actors often re-read the same script while modifying their delivery in response to performance directions. We study this setting as direction-following TTS, where a system generates a new utterance that reflects a given direction relative to a reference utterance while preserving speaker identity and linguistic content. A key challenge is the lack of training data capturing such relative mod...
+
+--- [4] 2609.02376v1 ---
+Title: Removing Speech, Keeping Activities: A Privacy Firewall for Acoustic Sensing in Assisted Living
+Authors: Pavlos Nicolaou, Christos Efstratiou
+Primary cat: cs.SD | All cats: cs.SD, cs.CR, cs.HC
+Published: 2026-09-02
+Summary: Acoustic sensing offers a promising non-intrusive approach for monitoring daily activities of older adults, yet speech privacy concerns remain a critical barrier to real-world deployment. We present a privacy firewall pipeline based on a U-Net encoder-decoder, trained entirely on synthetic data, that removes speech from ambient audio while preserving environmental sounds indicative of daily activi...
+
+--- [5] 2609.01725v1 ---
+Title: From Visual Cues to Spoken Narration: Rethinking Audio Description
+Authors: Akshita Gupta, Aditya Arora, Federico Tombari, Marcus Rohrbach, Anna Rohrbach
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-01
+Summary: Audio Description (AD) provides spoken narration of visual events during dialogue gaps, making movies accessible to visually impaired audiences. The problem requires determining both what (which visual event) and when (position for inserting the AD) to narrate, to achieve the best user experience. Prior work has largely reduced the problem to video captioning of pre-segmented video clips, i.e., wh...
+
+--- [6] 2608.31106v1 ---
+Title: DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution
+Authors: Jiashu Zhu, Yanhao Zheng, Ruitian Tian, Rujing Dang, Shen Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-08-31
+Summary: Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual dynamics and acoustic events. We present DreamX-Creator 1.0, a compact native joint audio-video generation system centered on a 7B generator. Conditioned on a first frame and a text prompt, the generator jointly denoises modality-specialized audio and video streams. The streams are...
+
+--- [7] 2608.30792v1 ---
+Title: Conjoint Audio-to-Spikes Encoding and Processing for Efficient Neuromorphic Speech Recognition
+Authors: Valentin M. Meunier, Amélie Gruel, Pierre Lewden, Adrien F. Vincent, Sylvain Saïghi
+Primary cat: cs.NE | All cats: cs.NE, cs.AI, cs.LG, eess.AS
+Published: 2026-08-31
+Summary: Obtaining data from neuromorphic sensors and processing it with Spiking Neural Networks is a promising solution to lower the energy cost of artificial intelligence. The current rarity of natively neuromorphic datasets promotes the development of software tools to translate input sensory data into spikes. However, highly bio-mimetic simulators can be challenging to implement on digital hardware. In...
+
+--- [8] 2608.30738v1 ---
+Title: Not All Fallbacks Are Failures: Understanding and Recovering from Fallbacks in Mobile Voice Assistants
+Authors: Phillip Schneider, Alexandre Mercier, Joshua Oehms, Kristiina Jokinen, Florian Matthes
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-31
+Summary: Robust understanding of user input is a core requirement for voice assistants deployed in real-world environments. In practice, these systems encounter heterogeneous fallback situations caused by noisy audio input, transcription errors, ambiguous requests, incomplete utterances, or unintended activations. Existing systems typically respond with generic fallback messages, which do not resolve the u...
+
+--- [9] 2608.28127v1 ---
+Title: Exploring the Design Space of Representation Learning for Audio Transformations
+Authors: Sungho Lee, Marco Martínez-Ramírez, Junghyun Koo, Wei-Hsiang Liao, Kyogu Lee et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-28
+Summary: Neural audio representation learning has enabled a range of content-oriented applications, but the resulting features remain limited for tasks involving audio processing. Furthermore, it is not obvious what processing-aware representations should capture: the processing itself, abstracted away from source content, or the processed audio that retains it. Existing approaches implicitly commit to one...
+
+--- [10] 2608.28693v1 ---
+Title: RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction
+Authors: Zifan Wang, Ziang Ren, Pengyang Shi, Zirui Wang, Chenghuai Lin et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-08-27
+Summary: Enabling humanoid robots to respond to human speech with synchronized and semantically meaningful gestures is fundamental to natural human-robot interaction. However, this task faces three critical barriers: the scarcity of semantically rich datasets, the "modality eclipse" where models ignore audio cues in favor of kinematic inertia, and the sim-to-real gap regarding physical safety. We propose R...
+
+--- [11] 2608.25846v1 ---
+Title: Why ML-based cough models do not generalize: a systematic cross-dataset evaluation for tuberculosis screening
+Authors: Wensi Zhang, Tomas Teijeiro, Jérôme Thevenot, David Atienza
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.SD, eess.SP
+Published: 2026-08-26
+Summary: Cough acoustics are promising for non-invasive tuberculosis (TB) screening, yet whether machine learning (ML) models capture disease-related acoustics or artifacts of data collection remains unresolved. We evaluated the cross-dataset generalizability of classical ML and deep learning (DL) cough-based TB classifiers across three independent datasets. Despite moderate within-dataset performance (ROC...
+
+--- [12] 2608.25529v1 ---
+Title: Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios
+Authors: Hongbo Liu, Peixian Chen, Sihan Liu, Peiyuan Zhang, Kai Zou et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-26
+Summary: Multimodal Large Language Models (MLLMs) have shown strong performance in video understanding. However, their ability to follow instructions in this domain remains under-explored. Real-world video understanding requires models not only to interpret video content correctly, but also to satisfy diverse user-specified constraints. Existing benchmarks focus primarily on task accuracy rather than instr...
+
+--- [13] 2608.24726v1 ---
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Adata+AND+abs%3Apipeline&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: Arbitrary Polygon Oscillator: Generalizing Polygonal Synthesis to Arbitrary Shapes, Morphing, and Three-Dimensional Polyhedra
+Authors: Antonio Argentieri, Francesco Scagliola
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-08-25
+Summary: Polygonal synthesis generates audio by traversing the perimeter of a polygon with a phasor; prior work uses a constant angular velocity, whereas the proposed system adopts constant arc-length (perimeter) velocity. Existing formulations operate on regular, parametrically defined polygons, producing smooth timbral transitions within a single family of shapes. This paper generalizes polygonal synthes...
+
+--- [14] 2608.17852v1 ---
+Title: UniVerse: Benchmarking and Enhancing LALMs on Culturally Inclusive Low-Resource Music Understanding
+Authors: Ziya Zhou, Shangda Wu, Shenyang Xu, Yutong Zheng, Dafang Liang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-08-18
+Summary: Recent advances in large audio-language models (LALMs) have significantly improved performance in tasks such as music captioning, genre classification, and sound event detection. However, limited attention has been paid to improving their adaptability across diverse musical traditions, particularly folk music rooted in distinct cultural contexts. Folk-music traditions are typically resource-scarce...
+
+--- [15] 2608.15734v1 ---
+Title: CineDub: Scaling End-to-End Video Dubbing to Multi-Speaker Dialogues with Coherent Sound Effects
+Authors: Yusheng Dai, Kangdi Wang, Baolong Gao, Yuxuan Jiang, Weiqiang Wang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.MM, cs.SD
+Published: 2026-08-16
+Summary: Automatic video dubbing in the wild remains fundamentally limited by two competing constraints: hierarchical methods depend on brittle, multi-stage preprocessing pipelines that severely restrict data scalability and practical deployment, while holistic approaches operating on uncropped video suffer from weak temporal alignment and speaker-utterance ambiguity in multi-speaker settings. To overcome ...
+
+--- [16] 2608.15296v1 ---
+Title: FMReward: Aligning and Evaluating Audio-Driven 3D Facial Animation with Human Preferences
+Authors: Sijing Wu, Yunhao Li, Zhilin Gao, Huiyu Duan, Yucheng Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-15
+Summary: Audio-driven 3D facial animation is essential for advancing immersion and interactivity in virtual experiences. Although recent advances have shown promising capabilities, the training and evaluation of existing methods typically rely on ground-truth-based errors, which fall short of aligning with human preferences. To address this, we present a comprehensive framework that learns an automatic per...
+
+--- [17] 2608.14792v1 ---
+Title: Prompting is not enough: supervised baselines and leakage control for measuring shared decision-making with LLMs in pediatric encounters
+Authors: Bernardo Modenesi, Jody Lin, Kimberly Kaphingst, Angela Zhu, Maya Wheeler et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG
+Published: 2026-08-14
+Summary: Objectives: To determine whether zero-shot prompting of a large language model (LLM) is sufficient to detect shared decision-making (SDM) behaviors in real clinical encounters, and whether supervised learning adds value under patient-grouped, nested evaluation. Methods: We analyzed 21 audio-recorded outpatient surgical decision encounters (19 unique patients; 7,566 utterance segments; ~6.1 hours) ...
+
+--- [18] 2608.13717v1 ---
+Title: StreamHear: Domain-Adapted Pseudo-Labeling for Semi-Supervised Streaming Speech Recognition
+Authors: Zefang Liu, Chenyang Zhu, Sangwoo Cho, Xujun Peng, Shi-Xiong Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-08-13
+Summary: Streaming automatic speech recognition (ASR) underperforms on domain-shifted target audio, where labeled in-domain data is costly to prepare while unlabeled audio is abundant. We present StreamHear, a semi-supervised pipeline that adapts a pretrained streaming student by fine-tuning an offline transducer teacher on the labeled training set, generating pseudo-labels on the unlabeled portion, and fi...
+
+--- [19] 2608.13558v1 ---
+Title: OmniScientist: An Omni-Modal Omni-Discipline AI Scientist
+Authors: Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-08-13
+Summary: Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scie...
+
+--- [20] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+

@@ -1,0 +1,177 @@
+--- [1] 2609.08275v1 ---
+Title: Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation
+Authors: Tianyi Zeng, Junchao Liao, Yujie Wei, Ziying Zhang, Litao Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Recent multi-shot audio-video generators can produce increasingly coherent and cinematic outputs, but coherence does not imply the ability to execute editing techniques. Professional editing depends on shot structure, transition grammar, audio-video cut relations, and montage, yet existing benchmarks largely rely on proxies such as content quality, synchronization, or physical plausibility, system...
+
+--- [2] 2609.04173v1 ---
+Title: Last Translation Benchmark
+Authors: Vilém Zouhar, Niyati Bafna, Mukund Choudhary, Maike Züfle, Sara Rajaee et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-03
+Summary: For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for machine translation are approaching saturation. Further, automatic translation metrics are unreliable, vulnerable to reward-hacking, and provide unactionable assessments. Even gold human evaluation is...
+
+--- [3] 2609.03414v1 ---
+Title: StrixAE: An Intelligent Agent for Audio Enhancement under Complex Distortion Coupling in Real-World Scenarios
+Authors: Chenglin Wu, Junjie Wu, Jinhang Chen, Mingyang Chen, Zixu Lin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Audio enhancement in real-world scenarios involves complex distortion couplings and requires personalized enhancement. Existing solutions struggle to address both simultaneously. To improve robustness and enable autonomous operation in such scenarios, we propose StrixAE, an agent based on a multimodal large language model (MLLM). StrixAE leverages the MLLM as a controller to coordinate multiple au...
+
+--- [4] 2609.03203v2 ---
+Title: VoxReason: Listener-Free Evaluation of Source-Grounded Speech Planning Before Synthesis
+Authors: Mengzhe Geng
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2026-09-02
+Summary: Expressive speech systems have to decide how an utterance is delivered before any waveform is rendered. In dialogue agents, narration, and role-conditioned TTS, that planning step sets affect, pitch, energy, rate, pause, emphasis, and stance, yet standard audio metrics rarely show whether those choices were actually licensed by the source record. This leaves a practical evaluation gap: a system ma...
+
+--- [5] 2609.03153v1 ---
+Title: VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement
+Authors: Wenzhuo Xu, Yuchen Zhu, Chongjian Ge, Xuan Shen, Jing Shi et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-02
+Summary: Visual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of indicating the obligation a clip violates or the moment it fails. We present VeriPhy, an auditable physical-verification system in which a text-only planner compiles the prompt into typed physical obligations and a statically validated execution plan before any frame is observed....
+
+--- [6] 2609.01481v1 ---
+Title: Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement
+Authors: Haoyang Yan, Min-le Su, Hangfan Zhang, Zhanhao Li, Chen Zhang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-01
+Summary: This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements into complete, functional, and usable software systems without human intervention. We introduce Harness-of-Harness (HoH), a framework that enables coding agents to continually improve software during autonomous development. HoH operates on existing coding-agent harnesses, and orga...
+
+--- [7] 2608.30125v1 ---
+Title: VIBE: Video Instruction-aligned Background music gEneration
+Authors: Aryan Vijay Bhosale, Vaibhavi Lokegaonkar, Vishnu Raj, Gouthaman KV, Sreyan Ghosh et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.CV, cs.LG
+Published: 2026-08-31
+Summary: Current video-to-music (V2M) models lack semantic control and fail to penalize instruction violations, largely due to their reliance on reconstruction objectives and the representational bottleneck of static cross-modal conditioning in Diffusion Autoregressive (DAR) architectures. To resolve this, we introduce VIBE, a novel text-and-video-to-music (T+V2M) generation model that leverages: (1) Condi...
+
+--- [8] 2608.24329v1 ---
+Title: How Do Professional Editors Evaluate the Editing Quality of AI-Generated Cinematic Video Ads?
+Authors: Po-Ming Law, Weizhi Li, Arpit Narechania
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-25
+Summary: On social media, we often encounter short-form video ads that employ cinematic editing techniques to evoke an emotional response. While AI tools are beginning to generate such cinematic ads automatically, we lack a fine-grained framework for evaluating these ads. In this paper, we first characterize social media video ad formats and identify cinematic ads as a recurring format in our corpus. We th...
+
+--- [9] 2608.24048v1 ---
+Title: Don't Just Listen, Try Planning: Graph-based Retrieval-Generation Agent for Long-form Audio Meeting Understanding
+Authors: Quanwei Tang, Dong Zhang, Shoushan Li, Guodong Zhou
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-25
+Summary: While long-form audio meeting understanding (LAMU) is garnering growing attention, task-specific question answering (QA) datasets remain scarce. Existing speech QA paradigms and state-of-the-art Speech LLMs suffer from acoustic information loss and poor long-term context memory. To address these issues, we construct the LongAudioQA dataset and propose the GRGA model, which models heterogeneous aud...
+
+--- [10] 2608.23791v1 ---
+Title: EmoTra-TTS: Smooth Intra-Utterance Emotion Transitions for Speech Synthesis
+Authors: Tianchi Liu, Zeyang Song, Tianrui Wang, Zhipeng Li, Chenglin Xu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-08-24
+Summary: Psychological research on emotion dynamics has established that human affect is a continuous, evolving process: emotions rise, decay, and transition within seconds. Current emotional text-to-speech (TTS) systems, however, condition on a single discrete label or static embedding per utterance, fundamentally misaligning with the temporal nature of affect. While recent LLM-based TTS systems may impli...
+
+--- [11] 2608.10720v2 ---
+Title: Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence
+Authors: Haoyu Zhang, Zhipeng Li, Xiaoying Tang, Tianshu Yu, Yiwen Guo
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-08-11
+Summary: Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, but a spoken answer still leaves the agent visually absent. We introduce \textbf{Ex-Omni-2D}, a framework that answers a multimodal query with coordinated text, personalized speech, and reference-conditioned video. The dialogue model first writes a structured \textit{Visual Thought Plan} (VTP) for scene, emo...
+
+--- [12] 2608.09035v2 ---
+Title: MusicLayout: Explicit Structural Planning for Controllable Text-to-Music Generation
+Authors: Shuyu Li, Kejun Zhang, Jiahe Lei, Shulei Ji, Zihao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM
+Published: 2026-08-10
+Summary: Text-to-music generation has advanced rapidly, but current systems still rely primarily on global text prompts, leaving the structural organization of generated music implicit and difficult to inspect, control, or revise before audio generation. To address this issue, we introduce MusicLayout, an explicit intermediate representation for controlling musical structure in text-to-music generation. Mu...
+
+--- [13] 2608.13602v2 ---
+Title: Omni-LiveAvatar: Minute-Level Real-Time Streaming Joint Audio-Video Avatar Generation
+Authors: Lunjie Zhu, Xingtong Ge, Fangyu Lin, Yi Zhang, Zhening Liu et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-08-07
+Summary: Joint audio-video generative models serve as foundation for immersive and interactive digital-human generation. Nevertheless, most existing models rely on bidirectional attention and multi-step denoising and can generate only short clips, making them unsuitable for real-time interaction over extended durations. We present Omni-LiveAvatar, the first framework for minute-level, real-time streaming j...
+
+--- [14] 2608.05663v2 ---
+Title: Vorch-Streamer: Extending Human Audio-Visual Generation to Real-Time Long-Form Streaming
+Authors: Menglin Han, Yang Ding, Yulei Lu, Haoran Yu, Xin Ma et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-08-06
+Summary: Real-time long-form avatar audio-video generation requires causal, continuous synthesis while maintaining audiovisual synchronization and visual consistency. Adapting a pretrained bidirectional model to this setting presents two key dilemmas. First, autoregressively reusing generated blocks as context creates exposure bias, causing errors and visual drift to accumulate over long rollouts. Second, ...
+
+--- [15] 2608.04709v1 ---
+Title: EmpaAva: An Open-source Agentic 3D-Avatar Empathetic Live Chatbot
+Authors: Jie Yang, Wenhao Xu, Shuhui Lin, Hao Fei
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-05
+Summary: This paper presents EmpaAva, to our knowledge the first open-source, agentic 3D-avatar empathetic chatbot, which carries empathetic response generation (ERG) from text-only exchanges into live, face-to-face interaction. Through a video-call-like interface, a user speaks to a 3D digital human that reads their affect from speech and optional vision, and replies with emotional speech, lip-synced faci...
+
+--- [16] 2608.01157v1 ---
+Title: InteracVid: Building a Real Interactive Audio-Visual Response Dataset from Live-Chat Videos
+Authors: Chi Zhang, Haoyang Shi, Yueyi Liu, Zhaokun Yan, Yishu Yin et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-02
+Summary: Large language models have made text the default medium for human--AI interaction, buttext alone cannot express the full range of responses required by multimodal assistants,avatars, and embodied agents. While recent audio-video generative models can synthesizehigh-fidelity synchronized content, existing supervision is largely \emph{descriptive}:models are trained to render captions rather than to...
+
+--- [17] 2607.23588v1 ---
+Title: JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents
+Authors: Yunlong Lin, Zixu Lin, Zhaohu Xing, Biqiang Li, Chenxin Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Creative AI is moving from single-step asset generation toward long-horizon multimodal production. Although recent generative models can synthesize high-quality images, videos, audio clips, UI elements, storyboards, slides, and other creative assets, real-world creative work requires more than isolated prompt-output interactions. It involves references, drafts, alternatives, edits, failed attempts...
+
+--- [18] 2607.22000v1 ---
+Title: Music-JEPA: Learning a World Model of Sound from Action
+Authors: Ziyu Wang, Kun Fang, Yann LeCun
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-24
+Summary: Joint Embedding Predictive Architectures (JEPA) have recently emerged as a paradigm for learning world models by predicting latent representations, offering a promising direction for self-supervised learning. While initial attempts have applied JEPA to the music domain, it remains unclear how such frameworks can naturally support the formation of a world model for music. In this work, we propose t...
+
+--- [19] 2607.21857v1 ---
+Title: SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision
+Authors: Hao Zhang, Yiwen Zhao, Yixuan Zhang, Yiwen Shao, Steve Yves
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-23
+Summary: We present an agentic soundscape construction framework for controllable compositional audio generation that makes explicit the scene planning, source selection, temporal layout, and rendering steps typically handled implicitly by single-shot text-to-audio models. An LLM-based agent converts user intent into an executable scene plan, acquires assets through retrieval and on-demand generation, rend...
+
+--- [20] 2607.15367v1 ---
+Title: AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery
+Authors: Raunak B Sinha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-16
+Summary: Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills. We describe AnovaX, a small local-first assistant that runs entirely on the user's computer and treats the desktop itself as its action surface. A single Python process wires together a wake-word gate, a speech pipeline, an LLM planner (Gemini) that emits a JSON pla...
+
+--- [21] 2607.11699v2 ---
+Title: Qwen-Music Technical Report
+Authors: Jin Xu, Kangdi Wang, Ruibin Yuan, Shun Lei, Xiong Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-13
+Summary: In this report, we introduce Qwen-Music, a powerful music generation model capable of producing highly musical and high-fidelity songs with complete vocal singing. Qwen-Music supports two core tasks: Text to Music Generation, which create entirely new songs from text descriptions, lyrics, and musical attributes, and Cover Song Generation, which reinterprets existing songs with different styles and...
+
+--- [22] 2607.11433v1 ---
+Title: Omni-Decision: A Progressive Evidence-State Agent System for Omni-Modal QA
+Authors: Ming Ma, Yi Zhu, Yiran Zhong, Feida Zhu, Weigao Sun et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-13
+Summary: Omni-modal evidence-seeking QA requires agents to answer questions whose evidence is sparsely distributed across videos, audio, images, web pages, and computation results. Existing agentic multimodal systems often leave evidence in scratchpads, tool trajectories, or free-form histories, making it difficult to track what has been grounded, what remains missing, and when the evidence is sufficient t...
+
+--- [23] 2607.10790v1 ---
+Title: Data Augmentation for L2 English Speaking Assessment using TTS
+Authors: Stefano Bannò, Penny Karanasou, Mengjie Qian, Kate M. Knill, Mark J. F. Gales
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-12
+Summary: Automated assessment of second language (L2) speaking proficiency relies on large-scale annotated speech data, which remains scarce compared to widely available written learner corpora. A promising direction for addressing this imbalance is to use text-to-speech (TTS) and voice cloning to convert written L2 production into synthetic speech. However, written and spoken L2 differ fundamentally: spon...
+
+--- [24] 2607.09581v3 ---
+Title: Wan-Dancer: A Hierarchical Framework for Minute-scale Coherent Music-to-Dance Generation
+Authors: Mingyang Huang, Peng Zhang, Li Hu, Guangyuan Wang, Ruoshi Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-07-10
+Summary: Generating long-duration, high-definition, and rhythmically synchronized dance videos directly from music remains a significant challenge, primarily due to the temporal constraints of current diffusion models, which typically fail beyond 20 seconds. Existing approaches, whether they rely on intermediate 3D skeletons or on end-to-end video synthesis, suffer from temporal drift, identity inconsisten...
+
+--- [25] 2607.06691v1 ---
+Title: CoMind: Understanding Collaborative Human Activity from Multiple Minds and Views
+Authors: Alexey Gavryushin, Dingxi Zhang, Zhao Huang, Alexandros Delitzas, Jiaqi Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-07
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aplanning&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Human-human collaboration is a fundamental aspect of everyday life, essential to success in a wide range of goal-directed activities from household tasks to professional teamwork. While much research has focused on modeling coordination and task execution, the cognitive processes that support such collaboration, particularly Theory of Mind (the ability to infer the mental states of others), remain...
+

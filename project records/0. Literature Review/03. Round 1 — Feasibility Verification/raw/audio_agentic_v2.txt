@@ -1,0 +1,177 @@
+--- [1] 2609.03414v1 ---
+Title: StrixAE: An Intelligent Agent for Audio Enhancement under Complex Distortion Coupling in Real-World Scenarios
+Authors: Chenglin Wu, Junjie Wu, Jinhang Chen, Mingyang Chen, Zixu Lin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Audio enhancement in real-world scenarios involves complex distortion couplings and requires personalized enhancement. Existing solutions struggle to address both simultaneously. To improve robustness and enable autonomous operation in such scenarios, we propose StrixAE, an agent based on a multimodal large language model (MLLM). StrixAE leverages the MLLM as a controller to coordinate multiple au...
+
+--- [2] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [3] 2608.24048v1 ---
+Title: Don't Just Listen, Try Planning: Graph-based Retrieval-Generation Agent for Long-form Audio Meeting Understanding
+Authors: Quanwei Tang, Dong Zhang, Shoushan Li, Guodong Zhou
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-25
+Summary: While long-form audio meeting understanding (LAMU) is garnering growing attention, task-specific question answering (QA) datasets remain scarce. Existing speech QA paradigms and state-of-the-art Speech LLMs suffer from acoustic information loss and poor long-term context memory. To address these issues, we construct the LongAudioQA dataset and propose the GRGA model, which models heterogeneous aud...
+
+--- [4] 2608.16162v2 ---
+Title: ACE-Cap: Active Evidence Acquisition via Agentic Co-Evolution for Long-Paragraph Fine-Grained Audio Captioning
+Authors: Fengji Ma, Yan Rong, Xu Li, Xuenan Xu, Chen Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-17
+Summary: Long-paragraph fine-grained audio captioning requires models to recover diverse acoustic facts while avoiding omissions and unsupported details. However, prevailing captioners remain passive one-shot generators: once a detail is overlooked, they cannot identify the evidence gap, query the audio for targeted information, or decide when sufficient evidence has been collected. We formulate this task ...
+
+--- [5] 2608.01881v1 ---
+Title: Hear, Invoke, and Understand: A Skill-Calling Multimodal Agent for Large Audio Language Models
+Authors: Yuwen Wang, Tian-Hao Zhang, Minghao Cai, Yilin Ren, Ziyang Jiang et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI
+Published: 2026-08-03
+Summary: Complex acoustic problems may require models to perform acoustic operations, interact with external tools and reason over the resulting textual or processed-audio observations rather than answer directly from a fixed audio input. We study such problems as tool-interactive audio reasoning and develop SpeechAgent-R, an audio agent that coordinates its intrinsic multimodal understanding with external...
+
+--- [6] 2607.28165v2 ---
+Title: Piggybacking on Perception: Stealthy Concurrent Audio Prompt Injections against Multimodal LLM Agents
+Authors: Mingxiao Liu, Yitong Li, Haoren Zhao, Yaoxiang Bian, Jianan Ma et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-07-30
+Summary: Large Language Model (LLM)-driven multimodal agents are increasingly deployed to execute autonomous tasks via continuous audio interaction. While this paradigm enhances interaction naturalness, it introduces a critical yet under-explored attack surface, as audio inputs inevitably contain environmental noise beyond user control. In this paper, we investigate concurrent audio prompt injection attack...
+
+--- [7] 2607.21857v1 ---
+Title: SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision
+Authors: Hao Zhang, Yiwen Zhao, Yixuan Zhang, Yiwen Shao, Steve Yves
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-23
+Summary: We present an agentic soundscape construction framework for controllable compositional audio generation that makes explicit the scene planning, source selection, temporal layout, and rendering steps typically handled implicitly by single-shot text-to-audio models. An LLM-based agent converts user intent into an executable scene plan, acquires assets through retrieval and on-demand generation, rend...
+
+--- [8] 2607.07985v1 ---
+Title: A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents
+Authors: A. Sayyad, J. Emmons, S. Jones, T. Lin, H. Krishnan
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2026-07-08
+Summary: We report the empirical reliability of Gemini models as audio judges that score full-duplex agent conversations directly from the raw stereo waveform, tested across three models in the Gemini family: 2.5 Flash, 3.5 Flash, and 3.1 Pro. Our primary evidence base uses Gemini 2.5 Flash as the ground-truth model, validated against three calibrated human raters on 209 stereo sessions, scored on 8 produc...
+
+--- [9] 2606.15141v1 ---
+Title: EChO-Agent: Evidence Chain Orchestration Agent for Audio Reasoning
+Authors: Siyuan Zhang, Jian Zong, Junyu Wang, Peiyuan Jiang, Jiahao Yan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2026-06-13
+Summary: While LALMs show promise on audio question answering, they fail to focus on question-relevant segments of audio and provide a clear, checkable reasoning process when dealing with complex audio reasoning. Reinforcement learning and tool-augmented prompting can help models better relate questions to audio but lack a reliable way to understand, integrate, and self-verify audio segments. To address th...
+
+--- [10] 2606.07397v1 ---
+Title: Audio-Oscar: A Multi-Agent System for Complex Audio Scene Generation, Orchestration, and Refinement
+Authors: Yifan Duan, Qixiang Xu, Hengtao Wu, Zhanxun Liu, Wenhao Guan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-05
+Summary: In recent years, audio generation has made significant progress in tasks such as text-to-speech (TTS), text-to-audio (TTA) and text-to-music (TTM). However, generating long-form and controllable audio from complex audio scene descriptions remains a significant challenge, as such scenes often require coordinated speech, sound effects, music, songs, temporal structure, and post-production. In this w...
+
+--- [11] 2606.07264v2 ---
+Title: VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track
+Authors: Wenming Tu, Jian Gao, Yanru Huo, Yixuan Wang, Jing Peng et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-05
+Summary: Audio reasoning requires multi-step, evidence-grounded inference over temporally dynamic and acoustically mixed signals, exceeding conventional perception tasks such as ASR or captioning. We present VISA, our submission to the Interspeech 2026 Audio Reasoning Challenge (Agent Track), evaluated via the MMAR Rubrics for correctness and reasoning quality. Under a "LALM as a Tool" paradigm, VISA stren...
+
+--- [12] 2606.03168v1 ---
+Title: JAVEDIT: Joint Audio-Visual Instruction-Guided Video Editing with Agentic Data Curation
+Authors: Yinan Chen, Chuming Lin, Zhennan Chen, Yuxiang Zeng, Junwei Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-02
+Summary: While instruction-based video editing has seen significant progress, joint audio-visual editing remains constrained by the absence of dedicated datasets and benchmarks. To bridge this gap, we present JAVEdit-100k, the first large-scale, high-quality dataset tailored for instruction-guided joint audio-visual editing. Focusing on human-centric videos, JAVEdit-100k comprises approximately 100K editin...
+
+--- [13] 2605.28480v1 ---
+Title: Audio-Mind: An Auditable Agentic Framework for Audio Understanding
+Authors: Yucheng Wang, Jing Peng, Hanqi Li, Chenghao Wang, Wenming Tu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-05-27
+Summary: Audio agents extend large audio-language models (LALMs) by decomposing audio questions into tool calls, intermediate evidence, and iterative reasoning steps. However, as LALMs become stronger, the key challenge shifts from enabling tool use to determining when agentic evidence acquisition genuinely benefits audio understanding. We propose Audio-Mind, an auditable and pluggable framework for condit...
+
+--- [14] 2605.28192v1 ---
+Title: Agentic Active Omni-Modal Perception for Multi-Hop Audio-Visual Reasoning
+Authors: Ke Xu, Yuhao Wang, Ziyang Cheng, Hongcheng Liu, Yanfeng Wang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-05-27
+Summary: Multi-hop audio-visual reasoning remains challenging for Omni-LLMs, as relevant evidence is often sparse, temporally dispersed, and distributed across both audio and visual streams. Existing benchmarks provide limited investigation of this setting, typically involving only a limited number of modalities, relevant temporal segments, or reasoning steps. In this work, we introduce MOV-Bench, a benchm...
+
+--- [15] 2605.24755v1 ---
+Title: Automated Detection and Classification of Delusion-related Content in Naturalistic Audio Diaries Using Multi-Agent Language Models
+Authors: Feng Chen, Justin Tauscher, Changye Li, Meliha Yetisgen, Alex Cohen et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-05-23
+Summary: Speech monologues recorded in naturalistic settings provide opportunities to characterize mental illness phenomenology and detect symptom exacerbation. Large language models (LLMs) offer new possibilities for automating this process, as they require annotated data primarily for evaluation rather than training. In this paper, we present a novel automated, multi-agent LLM pipeline for the fine-grain...
+
+--- [16] 2604.13593v1 ---
+Title: AVID: A Benchmark for Omni-Modal Audio-Visual Inconsistency Understanding via Agent-Driven Construction
+Authors: Zixuan Chen, Depeng Wang, Hao Lin, Li Luo, Ke Xu et al.
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-04-15
+Summary: We present AVID, the first large-scale benchmark for audio-visual inconsistency understanding in videos. While omni-modal large language models excel at temporally aligned tasks such as captioning and question answering, they struggle to perceive cross-modal conflicts, a fundamental human capability that is critical for trustworthy AI. Existing benchmarks predominantly focus on aligned events or d...
+
+--- [17] 2603.27706v2 ---
+Title: MAR3: Multi-Agent Recognition, Reasoning, and Reflection for Reference Audio-Visual Segmentation
+Authors: Yuan Zhao, Zhenqi Jia, Yongqiang Zhang
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-03-29
+Summary: Reference Audio-Visual Segmentation (Ref-AVS) aims to segment objects in audible videos based on multimodal cues in reference expressions. Previous methods overlook the explicit recognition of expression difficulty and dominant modality in multimodal cues, over-rely on the quality of the instruction-tuning dataset for object reasoning, and lack reflective validation of segmentation results, leadin...
+
+--- [18] 2602.14224v1 ---
+Title: The Interspeech 2026 Audio Reasoning Challenge: Evaluating Reasoning Process Quality for Audio Reasoning Models and Agents
+Authors: Ziyang Ma, Ruiyang Xu, Yinghao Ma, Chao-Han Huck Yang, Bohan Li et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-02-15
+Summary: Recent Large Audio Language Models (LALMs) excel in understanding but often lack transparent reasoning. To address this "black-box" limitation, we organized the Audio Reasoning Challenge at Interspeech 2026, the first shared task dedicated to evaluating Chain-of-Thought (CoT) quality in the audio domain. The challenge introduced MMAR-Rubrics, a novel instance-level protocol assessing the factualit...
+
+--- [19] 2602.03707v4 ---
+Title: OmniRAG-Agent: Agentic Omnimodal Reasoning for Low-Resource Long Audio-Video Question Answering
+Authors: Yifan Zhu, Xinyu Mu, Tao Feng, Zhonghong Ou, Yuning Gong et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-02-03
+Summary: Long-horizon omnimodal question answering answers questions by reasoning over text, images, audio, and video. Despite recent progress on OmniLLMs, low-resource long audio-video QA still suffers from costly dense encoding, weak fine-grained retrieval, limited proactive planning, and no clear end-to-end optimization. To address these issues, we propose OmniRAG-Agent, an agentic omnimodal QA method f...
+
+--- [20] 2601.22082v1 ---
+Title: Auditorily Embodied Conversational Agents: Effects of Spatialization and Situated Audio Cues on Presence and Social Perception
+Authors: Yi Fei Cheng, Jarod Bloch, Alexander Wang, Andrea Bianchi, Anusha Withana et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-01-29
+Summary: Embodiment can enhance conversational agents, such as increasing their perceived presence. This is typically achieved through visual representations of a virtual body; however, visual modalities are not always available, such as when users interact with agents using headphones or display-less glasses. In this work, we explore auditory embodiment. By introducing auditory cues of bodily presence - t...
+
+--- [21] 2601.09413v2 ---
+Title: Speech-Hands: A Self-Reflection Voice Agentic Approach to Speech Recognition and Audio Reasoning with Omni Perception
+Authors: Zhen Wan, Chao-Han Huck Yang, Jinchuan Tian, Hanrong Ye, Ankita Pasad et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.MA, eess.AS
+Published: 2026-01-14
+Summary: We introduce a voice-agentic framework that learns one critical omni-understanding skill: knowing when to trust itself versus when to consult external audio perception. Our work is motivated by a crucial yet counterintuitive finding: naively fine-tuning an omni-model on both speech recognition and external sound understanding tasks often degrades performance, as the model can be easily misled by n...
+
+--- [22] 2512.23646v2 ---
+Title: Active Perception Agent for Omnimodal Audio-Video Understanding
+Authors: Keda Tao, Wenjie Du, Bohan Yu, Weiqiang Wang, Jian Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-12-29
+Summary: Omnimodal large language models have made significant strides in unifying audio and visual modalities; however, they often face challenges in fine-grained cross-modal understanding and have difficulty with multimodal alignment. To address these limitations, we introduce OmniAgent, to our best knowledge, the first fully active perception agent that dynamically orchestrates specialized unimodal tool...
+
+--- [23] 2512.16250v1 ---
+Title: AMUSE: Audio-Visual Benchmark and Alignment Framework for Agentic Multi-Speaker Understanding
+Authors: Sanjoy Chowdhury, Karren D. Yang, Xudong Liu, Fartash Faghri, Pavan Kumar Anasosalu Vasu et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.MA
+Published: 2025-12-18
+Summary: Recent multimodal large language models (MLLMs) such as GPT-4o and Qwen3-Omni show strong perception but struggle in multi-speaker, dialogue-centric settings that demand agentic reasoning tracking who speaks, maintaining roles, and grounding events across time. These scenarios are central to multimodal audio-video understanding, where models must jointly reason over audio and visual streams in app...
+
+--- [24] 2510.11098v5 ---
+Title: VCB Bench: An Evaluation Benchmark for Audio-Grounded Large Language Model Conversational Agents
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Aaudio+AND+ti%3Aagent&max_results=25&sortBy=submittedDate&sortOrder=descending
+Authors: Jiliang Hu, Wenfu Wang, Zuchao Li, Chenxing Li, Yiyang Zhao et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2025-10-13
+Summary: Recent advances in large audio language models (LALMs) have greatly enhanced multimodal conversational systems. However, existing benchmarks remain limited -- they are mainly English-centric, rely on synthetic speech, and lack comprehensive, discriminative evaluation across multiple dimensions. To address these gaps, we present Voice Chat Bot Bench (VCB Bench) -- a high-quality Chinese benchmark b...
+
+--- [25] 2510.02995v2 ---
+Title: AudioToolAgent: An Agentic Framework for Audio-Language Models
+Authors: Gijs Wijngaard, Elia Formisano, Michel Dumontier, Jenia Jitsev
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-10-03
+Summary: Large Audio-Language Models (LALMs) perform well on audio understanding tasks but lack multistep reasoning and tool-calling found in recent Large Language Models (LLMs). This paper presents AudioToolAgent, a framework that coordinates audio-language models as tools via a central LLM agent that accesses tool adapters for audio question answering and speech-to-text. The agent reasons about which too...
+

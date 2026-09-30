@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Acot+AND+ti%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2508.11818v1 ---
+Title: Audio Flamingo Sound-CoT Technical Report: Improving Chain-of-Thought Reasoning in Sound Understanding
+Authors: Zhifeng Kong, Arushi Goel, Joao Felipe Santos, Sreyan Ghosh, Rafael Valle et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2025-08-15
+Summary: Chain-of-thought reasoning has demonstrated significant improvements in large language models and vision language models, yet its potential for audio language models remains largely unexplored. In this technical report, we take a preliminary step towards closing this gap. For better assessment of sound reasoning, we propose AF-Reasoning-Eval, a benchmark targeting common-sense reasoning and the ab...
+
+--- [2] 2501.07246v1 ---
+Title: Audio-CoT: Exploring Chain-of-Thought Reasoning in Large Audio Language Model
+Authors: Ziyang Ma, Zhuo Chen, Yuping Wang, Eng Siong Chng, Xie Chen
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM, eess.AS
+Published: 2025-01-13
+Summary: Large Audio-Language Models (LALMs) have demonstrated remarkable performance in tasks involving audio perception and understanding, such as speech recognition and audio captioning. However, their reasoning capabilities - critical for solving complex real-world problems - remain underexplored. In this work, we conduct the first exploration into integrating Chain-of-Thought (CoT) reasoning into LALM...
+

@@ -1,0 +1,58 @@
+# Total entries: 8
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ATango+AND+abs%3Aaudio&max_results=15&sortBy=submittedDate&sortOrder=descending
+--- [1] 2506.00736v1 ---
+Title: IMPACT: Iterative Mask-based Parallel Decoding for Text-to-Audio Generation with Diffusion Modeling
+Authors: Kuan-Po Huang, Shu-wen Yang, Huy Phan, Bo-Ru Lu, Byeonggeun Kim et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-05-31
+Summary: Text-to-audio generation synthesizes realistic sounds or music given a natural language prompt. Diffusion-based frameworks, including the Tango and the AudioLDM series, represent the state-of-the-art in text-to-audio generation. Despite achieving high audio fidelity, they incur significant inference latency due to the slow diffusion sampling process. MAGNET, a mask-based model operating on discret...
+
+--- [2] 2410.23815v1 ---
+Title: The NPU-HWC System for the ISCSLP 2024 Inspirational and Convincing Audio Generation Challenge
+Authors: Dake Guo, Jixun Yao, Xinfa Zhu, Kangxiang Xia, Zhao Guo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2024-10-31
+Summary: This paper presents the NPU-HWC system submitted to the ISCSLP 2024 Inspirational and Convincing Audio Generation Challenge 2024 (ICAGC). Our system consists of two modules: a speech generator for Track 1 and a background audio generator for Track 2. In Track 1, we employ Single-Codec to tokenize the speech into discrete tokens and use a language-model-based approach to achieve zero-shot speaking ...
+
+--- [3] 2410.04221v1 ---
+Title: TANGO: Co-Speech Gesture Video Reenactment with Hierarchical Audio Motion Embedding and Diffusion Interpolation
+Authors: Haiyang Liu, Xingchao Yang, Tomoya Akiyama, Yuantian Huang, Qiaoge Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2024-10-05
+Summary: We present TANGO, a framework for generating co-speech body-gesture videos. Given a few-minute, single-speaker reference video and target speech audio, TANGO produces high-fidelity videos with synchronized body gestures. TANGO builds on Gesture Video Reenactment (GVR), which splits and retrieves video clips using a directed graph structure - representing video frames as nodes and valid transitions...
+
+--- [4] 2409.13894v1 ---
+Title: PTQ4ADM: Post-Training Quantization for Efficient Text Conditional Audio Diffusion Models
+Authors: Jayneel Vora, Aditya Krishnan, Nader Bouacida, Prabhu RV Shankar, Prasant Mohapatra
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2024-09-20
+Summary: Denoising diffusion models have emerged as state-of-the-art in generative tasks across image, audio, and video domains, producing high-quality, diverse, and contextually relevant data. However, their broader adoption is limited by high computational costs and large memory footprints. Post-training quantization (PTQ) offers a promising approach to mitigate these challenges by reducing model complex...
+
+--- [5] 2409.09381v1 ---
+Title: Text Prompt is Not Enough: Sound Event Enhanced Prompt Adapter for Target Style Audio Generation
+Authors: Chenxu Xiong, Ruibo Fu, Shuchen Shi, Zhengqi Wen, Jianhua Tao et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2024-09-14
+Summary: Current mainstream audio generation methods primarily rely on simple text prompts, often failing to capture the nuanced details necessary for multi-style audio generation. To address this limitation, the Sound Event Enhanced Prompt Adapter is proposed. Unlike traditional static global style transfer, this method extracts style embedding through cross-attention between text and reference audio for ...
+
+--- [6] 2406.04683v1 ---
+Title: PPPR: Portable Plug-in Prompt Refiner for Text to Audio Generation
+Authors: Shuchen Shi, Ruibo Fu, Zhengqi Wen, Jianhua Tao, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-06-07
+Summary: Text-to-Audio (TTA) aims to generate audio that corresponds to the given text description, playing a crucial role in media production. The text descriptions in TTA datasets lack rich variations and diversity, resulting in a drop in TTA model performance when faced with complex text. To address this issue, we propose a method called Portable Plug-in Prompt Refiner, which utilizes rich knowledge abo...
+
+--- [7] 2404.09956v4 ---
+Title: Tango 2: Aligning Diffusion-based Text-to-Audio Generations through Direct Preference Optimization
+Authors: Navonil Majumder, Chia-Yu Hung, Deepanway Ghosal, Wei-Ning Hsu, Rada Mihalcea et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2024-04-15
+Summary: Generative multimodal content is increasingly prevalent in much of the content creation arena, as it has the potential to allow artists and media personnel to create pre-production mockups by quickly bringing their ideas to life. The generation of audio from text prompts is an important aspect of such processes in the music and film industry. Many of the recent diffusion-based text-to-audio models...
+
+--- [8] 2304.13731v2 ---
+Title: Text-to-Audio Generation using Instruction-Tuned LLM and Latent Diffusion Model
+Authors: Deepanway Ghosal, Navonil Majumder, Ambuj Mehrish, Soujanya Poria
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2023-04-24
+Summary: The immense scale of the recent large language models (LLM) allows many interesting properties, such as, instruction- and chain-of-thought-based fine-tuning, that has significantly improved zero- and few-shot performance in many natural language processing (NLP) tasks. Inspired by such successes, we adopt such an instruction-tuned LLM Flan-T5 as the text encoder for text-to-audio (TTA) generation ...
+

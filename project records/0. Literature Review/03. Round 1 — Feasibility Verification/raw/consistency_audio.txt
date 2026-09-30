@@ -1,0 +1,142 @@
+--- [1] 2609.09107v1 ---
+Title: For Whom the Xenon Recoils: Magnetic Inelastic Dark Baryons
+Authors: Pouya Asadi, Austin Batz, Patrick J. Fox, Samuel D. Homiller, Graham D. Kribs
+Primary cat: hep-ph | All cats: hep-ph
+Published: 2026-09-08
+Summary: We develop a theory of a dark baryon dark matter candidate that interacts with nuclei dominantly through inelastic scattering mediated by a transition magnetic dipole operator. Models are presented that can elegantly explain both the scattering rate and the size of the inelastic splitting to be consistent with the one event observed at LZ\@. Elastic scattering is suppressed due to accidental symme...
+
+--- [2] 2609.09097v1 ---
+Title: Junction-free polarity-tunable superconducting diode effect enables XNOR logic operation
+Authors: Alapan Bera, Soumik Mukhopadhyay
+Primary cat: cond-mat.supr-con | All cats: cond-mat.supr-con
+Published: 2026-09-08
+Summary: The realization of the superconducting diode effect (SDE), characterized by non-reciprocal supercurrent, is a major step towards dissipationless logic circuits. A polarity-tunable superconducting diode with high diode efficiency primarily consists of Josephson-junction architectures that couple two superconducting regions via a weak link. Realizing an SDE without a weak-link junction would reduce ...
+
+--- [3] 2609.09078v1 ---
+Title: Small-Scale Clustering of Primordial Black Holes: The Little Red Dot Mass Function and the High-Redshift Galaxy Tension
+Authors: Borui Zhang, Wei-Xiang Feng, Haipeng An
+Primary cat: astro-ph.GA | All cats: astro-ph.GA, astro-ph.CO, gr-qc, hep-ph
+Published: 2026-09-08
+Summary: Supermassive black holes (SMBHs) in "little red dots" (LRDs) discovered the James Webb Space Telescope (JWST) may result from runaway mergers of primordial black holes (PBHs) in clusters---through long--short mode coupling on small scales in the early Universe. In this framework, we derive the SMBH mass function, together with the compactness and overmassive features of LRDs. We also estimate that...
+
+--- [4] 2609.09062v1 ---
+Title: Multi-Task Learning for Sparsely-Labeled Time Series: A Case Study on Cold-Hardiness Modeling
+Authors: Aseem Saxena, Paola Pesántez-Cabrera, Jonathan Magby, Markus Keller, Alan Fern
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-09-08
+Summary: We present a real-world case study of multi-task learning (MTL) for temporal process modeling from limited data with temporally sparse labels. Specifically, we investigate multi-task learning for the important agricultural problem of predicting grape cold hardiness, which is the temperature at which lethal freezing occurs. Cold hardiness changes in response to weather and is difficult to measure d...
+
+--- [5] 2609.09054v1 ---
+Title: Training-Free Task Vectors for LLM Behavioral Control
+Authors: Gabriel J. Perin, Lucas Boscaini, André Araujo, Nina S. T. Hirata
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Task vectors enable post-training model editing by identifying semantically meaningful directions in weight space, typically computed as the difference between a fine-tuned model and its pretrained initialization. However, this reliance on fine-tuning makes discovering such directions costly and limits the practicality of post-training model editing. To address this limitation, we introduce Traini...
+
+--- [6] 2609.09049v1 ---
+Title: Active galactic nucleus activity in brightest cluster galaxies at intermediate redshifts in Sunyaev-Zel'dovich--selected clusters
+Authors: N. Hatamkhani, R. E. Skelton, J. Delhaize, M. Hilton, S. I. Loubser et al.
+Primary cat: astro-ph.GA | All cats: astro-ph.GA
+Published: 2026-09-08
+Summary: Context. Brightest cluster galaxies (BCGs) host powerful active galactic nuclei (AGNs) and help regulate the heating--cooling balance of the intracluster medium. While radio-mode feedback is well established locally, its prevalence at intermediate redshifts remains poorly constrained. Aims. We investigate the incidence, accretion state, and host-galaxy properties of AGNs in BCGs in Sunyaev--Zel'do...
+
+--- [7] 2609.09044v1 ---
+Title: The Luminosity Function of Ultra-Faint Trans-Neptunian Objects Detected by JWST
+Authors: Marielle R. Eduardo, Anastasia N. Morgan, Wesley C. Fraser, David E. Trilling, Gary M. Bernstein et al.
+Primary cat: astro-ph.EP | All cats: astro-ph.EP
+Published: 2026-09-08
+Summary: We present a definitive discovery of 27 trans-Neptunian objects (TNOs) using the Near-Infrared Camera (NIRCam) aboard the James Webb Space Telescope (JWST). By employing a shift-and-stack technique and a machine learning network geared specifically to identifying false-positive detections in JWST images produced through the shift-and-stack process, we achieved a 40\% detection threshold of $m_{F15...
+
+--- [8] 2609.09043v1 ---
+Title: Speed and stability of segregated waves in a pressure-based model of heterogeneous cell populations
+Authors: Carles Falcó, Rebecca M. Crossley, Martina Conte, Tommaso Lorenzi
+Primary cat: math.AP | All cats: math.AP, nlin.PS, q-bio.CB
+Published: 2026-09-08
+Summary: We consider a minimal pressure-based model of heterogeneous cell populations consisting of proliferative and non-proliferative cells with different mobilities. The model is formulated as a system of reaction--cross--diffusion equations describing the spatio-temporal dynamics of the cell densities. The model is known to admit one-dimensional travelling wave solutions with strictly segregated compon...
+
+--- [9] 2609.09016v1 ---
+Title: High-Dimensional Families of Minimal Surfaces of Arbitrary Genus in Round Spheres
+Authors: Riccardo Caniato
+Primary cat: math.DG | All cats: math.DG, math.AP, math.CV
+Published: 2026-09-08
+Summary: We prove the existence of arbitrarily high-dimensional families of minimal surfaces of any prescribed genus and conformal structure in even-dimensional round spheres. More precisely, let $n\geq2$ and let $Σ$ be any closed Riemann surface of genus $g$. We construct a sequence of degrees $d_\ell\to+\infty$ such that, for every $\ell$, there exists a complex manifold of complex dimension $2d_\ell+n^2...
+
+--- [10] 2609.09015v1 ---
+Title: Endothermic dark matter with a light dark photon and the LUX--ZEPLIN high-energy nuclear-recoil candidate
+Authors: Pengxuan Zhu, Giovani Dalla Valle Garcia, Xuan-Gong Wang, Anthony W. Thomas, Martin J. White
+Primary cat: hep-ph | All cats: hep-ph
+Published: 2026-09-08
+Summary: The LUX-ZEPLIN (LZ) experiment has reported a single nuclear-recoil candidate at $E_{\rm nr}=248\pm23_{\rm stat}\pm23_{\rm sys}\,{\rm keV}$. We investigate whether this event can be explained by endothermic inelastic dark matter coupled to a kinetically mixed dark photon, while reproducing the observed dark-matter relic abundance. Performing a global scan of the five model parameters, combining an...
+
+--- [11] 2609.09012v1 ---
+Title: Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild
+Authors: Fei Teng, Sheng Wu, Mengfei Duan, Guoqiang Zhao, Junhui Ma et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.RO, eess.IV
+Published: 2026-09-08
+Summary: Spherical observations provide global visual context for 3D scene understanding. However, visual information is encoded in an angular domain, whereas the physical world is represented in Cartesian coordinates. This cross-space representation gap complicates geometric correspondence and semantic evidence aggregation. To delve into this challenge, we introduce Spheriverse, comprising $64,400$ tempor...
+
+--- [12] 2609.09011v1 ---
+Title: Closed-Form of the Local Galactic Potential and Stellar Distribution Function from Gaia DR3
+Authors: Indranil Das, Adam Kamoski, Dora Demiri, Brianna Isola, Hanieh Karimi et al.
+Primary cat: astro-ph.GA | All cats: astro-ph.GA, astro-ph.IM, cs.LG
+Published: 2026-09-08
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aconsistency+audio&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: The local dark matter density determines the strength of the signal expected in direct-detection experiments, yet published estimates from stellar motions disagree by more than their errors, and the most recent machine-learning analysis of Gaia data finds a local density consistent with zero. According to Jeans' theorem, a distribution function built from integrals of motion satisfies the collisio...
+
+--- [13] 2609.09009v1 ---
+Title: Let It Go or Learn to Self-Correct: Continuous Diffusion for Constrained Discrete Tasks
+Authors: Mariia Drozdova, Stéphane Liem Nguyen, François Fleuret
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Denoising Diffusion Probabilistic Models (DDPMs) generate samples by starting from noise and repeatedly denoising while keeping each update close to the current noisy state. This behavior is effective in many continuous domains, but its role is less clear for globally constrained discrete tasks, such as Sudoku, graph connectivity, Latin squares, and N-queens. In such settings, early discrete error...
+
+--- [14] 2609.09008v1 ---
+Title: Combined JWST and HST Deep Imaging to Characterize the Smallest Known Trans-Neptunian Objects
+Authors: Anastasia N. Morgan, Marielle R. Eduardo, David E. Trilling, Wesley C. Fraser, John A. Stansberry et al.
+Primary cat: astro-ph.EP | All cats: astro-ph.EP
+Published: 2026-09-08
+Summary: We present optical-near-infrared (NIR) color measurements for small ($\leq 40$ km) Trans-Neptunian Objects (TNOs) using coordinated and nearly simultaneous observations from the James Webb Space Telescope (JWST) and the Hubble Space Telescope (HST). JWST/NIRCam data provided detections and NIR photometry for faint TNOs, while HST/ACS and WFC3 imaging enabled recovery in the optical, together yield...
+
+--- [15] 2609.09005v1 ---
+Title: DXPR: Depth-Based Vision-LiDAR Cross-Modal Place Recognition Using Vision Foundation Models
+Authors: Yungsoo Han, Youngseok Jang, Seungwon Roh, Jeongyeon Seo, H. Jin Kim
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: We present DXPR, a depth-based cross-modal place recognition (CMPR) framework that uses vision foundation models (VFMs) to match monocular camera queries against a LiDAR map without modality-specific encoders. This enables robots and autonomous vehicles to robustly localize using only cameras within pre-built LiDAR maps, even under severe seasonal, weather, and illumination changes. The key idea i...
+
+--- [16] 2609.09001v1 ---
+Title: Deposon: An Auditable, Conservation-Guaranteed, Game-Theoretically Tested Scattering Layer over LLM Reasoning Paths
+Authors: Qihao Yuan
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-09-08
+Summary: Multi-step LLM reasoning lacks a machine-recheckable ledger: discarded reasoning paths leave no auditable record. We propose the Deposon scattering layer, which binds each node of an LLM-generated concept-decomposition graph to a two-parameter Deposon state; paths undergo three-channel scattering -- transmission, reflection, irreversible dissipation -- obeying T+R+A=1 for arbitrary parameters, wit...
+
+--- [17] 2609.08997v1 ---
+Title: Final-state effects on the transverse-momentum spectra of charged hadrons in $p+Pb$ and $Pb+Pb$ collisions at $\sqrt {s_{\rm{NN}}}~=~5.02$~TeV using the modified Tsallis distribution
+Authors: Kapil Saraswat, Deependra Singh Rawat, Manoj Kumar Singh, Prashanta Kumar Khandai, Damini Singh et al.
+Primary cat: hep-ph | All cats: hep-ph
+Published: 2026-09-08
+Summary: The ATLAS Collaboration has reported measurements of the transverse momentum ($p_{\rm{T}}$) spectra of charged hadrons in proton-proton ($p+p$), proton-lead ($p+Pb$), and lead-lead ($Pb+Pb$) collisions at a nucleon-nucleon center-of-mass energy of $\sqrt{s_{\rm{NN}}}~=$~5.02~TeV within the rapidity interval $-2.5<y<2.0$. In the present work, we investigate medium effects on charged-hadron producti...
+
+--- [18] 2609.08987v1 ---
+Title: Exact Phase-Space Rotation in the Trapped Quantum Calogero Model
+Authors: Akash Sarkar
+Primary cat: cond-mat.other | All cats: cond-mat.other, cond-mat.stat-mech
+Published: 2026-09-08
+Summary: We develop a microscopic phase-space description of the quantum Calogero model in the presence of an external harmonic confining potential. Building on the quantum Lax-pair structure, we construct a Hermitian Wigner operator whose expectation value obeys the exact phase-space evolution equation d_t rho + lambda d_x rho - Omega^2 x d_lambda rho = 0 for arbitrary initial states and to all orders in ...
+
+--- [19] 2609.08981v1 ---
+Title: Transformers as In-Context Samplers: From Closed-Form Diffusion to Estimation-Free Sampling
+Authors: Arman Adibi, Alireza Jafari, Mohammad Ghavamzadeh, Hadi Daneshmand
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, stat.AP, stat.CO, stat.ML
+Published: 2026-09-08
+Summary: A growing body of work establishes that large language models are not mere statistical memorizers, but are capable of in-context learning: performing inference at test time using only examples provided in the prompt, without any parameter updates. Prior theoretical work has shown that this capability extends to supervised learning tasks such as linear regression. We prove that in-context learning ...
+
+--- [20] 2609.08979v1 ---
+Title: TEMPUS: Relativistic coordinate time scales for any solar-system body from arbitrary ephemerides
+Authors: Yan Seyffert, Agnès Fienga
+Primary cat: astro-ph.EP | All cats: astro-ph.EP
+Published: 2026-09-08
+Summary: Precise time-scale transformations between solar-system bodies are an essential requirement for deep-space science and solar system navigation. The post-Newtonian relativistic expression relating a body-centered coordinate time TCX to the Barycentric Coordinate Time TCB depends on the gravitational environment and velocity of the target body, and must be evaluated consistently with the chosen plan...
+

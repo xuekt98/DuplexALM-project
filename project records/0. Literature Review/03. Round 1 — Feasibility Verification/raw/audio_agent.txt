@@ -1,0 +1,177 @@
+--- [1] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [2] 2609.08275v1 ---
+Title: Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation
+Authors: Tianyi Zeng, Junchao Liao, Yujie Wei, Ziying Zhang, Litao Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Recent multi-shot audio-video generators can produce increasingly coherent and cinematic outputs, but coherence does not imply the ability to execute editing techniques. Professional editing depends on shot structure, transition grammar, audio-video cut relations, and montage, yet existing benchmarks largely rely on proxies such as content quality, synchronization, or physical plausibility, system...
+
+--- [3] 2609.06078v1 ---
+Title: Report of the 8th LSVOS Challenge: Complex and Multimodal Video Object Segmentation
+Authors: Chang Liu, Henghui Ding, Lingyi Hong, Ning Xu, Linjie Yang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: This report summarizes the 8th Large-scale Video Object Segmentation (LSVOS) Challenge, held in conjunction with ECCV 2026. The challenge evaluates video segmentation in three complementary settings: complex semi-supervised video object segmentation on MOSEv2, text-guided referring video object segmentation on MeViSv2-Text, and audio-guided referring video object segmentation on MeViSv2-Audio. We ...
+
+--- [4] 2609.05631v1 ---
+Title: TamilEOT: A Dataset and Model for Semantic End-of-Turn Detection in Tamil Telephone Speech
+Authors: Santhoshkumar V
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-09-04
+Summary: A voice agent has to decide, at every pause, whether the user has finished speaking. Without a model of the language that decision falls back to a fixed silence timeout: set it short and the agent interrupts, set it long and every turn pays the full wait. Open semantic end-of-turn detectors exist, but to our knowledge none covers a South Indian language. We release TamilEOT: 18,485 labelled turn b...
+
+--- [5] 2609.04983v1 ---
+Title: MIVAIS: A Study Environment for Multi-Agent Mixed-Initiative Visual Analytics Applications
+Authors: Tobias Stähle, Simon Schneider, Rita Sevastjanova, Mennatallah El-Assady
+Primary cat: cs.HC | All cats: cs.HC, cs.MA
+Published: 2026-09-04
+Summary: Mixed-initiative Visual Analytics (VA) systems empower human users by interleaving human intuition with software agents and their machine intelligence. However, the development and rigorous evaluation of such systems remain constrained by engineering overhead. Developers must, e.g., implement complex, low-level state synchronization to manage asynchronous agent behaviors, while researchers struggl...
+
+--- [6] 2609.03423v1 ---
+Title: DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through explicit turn-management instructions, while deployed agents are often configured through roles or personas from which the appropriate conversational behavior must be inferred. We introduce DuplexSpeech...
+
+--- [7] 2609.03414v1 ---
+Title: StrixAE: An Intelligent Agent for Audio Enhancement under Complex Distortion Coupling in Real-World Scenarios
+Authors: Chenglin Wu, Junjie Wu, Jinhang Chen, Mingyang Chen, Zixu Lin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Audio enhancement in real-world scenarios involves complex distortion couplings and requires personalized enhancement. Existing solutions struggle to address both simultaneously. To improve robustness and enable autonomous operation in such scenarios, we propose StrixAE, an agent based on a multimodal large language model (MLLM). StrixAE leverages the MLLM as a controller to coordinate multiple au...
+
+--- [8] 2609.03203v2 ---
+Title: VoxReason: Listener-Free Evaluation of Source-Grounded Speech Planning Before Synthesis
+Authors: Mengzhe Geng
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2026-09-02
+Summary: Expressive speech systems have to decide how an utterance is delivered before any waveform is rendered. In dialogue agents, narration, and role-conditioned TTS, that planning step sets affect, pitch, energy, rate, pause, emphasis, and stance, yet standard audio metrics rarely show whether those choices were actually licensed by the source record. This leaves a practical evaluation gap: a system ma...
+
+--- [9] 2609.02812v1 ---
+Title: VibeVoice-ASR-Streaming Technical Report
+Authors: Yujie Tu, Zhiliang Peng, Jianwei Yu, Li Dong, Songchen Xu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-02
+Summary: Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks. Recently, end-to-end models such as VibeVoice-ASR have unified the two tasks within a single model. However, existing unified models still mainly support offline recognition, making it difficult to meet the low-latency requirements of real-time voice assistants and agents. To tackle this issue, we...
+
+--- [10] 2609.02231v1 ---
+Title: PhoenixNest-Video: Evidence-Grounded Multimodal Agent Framework for Automated Video Interview Assessment
+Authors: Fan Yuxuan, Huang Miaojun, Zhang Haimei, Wu Jingshen, Liu Hao
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-02
+Summary: Interview assessment requires per-criterion judgments grounded in behavioral evidence, yet surging applicant volumes have made human-only evaluation costly and inconsistent, while existing AI approaches yield opaque scores without traceable rationale. We introduce PhoenixNest-Video, an evidence-grounded multimodal agent framework for automated video interview assessment. It builds a semantic video...
+
+--- [11] 2609.01481v1 ---
+Title: Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement
+Authors: Haoyang Yan, Min-le Su, Hangfan Zhang, Zhanhao Li, Chen Zhang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-01
+Summary: This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements into complete, functional, and usable software systems without human intervention. We introduce Harness-of-Harness (HoH), a framework that enables coding agents to continually improve software during autonomous development. HoH operates on existing coding-agent harnesses, and orga...
+
+--- [12] 2609.00570v2 ---
+Title: VoiceLongMemEval: Do Assistants Remember How You Sounded?
+Authors: Ramit Pahwa, Parivesh Priye, Apoorva Beedu
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-09-01
+Summary: With the growing scale of multi-agent architectures and large language models, deployed AI assistants are increasingly tasked with reasoning over long, continuous, multi-session conversation histories. Current benchmarks evaluate this dialogue history as information retrieval over long horizon, temporal reasoning, or knowledge updates, while crucially ignoring the fundamental dynamics of human-age...
+
+--- [13] 2609.00206v1 ---
+Title: Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation
+Authors: Ruotong Wang, Zihao Zhu, Siwei Lyu, Xin Tao, Baoyuan Wu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-31
+Summary: Despite their growing use in video moderation, multimodal large language models (MLLMs) exhibit a compositional safety blind spot: videos composed of seemingly benign components can convey harmful meaning when interpreted as a whole. We refer to this phenomenon as Distributed Implicit Harm (DIH), where harm arises from relations among components distributed along a decomposition axis of the video,...
+
+--- [14] 2608.28932v2 ---
+Title: VocalAffectBench: Evaluating Vocal Emotion Recognition in AI Audio Models
+Authors: Luc Debaupte, Tyler Baumgartner, Brandon Tai, Candice Fan, Bill Wang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-08-28
+Summary: Voice products increasingly need affective cues that are present in speech but absent from transcripts. We introduce VocalAffectBench, a public, test-only benchmark for evaluating whether AI audio models can identify expressed vocal emotion from raw audio. The benchmark contains 273 human-recorded English WAV clips from 51 speaker accounts totaling 1.95 hours across seven labels: angry, disgusted,...
+
+--- [15] 2608.27176v2 ---
+Title: When Text Misleads: Inconsistent-Aware Reasoning for Audio-Grounded Dialogue
+Authors: Yen-Ju Lu, Yuzhe Wang, Yaohan Guan, Xiluo He, Jiarui Hai et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG, eess.AS
+Published: 2026-08-27
+Summary: Understanding spoken dialogue requires joint reasoning over lexical content and paralinguistic acoustic signals such as emotion and conversational intent. However, existing evaluations often allow shortcuts based on transcripts or single-modality solutions, obscuring whether models genuinely ground predictions in speech. We formalize this failure mode as cross-modal disagreement, where transcripts...
+
+--- [16] 2608.27524v1 ---
+Title: SETU: An Agentic Ecosystem for Multilingual, Persona-Aware Communication Coaching
+Authors: Jonnalagadda Maruthi Tejas, Uponika Barman Roy, Tilottama Goswami, Samir Goswami, Mousita Dhar
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-27
+Summary: Corporate training teams need scalable and explainable tools to improve workforce communication in multilingual settings. Existing systems often score text, audio, or video in isolation, or produce black-box outputs that are difficult to audit for coaching use. This paper presents SETU, an agentic ecosystem for corporate communication coaching aimed at recruiters, frontline sales professionals and...
+
+--- [17] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [18] 2608.25794v1 ---
+Title: Cooperative Multi-Agent Reinforcement Learning for Adaptive Aggregation in Semi-Supervised Federated Learning with non-IID Data
+Authors: Rene Glitza, Luca Becker, Rainer Martin
+Primary cat: cs.LG | All cats: cs.LG, cs.DC, cs.SD, eess.AS, eess.SP
+Published: 2026-08-26
+Summary: Federated Learning (FL) enables distributed training of machine learning models while preserving data privacy. However, FL struggles with heterogeneous, non-IID client data distributions, resulting in sub-optimal and biased global models. In this paper, we propose pFedMARL, a novel approach leveraging Multi-Agent Reinforcement Learning (MARL) with Twin Delayed Deep Deterministic Policy Gradient (T...
+
+--- [19] 2608.24127v1 ---
+Title: Anatomy of a Scam Call: What 10,000 real scam and spam calls reveal about how phone scammers operate
+Authors: Ethan Traister, Ankit Raj, Jiaqi Gan, Xingyu Shen, Tyler Wu et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.CL, cs.CY, cs.LG
+Published: 2026-08-25
+Summary: Telephone fraud is pervasive and costly, but its inner workings are rarely observed at scale. We analyze a complete corpus of 10,211 inbound scam and spam calls -- 913 hours of audio and 330,956 transcribed turns from 5,780 distinct numbers -- collected over 54 days by an AI voice-agent honeypot that answered callers and kept them talking, and introduced in a companion data descriptor. We separate...
+
+--- [20] 2608.24048v1 ---
+Title: Don't Just Listen, Try Planning: Graph-based Retrieval-Generation Agent for Long-form Audio Meeting Understanding
+Authors: Quanwei Tang, Dong Zhang, Shoushan Li, Guodong Zhou
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-25
+Summary: While long-form audio meeting understanding (LAMU) is garnering growing attention, task-specific question answering (QA) datasets remain scarce. Existing speech QA paradigms and state-of-the-art Speech LLMs suffer from acoustic information loss and poor long-term context memory. To address these issues, we construct the LongAudioQA dataset and propose the GRGA model, which models heterogeneous aud...
+
+--- [21] 2608.21833v1 ---
+Title: GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?
+Authors: Kun Chen, Haorong Hong, Peizhong Gao, Jianfeng Lin, Tongxu Luo et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-08-22
+Summary: Recent large language models (LLMs) can operate as coding agents that build complete games from natural language requests. Game development is especially demanding because program logic, visual and audio content, interfaces, interaction and playability must function together in one executable artifact. Measuring this capability therefore requires evaluation of both game product and the development...
+
+--- [22] 2608.21075v1 ---
+Title: AudioWorldSim: Realistic Binaural Audio Datasets For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-08-21
+Summary: This technical report presents AudioWorldSim, an open-source platform designed to generate realistic binaural audio datasets and advance research in audio-based machine learning, particularly world models. Built as a custom extension of Meta's SoundSpaces 2.0 platform, AudioWorldSim leverages their comprehensive acoustics framework, but focuses on the automatic rollout of random agent navigations,...
+
+--- [23] 2608.16162v2 ---
+Title: ACE-Cap: Active Evidence Acquisition via Agentic Co-Evolution for Long-Paragraph Fine-Grained Audio Captioning
+Authors: Fengji Ma, Yan Rong, Xu Li, Xuenan Xu, Chen Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-17
+Summary: Long-paragraph fine-grained audio captioning requires models to recover diverse acoustic facts while avoiding omissions and unsupported details. However, prevailing captioners remain passive one-shot generators: once a detail is overlooked, they cannot identify the evidence gap, query the audio for targeted information, or decide when sufficient evidence has been collected. We formulate this task ...
+
+--- [24] 2608.13558v1 ---
+Title: OmniScientist: An Omni-Modal Omni-Discipline AI Scientist
+Authors: Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-08-13
+Summary: Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scie...
+
+--- [25] 2608.12627v3 ---
+Title: EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory
+Authors: Le Zhang, Hao Chen, Vlad Roznyatovskiy, Jianzhong Zhang, Ke Sun
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-08-12
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aagent&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Long-horizon egocentric memory transforms continuous first-person video and audio into a searchable record of past experiences. We demonstrate two bottlenecks in existing systems: indices built from context-poor captions are unreliable for agentic search, while retrieval ignores a question's temporal intent. To address both bottlenecks, we introduce EgoCITE (Egocentric Context-augmented Indexing a...
+

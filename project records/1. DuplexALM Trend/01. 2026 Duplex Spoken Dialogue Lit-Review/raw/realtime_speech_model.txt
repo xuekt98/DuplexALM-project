@@ -1,0 +1,177 @@
+--- [1] 2609.25176v2 ---
+Title: Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction
+Authors: Lujia Bao, Qian Chen, Luyao Cheng, Chong Deng, Yuxiang Kong et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2026-09-21
+Summary: Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning with Multimodality and Multi-Teacher On-Policy Distillation (M$^{2}$-OPD) to transfer language capabilities and develop native aud...
+
+--- [2] 2609.19334v2 ---
+Title: A frontend-backend architecture for tool calls in full-duplex speech models
+Authors: Ke Hu, Slyne Deng, Chen Chen, Elena Rastorgueva, Edresson Casanova et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-16
+Summary: Full-duplex speech-to-speech (S2S) models provide natural, low-latency conversational interaction and would benefit from the ability to use external tools and complete voice-agent tasks. We propose a frontend-backend architecture where a duplex speech-to-text frontend learns to emit a delegation token and forwards streaming ASR transcripts to a text-based backend LLM for tool calls. Tool-call resu...
+
+--- [3] 2609.18333v1 ---
+Title: Look Less, Hear Better: Jointly Rewarded GRPO for Streaming ASR
+Authors: Xiuwen Zheng
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-16
+Summary: Streaming automatic speech recognition (ASR) must be judged jointly on what it transcribes and on how quickly it commits each word. Delayed streams modeling (DSM) has become the dominant paradigm for streaming large audio-language models, exposing a structural delay $τ$ that bounds the decoder's lookahead. We show that $τ$ is a poor proxy for user-perceived latency, and that the alignment-based su...
+
+--- [4] 2609.13814v3 ---
+Title: Realtime-Venus: A full-duplex interaction system with asynchronous delegation
+Authors:  Ant Group
+Primary cat: cs.CV | All cats: cs.CV, eess.AS
+Published: 2026-09-12
+Summary: Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken dialogue relies on acoustic and linguistic cues, while video interaction also requires grounding the conversation in evolving visual context. We present Realtime-Venus, a proactive full-duplex interaction system with two separately trained 9B models: Realtime-Venus-Omni for audio-vi...
+
+--- [5] 2609.04256v1 ---
+Title: Probing Warmth-Mediated Harm in Speech-Enabled LLMs for Mental-Health Conversations
+Authors: Eugenia Kim, Bolor-Erdene Jagdagdorj, Dina Pekelis, Leah Zulas, Amanda Minnich
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-01
+Summary: Audio LLM benchmarks measure understanding and dialogue quality, not whether speech-enabled models respond with relational warmth when a vulnerable user discloses a mental-health concern. We introduce a 7-turn scripted-disclosure probe grounded in WHO mental-health clinical guidelines, with each script run on the same model (Azure OpenAI gpt-realtime) in both audio and text-only conditions, and ac...
+
+--- [6] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+
+--- [7] 2608.07631v1 ---
+Title: PACE: A Playback-Aligned Context Engine for LLM-Based Full-Duplex Voice Dialogue
+Authors: Shibo Wang, Zicheng Zhang, Libo Wang, Junfeng Ma
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM
+Published: 2026-08-07
+Summary: LLM-based full-duplex voice services allow users to speak while the assistant is responding. Because servers can generate output and advance dialogue state faster than clients can play it, subsequent user speech may be interpreted based on content the user never heard. We call this failure Generative Context Mis-anchoring (GCM). To address GCM issues, we present PACE, a provider-independent middle...
+
+--- [8] 2609.04222v1 ---
+Title: GEPARD - Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue
+Authors: Denis Pavlov, Ulanbek Abdurazakov, Nursultan Bakashov
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2026-07-04
+Summary: We present GEPARD (Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue), a streaming text-to-speech model for real-time spoken dialogue. GEPARD generates speech autoregressively with an LLM backbone - text and audio embeddings are trained together in a single decoder-only model - and decodes it to a waveform with an FSQ-based neural codec, streaming audio chunk-by-...
+
+--- [9] 2605.28272v1 ---
+Title: EchoAvatar: Real-time Generative Avatar Animation from Audio Streams
+Authors: Bohong Chen, Yumeng Li, Yinglin Xu, Youyi Zheng, Yanlin Weng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-27
+Summary: Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively. In this paper, we introduce a novel framework designed to ...
+
+--- [10] 2605.23463v1 ---
+Title: StepAudio 2.5 Technical Report
+Authors: Bin Lin, Bo Zhao, Boyong Wu, Chao Yan, Chen Wu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-22
+Summary: Unified audio-language modeling has emerged as a prominent trend in modern speech systems, promising to bring the reasoning capabilities of large language models to auditory tasks. However, existing unified foundations often struggle to match the depth of specialized systems across automatic speech recognition (ASR), text-to-speech synthesis (TTS), and realtime spoken interaction. Bridging this ga...
+
+--- [11] 2605.15104v2 ---
+Title: From Text to Voice: A Reproducible and Verifiable Framework for Evaluating Tool Calling LLM Agents
+Authors: Md Tahmid Rahman Laskar, Xue-Yong Fu, Seyyed Saeed Sarfjoo, Quinten McNamara, Jonas Robertson et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-05-14
+Summary: Voice agents increasingly require reliable tool use from speech, whereas prominent tool-calling benchmarks remain text-based. We study whether verified text benchmarks can be converted into controlled audio-based tool calling evaluations without re-annotating the tool schema and gold labels. Our dataset-agnostic framework uses text-to-speech, speaker variation, and environmental noise to create pa...
+
+--- [12] 2606.07547v2 ---
+Title: Liberating LLM Capabilities in Full-Duplex Speech Models
+Authors: Luoyuan Zhang, Bokai Xu, Junbo Cui, Weiyue Sun, Yingjing Xu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-05-04
+Summary: Speech-based large language models are typically constrained to spoken replies, which limits their user-facing outputs to what can be verbalized and suppresses text-native capabilities such as code generation, structured analysis, and multi-step reasoning in realtime interaction, for tasks that require persistent, structured, and inspectable intermediate outputs. Existing work improves spoken reas...
+
+--- [13] 2604.04847v1 ---
+Title: Full-Duplex-Bench-v3: Benchmarking Tool Use for Full-Duplex Voice Agents Under Real-World Disfluency
+Authors: Guan-Ting Lin, Chen Chen, Zhehuai Chen, Hung-yi Lee
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-04-06
+Summary: We introduce Full-Duplex-Bench-v3 (FDB-v3), a benchmark for evaluating spoken language models under naturalistic speech conditions and multi-step tool use. Unlike prior work, our dataset consists entirely of real human audio annotated for five disfluency categories, paired with scenarios requiring chained API calls across four task domains. We evaluate six model configurations -- GPT-Realtime, Gem...
+
+--- [14] 2603.05413v2 ---
+Title: Building Enterprise Realtime Voice Agents from Scratch: A Technical Tutorial
+Authors: Jielin Qiu, Zixiang Chen, Liangwei Yang, Ming Zhu, Zhiwei Liu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-05
+Summary: We present a technical tutorial for building enterprise-grade realtime voice agents from first principles. While end-to-end speech-to-speech models may ultimately provide the best latency for voice agents, fully self-hosted end-to-end solutions are not yet available. We evaluate the closest candidate, Qwen3-Omni, across three configurations: its cloud-only DashScope Realtime API achieves $\sim$702...
+
+--- [15] 2602.11298v3 ---
+Title: Voxtral Realtime
+Authors:  Mistral-AI,  :, Alexander H. Liu, Andy Ehrenberg, Andy Lo et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-02-11
+Summary: We introduce Voxtral Realtime, a natively streaming automatic speech recognition model that matches offline transcription quality at sub-second latency. Unlike approaches that adapt offline models through chunking or sliding windows, Voxtral Realtime is trained end-to-end for streaming, with explicit alignment between audio and text streams. Our architecture builds on the Delayed Streams Modeling ...
+
+--- [16] 2510.00914v1 ---
+Title: Reconstruction of the Complete Vocal Tract Contour Through Acoustic to Articulatory Inversion Using Real-Time MRI Data
+Authors: Sofiane Azzouz, Pierre-André Vuissoz, Yves Laprie
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-10-01
+Summary: Acoustic to articulatory inversion has often been limited to a small part of the vocal tract because the data are generally EMA (ElectroMagnetic Articulography) data requiring sensors to be glued to easily accessible articulators. The presented acoustic to articulation model focuses on the inversion of the entire vocal tract from the glottis, the complete tongue, the velum, to the lips. It relies ...
+
+--- [17] 2507.23590v1 ---
+Title: Identifying Hearing Difficulty Moments in Conversational Audio
+Authors: Jack Collins, Adrian Buzea, Chris Collier, Alejandro Ballesta Rosen, Julian Maclaren et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-07-31
+Summary: Individuals regularly experience Hearing Difficulty Moments in everyday conversation. Identifying these moments of hearing difficulty has particular significance in the field of hearing assistive technology where timely interventions are key for realtime hearing assistance. In this paper, we propose and compare machine learning solutions for continuously detecting utterances that identify these sp...
+
+--- [18] 2506.10010v1 ---
+Title: Multimodal Emotion Coupling via Speech-to-Facial and Bodily Gestures in Dyadic Interaction
+Authors: Von Ralph Dane Marquez Herbuela, Yukie Nagai
+Primary cat: cs.MM | All cats: cs.MM, cs.LG, cs.SD, eess.AS
+Published: 2025-05-08
+Summary: Human emotional expression emerges through coordinated vocal, facial, and gestural signals. While speech face alignment is well established, the broader dynamics linking emotionally expressive speech to regional facial and hand motion remains critical for gaining a deeper insight into how emotional and behavior cues are communicated in real interactions. Further modulating the coordination is the ...
+
+--- [19] 2505.04996v1 ---
+Title: Inter-Diffusion Generation Model of Speakers and Listeners for Effective Communication
+Authors: Jinhe Huang, Yongkang Cheng, Yuming Hang, Gaoge Han, Jinewei Li et al.
+Primary cat: cs.GR | All cats: cs.GR, cs.CV, cs.SD, eess.AS
+Published: 2025-05-08
+Summary: Full-body gestures play a pivotal role in natural interactions and are crucial for achieving effective communication. Nevertheless, most existing studies primarily focus on the gesture generation of speakers, overlooking the vital role of listeners in the interaction process and failing to fully explore the dynamic interaction between them. This paper innovatively proposes an Inter-Diffusion Gener...
+
+--- [20] 2503.19677v1 ---
+Title: Deep Learning for Speech Emotion Recognition: A CNN Approach Utilizing Mel Spectrograms
+Authors: Niketa Penumajji
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2025-03-25
+Summary: This paper explores the application of Convolutional Neural Networks CNNs for classifying emotions in speech through Mel Spectrogram representations of audio files. Traditional methods such as Gaussian Mixture Models and Hidden Markov Models have proven insufficient for practical deployment, prompting a shift towards deep learning techniques. By transforming audio data into a visual format, the CN...
+
+--- [21] 2407.13083v2 ---
+Title: Modeling and Driving Human Body Soundfields through Acoustic Primitives
+Authors: Chao Huang, Dejan Markovic, Chenliang Xu, Alexander Richard
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2024-07-18
+Summary: While rendering and animation of photorealistic 3D human body models have matured and reached an impressive quality over the past years, modeling the spatial audio associated with such full body models has been largely ignored so far. In this work, we present a framework that allows for high-quality spatial audio generation, capable of rendering the full 3D soundfield generated by a human body, in...
+
+--- [22] 2406.14701v1 ---
+Title: Speech Prefix-Tuning with RNNT Loss for Improving LLM Predictions
+Authors: Murali Karthick Baskar, Andrew Rosenberg, Bhuvana Ramabhadran, Neeraj Gaur, Zhong Meng
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.SD, eess.AS
+Published: 2024-06-20
+Summary: In this paper, we focus on addressing the constraints faced when applying LLMs to ASR. Recent works utilize prefixLM-type models, which directly apply speech as a prefix to LLMs for ASR. We have found that optimizing speech prefixes leads to better ASR performance and propose applying RNNT loss to perform speech prefix-tuning. This is a simple approach and does not increase the model complexity or...
+
+--- [23] 2404.07341v2 ---
+Title: Conformer-1: Robust ASR via Large-Scale Semisupervised Bootstrapping
+Authors: Kevin Zhang, Luka Chkhetiani, Francis McCann Ramirez, Yash Khare, Andrea Vanzo et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2024-04-10
+Summary: This paper presents Conformer-1, an end-to-end Automatic Speech Recognition (ASR) model trained on an extensive dataset of 570k hours of speech audio data, 91% of which was acquired from publicly available sources. To achieve this, we perform Noisy Student Training after generating pseudo-labels for the unlabeled public data using a strong Conformer RNN-T baseline model. The addition of these pseu...
+
+--- [24] 2404.11621v1 ---
+Title: Efficient High-Performance Bark-Scale Neural Network for Residual Echo and Noise Suppression
+Authors: Ernst Seidel, Pejman Mowlaee, Tim Fingscheidt
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2024-04-08
+Summary: In recent years, the introduction of neural networks (NNs) into the field of speech enhancement has brought significant improvements. However, many of the proposed methods are quite demanding in terms of computational complexity and memory footprint. For the application in dedicated communication devices, such as speakerphones, hands-free car systems, or smartphones, efficiency plays a major role ...
+
+--- [25] 2312.10359v3 ---
+Title: Conformer-Based Speech Recognition On Extreme Edge-Computing Devices
+Authors: Mingbin Xu, Alex Jin, Sicheng Wang, Mu Su, Tim Ng et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.PF
+Published: 2023-12-16
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Arealtime+AND+abs%3Aspeech+AND+abs%3Amodel&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: With increasingly more powerful compute capabilities and resources in today's devices, traditionally compute-intensive automatic speech recognition (ASR) has been moving from the cloud to devices to better protect user privacy. However, it is still challenging to implement on-device ASR on resource-constrained devices, such as smartphones, smart wearables, and other smart home automation devices. ...
+

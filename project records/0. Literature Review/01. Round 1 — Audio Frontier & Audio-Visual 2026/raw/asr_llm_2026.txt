@@ -1,0 +1,30 @@
+# Total entries: 4
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22ASR%22+AND+abs%3A%22LLM%22+AND+abs%3A%222026%22&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.12034v1 ---
+Title: The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models
+Authors: Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao, Yuhang Dai et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-12
+Summary: Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity ...
+
+--- [2] 2608.03883v1 ---
+Title: DS@GT-ARC at eRisk 2026 Task 3: Sparse, Semantic, and LLM Reranking for ADHD Symptom Sentences
+Authors: David Guecha
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-04
+Summary: This paper describes our submissions to eRisk 2026 Task 3, ADHD Symptom Sentence Ranking. The task requires systems to rank candidate Reddit sentences according to their relevance to each of the 18 symptoms in the Adult ADHD Self-Report Scale (ASRS-v1.1). Because no annotated training data were released for this first edition of the task, we relied on zero-shot experimentation, manual validation, ...
+
+--- [3] 2607.01960v1 ---
+Title: NAVER LABS Europe Submission to the Instruction-following 2026 Short Track
+Authors: Marcely Zanon Boito, Hemant Yadav, Jean-Luc Meunier, Ioan Calapodescu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-02
+Summary: In this paper, we describe NAVER LABS Europe's submission to the instruction-following speech processing short track at IWSLT 2026. We participate again in the constrained setting, developing systems capable of jointly performing ASR, ST, and SQA from English speech into Chinese, Italian, and German. Building on our previous submission, ranked first in last year's short track, we update our multi-...
+
+--- [4] 2606.03967v1 ---
+Title: AlignAtt4LLM: Fast AlignAtt for Decoder-Only LLMs at IWSLT 2026 Simultaneous Speech Translation Task
+Authors: Quentin Fuxa, Dominik Macháček
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-02
+Summary: We describe AlignAtt4LLM, an IWSLT 2026 simultaneous speech translation system for English to German, Italian, and Chinese. The system is a synchronous cascade: Qwen3-ASR with forced alignment produces an incrementally updated source transcript, and Gemma-4 E4B-it translates that prefix under an MT-side AlignAtt policy. To our knowledge, this is the first application of AlignAtt to a decoder-only ...
+

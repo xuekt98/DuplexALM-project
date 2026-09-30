@@ -1,0 +1,142 @@
+--- [1] 2608.18832v1 ---
+Title: EfficientSync: Real-Time Lip Synchronization via Deformation-Based Reference Texture Mixing
+Authors: Fa-Ting Hong, Runzhen Liu, Luchuan Song, Hongmin Cai, Chuhua Xian
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-19
+Summary: Audio-driven lip synchronization manipulates the mouth region of a talking-face video to match the driving audio while preserving head pose, identity, and background. Although the task is inherently local editing, prevailing approaches reconstruct the entire lower face with heavy GAN- or diffusion-based decoders, incurring substantial latency and, more critically, hallucinating intra-oral details ...
+
+--- [2] 2608.05803v1 ---
+Title: Vorch-Omni: Multi-Task Orchestration of Sight and Sound
+Authors:  Vorch Team, Xiaoyu Chen, Yang Ding, Cong Han, Menglin Han et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-06
+Summary: Recent advances in generative video modeling have enabled diverse generation, reference-based synthesis, extension, and editing, but existing approaches often rely on fragmented task-specific models. A general model must distinguish heterogeneous target, source, and reference signals to determine what to generate, preserve, or use as guidance, while reducing interference among tasks. Joint audio-v...
+
+--- [3] 2607.26047v1 ---
+Title: S2A2: Audio-Visual Imitation Learning for Manipulation Tasks Using Acoustic Spatial Information
+Authors: Kaneyoshi Hiratsuka, Benjamin Yen, Ryosuke Kojima
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-28
+Summary: Acoustic information provides rich cues about object location, material properties, and changes caused by contact or motion. This paper introduces a new set of acoustic-aware manipulation tasks for imitation learning, in which robots must use auditory cues to determine manipulation targets. These tasks require sound source localization and identification for active exploration in robotic manipulat...
+
+--- [4] 2607.04472v1 ---
+Title: EVAS: Efficient Multimodal Temporal Forgery Localization via Audio-Visual Synergy and Steered Boundary Calibration
+Authors: Shen Shen, Quan Zhang, Dan Jiang, Ke Zhang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-05
+Summary: The rapid proliferation of artificial intelligence-generated content necessitates reliable multimodal forensics. Beyond video-level binary classification, precisely localizing sparsely distributed forged segments in long-form videos remains a critical challenge. This task is particularly difficult when manipulations are subtly embedded and cross-modal signals are weak and temporally diffuse. To ad...
+
+--- [5] 2605.18467v1 ---
+Title: InstructAV2AV: Instruction-Guided Audio-Video Joint Editing
+Authors: Haojie Zheng, Yixin Yang, Siqi Yang, Shuchen Weng, Boxin Shi
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-18
+Summary: Recent diffusion-based methods have achieved impressive progress in video content manipulation. However, they typically ignore the accompanying audio, leaving the audio disjointed from the edited results. In this paper, we propose InstructAV2AV, the first end-to-end framework for instruction-guided audio-video joint editing. We first develop a scalable data synthesis pipeline and construct InsAVE-...
+
+--- [6] 2603.08483v1 ---
+Title: X-AVDT: Audio-Visual Cross-Attention for Robust Deepfake Detection
+Authors: Youngseo Kim, Kwan Yun, Seokhyeon Hong, Sihun Cha, Colette Suhjung Koo et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.LG
+Published: 2026-03-09
+Summary: The surge of highly realistic synthetic videos produced by contemporary generative systems has significantly increased the risk of malicious use, challenging both humans and existing detectors. Against this backdrop, we take a generator-side view and observe that internal cross-attention mechanisms in these models encode fine-grained speech-motion alignment, offering useful correspondence cues for...
+
+--- [7] 2602.13640v1 ---
+Title: Hierarchical Audio-Visual-Proprioceptive Fusion for Precise Robotic Manipulation
+Authors: Siyuan Li, Jiani Lu, Yu Song, Xianren Li, Bo An et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2026-02-14
+Summary: Existing robotic manipulation methods primarily rely on visual and proprioceptive observations, which may struggle to infer contact-related interaction states in partially observable real-world environments. Acoustic cues, by contrast, naturally encode rich interaction dynamics during contact, yet remain underexploited in current multimodal fusion literature. Most multimodal fusion approaches impl...
+
+--- [8] 2602.02396v1 ---
+Title: PRISM: Performer RS-IMLE for Single-pass Multisensory Imitation Learning
+Authors: Amisha Bhaskar, Pratap Tokekar, Stefano Di Cairano, Alexander Schperberg
+Primary cat: cs.RO | All cats: cs.RO, cs.LG
+Published: 2026-02-02
+Summary: Robotic imitation learning typically requires models that capture multimodal action distributions while operating at real-time control rates and accommodating multiple sensing modalities. Although recent generative approaches such as diffusion models, flow matching, and Implicit Maximum Likelihood Estimation (IMLE) have achieved promising results, they often satisfy only a subset of these requirem...
+
+--- [9] 2601.02359v1 ---
+Title: ExposeAnyone: Personalized Audio-to-Expression Diffusion Models Are Robust Zero-Shot Face Forgery Detectors
+Authors: Kaede Shiohara, Toshihiko Yamasaki, Vladislav Golyanik
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-01-05
+Summary: Detecting unknown deepfake manipulations remains one of the most challenging problems in face forgery detection. Current state-of-the-art approaches fail to generalize to unseen manipulations, as they primarily rely on supervised training with existing deepfakes or pseudo-fakes, which leads to overfitting to specific forgery patterns. In contrast, self-supervised methods offer greater potential fo...
+
+--- [10] 2512.09504v1 ---
+Title: DMP-TTS: Disentangled multi-modal Prompting for Controllable Text-to-Speech with Chained Guidance
+Authors: Kang Yin, Chunyu Qiang, Sirui Zhao, Xiaopeng Wang, Yuzhe Liang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-12-10
+Summary: Controllable text-to-speech (TTS) systems face significant challenges in achieving independent manipulation of speaker timbre and speaking style, often suffering from entanglement between these attributes. We present DMP-TTS, a latent Diffusion Transformer (DiT) framework with explicit disentanglement and multi-modal prompting. A CLAP-based style encoder (Style-CLAP) aligns cues from reference aud...
+
+--- [11] 2511.08031v1 ---
+Title: Multi-modal Deepfake Detection and Localization with FPN-Transformer
+Authors: Chende Zheng, Ruiqi Suo, Zhoulin Ji, Jingyi Deng, Fangbin Yi et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2025-11-11
+Summary: The rapid advancement of generative adversarial networks (GANs) and diffusion models has enabled the creation of highly realistic deepfake content, posing significant threats to digital trust across audio-visual domains. While unimodal detection methods have shown progress in identifying synthetic media, their inability to leverage cross-modal correlations and precisely localize forged segments li...
+
+--- [12] 2510.14241v1 ---
+Title: PIA: Deepfake Detection Using Phoneme-Temporal and Identity-Dynamic Analysis
+Authors: Soumyya Kanti Datta, Tanvi Ranga, Chengzhe Sun, Siwei Lyu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-10-16
+Summary: The rise of manipulated media has made deepfakes a particularly insidious threat, involving various generative manipulations such as lip-sync modifications, face-swaps, and avatar-driven facial synthesis. Conventional detection methods, which predominantly depend on manually designed phoneme-viseme alignment thresholds, fundamental frame-level consistency checks, or a unimodal detection strategy, ...
+
+--- [13] 2510.12175v4 ---
+Title: Audio Palette: A Diffusion Transformer with Multi-Signal Conditioning for Controllable Foley Synthesis
+Authors: Junnuo Wang
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-10-14
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Amanipulation+AND+abs%3Adiffusion&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Recent advances in diffusion-based generative models have enabled high-quality text-to-audio synthesis, but fine-grained acoustic control remains a significant challenge in open-source research. We present Audio Palette, a diffusion transformer (DiT) based model that extends the Stable Audio Open architecture to address this "control gap" in controllable audio generation. Unlike prior approaches t...
+
+--- [14] 2509.25842v1 ---
+Title: HiStyle: Hierarchical Style Embedding Predictor for Text-Prompt-Guided Controllable Speech Synthesis
+Authors: Ziyu Zhang, Hanzhao Li, Jingbin Hu, Wenhao Li, Lei Xie
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2025-09-30
+Summary: Controllable speech synthesis refers to the precise control of speaking style by manipulating specific prosodic and paralinguistic attributes, such as gender, volume, speech rate, pitch, and pitch fluctuation. With the integration of advanced generative models, particularly large language models (LLMs) and diffusion models, controllable text-to-speech (TTS) systems have increasingly transitioned f...
+
+--- [15] 2509.21625v1 ---
+Title: Guiding Audio Editing with Audio Language Model
+Authors: Zitong Lan, Yiduo Hao, Mingmin Zhao
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, eess.AS
+Published: 2025-09-25
+Summary: Audio editing plays a central role in VR/AR immersion, virtual conferencing, sound design, and other interactive media. However, recent generative audio editing models depend on template-like instruction formats and are restricted to mono-channel audio. These models fail to deal with declarative audio editing, where the user declares what the desired outcome should be, while leaving the details of...
+
+--- [16] 2507.04864v1 ---
+Title: Music Boomerang: Reusing Diffusion Models for Data Augmentation and Audio Manipulation
+Authors: Alexander Fichtinger, Jan Schlüter, Gerhard Widmer
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2025-07-07
+Summary: Generative models of music audio are typically used to generate output based solely on a text prompt or melody. Boomerang sampling, recently proposed for the image domain, allows generating output close to an existing example, using any pretrained diffusion model. In this work, we explore its application in the audio domain as a tool for data augmentation or content manipulation. Specifically, imp...
+
+--- [17] 2506.17886v2 ---
+Title: GD-Retriever: Controllable Generative Text-Music Retrieval with Diffusion Models
+Authors: Julien Guinot, Elio Quinton, György Fazekas
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-06-22
+Summary: Multimodal contrastive models have achieved strong performance in text-audio retrieval and zero-shot settings, but improving joint embedding spaces remains an active research area. Less attention has been given to making these systems controllable and interactive for users. In text-music retrieval, the ambiguity of freeform language creates a many-to-many mapping, often resulting in inflexible or ...
+
+--- [18] 2506.08797v3 ---
+Title: HunyuanVideo-HOMA: Generic Human-Object Interaction in Multimodal Driven Human Animation
+Authors: Ziyao Huang, Zixiang Zhou, Juan Cao, Yifeng Ma, Yi Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-06-10
+Summary: To address key limitations in human-object interaction (HOI) video generation -- specifically the reliance on curated motion data, limited generalization to novel objects/scenarios, and restricted accessibility -- we introduce HunyuanVideo-HOMA, a weakly conditioned multimodal-driven framework. HunyuanVideo-HOMA enhances controllability and reduces dependency on precise inputs through sparse, deco...
+
+--- [19] 2506.01591v1 ---
+Title: Silence is Golden: Leveraging Adversarial Examples to Nullify Audio Control in LDM-based Talking-Head Generation
+Authors: Yuan Gan, Jiaxu Miao, Yunze Wang, Yi Yang
+Primary cat: cs.GR | All cats: cs.GR, cs.CR, cs.CV, cs.SD, eess.AS
+Published: 2025-06-02
+Summary: Advances in talking-head animation based on Latent Diffusion Models (LDM) enable the creation of highly realistic, synchronized videos. These fabricated videos are indistinguishable from real ones, increasing the risk of potential misuse for scams, political manipulation, and misinformation. Hence, addressing these ethical concerns has become a pressing issue in AI security. Recent proactive defen...
+
+--- [20] 2505.23305v3 ---
+Title: MGE-LDM: Joint Latent Diffusion for Simultaneous Music Generation and Source Extraction
+Authors: Yunkee Chae, Kyogu Lee
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2025-05-29
+Summary: We present MGE-LDM, a unified latent diffusion framework for simultaneous music generation, source imputation, and query-driven source separation. Unlike prior approaches constrained to fixed instrument classes, MGE-LDM learns a joint distribution over full mixtures, submixtures, and individual stems within a single compact latent diffusion model. At inference, MGE-LDM enables (1) complete mixture...
+

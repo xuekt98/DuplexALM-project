@@ -1,0 +1,177 @@
+--- [1] 2609.35645v1 ---
+Title: CoSE-E: A Benchmark for Code-switched Speech Evaluation in Enterprise Settings
+Authors: Shama Gupta, Hoang H Nguyen, Chelsea Huang, Lindsay Devon Brin, Fanny Riols
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2026-09-28
+Summary: Code-switching (CS), a seamless alternation between languages within a single utterance, remains a critical challenge in automatic speech recognition (ASR). While prior works focus on conversational CS-ASR, enterprise settings demand evaluation of operational impact beyond edit-distance errors: how code-switching transcription errors propagate to downstream voice agent task failures. In this work,...
+
+--- [2] 2609.34901v1 ---
+Title: Domain-Incremental Learning for Generative Speech Enhancement
+Authors: Manjunath Mulimani, Annamaria Mesaros, Minje Kim, Jesper Rindom Jensen
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-28
+Summary: We propose a domain-incremental learning framework for generative speech enhancement (SE) that learns from a sequence of datasets or domains recorded under diverse acoustic conditions. Fine-tuning a pretrained model on continuously evolving domains leads to catastrophic forgetting of previously acquired knowledge, while zero-shot generalization often fails to adequately adapt to unseen domains. To...
+
+--- [3] 2609.34582v1 ---
+Title: SpeechCritic: Learning a Diagnostic Speech Judge from Limited Human Preferences
+Authors: Mingyue Huo, Shivam Mehta, Bhavin Jawade, Yinghong Lan, Haoqi Li
+Primary cat: cs.AI | All cats: cs.AI, cs.SD
+Published: 2026-09-28
+Summary: Human speech conveys rich perceptual information, such as emotion and speaker identity, yet most automatic speech quality judges reduce it to a single naturalness score. We study diagnostic speech judges: given two candidates, a diagnostic judge decides which is better, along which perceptual dimensions (e.g., timbre, emotion, timing) they differ, and which audible cues support its decision. Learn...
+
+--- [4] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [5] 2609.34223v1 ---
+Title: Uncovering Ordinal-Matching Bias in Audio-Visual LLMs
+Authors: Jihoo Jung, Youngjoon Jang, Hyebin Cho, Suho Yoo, Joon Son Chung
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-09-28
+Summary: This work aims to improve how audio-visual large language models (AVLLMs) associate speech with the correct visible speaker in multi-speaker scenes. We find that current AVLLMs frequently fail at this task, and analyze the nature of these failures. To this end, we construct a synthetic diagnostic dataset in which multiple visible speakers each utter a single word. Analysis on this corpus reveals a...
+
+--- [6] 2609.34217v1 ---
+Title: Explainable and Generalisable LLM-based Cognitive Decline Detection with Spontaneous Speech
+Authors: Ziyun Cui, Wen Wu, Chuan Shi, Shuguang Yang, Xueying Gui et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-09-28
+Summary: Alzheimer's disease (AD) and mild cognitive impairment (MCI), which may precede AD, manifest early through subtle linguistic and acoustic alterations. Traditional diagnostics, however, are often resource-intensive and lack scalability for mass screening. To address these challenges, we introduce a novel bilingual speech large language model framework for automated, explainable cognitive screening....
+
+--- [7] 2609.34052v1 ---
+Title: Towards Interpretable Framework for Neural Audio Codecs via Sparse Autoencoders: Exploration toward Age, Gender, and Accent Steering
+Authors: Shih-Heng Wang, Tiantian Feng, Aditya Kommineni, Huang-Cheng Chou, Bowen Yi et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-28
+Summary: Neural audio codecs (NACs) are widely used in speech generation and audio-language modeling, yet how they encode speaker-trait information remains poorly understood. Prior work applied sparse autoencoders (SAEs) to investigate accent information in NACs through task-level analysis. Here, we extend this analysis to the waveform level and to age, gender, and accent, using SAE steering to probe trait...
+
+--- [8] 2609.33742v1 ---
+Title: DuraS2ST: Chain-of-Thought and Reinforcement Learning for Duration-Aligned Speech-to-Speech Translation
+Authors: Yayue Deng, Dingdong Wang, Yuxuan Hu, Jinyu Li, Yanqing Liu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-27
+Summary: Speech-to-speech translation (S2ST) in time-sensitive applications such as video dubbing requires not only semantic fidelity and speaker preservation, but also strict duration consistency to avoid audio-visual misalignment. However, existing S2ST systems largely generate target speech without explicit temporal planning, making duration control an unresolved challenge. We introduce DuraS2ST, a dura...
+
+--- [9] 2609.33538v1 ---
+Title: Jev Matches 7B Language Models for Speech-Neuroprosthesis Rescoring
+Authors: Gabriele Cinà
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-27
+Summary: A speech neuroprosthesis decodes attempted speech from brain activity and ends by rescoring the decoder's candidate sentences with a language model of several billion parameters, the only component that needs a GPU. Replacing that model with a cheaper one is hard: general language models asked to pick one sentence from a list answer from where a label sits in the list rather than from the sentence...
+
+--- [10] 2609.33443v1 ---
+Title: Context Spanning: A Communication Framework for Full-Duplex Speech Models and External LLM Backends
+Authors: Seonghyeon Go, Yongwoo Kim, Hyeonjin Cha, Jaeho Shin
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-27
+Summary: Full-duplex spoken dialogue models can listen and speak simultaneously like the real-time dynamics of human conversation. For natural dialogue, the ability to search for external information in real-time is also an important capability. Many models remain trapped in parametric knowledge, leaving them unable to access real-time information and tool execution. Furthermore, even when Large Language M...
+
+--- [11] 2609.33362v1 ---
+Title: From Script to Drama: An Agentic Framework for Controllable Multi-Speaker Dialogue TTS
+Authors: Kangxiang Xia, Xinfa Zhu, HangRui Hu, Kexin Huang, Wenjie Tian et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD
+Published: 2026-09-27
+Summary: Multi-speaker dialogue TTS requires natural speech generation, consistent speaker identity, coherent cross-turn transitions, and fine-grained control of expressive attributes such as emotion, speaking rate, and loudness. These requirements are difficult to satisfy reliably with one-shot generation, especially in long-form dialogue. We propose a controllable multi-speaker dialogue TTS framework tha...
+
+--- [12] 2609.33345v1 ---
+Title: Language Discrimination Improves Linguistic Learning in Multilingual Speech Models
+Authors: Maureen de Seyssel, Jie Chi, Zakaria Aldeneh
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-27
+Summary: Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening the model's ability to discriminate languages during pretraining reduces and, on some measures, closes this multilingual gap on continuous phonetic and higher-level linguistic meas...
+
+--- [13] 2609.33204v1 ---
+Title: Turning Speech Language Models into Multilingual Listeners
+Authors: Tolúlopé Ògúnrèmí, Dan Jurafsky, Chris Manning, Ahmet Üstün, Martijn Bartelds
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-27
+Summary: Speech Language Models (SLMs) that understand spoken language questions support only a few high-resource languages, limiting access to millions of people worldwide. This gap stems from the scarcity of multilingual speech instruction-tuning datasets. We present MULTISPEECHQA, a large-scale, synthetically generated and human-verified dataset comprising 9200 hours of 10.8 million spoken question-answ...
+
+--- [14] 2609.33121v1 ---
+Title: Classifying Dominant Temporal Orientation without Pretrained Text Embeddings: A Novel Morphosyntactic Inventory Vector Approach
+Authors: Jonathan Cleveland, Peter S. Bearman
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-27
+Summary: Computational methods have consistently struggled to determine the dominant temporal orientation of a sentence. This difficulty is especially pronounced when a sentence contains multiple embedded clauses with competing tense and aspectual information. To address this difficulty, we propose an alternative approach for identifying a sentence's past, present, or future global reference interval. Our ...
+
+--- [15] 2609.32804v1 ---
+Title: Finding Emotions Where They Belong: Rethinking Audio Emotion Recognition through Masked Temporal Affective Grounding
+Authors: Abdelrahman Mohamed, Lars Kai Hansen, Zheng-Hua Tan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-26
+Summary: Audio emotion recognition (AER) typically assigns a single label to an entire recording, leaving the temporal scope of that label ambiguous when multiple speakers and affective events are present. We address this limitation by reformulating AER as a Temporal Affective Grounding (TAG) task that associates emotions with temporally bounded speech spans and vocal tone descriptions. To support this for...
+
+--- [16] 2609.32569v1 ---
+Title: OmniSmartHome: A Multimodal Reasoning Benchmark for Smart-Home Agents
+Authors: Jihoo Jung, Suho Yoo, Jeongsoo Choi, Hyebin Cho, Tae Wook Haam et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-26
+Summary: Smart-home assistants are expected to handle diverse, realistic requests that arise in daily life. In such interactions, users often rely on the surrounding multimodal context-pointing at objects or referring to what they see or hear, leaving their requests underspecified in language alone. Existing smart-home benchmarks, however, express user requests solely through language, leaving context-depe...
+
+--- [17] 2609.32560v1 ---
+Title: How to Reduce Whisper Hallucination
+Authors: Husein Zolkepli
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-26
+Summary: Whisper is still what runs in production: one permissively licensed checkpoint, 99 languages, no per-language tuning. But it writes sentences nobody said. On 42 clips of pure room tone, whisper-large-v3 emits words on 61.9% of them and emits something on 100%. The usual response is to distil a student from Whisper pseudo-labels, filtering the hallucinations out of the corpus first, which deletes t...
+
+--- [18] 2609.32504v1 ---
+Title: Toward Human-Aligned Judgement of Speech Emotion Similarity
+Authors: Yun-Shao Tsai, Yi-Cheng Lin, Chih-Kai Yang, Ho-Jung Cheng, Tsun-Yi Chang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-26
+Summary: Evaluating emotion preservation in expressive speech generation involves assessing how closely generated speech matches a reference in emotion. Human listening tests assess this similarity, but their cost motivates automatic measures aligned with human judgments. To support the development and evaluation of such measures, we introduce SES-Bench, a speech emotion similarity benchmark built from hum...
+
+--- [19] 2609.32250v1 ---
+Title: RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots
+Authors: Yujia Zeng, Chensheng Peng, Yuxin Chen, Alex Shao, Nathan Jew et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-26
+Summary: Sign-language interpretation in public communication relies on qualified professional interpreters and can be difficult to scale, motivating robotic signing as a complementary accessibility interface. We present RoBoSTAR, a text-conditioned sign language production (SLP) framework for generating human-centric sign motion that can be retargeted for robotic execution, with speech supported optionall...
+
+--- [20] 2609.31997v1 ---
+Title: Integrating Language Models into Listened and Imagined Speech Decoding from MEG
+Authors: Maryam Maghsoudi, Sai Samrat Kankanala, Shihab A. Shamma, Sriram Ganapathy
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-09-25
+Summary: Decoding imagined speech is an important goal for brain-computer interfaces but remains challenging due to weak neural responses, low signal-to-noise ratio, and limited imagined-speech datasets. Language models provide strong contextual cues for text prediction, but how much they can help neural decoding and whether their contribution differs for decoding perceived and imagined speech remains uncl...
+
+--- [21] 2609.31967v1 ---
+Title: IndicFDB: Benchmarking Full-Duplex Voice Agents across Indian Languages
+Authors: Rajarshi Roy, Shobhit Banga, Jonathan Raiman, Supriya Paul, Bhaskar Singh et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-25
+Summary: Full-duplex voice agents must handle pauses, take turns, backchannel, and respond to user interruptions in real time. Full-Duplex-Bench evaluates these behaviors, but its English-only corpus and reliance on word-timestamped ASR and an English-prompted LLM judge make it difficult to extend to Indian languages. We introduce IndicFDB, which extends it to ten languages spoken in India with 12,350 samp...
+
+--- [22] 2609.31961v1 ---
+Title: Improving Audiovisual Speech Recognition through Synthetic Visual Data Augmentation
+Authors: Pol Buitrago, Pol Gàlvez, Javier Hernando
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD, eess.IV
+Published: 2026-09-25
+Summary: Audiovisual Speech Recognition (AVSR) is a multimodal approach to speech recognition that incorporates visual information from lip movements to enhance model performance. Despite its advantages, its development remains constrained by the limited availability of labeled audiovisual (AV) datasets. This work explores the use of synthetic visual data as a solution, using an audio-driven talking-head p...
+
+--- [23] 2609.31293v1 ---
+Title: Why Alzheimer's Speech Screening Fails to Generalize: Bridging the Deployment Gap via Cross-Corpus Evidence Anchoring
+Authors: Zijian Lu, Sizhe Liu, Yin Zhang, Jixuan Deng, Xinrong Lin et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD
+Published: 2026-09-25
+Summary: Speech-based screening is a promising, non-invasive approach for detecting Alzheimer's disease and related cognitive risks. However, models trained on a single domain often generalize poorly to unseen languages, tasks, or recording protocols. This paper investigates this deployment gap using a leave-one-corpus-out evaluation across four distinct datasets. Among 70 interpretable speech and language...
+
+--- [24] 2609.31224v1 ---
+Title: Acoustic-to-Text KV Compression for Full-Duplex Speech Models
+Authors: Yejin Lee, Seungbeom Kim, Yongha Lee, Kyuhong Shim
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-25
+Summary: Full-duplex speech language models continuously accumulate acoustic key-value (KV) states, making long-running interactions memory-intensive. During listening, the model can finish processing an audio unit before the next arrives; we term the remaining interval listening-time slack. We propose acoustic-to-text KV compression, which introduces a transcription side channel to convert incoming speech...
+
+--- [25] 2609.31180v1 ---
+Title: BAT-CLIP: Trimodal Alignment of Brain, Audio and Text
+Authors: Suhyun Kim, Jinmo Han, Danny Dongyeop Han, Ahhyun Lucy Lee, Jewoon Lee et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, eess.AS
+Published: 2026-09-25
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspeech+AND+abs%3Alanguage+AND+abs%3Amodel&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Decoding and interpreting naturalistic speech from the brain increasingly relies on alignment to pretrained speech and language representation spaces. However, current CLIP-style brain-speech alignment ground neural activity to a single anchor modality-audio or text-despite the brain's inherently multimodal speech processing. This induces a trade-off: audio anchoring preserves temporal structure b...
+

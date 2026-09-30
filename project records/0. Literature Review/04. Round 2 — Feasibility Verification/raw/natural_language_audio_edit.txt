@@ -1,0 +1,142 @@
+--- [1] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [2] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [3] 2608.30068v2 ---
+Title: TAKE 85: Testing Audiovisual filmmaKer's intEnt across 85 Hours of Film
+Authors: Kaishuu Shinozaki-Conefrey, Olivier Pascaud, Robin Courant, Xi Wang, Dimitris Samaras et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-30
+Summary: Films communicate through deliberate creative choices, including lighting, color, composition, editing, dialogue, music, and sound. Humans naturally interpret these signals as directorial intent, yet current multimodal large language models (MLLMs) are evaluated almost exclusively on understanding what happens rather than why it is presented that way. We introduce TAKE 85, the first benchmark for ...
+
+--- [4] 2608.02673v2 ---
+Title: dots.tts.edit: Precisely Controlled Speech Editing with a Continuous Autoregressive Model
+Authors: Hankun Wang, Bohan Li, Shi Lian, Xiaoyu Gu, Jing Peng et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-08-02
+Summary: Speech editing for content creation requires precise control over both what an edit should do and where it should apply. Free-form natural language provides a flexible interface for expressing edit requests, but its ambiguity may leave the intended operation, parameters, or target region underspecified. We study a precise and explicit interface for speech editing: a transcript-grounded structural ...
+
+--- [5] 2607.10711v1 ---
+Title: Lottery and Sprint Arcade: Enabling Player-Driven Game Editing with Generative AI
+Authors: Maya Grace Torii, Takahito Murakami, Yoichi Ochiai
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-07-12
+Summary: Large language models (LLMs) are shifting game generation from offline automation toward play-driven modification through natural language interaction. In this work, we present a play-driven game editing system that enables players to modify a retro Space Invaders - style arcade game through voice-based natural-language commands during play. Spoken instructions are interpreted by an LLM and transl...
+
+--- [6] 2607.08705v2 ---
+Title: HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales
+Authors: Wenbo Xu, Zhimin Chen, Xiaojie Liang, Hengrui Liu, Ziqi Sheng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-09
+Summary: Rapid advancements in video diffusion models and temporal editing tools have enabled the generation of highly realistic human-centric videos, presenting unprecedented challenges to digital content forensics. Existing benchmarks primarily focus on face-swapping or global text-to-video synthesis, overlooking the crucial dimensions of multimodal alignment and complex human-object or human-human inter...
+
+--- [7] 2606.21227v1 ---
+Title: Bagpiper-Edit: Zero-Shot Open-Ended Audio Editing via Rich-Caption
+Authors: Xun Gong, Jinchuan Tian, Haoran Wang, William Chen, Shinji Watanabe et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-19
+Summary: Current text-guided audio editing methods rely on paired training data, predefined operation templates, and separate processing pipelines across speech, music, and sound. We present Bagpiper-Edit to enable open-ended audio editing via free-form natural language instructions. We reformulate audio editing as a rich-caption rewriting task by treating a rich caption as the semantic representation of a...
+
+--- [8] 2605.08750v1 ---
+Title: Communicating Sound Through Natural Language
+Authors: Emanuele Rossi, Emanuele Rodolà
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL, cs.MA
+Published: 2026-05-09
+Summary: Natural language is widely used to describe, prompt, and control audio systems, but rarely serves as the representation carrying audio itself. We introduce lexical acoustic coding (LAC), a framework in which pre-trained LLM sender and receiver agents transmit sound through natural language. Under fixed system prompts, the agents write their own analysis and synthesis code, communicating only throu...
+
+--- [9] 2603.29664v1 ---
+Title: CutClaw: Agentic Hours-Long Video Editing via Music Synchronization
+Authors: Shifang Zhao, Yihan Hu, Ying Shan, Yunchao Wei, Xiaodong Cun
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-31
+Summary: Editing the video content with audio alignment forms a digital human-made art in current social media. However, the time-consuming and repetitive nature of manual video editing has long been a challenge for filmmakers and professional content creators alike. In this paper, we introduce CutClaw, an autonomous multi-agent framework designed to edit hours-long raw footage into meaningful short videos...
+
+--- [10] 2603.26364v1 ---
+Title: LLaDA-TTS: Unifying Speech Synthesis and Zero-Shot Editing via Masked Diffusion Modeling
+Authors: Xiaoyu Fan, Huizhi Xie, Wei Zou, Yunzhang Chen
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-27
+Summary: Large language model (LLM)-based text-to-speech (TTS) systems achieve remarkable naturalness via autoregressive (AR) decoding, but require N sequential steps to generate N speech tokens. We present LLaDA-TTS, which replaces the AR LLM with a masked diffusion model that completes generation in a fixed number of parallel steps, decoupling inference latency from sequence length. Remarkably, using onl...
+
+--- [11] 2603.14343v2 ---
+Title: Localizing and Editing Knowledge in Large Audio-Language Models
+Authors: Sung Kyun Chung, Jiaheng Dong, Qiuchi Hu, Gongping Huang, Hong Jia et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-03-15
+Summary: Large Audio-Language Models (LALMs) have shown strong performance in speech understanding, making speech a natural interface for accessing factual information. Yet they are trained on static corpora and may encode incorrect facts. Existing model editing methods localize and update facts in text-only LLMs, but do not account for continuous speech representations, or where knowledge is stored across...
+
+--- [12] 2602.21818v3 ---
+Title: SkyReels-V4: Multi-modal Video-Audio Generation, Inpainting and Editing model
+Authors: Guibin Chen, Dixuan Lin, Jiangping Yang, Youqiang Zhang, Zhengcong Fei et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-25
+Summary: SkyReels V4 is a unified multi modal video foundation model for joint video audio generation, inpainting, and editing. The model adopts a dual stream Multimodal Diffusion Transformer (MMDiT) architecture, where one branch synthesizes video and the other generates temporally aligned audio, while sharing a powerful text encoder based on the Multimodal Large Language Models (MLLM). SkyReels V4 accept...
+
+--- [13] 2601.12480v1 ---
+Title: A Unified Neural Codec Language Model for Selective Editable Text to Speech Generation
+Authors: Hanchen Pei, Shujie Liu, Yanqing Liu, Jianwei Yu, Yuanhang Qian et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-01-18
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Anatural+AND+abs%3Alanguage+AND+abs%3Aaudio+AND+abs%3Aedit&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Neural codec language models achieve impressive zero-shot Text-to-Speech (TTS) by fully imitating the acoustic characteristics of a short speech prompt, including timbre, prosody, and paralinguistic information. However, such holistic imitation limits their ability to isolate and control individual attributes. In this paper, we present a unified codec language model SpeechEdit that extends zero-sh...
+
+--- [14] 2512.20151v1 ---
+Title: QuarkAudio Technical Report
+Authors: Chengwei Liu, Haoyin Yan, Shaofei Xue, Xiaotao Liang, Xiaofu Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-12-23
+Summary: Many existing audio processing and generation models rely on task-specific architectures, resulting in fragmented development efforts and limited extensibility. It is therefore promising to design a unified framework capable of handling multiple tasks, while providing robust instruction and audio understanding and high-quality audio generation. This requires a compatible paradigm design, a powerfu...
+
+--- [15] 2512.03289v1 ---
+Title: DAWZY: A New Addition to AI powered "Human in the Loop" Music Co-creation
+Authors: Aaron C Elkins, Sanchit Singh, Adrian Kieback, Sawyer Blankenship, Uyiosa Philip Amadasun et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-12-02
+Summary: Digital Audio Workstations (DAWs) offer fine control, but mapping high-level intent (e.g., "warm the vocals") to low-level edits breaks creative flow. Existing artificial intelligence (AI) music generators are typically one-shot, limiting opportunities for iterative development and human contribution. We present DAWZY, an open-source assistant that turns natural-language (text/voice/hum) requests ...
+
+--- [16] 2511.12347v1 ---
+Title: VoiceCraft-X: Unifying Multilingual, Voice-Cloning Speech Synthesis and Speech Editing
+Authors: Zhisheng Zheng, Puyuan Peng, Anuj Diwan, Cong Phuoc Huynh, Xiaohang Sun et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD
+Published: 2025-11-15
+Summary: We introduce VoiceCraft-X, an autoregressive neural codec language model which unifies multilingual speech editing and zero-shot Text-to-Speech (TTS) synthesis across 11 languages: English, Mandarin, Korean, Japanese, Spanish, French, German, Dutch, Italian, Portuguese, and Polish. VoiceCraft-X utilizes the Qwen3 large language model for phoneme-free cross-lingual text processing and a novel token...
+
+--- [17] 2511.03227v2 ---
+Title: Node-Based Editing for Multimodal Generation of Text, Audio, Image, and Video
+Authors: Alexander Htet Kyaw, Lenin Ravindranath Sivalingam
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.MM
+Published: 2025-11-05
+Summary: We present a node-based storytelling system for multimodal content generation. The system represents stories as graphs of nodes that can be expanded, edited, and iteratively refined through direct user edits and natural-language prompts. Each node can integrate text, images, audio, and video, allowing creators to compose multimodal narratives. A task selection agent routes between specialized gene...
+
+--- [18] 2510.22795v1 ---
+Title: SAO-Instruct: Free-form Audio Editing using Natural Language Instructions
+Authors: Michael Ungersböck, Florian Grötschla, Luca A. Lanzendörfer, June Young Yi, Changho Choi et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2025-10-26
+Summary: Generative models have made significant progress in synthesizing high-fidelity audio from short textual descriptions. However, editing existing audio using natural language has remained largely underexplored. Current approaches either require the complete description of the edited audio or are constrained to predefined edit instructions that lack flexibility. In this work, we introduce SAO-Instruc...
+
+--- [19] 2511.05516v1 ---
+Title: Ming-UniAudio: Speech LLM for Joint Understanding, Generation and Editing with Unified Representation
+Authors: Canxiang Yan, Chunxiang Jin, Dawei Huang, Haibing Yu, Han Peng et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2025-10-26
+Summary: Existing speech models suffer from competing requirements on token representations by understanding and generation tasks. This discrepancy in representation prevents speech language models from performing instruction-based free-form editing. To solve this challenge, we introduce a novel framework that unifies speech understanding, generation, and editing. The core of our unified model is a unified...
+
+--- [20] 2509.24570v1 ---
+Title: ISSE: An Instruction-Guided Speech Style Editing Dataset And Benchmark
+Authors: Yun Chen, Qi Chen, Zheqi Dai, Arshdeep Singh, Philip J. B. Jackson et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-29
+Summary: Speech style editing refers to modifying the stylistic properties of speech while preserving its linguistic content and speaker identity. However, most existing approaches depend on explicit labels or reference audio, which limits both flexibility and scalability. More recent attempts to use natural language descriptions remain constrained by oversimplified instructions and coarse style control. T...
+

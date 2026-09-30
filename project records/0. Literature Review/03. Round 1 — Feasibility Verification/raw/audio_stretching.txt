@@ -1,0 +1,23 @@
+# Total entries: 3
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Aaudio+AND+ti%3Astretching&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2506.21086v1 ---
+Title: PeakNetFP: Peak-based Neural Audio Fingerprinting Robust to Extreme Time Stretching
+Authors: Guillem Cortès-Sebastià, Benjamin Martin, Emilio Molina, Xavier Serra, Romain Hennequin
+Primary cat: cs.SD | All cats: cs.SD, cs.IR, eess.AS
+Published: 2025-06-26
+Summary: This work introduces PeakNetFP, the first neural audio fingerprinting (AFP) system designed specifically around spectral peaks. This novel system is designed to leverage the sparse spectral coordinates typically computed by traditional peak-based AFP methods. PeakNetFP performs hierarchical point feature extraction techniques similar to the computer vision model PointNet++, and is trained using co...
+
+--- [2] 2312.14586v1 ---
+Title: Noise Morphing for Audio Time Stretching
+Authors: Eloi Moliner, Leonardo Fierro, Alec Wright, Matti Hämäläinen, Vesa Välimäki
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2023-12-22
+Summary: This letter introduces an innovative method to enhance the quality of audio time stretching by precisely decomposing a sound into sines, transients, and noise and by improving the processing of the latter component. While there are established methods for time-stretching sines and transients with high quality, the manipulation of noise or residual components has lacked robust solutions in prior re...
+
+--- [3] 2211.16992v1 ---
+Title: Extreme Audio Time Stretching Using Neural Synthesis
+Authors: Leonardo Fierro, Alec Wright, Vesa Välimäki, Matti Hämäläinen
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2022-11-30
+Summary: A deep neural network solution for time-scale modification (TSM) focused on large stretching factors is proposed, targeting environmental sounds. Traditional TSM artifacts such as transient smearing, loss of presence, and phasiness are heavily accentuated and cause poor audio quality when the TSM factor is four or larger. The weakness of established TSM methods, often based on a phase vocoder stru...
+

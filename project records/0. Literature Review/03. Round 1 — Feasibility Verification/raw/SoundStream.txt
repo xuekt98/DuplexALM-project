@@ -1,0 +1,86 @@
+# Total entries: 12
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ASoundStream&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2603.09201v1 ---
+Title: The Radio-Frequency Transformer for Signal Separation
+Authors: Egor Lifar, Semyon Savkin, Rachana Madhukara, Tejas Jayashankar, Yury Polyanskiy et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-03-10
+Summary: We study a problem of signal separation: estimating a signal of interest (SOI) contaminated by an unknown non-Gaussian background/interference. Given the training data consisting of examples of SOI and interference, we show how to build a fully data-driven signal separator. To that end we learn a good discrete tokenizer for SOI and then train an end-to-end transformer on a cross-entropy loss. Trai...
+
+--- [2] 2509.05256v1 ---
+Title: Recomposer: Event-roll-guided generative audio editing
+Authors: Daniel P. W. Ellis, Eduardo Fonseca, Ron J. Weiss, Kevin Wilson, Scott Wisdom et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, eess.AS
+Published: 2025-09-05
+Summary: Editing complex real-world sound scenes is difficult because individual sound sources overlap in time. Generative models can fill-in missing or corrupted details based on their strong prior understanding of the data domain. We present a system for editing individual sound events within complex scenes able to delete, insert, and enhance individual sound events based on textual edit descriptions (e....
+
+--- [3] 2508.05207v1 ---
+Title: SpectroStream: A Versatile Neural Codec for General Audio
+Authors: Yunpeng Li, Kehang Han, Brian McWilliams, Zalan Borsos, Marco Tagliasacchi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-08-07
+Summary: We propose SpectroStream, a full-band multi-channel neural audio codec. Successor to the well-established SoundStream, SpectroStream extends its capability beyond 24 kHz monophonic audio and enables high-quality reconstruction of 48 kHz stereo music at bit rates of 4--16 kbps. This is accomplished with a new neural architecture that leverages audio representation in the time-frequency domain, whic...
+
+--- [4] 2506.22362v1 ---
+Title: DiffSoundStream: Efficient Speech Tokenization via Diffusion Decoding
+Authors: Yang Yang, Yunpeng Li, George Sung, Shao-Fu Shih, Craig Dooley et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.LG
+Published: 2025-06-27
+Summary: Token-based language modeling is a prominent approach for speech generation, where tokens are obtained by quantizing features from self-supervised learning (SSL) models and extracting codes from neural speech codecs, generally referred to as semantic tokens and acoustic tokens. These tokens are often modeled autoregressively, with the inference speed being constrained by the token rate. In this wo...
+
+--- [5] 2506.03403v1 ---
+Title: HYFuse: Aligning Heterogeneous Speech Pre-Trained Representations in Hyperbolic Space for Speech Emotion Recognition
+Authors: Orchid Chetia Phukan,  Girish, Mohd Mujtaba Akhtar, Swarup Ranjan Behera, Pailla Balakrishna Reddy et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-06-03
+Summary: Compression-based representations (CBRs) from neural audio codecs such as EnCodec capture intricate acoustic features like pitch and timbre, while representation-learning-based representations (RLRs) from pre-trained models trained for speech representation learning such as WavLM encode high-level semantic and prosodic information. Previous research on Speech Emotion Recognition (SER) has explored...
+
+--- [6] 2404.04405v1 ---
+Title: Dynamic Switch Layers For Unsupervised Learning
+Authors: Haiguang Li, Usama Pervaiz, Michał Matuszak, Robert Kamara, Gilles Roux et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2024-04-05
+Summary: On-device machine learning (ODML) enables intelligent applications on resource-constrained devices. However, power consumption poses a major challenge, forcing a trade-off between model accuracy and power efficiency that often limits model complexity. The previously established Gated Compression (GC) layers offer a solution, enabling power efficiency without sacrificing model performance by select...
+
+--- [7] 2401.03078v1 ---
+Title: StreamVC: Real-Time Low-Latency Voice Conversion
+Authors: Yang Yang, Yury Kartynnik, Yunpeng Li, Jiuqiang Tang, Xing Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2024-01-05
+Summary: We present StreamVC, a streaming voice conversion solution that preserves the content and prosody of any source speech while matching the voice timbre from any target speech. Unlike previous approaches, StreamVC produces the resulting waveform at low latency from the input signal even on a mobile platform, making it applicable to real-time communication scenarios like calls and video conferencing,...
+
+--- [8] 2309.07405v2 ---
+Title: FunCodec: A Fundamental, Reproducible and Integrable Open-source Toolkit for Neural Speech Codec
+Authors: Zhihao Du, Shiliang Zhang, Kai Hu, Siqi Zheng
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2023-09-14
+Summary: This paper presents FunCodec, a fundamental neural speech codec toolkit, which is an extension of the open-source speech processing toolkit FunASR. FunCodec provides reproducible training recipes and inference scripts for the latest neural speech codec models, such as SoundStream and Encodec. Thanks to the unified design with FunASR, FunCodec can be easily integrated into downstream tasks, such as...
+
+--- [9] 2309.04132v2 ---
+Title: A Neural Speech Codec for Noise Robust Speech Coding
+Authors: Jiayi Huang, Zeyu Yan, Wenbin Jiang, He Wang, Fei Wen
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2023-09-08
+Summary: This paper considers the joint compression and enhancement problem for speech signal in the presence of noise. Recently, the SoundStream codec, which relies on end-to-end joint training of an encoder-decoder pair and a residual vector quantizer by a combination of adversarial and reconstruction losses,has shown very promising performance, especially in subjective perception quality. In this work, ...
+
+--- [10] 2306.10521v2 ---
+Title: LM-VC: Zero-shot Voice Conversion via Speech Generation based on Language Models
+Authors: Zhichao Wang, Yuanzhe Chen, Lei Xie, Qiao Tian, Yuping Wang
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2023-06-18
+Summary: Language model (LM) based audio generation frameworks, e.g., AudioLM, have recently achieved new state-of-the-art performance in zero-shot audio generation. In this paper, we explore the feasibility of LMs for zero-shot voice conversion. An intuitive approach is to follow AudioLM - Tokenizing speech into semantic and acoustic tokens respectively by HuBERT and SoundStream, and converting source sem...
+
+--- [11] 2305.02765v2 ---
+Title: HiFi-Codec: Group-residual Vector quantization for High Fidelity Audio Codec
+Authors: Dongchao Yang, Songxiang Liu, Rongjie Huang, Jinchuan Tian, Chao Weng et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2023-05-04
+Summary: Audio codec models are widely used in audio communication as a crucial technique for compressing audio into discrete representations. Nowadays, audio codec models are increasingly utilized in generation fields as intermediate representations. For instance, AudioLM is an audio generation model that uses the discrete representation of SoundStream as a training target, while VALL-E employs the Encode...
+
+--- [12] 2107.03312v1 ---
+Title: SoundStream: An End-to-End Neural Audio Codec
+Authors: Neil Zeghidour, Alejandro Luebs, Ahmed Omran, Jan Skoglund, Marco Tagliasacchi
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2021-07-07
+Summary: We present SoundStream, a novel neural audio codec that can efficiently compress speech, music and general audio at bitrates normally targeted by speech-tailored codecs. SoundStream relies on a model architecture composed by a fully convolutional encoder/decoder network and a residual vector quantizer, which are trained jointly end-to-end. Training leverages recent advances in text-to-speech and s...
+

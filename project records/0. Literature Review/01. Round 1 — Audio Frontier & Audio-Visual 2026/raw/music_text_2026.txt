@@ -1,0 +1,51 @@
+# Total entries: 7
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22music%22+AND+abs%3A%22text%22+AND+abs%3A%222026%22&max_results=30&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.18718v1 ---
+Title: Summary of DCASE 2026 Task 5: Audio-Dependent Question Answering
+Authors: Haolin He, Renhe Sun, Zheqi Dai, Xingjian Du, Chunyat Wu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-21
+Summary: DCASE~2026 Task~5 introduces Audio-Dependent Question Answering (ADQA), which tests whether large audio-language models answer from the audio rather than from textual priors. An Audio-Dependency Filtering (ADF) pipeline combines silent-audio probing, per-option perplexity, a large language model (LLM) commonsense check, and human review to remove items solvable from text alone. The 3000 items that...
+
+--- [2] 2607.01669v1 ---
+Title: UT-AISTimprt submission for ICME 2026 Grand Challenge on Academic Text-to-Music Generation
+Authors: Shunsuke Yoshida, Yu-Hua Chen, Satoru Fukayama
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-02
+Summary: This work investigates the effect of batch sampling strategies during training for text-to-audio music generation under low-data and small-scale model settings. This paper describes our approach and findings for the ICME 2026 Grand Challenge on Academic Text-to-Music Generation. Training data are clustered using either text embeddings or audio embeddings, and samples with similar characteristics a...
+
+--- [3] 2606.21670v1 ---
+Title: Improving Text-to-Music Generation with Human Preference Rewards
+Authors: Yonghyun Kim, Junwon Lee, Haiwen Xia, Yinghao Ma, Chris Donahue
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-06-19
+Summary: We describe our entry to the efficiency track of the Academic Text-to-Music (ATTM) Grand Challenge at ICME 2026. Beyond the challenge protocol's FAD-CLAP and CLAP score, we add a learned human-preference reward from TuneJury, a twin pairwise ranker trained over open music-preference datasets. The reward serves both as a training-time conditioning signal and as a sample-selection criterion. The pip...
+
+--- [4] 2606.07387v1 ---
+Title: Making the Most of Limited Data: Score-Aware Training for Text-to-Music Generation
+Authors: Yun-Chen Cheng, Tzu-Hung Huang, Chih-Pin Tan
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-06-05
+Summary: State-of-the-art text-to-music generation systems rely on massive proprietary datasets and industrial-scale compute, making it impossible to disentangle architectural contributions from resource advantages. We propose \textit{score-aware training}, which treats audio-caption alignment score as a direct supervision signal throughout the pipeline. Rather than discarding low-scoring segments, we repu...
+
+--- [5] 2605.21433v1 ---
+Title: Instrumental Text-to-Music Generation with Auxiliary Conditioning Branches
+Authors: Junyoung Koh
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-05-20
+Summary: Text-to-music generation has advanced rapidly, with modern autoregressive and diffusion-based models producing convincing music from natural-language prompts. However, much of this progress relies on large-scale training data and external pretraining, making it difficult to isolate which design choices remain effective when data and pretraining are controlled. We study this setting using a Diffusi...
+
+--- [6] 2605.21538v2 ---
+Title: Academic Text-to-Music Grand Challenge: Datasets, Baselines, and Evaluation Methods
+Authors: Fang-Chih Hsieh, Wei-Jaw Lee, Chun-Ping Wang, Hung-yi Lee, Hao-Wen Dong et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-05-20
+Summary: This paper presents an overview and the technical framework of the ICME 2026 Grand Challenge on Academic Text-to-Music Generation (ATTM). Despite the rapid progress in text-to-music generation (TTM) systems, the field is currently dominated by models trained on massive proprietary datasets with industrial-scale computational resources, creating a significant barrier for academic research. To addre...
+
+--- [7] 2603.17822v1 ---
+Title: Multi-Source Evidence Fusion for Audio Question Answering
+Authors: Aivo Olev, Tanel Alumäe
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-03-18
+Summary: Large audio language models (LALMs) can answer questions about speech, music, and environmental sounds, yet their internal reasoning is largely opaque and difficult to validate. We describe TalTech's solution to the Agent Track of the Interspeech 2026 Audio Reasoning Challenge, in which systems are evaluated on reasoning process quality, specifically the factual accuracy, logical soundness, and co...
+

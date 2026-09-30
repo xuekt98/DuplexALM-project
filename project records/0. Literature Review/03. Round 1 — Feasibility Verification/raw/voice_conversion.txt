@@ -1,0 +1,142 @@
+--- [1] 2609.09095v1 ---
+Title: Ozaki 2.5: Engineering the Deconstruction Path of fp64-Emulated Dense Matrix Multiplication on FP8 Tensor Cores
+Authors: Satoshi Matsuoka
+Primary cat: cs.MS | All cats: cs.MS, cs.AR, cs.DC, cs.PF
+Published: 2026-09-08
+Summary: FP8 Ozaki II emulates FP64 matrix multiplication by tensor-core products over a CRT residue system; converting the operands into residue planes (the deconstruction term in the Tensor-Memory Equilibrium model of the companion paper "FP8 is All You Need, Part 1") costs integer-pipe and memory resources before tensor instructions issue. This paper engineers that path; every result is a model projecti...
+
+--- [2] 2609.09090v1 ---
+Title: Measuring LLM Sycophancy under Sustained Multi-Turn Pressure
+Authors: Leyuan Tang, Kangda Wei, Tianyu Jiang, Ruihong Huang
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-08
+Summary: Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing evaluations typically use short, pre-specified conversations and may therefore miss failures that emerge under sustained, adaptive disagreement. We introduce SPINE, a benchmark in which an LLM proxy plays a persistent but mistaken user and adaptively challenges a...
+
+--- [3] 2609.09019v1 ---
+Title: Modular commutator as a robust topological invariant and approximate Markovianity
+Authors: Tai Hsuan Yang
+Primary cat: quant-ph | All cats: quant-ph, cond-mat.str-el
+Published: 2026-09-08
+Summary: The modular commutator provides a bulk, local, single-wave-function probe of the chiral central charge $c_-$ for gapped ground states. Its invariance under deformations was previously established under a local quantum Markov condition---namely, the conditional mutual information $I(A:C|B)$ is zero for all tripartitions of a disk into three consecutive strips A, B, and C \cite{Modular-commutator-Ga...
+
+--- [4] 2609.08998v1 ---
+Title: No information transmission through quantum channels above capacity
+Authors: Hao-Chung Cheng, Marco Tomamichel
+Primary cat: quant-ph | All cats: quant-ph, cs.IT, math-ph
+Published: 2026-09-08
+Summary: We show that the capacity of a quantum channel demarcates a phase transition: while reliable transmission below capacity is always possible, any attempt to transmit information above it fails catastrophically. Specifically, we prove exponential strong converse theorems for unassisted quantum and classical communication over arbitrary finite-dimensional memoryless quantum channels. At rates beyond ...
+
+--- [5] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [6] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [7] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [8] 2609.08945v1 ---
+Title: Sharp Computational Bounds for Spectral Types of Schrödinger Operators
+Authors: Matthew J. Colbrook, George Coote
+Primary cat: math.NA | All cats: math.NA
+Published: 2026-09-08
+Summary: We prove sharp bounds for determining the spectral-type decomposition of Schrödinger operators in the spirit of Smale's program on the foundations of computation. For explicit one-dimensional self-adjoint Schrödinger operators $H=-{\mathrm d^2}/{\mathrm dx^2}+V$ on $L^2(\mathbb R)$, where $V\in C^\infty(\mathbb R;\mathbb R)$ is given by a finite description of all derivatives and derivative bounds...
+
+--- [9] 2609.08899v1 ---
+Title: From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection
+Authors: Mengzhe Geng, Yujia Lu, Patrick Littell, Manuela Kunz, Xie Chen
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-08
+Summary: Speech deepfakes can mimic a speaker's voice convincingly enough to deceive listeners and automated systems. This has driven strong progress in speech deepfake detection, but most detectors still end with one score per utterance. That score is useful for ranking systems, yet it says little about why a borderline item should be trusted, deferred, or reviewed. Two utterances can fall in the same sco...
+
+--- [10] 2609.08887v1 ---
+Title: Q2D-Web: A Large-Scale Benchmark for Retrieval in Agentic RAG Systems
+Authors: Maximilian Schall, Sedigheh Eslami, Markus Krimmel, Antoine Chaffin, Louis Milliken et al.
+Primary cat: cs.IR | All cats: cs.IR, cs.CL
+Published: 2026-09-08
+Summary: Evaluating first-stage retrievers in large-scale production RAG requires a benchmark that pairs a large-scale corpus with a large set of agent-reformulated search queries based on real user queries and their conversation threads, and that labels many relevant documents per query. No existing public benchmark evaluates this setting: large-scale collections typically provide only a small number of e...
+
+--- [11] 2609.08868v1 ---
+Title: The Design and Implementation of a Virtual Statistical Computing Lab to Teach R Coding to Introductory Statistics Students
+Authors: Sayed A Mostafa, Tamer M Elbayoumi, Seongtae Kim, Oluwatobi Akinbode
+Primary cat: stat.OT | All cats: stat.OT
+Published: 2026-09-08
+Summary: Motivated by national calls for computationally enriched, data-centric instruction across the statistics curriculum, this study investigates the design, implementation, and impact of a Virtual Statistical Computing Lab (VSCL) integrated into an introductory statistics course at a medium-sized minority-serving university in the USA. The redesigned course embedded R-based coding through two virtual ...
+
+--- [12] 2609.08748v1 ---
+Title: Dynamic Chirality in Photonic Time Crystals
+Authors: Jianming Mai, Chenwen Yang, Shubo Wang
+Primary cat: physics.optics | All cats: physics.optics
+Published: 2026-09-08
+Summary: Temporal modulation offers a fundamentally distinct degree of freedom for active wave control beyond static spatial structuring. Photonic time crystals (PTCs), based on periodic modulation of electromagnetic parameters in time, have expanded photonic band engineering from space to time by enabling controlled energy exchange between light and the modulation. Yet, the use of PTCs to synthesize rotat...
+
+--- [13] 2609.08734v1 ---
+Title: Study on Thickness and Temperature Dependence of Thermoelectric Properties in SnS Nanofilms
+Authors: Liqi Chen, Ziyang Wang, Donghao Li, Jingye Wang, Ning Zhao et al.
+Primary cat: cond-mat.mtrl-sci | All cats: cond-mat.mtrl-sci, cond-mat.mes-hall
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Avoice+conversion&max_results=20&sortBy=submittedDate&sortOrder=descending
+Published: 2026-09-08
+Summary: SnS as an environmentally friendly, cost-effective, and earth-abundant narrow-bandgap semiconductor material, has demonstrated significant application potential in the field of medium-temperature thermoelectric conversion. However, the thermoelectric performance of its bulk counterpart is inherently constrained by intrinsic point defects (e.g., vacancies) and the material's specific band structure...
+
+--- [14] 2609.08704v1 ---
+Title: Supermassive black hole binaries in the multi-messenger context of ground and spaceborne VLBI
+Authors: B. Hudson, L. I. Gurvits, D. J. D'Orazio, C. Tiede, T. M. Eubanks et al.
+Primary cat: astro-ph.HE | All cats: astro-ph.HE, astro-ph.IM
+Published: 2026-09-08
+Summary: Evidence of a gravitational wave background suggests the existence of a population of sub-parsec supermassive black hole binaries (SMBHBs), with characteristic angular separations on the order of 1-10 $μ$as. Spaceborne extensions of Very Long Baseline Interferometry (VLBI) and the next generation ground arrays introduce the possibility of directly imaging these SMBHBs. In this work, a binary Spect...
+
+--- [15] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [16] 2609.08678v1 ---
+Title: HiBRIDGE: A Hierarchical Bayesian Neural Network Framework for Interpretable Dialogue Management in Group-Robot Interaction
+Authors: Massimiliano Nigro, Hatice Gunes, Micol Spitale, Fethiye Irmak Dogan
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: In multi-party human-robot interaction, a robot must continuously decide whom to address and what to say to participate effectively in the conversation. In real-world interactions, this is challenging because several behaviours may be plausible at the same time: a robot might continue a topic with one participant, involve another through a question, or address the whole group, with the appropriate...
+
+--- [17] 2609.08672v1 ---
+Title: X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR
+Authors: Zhiwei Lin, Kaiqi Fu, Rime Wen, Zehan Liu, Shawn Qin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-08
+Summary: Streaming automatic speech recognition (ASR) for real-time voice agents and full-duplex dialogue must provide accurate partial transcripts with low commit latency. Existing systems commonly use a fixed chunk size, look-ahead, or target delay, or encourage emissions near estimated acoustic boundaries. These approaches do not directly optimize how much additional context to use at each output positi...
+
+--- [18] 2609.08659v1 ---
+Title: TriCCOT: Tri-part Convolutional Conformal Transformer for Onboard Space Object Detection
+Authors: Adrien Dorise, Marjorie Bellizzi, Julia Cohen, Stéphane May
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-08
+Summary: Onboard object detection in Earth observation is constrained by limited computational resources and the absence of fully corrected imagery. While convolutional detectors are hardware-efficient, they often struggle to extract robust representations from raw and noisy data. Conversely, transformer-based models provide stronger global reasoning capabilities but remain difficult to deploy on FPGA acce...
+
+--- [19] 2609.08592v1 ---
+Title: A Three-Tier Persona Vector for Controllable User Simulation in Agentic Evaluation
+Authors: Rahul Khedar,  Eshita, Sneha Teja Sree Reddy Thondapu, Mayank Malhotra, Arup Kumar Das et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-09-08
+Summary: Evaluating tool-augmented LLM agents requires diverse, realistic user inputs yet most evaluation frameworks use flat role descriptions ("you are an angry customer") that produce near-identical conversations regardless of the underlying scenario. In this paper, we propose a three-tier persona vector with 23 operationalized dimensions: 6 categorical demographics (jurisdiction, age, channel, device, ...
+
+--- [20] 2609.08542v1 ---
+Title: Spatial Audio Coding Through Relative Room Impulse Response Estimation
+Authors: Nour Bouayed, Adrien Llave, Jérôme Daniel, Pascal Scalart
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate ...
+

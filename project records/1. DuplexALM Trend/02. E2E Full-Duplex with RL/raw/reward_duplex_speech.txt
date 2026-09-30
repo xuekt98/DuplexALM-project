@@ -1,0 +1,30 @@
+# Total entries: 4
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areward+AND+abs%3Aduplex+AND+abs%3Aspeech&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.12623v1 ---
+Title: SteerDuplex: Steerable Duplex Speech Dialogue Models
+Authors: Utkarsh Tyagi, Ramaneswaran Selvakumar, Advait Gosai, Sonal Kumar, Nikhil Barhate et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-09-11
+Summary: Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident...
+
+--- [2] 2609.08672v2 ---
+Title: X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR
+Authors: Zhiwei Lin, Kaiqi Fu, Rime Wen, Zehan Liu, Shawn Qin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-08
+Summary: Streaming automatic speech recognition (ASR) for real-time voice agents and full-duplex dialogue must provide accurate partial transcripts with low commit latency. Existing systems commonly use a fixed chunk size, look-ahead, or target delay, or encourage emissions near estimated acoustic boundaries. These approaches do not directly optimize how much additional context to use at each output positi...
+
+--- [3] 2604.10065v1 ---
+Title: ASPIRin: Action Space Projection for Interactivity-Optimized Reinforcement Learning in Full-Duplex Speech Language Models
+Authors: Chi-Yuan Hsiao, Ke-Han Lu, Yu-Kuan Fu, Guan-Ting Lin, Hsiao-Tsung Hung et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2026-04-11
+Summary: End-to-end full-duplex Speech Language Models (SLMs) require precise turn-taking for natural interaction. However, optimizing temporal dynamics via standard raw-token reinforcement learning (RL) degrades semantic quality, causing severe generative collapse and repetition. We propose ASPIRin, an interactivity-optimized RL framework that explicitly decouples when to speak from what to say. Using Act...
+
+--- [4] 2601.19063v1 ---
+Title: Optimizing Conversational Quality in Spoken Dialogue Systems with Reinforcement Learning from AI Feedback
+Authors: Siddhant Arora, Jinchuan Tian, Jiatong Shi, Hayato Futami, Yosuke Kashiwagi et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-01-27
+Summary: Reinforcement learning from human or AI feedback (RLHF/RLAIF) for speech-in/speech-out dialogue systems (SDS) remains underexplored, with prior work largely limited to single semantic rewards applied at the utterance level. Such setups overlook the multi-dimensional and multi-modal nature of conversational quality, which encompasses semantic coherence, audio naturalness, speaker consistency, emoti...
+

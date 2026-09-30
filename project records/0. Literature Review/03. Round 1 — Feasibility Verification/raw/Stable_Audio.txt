@@ -1,0 +1,107 @@
+--- [1] 2609.07226v1 ---
+Title: Iterative Audio Separation with Mixture Consistency via MIMO Model Extension
+Authors: Yukara Ikemiya, WeiHsiang Liao, Yuki Mitsufuji
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-07
+Summary: This paper proposes a general framework for stable and effective iterative audio separation with mixture consistency by extending source separation models to a multi-input multi-output (MIMO) configuration. In the field of audio separation, mixture consistency is an essential property for many applications that require accurate phase and timbral information of target sources. While iterative appro...
+
+--- [2] 2609.04516v1 ---
+Title: Pitch-class Steering for Diffusion-based Music Generation via Latent-space Probes
+Authors: Yushi Ye, Wilson Zheng, Yongyi Zang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Recent work on controllable music generation has focused on autoregressive models, leaving diffusion-based systems comparatively underexplored. We present a lightweight method for steering the pitch content of audio produced by Stable Audio Open, a latent diffusion model for music synthesis. A small convolutional probe containing approximately 125k parameters is trained to decode frame-level pitch...
+
+--- [3] 2609.02623v1 ---
+Title: Scalable Direction-Following TTS via Voice Impression-Guided Pseudo Triplet Construction
+Authors: Kenichi Fujita, Yusuke Ijima
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-02
+Summary: Voice actors often re-read the same script while modifying their delivery in response to performance directions. We study this setting as direction-following TTS, where a system generates a new utterance that reflects a given direction relative to a reference utterance while preserving speaker identity and linguistic content. A key challenge is the lack of training data capturing such relative mod...
+
+--- [4] 2609.01315v1 ---
+Title: A Composable Evaluation System for Reproducible Omni-Modal Foundation Model Evaluation
+Authors: Hodong Lee, Sanghee Park, Dohoon Ryu, Jungwhan Kim, Junyeob Kim et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-01
+Summary: Building an omni-modal foundation model means evaluating it across text, image, video, and audio. Excellent evaluation toolkits exist for each modality, but their inference engines, prompt conventions, and metric implementations are mutually incompatible, so practitioners end up maintaining separate environments for every toolchain and still struggle to compare results across them. OmniEvaluator g...
+
+--- [5] 2608.29987v1 ---
+Title: How Well Do Generative Music Models Follow Emotion Conditioning?
+Authors: Morteza Heydari
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-30
+Summary: Recent generative music models offer increasingly fine-grained control through text and audio conditioning, yet how faithfully they follow intended emotional cues remains an open question. We address this gap with a unified evaluation pipeline for emotion-following in generated music. Using all 1000 tracks in GTZAN, we extract semantic audio descriptions with DashengLM, an audio captioning model, ...
+
+--- [6] 2609.01649v1 ---
+Title: A Data-Driven Multimodal Method for Early Detection of Coordinated Abnormal Behaviors in Live-Streaming Platforms
+Authors: Jingwen Luo, Pinrui Zhu, Yiyan Wang, Zilin Xiao, Jingqi Li et al.
+Primary cat: cs.SI | All cats: cs.SI, cs.AI
+Published: 2026-08-30
+Summary: With the rapid growth of live-streaming e-commerce and digital marketing, abnormal marketing behaviors have become increasingly concealed and coordinated across heterogeneous modalities, challenging platform governance and early risk identification. We propose MM-FGDNet, a data-driven multimodal framework for detecting abnormal behavior in large-scale live-streaming environments from complementary...
+
+--- [7] 2608.29278v1 ---
+Title: Modality Fault Lines: Structural Corruptions Reveal Fragile Omni-Modal Reasoning
+Authors: Zhaolu Kang, Meixin Wu, Yu Xue, Yingjie He, Qiming Shi et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-29
+Summary: Omni-modal large language models are increasingly evaluated on clean text--vision--audio inputs, where every channel is present, synchronized, and readily interpretable. Such scores are often taken as evidence of robust cross-modal fusion, but clean evaluation cannot tell whether success depends on stable cross-modal structure or on cues sufficient only in intact inputs. To address this gap, we de...
+
+--- [8] 2609.05506v1 ---
+Title: ECHO: Dyadic 3D Facial Motion Generation with Asymmetric Deterministic Articulation and Stochastic Reaction
+Authors: Zhuoqiang Cai, Yujie Sun, Chaoyue Niu, Hongyun Yu, Zhiwen Chen et al.
+Primary cat: cs.GR | All cats: cs.GR, cs.CV, cs.SD
+Published: 2026-08-29
+Summary: We propose ECHO for dyadic 3D facial motion generation under a strict dual-stream audio-only setting, formulating the problem as an asymmetric task involving speech-constrained articulation and one-to-many listener reactions. To address this asymmetry, ECHO decomposes motion into a deterministic anchor that captures stable speech-correlated structure and a stochastic residual that models the remai...
+
+--- [9] 2608.27026v1 ---
+Title: Direct or Mediated? Task-Dependent Audio Information Routing in Large Audio Language Models
+Authors: Yizhou Zhang, Wangjin Zhou, Xin Gu, Yichi Wang, Wei Tan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-08-27
+Summary: Large Audio Language Models (LALMs) have demonstrated strong performance across a wide range of audio understanding tasks. However, they are typically evaluated on single, coherent audio segments, leaving their behavior under less familiar input configurations underexplored. We study this issue through a controlled setting in which two audio segments are concatenated into a single input. Across mu...
+
+--- [10] 2608.26786v1 ---
+Title: Emotion Understanding in Streaming Video with Trajectory-Aware Reliability
+Authors: Qingsong Wang, Qigong Lei, Zitong Wang, Bohan Yu, Zhiang Dong et al.
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-08-27
+Summary: Video emotion understanding is commonly studied as an offline classification problem, where the complete video segment is available before prediction. Real-time interaction, however, requires emotion decisions from incomplete and evolving evidence. This paper studies streaming video emotion understanding as a reliability-aware decision process over evolving emotion beliefs. In this setting, a sing...
+
+--- [11] 2608.24683v1 ---
+Title: One Timeline, Many Renderings: A Wolfram Language Paclet for heterogeneous musical output
+Authors: Francesco Vitucci, Michele Lorusso, Francesco Scagliola
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-08-25
+Summary: One algorithmic composition may require a Csound score, engraved notation, real-time control, and a rehearsal click. Authored separately, their timelines drift. Temporal System is a Wolfram Language paclet that instead compiles one immutable store of typed entities on a rational beat timeline through backend-specific contracts. It emits Csound synthesis, beta MusicXML 4.0, OSC control, and click a...
+
+--- [12] 2608.24674v2 ---
+Title: TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation
+Authors: Xiaoda Yang, Yuxiang Liu, Kaiwen Zheng, Yuan Liu, Yibo Lai et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-25
+Summary: Joint text-to-video-audio generation produces synchronized visual and acoustic content, but the long sampling trajectories and heterogeneous multimodal computation of large models make inference prohibitively expensive. We present TurboT2VA, a distillation and inference framework for accelerating a 19B-parameter joint video-audio model. Large-scale T2VA distillation is challenged by modality-imbal...
+
+--- [13] 2608.23383v2 ---
+Title: Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds
+Authors: Nan Duan, Haoyang Huang, Weiyang Jin, Haoran Li, Yaowei Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Astable+AND+abs%3Aaudio&max_results=15&sortBy=submittedDate&sortOrder=descending
+Published: 2026-08-24
+Summary: Video generation is progressing beyond isolated clips toward long-form narratives and interactive worlds, requiring models to preserve identities, follow user controls, and remain stable over extended rollouts. We present JoyAI-Echo-1.5, a unified audio-visual generation system with two purpose-built variants. The long-video variant introduces composable cross-shot memory that aggregates visual ev...
+
+--- [14] 2608.20880v1 ---
+Title: Live Artifacts: Authoring Dynamic Media via Live Layers Encapsulating Generative Specifications
+Authors: Leixian Shen, Haotian Li, Hugo Romat, Fanny Chevalier, Nicolai Marquardt et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-21
+Summary: We frame Live Artifacts as a class of persistent generative media between static assets and interactive software. Unlike conventional generative outputs that collapse into static files, Live Artifacts retain their generative logic as a persistent media property, enabling continuous context-dependent regeneration. Time, location, or live data become part of their generative specifications, initiati...
+
+--- [15] 2608.17492v2 ---
+Title: FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations
+Authors: Feiyu Shen, Kun Xie, Yichen Wu, Ziqi Dai, Yichen Han et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-18
+Summary: Recent continuous autoregressive TTS models operate directly on continuous speech representations, preserving rich acoustic details while leveraging the instruction-following capabilities of text LLMs. This paradigm opens new possibilities for voice cloning, instruction-controlled voice design, and speech editing, but remains susceptible to error accumulation during autoregressive generation. Exis...
+

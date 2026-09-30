@@ -1,0 +1,2404 @@
+[
+  {
+    "arxiv_id": "2609.34247v1",
+    "title": "SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents",
+    "published": "2026-09-28",
+    "summary": "Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins",
+    "primary_cat": "cs.CL | All cats: cs.CL, eess.AS",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex",
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2609.34096v1",
+    "title": "HiThink Turn: An Intent-Aware Turn-Taking Control Module for Full-Duplex Dialogue",
+    "published": "2026-09-28",
+    "summary": "Full-duplex dialogue requires timely yet selective interruption handling, which end-of-turn prediction alone cannot achieve: complete utterances may need no response, while unfinished requests may warrant interruption. To address this challenge, we propose HiThink Turn, an intent-aware streaming turn-state predictor that separates response intent from semantic completeness and conditions decisions",
+    "primary_cat": "cs.HC | All cats: cs.HC",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.32536v1",
+    "title": "Do Audio LLMs Listen Before They Act? Diagnosing Acoustic-Context Gating in Voice Agents",
+    "published": "2026-09-26",
+    "summary": "Audio language models can recognize spoken commands and invoke tools, but an agent must first decide whether the acoustic and conversational context warrants action. We introduce VGBench, a 1,018-item diagnostic benchmark for action-level addressedness across side-talk, self-talk, and speaker-switch scenarios. Each item uses a shared action space comprising silence, a tool call, and a natural-lang",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.MM, eess.AS",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.30798v1",
+    "title": "Evaluating Real-Time Voice Agents: From Component Quality to Grounded Outcomes",
+    "published": "2026-09-25",
+    "summary": "Real-time voice agents have moved from research prototypes to production deployments, yet the literature describing them is fragmented across three communities that rarely cite one another: speech foundation modelling, turn-taking psycholinguistics, and agentic evaluation. Architecture papers report latency, turn-taking papers report prediction accuracy, and agentic benchmarks report task success,",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.31892v1",
+    "title": "NVAlign: Direct-Gradient Optimization for Non-Verbal Control in Continuous Autoregressive Flow Matching Text-to-Speech",
+    "published": "2026-09-25",
+    "summary": "While modern text-to-speech (TTS) systems generate highly natural speech and support inline non-verbal vocalization (NVV) tags, accurate control over these events remains challenging. A key gap is the lack of established post-training methods for non-verbal control in continuous autoregressive flow-matching TTS. To this end, we present NVAlign, a direct-gradient post-training framework for NVV tag",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.31890v1",
+    "title": "FARE: Deep Reinforcement Learning For Fair Exposure Constrained Uncertainty Aware Financial Content Personalization",
+    "published": "2026-09-25",
+    "summary": "Content personalization systems in financial services must ensure fair exposure across diverse offerings-a requirement driven by contractual obligations and the need to prevent \"rich-get-richer\" dynamics where content with high click-through rate (CTR) dominates while other relevant products receive minimal visibility. Share of Voice (SOV) constraints, which guarantee each content category a targe",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI, cs.IR",
+    "directions": [
+      "PPO + voice agent",
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2609.30029v1",
+    "title": "TEMA: Evidence-Grounded Temporal Question Answering in Multi-Turn Multi-Audio Dialogs",
+    "published": "2026-09-24",
+    "summary": "Multi-turn, multi-audio temporal question answering requires models to track target events across follow-up questions, recording switches, and historical references, recovering complete instances and their boundaries for temporal calculation and comparison. We propose TEMA, which connects event perception with evidence-based answering through Route, specifying the audio scope, and Span, describing",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.29816v3",
+    "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+    "published": "2026-09-24",
+    "summary": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising remedy, directly adapting it to joint audio-video generation is challenging. Heterogeneous multimodal rewards entangle lea",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.SD",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.29217v1",
+    "title": "AdaptDuplex: from static to adaptive full-duplex spoken dialogue",
+    "published": "2026-09-24",
+    "summary": "Full-duplex spoken dialogue requires simultaneous listening and speaking at sub-second latency, under conversational timing and cognitive demands that change moment to moment. Yet current models mostly impose static operating points, lacking a systematic mechanism for adaptive decisions. We present AdaptDuplex, which upgrades Qwen3-Omni with such a mechanism, co-designed across three layers. A com",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "GRPO + duplex",
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.30226v1",
+    "title": "PoEM: Predicting RL Outcomes from Existing Policies",
+    "published": "2026-09-24",
+    "summary": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine multiple rewards. We hence ask: given a new reward function, is it",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI, cs.CL, cs.CV",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2609.27378v1",
+    "title": "Psychoacoustically Aligned Latent Smoothing for Adversarial Robustness of Full-Duplex Speech-to-Speech Dialogue Models",
+    "published": "2026-09-23",
+    "summary": "End-to-end speech-to-speech dialogue models listen and speak simultaneously, so a continuously open acoustic channel is exposed to adversarial manipulation. We formalize imperceptible attacks on full-duplex agents as optimization over additive perturbations confined beneath the psychoacoustic masking threshold of the carrier speech, under three goals: targeted semantic hijacking, response suppress",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.HC",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.28757v1",
+    "title": "Small yet Assistive: Spatially-Aware Post-Training for Low Vision",
+    "published": "2026-09-23",
+    "summary": "An estimated 1 billion people worldwide live with vision impairment, yet current vision-language models (VLMs) produce descriptions too vague for safe navigation by blind and low-vision (BLV) users. Large VLMs can generate high-quality audio-description-compliant narrations but cannot run on mobile devices; small VLMs offer competitive latency but lack spatial detail, directional cues, and hazard",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.CL",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.28206v2",
+    "title": "UNITE-AUDIO: Joint Learning of Continuous Tokenization and Latent Flow Matching for Text-to-Audio Generation",
+    "published": "2026-09-23",
+    "summary": "Text-to-audio (TTA) generation aims to synthesize realistic audio that faithfully reflects natural-language descriptions. Most TTA systems adopt a two-stage latent paradigm: an audio tokenizer is optimized for reconstruction and then frozen, after which a generative model is trained in the resulting latent space. However, reconstruction-oriented representations may be suboptimal for generation, mo",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.27599v1",
+    "title": "EmphTTS: an emphasis-control TTS with reinforcement learning",
+    "published": "2026-09-23",
+    "summary": "Generating controllable and human-like emphasis remains an open challenge in text-to-speech, even when explicit emphasis control signals are provided in the text input, limiting the communicative accuracy of synthetic speech in real-world applications. Reinforcement learning has recently shown promise for post-training TTS systems to align with human preference, yet existing methods have not been",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.26536v1",
+    "title": "Transcribe, Translate, and Optimize: Joint Reward Learning for Speech Translation",
+    "published": "2026-09-22",
+    "summary": "In LLM-based speech translation, transcription-based chain-of-thought (CoT) suffers from a mismatch between reference transcripts used in supervised fine-tuning (SFT) and model-generated transcripts at inference. To address this, we propose joint recognition and translation fine-tuning via group relative policy optimization (GRPO). We score both transcripts and translations, with translation condi",
+    "primary_cat": "cs.CL | All cats: cs.CL, eess.AS",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.25176v2",
+    "title": "Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction",
+    "published": "2026-09-21",
+    "summary": "Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning with Multimodality and Multi-Teacher On-Policy Distillation (M$^{2}$-OPD) to transfer language capabilities and develop native aud",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD",
+    "directions": [
+      "GRPO + audio",
+      "GRPO + duplex",
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.21967v1",
+    "title": "NemotronLabs VoiceChat: An Open Full-duplex Speech-to-Speech Model with Tool Calling Capabilities",
+    "published": "2026-09-18",
+    "summary": "We introduce NemotronLabs VoiceChat, an open full-duplex speech-to-speech model with native tool-calling capabilities. NemotronLabs VoiceChat combines a streaming speech encoder and decoder-only language model with parallel specialized output streams for agent text and structured function calls, an auxiliary RNN-T branch for incremental user transcription, and a streaming TTS decoder. This design",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.21738v1",
+    "title": "GenTraceBench: A Benchmark for Tracing Audio Deepfakes Across Pre- and Post-training Stages",
+    "published": "2026-09-18",
+    "summary": "Modern text-to-speech (TTS) systems are rarely deployed as unchanged pre-trained models. They are often adapted through supervised fine-tuning (SFT) or preference optimization such as DPO and GRPO. This raises a practical question for audio deepfake forensics: do fingerprints learned from a foundation generator remain valid after adaptation? We present GenTraceBench, a controlled benchmark spannin",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "GRPO + audio",
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.20995v1",
+    "title": "Voice-Light: A Full-Duplex Cascaded Voice Agent with Causal Turn-Taking and Speculative Generation",
+    "published": "2026-09-17",
+    "summary": "Natural spoken interaction requires more than streaming ASR, language generation, and speech synthesis: a system must react to overlap without canceling on every acknowledgment, prepare a response before a turn is certain, and ensure canceled audio cannot enter conversation history. We present Voice-Light, a full-duplex cascaded voice agent that combines immediate acoustic onset, a causal adapter",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.CL, eess.AS",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.19596v1",
+    "title": "Full-Duplex Speech Models Take the Floor When Asked, Not When Needed",
+    "published": "2026-09-17",
+    "summary": "Full-duplex speech models listen and speak at once, promising always-on assistants. Yet they must also decide when they should speak. Human listeners speak when addressed or when the speaker stops, but also self-select to correct a false claim, supply a missing word, or warn of danger. We ask whether full-duplex models do the same. To separate the reason to speak from the opportunity, we construct",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.HC",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.20124v1",
+    "title": "Multi-Dimensional Prosody Judgment For Live Streaming Speech Synthesis",
+    "published": "2026-09-17",
+    "summary": "Evaluating live streaming speech synthesis (TTS) requires assessing fine-grained, highly expressive prosody such as emotion, intonation, and energy which traditional MOS predictors fail to capture. While proprietary Large Language Models (LLMs) like Gemini can evaluate these aspects, they are too costly for massive inference and reinforcement learning feedback. To address this, we first introduce",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.18333v1",
+    "title": "Look Less, Hear Better: Jointly Rewarded GRPO for Streaming ASR",
+    "published": "2026-09-16",
+    "summary": "Streaming automatic speech recognition (ASR) must be judged jointly on what it transcribes and on how quickly it commits each word. Delayed streams modeling (DSM) has become the dominant paradigm for streaming large audio-language models, exposing a structural delay $τ$ that bounds the decoder's lookahead. We show that $τ$ is a poor proxy for user-perceived latency, and that the alignment-based su",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI",
+    "directions": [
+      "GRPO + audio",
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.18632v1",
+    "title": "VibeAvatar: Aligning Phonetic Kinematics and Human Aesthetics for High-Fidelity Talking Avatar Synthesis",
+    "published": "2026-09-16",
+    "summary": "Multi-modal talking avatar synthesis aims to generate realistic talking videos from a reference portrait and speech. Despite rapid progress in diffusion-based methods, existing approaches still struggle to jointly achieve accurate lip articulation, human-preferred motion aesthetics, and efficient inference. We observe that phonetic accuracy and motion aesthetics arise from fundamentally different",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.14740v1",
+    "title": "Bridging Data, Reasoning, and Alignment: A Unified Framework for Context-Aware Instruction-Following TTS",
+    "published": "2026-09-13",
+    "summary": "The ISCSLP 2026 CoT-TTS Challenge requires TTS systems to generate Chain-of-Thought (CoT) reasoning from dialogue history before synthesizing contextually appropriate speech. While the official baseline establishes a unified architecture, it remains constrained by limited contextual comprehension, weak instruction fidelity, and suboptimal audio quality. We present a systematic optimization pipelin",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.14455v1",
+    "title": "Grounded in Sound: Reinforcement Learning with a Frozen Acoustic Judge to Curb ASR Insertion Hallucinations",
+    "published": "2026-09-13",
+    "summary": "When reinforcement learning (RL) is used for post-training automatic speech recognition (ASR), the reward almost always lives in the text space: it compares a hypothesis with the reference and never checks whether the hypothesis is supported by the audio. On highly regular speech this licenses a shortcut - guessing from a strong language prior rather than listening. Once the acoustics degrade, the",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.MM, eess.AS",
+    "directions": [
+      "GRPO + audio",
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2609.12855v1",
+    "title": "AlignDPO: Preference-Gated Alignment for Reducing Hallucination in Decoder-Only TTS",
+    "published": "2026-09-11",
+    "summary": "Decoder-only text-to-speech (TTS) models scale efficiently but remain prone to content hallucinations that arise from weak text-speech alignment during autoregressive generation. We find that robustness is governed by a non-monotone relation to the sharpness of the alignment-bearing attention heads: a moderate degree is best, whereas over-sharpening is no better than the unaligned backbone and eve",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.16034v1",
+    "title": "StepAudio 3 Music Technical Report",
+    "published": "2026-09-11",
+    "summary": "We introduce StepAudio 3 Music, a large-scale, long-form music generation model that supports explicit musical planning and open-domain text-controlled generation. The StepAudio Music Tokenizer represents audio as a 50-Hz stream from a 65536-entry single codebook, using semantically informed self-supervised and multi-task training to preserve musical structure and reconstruction-relevant informati",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.12607v1",
+    "title": "Direct Preference Density Alignment for Conversational Audio Equalization",
+    "published": "2026-09-11",
+    "summary": "Large Language Model alignment typically relies on learned proxy reward models, which significantly increase the memory footprint during training and are notoriously prone to instability and reward hacking. While offline methods like Direct Preference Optimization (DPO) bypass the reward model, they lose the ability to perform online exploration. If no optimization constraints are applied, this ca",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI",
+    "directions": [
+      "DPO + audio",
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2609.12623v1",
+    "title": "SteerDuplex: Steerable Duplex Speech Dialogue Models",
+    "published": "2026-09-11",
+    "summary": "Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.CL",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + duplex-speech",
+      "E2E + RL + full-duplex",
+      "RL + audio dialogue",
+      "RL + barge-in",
+      "RL + turn-taking",
+      "Reward + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.11260v2",
+    "title": "Preference Optimization with LALM Feedback for Continuous Autoregressive Non-Verbal Vocalization Generation",
+    "published": "2026-09-10",
+    "summary": "We propose a preference optimization framework with Large Audio-Language Model (LALM) feedback for controllable non-verbal vocalization (NVV) generation in continuous autoregressive speech models. To construct preference data without human preference annotation, we build a bilingual prompt corpus by combining NVV-injected real transcripts with LLM-generated semantically aligned prompts, perform st",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "DPO + audio",
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2609.11864v1",
+    "title": "RetroThinker: Enabling Retrospective Thinking in Speech LLMs",
+    "published": "2026-09-10",
+    "summary": "Speech large language models (SpeechLLMs) offer reduced latency and retain paralinguistic nuances that are typically lost in cascaded automatic speech recognition (ASR) and text-based LM architectures. However, they continue to lag behind text-only LLMs on complex reasoning tasks, while real-time spoken interaction imposes strict latency constraints. Although prior works employ Chain-of-Thought (C",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.AI, cs.CL",
+    "directions": [
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2609.09420v2",
+    "title": "DuplexJail: Spoken Interruption Attacks on Full-Duplex Speech Models",
+    "published": "2026-09-08",
+    "summary": "Full-duplex speech models accept user speech while generating responses, making input timing a potential safety concern. We introduce DuplexJail, which delivers fixed, request-independent spoken jailbreak prompts through the user audio channel. Across four open-source models and 720 harmful requests from AdvBench and HarmBench, we compare fixed-delay and refusal-triggered interruption with request",
+    "primary_cat": "cs.CR | All cats: cs.CR, cs.SD",
+    "directions": [
+      "E2E + RL + duplex-speech",
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08390v1",
+    "title": "Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models",
+    "published": "2026-09-08",
+    "summary": "Full-duplex spoken dialogue systems enable simultaneous listening and speaking, but their audio-only perception often fails under background noise and overlapping speech, leading to incoherent responses. Recent audio-visual dialogue approaches show that incorporating visual cues such as lip movements improve robustness under audio corruption. However, existing approaches often adapt the large spee",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, cs.HC",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.08672v2",
+    "title": "X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR",
+    "published": "2026-09-08",
+    "summary": "Streaming automatic speech recognition (ASR) for real-time voice agents and full-duplex dialogue must provide accurate partial transcripts with low commit latency. Existing systems commonly use a fixed chunk size, look-ahead, or target delay, or encourage emissions near estimated acoustic boundaries. These approaches do not directly optimize how much additional context to use at each output positi",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI",
+    "directions": [
+      "Reward + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.04975v2",
+    "title": "One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing",
+    "published": "2026-09-04",
+    "summary": "Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2608.30559v1",
+    "title": "SPHERE: Automatic Music Upmixing via Audio Language Model Post-Training with Spatial Heuristic Rewards",
+    "published": "2026-08-31",
+    "summary": "In this paper, we study the task of automatic music upmixing, wherein a system predicts spatial mixing parameters from a multi-stem recording. Different from existing methods that rely on task-specific music encoders, we approach this task via audio language model (ALM) post-training, leveraging rich representations from existing ALMs, which encode both music semantics and mixing knowledge. Specif",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2608.31035v1",
+    "title": "When Does Predictor-Based RL Align with Human Perception? A Study of Subjective Rewards in Codec-Based Speech Language Models",
+    "published": "2026-08-31",
+    "summary": "Codec-based text-to-speech (TTS) models make language-model post-training applicable to speech generation, but it remains unclear when learned perceptual predictors can serve as reinforcement learning rewards without losing alignment with human listeners. We study this question with Group Relative Policy Optimization (GRPO) using learned rewards for anime-like speaking style, naturalness, likabili",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.SD, eess.AS",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2608.29999v1",
+    "title": "TEMPO: Temporally-grounded Multi-task Post-training for Large Audio-Language Models",
+    "published": "2026-08-30",
+    "summary": "Large audio-language models (LALMs) describe audio at the clip level but cannot assign timestamps to the events, speakers, or sounds they identify. Despite being essential for downstream tasks like speech recognition and dense audio captioning, timestamping remains a key limitation of most LALMs. We present TEMPO (Temporally-grounded Multi-task Post-training), the first unified model to handle aud",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, cs.LG",
+    "directions": [
+      "GRPO + audio",
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2608.29357v1",
+    "title": "LiteSearch-VL: Small Multimodal Search Agents via Trajectory Distillation and Synthetic Step-DPO",
+    "published": "2026-08-29",
+    "summary": "Multimodal search agents answer visual questions by interleaving image understanding, web retrieval, tool use, and evidence synthesis. Strong systems exist, but in two expensive regimes: proprietary frontier models such as GPT-5 and Gemini, or large open vision-language backbones trained with substantial agentic data and reinforcement learning. We ask a different question: when released agent traj",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2608.26432v1",
+    "title": "SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning",
+    "published": "2026-08-26",
+    "summary": "Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, cs.CL",
+    "directions": [
+      "E2E + RL + audio",
+      "E2E + RL + speech-LLM",
+      "GRPO + audio",
+      "GRPO + speech",
+      "RL + audio dialogue",
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2608.22796v1",
+    "title": "DiaScriber: A Speech LLM for Joint Diarization and Transcription in Multi-Speaker Scenarios",
+    "published": "2026-08-24",
+    "summary": "Multi-speaker automatic speech recognition (MSASR) aims to jointly predict content transcriptions, speaker identities, and timestamps, thereby addressing the key question of \"who spoke what and when\" and holds substantial practical value in real-world multi-speaker scenarios. However, MSASR still encounters considerable challenges in the presence of fast turn transitions, overlapping speech, and c",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2608.22167v1",
+    "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+    "published": "2026-08-23",
+    "summary": "Reinforcement learning (RL) has become an effective way to improve the tool-use ability of large language models (LLMs), but most existing RL frameworks stop at the policy update. For every new domain, the user is left with two hard systems problems: standing up an isolated environment for each of hundreds of concurrent trajectories and connecting it to training, and scheduling the rollout so that",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.LG",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2608.20958v1",
+    "title": "TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming",
+    "published": "2026-08-21",
+    "summary": "E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts are distributed across speech, video frames, product images, overlaid text, and user queries. We present TLive-Omni, an omni-modal understanding model tailored to live-commerce scenarios. It maps image, video, audio, and text inputs into a unified representation space. For long-fo",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.CV",
+    "directions": [
+      "GRPO + audio",
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2608.16539v1",
+    "title": "Listen, Reason, and Segment: Aligning LALMs with Editorial Judgment for Media Chapterization",
+    "published": "2026-08-17",
+    "summary": "Large Audio Language Models (LALMs) have made rapid progress on standardized benchmarks, yet their deployment in practical media workflows, curation, archival indexing, and content distribution remains largely unrealized. We identify automated audio chapterization, the task of segmenting continuous audio streams into thematically coherent chapters, as a demanding and commercially consequential set",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2608.16162v2",
+    "title": "ACE-Cap: Active Evidence Acquisition via Agentic Co-Evolution for Long-Paragraph Fine-Grained Audio Captioning",
+    "published": "2026-08-17",
+    "summary": "Long-paragraph fine-grained audio captioning requires models to recover diverse acoustic facts while avoiding omissions and unsupported details. However, prevailing captioners remain passive one-shot generators: once a detail is overlooked, they cannot identify the evidence gap, query the audio for targeted information, or decide when sufficient evidence has been collected. We formulate this task",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2608.11913v1",
+    "title": "HarmoniDPO: Video-guided Audio Generation via Preference-Optimized Diffusion",
+    "published": "2026-08-12",
+    "summary": "Video-to-audio (V2A) generation faces significant challenges in achieving precise temporal synchronization and high perceptual quality due to the complex, ambiguous relationship between visual and auditory cues. Existing methods typically compress video inputs into single feature representations, leading to significant loss of temporal dynamics and fine-grained visual information. These approaches",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2608.11593v1",
+    "title": "Luna-TTS Family Technical Report",
+    "published": "2026-08-12",
+    "summary": "Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill",
+    "primary_cat": "cs.SD | All cats: cs.SD, eess.AS",
+    "directions": [
+      "E2E + RL + audio",
+      "E2E + RL + speech-LLM",
+      "GRPO + audio",
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2608.09227v1",
+    "title": "Omni2LoRA: Coherence-Preserving Parametric Memory for Efficient Omni Language Models",
+    "published": "2026-08-10",
+    "summary": "Omnimodal language models (OLMs) enable unified audio-visual understanding, but processing long joint token sequences makes inference computationally prohibitive. While recent token compression methods attempt to alleviate this burden, compressing modalities in isolation often destroys the temporal cross-modal anchors necessary for coherent reasoning. We introduce Omni2LoRA, a two-stage framework",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2608.09189v1",
+    "title": "EmoS: A Theory-Grounded Framework for Evaluating and Aligning Emotional Intelligence in Spoken Language Models",
+    "published": "2026-08-10",
+    "summary": "Despite significant advances in instruction-following and auditory comprehension, the evaluation of Emotional Intelligence (EI) in Spoken Language Models (SLMs) remains confined to rudimentary paralinguistic perception, lacking a systematic, theory-driven cognitive framework. We introduce EmoSBench, the first comprehensive EI evaluation benchmark for SLMs constructed upon the four-branch theoretic",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2608.07631v1",
+    "title": "PACE: A Playback-Aligned Context Engine for LLM-Based Full-Duplex Voice Dialogue",
+    "published": "2026-08-07",
+    "summary": "LLM-based full-duplex voice services allow users to speak while the assistant is responding. Because servers can generate output and advance dialogue state faster than clients can play it, subsequent user speech may be interpreted based on content the user never heard. We call this failure Generative Context Mis-anchoring (GCM). To address GCM issues, we present PACE, a provider-independent middle",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, cs.MM",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2608.06930v1",
+    "title": "AVCap: Reinforcing Audio-Video Joint Caption with Detail-Aware Reward",
+    "published": "2026-08-07",
+    "summary": "Detailed audio-video joint captioning is essential for multimodal video understanding and generation. However, prior works are constrained by three main limitations: (1) the scarcity of high-quality public datasets with fine-grained audio-visual joint captions; (2) reinforcement-learning methods that rely on coarse reward signals; and (3) the lack of a benchmark and metric for evaluating detailed",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2608.06632v1",
+    "title": "Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation",
+    "published": "2026-08-06",
+    "summary": "Industrial recommendation systems predominantly adopt a passive ranking paradigm that infers user preferences from implicit behavioral signals (e.g., clicks, dwell time) rather than explicit, natural language inputs. As a result, users experience a persistent discrepancy between their explicit interests and what passive behavioral algorithms deliver, limiting their ability to express nuanced prefe",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "DPO + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2609.04240v1",
+    "title": "TurnFSM for Full-Duplex Dialogue System: Internalizing State-Machine Logic for Streaming Semantic Voice Activity Detection and Utterance-Level Rejection",
+    "published": "2026-08-05",
+    "summary": "Full-duplex voice assistants must continuously listen while speaking, handling user interruptions under low-latency and resource-constrained streaming conditions. Existing end-to-end full-duplex models can compromise reasoning-related capabilities after speech-domain adaptation, whereas cascaded pipelines introduce extra inference overhead and handcrafted control logic. We propose TurnFSM, an LLM-",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2608.03032v1",
+    "title": "DDSynth-RL: Audio Synthesizer Inversion via Discrete Diffusion with Reinforcement Learning",
+    "published": "2026-08-04",
+    "summary": "Synthesizer inversion is challenging for two main reasons: 1) Distinct parameter configurations can produce perceptually similar sounds. 2) Parameter-space losses often fail to reflect rendered audio similarity, while the synthesizer being a non-differentiable black box prevents simple audio-domain supervision. To address the one-to-many mapping induced by the first challenge, we formulate synthes",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2608.03215v1",
+    "title": "GROW: Group-Relative Advantage-Weighted On-Policy Reinforcement Learning of Autoregressive-Diffusion Text-to-Speech model",
+    "published": "2026-08-04",
+    "summary": "Reinforcement learning for flow-matching text-to-speech is complicated by deterministic ODE sampling: trajectory-level policy-gradient methods typically convert the ODE into an SDE and track per-step likelihood ratios, introducing stochastic perturbations and substantial overhead. We propose GROW, a group-relative advantage-weighted on-policy RL method that acts directly on the standard flow-match",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.AI, cs.CL",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2608.03054v1",
+    "title": "Towards More Expressive Spoken LLMs: Fine-Grained Intent Benchmarking and Acoustic-Lexical Decoupled Policy Optimization",
+    "published": "2026-08-04",
+    "summary": "Spoken emotional dialogue requires a model to understand a user's spoken input and generate a response that is both semantically appropriate and emotionally expressive. This is challenging because communicative intent may be stated explicitly in lexical content or conveyed more implicitly through paralinguistic cues, which can complement or diverge from the words themselves. However, two limitatio",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2608.02831v1",
+    "title": "Reinforcement Learning with Evolving Rubrics as Rewards for Audio Reasoning",
+    "published": "2026-08-03",
+    "summary": "Audio reasoning is essential for machine understanding of the acoustic world. Reinforcement learning with verifiable rewards can elicit such reasoning, yet existing reward designs are complementary in their limitations: outcome-based rewards supervise only the final answer and let the model reach it without attending to the audio, whereas process-based rewards score the reasoning itself but rely o",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.CL",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2608.02023v2",
+    "title": "SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks",
+    "published": "2026-08-03",
+    "summary": "Speech and audio generation is often needed in animation dubbing, audio drama, movies, advertising, games, podcasts, and short-video production. In these scenarios, creators may need to design voices without reference recordings, control speaker styles with natural language, support acoustic scenes with environments and audio effects, and later reuse the designed voices. Therefore, it is important",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "GRPO + audio",
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2608.07565v2",
+    "title": "What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems",
+    "published": "2026-08-03",
+    "summary": "Conversational assistants increasingly recommend follow-up edits to help users continue a task. Existing systems primarily target text-only interactions, leaving image-creation conversations underexplored. In image-creation tasks, useful follow-up edit suggestions must reflect user preferences, offer diverse directions, and remain executable on the current image. We collected 100,000 real multi-tu",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.AI",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2607.27756v1",
+    "title": "Cocktail-Talker: Multi-Speaker Dialog Modeling in Noisy Social Environments with Turn Action GRPO",
+    "published": "2026-07-30",
+    "summary": "Spoken dialog systems are typically designed for clean, dyadic interactions in which a single user and an assistant take turns speaking. Real-world social conversations, however, are often more ambiguous: multiple speakers may participate in the same conversation amid irrelevant speech and background noise. Each utterance may be directed to the assistant, addressed to another speaker, or completel",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.CL, cs.MM, eess.AS",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2607.26818v1",
+    "title": "Ripple: Real-Time Streaming Audio-Video Generation With Cross-Modal Recurrent Memory",
+    "published": "2026-07-29",
+    "summary": "Audio-video generative models achieve impressive quality but suffer from high latency, making them unsuitable for real-time applications. Although several streaming audio-video generation methods have been proposed, they remain costly and fail to support long-form generation. To address this, we propose \\textbf{Ripple}, a real-time joint audio-video generation system with a cross-modal recurrent m",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2607.20253v3",
+    "title": "Pushing the Frontier of Full-Song Generation: Hierarchical Autoregressive Planning Meets Flow-Matching Rendering",
+    "published": "2026-07-22",
+    "summary": "In this report, we present a unified song generation framework capable of producing high-quality full-length music from lyrics, text descriptions, and musical attributes. The proposed framework supports three tasks: Lyrics-to-Song Generation, which generates complete songs from text descriptions, lyrics, and musical attributes; Instrumental Music Generation, which creates music without vocals; and",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, eess.AS",
+    "directions": [
+      "DPO + audio",
+      "GRPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2607.18718v1",
+    "title": "Summary of DCASE 2026 Task 5: Audio-Dependent Question Answering",
+    "published": "2026-07-21",
+    "summary": "DCASE~2026 Task~5 introduces Audio-Dependent Question Answering (ADQA), which tests whether large audio-language models answer from the audio rather than from textual priors. An Audio-Dependency Filtering (ADF) pipeline combines silent-audio probing, per-option perplexity, a large language model (LLM) commonsense check, and human review to remove items solvable from text alone. The 3000 items that",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2608.07527v1",
+    "title": "DocAtlas: Long-Document Understanding as Mutable-State Interaction",
+    "published": "2026-07-21",
+    "summary": "Long-document understanding requires models to find and combine evidence across many pages, layouts, tables, figures, and charts. Existing retrieval-augmented systems usually select evidence from a static index before generation, while recent agentic systems add multi-turn tool use but often rely on frozen proprietary backbones whose behavior is set by prompts. We present DocAtlas, a system that t",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2607.11699v3",
+    "title": "Qwen-Music Technical Report",
+    "published": "2026-07-13",
+    "summary": "We introduce Qwen-Music, a music generation model that produces high-fidelity songs with complete vocals. It supports text-to-music generation from descriptions, lyrics, and musical attributes, and cover song generation with different styles and vocal characteristics. Qwen-Music comprises three components: Qwen-Music-Tokenizer, Qwen-Music-LLM, and Qwen-Music-Render. The tokenizer compresses audio",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2607.11433v3",
+    "title": "Omni-Decision: Evidence-Ledger Planning for Omni-Modal Agents",
+    "published": "2026-07-13",
+    "summary": "Omni-modal agents must seek evidence across video, audio, web pages, and computation to answer questions. Their main bottleneck is planning: noisy multimodal observations accumulate in conversation history and disrupt later decisions, while multimodal models have limited capacity for multi-step planning. Controlled backend replacements support this diagnosis: replacing the planner causes a much la",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "E2E + RL + audio",
+      "RL + audio dialogue"
+    ]
+  },
+  {
+    "arxiv_id": "2607.10191v1",
+    "title": "Breaking the Quality--Intelligibility Trade-off in Streaming Target Speaker Extraction via Deep-Feature-Anchored Preference Optimization",
+    "published": "2026-07-11",
+    "summary": "Generative streaming models for Target Speaker Extraction (TSE) commonly exhibit a quality--intelligibility trade-off, wherein naive optimization for perceptual audio quality tends to degrade speech intelligibility, and conversely. We reveal that this trade-off arises not from the constraints of streaming architectures, but from an inappropriate choice of optimization anchor. Directly optimizing a",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2607.08208v2",
+    "title": "Diarization-Guided Qwen-ASR Adaptation for Multilingual Two-Speaker Conversational Speech",
+    "published": "2026-07-09",
+    "summary": "This paper describes our self-designed system for Task 1 of the MLC-SLM 2026 Challenge for multilingual two-speaker conversational speech. The system combines a modular speaker diarization front end with a challenge-adapted Qwen3-ASR-1.7B recognizer. The diarization front end performs voice activity detection, subsegment generation, CAMPPlus speaker embedding extraction, two-speaker spectral clust",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "E2E + RL + audio",
+      "E2E + RL + speech-LLM",
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2607.08409v1",
+    "title": "When Synthetic Speech Is All You Have: Better Call GRPO",
+    "published": "2026-07-09",
+    "summary": "LLM-based ASR adapted to regulated domains such as banking is bottlenecked by privacy: real speech is costly and legally constrained to collect, making synthetic text-to-speech (TTS) an attractive substitute. Yet synthetic speech stays acoustically mismatched with real recordings, and work on this gap has stayed within supervised fine-tuning (SFT). We instead turn to reinforcement learning, and sh",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2607.07148v1",
+    "title": "Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning",
+    "published": "2026-07-08",
+    "summary": "Recent full-duplex spoken dialogue models have demonstrated compelling progress toward human-like interaction, enabling agents to respond with low latency, produce backchannels, and handle user barge-ins. Yet these improvements in conversational dynamics often come with weaker reasoning and instruction-following abilities, revealing a potential tension between interactive dynamics and intelligence",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex",
+      "E2E + RL + spoken",
+      "GRPO + duplex",
+      "RL + barge-in",
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2607.06540v4",
+    "title": "Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs",
+    "published": "2026-07-07",
+    "summary": "Developing seamless, high-performance, native intelligent full-duplex Spoken Language Models (SLMs) remains a critical challenge and long-standing goal for the speech and NLP community. Despite notable progress, recent endeavors are fundamentally constrained by severe modality interference, which causes substantial knowledge degradation and compromises semantic integrity -- ultimately making full-",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2609.04222v1",
+    "title": "GEPARD - Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue",
+    "published": "2026-07-04",
+    "summary": "We present GEPARD (Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue), a streaming text-to-speech model for real-time spoken dialogue. GEPARD generates speech autoregressively with an LLM backbone - text and audio embeddings are trained together in a single decoder-only model - and decodes it to a waveform with an FSQ-based neural codec, streaming audio chunk-by-",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD",
+    "directions": [
+      "DPO + audio",
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2607.03928v1",
+    "title": "TokAN: Accent Normalization Using Self-Supervised Speech Tokens",
+    "published": "2026-07-04",
+    "summary": "Accent normalization (AN) seeks to convert non-native (L2) accented speech into standard (L1) speech while preserving speaker identity. The current techniques either require naturally recorded parallel L1-L2 speech for training, or suffer from quality degradation when supervised by synthesized targets. In this paper, we present TokAN, a token-based accent normalization framework that operates on s",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, eess.AS",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2607.03530v1",
+    "title": "MentalThink: Shaping Thoughts in Mental SVG World",
+    "published": "2026-07-03",
+    "summary": "We introduce MentalThink, a visual-symbolic reasoning paradigm that equips Multimodal LLMs (MLLMs) with an executable mechanism for \"mental\" visualization. The core of MentalThink is a think-with-SVG pipeline, where the model learns to generate, render, and interpret scalable vector graphics (SVG) code as an intermediate visual representation for multi-turn reasoning. By creating structured vector",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2606.30145v2",
+    "title": "FacePlex: Toward Natural Full-Duplex Conversational Avatars",
+    "published": "2026-06-29",
+    "summary": "Natural human conversation is inherently a real-time interaction in which speech and facial behavior continuously evolve. Enabling such interaction requires a conversational avatar to jointly generate speech and facial motion in real time, prepare facial motion for upcoming speech before the corresponding audio is emitted, and produce non-verbal reactions that reflect the ongoing dialogue. However",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.CV, cs.LG",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2606.27344v2",
+    "title": "VibeAct: Vibration to Actions for Contact-Rich Reactive Robot Dexterity",
+    "published": "2026-06-25",
+    "summary": "Dexterous manipulation depends on contact events that are fast, local, and often visually occluded. Piezoelectric microphones provide compact, high-bandwidth sensing of these interactions, but the resulting vibro-acoustic signals are difficult to simulate faithfully for end-to-end sim-to-real policy learning on dexterous robot hands. We propose VibeAct, a framework that bridges real vibrotactile s",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2606.26534v1",
+    "title": "VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation",
+    "published": "2026-06-25",
+    "summary": "Recently, zero-shot text-to-speech (TTS) has enabled high-fidelity and expressive speech synthesis, but it often fails to imitate unseen speaking styles from uncommon scenarios (e.g., crosstalk, dialects). Moreover, fine-tuning pretrained models requires large, high-quality datasets, limiting rapid personalization. We propose VoiceTTA, a reinforcement learning-based test-time adaptation (TTA) meth",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2606.25041v3",
+    "title": "Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models",
+    "published": "2026-06-23",
+    "summary": "We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for real-time, low-latency, full-duplex audio-visual interaction. Wan-Streamer seamlessly models language, audio, and video as both input and output within a single Transformer, where the sequence is represented as interleaved visual, audio, and text input tokens together with visual, a",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.AI, cs.GR, cs.SD",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2606.23190v2",
+    "title": "FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech",
+    "published": "2026-06-22",
+    "summary": "Existing Reinforcement Learning (RL) research for Text-to-Speech (TTS) focuses on large language models (LLMs), leaving Flow-Matching (FM) under-explored. We present FlowTTS-GRPO, an online RL framework for FM-based TTS. By converting ordinary differential equation (ODE) trajectories into stochastic differential equation (SDE) paths, our method enables direct fine-tuning of open-source FM models w",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2606.21053v1",
+    "title": "Imitation Learning for Elder-Facing Speech Synthesis",
+    "published": "2026-06-19",
+    "summary": "Recent advances in text-to-speech (TTS) synthesis have achieved highly natural and expressive speech generation. However, these systems are designed for general adults and overlook older adults' speech comprehension needs due to age-related sensory and cognitive decline. Prior work involves older adults by collecting preference feedback to tune model parameters. However, obtaining sufficient prefe",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI",
+    "directions": [
+      "GRPO + speech"
+    ]
+  },
+  {
+    "arxiv_id": "2606.18747v1",
+    "title": "Generating Natural and Expressive Robot Gestures through Iterative Reinforcement Learning with Human Feedback using LLMs",
+    "published": "2026-06-17",
+    "summary": "Expressive gestures are essential for natural and effective communication, complementing speech when verbal cues alone are insufficient (e.g., pointing). For social robots such as the humanoid Pepper, producing natural and expressive movements is critical for improving human-robot interaction (HRI) and long-term acceptance. However, generating gestures remains challenging due to reliance on expert",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.AI",
+    "directions": [
+      "RLHF + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2606.14528v1",
+    "title": "BayLing-Duplex: Native Full-Duplex Speech Dialogue with a Single Autoregressive LLM",
+    "published": "2026-06-12",
+    "summary": "Real-time, full-duplex speech interaction is a key feature of next-generation spoken chatbots, allowing the model to listen and speak at the same time and to handle natural phenomena such as overlap, hesitation, and barge-in. Existing speech language models (SpeechLMs) such as LLaMA-Omni and GLM-4-Voice are still turn-based and rely on an external Voice Activity Detection (VAD) module to mark the",
+    "primary_cat": "cs.CL | All cats: cs.CL, eess.AS",
+    "directions": [
+      "DPO + speech-LLM",
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2606.13006v1",
+    "title": "Emo-LiPO: Listwise Preference Optimization for Fine-Grained Emotion Intensity Control in LLM-based Text-to-Speech",
+    "published": "2026-06-11",
+    "summary": "Large language model (LLM)-based text-to-speech (TTS) systems enable prompt-conditioned emotional control but struggle with fine-grained emotion intensity due to the semantic -- acoustic gap between text and speech. To address this challenge, we formulate emotion intensity control in LLM-based TTS as a learning-to-rank problem and propose Emo-LiPO, a listwise preference optimization framework that",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2606.13675v2",
+    "title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
+    "published": "2026-06-11",
+    "summary": "Generalist policies can learn a wide range of skills from diverse robot datasets. In order to solve or improve on challenging new tasks, we need a way to infer and invoke the appropriate actions from the policy's rich behavioral prior, especially when directly commanding the policy fails. We focus on flow matching generalists and propose Flow Reversal Steering (FRS): a method that takes suboptimal",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2606.12372v1",
+    "title": "UniIntervene: Agentic Intervention for Efficient Real-World Reinforcement Learning",
+    "published": "2026-06-10",
+    "summary": "Human-in-the-loop reinforcement learning (HiL-RL) has emerged as an effective paradigm for real-world robotic manipulation, enabling online policy improvement with human guidance. However, current HiL-RL frameworks remain intervention-intensive, relying on frequent human corrections to redirect the policy out of unproductive exploration, which incurs high labor cost and limits real-world scalabili",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.LG",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2606.11167v2",
+    "title": "Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models",
+    "published": "2026-06-09",
+    "summary": "Full-duplex spoken dialogue models can listen and speak simultaneously, making them a promising architecture for natural conversation. However, current models are trained solely with supervised learning through token-level likelihood maximization, which does not directly optimize interaction-level behaviors, causing interactivity issues such as excessive silence and ill-timed turn-taking. Recent w",
+    "primary_cat": "cs.CL | All cats: cs.CL, eess.AS",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex",
+      "RL + audio dialogue",
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2606.09186v1",
+    "title": "DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking for Full-Duplex Interaction",
+    "published": "2026-06-08",
+    "summary": "Human interaction is continuous, multimodal, and full-duplex by nature. Although recent omni models have made substantial progress in unified speech, vision, and text modeling, combining seamless real-time interaction with complex reasoning and tool use remains challenging. We present DuplexOmni, a method for real-time multimodal full-duplex interaction. DuplexOmni separates model capability into",
+    "primary_cat": "cs.HC | All cats: cs.HC",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2606.06162v2",
+    "title": "Learning to Contest: Decentralized Robust Fairness in Cooperative MARL via Cross-Attention",
+    "published": "2026-06-04",
+    "summary": "Fair cooperative multi-agent reinforcement learning (MARL) teams that maximize an egalitarian welfare are exploitable: a single self-interested agent free-rides on the surplus that fair agents forgo to raise the worst-off, and the known remedy is a centralized need-based allocator. We show that a decentralized defense becomes possible once contention is graded: when a contested resource still deli",
+    "primary_cat": "cs.MA | All cats: cs.MA, cs.GT",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2605.28272v1",
+    "title": "EchoAvatar: Real-time Generative Avatar Animation from Audio Streams",
+    "published": "2026-05-27",
+    "summary": "Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively. In this paper, we introduce a novel framework designed to",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "Online RL + voice",
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2605.27772v1",
+    "title": "Do Audio LLMs Listen or Read? Analyzing and Mitigating Paralinguistic Failures with VoxParadox",
+    "published": "2026-05-26",
+    "summary": "Audio large language models (Audio LLMs) demonstrate strong performance on speech understanding tasks, yet their ability to understand paralinguistic information remains limited. To systematically quantify this issue, we introduce VoxParadox, an adversarial benchmark with 2,000 verified examples, spanning 10 paralinguistic tasks, created with controlled speech synthesis to intentionally mismatch t",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.LG",
+    "directions": [
+      "DPO + audio",
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2605.27140v2",
+    "title": "StepOPSD: Step-Aware Online Preference Self-Distillation for Agent Reinforcement Learning",
+    "published": "2026-05-26",
+    "summary": "Reinforcement learning for multi-turn agents suffers from a credit-assignment mismatch: rewards are sparse and trajectory-level, while success often hinges on a few local decisions. Existing online policy distillation (OPD) provides denser token-level supervision, but typically treats heterogeneous agent trajectories as monolithic strings rather than causal interaction units. We present StepOPSD,",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2605.24652v1",
+    "title": "AVBench: Human-Aligned and Automated Evaluation Benchmark for Audio-Video Generative Models",
+    "published": "2026-05-23",
+    "summary": "Rapid advances in audio-video (AV) generation have enabled high-fidelity synthesis with synchronized sound, particularly for human-related scenarios involving speech and interactions. Yet evaluation for AV generation remains at an early stage, with only a few coarse-grained benchmarks for human-related scenarios and relying on limited preset evaluations with generic multimodal LLMs, leading to ina",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.CV, cs.MM, cs.SD",
+    "directions": [
+      "RLHF + S2S",
+      "RLHF + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2605.23463v1",
+    "title": "StepAudio 2.5 Technical Report",
+    "published": "2026-05-22",
+    "summary": "Unified audio-language modeling has emerged as a prominent trend in modern speech systems, promising to bring the reasoning capabilities of large language models to auditory tasks. However, existing unified foundations often struggle to match the depth of specialized systems across automatic speech recognition (ASR), text-to-speech synthesis (TTS), and realtime spoken interaction. Bridging this ga",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "RL + audio dialogue",
+      "RLHF + S2S",
+      "RLHF + audio-LM",
+      "RLHF + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2605.14339v1",
+    "title": "Sub-Band Full Duplex Resource Allocation: A Predictive Deep Reinforcement Learning Approach",
+    "published": "2026-05-14",
+    "summary": "This paper presents a predictive deep learning framework for dynamic sub-band allocation in Sub-Band Full Duplex (SBFD) systems, addressing the challenge of balancing uplink (UL) and downlink (DL) performance under highly dynamic traffic conditions. The key contribution lies in integrating a hybrid Bidirectional Long Short-Term Memory (Bi-LSTM) model for traffic forecasting with a Double Deep Q-Ne",
+    "primary_cat": "cs.NI | All cats: cs.NI",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2605.14879v2",
+    "title": "Temporal Fair Division in Multi-Agent Systems: From Precise Alternation Metrics to Scalable Coordination Proxies",
+    "published": "2026-05-14",
+    "summary": "Many intelligent computing and autonomous systems rely on multiple independent, often learning, agents repeatedly sharing a limited resource. Examples include autonomous robots accessing a shared workstation, wireless devices competing for communication opportunities, and distributed AI agents coordinating access to shared computational resources. While conventional fairness measures assess whethe",
+    "primary_cat": "cs.MA | All cats: cs.MA, cs.GT, cs.LG",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2605.23975v2",
+    "title": "Direct Preference Optimization for English-Mandarin Code-Switching Speech Recognition in Audio LLMs",
+    "published": "2026-05-13",
+    "summary": "Audio large language models (Audio LLMs) exhibit systematic failures in transcribing code-switching speech despite strong multilingual capabilities. Focusing on English-Mandarin, we identify three failure modes: language omission, translation-instead-of-transcription, and hallucination. We apply Direct Preference Optimization (DPO) to align models, constructing preference pairs in which chosen res",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.SD",
+    "directions": [
+      "DPO + audio",
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2605.12179v1",
+    "title": "SyncDPO: Enhancing Temporal Synchronization in Video-Audio Joint Generation via Preference Learning",
+    "published": "2026-05-12",
+    "summary": "Recent advancements in video-audio joint generation have achieved remarkable success in semantic correspondence. However, achieving precise temporal synchronization, which requires fine-grained alignment between audio events and their visual triggers, remains a challenging problem. The post-training method for joint generation is largely dominated by Supervised Fine-Tuning, but the commonly used M",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2605.06765v1",
+    "title": "VITA-QinYu: Expressive Spoken Language Model for Role-Playing and Singing",
+    "published": "2026-05-07",
+    "summary": "Human speech conveys expressiveness beyond linguistic content, including personality, mood, or performance elements, such as a comforting tone or humming a song, which we formalize as role-playing and singing. We present VITA-QinYu, the first expressive end-to-end (E2E) spoken language model (SLM) that goes beyond natural conversation to support both role-playing and singing generation. VITA-QinYu",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2605.06007v1",
+    "title": "PersonaKit (PK): A Plug-and-Play Platform for User Testing Diverse Roles in Full-Duplex Dialogue",
+    "published": "2026-05-07",
+    "summary": "As spoken dialogue systems expand beyond traditional assistant roles to encompass diverse personas -- such as authoritative instructors, uncooperative merchants, or distracted workers -- they require distinct, human-like turn-taking behaviors to maintain psychological immersion. However, current full-duplex systems often default to a rigid, overly accommodating ``always-yield'' policy during overl",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.HC",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2605.16321v1",
+    "title": "Language Game: Talking to Non-Human Systems",
+    "published": "2026-05-05",
+    "summary": "Language carries thought and coordination among humans but rarely reaches further along the spectrum of diverse intelligence. Yet non-neural systems -- from gene regulatory networks and microbial consortia to fungi -- are increasingly recognized as substrates of computation, decision-making and memory, making dialogue with non-human intelligence newly conceivable. Today such dialogue is attempted",
+    "primary_cat": "cs.LG | All cats: cs.LG",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2604.25719v2",
+    "title": "Step-Audio-R1.5 Technical Report",
+    "published": "2026-04-28",
+    "summary": "Recent advancements in large audio language models have extended Chain-of-Thought (CoT) reasoning into the auditory domain, enabling models to tackle increasingly complex acoustic and spoken tasks. To elicit and sustain these extended reasoning chains, the prevailing paradigm -- driven by the success of text-based reasoning models -- overwhelmingly relies on Reinforcement Learning with Verified Re",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "RL + audio dialogue",
+      "RLHF + audio-LM",
+      "RLHF + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2604.19221v2",
+    "title": "UAF: A Unified Audio Front-end LLM for Full-Duplex Speech Interaction",
+    "published": "2026-04-21",
+    "summary": "Full-duplex speech interaction, as the most natural and intuitive mode of human communication, is driving artificial intelligence toward more human-like conversational systems. Traditional cascaded speech processing pipelines suffer from critical limitations, including accumulated latency, information loss, and error propagation across modules. To address these issues, recent efforts focus on the",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.SD, eess.AS",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2604.18489v1",
+    "title": "Aligning Language Models for Lyric-to-Melody Generation with Rule-Based Musical Constraints",
+    "published": "2026-04-20",
+    "summary": "Large Language Models (LLMs) show promise in lyric-to-melody generation, but models trained with Supervised Fine-Tuning (SFT) often produce musically implausible melodies with issues like poor rhythm and unsuitable vocal ranges, a phenomenon we term \"constraint violation\". To address this, we propose a novel alignment framework that instills musical knowledge without human annotation. We define ru",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.CL, eess.AS",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2604.14920v1",
+    "title": "Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models",
+    "published": "2026-04-16",
+    "summary": "Achieving seamless, human-like interaction remains a key challenge for full-duplex spoken dialogue models (SDMs). Reinforcement learning (RL) has substantially enhanced text- and vision-language models, while well-designed reward signals are crucial for the performance of RL. We consider RL a promising strategy to address the key challenge for SDMs. However, a fundamental barrier persists: prevail",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2604.14932v1",
+    "title": "WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training",
+    "published": "2026-04-16",
+    "summary": "End-to-end spoken dialogue models have garnered significant attention because they offer a higher potential ceiling in expressiveness and perceptual ability than cascaded systems. However, the intelligence and expressiveness of current open-source spoken dialogue models often remain below expectations. Motivated by the success of online reinforcement learning(RL) in other domains, one might attemp",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "E2E + RL + speech-LLM",
+      "E2E + RL + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2604.14309v2",
+    "title": "Aerial Multi-Functional RIS in Fluid Antennas-Aided Full-Duplex Networks: A Self-Optimized Hybrid Deep Reinforcement Learning Approach",
+    "published": "2026-04-15",
+    "summary": "To address high data traffic demands of sixth-generation (6G) networks, this paper proposes a novel architecture that integrates autonomous aerial vehicles (AAVs) and multi-functional reconfigurable intelligent surfaces (MF-RISs) as AM-RIS in fluid antenna (FA)-assisted full-duplex (FD) networks. The AM-RIS provides hybrid functionalities, including signal reflection, amplification, and energy har",
+    "primary_cat": "cs.IT | All cats: cs.IT, cs.AI, eess.SP",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex",
+      "PPO + duplex",
+      "PPO + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2604.13804v1",
+    "title": "Character Beyond Speech: Leveraging Role-Playing Evaluation in Audio Large Language Models via Reinforcement Learning",
+    "published": "2026-04-15",
+    "summary": "The rapid evolution of multimodal large models has revolutionized the simulation of diverse characters in speech dialogue systems, enabling a novel interactive paradigm. Character attributes are manifested not only in textual responses but also through vocal features, as speech conveys rich paralinguistic information that is challenging to quantify. This poses significant difficulties in evaluatin",
+    "primary_cat": "cs.LG | All cats: cs.LG",
+    "directions": [
+      "RL + audio dialogue",
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2604.11554v2",
+    "title": "Relax: An Asynchronous Reinforcement Learning Engine for Omni-Modal Post-Training at Scale",
+    "published": "2026-04-13",
+    "summary": "Reinforcement learning (RL) post-training has proven effective at unlocking reasoning, self-reflection, and tool-use capabilities in large language models. As models extend to omni-modal inputs and agentic multi-turn workflows, RL training systems face three interdependent challenges: heterogeneous data flows, operational robustness at scale, and the staleness -- throughput tradeoff. We present \\t",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2604.11102v1",
+    "title": "OmniScript: Towards Audio-Visual Script Generation for Long-Form Cinematic Video",
+    "published": "2026-04-13",
+    "summary": "Current multimodal large language models (MLLMs) have demonstrated remarkable capabilities in short-form video understanding, yet translating long-form cinematic videos into detailed, temporally grounded scripts remains a significant challenge. This paper introduces the novel video-to-script (V2S) task, aiming to generate hierarchical, scene-by-scene scripts encompassing character actions, dialogu",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.MM",
+    "directions": [
+      "RL + audio dialogue"
+    ]
+  },
+  {
+    "arxiv_id": "2604.10065v1",
+    "title": "ASPIRin: Action Space Projection for Interactivity-Optimized Reinforcement Learning in Full-Duplex Speech Language Models",
+    "published": "2026-04-11",
+    "summary": "End-to-end full-duplex Speech Language Models (SLMs) require precise turn-taking for natural interaction. However, optimizing temporal dynamics via standard raw-token reinforcement learning (RL) degrades semantic quality, causing severe generative collapse and repetition. We propose ASPIRin, an interactivity-optimized RL framework that explicitly decouples when to speak from what to say. Using Act",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + duplex-speech",
+      "E2E + RL + full-duplex",
+      "E2E + RL + speech-LLM",
+      "E2E + duplex",
+      "GRPO + duplex",
+      "RL + turn-taking",
+      "Reward + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2604.08709v1",
+    "title": "Enhancing Conversational TTS with Cascaded Prompting and ICL-Based Online Reinforcement Learning",
+    "published": "2026-04-09",
+    "summary": "Conversational AI has made significant progress, yet generating expressive and controllable text-to-speech (TTS) remains challenging. Specifically, controlling fine-grained voice styles and emotions is notoriously difficult and typically requires massive amounts of heavily annotated training data. To overcome this data bottleneck, we present a scalable, data-efficient cascaded framework that pairs",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "Online RL + voice"
+    ]
+  },
+  {
+    "arxiv_id": "2605.23912v1",
+    "title": "Raon-Speech Technical Report",
+    "published": "2026-04-08",
+    "summary": "We present Raon-Speech, a top-performing 9B-parameter speech language model (SpeechLM) for English and Korean speech understanding, answering, and generation, and Raon-SpeechChat, a high-performing full-duplex extension for natural real-time conversation. Raon-Speech successfully transforms a pre-trained LLM into a SpeechLM that both understands and generates speech while preserving strong text ca",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.SD",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2603.26515v1",
+    "title": "JAL-Turn: Joint Acoustic-Linguistic Modeling for Real-Time and Robust Turn-Taking Detection in Full-Duplex Spoken Dialogue Systems",
+    "published": "2026-03-27",
+    "summary": "Despite recent advances, efficient and robust turn-taking detection remains a significant challenge in industrial-grade Voice AI agent deployments. Many existing systems rely solely on acoustic or semantic cues, leading to suboptimal accuracy and stability, while recent attempts to endow large language models with full-duplex capabilities require costly full-duplex data and incur substantial train",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2603.24034v1",
+    "title": "From Oracle to Noisy Context: Mitigating Contextual Exposure Bias in Speech-LLMs",
+    "published": "2026-03-25",
+    "summary": "Contextual automatic speech recognition (ASR) with Speech-LLMs is typically trained with oracle conversation history, but relies on error-prone history at inference, causing a train-test mismatch in the context channel that we term contextual exposure bias. We propose a unified training framework to improve robustness under realistic histories: (i) Teacher Error Knowledge by using Whisper large-v3",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2603.23346v2",
+    "title": "RelayS2S: A Dual-Path Speculative Generation for Real-Time Dialogue",
+    "published": "2026-03-24",
+    "summary": "Real-time spoken dialogue systems face a fundamental tension between latency and response quality. End-to-end speech-to-speech (S2S) models respond immediately and naturally handle turn-taking, backchanneling, and interruption, but produce semantically weaker outputs. Cascaded pipelines (ASR -> LLM) deliver stronger responses at the cost of latency that grows with model size. We present RelayS2S,",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2603.22267v2",
+    "title": "TiCo: Time-Controllable Spoken Dialogue Model",
+    "published": "2026-03-23",
+    "summary": "We introduce TiCo, a time-controllable spoken dialogue model (SDM) that follows time-constrained instructions (e.g., \"Please generate a response lasting about 15 seconds\") and generates spoken responses with controllable duration. This capability is valuable for real-world spoken language systems such as voice assistants and interactive agents, where controlling response duration can improve inter",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, eess.AS",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2603.13952v3",
+    "title": "LLM-Guided Reinforcement Learning for Audio-Visual Speech Enhancement",
+    "published": "2026-03-14",
+    "summary": "In existing Audio-Visual Speech Enhancement (AVSE) methods, objectives such as Scale-Invariant Signal-to-Noise Ratio (SI-SNR) and Mean Squared Error (MSE) are widely used; however, their correlation with perceived speech quality is often suboptimal and provides limited interpretability for optimization. This work proposes a reinforcement learning-based AVSE framework with a Large Language Model (L",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, eess.AS",
+    "directions": [
+      "PPO + audio-LM",
+      "PPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2603.11661v1",
+    "title": "Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models",
+    "published": "2026-03-12",
+    "summary": "Reinforcement Learning (RL) has become an effective paradigm for enhancing Large Language Models (LLMs) and visual generative models. However, its application in text-to-audio (TTA) generation remains largely under-explored. Prior work typically employs offline methods like Direct Preference Optimization (DPO) and leverages Contrastive Language-Audio Pretraining (CLAP) models as reward functions.",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2603.11834v1",
+    "title": "Hybrid Human-Agent Social Dilemmas in Energy Markets",
+    "published": "2026-03-12",
+    "summary": "In hybrid populations where humans delegate strategic decision-making to autonomous agents, understanding when and how cooperative behaviors can emerge remains a key challenge. We study this problem in the context of energy load management: consumer agents schedule their appliance use under demand-dependent pricing. This structure can create a social dilemma where everybody would benefit from coor",
+    "primary_cat": "cs.MA | All cats: cs.MA, cs.AI, cs.GT",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2603.11089v1",
+    "title": "V2A-DPO: Omni-Preference Optimization for Video-to-Audio Generation",
+    "published": "2026-03-11",
+    "summary": "This paper introduces V2A-DPO, a novel Direct Preference Optimization (DPO) framework tailored for flow-based video-to-audio generation (V2A) models, incorporating key adaptations to effectively align generated audio with human preferences. Our approach incorporates three core innovations: (1) AudioScore-a comprehensive human preference-aligned scoring system for assessing semantic consistency, te",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.MM, eess.AS",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2603.09180v1",
+    "title": "DuplexCascade: Full-Duplex Speech-to-Speech Dialogue with VAD-Free Cascaded ASR-LLM-TTS Pipeline and Micro-Turn Optimization",
+    "published": "2026-03-10",
+    "summary": "Spoken dialog systems with cascaded ASR-LLM-TTS modules retain strong LLM intelligence, but VAD segmentation often forces half-duplex turns and brittle control. On the other hand, VAD-free end-to-end model support full-duplex interaction but is hard to maintain conversational intelligence. In this paper, we present DuplexCascade, a VAD-free cascaded streaming pipeline for full-duplex speech-to-spe",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2603.08230v1",
+    "title": "Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction",
+    "published": "2026-03-09",
+    "summary": "Speech emotion recognition plays an important role in various applications. However, most existing approaches predict a single emotion label, oversimplifying the inherently ambiguous nature of human emotional expression. Recent large audio-language models show promise in generating richer outputs, but their reasoning ability for ambiguous emotional understanding remains limited. In this work, we r",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, eess.AS",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2603.08179v1",
+    "title": "Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models",
+    "published": "2026-03-09",
+    "summary": "End-to-end full-duplex speech models feed user audio through an always-on LLM backbone, yet the speaker privacy implications of their hidden representations remain unexamined. Following the VoicePrivacy 2024 protocol with a lazy-informed attacker, we show that the hidden states of SALM-Duplex and Moshi leak substantial speaker identity across all transformer layers. Layer-wise and turn-wise analys",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.AI, eess.SP",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2603.24596v3",
+    "title": "X-OPD: Cross-Modal On-Policy Distillation for Capability Alignment in Speech LLMs",
+    "published": "2026-03-06",
+    "summary": "While the shift from cascaded dialogue systems to end-to-end (E2E) speech Large Language Models (LLMs) improves latency and paralinguistic modeling, E2E models often exhibit a significant performance degradation compared to their text-based counterparts. The standard Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) training methods fail to close this gap. To address this, we propose X-",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.AI, cs.CL",
+    "directions": [
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2602.19163v1",
+    "title": "JavisDiT++: Unified Modeling and Optimization for Joint Audio-Video Generation",
+    "published": "2026-02-22",
+    "summary": "AIGC has rapidly expanded from text-to-image generation toward high-quality multimodal synthesis across video and audio. Within this context, joint audio-video generation (JAVG) has emerged as a fundamental task that produces synchronized and semantically aligned sound and vision from textual descriptions. However, compared with advanced commercial models such as Veo3, existing open-source methods",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.MM, cs.SD",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2602.13891v1",
+    "title": "GSRM: Generative Speech Reward Model for Speech RLHF",
+    "published": "2026-02-14",
+    "summary": "Recent advances in speech language models, such as GPT-4o Voice Mode and Gemini Live, have demonstrated promising speech generation capabilities. Nevertheless, the aesthetic naturalness of the synthesized audio still lags behind that of human speech. Enhancing generation quality requires a reliable evaluator of speech naturalness. However, existing naturalness evaluators typically regress raw audi",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI",
+    "directions": [
+      "RLHF + S2S",
+      "RLHF + audio-LM",
+      "RLHF + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2602.07960v1",
+    "title": "D-ORCA: Dialogue-Centric Optimization for Robust Audio-Visual Captioning",
+    "published": "2026-02-08",
+    "summary": "Spoken dialogue is a primary source of information in videos; therefore, accurately identifying who spoke what and when is essential for deep video understanding. We introduce D-ORCA, a \\textbf{d}ialogue-centric \\textbf{o}mni-modal large language model optimized for \\textbf{r}obust audio-visual \\textbf{ca}ptioning. We further curate DVD, a large-scale, high-quality bilingual dataset comprising nea",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "RL + audio dialogue"
+    ]
+  },
+  {
+    "arxiv_id": "2602.04634v3",
+    "title": "WideSeek-R1: Exploring Width Scaling for Broad Information Seeking via Multi-Agent Reinforcement Learning",
+    "published": "2026-02-04",
+    "summary": "Recent advancements in Large Language Models (LLMs) have largely focused on depth scaling, where a single agent solves long-horizon problems with multi-turn reasoning and tool use. However, as tasks grow broader, the key bottleneck shifts from individual competence to organizational capability. In this work, we explore a complementary dimension of width scaling with multi-agent systems to address",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.LG, cs.MA",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2602.00846v2",
+    "title": "Omni-RRM: Advancing Omni Reward Modeling via Automatic Rubric-Grounded Preference Synthesis",
+    "published": "2026-01-31",
+    "summary": "Multimodal large language models (MLLMs) struggle with alignment due to the limitations of existing reward models (RMs), which are predominantly vision-centric, dependent on costly human labels, and provide opaque scalar scores that fail to capture nuanced reasoning, leading to brittle alignment. We present Omni-RRM, an \\textbf{Omni}-modal \\textbf{R}ubric-grounded \\textbf{R}eward \\textbf{M}odel th",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "RLHF + audio-LM"
+    ]
+  },
+  {
+    "arxiv_id": "2601.22661v2",
+    "title": "Evaluating and Rewarding LALMs for Expressive Role-Play TTS via Mean Continuation Log-Probability",
+    "published": "2026-01-30",
+    "summary": "Recent advances in Large Audio Language Models (LALMs) have extended Text-to-Speech (TTS) to interactive role-play scenarios, which demand high expressiveness and strict adherence to role-play instructions. However, existing models struggle to maintain stylistic consistency with character profiles and scene descriptions across multi-turn dialogues. A critical bottleneck is the lack of objective me",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "RL + audio dialogue"
+    ]
+  },
+  {
+    "arxiv_id": "2601.19063v1",
+    "title": "Optimizing Conversational Quality in Spoken Dialogue Systems with Reinforcement Learning from AI Feedback",
+    "published": "2026-01-27",
+    "summary": "Reinforcement learning from human or AI feedback (RLHF/RLAIF) for speech-in/speech-out dialogue systems (SDS) remains underexplored, with prior work largely limited to single semantic rewards applied at the utterance level. Such setups overlook the multi-dimensional and multi-modal nature of conversational quality, which encompasses semantic coherence, audio naturalness, speaker consistency, emoti",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.SD",
+    "directions": [
+      "DPO + audio",
+      "E2E + RL + duplex",
+      "RL + audio dialogue",
+      "RL + turn-taking",
+      "RLHF + S2S",
+      "RLHF + duplex",
+      "RLHF + duplex + dialogue",
+      "RLHF + spoken",
+      "Reward + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2601.18281v1",
+    "title": "Reflecting Twice before Speaking with Empathy: Self-Reflective Alternating Inference for Empathy-Aware End-to-End Spoken Dialogue",
+    "published": "2026-01-26",
+    "summary": "End-to-end Spoken Language Models (SLMs) hold great potential for paralinguistic perception, and numerous studies have aimed to enhance their capabilities, particularly for empathetic dialogue. However, current approaches largely depend on rigid supervised signals, such as ground-truth response in supervised fine-tuning or preference scores in reinforcement learning. Such reliance is fundamentally",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.SD",
+    "directions": [
+      "E2E + RL + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2601.16483v1",
+    "title": "FlowSE-GRPO: Training Flow Matching Speech Enhancement via Online Reinforcement Learning",
+    "published": "2026-01-23",
+    "summary": "Generative speech enhancement offers a promising alternative to traditional discriminative methods by modeling the distribution of clean speech conditioned on noisy inputs. Post-training alignment via reinforcement learning (RL) effectively aligns generative models with human preferences and downstream metrics in domains such as natural language processing, but its use in speech enhancement remain",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2601.13629v1",
+    "title": "S$^2$Voice: Style-Aware Autoregressive Modeling with Enhanced Conditioning for Singing Style Conversion",
+    "published": "2026-01-20",
+    "summary": "We present S$^2$Voice, the winning system of the Singing Voice Conversion Challenge (SVCC) 2025 for both the in-domain and zero-shot singing style conversion tracks. Built on the strong two-stage Vevo baseline, S$^2$Voice advances style control and robustness through several contributions. First, we integrate style embeddings into the autoregressive large language model (AR LLM) via a FiLM-style l",
+    "primary_cat": "eess.AS | All cats: eess.AS, eess.SP",
+    "directions": [
+      "DPO + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2601.13409v1",
+    "title": "RLBR: Reinforcement Learning with Biasing Rewards for Contextual Speech Large Language Models",
+    "published": "2026-01-19",
+    "summary": "Speech large language models (LLMs) have driven significant progress in end-to-end speech understanding and recognition, yet they continue to struggle with accurately recognizing rare words and domain-specific terminology. This paper presents a novel fine-tuning method, Reinforcement Learning with Biasing Rewards (RLBR), which employs a specialized biasing words preferred reward to explicitly emph",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2601.11103v2",
+    "title": "AI Twin: Enhancing ESL Speaking Practice through AI Self-Clones of a Better Me",
+    "published": "2026-01-16",
+    "summary": "Advances in AI have enabled ESL learners to practice speaking through conversational systems. However, most tools rely on explicit correction, which can interrupt the conversation and undermine confidence. Grounded in second language acquisition and motivational psychology, we present AI Twin, a system that rephrases learner utterances into more fluent English and delivers them in the learner's vo",
+    "primary_cat": "cs.HC | All cats: cs.HC",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2601.09365v2",
+    "title": "Frame of Reference: Addressing the Challenges of Common Ground Representation in Situational Dialogs",
+    "published": "2026-01-14",
+    "summary": "Common ground plays a critical role in situated spoken dialogs, where interlocutors must establish and maintain shared references to entities, events, and relations to sustain coherent interaction in a shared space and over time. With the increasing presence of embodied conversational agents and social robots, the ability to correctly ground this kind of conversational content in order to refer ba",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "E2E + RL + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2601.08491v1",
+    "title": "AUV Trajectory Learning for Underwater Acoustic Energy Transfer and Age Minimization",
+    "published": "2026-01-13",
+    "summary": "Internet of underwater things (IoUT) is increasingly gathering attention with the aim of monitoring sea life and deep ocean environment, underwater surveillance as well as maintenance of underwater installments. However, conventional IoUT devices, reliant on battery power, face limitations in lifespan and pose environmental hazards upon disposal. This paper introduces a sustainable approach for si",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.LG, eess.SY",
+    "directions": [
+      "E2E + RL + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2601.04656v1",
+    "title": "FlexiVoice: Enabling Flexible Style Control in Zero-Shot TTS with Natural Language Instructions",
+    "published": "2026-01-08",
+    "summary": "This study proposes FlexiVoice, a text-to-speech (TTS) synthesis system capable of flexible style control with zero-shot voice cloning. The speaking style is controlled by a natural-language instruction and the voice timbre is provided by a speech reference in zero-shot manner. FlexiVoice is built with an LLM core, which takes text as input, and also takes an optional natural language instruction",
+    "primary_cat": "cs.SD | All cats: cs.SD",
+    "directions": [
+      "DPO + audio",
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2512.20156v4",
+    "title": "Fun-Audio-Chat Technical Report",
+    "published": "2025-12-23",
+    "summary": "Recent advancements in joint speech-text models show great potential for seamless voice interactions. However, existing models face critical challenges: temporal resolution mismatch between speech tokens (25Hz) and text tokens (~3Hz) dilutes semantic information, incurs high computational costs, and causes catastrophic forgetting of text LLM knowledge. We introduce Fun-Audio-Chat, a Large Audio La",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS",
+    "directions": [
+      "DPO + audio",
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2512.04773v1",
+    "title": "Using Machine Learning to Take Stay-or-Go Decisions in Data-driven Drone Missions",
+    "published": "2025-12-04",
+    "summary": "Drones are becoming indispensable in many application domains. In data-driven missions, besides sensing, the drone must process the collected data at runtime to decide whether additional action must be taken on the spot, before moving to the next point of interest. If processing does not reveal an event or situation that requires such an action, the drone has waited in vain instead of moving to th",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.AI",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2512.00234v3",
+    "title": "OmniFusion: Simultaneous Multilingual Multimodal Translations via Modular Fusion",
+    "published": "2025-11-28",
+    "summary": "There has been significant progress in open-source text-only translation large language models (LLMs) with better language coverage and quality. However, these models can be only used in cascaded pipelines for speech translation (ST), performing automatic speech recognition first followed by translation. This introduces additional latency, which is particularly critical in simultaneous ST (SimulST",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "PPO + audio-LM",
+      "PPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2511.14460v2",
+    "title": "Agent-R1: A Unified and Modular Framework for Agentic Reinforcement Learning",
+    "published": "2025-11-18",
+    "summary": "Large language models (LLMs) have rapidly evolved from single-turn text generators into the foundation of increasingly capable agents. As these agents take on more complex reasoning, decision making, tool use, and long-horizon tasks, reinforcement learning (RL) is becoming increasingly important for shaping their behavior. This shift is especially visible in agentic RL, where models must interact",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2511.12609v2",
+    "title": "Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data",
+    "published": "2025-11-16",
+    "summary": "We present Uni-MoE 2.0 from the Lychee family. As a fully open-source omnimodal large model (OLM), it substantially advances Lychee's Uni-MoE series in language-centric multimodal understanding, reasoning, and generating. Based on the dense LLM, we build Uni-MoE-2.0-Omni from scratch through three core contributions: dynamic-capacity Mixture-of-Experts (MoE) design, a progressive training strategy",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.CV",
+    "directions": [
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2511.10076v3",
+    "title": "Mitigating Error Accumulation in Co-Speech Motion Generation via Global Rotation Diffusion and Multi-Level Constraints",
+    "published": "2025-11-13",
+    "summary": "Reliable long-horizon co-speech gesture generation requires precise motion representation and consistent structural priors across all joints. Existing generative methods typically operate on local joint rotations, which are defined hierarchically based on the skeleton structure. This leads to cumulative errors during generation, manifesting as unstable and implausible motions at end-effectors. In",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08723v2",
+    "title": "ParaS2S: Benchmarking and Aligning Spoken Language Models for Paralinguistic-aware Speech-to-Speech Interaction",
+    "published": "2025-11-11",
+    "summary": "Speech-to-Speech (S2S) models have shown promising dialogue capabilities, but their ability to handle paralinguistic cues - such as emotion, tone, and speaker attributes - and to respond appropriately in both content and style remains under-explored. Progress is further hindered by the scarcity of high-quality and expressive demonstrations. To address this, we introduce a new reinforcement learnin",
+    "primary_cat": "eess.AS | All cats: eess.AS, eess.SP",
+    "directions": [
+      "E2E + RL + audio",
+      "E2E + RL + speech-LLM",
+      "RL + audio dialogue"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08325v1",
+    "title": "AgentPRM: Process Reward Models for LLM Agents via Step-Wise Promise and Progress",
+    "published": "2025-11-11",
+    "summary": "Despite rapid development, large language models (LLMs) still encounter challenges in multi-turn decision-making tasks (i.e., agent tasks) like web shopping and browser navigation, which require making a sequence of intelligent decisions based on environmental feedback. Previous work for LLM agents typically relies on elaborate prompt engineering or fine-tuning with expert trajectories to improve",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.IR, cs.LG",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07477v1",
+    "title": "The Polite Liar: Epistemic Pathology in Language Models",
+    "published": "2025-11-08",
+    "summary": "Large language models exhibit a peculiar epistemic pathology: they speak as if they know, even when they do not. This paper argues that such confident fabrication, what I call the polite liar, is a structural consequence of reinforcement learning from human feedback (RLHF). Building on Frankfurt's analysis of bullshit as communicative indifference to truth, I show that this pathology is not decept",
+    "primary_cat": "cs.CY | All cats: cs.CY, cs.AI, cs.CL",
+    "directions": [
+      "RLHF + S2S"
+    ]
+  },
+  {
+    "arxiv_id": "2510.22950v3",
+    "title": "DiffRhythm 2: Efficient and High Fidelity Song Generation via Block Flow Matching",
+    "published": "2025-10-27",
+    "summary": "Generating full-length, high-quality songs is challenging, as it requires maintaining long-term coherence both across text and music modalities and within the music modality itself. Existing non-autoregressive (NAR) frameworks, while capable of producing high-quality songs, often struggle with the alignment between lyrics and vocal. Concurrently, catering to diverse musical preferences necessitate",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2510.15796v1",
+    "title": "Cavity Duplexer Tuning with 1d Resnet-like Neural Networks",
+    "published": "2025-10-17",
+    "summary": "This paper presents machine learning method for tuning of cavity duplexer with a large amount of adjustment screws. After testing we declined conventional reinforcement learning approach and reformulated our task in the supervised learning setup. The suggested neural network architecture includes 1d ResNet-like backbone and processing of some additional information about S-parameters, like the sha",
+    "primary_cat": "cs.LG | All cats: cs.LG, eess.SY",
+    "directions": [
+      "E2E + RL + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2510.14098v1",
+    "title": "Modeling Public Opinion Dynamics: The Spiral of silence in clustered homophilic networks",
+    "published": "2025-10-15",
+    "summary": "Public discourse emerges from the interplay between individuals' willingness to voice their opinions and the structural features of the social networks in which they are embedded. In this work we investigate how choice homophily and triadic closure shape the emergence of the spiral of silence, the phenomenon whereby minority views are progressively silenced due to fear of isolation. We advance the",
+    "primary_cat": "physics.soc-ph | All cats: physics.soc-ph",
+    "directions": [
+      "Online RL + voice"
+    ]
+  },
+  {
+    "arxiv_id": "2510.12195v1",
+    "title": "DPO-Tuned Large Language Models for Segmentation in Simultaneous Speech Translation",
+    "published": "2025-10-14",
+    "summary": "Simultaneous speech translation requires accurate segmentation to balance translation quality and latency. Recent studies such as SHAS have introduced pretrained segmentation models, achieving stronger performance than heuristic rules. However, segmentation models such as SHAS, though pretrained and more robust than heuristic methods, are still constrained by supervised learning objectives and do",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2510.07497v1",
+    "title": "Can Speech LLMs Think while Listening?",
+    "published": "2025-10-08",
+    "summary": "Recent advances in speech large language models (speech LLMs) have enabled seamless spoken interactions, but these systems still struggle with complex reasoning tasks. Previously, chain-of-thought (CoT) prompting or fine-tuning has been to shown to significantly improve the reasoning abilities of text-based LLMs. In this work, we investigate the effect of CoT fine-tuning for multi-stream speech LL",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, eess.AS",
+    "directions": [
+      "DPO + speech-LLM",
+      "DPO + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2510.08618v2",
+    "title": "VAPO: End-to-end Slide-Enhanced Speech Recognition with Omni-modal Large Language Models",
+    "published": "2025-10-08",
+    "summary": "Omni-modal large language models (OLLMs) offer a promising end-to-end solution for slide-enhanced speech recognition due to their inherent multimodal capabilities. However, we found a fundamental issue faced by OLLMs: \\textit{Visual Interference}, where models show a bias towards visible text over auditory signals, causing them to hallucinate slide content that was never spoken. To address this, w",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.CV, cs.SD",
+    "directions": [
+      "E2E + RL + speech-LLM",
+      "E2E + RL + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2510.07030v1",
+    "title": "Diffusing Trajectory Optimization Problems for Recovery During Multi-Finger Manipulation",
+    "published": "2025-10-08",
+    "summary": "Multi-fingered hands are emerging as powerful platforms for performing fine manipulation tasks, including tool use. However, environmental perturbations or execution errors can impede task performance, motivating the use of recovery behaviors that enable normal task execution to resume. In this work, we take advantage of recent advances in diffusion models to construct a framework that autonomousl",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2510.05921v3",
+    "title": "Prompt reinforcing for long-term planning of large language models",
+    "published": "2025-10-07",
+    "summary": "Large language models (LLMs) have achieved remarkable success in a wide range of natural language processing tasks and can be adapted through prompting. However, they remain suboptimal in multi-turn interactions, often relying on incorrect early assumptions and failing to track user goals over time, which makes such tasks particularly challenging. Prior works in dialogue systems have shown that lo",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.LG",
+    "directions": [
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2509.25652v1",
+    "title": "Iterative Residual Cross-Attention Mechanism: An Integrated Approach for Audio-Visual Navigation Tasks",
+    "published": "2025-09-30",
+    "summary": "Audio-visual navigation represents a significant area of research in which intelligent agents utilize egocentric visual and auditory perceptions to identify audio targets. Conventional navigation methodologies typically adopt a staged modular design, which involves first executing feature fusion, then utilizing Gated Recurrent Unit (GRU) modules for sequence modeling, and finally making decisions",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.MM, cs.SD",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2509.21574v1",
+    "title": "X-Streamer: Unified Human World Modeling with Audiovisual Interaction",
+    "published": "2025-09-25",
+    "summary": "We introduce X-Streamer, an end-to-end multimodal human world modeling framework for building digital human agents capable of infinite interactions across text, speech, and video within a single unified architecture. Starting from a single portrait, X-Streamer enables real-time, open-ended video calls driven by streaming multimodal inputs. At its core is a Thinker-Actor dual-transformer architectu",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "E2E + RL + audio",
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2509.18912v1",
+    "title": "Frequency-Domain Decomposition and Recomposition for Robust Audio-Visual Segmentation",
+    "published": "2025-09-23",
+    "summary": "Audio-visual segmentation (AVS) plays a critical role in multimodal machine learning by effectively integrating audio and visual cues to precisely segment objects or regions within visual scenes. Recent AVS methods have demonstrated significant improvements. However, they overlook the inherent frequency-domain contradictions between audio and visual modalities--the pervasively interfering noise in",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2509.16924v1",
+    "title": "Audio-Guided Dynamic Modality Fusion with Stereo-Aware Attention for Audio-Visual Navigation",
+    "published": "2025-09-21",
+    "summary": "In audio-visual navigation (AVN) tasks, an embodied agent must autonomously localize a sound source in unknown and complex 3D environments based on audio-visual signals. Existing methods often rely on static modality fusion strategies and neglect the spatial cues embedded in stereo audio, leading to performance degradation in cluttered or occluded scenes. To address these issues, we propose an end",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.SD",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2509.16193v1",
+    "title": "Are Multimodal Foundation Models All That Is Needed for Emofake Detection?",
+    "published": "2025-09-19",
+    "summary": "In this work, we investigate multimodal foundation models (MFMs) for EmoFake detection (EFD) and hypothesize that they will outperform audio foundation models (AFMs). MFMs due to their cross-modal pre-training, learns emotional patterns from multiple modalities, while AFMs rely only on audio. As such, MFMs can better recognize unnatural emotional shifts and inconsistencies in manipulated audio, ma",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "E2E + RL + audio",
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2509.14659v3",
+    "title": "Aligning Audio Captions with Human Preferences",
+    "published": "2025-09-18",
+    "summary": "Current audio captioning relies on supervised learning with paired audio-caption data, which is costly to curate and may not reflect human preferences in real-world scenarios. To address this, we propose a preference-aligned audio captioning framework based on Reinforcement Learning from Human Feedback (RLHF). To capture nuanced preferences, we train a Contrastive Language-Audio Pretraining (CLAP)",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.LG, cs.SD",
+    "directions": [
+      "RLHF + audio-LM"
+    ]
+  },
+  {
+    "arxiv_id": "2509.14480v1",
+    "title": "Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents",
+    "published": "2025-09-17",
+    "summary": "Effective interactive tool use requires agents to master Tool Integrated Reasoning (TIR): a complex process involving multi-turn planning and long-context dialogue management. To train agents for this dynamic process, particularly in multi-modal contexts, we introduce a sandbox environment for reinforcement learning (RL) that supports interleaved speech-text rollouts. Our core strategy, Turn-level",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.MA",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2509.11117v1",
+    "title": "Nonreciprocal RIS-Aided Covert Channel Reciprocity Attacks and Countermeasures",
+    "published": "2025-09-14",
+    "summary": "Reconfigurable intelligent surface (RIS) technology enhances wireless communication performance, but it also introduces new vulnerabilities that can be exploited by adversaries. This paper investigates channel reciprocity attack (CRACK) threats in multi-antenna wireless systems operating in time-division duplexing mode using a physically consistent non-reciprocal RIS (NR-RIS) model. CRACK can degr",
+    "primary_cat": "eess.SP | All cats: eess.SP",
+    "directions": [
+      "E2E + RL + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2508.20916v2",
+    "title": "SageLM: A Multi-aspect and Explainable Large Language Model for Speech Judgement",
+    "published": "2025-08-28",
+    "summary": "Speech-to-Speech (S2S) Large Language Models (LLMs) are foundational to natural human-computer interaction, enabling end-to-end spoken dialogue systems. However, evaluating these models remains a fundamental challenge. We propose \\texttt{SageLM}, an end-to-end, multi-aspect, and explainable speech LLM for comprehensive S2S LLMs evaluation. First, unlike cascaded approaches that disregard acoustic",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "E2E + RL + speech-LLM",
+      "E2E + RL + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2508.06475v2",
+    "title": "HapticLLaMA: A Multimodal Sensory Language Model for Haptic Captioning",
+    "published": "2025-08-08",
+    "summary": "Haptic captioning is the task of generating natural language descriptions from haptic signals, such as vibrations, for use in virtual reality, accessibility, and rehabilitation applications. While previous multimodal research has focused primarily on vision and audio, haptic signals for the sense of touch remain underexplored. To address this gap, we formalize the haptic captioning task and propos",
+    "primary_cat": "cs.CL | All cats: cs.CL",
+    "directions": [
+      "RLHF + audio-LM"
+    ]
+  },
+  {
+    "arxiv_id": "2508.05011v1",
+    "title": "Towards Hallucination-Free Music: A Reinforcement Learning Preference Optimization Framework for Reliable Song Generation",
+    "published": "2025-08-07",
+    "summary": "Recent advances in audio-based generative language models have accelerated AI-driven lyric-to-song generation. However, these models frequently suffer from content hallucination, producing outputs misaligned with the input lyrics and undermining musical coherence. Current supervised fine-tuning (SFT) approaches, limited by passive label-fitting, exhibit constrained self-improvement and poor halluc",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, eess.AS",
+    "directions": [
+      "PPO + audio-LM"
+    ]
+  },
+  {
+    "arxiv_id": "2508.03123v1",
+    "title": "Fine-Tuning Text-to-Speech Diffusion Models Using Reinforcement Learning with Human Feedback",
+    "published": "2025-08-05",
+    "summary": "Diffusion models produce high-fidelity speech but are inefficient for real-time use due to long denoising steps and challenges in modeling intonation and rhythm. To improve this, we propose Diffusion Loss-Guided Policy Optimization (DLPO), an RLHF framework for TTS diffusion models. DLPO integrates the original training loss into the reward function, preserving generative capabilities while reduci",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, eess.AS",
+    "directions": [
+      "RLHF + S2S"
+    ]
+  },
+  {
+    "arxiv_id": "2508.02447v2",
+    "title": "Secure Energy Efficient Wireless Transmission: A Finite v/s Infinite-Horizon RL Solution",
+    "published": "2025-08-04",
+    "summary": "In this paper, a joint optimal allocation of transmit power at the source and jamming power at the destination is proposed to maximize the average secrecy energy efficiency (SEE) of a wireless network within a finite time duration. The destination transmits the jamming signal to improve secrecy by utilizing full-duplex capability. The source and destination both have energy harvesting (EH) capabil",
+    "primary_cat": "eess.SP | All cats: eess.SP",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2507.20939v1",
+    "title": "ARC-Hunyuan-Video-7B: Structured Video Comprehension of Real-World Shorts",
+    "published": "2025-07-28",
+    "summary": "Real-world user-generated short videos, especially those distributed on platforms such as WeChat Channel and TikTok, dominate the mobile internet. However, current large multimodal models lack essential temporally-structured, detailed, and in-depth video comprehension capabilities, which are the cornerstone of effective video search and recommendation, as well as emerging video applications. Under",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2507.17527v3",
+    "title": "Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice",
+    "published": "2025-07-23",
+    "summary": "Simultaneous Interpretation (SI) represents one of the most daunting frontiers in the translation industry, with product-level automatic systems long plagued by intractable challenges: subpar transcription and translation quality, lack of real-time speech generation, multi-speaker confusion, and translated speech inflation, especially in long-form discourses. In this study, we introduce Seed-LiveI",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.SD, eess.AS",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2507.16632v3",
+    "title": "Step-Audio 2 Technical Report",
+    "published": "2025-07-22",
+    "summary": "This paper presents Step-Audio 2, an end-to-end multi-modal large language model designed for industry-strength audio understanding and speech conversation. By integrating a latent audio encoder and reasoning-centric reinforcement learning (RL), Step-Audio 2 achieves promising performance in automatic speech recognition (ASR) and audio understanding. To facilitate genuine end-to-end speech convers",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.SD, eess.AS",
+    "directions": [
+      "E2E + RL + audio",
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2507.06981v1",
+    "title": "Optimizing Cognitive Networks: Reinforcement Learning Meets Energy Harvesting Over Cascaded Channels",
+    "published": "2025-07-09",
+    "summary": "This paper presents a reinforcement learning (RL) based approach to improve the physical layer security (PLS) of an underlay cognitive radio network (CRN) over cascaded channels. These channels are utilized in highly mobile networks such as cognitive vehicular networks (CVN). In addition, an eavesdropper aims to intercept the communications between secondary users (SUs). The SU receiver has full-d",
+    "primary_cat": "cs.ET | All cats: cs.ET, cs.NI, eess.SP",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2507.05911v1",
+    "title": "Differentiable Reward Optimization for LLM based TTS system",
+    "published": "2025-07-08",
+    "summary": "This paper proposes a novel Differentiable Reward Optimization (DiffRO) method aimed at enhancing the performance of neural codec language models based text-to-speech (TTS) systems. In contrast to conventional reinforcement learning from human feedback (RLHF) approaches applied to TTS, DiffRO directly compute the rewards based on neural codec tokens, rather than relying on synthesized audio. Furth",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.AI, eess.AS",
+    "directions": [
+      "RLHF + S2S",
+      "RLHF + audio-LM"
+    ]
+  },
+  {
+    "arxiv_id": "2506.14903v1",
+    "title": "DETONATE: A Benchmark for Text-to-Image Alignment and Kernelized Direct Preference Optimization",
+    "published": "2025-06-17",
+    "summary": "Alignment is crucial for text-to-image (T2I) models to ensure that generated images faithfully capture user intent while maintaining safety and fairness. Direct Preference Optimization (DPO), prominent in large language models (LLMs), is extending its influence to T2I systems. This paper introduces DPO-Kernels for T2I models, a novel extension enhancing alignment across three dimensions: (i) Hybri",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2506.08967v2",
+    "title": "Step-Audio-AQAA: a Fully End-to-End Expressive Large Audio Language Model",
+    "published": "2025-06-10",
+    "summary": "Large Audio-Language Models (LALMs) have significantly advanced intelligent human-computer interaction, yet their reliance on text-based outputs limits their ability to generate natural speech responses directly, hindering seamless audio interactions. To address this, we introduce Step-Audio-AQAA, a fully end-to-end LALM designed for Audio Query-Audio Answer (AQAA) tasks. The model integrates a du",
+    "primary_cat": "cs.SD | All cats: cs.SD, cs.CL, eess.AS",
+    "directions": [
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2506.06344v4",
+    "title": "A Fairness-Aware Strategy for B5G Physical-layer Security Leveraging Reconfigurable Intelligent Surfaces",
+    "published": "2025-06-01",
+    "summary": "Reconfigurable Intelligent Surfaces are composed of physical elements that can dynamically alter electromagnetic wave properties to enhance beamforming and lead to improvements in areas with low coverage properties. When combined with Reinforcement Learning techniques, they have the potential to enhance both system behavior and physical-layer security hardening. In addition to security improvement",
+    "primary_cat": "eess.SP | All cats: eess.SP, cs.AI, cs.LG",
+    "directions": [
+      "E2E + RL + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2505.20256v1",
+    "title": "Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration",
+    "published": "2025-05-26",
+    "summary": "Long-horizon video-audio reasoning and fine-grained pixel understanding impose conflicting requirements on omnimodal models: dense temporal coverage demands many low-resolution frames, whereas precise grounding calls for high-resolution inputs. We tackle this trade-off with a two-system architecture: a Global Reasoning System selects informative keyframes and rewrites the task at low spatial cost,",
+    "primary_cat": "cs.CV | All cats: cs.CV",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2505.18876v2",
+    "title": "DiffusionRL: Efficient Training of Diffusion Policies for Robotic Grasping Using RL-Adapted Large-Scale Datasets",
+    "published": "2025-05-24",
+    "summary": "Diffusion models have been successfully applied in areas such as image, video, and audio generation. Recent works show their promise for sequential decision-making and dexterous manipulation, leveraging their ability to model complex action distributions. However, challenges persist due to the data limitations and scenario-specific adaptation needs. In this paper, we address these challenges by pr",
+    "primary_cat": "cs.RO | All cats: cs.RO",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2505.17060v1",
+    "title": "SALMONN-omni: A Standalone Speech LLM without Codec Injection for Full-duplex Conversation",
+    "published": "2025-05-17",
+    "summary": "In order to enable fluid and natural human-machine speech interaction, existing full-duplex conversational systems often adopt modular architectures with auxiliary components such as voice activity detectors, interrupters, conversation state predictors, or multiple LLMs. These systems, however, suffer from error accumulation across modules and struggle with key challenges such as context-dependent",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex",
+      "RL + audio dialogue",
+      "RL + barge-in"
+    ]
+  },
+  {
+    "arxiv_id": "2505.09558v2",
+    "title": "WavReward: Spoken Dialogue Models With Generalist Reward Evaluators",
+    "published": "2025-05-14",
+    "summary": "End-to-end spoken dialogue models such as GPT-4o-audio have recently garnered significant attention in the speech domain. However, the evaluation of spoken dialogue models' conversational performance has largely been overlooked. This is primarily due to the intelligent chatbots convey a wealth of non-textual information which cannot be easily measured using text-based language models like ChatGPT.",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD",
+    "directions": [
+      "E2E + RL + audio",
+      "E2E + RL + speech-LLM",
+      "E2E + RL + spoken",
+      "RL + audio dialogue"
+    ]
+  },
+  {
+    "arxiv_id": "2502.12438v1",
+    "title": "Note-Level Singing Melody Transcription for Time-Aligned Musical Score Generation",
+    "published": "2025-02-18",
+    "summary": "Automatic music transcription converts audio recordings into symbolic representations, facilitating music analysis, retrieval, and generation. A musical note is characterized by pitch, onset, and offset in an audio domain, whereas it is defined in terms of pitch and note value in a musical score domain. A time-aligned score, derived from timing information along with pitch and note value, allows m",
+    "primary_cat": "cs.SD | All cats: cs.SD, eess.AS, eess.SP",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2501.11326v1",
+    "title": "The \"Law\" of the Unconscious Contrastive Learner: Probabilistic Alignment of Unpaired Modalities",
+    "published": "2025-01-20",
+    "summary": "While internet-scale data often comes in pairs (e.g., audio/image, image/text), we often want to perform inferences over modalities unseen together in the training data (e.g., audio/text). Empirically, this can often be addressed by learning multiple contrastive embedding spaces between existing modality pairs, implicitly hoping that unseen modality pairs will end up being aligned. This theoretica",
+    "primary_cat": "cs.LG | All cats: cs.LG, stat.ML",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2501.02271v2",
+    "title": "Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning",
+    "published": "2025-01-04",
+    "summary": "In this paper, we study a secure integrated sensing and communication (ISAC) system employing a full-duplex base station with sensing capabilities against a mobile proactive adversarial target$\\unicode{x2014}$a malicious unmanned aerial vehicle (M-UAV). We develop a game-theoretic model to enhance communication security, radar sensing accuracy, and power efficiency. The interaction between the leg",
+    "primary_cat": "cs.IT | All cats: cs.IT, eess.SP",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2412.20632v1",
+    "title": "EVOLVE: Emotion and Visual Output Learning via LLM Evaluation",
+    "published": "2024-12-30",
+    "summary": "Human acceptance of social robots is greatly effected by empathy and perceived understanding. This necessitates accurate and flexible responses to various input data from the user. While systems such as this can become increasingly complex as more states or response types are included, new research in the application of large language models towards human-robot interaction has allowed for more str",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.HC",
+    "directions": [
+      "E2E + RL + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2501.00039v1",
+    "title": "Speech Recognition With LLMs Adapted to Disordered Speech Using Reinforcement Learning",
+    "published": "2024-12-25",
+    "summary": "We introduce a large language model (LLM) capable of processing speech inputs and show that tuning it further with reinforcement learning on human preference (RLHF) enables it to adapt better to disordered speech than traditional fine-tuning. Our method replaces low-frequency text tokens in an LLM's vocabulary with audio tokens and enables the model to recognize speech by fine-tuning it on speech",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD",
+    "directions": [
+      "RLHF + S2S",
+      "RLHF + audio-LM",
+      "RLHF + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2412.15838v2",
+    "title": "Align Anything: Training All-Modality Models to Follow Instructions with Language Feedback",
+    "published": "2024-12-20",
+    "summary": "Reinforcement learning from human feedback (RLHF) has proven effective in enhancing the instruction-following capabilities of large language models; however, it remains underexplored in the cross-modality domain. As the number of modalities increases, aligning all-modality models with human intentions -- such as instruction following -- becomes a pressing challenge. In this work, we make the first",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.CL",
+    "directions": [
+      "RLHF + audio-LM"
+    ]
+  },
+  {
+    "arxiv_id": "2412.15453v1",
+    "title": "Northeastern Uni at Multilingual Counterspeech Generation: Enhancing Counter Speech Generation with LLM Alignment through Direct Preference Optimization",
+    "published": "2024-12-19",
+    "summary": "The automatic generation of counter-speech (CS) is a critical strategy for addressing hate speech by providing constructive and informed responses. However, existing methods often fail to generate high-quality, impactful, and scalable CS, particularly across diverse linguistic contexts. In this paper, we propose a novel methodology to enhance CS generation by aligning Large Language Models (LLMs)",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2412.15312v2",
+    "title": "PCA-Featured Transformer for Jamming Detection in 5G UAV Networks",
+    "published": "2024-12-19",
+    "summary": "Unmanned Aerial Vehicles (UAVs) face significant security risks from jamming attacks, which can compromise network functionality. Traditional detection methods often fall short when confronting AI-powered jamming that dynamically modifies its behavior, while contemporary machine learning approaches frequently demand substantial feature engineering and struggle with temporal patterns in attack sign",
+    "primary_cat": "cs.LG | All cats: cs.LG",
+    "directions": [
+      "E2E + RL + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2411.01834v2",
+    "title": "Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback",
+    "published": "2024-11-04",
+    "summary": "While textless Spoken Language Models (SLMs) have shown potential in end-to-end speech-to-speech modeling, they still lag behind text-based Large Language Models (LLMs) in terms of semantic coherence and relevance. This work introduces the Align-SLM framework, which leverages preference optimization inspired by Reinforcement Learning with AI Feedback (RLAIF) to enhance the semantic understanding o",
+    "primary_cat": "cs.CL | All cats: cs.CL, eess.AS",
+    "directions": [
+      "DPO + speech-LLM",
+      "E2E + RL + speech-LLM",
+      "E2E + RL + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2410.23554v1",
+    "title": "Prosody as a Teaching Signal for Agent Learning: Exploratory Studies and Algorithmic Implications",
+    "published": "2024-10-31",
+    "summary": "Agent learning from human interaction often relies on explicit signals, but implicit social cues, such as prosody in speech, could provide valuable information for more effective learning. This paper advocates for the integration of prosody as a teaching signal to enhance agent learning from human teachers. Through two exploratory studies--one examining voice feedback in an interactive reinforceme",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.HC",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2410.13182v1",
+    "title": "Using RLHF to align speech enhancement approaches to mean-opinion quality scores",
+    "published": "2024-10-17",
+    "summary": "Objective speech quality measures are typically used to assess speech enhancement algorithms, but it has been shown that they are sub-optimal as learning objectives because they do not always align well with human subjective ratings. This misalignment often results in noticeable distortions and artifacts that cause speech enhancement to be ineffective. To address these issues, we propose a reinfor",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "RLHF + S2S"
+    ]
+  },
+  {
+    "arxiv_id": "2409.16404v1",
+    "title": "FastTalker: Jointly Generating Speech and Conversational Gestures from Text",
+    "published": "2024-09-24",
+    "summary": "Generating 3D human gestures and speech from a text script is critical for creating realistic talking avatars. One solution is to leverage separate pipelines for text-to-speech (TTS) and speech-to-gesture (STG), but this approach suffers from poor alignment of speech and gestures and slow inference times. In this paper, we introduce FastTalker, an efficient and effective framework that simultaneou",
+    "primary_cat": "cs.MM | All cats: cs.MM, cs.SD, eess.AS",
+    "directions": [
+      "E2E + RL + audio",
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2409.12121v3",
+    "title": "WMCodec: End-to-End Neural Speech Codec with Deep Watermarking for Authenticity Verification",
+    "published": "2024-09-18",
+    "summary": "Recent advances in speech spoofing necessitate stronger verification mechanisms in neural speech codecs to ensure authenticity. Current methods embed numerical watermarks before compression and extract them from reconstructed speech for verification, but face limitations such as separate training processes for the watermark and codec, and insufficient cross-modal information integration, leading t",
+    "primary_cat": "cs.SD | All cats: cs.SD, eess.AS",
+    "directions": [
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2409.10157v1",
+    "title": "Emo-DPO: Controllable Emotional Speech Synthesis through Direct Preference Optimization",
+    "published": "2024-09-16",
+    "summary": "Current emotional text-to-speech (TTS) models predominantly conduct supervised training to learn the conversion from text and desired emotion to its emotional speech, focusing on a single emotion per text-speech pair. These models only learn the correct emotional outputs without fully comprehending other emotion characteristics, which limits their capabilities of capturing the nuances between diff",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD, eess.SP",
+    "directions": [
+      "DPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2409.00855v1",
+    "title": "LanguaShrink: Reducing Token Overhead with Psycholinguistics",
+    "published": "2024-09-01",
+    "summary": "As large language models (LLMs) improve their capabilities in handling complex tasks, the issues of computational cost and efficiency due to long prompts are becoming increasingly prominent. To accelerate model inference and reduce costs, we propose an innovative prompt compression framework called LanguaShrink. Inspired by the observation that LLM performance depends on the density and position o",
+    "primary_cat": "cs.CL | All cats: cs.CL, stat.ML",
+    "directions": [
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2408.13296v3",
+    "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs: An Exhaustive Review of Technologies, Research, Best Practices, Applied Research Challenges and Opportunities",
+    "published": "2024-08-23",
+    "summary": "This report examines the fine-tuning of Large Language Models (LLMs), integrating theoretical insights with practical applications. It outlines the historical evolution of LLMs from traditional Natural Language Processing (NLP) models to their pivotal role in AI. A comparison of fine-tuning methodologies, including supervised, unsupervised, and instruction-based approaches, highlights their applic",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.CL",
+    "directions": [
+      "DPO + speech-LLM",
+      "PPO + audio-LM",
+      "PPO + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2408.01420v1",
+    "title": "Mission Impossible: A Statistical Perspective on Jailbreaking LLMs",
+    "published": "2024-08-02",
+    "summary": "Large language models (LLMs) are trained on a deluge of text data with limited quality control. As a result, LLMs can exhibit unintended or even harmful behaviours, such as leaking information, fake news or hate speech. Countermeasures, commonly referred to as preference alignment, include fine-tuning the pretrained LLMs with carefully crafted text examples of desired behaviour. Even then, empiric",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI, cs.CL",
+    "directions": [
+      "RLHF + S2S",
+      "RLHF + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2407.21460v1",
+    "title": "Multi-agent Assessment with QoS Enhancement for HD Map Updates in a Vehicular Network",
+    "published": "2024-07-31",
+    "summary": "Reinforcement Learning (RL) algorithms have been used to address the challenging problems in the offloading process of vehicular ad hoc networks (VANET). More recently, they have been utilized to improve the dissemination of high-definition (HD) Maps. Nevertheless, implementing solutions such as deep Q-learning (DQN) and Actor-critic at the autonomous vehicle (AV) may lead to an increase in the co",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.LG",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2407.17435v2",
+    "title": "Joint Transmit and Jamming Power Optimization for Secrecy in Energy Harvesting Networks: A Reinforcement Learning Approach",
+    "published": "2024-07-24",
+    "summary": "In this paper, we address the problem of joint allocation of transmit and jamming power at the source and destination, respectively, to enhance the long-term cumulative secrecy performance of an energy-harvesting wireless communication system until it stops functioning in the presence of an eavesdropper. The source and destination have energy-harvesting devices with limited battery capacities. The",
+    "primary_cat": "eess.SP | All cats: eess.SP",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2407.02243v1",
+    "title": "Robust Zero-Shot Text-to-Speech Synthesis with Reverse Inference Optimization",
+    "published": "2024-07-02",
+    "summary": "In this paper, we propose reverse inference optimization (RIO), a simple and effective method designed to enhance the robustness of autoregressive-model-based zero-shot text-to-speech (TTS) systems using reinforcement learning from human feedback (RLHF). To assess the quality of speech produced by the TTS system without human annotations, RIO introduces a novel concept termed as reverse inference",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.SD, eess.AS",
+    "directions": [
+      "RLHF + S2S"
+    ]
+  },
+  {
+    "arxiv_id": "2406.02430v1",
+    "title": "Seed-TTS: A Family of High-Quality Versatile Speech Generation Models",
+    "published": "2024-06-04",
+    "summary": "We introduce Seed-TTS, a family of large-scale autoregressive text-to-speech (TTS) models capable of generating speech that is virtually indistinguishable from human speech. Seed-TTS serves as a foundation model for speech generation and excels in speech in-context learning, achieving performance in speaker similarity and naturalness that matches ground truth human speech in both objective and sub",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2405.14632v2",
+    "title": "DLPO: Diffusion Model Loss-Guided Reinforcement Learning for Fine-Tuning Text-to-Speech Diffusion Models",
+    "published": "2024-05-23",
+    "summary": "Recent advancements in generative models have sparked a significant interest within the machine learning community. Particularly, diffusion models have demonstrated remarkable capabilities in synthesizing images and speech. Studies such as those by Lee et al. (2023), Black et al. (2023), Wang et al. (2023), and Fan et al. (2024) illustrate that Reinforcement Learning with Human Feedback (RLHF) can",
+    "primary_cat": "cs.LG | All cats: cs.LG, cs.AI",
+    "directions": [
+      "RLHF + S2S",
+      "RLHF + speech 2026"
+    ]
+  },
+  {
+    "arxiv_id": "2404.00631v1",
+    "title": "Network-Assisted Full-Duplex Cell-Free mmWave Networks: Hybrid MIMO Processing and Multi-Agent DRL-Based Power Allocation",
+    "published": "2024-03-31",
+    "summary": "This paper investigates the network-assisted full-duplex (NAFD) cell-free millimeter-wave (mmWave) networks, where the distribution of the transmitting access points (T-APs) and receiving access points (R-APs) across distinct geographical locations mitigates cross-link interference, facilitating the attainment of a truly flexible duplex mode. To curtail deployment expenses and power consumption fo",
+    "primary_cat": "cs.IT | All cats: cs.IT, cs.MA, eess.SP",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2403.06324v2",
+    "title": "ACM MMSys 2024 Bandwidth Estimation in Real Time Communications Challenge",
+    "published": "2024-03-10",
+    "summary": "The quality of experience (QoE) delivered by video conferencing systems to end users depends in part on correctly estimating the capacity of the bottleneck link between the sender and the receiver over time. Bandwidth estimation for real-time communications (RTC) remains a significant challenge, primarily due to the continuously evolving heterogeneous network architectures and technologies. From t",
+    "primary_cat": "cs.NI | All cats: cs.NI, cs.MM",
+    "directions": [
+      "E2E + RL + audio"
+    ]
+  },
+  {
+    "arxiv_id": "2312.12977v1",
+    "title": "Collaborative Optimization of the Age of Information under Partial Observability",
+    "published": "2023-12-20",
+    "summary": "The significance of the freshness of sensor and control data at the receiver side, often referred to as Age of Information (AoI), is fundamentally constrained by contention for limited network resources. Evidently, network congestion is detrimental for AoI, where this congestion is partly self-induced by the sensor transmission process in addition to the contention from other transmitting sensors.",
+    "primary_cat": "cs.MA | All cats: cs.MA, cs.DC, cs.LG, eess.SY",
+    "directions": [
+      "E2E + RL + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2312.08641v1",
+    "title": "Towards Automatic Data Augmentation for Disordered Speech Recognition",
+    "published": "2023-12-14",
+    "summary": "Automatic recognition of disordered speech remains a highly challenging task to date due to data scarcity. This paper presents a reinforcement learning (RL) based on-the-fly data augmentation approach for training state-of-the-art PyChain TDNN and end-to-end Conformer ASR systems on such data. The handcrafted temporal and spectral mask operations in the standard SpecAugment method that are task an",
+    "primary_cat": "eess.AS | All cats: eess.AS, cs.SD",
+    "directions": [
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2310.11818v1",
+    "title": "IntentDial: An Intent Graph based Multi-Turn Dialogue System with Reasoning Path Visualization",
+    "published": "2023-10-18",
+    "summary": "Intent detection and identification from multi-turn dialogue has become a widely explored technique in conversational agents, for example, voice assistants and intelligent customer services. The conventional approaches typically cast the intent mining process as a classification task. Although neural classifiers have proven adept at such classification tasks, the issue of neural network models oft",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2310.09362v3",
+    "title": "From Words and Exercises to Wellness: Farsi Chatbot for Self-Attachment Technique",
+    "published": "2023-10-13",
+    "summary": "In the wake of the post-pandemic era, marked by social isolation and surging rates of depression and anxiety, conversational agents based on digital psychotherapy can play an influential role compared to traditional therapy sessions. In this work, we develop a voice-capable chatbot in Farsi to guide users through Self-Attachment (SAT), a novel, self-administered, holistic psychological technique b",
+    "primary_cat": "cs.HC | All cats: cs.HC, cs.LG",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2310.08977v1",
+    "title": "Multi-Purpose NLP Chatbot : Design, Methodology & Conclusion",
+    "published": "2023-10-13",
+    "summary": "With a major focus on its history, difficulties, and promise, this research paper provides a thorough analysis of the chatbot technology environment as it exists today. It provides a very flexible chatbot system that makes use of reinforcement learning strategies to improve user interactions and conversational experiences. Additionally, this system makes use of sentiment analysis and natural langu",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "RL + voice chat"
+    ]
+  },
+  {
+    "arxiv_id": "2307.15393v1",
+    "title": "Deep Reinforcement Learning Based Intelligent Reflecting Surface Optimization for TDD MultiUser MIMO Systems",
+    "published": "2023-07-28",
+    "summary": "In this letter, we investigate the discrete phase shift design of the intelligent reflecting surface (IRS) in a time division duplexing (TDD) multi-user multiple input multiple output (MIMO) system.We modify the design of deep reinforcement learning (DRL) scheme so that we can maximizing the average downlink data transmission rate free from the sub-channel channel state information (CSI). Based on",
+    "primary_cat": "cs.IT | All cats: cs.IT, eess.SP",
+    "directions": [
+      "E2E + RL + duplex",
+      "PPO + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2307.11880v3",
+    "title": "Bans vs. Warning Labels: Examining Bystanders' Support for Community-wide Moderation Interventions",
+    "published": "2023-07-21",
+    "summary": "Social media platforms like Facebook and Reddit host thousands of user-governed online communities. These platforms sanction communities that frequently violate platform policies; however, public perceptions of such sanctions remain unclear. In a pre-registered survey conducted in the US, I explore bystander perceptions of content moderation for communities that frequently feature hate speech, vio",
+    "primary_cat": "cs.HC | All cats: cs.HC",
+    "directions": [
+      "E2E + RL + speech-LLM"
+    ]
+  },
+  {
+    "arxiv_id": "2305.10126v1",
+    "title": "Fusion-S2iGan: An Efficient and Effective Single-Stage Framework for Speech-to-Image Generation",
+    "published": "2023-05-17",
+    "summary": "The goal of a speech-to-image transform is to produce a photo-realistic picture directly from a speech signal. Recently, various studies have focused on this task and have achieved promising performance. However, current speech-to-image approaches are based on a stacked modular framework that suffers from three vital issues: 1) Training separate networks is time-consuming as well as inefficient an",
+    "primary_cat": "cs.CV | All cats: cs.CV, cs.MM",
+    "directions": [
+      "E2E + RL + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2303.01896v2",
+    "title": "AI-Generated Incentive Mechanism and Full-Duplex Semantic Communications for Information Sharing",
+    "published": "2023-03-03",
+    "summary": "The next generation of Internet services, such as Metaverse, rely on mixed reality (MR) technology to provide immersive user experiences. However, the limited computation power of MR headset-mounted devices (HMDs) hinders the deployment of such services. Therefore, we propose an efficient information sharing scheme based on full-duplex device-to-device (D2D) semantic communications to address this",
+    "primary_cat": "eess.SP | All cats: eess.SP",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2212.13854v3",
+    "title": "A DRL Approach for RIS-Assisted Full-Duplex UL and DL Transmission: Beamforming, Phase Shift and Power Optimization",
+    "published": "2022-12-28",
+    "summary": "We propose a deep reinforcement learning (DRL) approach for a full-duplex (FD) transmission that predicts the phase shifts of the reconfigurable intelligent surface (RIS), base station (BS) active beamformers, and the transmit powers to maximize the weighted sum rate of uplink and downlink users. Existing methods require channel state information (CSI) and residual self-interference (SI) knowledge",
+    "primary_cat": "cs.IT | All cats: cs.IT, eess.SP",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2208.13077v2",
+    "title": "SupervisorBot: NLP-Annotated Real-Time Recommendations of Psychotherapy Treatment Strategies with Deep Reinforcement Learning",
+    "published": "2022-08-27",
+    "summary": "We propose a recommendation system that suggests treatment strategies to a therapist during the psychotherapy session in real-time. Our system uses a turn-level rating mechanism that predicts the therapeutic outcome by computing a similarity score between the deep embedding of a scoring inventory, and the current sentence that the patient is speaking. The system automatically transcribes a continu",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.HC, cs.LG, q-bio.NC",
+    "directions": [
+      "RL + audio dialogue"
+    ]
+  },
+  {
+    "arxiv_id": "2208.07820v1",
+    "title": "Deep Reinforcement Learning for RIS-aided Multiuser Full-Duplex Secure Communications with Hardware Impairments",
+    "published": "2022-08-16",
+    "summary": "In this paper, we investigate a reconfigurable intelligent surface (RIS)-aided multiuser full-duplex secure communication system with hardware impairments at transceivers and RIS, where multiple eavesdroppers overhear the two-way transmitted signals simultaneously, and an RIS is applied to enhance the secrecy performance. Aiming at maximizing the sum secrecy rate (SSR), a joint optimization proble",
+    "primary_cat": "cs.IT | All cats: cs.IT, eess.SP",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2208.07424v1",
+    "title": "Deep Reinforcement Learning for RIS-Assisted FD Systems: Single or Distributed RIS?",
+    "published": "2022-08-15",
+    "summary": "This paper investigates reconfigurable intelligent surface (RIS)-assisted full-duplex multiple-input single-output wireless system, where the beamforming and RIS phase shifts are optimized to maximize the sum-rate for both single and distributed RIS deployment schemes. The preference of using the single or distributed RIS deployment scheme is investigated through three practical scenarios based on",
+    "primary_cat": "eess.SP | All cats: eess.SP",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2206.10249v1",
+    "title": "Incorporating Voice Instructions in Model-Based Reinforcement Learning for Self-Driving Cars",
+    "published": "2022-06-21",
+    "summary": "This paper presents a novel approach that supports natural language voice instructions to guide deep reinforcement learning (DRL) algorithms when training self-driving cars. DRL methods are popular approaches for autonomous vehicle (AV) agents. However, most existing methods are sample- and time-inefficient and lack a natural communication channel with the human expert. In this paper, how new huma",
+    "primary_cat": "cs.HC | All cats: cs.HC, cs.CL, cs.CV, cs.LG, cs.SD",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2205.06011v2",
+    "title": "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach",
+    "published": "2022-05-12",
+    "summary": "MmWaves have been envisioned as a promising direction to provide Gbps wireless access. However, they are susceptible to high path losses and blockages, which directional antennas can only partially mitigate. That makes mmWave networks coverage-limited, thus requiring dense deployments. Integrated access and backhaul (IAB) architectures have emerged as a cost-effective solution for network densific",
+    "primary_cat": "cs.NI | All cats: cs.NI",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2110.04859v1",
+    "title": "Deep Reinforcement Learning for Optimizing RIS-Assisted HD-FD Wireless Systems",
+    "published": "2021-10-10",
+    "summary": "This letter investigates the reconfigurable intelligent surface (RIS)-assisted multiple-input single-output (MISO) wireless system, where both half-duplex (HD) and full-duplex (FD) operating modes are considered together, for the first time in the literature. The goal is to maximize the rate by optimizing the RIS phase shifts. A novel deep reinforcement learning (DRL) algorithm is proposed to solv",
+    "primary_cat": "eess.SP | All cats: eess.SP",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2011.00554v1",
+    "title": "Can a Robot Trust You? A DRL-Based Approach to Trust-Driven Human-Guided Navigation",
+    "published": "2020-11-01",
+    "summary": "Humans are known to construct cognitive maps of their everyday surroundings using a variety of perceptual inputs. As such, when a human is asked for directions to a particular location, their wayfinding capability in converting this cognitive map into directional instructions is challenged. Owing to spatial anxiety, the language used in the spoken instructions can be vague and often unclear. To ac",
+    "primary_cat": "cs.RO | All cats: cs.RO, cs.AI, cs.MA",
+    "directions": [
+      "E2E + RL + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "2006.16498v3",
+    "title": "Accelerating Reinforcement Learning Agent with EEG-based Implicit Human Feedback",
+    "published": "2020-06-30",
+    "summary": "Providing Reinforcement Learning (RL) agents with human feedback can dramatically improve various aspects of learning. However, previous methods require human observer to give inputs explicitly (e.g., press buttons, voice interface), burdening the human in the loop of RL agent's learning process. Further, it is sometimes difficult or impossible to obtain the explicit human advise (feedback), e.g.,",
+    "primary_cat": "cs.NE | All cats: cs.NE, cs.LG, eess.SP",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "2004.12546v1",
+    "title": "Demo: A Reinforcement Learning-based Flexible Duplex System for B5G with Sub-6 GHz",
+    "published": "2020-04-27",
+    "summary": "In this paper, we propose a reinforcement learning-based flexible duplex system for B5G with Sub-6 GHz. This system combines full-duplex radios and dynamic spectrum access to maximize the spectral efficiency. We verify this method's feasibility by implementing an FPGA-based real-time testbed. In addition, we compare the proposed algorithm with the result derived from the numerical analysis through",
+    "primary_cat": "cs.NI | All cats: cs.NI, eess.SP",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2002.06193v1",
+    "title": "Simultaneous Energy Harvesting and Information Transmission in a MIMO Full-Duplex System: A Machine Learning-Based Design",
+    "published": "2020-02-13",
+    "summary": "We propose a multiple-input multiple-output (MIMO)-based full-duplex (FD) scheme that enables wireless devices to simultaneously transmit information and harvest energy using the same time-frequency resources. In this scheme, for a MIMO point-to-point set up, the energy transmitting device simultaneously receives information from the energy harvesting device. Furthermore, the self-interference (SI",
+    "primary_cat": "cs.IT | All cats: cs.IT, eess.SP",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "1911.06747v1",
+    "title": "Towards Personalized Dialog Policies for Conversational Skill Discovery",
+    "published": "2019-11-15",
+    "summary": "Many businesses and consumers are extending the capabilities of voice-based services such as Amazon Alexa, Google Home, Microsoft Cortana, and Apple Siri to create custom voice experiences (also known as skills). As the number of these experiences increases, a key problem is the discovery of skills that can be used to address a user's request. In this paper, we focus on conversational skill discov",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.HC, cs.LG",
+    "directions": [
+      "RL + voice agent"
+    ]
+  },
+  {
+    "arxiv_id": "1810.00679v1",
+    "title": "Direct optimization of F-measure for retrieval-based personal question answering",
+    "published": "2018-09-28",
+    "summary": "Recent advances in spoken language technologies and the introduction of many customer facing products, have given rise to a wide customer reliance on smart personal assistants for many of their daily tasks. In this paper, we present a system to reduce users' cognitive load by extending personal assistants with long-term personal memory where users can store and retrieve by voice, arbitrary pieces",
+    "primary_cat": "cs.IR | All cats: cs.IR, cs.CL, cs.LG, stat.ML",
+    "directions": [
+      "E2E + RL + spoken"
+    ]
+  },
+  {
+    "arxiv_id": "1802.02085v2",
+    "title": "Path Selection and Rate Allocation in Self-Backhauled mmWave Networks",
+    "published": "2018-02-06",
+    "summary": "We investigate the problem of multi-hop scheduling in self-backhauled millimeter wave (mmWave) networks. Owing to the high path loss and blockage of mmWave links, multi-hop paths between the macro base station and the intended users via full-duplex small cells need to be carefully selected. This paper addresses the fundamental question: how to select the best paths and how to allocate rates over t",
+    "primary_cat": "cs.NI | All cats: cs.NI",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "1106.0241v1",
+    "title": "An Application of Reinforcement Learning to Dialogue Strategy Selection in a Spoken Dialogue System for Email",
+    "published": "2011-06-01",
+    "summary": "This paper describes a novel method by which a spoken dialogue system can learn to choose an optimal dialogue strategy from its experience interacting with human users. The method is based on a combination of reinforcement learning and performance modeling of spoken dialogue systems. The reinforcement learning component applies Q-learning (Watkins, 1989), while the performance modeling component a",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "RL + voice agent"
+    ]
+  }
+]

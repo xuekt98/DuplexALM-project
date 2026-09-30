@@ -1,0 +1,177 @@
+--- [1] 2609.34096v1 ---
+Title: HiThink Turn: An Intent-Aware Turn-Taking Control Module for Full-Duplex Dialogue
+Authors: Feiyang Chen, Wenhan Yang, Bohan Wang, Xinjian Gao, Rongjunchen Zhang et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-28
+Summary: Full-duplex dialogue requires timely yet selective interruption handling, which end-of-turn prediction alone cannot achieve: complete utterances may need no response, while unfinished requests may warrant interruption. To address this challenge, we propose HiThink Turn, an intent-aware streaming turn-state predictor that separates response intent from semantic completeness and conditions decisions...
+
+--- [2] 2609.31948v1 ---
+Title: Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue
+Authors: Chengqian Ma, Wenhao Feng, Weixuan Jin, Gaole Dai, Tianyu Xie et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-25
+Summary: Real-time full-duplex speech models can listen while speaking, enabling natural interaction without rigid turn boundaries. Existing benchmarks evaluate turn-taking, interruption handling and multi-round dialogue, but largely centre on a designated user rather than an assistant participating in a shared conversation among several people. We introduce Duplex-MPE to evaluate when such an assistant sh...
+
+--- [3] 2609.28806v1 ---
+Title: A Harness for Synthesizing Diverse Naturalistic Full-Duplex Conversations
+Authors: Matthew Sun, Vinay Kothapally, Meng Yu, Chao Huang, Hao Zhang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-09-23
+Summary: Full-duplex dialogue systems, which listen while speaking, must distinguish a completed turn from a pause within a turn and an interruption that requests a turn from a brief acknowledgment or speech addressed to a third party. Yet existing conversational corpora provide limited control over these events and limited labels for their intent. We present a pipeline for synthesizing intent-labeled, two...
+
+--- [4] 2609.25195v1 ---
+Title: Qwen-Audio-Agent Technical Report
+Authors: Chong Deng, Yunjie Ji, Yuxiang Kong, Xiangang Li, Xu Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.MA
+Published: 2026-09-21
+Summary: We present Qwen-Audio-Agent, a harness that combines full-duplex voice interaction with asynchronous task execution through a foreground-background architecture. A Frontend Agent manages dialogue and selects between direct tool use and delegation, while a Backend Agent carries out delegated tasks in a separate context. An Orchestration Runtime maintains task state, coordinates requests for user in...
+
+--- [5] 2609.24547v2 ---
+Title: MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions
+Authors: Lijian Lin, Ye Zhu, Fan Zhang, Yunfei Liu, Baofeng Li et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-21
+Summary: % !TEX root = ../main.tex Real-time embodied companion interaction requires a robot to infer user intent from streaming speech, generate timely responses, and execute expressive, interruptible motions. Existing systems typically decouple dialogue orchestration from gesture synthesis, relying on offline motion generation from complete audio. This separation leaves open how a deployed robot can dyna...
+
+--- [6] 2609.23414v1 ---
+Title: EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots
+Authors: Daojie Peng, Bingtao Wang, Fulong Ma, Wenjun Yue, Liang Zhang et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-20
+Summary: Socially competent humanoid robots must communicate affect and intent through gesture as well as speech, yet open-ended interaction must become motion that is both expressive and executable on a specific body. This demands semantic flexibility for contextual social intent while preserving deterministic, embodiment-aware robot control. We present EmoPose, a vision-language model (VLM)-guided framew...
+
+--- [7] 2609.21942v1 ---
+Title: When Should a Failing Robot Ask? Initiating Corrective Human-Robot Dialogue from Audited Sensor Evidence
+Authors: Eshika Pathak, Leela Krishna
+Primary cat: cs.RO | All cats: cs.RO, cs.AI, cs.HC
+Published: 2026-09-18
+Summary: A robot that fails at a task faces the first decision in corrective dialogue: act on its own diagnosis, consult another onboard sensor, or interrupt a person. Choosing well requires knowing how much the robot's sensors reveal about the cause and how reliable the robot's own diagnosis is. We build a simulated benchmark in which every failure's true cause is known, because we injected it, and measur...
+
+--- [8] 2609.17360v2 ---
+Title: Same Words, Different Actions: Paired Turn-Taking Evaluation under Rewritten Dialogue Contexts
+Authors: Shuofeng Zhao, Hongwei Cai, Wenke Fan, Qingxiang Guo, Zhou Wang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-15
+Summary: Real-time spoken dialogue systems must distinguish interruptions that require yielding the floor from backchannels that permit continued speaking. Existing benchmarks typically score events independently and may therefore assign high scores to systems with fixed action preferences rather than context-sensitive decision policies. We introduce ECHO, a paired diagnostic benchmark for Chinese turn-tak...
+
+--- [9] 2609.14005v2 ---
+Title: StepAudio 3 Realtime Technical Report
+Authors: Bin Lin, Bo Zhao, Boyang Zhang, Boyong Wu, Chao Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-12
+Summary: Realtime spoken interaction demands deep reasoning, prompt responses, and fluid turn-taking. We present StepAudio 3 Realtime, an audio-language foundation model organized around a continuous listen-converse-think-act loop. Deep Perception captures rich acoustic cues to interpret user intent, while Seamless Duplex models synchronized audio streams to handle pauses, backchannels, and interruptions n...
+
+--- [10] 2609.13814v3 ---
+Title: Realtime-Venus: A full-duplex interaction system with asynchronous delegation
+Authors:  Ant Group
+Primary cat: cs.CV | All cats: cs.CV, eess.AS
+Published: 2026-09-12
+Summary: Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken dialogue relies on acoustic and linguistic cues, while video interaction also requires grounding the conversation in evolving visual context. We present Realtime-Venus, a proactive full-duplex interaction system with two separately trained 9B models: Realtime-Venus-Omni for audio-vi...
+
+--- [11] 2609.12872v2 ---
+Title: DuplexDrama: A Synthesized Dialogue Dataset with Scenarios, Full-Duplex Behaviors, Expressive Speech, and Sound Events
+Authors: Qingxiang Guo, Wenke Fan, Shuofeng Zhao, Dawei Yang, Zhiyang Zhou et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-11
+Summary: We present DuplexDrama, the first synthesized spoken dialogue dataset that simultaneously covers four dimensions: (i) complete persona and scenario settings; (ii) three full-duplex behaviors (interruption, backchannel, incomplete); (iii) expressive speech with persona-aligned emotion labels; and (iv) script-aware sound events. DuplexDrama is built via a 4-stage pipeline; quality validation on both...
+
+--- [12] 2609.12623v1 ---
+Title: SteerDuplex: Steerable Duplex Speech Dialogue Models
+Authors: Utkarsh Tyagi, Ramaneswaran Selvakumar, Advait Gosai, Sonal Kumar, Nikhil Barhate et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-09-11
+Summary: Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident...
+
+--- [13] 2609.10765v1 ---
+Title: From Metrics to Natural Dialogue: French Full-Duplex Benchmark for Spoken Dialogue Models
+Authors: Hamid Soltani, Gilles Boulianne
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-09
+Summary: Full-duplex spoken dialogue models aim to make voice agents more natural by allowing them to listen, speak, pause, and respond during ongoing conversation. However, it is not clear whether full-duplex benchmarks behave the same way when models are evaluated in a different language. To investigate this, we introduce a French full-duplex benchmark (FDB) with two variants, CALLFC-FDB for Canadian Fre...
+
+--- [14] 2609.09677v1 ---
+Title: X2-NativeCursor: Native-Token Text Progress Tracking for Incremental-Text Streaming Codec TTS
+Authors: Zehan Liu, Carl Chen, Rime Wen, Kaiqi Fu, Altman Lin et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-09
+Summary: Incremental-text streaming text-to-speech (TTS) needs online text progress tracking for synchronized highlighting, interruption handling, and dialogue-history updates. Input text arrives before it is spoken, so text arrival alone cannot indicate speech progress. Existing waveform-based alignment requires complete audio or adds acoustic processing during streaming. We propose X2-NativeCursor, a lig...
+
+--- [15] 2609.08977v3 ---
+Title: Multimodal Duplex Interaction Agent
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, a native multimodal duplex interaction model that builds on MiniCPM-o 4.5 and is further adapted for realtime interaction with an asynchronous agent loop. In contrast to conventional turn based systems, Gander continuously processes streaming user inputs, enabling full-duplex interaction in both everyday conversations and complex workflow agent scenarios. Users can...
+
+--- [16] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [17] 2609.08147v1 ---
+Title: ConversationalVoice: Full-Duplex Speech Data from Real Conversations through Source-Faithful Reconstruction and Conversation-Grounded Expansion
+Authors: Richard Yucheng He, Baodong Cao, Chen Xu, Yihang Liu, Tairan Chen
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-08
+Summary: Full-duplex speech models require training data that preserves turn-taking, overlap, interruption, and backchannel behavior, yet these signals are entangled across speakers in noisy real-world recordings. We present Conversational Voice, a pipeline that converts real two-speaker excerpts into three complementary training-data artifacts. (1) Separation recovers speaker-specific tracks with stable s...
+
+--- [18] 2609.07200v1 ---
+Title: KABURI-TTS: Phoneme-Keyed Activity-conditioned Bi-channel Utterance Rendering for Interaction
+Authors: Ryuichiro Higashinaka, Shinnosuke Takamichi, Tetsuji Ogawa
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-09-07
+Summary: Realizing full-duplex spoken dialogue requires large amounts of two-channel, one-speaker-per-channel conversational speech data. Although conversational text-to-speech (TTS) engines have been developed, they are not necessarily robust to two-party simultaneous phenomena such as backchannels, interruptions, and overlaps that occur while the interlocutor is speaking. In this work, aiming at conversa...
+
+--- [19] 2609.03727v1 ---
+Title: Proactive Service Agents: A Unified Decision Framework, Methods, and Evaluation
+Authors: Yan Tang, Tingyu Cao, Yuanbo Tang, Huaze Tang, Keer Hu
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Large language model agents can plan, invoke tools, and modify external states, yet most systems still take an explicit user instruction as a fixed starting point. Proactive service moves the decision upstream: an agent must infer service opportunities from incomplete environmental and user signals, choose among remaining silent, asking, assisting, and acting, and account for interruption, misunde...
+
+--- [20] 2609.03423v2 ---
+Title: DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Full-duplex voice agents must continuously decide when to speak, listen, backchannel, interrupt, overlap, and yield the conversational floor. Existing benchmarks evaluate these behaviors through explicit turn-management instructions, whereas voice agents are often configured through roles or personas from which appropriate conversational behavior must be inferred. We introduce DuplexSpeechBench-IF...
+
+--- [21] 2608.22702v1 ---
+Title: AffAdapt: AFFect-driven ADAPTive AI Personas for Seamless Conversations
+Authors: Nishanth Chidambaram, Kaustubh Paliwal, Kayla Hom, Shaoze Zhou, Chen Chen et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-24
+Summary: AI-generated personas are being increasingly used for support, training and simulations. While generative AI models possess abilities to generate affect-aware responses, their embodiment into visual personas is an active area of investigation. Naturalistic exchanges require understanding of the conversational partners' turn completions, whether the agent should respond or keep listening and rely o...
+
+--- [22] 2608.22035v1 ---
+Title: Ludi${}_{\scriptscriptstyle 0.1}$: An Agentic System for Socially Intelligent Robots
+Authors: Wooseong Chung, William Cong, Jakub Dworakowski, Ethan Ewer, Tri Wahyu Guntara et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-08-22
+Summary: Robot foundation models have substantially advanced perception and control, but natural human-robot collaboration requires more than executing isolated commands. A robot must recognize ambiguity, maintain context across turns, communicate its intentions, and revise ongoing behavior as the user's intent changes. We present $\scriptstyle\mathsf{Ludi}_{\scriptscriptstyle 0.1}$, an agentic system for ...
+
+--- [23] 2608.17605v2 ---
+Title: Multi-turn Conversational AI from Text to Multimodal Interaction: Data, Models, Evaluation, and Open Challenges
+Authors: Syeda Faiza Ahmed Sara, Zien Sheikh Ali, Hunzalah Hassan Bhatti, Firoj Alam, Shammur Absar Chowdhury
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-08-18
+Summary: Conversational AI is moving beyond isolated text prompts toward sustained, multimodal interaction. In real conversations, users clarify goals, revise requests, interrupt responses, switch topics, and introduce new evidence while expecting systems to preserve context across turns. This makes multi-turn dialogue a distinct challenge requiring systems to maintain and update memory, ground responses a...
+
+--- [24] 2608.16053v2 ---
+Title: Agentic-DuplexGen: Decoupling Content, Timing, and Acoustics for Synthetic Dialogue Speech
+Authors: Pengcheng Wang, Sheng Li, Jiyi Li, Takahiro Shinozaki
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-08-17
+Summary: Synthetic conversational speech has become an important resource for developing and evaluating conversational speech systems. However, existing dialogue synthesis pipelines typically generate dialogue content first and then insert interruptions, overlap, and backchannels using handcrafted markers or timing rules, making conversational timing prescribed rather than interaction-driven. We present Ag...
+
+--- [25] 2608.13831v1 ---
+Title: VoiceChat-TTS: A Low-Latency Continuous Speech Synthesis Model for Interactive Agents
+Authors: Edresson Casanova, Jaehyeon Kim, Mariana Graterol Fuenmayor, Shehzeen Hussain, Viacheslav Klimkov et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-08-13
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Ainterruptible+AND+abs%3Adialogue&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Spoken dialogue is a natural form of human--computer interaction, yet most speech language models remain limited to turn-based operation and lack real-time adaptability, such as user barge-in. Recent duplex speech-to-speech and speech-to-text models reduce latency by replacing multi-stage pipelines, but often compromise speech quality because accurate ASR, interruption handling, and high-fidelity ...
+

@@ -1,0 +1,177 @@
+--- [1] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [2] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [3] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+
+--- [4] 2608.02831v1 ---
+Title: Reinforcement Learning with Evolving Rubrics as Rewards for Audio Reasoning
+Authors: Fangxu Yu, Tao Feng, Dehai Min, Zinan Lin, Weijia Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-08-03
+Summary: Audio reasoning is essential for machine understanding of the acoustic world. Reinforcement learning with verifiable rewards can elicit such reasoning, yet existing reward designs are complementary in their limitations: outcome-based rewards supervise only the final answer and let the model reach it without attending to the audio, whereas process-based rewards score the reasoning itself but rely o...
+
+--- [5] 2607.26818v1 ---
+Title: Ripple: Real-Time Streaming Audio-Video Generation With Cross-Modal Recurrent Memory
+Authors: Yanbo Ding, Zhizhi Guo, Quanyue Song, Yishan He, Zhixiang He et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-29
+Summary: Audio-video generative models achieve impressive quality but suffer from high latency, making them unsuitable for real-time applications. Although several streaming audio-video generation methods have been proposed, they remain costly and fail to support long-form generation. To address this, we propose \textbf{Ripple}, a real-time joint audio-video generation system with a cross-modal recurrent m...
+
+--- [6] 2607.11433v3 ---
+Title: Omni-Decision: Evidence-Ledger Planning for Omni-Modal Agents
+Authors: Ming Ma, Yi Zhu, Yiran Zhong, Feida Zhu, Yuhao Wang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-13
+Summary: Omni-modal agents must seek evidence across video, audio, web pages, and computation to answer questions. Their main bottleneck is planning: noisy multimodal observations accumulate in conversation history and disrupt later decisions, while multimodal models have limited capacity for multi-step planning. Controlled backend replacements support this diagnosis: replacing the planner causes a much la...
+
+--- [7] 2607.08208v2 ---
+Title: Diarization-Guided Qwen-ASR Adaptation for Multilingual Two-Speaker Conversational Speech
+Authors: Hao Wu, RongQi Han, Zhen Wang, Wei Liang, Wei Xu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-09
+Summary: This paper describes our self-designed system for Task 1 of the MLC-SLM 2026 Challenge for multilingual two-speaker conversational speech. The system combines a modular speaker diarization front end with a challenge-adapted Qwen3-ASR-1.7B recognizer. The diarization front end performs voice activity detection, subsegment generation, CAMPPlus speaker embedding extraction, two-speaker spectral clust...
+
+--- [8] 2606.27344v2 ---
+Title: VibeAct: Vibration to Actions for Contact-Rich Reactive Robot Dexterity
+Authors: Yuemin Mao, Uksang Yoo, Jean Oh, Jonathan Francis, Jeffrey Ichnowski
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-25
+Summary: Dexterous manipulation depends on contact events that are fast, local, and often visually occluded. Piezoelectric microphones provide compact, high-bandwidth sensing of these interactions, but the resulting vibro-acoustic signals are difficult to simulate faithfully for end-to-end sim-to-real policy learning on dexterous robot hands. We propose VibeAct, a framework that bridges real vibrotactile s...
+
+--- [9] 2604.11554v2 ---
+Title: Relax: An Asynchronous Reinforcement Learning Engine for Omni-Modal Post-Training at Scale
+Authors: Liujie Zhang, Benzhe Ning, Rui Yang, Xiaoyan Yu, Jiaxing Li et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-04-13
+Summary: Reinforcement learning (RL) post-training has proven effective at unlocking reasoning, self-reflection, and tool-use capabilities in large language models. As models extend to omni-modal inputs and agentic multi-turn workflows, RL training systems face three interdependent challenges: heterogeneous data flows, operational robustness at scale, and the staleness -- throughput tradeoff. We present \t...
+
+--- [10] 2511.08723v2 ---
+Title: ParaS2S: Benchmarking and Aligning Spoken Language Models for Paralinguistic-aware Speech-to-Speech Interaction
+Authors: Shu-wen Yang, Ming Tu, Andy T. Liu, Xinghua Qu, Hung-yi Lee et al.
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2025-11-11
+Summary: Speech-to-Speech (S2S) models have shown promising dialogue capabilities, but their ability to handle paralinguistic cues - such as emotion, tone, and speaker attributes - and to respond appropriately in both content and style remains under-explored. Progress is further hindered by the scarcity of high-quality and expressive demonstrations. To address this, we introduce a new reinforcement learnin...
+
+--- [11] 2510.22950v3 ---
+Title: DiffRhythm 2: Efficient and High Fidelity Song Generation via Block Flow Matching
+Authors: Yuepeng Jiang, Huakang Chen, Ziqian Ning, Jixun Yao, Zerui Han et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-10-27
+Summary: Generating full-length, high-quality songs is challenging, as it requires maintaining long-term coherence both across text and music modalities and within the music modality itself. Existing non-autoregressive (NAR) frameworks, while capable of producing high-quality songs, often struggle with the alignment between lyrics and vocal. Concurrently, catering to diverse musical preferences necessitate...
+
+--- [12] 2509.25652v1 ---
+Title: Iterative Residual Cross-Attention Mechanism: An Integrated Approach for Audio-Visual Navigation Tasks
+Authors: Hailong Zhang, Yinfeng Yu, Liejun Wang, Fuchun Sun, Wendong Zheng
+Primary cat: cs.AI | All cats: cs.AI, cs.MM, cs.SD
+Published: 2025-09-30
+Summary: Audio-visual navigation represents a significant area of research in which intelligent agents utilize egocentric visual and auditory perceptions to identify audio targets. Conventional navigation methodologies typically adopt a staged modular design, which involves first executing feature fusion, then utilizing Gated Recurrent Unit (GRU) modules for sequence modeling, and finally making decisions ...
+
+--- [13] 2509.21574v1 ---
+Title: X-Streamer: Unified Human World Modeling with Audiovisual Interaction
+Authors: You Xie, Tianpei Gu, Zenan Li, Chenxu Zhang, Guoxian Song et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-09-25
+Summary: We introduce X-Streamer, an end-to-end multimodal human world modeling framework for building digital human agents capable of infinite interactions across text, speech, and video within a single unified architecture. Starting from a single portrait, X-Streamer enables real-time, open-ended video calls driven by streaming multimodal inputs. At its core is a Thinker-Actor dual-transformer architectu...
+
+--- [14] 2509.18912v1 ---
+Title: Frequency-Domain Decomposition and Recomposition for Robust Audio-Visual Segmentation
+Authors: Yunzhe Shen, Kai Peng, Leiye Liu, Wei Ji, Jingjing Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-09-23
+Summary: Audio-visual segmentation (AVS) plays a critical role in multimodal machine learning by effectively integrating audio and visual cues to precisely segment objects or regions within visual scenes. Recent AVS methods have demonstrated significant improvements. However, they overlook the inherent frequency-domain contradictions between audio and visual modalities--the pervasively interfering noise in...
+
+--- [15] 2509.16924v1 ---
+Title: Audio-Guided Dynamic Modality Fusion with Stereo-Aware Attention for Audio-Visual Navigation
+Authors: Jia Li, Yinfeng Yu, Liejun Wang, Fuchun Sun, Wendong Zheng
+Primary cat: cs.AI | All cats: cs.AI, cs.SD
+Published: 2025-09-21
+Summary: In audio-visual navigation (AVN) tasks, an embodied agent must autonomously localize a sound source in unknown and complex 3D environments based on audio-visual signals. Existing methods often rely on static modality fusion strategies and neglect the spatial cues embedded in stereo audio, leading to performance degradation in cluttered or occluded scenes. To address these issues, we propose an end...
+
+--- [16] 2509.16193v1 ---
+Title: Are Multimodal Foundation Models All That Is Needed for Emofake Detection?
+Authors: Mohd Mujtaba Akhtar,  Girish, Orchid Chetia Phukan, Swarup Ranjan Behera, Pailla Balakrishna Reddy et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-19
+Summary: In this work, we investigate multimodal foundation models (MFMs) for EmoFake detection (EFD) and hypothesize that they will outperform audio foundation models (AFMs). MFMs due to their cross-modal pre-training, learns emotional patterns from multiple modalities, while AFMs rely only on audio. As such, MFMs can better recognize unnatural emotional shifts and inconsistencies in manipulated audio, ma...
+
+--- [17] 2507.20939v1 ---
+Title: ARC-Hunyuan-Video-7B: Structured Video Comprehension of Real-World Shorts
+Authors: Yuying Ge, Yixiao Ge, Chen Li, Teng Wang, Junfu Pu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-07-28
+Summary: Real-world user-generated short videos, especially those distributed on platforms such as WeChat Channel and TikTok, dominate the mobile internet. However, current large multimodal models lack essential temporally-structured, detailed, and in-depth video comprehension capabilities, which are the cornerstone of effective video search and recommendation, as well as emerging video applications. Under...
+
+--- [18] 2507.16632v3 ---
+Title: Step-Audio 2 Technical Report
+Authors: Boyong Wu, Chao Yan, Chen Hu, Cheng Yi, Chengli Feng et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-07-22
+Summary: This paper presents Step-Audio 2, an end-to-end multi-modal large language model designed for industry-strength audio understanding and speech conversation. By integrating a latent audio encoder and reasoning-centric reinforcement learning (RL), Step-Audio 2 achieves promising performance in automatic speech recognition (ASR) and audio understanding. To facilitate genuine end-to-end speech convers...
+
+--- [19] 2505.20256v1 ---
+Title: Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration
+Authors: Hao Zhong, Muzhi Zhu, Zongze Du, Zheng Huang, Canyu Zhao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-05-26
+Summary: Long-horizon video-audio reasoning and fine-grained pixel understanding impose conflicting requirements on omnimodal models: dense temporal coverage demands many low-resolution frames, whereas precise grounding calls for high-resolution inputs. We tackle this trade-off with a two-system architecture: a Global Reasoning System selects informative keyframes and rewrites the task at low spatial cost,...
+
+--- [20] 2505.18876v2 ---
+Title: DiffusionRL: Efficient Training of Diffusion Policies for Robotic Grasping Using RL-Adapted Large-Scale Datasets
+Authors: Maria Makarova, Qian Liu, Dzmitry Tsetserukou
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-05-24
+Summary: Diffusion models have been successfully applied in areas such as image, video, and audio generation. Recent works show their promise for sequential decision-making and dexterous manipulation, leveraging their ability to model complex action distributions. However, challenges persist due to the data limitations and scenario-specific adaptation needs. In this paper, we address these challenges by pr...
+
+--- [21] 2505.09558v2 ---
+Title: WavReward: Spoken Dialogue Models With Generalist Reward Evaluators
+Authors: Shengpeng Ji, Tianle Liang, Yangzhuo Li, Jialong Zuo, Minghui Fang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2025-05-14
+Summary: End-to-end spoken dialogue models such as GPT-4o-audio have recently garnered significant attention in the speech domain. However, the evaluation of spoken dialogue models' conversational performance has largely been overlooked. This is primarily due to the intelligent chatbots convey a wealth of non-textual information which cannot be easily measured using text-based language models like ChatGPT....
+
+--- [22] 2502.12438v1 ---
+Title: Note-Level Singing Melody Transcription for Time-Aligned Musical Score Generation
+Authors: Leekyung Kim, Sungwook Jeon, Wan Heo, Jonghun Park
+Primary cat: cs.SD | All cats: cs.SD, eess.AS, eess.SP
+Published: 2025-02-18
+Summary: Automatic music transcription converts audio recordings into symbolic representations, facilitating music analysis, retrieval, and generation. A musical note is characterized by pitch, onset, and offset in an audio domain, whereas it is defined in terms of pitch and note value in a musical score domain. A time-aligned score, derived from timing information along with pitch and note value, allows m...
+
+--- [23] 2501.11326v1 ---
+Title: The "Law" of the Unconscious Contrastive Learner: Probabilistic Alignment of Unpaired Modalities
+Authors: Yongwei Che, Benjamin Eysenbach
+Primary cat: cs.LG | All cats: cs.LG, stat.ML
+Published: 2025-01-20
+Summary: While internet-scale data often comes in pairs (e.g., audio/image, image/text), we often want to perform inferences over modalities unseen together in the training data (e.g., audio/text). Empirically, this can often be addressed by learning multiple contrastive embedding spaces between existing modality pairs, implicitly hoping that unseen modality pairs will end up being aligned. This theoretica...
+
+--- [24] 2409.16404v1 ---
+Title: FastTalker: Jointly Generating Speech and Conversational Gestures from Text
+Authors: Zixin Guo, Jian Zhang
+Primary cat: cs.MM | All cats: cs.MM, cs.SD, eess.AS
+Published: 2024-09-24
+Summary: Generating 3D human gestures and speech from a text script is critical for creating realistic talking avatars. One solution is to leverage separate pipelines for text-to-speech (TTS) and speech-to-gesture (STG), but this approach suffers from poor alignment of speech and gestures and slow inference times. In this paper, we introduce FastTalker, an efficient and effective framework that simultaneou...
+
+--- [25] 2403.06324v2 ---
+Title: ACM MMSys 2024 Bandwidth Estimation in Real Time Communications Challenge
+Authors: Sami Khairy, Gabriel Mittag, Vishak Gopal, Francis Y. Yan, Zhixiong Niu et al.
+Primary cat: cs.NI | All cats: cs.NI, cs.MM
+Published: 2024-03-10
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aend-to-end+AND+abs%3Areinforcement+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: The quality of experience (QoE) delivered by video conferencing systems to end users depends in part on correctly estimating the capacity of the bottleneck link between the sender and the receiver over time. Bandwidth estimation for real-time communications (RTC) remains a significant challenge, primarily due to the continuously evolving heterogeneous network architectures and technologies. From t...
+

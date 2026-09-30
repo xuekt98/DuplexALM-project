@@ -1,0 +1,107 @@
+--- [1] 2609.03414v1 ---
+Title: StrixAE: An Intelligent Agent for Audio Enhancement under Complex Distortion Coupling in Real-World Scenarios
+Authors: Chenglin Wu, Junjie Wu, Jinhang Chen, Mingyang Chen, Zixu Lin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Audio enhancement in real-world scenarios involves complex distortion couplings and requires personalized enhancement. Existing solutions struggle to address both simultaneously. To improve robustness and enable autonomous operation in such scenarios, we propose StrixAE, an agent based on a multimodal large language model (MLLM). StrixAE leverages the MLLM as a controller to coordinate multiple au...
+
+--- [2] 2609.01481v1 ---
+Title: Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement
+Authors: Haoyang Yan, Min-le Su, Hangfan Zhang, Zhanhao Li, Chen Zhang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-01
+Summary: This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements into complete, functional, and usable software systems without human intervention. We introduce Harness-of-Harness (HoH), a framework that enables coding agents to continually improve software during autonomous development. HoH operates on existing coding-agent harnesses, and orga...
+
+--- [3] 2608.12627v3 ---
+Title: EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory
+Authors: Le Zhang, Hao Chen, Vlad Roznyatovskiy, Jianzhong Zhang, Ke Sun
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-08-12
+Summary: Long-horizon egocentric memory transforms continuous first-person video and audio into a searchable record of past experiences. We demonstrate two bottlenecks in existing systems: indices built from context-poor captions are unreliable for agentic search, while retrieval ignores a question's temporal intent. To address both bottlenecks, we introduce EgoCITE (Egocentric Context-augmented Indexing a...
+
+--- [4] 2608.10720v2 ---
+Title: Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence
+Authors: Haoyu Zhang, Zhipeng Li, Xiaoying Tang, Tianshu Yu, Yiwen Guo
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-08-11
+Summary: Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, but a spoken answer still leaves the agent visually absent. We introduce \textbf{Ex-Omni-2D}, a framework that answers a multimodal query with coordinated text, personalized speech, and reference-conditioned video. The dialogue model first writes a structured \textit{Visual Thought Plan} (VTP) for scene, emo...
+
+--- [5] 2605.15044v1 ---
+Title: SpeakerLLM: A Speaker-Specialized Audio-LLM for Speaker Understanding and Verification Reasoning
+Authors: KiHyun Nam, Jungwoo Heo, Siu Bae, Ha-Jin Yu, Joon Son Chung
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS
+Published: 2026-05-14
+Summary: As audio-first agents become increasingly common in physical AI, conversational robots, and screenless wearables, audio large language models (audio-LLMs) must integrate speaker-specific understanding to support user authorization, personalization, and context-aware interaction. This requires modeling who is speaking, how the voice sounds, and how recording conditions affect speaker cues. Conventi...
+
+--- [6] 2605.06064v3 ---
+Title: PersonaGesture: Single-Reference Co-Speech Gesture Personalization for Unseen Speakers
+Authors: Xiangyue Zhang, Yiyi Cai, Kunhang Li, Kaixing Yang, You Zhou et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-07
+Summary: We propose PersonaGesture, a diffusion-based pipeline for single-reference co-speech gesture personalization of unseen speakers. Given target speech and one motion clip from a new speaker, the model must synthesize gestures that follow the new utterance while retaining speaker-specific pose choices, without per-speaker optimization. This setting is useful for avatars and virtual agents, but it is ...
+
+--- [7] 2604.10815v2 ---
+Title: MeloTune: On-Device Arousal Learning and Peer-to-Peer Mood Coupling for Proactive Music Curation
+Authors: Hongwei Xu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MA
+Published: 2026-04-12
+Summary: MeloTune is an iPhone-deployed music agent that instantiates the Mesh Memory Protocol (MMP) and Symbolic-Vector Attention Fusion (SVAF) as a production system for affect-aware music curation with peer-to-peer mood coupling. Each device runs two closed-form continuous-time (CfC) networks: a private listener-level CfC that predicts a short-horizon affective trajectory on Russell's circumplex and dri...
+
+--- [8] 2604.07823v2 ---
+Title: LPM 1.0: Video-based Character Performance Model
+Authors: Ailing Zeng, Casper Yang, Chauncey Ge, Eddie Zhang, Garvey Xu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2026-04-09
+Summary: Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is what makes a character alive. Learning such performance from video is a promising alternative to traditional 3D pipelines. However, existing video models struggle to jointly achieve high expressiveness, real-time inference, and long-horizon identity stability, a tension we call the...
+
+--- [9] 2509.11914v2 ---
+Title: EgoMem: Lifelong Memory Agent for Full-duplex Omnimodal Models
+Authors: Yiqun Yao, Naitong Yu, Xiang Li, Xin Jiang, Xuezhi Fang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2025-09-15
+Summary: We introduce EgoMem, the first lifelong memory agent tailored for full-duplex models that process real-time omnimodal streams. EgoMem enables real-time models to recognize multiple users directly from raw audiovisual streams, to provide personalized response, and to maintain long-term knowledge of users' facts, preferences, and social relationships extracted from audiovisual history. EgoMem operat...
+
+--- [10] 2508.01915v1 ---
+Title: EgoTrigger: Toward Audio-Driven Image Capture for Human Memory Enhancement in All-Day Energy-Efficient Smart Glasses
+Authors: Akshay Paruchuri, Sinan Hersek, Lavisha Aggarwal, Qiao Yang, Xin Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.ET, cs.HC, cs.LG, cs.SD
+Published: 2025-08-03
+Summary: All-day smart glasses are likely to emerge as platforms capable of continuous contextual sensing, uniquely positioning them for unprecedented assistance in our daily lives. Integrating the multi-modal AI agents required for human memory enhancement while performing continuous sensing, however, presents a major energy efficiency challenge for all-day usage. Achieving this balance requires intellige...
+
+--- [11] 2504.00221v1 ---
+Title: GazeLLM: Multimodal LLMs incorporating Human Visual Attention
+Authors: Jun Rekimoto
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CV
+Published: 2025-03-31
+Summary: Large Language Models (LLMs) are advancing into Multimodal LLMs (MLLMs), capable of processing image, audio, and video as well as text. Combining first-person video, MLLMs show promising potential for understanding human activities through video and audio, enabling many human-computer interaction and human-augmentation applications such as human activity support, real-world agents, and skill trans...
+
+--- [12] 2405.15708v1 ---
+Title: EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences
+Authors: Jocelyn Shen, Yubin Kim, Mohit Hulse, Wazeer Zulfikar, Sharifa Alghowinem et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2024-05-24
+Summary: Modeling empathy is a complex endeavor that is rooted in interpersonal and experiential dimensions of human interaction, and remains an open problem within AI. Existing empathy datasets fall short in capturing the richness of empathy responses, often being confined to in-lab or acted scenarios, lacking longitudinal data, and missing self-reported labels. We introduce a new multimodal dataset for e...
+
+--- [13] 2308.00219v1 ---
+Title: Multi-goal Audio-visual Navigation using Sound Direction Map
+Authors: Haru Kondoh, Asako Kanezaki
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Afirst-person+AND+abs%3Aaudio+AND+abs%3Aagent&max_results=20&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.CV | All cats: cs.CV, cs.SD, eess.AS
+Published: 2023-08-01
+Summary: Over the past few years, there has been a great deal of research on navigation tasks in indoor environments using deep reinforcement learning agents. Most of these tasks use only visual information in the form of first-person images to navigate to a single goal. More recently, tasks that simultaneously use visual and auditory information to navigate to the sound source and even navigation tasks wi...
+
+--- [14] 2303.09438v1 ---
+Title: Trustera: A Live Conversation Redaction System
+Authors: Evandro Gouvêa, Ali Dadgar, Shahab Jalalvand, Rathi Chengalvarayan, Badrinath Jayakumar et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2023-03-16
+Summary: Trustera, the first functional system that redacts personally identifiable information (PII) in real-time spoken conversations to remove agents' need to hear sensitive information while preserving the naturalness of live customer-agent conversations. As opposed to post-call redaction, audio masking starts as soon as the customer begins speaking to a PII entity. This significantly reduces the risk ...
+
+--- [15] 2208.01917v1 ---
+Title: Zero-Shot Style Transfer for Gesture Animation driven by Text and Speech using Adversarial Disentanglement of Multimodal Style Encoding
+Authors: Mireille Fares, Michele Grimaldi, Catherine Pelachaud, Nicolas Obin
+Primary cat: cs.SD | All cats: cs.SD, cs.HC, cs.LG, eess.AS
+Published: 2022-08-03
+Summary: Modeling virtual agents with behavior style is one factor for personalizing human agent interaction. We propose an efficient yet effective machine learning approach to synthesize gestures driven by prosodic features and text in the style of different speakers including those unseen during training. Our model performs zero shot multimodal style transfer driven by multimodal data from the PATS datab...
+

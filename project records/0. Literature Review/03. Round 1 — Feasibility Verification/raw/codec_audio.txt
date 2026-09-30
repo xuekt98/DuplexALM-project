@@ -1,0 +1,142 @@
+--- [1] 2609.09020v1 ---
+Title: PIC: Revisiting INR for Image Coding with Fast Encoding and Sub-Millisecond Decoding
+Authors: Xiang Liu, Jinxiang Wang, Bin Chen, Zimo Liu, Mingyao Hong et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Implicit neural representation (INR) has achieved remarkable progress in novel view synthesis and image/video coding in recent years.Compared to conventional end-to-end image codecs, INR-based compressors demonstrate significant advantages in decoding complexity. However, their practical application has been hindered by the inferior encoding speed and underutilized decoding efficiency.In this work...
+
+--- [2] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [3] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [4] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [5] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [6] 2609.08788v1 ---
+Title: Adaptive Anisotropic Attention for Axis-Structured Signals
+Authors: Mahir Jain, Parshva Runwal, Aditya Ray Mishra, Arvasu Kulkarni, Sandeep Singh et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Dense self-attention treats all token pairs as equally plausible before learning, an interaction-isotropic prior that can be mismatched to structured signals. For structured, low signal-to-noise ratio (SNR) signals such as EEG, dependencies are organized along the electrode and time axes, and this uniform prior exposes each token to many irrelevant interactions. We introduce Adaptive Anisotropic A...
+
+--- [7] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [8] 2609.08542v1 ---
+Title: Spatial Audio Coding Through Relative Room Impulse Response Estimation
+Authors: Nour Bouayed, Adrien Llave, Jérôme Daniel, Pascal Scalart
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate ...
+
+--- [9] 2609.08464v1 ---
+Title: PAPR-Aware Multimodal Token Transmission in MLLM-Based Multiuser Networks
+Authors: Molka Trabelsi, Rafik Zayani
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-09-08
+Summary: Task-oriented semantic communication (SemCom) empowered by multimodal large language models (MLLMs) has recently emerged as a promising paradigm for efficiently transmitting multimodal information, yet transmitting token embeddings over OFDM channels faces critical challenges due to hardware impairments, particularly the high peak-to-average power ratio (PAPR) that severely degrades energy efficie...
+
+--- [10] 2609.08429v1 ---
+Title: Semantic Refinement of Universal Audio Representations through Audio-Description Alignment
+Authors: Lejun Min, Junyu Dai, Ruichen Zheng, Xinyue Fan, Yang Xiang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-08
+Summary: Universal audio representations must preserve acoustic detail while making high-level concepts accessible across speech, music, environmental sound, and downstream models of different capacities. We study semantic refinement of an acoustically pretrained encoder by adding audio-description alignment to a foundation of BEST-RQ, reconstruction, and CTC. We compare matched control, shuffled-descripti...
+
+--- [11] 2609.08390v1 ---
+Title: Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models
+Authors: Bella Godiva, Yeonju Kim, Yong Man Ro
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.HC
+Published: 2026-09-08
+Summary: Full-duplex spoken dialogue systems enable simultaneous listening and speaking, but their audio-only perception often fails under background noise and overlapping speech, leading to incoherent responses. Recent audio-visual dialogue approaches show that incorporating visual cues such as lip movements improve robustness under audio corruption. However, existing approaches often adapt the large spee...
+
+--- [12] 2609.08275v1 ---
+Title: Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation
+Authors: Tianyi Zeng, Junchao Liao, Yujie Wei, Ziying Zhang, Litao Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Recent multi-shot audio-video generators can produce increasingly coherent and cinematic outputs, but coherence does not imply the ability to execute editing techniques. Professional editing depends on shot structure, transition grammar, audio-video cut relations, and montage, yet existing benchmarks largely rely on proxies such as content quality, synchronization, or physical plausibility, system...
+
+--- [13] 2609.08026v1 ---
+Title: Geometry-Informed Distributed Acoustic Scene Understanding
+Authors: Yiyuan Yang, Shitong Xu, Niki Trigoni, Andrew Markham
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-07# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+codec&max_results=20&sortBy=submittedDate&sortOrder=descending
+
+Summary: Acoustic scene understanding in multi-room environments is a difficult task. Most existing systems use a single centralized microphone array, and they often fail because walls and doors block sound signals. To address this challenge, we propose a geometry-informed distributed acoustic scene understanding framework. Our system leverages distributed microphones and uses an audio spectrogram transfor...
+
+--- [14] 2609.07981v1 ---
+Title: Clean Accuracy Does Not Guarantee Provenance Robustness: A Prospective Codec-Stress Evaluation of Audio Attribution
+Authors: Gang Shi
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-07
+Summary: Audio provenance attribution - which system produced a synthetic utterance - is reported at near-ceiling accuracy on clean benchmarks, yet audio reaching an analyst has usually been transcoded. We report a prospectively registered measurement of closed-set attribution after single-stage codec transport, with the analysis region fixed from fidelity metadata before any attribution model was trained....
+
+--- [15] 2609.07968v1 ---
+Title: Reasoning Beyond Transcription: Audio Language Models on Child Stuttering Speech
+Authors: Chibuzor Okocha, Christan Grant, Zoey Liu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-07
+Summary: Child speech differs from adult speech in acoustics, prosody, and linguistic structures. Speech disfluencies (such as repetitions) further challenge automatic understanding. While Audio Language Models (ALMs) show strong semantic reasoning from speech audio, their ability to reason about disfluent child speech in mixed-speaker settings remains unexplored. We investigate this through two tasks: chi...
+
+--- [16] 2609.07838v1 ---
+Title: ComVLA: Communication-Aware Split Inference for VLA Models in 6G-Connected Robotics
+Authors: Boliang Liu, Wint Yi Poe, Jingyun Di, Riccardo Trivisonno, Giuseppe Caire
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-07
+Summary: Connected robotics is an emerging 6G application where mobile robots follow natural-language instructions to manipulate physical objects. The Vision-Language-Action (VLA) models that enable this are too large to run on the robot; a common trend is to offload inference to the cloud. The wireless link, however, limits how much sensing data the edge can transmit per control step. Two recent lines add...
+
+--- [17] 2609.07688v1 ---
+Title: Silent Metronome: Rhythmic Grounding for Live Music Accompaniment
+Authors: Kevin Bretz, Derya Soydaner, Aske Plaat
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-07
+Summary: Live accompaniment models generate music for an incoming audio stream, committing to each output frame before hearing what comes next. In this strictly causal setting the model must infer tempo, meter, and metrical phase from its own imperfect past, whereby compounding errors quickly become audible as rhythmic drift. Put simply, the model has ears but no temporal reference, so when the ears hear i...
+
+--- [18] 2609.07549v1 ---
+Title: Qwen-Audio-3.0-ASR Technical Report
+Authors: Chuanmeng Bian, Daren Chen, Peixin Chen, Zhigao Chen, Zhiyun Fan et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-07
+Summary: In recent years, automatic speech recognition (ASR) has witnessed transformative advancements driven by three complementary paradigms: data scaling, model scaling, and deep integration with large language models (LLMs). However, bridging the gap between academic benchmark performance and real-world production utility remains a persistent challenge, particularly in handling diverse regional dialect...
+
+--- [19] 2609.07440v1 ---
+Title: Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer
+Authors: Koki Shoda, Jun Younes Louhi Kasahara, Aoba Koyanagi, Qi An, Atsushi Yamashita
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-07
+Summary: This paper proposes an open-set ego-noise separation framework for legged-robot audition via annotation-free adaptation and pretrained-model transfer. The framework removes robot-specific ego-noise while preserving environmental sounds whose classes are not specified in advance. Acoustic sensing provides cues about a robot's surroundings beyond the visual field, but walking-induced ego-noise from ...
+
+--- [20] 2609.07399v1 ---
+Title: Open-Set Vessel Re-Identification from Underwater Ship-Radiated Noise with a Raw-Waveform Selective-Kernel Acoustic Neural Network (SKANN) and a Cross-Passage Evaluation Protocol
+Authors: Sunil Tyagi
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-07
+Summary: Underwater acoustic target recognition has converged on closed-set classification by vessel type, a task that does not answer whether a monitoring system has heard this hull before. We formalise open-set, cross-passage vessel re-identification on public hydrophone data and specify a protocol that removes the two easiest routes to a high score: hull-disjoint splits keyed to MMSI/IMO, galleries and ...
+

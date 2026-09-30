@@ -1,0 +1,177 @@
+--- [1] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [2] 2609.04288v1 ---
+Title: Scalable Context Orchestration for Serving LLMs Over Voice
+Authors: Linyi Jiang, Silvery D. Fu, Yifei Zhu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-03
+Summary: Voice AI applications are gaining popularity as advances in large language models (LLMs) enable more natural and accessible spoken interactions. Serving these applications requires accounting not only for what users say, but also for how they speak (e.g., speaking rate) and the conditions under which their audio is captured and transmitted (e.g., background noise and packet loss). However, existin...
+
+--- [3] 2609.03414v1 ---
+Title: StrixAE: An Intelligent Agent for Audio Enhancement under Complex Distortion Coupling in Real-World Scenarios
+Authors: Chenglin Wu, Junjie Wu, Jinhang Chen, Mingyang Chen, Zixu Lin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Audio enhancement in real-world scenarios involves complex distortion couplings and requires personalized enhancement. Existing solutions struggle to address both simultaneously. To improve robustness and enable autonomous operation in such scenarios, we propose StrixAE, an agent based on a multimodal large language model (MLLM). StrixAE leverages the MLLM as a controller to coordinate multiple au...
+
+--- [4] 2609.00206v1 ---
+Title: Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation
+Authors: Ruotong Wang, Zihao Zhu, Siwei Lyu, Xin Tao, Baoyuan Wu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-31
+Summary: Despite their growing use in video moderation, multimodal large language models (MLLMs) exhibit a compositional safety blind spot: videos composed of seemingly benign components can convey harmful meaning when interpreted as a whole. We refer to this phenomenon as Distributed Implicit Harm (DIH), where harm arises from relations among components distributed along a decomposition axis of the video,...
+
+--- [5] 2608.29120v1 ---
+Title: HEAR Who Said What: Unlocking Speaker-Attributed Reasoning via Counterfactual Voice Grounding
+Authors: Dongwook Lee, Sangkwon Park, Eunwoo Song, Che Hyun Lee, Youngho Cho et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-08-29
+Summary: Speech Language Models (SLMs) are increasingly deployed in multi-speaker environments, yet their ability to attribute speech to the correct speaker and reason over speaker identities remains unclear. Hence, we introduce HEAR, a conceptually hierarchical benchmark diagnosing the foundational capabilities of speaker-attributed reasoning, comprising 2.4K human-verified samples from 887 diverse multi-...
+
+--- [6] 2608.26431v1 ---
+Title: AudioSpan: Spanning the Duration and Depth of Audio Comprehension
+Authors: Wen Huang, Yunfei Chu, Meng Gao, Haolin He, Jin Xu
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-26
+Summary: General audio comprehension now covers speech, sound, and music over durations from seconds to hours, driven by large audio-language models (LALMs) that are increasingly omni-modal. Yet the benchmarks that test them still rely on clips of seconds, where scores saturate and models converge; recent long-form efforts extend duration but evaluate long audio much as short clips are. We introduce AudioS...
+
+--- [7] 2608.25177v1 ---
+Title: AudioLens: Multi-Perspective Speech Clustering with Reasoning Audio-Language Models
+Authors: Wenjun Huang, Qiaosong Chu, Tiger Shao, Pengfei Zhang, Yutong Song et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-25
+Summary: Audio clustering is a fundamental task for organizing rapidly growing speech collections, supporting applications such as conversational analysis and speech-driven discovery. However, existing methods rely on fixed acoustic similarity metrics or ASR-based text pipelines, limiting their ability to reorganize the same audio collection under different user-specified perspectives, especially when clus...
+
+--- [8] 2608.23758v2 ---
+Title: EXAM$^2$: $\underline{Ex}tending$ $\underline{A}udio$ $Understanding$ $in$ $\underline{M}ultilingual$ $and$ $\underline{M}ultimodal$ $Analysis$
+Authors: Jiawen Wang, Xiaoxue Gao, Zi Haur Pang, Nancy F. Chen
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-24
+Summary: Recent large audio language models (LALMs) have achieved impressive progress in audio understanding. However, existing evaluations remain largely constrained to English and narrow audio domains. Prior benchmarks typically focus on a single audio modality, i.e., speech, sound, or music, limiting the systematic investigation into how these models generalize across diverse visual scenarios. In this p...
+
+--- [9] 2608.23234v1 ---
+Title: MLLM-Assisted Audio VOS: A 3rd Place Report for the MeViS-Audio Track, 8th LSVOS Challenge
+Authors: Liangtao Shi, Jinxia Xie, Xiantao Hu, Ting Liu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: In this technical report, we present a training-free framework for audio-guided video object segmentation, which integrates Multimodal Large Language Models (MLLMs) with SAM-based segmentation models. We decompose the task into several stages and identify suitable foundation models for each stage. Without introducing additional model training or task-specific fine-tuning, our approach leverages th...
+
+--- [10] 2608.22236v2 ---
+Title: MRMAD: A Multi-Round Multi-Audio Benchmark for Evaluating Acoustic Degradation Perception in Large Audio-Language Models
+Authors: Yize Li, Ningyuan Yang, Sile Yin, Sindhuja Thogarrati, Sung-En Chang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-08-23
+Summary: Large audio-language models (LALMs) have shown promising progress in understanding speech, music, and general sound events, yet their ability to reason about how audio signals are degraded remains underexplored. Existing benchmarks primarily evaluate semantic understanding, event recognition, or high-level audio reasoning, leaving a basic question unanswered: Do LALMs understand the differences in...
+
+--- [11] 2608.20958v1 ---
+Title: TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming
+Authors: Yibo Hu, Yu Qian, Mao Gu, Yingfan Tao, Yuhao Chen et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-08-21
+Summary: E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts are distributed across speech, video frames, product images, overlaid text, and user queries. We present TLive-Omni, an omni-modal understanding model tailored to live-commerce scenarios. It maps image, video, audio, and text inputs into a unified representation space. For long-fo...
+
+--- [12] 2608.20743v2 ---
+Title: Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis
+Authors: Yantao Li, Huanlin Gao, Fang Zhao, Chao Tan, Qiang Hui et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-21
+Summary: Speculative decoding accelerates autoregressive generation by allowing a lightweight drafter to propose future tokens while a target model verifies them in parallel. Its lossless guarantee has motivated a line of work that pushes the drafter itself toward parallel generation. The most recent paradigm is block-parallel generative drafting, including diffusion-based methods such as DFlash and DSpark...
+
+--- [13] 2608.14016v1 ---
+Title: Content Based Video Narration of Gameplay with Vision Language Models
+Authors: Mathew Varghese
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.GR
+Published: 2026-08-14
+Summary: Live game commentary is scarce: it exists for professional esports broadcasts and almost nowhere else. We present a content-based video narration system that produces spoken, esports-style commentary for arbitrary gameplay recordings using a general-purpose vision-language model (VLM) and a text-to-speech back end, with no game-specific instrumentation, no engine telemetry, and no task-specific tr...
+
+--- [14] 2608.13558v1 ---
+Title: OmniScientist: An Omni-Modal Omni-Discipline AI Scientist
+Authors: Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-08-13
+Summary: Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scie...
+
+--- [15] 2608.09189v1 ---
+Title: EmoS: A Theory-Grounded Framework for Evaluating and Aligning Emotional Intelligence in Spoken Language Models
+Authors: Junyu Wang, Siyuan Zhang, Peiyuan Jiang, Jian Zong, Jingyu Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-10
+Summary: Despite significant advances in instruction-following and auditory comprehension, the evaluation of Emotional Intelligence (EI) in Spoken Language Models (SLMs) remains confined to rudimentary paralinguistic perception, lacking a systematic, theory-driven cognitive framework. We introduce EmoSBench, the first comprehensive EI evaluation benchmark for SLMs constructed upon the four-branch theoretic...
+
+--- [16] 2609.04242v1 ---
+Title: Training-Free Speech-Centric Omni Understanding with Frozen VLMs
+Authors: Ankan Deria, Hanoona Rasheed, Xilin He, Fahad Shahbaz Khan, Salman Khan
+Primary cat: eess.AS | All cats: eess.AS, cs.CV, cs.SD
+Published: 2026-08-07
+Summary: Audio-visual understanding remains challenging because models must jointly interpret spoken content, visual events, and their temporal relationships. Existing omni models typically introduce dedicated audio encoders and rely on expensive audio-video-text training, tightly coupling omni capability to specific VLM backbones and potentially weakening their existing visual and reasoning abilities. Thi...
+
+--- [17] 2608.04902v1 ---
+Title: Visual Representation Matters: Exploiting Temporal Differences in Video-to-Audio Generation
+Authors: Zehua Chen, Junyou Wang, Yuxuan Jiang, Zhenying Fang, Yusheng Dai et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.SD
+Published: 2026-08-05
+Summary: Video-to-audio (V2A) generation extends image-to-audio generation (I2A) by introducing consecutive frames that provide essential temporal cues for audio synthesis. However, existing conditional diffusion-based V2A methods typically enhance visual conditioning with additional audio-visual supervision, acoustic structure prediction, or reasoning from large multimodal models, requiring extra networks...
+
+--- [18] 2608.03032v1 ---
+Title: DDSynth-RL: Audio Synthesizer Inversion via Discrete Diffusion with Reinforcement Learning
+Authors: Tristan Wu, Daniel Chin, Junan Zhang, Junyan Jiang, Yansen Jing et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-04
+Summary: Synthesizer inversion is challenging for two main reasons: 1) Distinct parameter configurations can produce perceptually similar sounds. 2) Parameter-space losses often fail to reflect rendered audio similarity, while the synthesizer being a non-differentiable black box prevents simple audio-domain supervision. To address the one-to-many mapping induced by the first challenge, we formulate synthes...
+
+--- [19] 2608.02831v1 ---
+Title: Reinforcement Learning with Evolving Rubrics as Rewards for Audio Reasoning
+Authors: Fangxu Yu, Tao Feng, Dehai Min, Zinan Lin, Weijia Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-08-03
+Summary: Audio reasoning is essential for machine understanding of the acoustic world. Reinforcement learning with verifiable rewards can elicit such reasoning, yet existing reward designs are complementary in their limitations: outcome-based rewards supervise only the final answer and let the model reach it without attending to the audio, whereas process-based rewards score the reasoning itself but rely o...
+
+--- [20] 2608.01881v1 ---
+Title: Hear, Invoke, and Understand: A Skill-Calling Multimodal Agent for Large Audio Language Models
+Authors: Yuwen Wang, Tian-Hao Zhang, Minghao Cai, Yilin Ren, Ziyang Jiang et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI
+Published: 2026-08-03
+Summary: Complex acoustic problems may require models to perform acoustic operations, interact with external tools and reason over the resulting textual or processed-audio observations rather than answer directly from a fixed audio input. We study such problems as tool-interactive audio reasoning and develop SpeechAgent-R, an audio agent that coordinates its intrinsic multimodal understanding with external...
+
+--- [21] 2608.01119v1 ---
+Title: JoyAI-Talker: Full-Duplex Speech Interactive Large Model Built for Empathetic Voice Agents
+Authors: Yinhao Bai, Jinming Chen, Yafeng Chen, Wei Deng, Boya Dong et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-02
+Summary: We present JoyAI-Talker, a full-duplex speech dialogue system that delivers robust foundation model capabilities while empowering empathetic interaction and voice agent intelligence. JoyAI-Talker adopts a modular Thinker-Talker architecture and further implements a unified speech-text joint training pipeline to mitigate the common "cognitive degradation" bottleneck, thereby largely preserving the ...
+
+--- [22] 2607.26553v1 ---
+Title: ThinkOmni: A Reasoning-Driven Omni-Modal LLM Framework for Audio Forgery Detection and Localization
+Authors: Yuxiong Xu, Kaiqing Lin, Bin Li, Haodong Li, Sheng Li
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-29
+Summary: Existing audio forgery detection and localization (AFDL) methods often overfit dataset-specific low-level artifacts, limiting their generalization to subtle, localized, and unseen manipulations. Recent audio large language model (ALLM)-based approaches cast AFDL as question answering but still model forensic evidence implicitly, without linking manipulation cues to predictions. To bridge this gap,...
+
+--- [23] 2608.18132v1 ---
+Title: Alignment Is All You Need: Instruction-Free Training for General Audio-Language Models
+Authors: Xuanru Zhou, Yiwen Shao, Jiahong Li, Dong Yu
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-07-28
+Summary: Multimodal large language models (MLLMs) are typically built through a multi-stage pipeline consisting of cross-modal alignment, supervised fine-tuning (SFT), and preference optimization. This pipeline assumes that adapting an LLM to a new modality requires extensive task-specific supervision. However, pretrained LLMs already possess strong reasoning and instruction-following abilities. As LLMs ev...
+
+--- [24] 2607.21857v1 ---
+Title: SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision
+Authors: Hao Zhang, Yiwen Zhao, Yixuan Zhang, Yiwen Shao, Steve Yves
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-23
+Summary: We present an agentic soundscape construction framework for controllable compositional audio generation that makes explicit the scene planning, source selection, temporal layout, and rendering steps typically handled implicitly by single-shot text-to-audio models. An LLM-based agent converts user intent into an executable scene plan, acquires assets through retrieval and on-demand generation, rend...
+
+--- [25] 2607.21550v1 ---
+Title: X$^3$-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areasoning+AND+abs%3Aaudio+AND+abs%3Ageneration&max_results=25&sortBy=submittedDate&sortOrder=descending
+Authors: Dongjie Fu, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-07-23
+Summary: While large audio-language models have achieved remarkable progress in auditory perception, they still lag behind text-based large language models in deep logical reasoning, primarily due to the scarcity of high-quality audio reasoning data. To bridge this gap, we propose X$^3$-OPD, a cross-modal on-policy distillation framework that transfers reasoning capabilities from a powerful text teacher to...
+

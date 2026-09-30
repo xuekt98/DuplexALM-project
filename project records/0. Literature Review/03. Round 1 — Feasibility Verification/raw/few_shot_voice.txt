@@ -1,0 +1,177 @@
+--- [1] 2609.01737v1 ---
+Title: SpeakPay: Domain-Adaptive LoRA Fine-Tuning of Whisper for Low-Resource Nepali Financial Speech Recognition
+Authors: Biraj Subedi
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-01
+Summary: Mobile payment applications in Nepal are graphically mediated and largely inaccessible to visually impaired users. This paper presents SpeakPay, a voice-first digital wallet, and documents the central technical contribution: a controlled study of domain adaptation for low-resource financial speech recognition. We introduce NepFinSpeech-403, a 403-utterance dataset of Nepali financial voice command...
+
+--- [2] 2609.00961v1 ---
+Title: Few-Shot Out of Domain Intent Detection with Covariance Corrected Mahalanobis Distance
+Authors: Jayasimha Talur, Oleg Smirnov, Paul Missault
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-01
+Summary: Conversational agents like chatbots and voice assistants are trained to understand and respond to user intents. On encountering an utterance with an intent different from the ones they have been trained on, these agents are expected to classify the intent as `unknown' or `out of domain'. This problem is known as out of domain (OOD) intent detection. Podolskiy et al. (2021), showed that Mahalanobis...
+
+--- [3] 2608.23383v2 ---
+Title: Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds
+Authors: Nan Duan, Haoyang Huang, Weiyang Jin, Haoran Li, Yaowei Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: Video generation is progressing beyond isolated clips toward long-form narratives and interactive worlds, requiring models to preserve identities, follow user controls, and remain stable over extended rollouts. We present JoyAI-Echo-1.5, a unified audio-visual generation system with two purpose-built variants. The long-video variant introduces composable cross-shot memory that aggregates visual ev...
+
+--- [4] 2608.14824v1 ---
+Title: A Parameter-Free Few-Shot Evaluation for Elephant Vocalisation Classification
+Authors: Christiaan M. Geldenhuys, Thomas R. Niesler
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD, q-bio.QM
+Published: 2026-08-14
+Summary: We present a parameter-free episodic evaluation of nearest-centroid classification for elephant vocalisations on fixed pretrained acoustic embeddings, across the Elephant Voices (EV) and Linguistic Data Consortium (LDC) datasets. Rather than asking which embedding yields the best classifier when trained on all available labelled data, we ask how the simplest classifier performs as labelled exempla...
+
+--- [5] 2608.06632v1 ---
+Title: Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation
+Authors: Ziyun Xu, Bosen Ding, Yue Zhang, Ji Qi, Qingyuan Song et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-06
+Summary: Industrial recommendation systems predominantly adopt a passive ranking paradigm that infers user preferences from implicit behavioral signals (e.g., clicks, dwell time) rather than explicit, natural language inputs. As a result, users experience a persistent discrepancy between their explicit interests and what passive behavioral algorithms deliver, limiting their ability to express nuanced prefe...
+
+--- [6] 2607.02371v1 ---
+Title: VisionAId: An Offline-First Multimodal Android Assistant for People with Visual Impairment, Featuring Personalized Object Retrieval
+Authors: Cristian-Gabriel Florea, Stelian Spînu
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-02
+Summary: Over 285 million people worldwide live with a visual impairment, for whom everyday tasks such as avoiding obstacles, locating personal belongings, recognizing familiar faces, or handling cash remain persistent obstacles to personal autonomy. Existing assistive applications are typically limited to recognizing predefined categories, depend heavily on cloud connectivity, or require dedicated hardwar...
+
+--- [7] 2605.29543v1 ---
+Title: SCOPE: A Lightweight-training LLM Framework for Air Traffic Control Readback Monitoring
+Authors: Qihan Deng, Minghua Zhang, Yang Yang, Zhenyu Gao
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL, cs.HC, cs.IR
+Published: 2026-05-28
+Summary: Pilot readback of Air Traffic Control (ATC) voice instructions is a primary safeguard against miscommunication in air transportation. However, readback anomalies remain implicated in approximately 80% of aviation incidents. This vulnerability is further exacerbated by rising traffic volume and elevated cognitive workload, thereby motivating automated readback monitoring by machine. Traditional rul...
+
+--- [8] 2605.11303v1 ---
+Title: Predicting Psychological Well-Being from Spontaneous Speech using LLMs
+Authors: Erfan Loweimi, Sofia de la Fuente Garcia, Saturnino Luz
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-05-11
+Summary: We investigate the use of Large Language Models (LLMs) for zero-shot prediction of Ryff Psychological Well-Being (PWB) scores from spontaneous speech. Using a few minutes of voice recordings from 111 participants in the PsyVoiD database, we evaluated 12 instruction-tuned LLMs, including Llama-3 (8B, 70B), Ministral, Mistral, Gemma-2-9B, Gemma-3 (1B, 4B, 27B), Phi-4, DeepSeek (Qwen and Llama), and ...
+
+--- [9] 2605.02223v1 ---
+Title: Toward Fine-Grained Speech Inpainting Forensics:A Dataset, Method, and Metric for Multi-Region Tampering Localization
+Authors: Tung Vu, Yen Nguyen, Hai Nguyen, Cuong Pham, Cong Tran
+Primary cat: cs.SD | All cats: cs.SD, cs.CV
+Published: 2026-05-04
+Summary: Recent advances in voice cloning and text-to-speech synthesis have made partial speech manipulation - where an adversary replaces a few words within an utterance to alter its meaning while preserving the speaker's identity - an increasingly realistic threat. Existing audio deepfake detection benchmarks focus on utterance-level binary classification or single-region tampering, leaving a critical ga...
+
+--- [10] 2604.11803v1 ---
+Title: Saar-Voice: A Multi-Speaker Saarbrücken Dialect Speech Corpus
+Authors: Lena S. Oberkircher, Jesujoba O. Alabi, Dietrich Klakow, Jürgen Trouvain
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-04-13
+Summary: Natural language processing (NLP) and speech technologies have made significant progress in recent years; however, they remain largely focused on standardized language varieties. Dialects, despite their cultural significance and widespread use, are underrepresented in linguistic resources and computational models, resulting in performance disparities. To address this gap, we introduce Saar-Voice, ...
+
+--- [11] 2603.08977v2 ---
+Title: Universal Speech Content Factorization
+Authors: Henry Li Xinyuan, Zexin Cai, Lin Zhang, Leibny Paola García-Perera, Berrak Sisman et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-03-09
+Summary: We propose Universal Speech Content Factorization (USCF), a simple and invertible linear method for extracting a low-rank speech representation in which speaker timbre is suppressed while phonetic content is preserved. USCF extends Speech Content Factorization, a closed-set voice conversion (VC) method, to an open-set setting by learning a universal speech-to-content mapping via least-squares opti...
+
+--- [12] 2601.18694v1 ---
+Title: Neural Multi-Speaker Voice Cloning for Nepali in Low-Resource Settings
+Authors: Aayush M. Shrestha, Aditya Bajracharya, Projan Shakya, Dinesh B. Kshatri
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-01-26
+Summary: This research presents a few-shot voice cloning system for Nepali speakers, designed to synthesize speech in a specific speaker's voice from Devanagari text using minimal data. Voice cloning in Nepali remains largely unexplored due to its low-resource nature. To address this, we constructed separate datasets: untranscribed audio for training a speaker encoder and paired text-audio data for trainin...
+
+--- [13] 2601.18094v2 ---
+Title: OneVoice: One Model, Triple Scenarios-Towards Unified Zero-shot Voice Conversion
+Authors: Zhichao Wang, Tao Li, Wenshuo Ge, Zihao Cui, Shilei Zhang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-01-26
+Summary: Recent progress of voice conversion~(VC) has achieved a new milestone in speaker cloning and linguistic preservation. But the field remains fragmented, relying on specialized models for linguistic-preserving, expressive, and singing scenarios. We propose OneVoice, a unified zero-shot framework capable of handling all three scenarios within a single model. OneVoice is built upon a continuous langua...
+
+--- [14] 2601.08342v1 ---
+Title: Detecting Mental Manipulation in Speech via Synthetic Multi-Speaker Dialogue
+Authors: Run Chen, Wen Liang, Ziwei Gong, Lin Ai, Julia Hirschberg
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-01-13
+Summary: Mental manipulation, the strategic use of language to covertly influence or exploit others, is a newly emerging task in computational social reasoning. Prior work has focused exclusively on textual conversations, overlooking how manipulative tactics manifest in speech. We present the first study of mental manipulation detection in spoken dialogues, introducing a synthetic multi-speaker benchmark S...
+
+--- [15] 2512.23808v1 ---
+Title: MiMo-Audio: Audio Language Models are Few-Shot Learners
+Authors: Xiaomi LLM-Core Team,  :, Dong Zhang, Gang Wang, Jinlong Xue et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2025-12-29
+Summary: Existing audio language models typically rely on task-specific fine-tuning to accomplish particular audio tasks. In contrast, humans are able to generalize to new audio tasks with only a few examples or simple instructions. GPT-3 has shown that scaling next-token prediction pretraining enables strong generalization capabilities in text, and we believe this paradigm is equally applicable to the aud...
+
+--- [16] 2601.05255v1 ---
+Title: CourtNav: Voice-Guided, Anchor-Accurate Navigation of Long Legal Documents in Courtrooms
+Authors: Sai Khadloya, Kush Juvekar, Arghya Bhattacharya, Utkarsh Saxena
+Primary cat: cs.IR | All cats: cs.IR, cs.HC
+Published: 2025-10-19
+Summary: Judicial work depends on close reading of long records, charge sheets, pleadings, annexures, orders, often spanning hundreds of pages. With limited staff support, exhaustive reading during hearings is impractical. We present CourtNav, a voice-guided, anchor-first navigator for legal PDFs that maps a judge's spoken command (e.g., "go to paragraph 23", "highlight the contradiction in the cross-exami...
+
+--- [17] 2510.11225v1 ---
+Title: A Theorem-Proving-Based Evaluation of Neural Semantic Parsing
+Authors: Hayate Funakura, Hyunsoo Kim, Koji Mineshima
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-10-13
+Summary: Graph-matching metrics such as Smatch are the de facto standard for evaluating neural semantic parsers, yet they capture surface overlap rather than logical equivalence. We reassess evaluation by pairing graph-matching with automated theorem proving. We compare two approaches to building parsers: supervised fine-tuning (T5-Small/Base) and few-shot in-context learning (GPT-4o/4.1/5), under normaliz...
+
+--- [18] 2510.04016v1 ---
+Title: Thai Semantic End-of-Turn Detection for Real-Time Voice Agents
+Authors: Thanapol Popit, Natthapath Rungseesiripak, Monthol Charattrakool, Saksorn Ruangtanusak
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2025-10-05
+Summary: Fluid voice-to-voice interaction requires reliable and low-latency detection of when a user has finished speaking. Traditional audio-silence end-pointers add hundreds of milliseconds of delay and fail under hesitations or language-specific phenomena. We present, to our knowledge, the first systematic study of Thai text-only end-of-turn (EOT) detection for real-time agents. We compare zero-shot and...
+
+--- [19] 2509.12831v1 ---
+Title: A Lightweight Pipeline for Noisy Speech Voice Cloning and Accurate Lip Sync Synthesis
+Authors: Javeria Amir, Farwa Attaria, Mah Jabeen, Umara Noor, Zahid Rashid
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2025-09-16
+Summary: Recent developments in voice cloning and talking head generation demonstrate impressive capabilities in synthesizing natural speech and realistic lip synchronization. Current methods typically require and are trained on large scale datasets and computationally intensive processes using clean studio recorded inputs that is infeasible in noisy or low resource environments. In this paper, we introduc...
+
+--- [20] 2507.12932v2 ---
+Title: Enkidu: Universal Frequential Perturbation for Real-Time Audio Privacy Protection against Voice Deepfakes
+Authors: Zhou Feng, Jiahao Chen, Chunyi Zhou, Yuwen Pu, Qingming Li et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2025-07-17
+Summary: The rapid advancement of voice deepfake technologies has raised serious concerns about user audio privacy, as attackers increasingly exploit publicly available voice data to generate convincing fake audio for malicious purposes such as identity theft, financial fraud, and misinformation campaigns. While existing defense methods offer partial protection, they face critical limitations, including we...
+
+--- [21] 2506.04389v1 ---
+Title: Building a Few-Shot Cross-Domain Multilingual NLU Model for Customer Care
+Authors: Saurabh Kumar, Sourav Bansal, Neeraj Agrawal, Priyanka Bhatt
+Primary cat: cs.CL | All cats: cs.CL, cs.LG
+Published: 2025-06-04
+Summary: Customer care is an essential pillar of the e-commerce shopping experience with companies spending millions of dollars each year, employing automation and human agents, across geographies (like US, Canada, Mexico, Chile), channels (like Chat, Interactive Voice Response (IVR)), and languages (like English, Spanish). SOTA pre-trained models like multilingual-BERT, fine-tuned on annotated data have s...
+
+--- [22] 2505.23619v1 ---
+Title: Few-Shot Speech Deepfake Detection Adaptation with Gaussian Processes
+Authors: Neta Glazer, David Chernin, Idan Achituve, Sharon Gannot, Ethan Fetaya
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2025-05-29
+Summary: Recent advancements in Text-to-Speech (TTS) models, particularly in voice cloning, have intensified the demand for adaptable and efficient deepfake detection methods. As TTS systems continue to evolve, detection models must be able to efficiently adapt to previously unseen generation models with minimal data. This paper introduces ADD-GP, a few-shot adaptive framework based on a Gaussian Process (...
+
+--- [23] 2505.19119v1 ---
+Title: CloneShield: A Framework for Universal Perturbation Against Zero-Shot Voice Cloning
+Authors: Renyuan Li, Zhibo Liang, Haichuan Zhang, Tianyu Shi, Zhiyuan Cheng et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-05-25
+Summary: Recent breakthroughs in text-to-speech (TTS) voice cloning have raised serious privacy concerns, allowing highly accurate vocal identity replication from just a few seconds of reference audio, while retaining the speaker's vocal authenticity. In this paper, we introduce CloneShield, a universal time-domain adversarial perturbation framework specifically designed to defend against zero-shot voice c...
+
+--- [24] 2505.00579v1 ---
+Title: Voice Cloning: Comprehensive Survey
+Authors: Hussam Azzuni, Abdulmotaleb El Saddik
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-05-01
+Summary: Voice Cloning has rapidly advanced in today's digital world, with many researchers and corporations working to improve these algorithms for various applications. This article aims to establish a standardized terminology for voice cloning and explore its different variations. It will cover speaker adaptation as the fundamental concept and then delve deeper into topics such as few-shot, zero-shot, a...
+
+--- [25] 2505.00038v2 ---
+Title: HyPerAlign: Interpretable Personalized LLM Alignment via Hypothesis Generation
+Authors: Cristina Garbacea, Chenhao Tan
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-04-29
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Afew-shot+AND+abs%3Avoice&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Alignment algorithms are widely used to align large language models (LLMs) to human users based on preference annotations. Typically these (often divergent) preferences are aggregated over a diverse set of users, resulting in fine-tuned models that are aligned to the ``average-user'' preference. Nevertheless, current models are used by individual users in very specific contexts and situations, emp...
+

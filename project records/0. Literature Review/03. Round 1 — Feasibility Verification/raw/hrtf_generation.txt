@@ -1,0 +1,177 @@
+--- [1] 2608.16722v2 ---
+Title: Numerical and perceptual validity of synthetic Head-Related Transfer Functions at scale
+Authors: Katarina C. Poole, Lorenzo Picinali
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-17
+Summary: Individually measuring head-related transfer functions (HRTFs) at scale remains a central challenge for personalised spatial audio, motivating growing interest in synthetic HRTFs. We evaluated the numerical, computational, and behavioural validity of synthetic HRTFs, generated through the boundary element method simulation using Mesh2HRTF, against measured and KEMAR HRTFs using the Extended SONICO...
+
+--- [2] 2606.30114v1 ---
+Title: Evaluation of Head-Related Transfer Functions Across Five Levels of Individualisation in Virtual Reality
+Authors: Ludovic Pirard, Katarina C. Poole
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-29
+Summary: Head-related transfer functions (HRTFs) underpin spatial hearing in virtual and augmented reality systems. Whilst individual HRTFs capture listener-specific morphology, their practical limitations have led to widespread use of generic HRTFs and growing interest in synthetic approaches. Yet their relative perceptual impact remains rarely compared within a single study. In this study, we analysed da...
+
+--- [3] 2603.24104v1 ---
+Title: Photogrammetry-Reconstructed 3D Head Meshes for Accessible Individual Head-Related Transfer Functions
+Authors: Ludovic Pirard, Lorenzo Picinali, Katarina C. Poole
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-03-25
+Summary: Individual head-related transfer functions (HRTFs) are essential for accurate spatial audio binaural rendering but remain difficult to obtain due to measurement complexity. This study investigates whether photogrammetry-reconstructed (PR) head and ear meshes, acquired with consumer hardware, can provide a practically useful baseline for individual HRTF synthesis. Using the SONICOM HRTF dataset, 72...
+
+--- [4] 2603.16668v1 ---
+Title: HRTF-guided Binaural Target Speaker Extraction with Real-World Validation
+Authors: Yoav Ellinson, Sharon Gannot
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-03-17
+Summary: This paper presents a Head-Related Transfer Function (HRTF)-guided framework for binaural Target Speaker Extraction (TSE) from mixtures of concurrent sources. Unlike conventional TSE methods based on Direction of Arrival (DOA) estimation or enrollment signals, which often distort perceived spatial location, the proposed approach leverages the listener's HRTF as an explicit spatial prior. The propo...
+
+--- [5] 2603.02508v1 ---
+Title: Decomposing the Influence of Physical Acoustic Modeling on Neural Personal Sound Zone Rendering: An Ablation Study
+Authors: Hao Jiang, Edgar Choueiri
+Primary cat: eess.AS | All cats: eess.AS, cs.SD, eess.SP
+Published: 2026-03-03
+Summary: Deep learning-based Personal Sound Zones (PSZs) rely on simulated acoustic transfer functions (ATFs) for training, yet idealized point-source models exhibit large sim-to-real gaps. While physically informed components improve generalization, individual contributions remain unclear. This paper presents a controlled ablation study on a head-pose-conditioned binaural PSZ renderer using the Binaural S...
+
+--- [6] 2603.02205v1 ---
+Title: Analytical Exploration of Spatial Audio Cues: A Differentiable Multi-Sphere Scattering Model
+Authors: Siminfar Samakoush Galougah, Pranav Pulijala, Ramani Duraiswami
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-02
+Summary: A primary challenge in developing synthetic spatial hearing systems, particularly underwater, is accurately modeling sound scattering. Biological organisms achieve 3D spatial hearing by exploiting sound scattering off their bodies to generate location-dependent interaural level and time differences (ITD/ILD). While Head-Related Transfer Function (HRTF) models based on rigid scattering suffice for ...
+
+--- [7] 2601.06621v1 ---
+Title: Stereo Audio Rendering for Personal Sound Zones Using a Binaural Spatially Adaptive Neural Network (BSANN)
+Authors: Hao Jiang, Edgar Choueiri
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-01-10
+Summary: A binaural rendering framework for personal sound zones (PSZs) is proposed to enable multiple head-tracked listeners to receive fully independent stereo audio programs. Current PSZ systems typically rely on monophonic rendering and therefore cannot control the left and right ears separately, which limits the quality and accuracy of spatial imaging. The proposed method employs a Binaural Spatially ...
+
+--- [8] 2511.13487v3 ---
+Title: Systematic Evaluation of Time-Frequency Features for Binaural Sound Source Localization
+Authors: Davoud Shariat Panah, Alessandro Ragano, Dan Barry, Jan Skoglund, Andrew Hines
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2025-11-17
+Summary: This study presents a systematic evaluation of time-frequency feature design for binaural sound source localization (SSL), focusing on how feature selection influences model performance across diverse conditions. We investigate the performance of a convolutional neural network (CNN) model using various combinations of amplitude-based features (magnitude spectrogram, interaural level difference - I...
+
+--- [9] 2511.10697v1 ---
+Title: Graph Neural Field with Spatial-Correlation Augmentation for HRTF Personalization
+Authors: De Hu, Junsheng Hu, Cuicui Jiang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-11-12
+Summary: To achieve immersive spatial audio rendering on VR/AR devices, high-quality Head-Related Transfer Functions (HRTFs) are essential. In general, HRTFs are subject-dependent and position-dependent, and their measurement is time-consuming and tedious. To address this challenge, we propose the Graph Neural Field with Spatial-Correlation Augmentation (GraphNF-SCA) for HRTF personalization, which can be ...
+
+--- [10] 2510.02813v1 ---
+Title: Enhancing Photogrammetry Reconstruction For HRTF Synthesis Via A Graph Neural Network
+Authors: Ludovic Pirard, Katarina C. Poole, Lorenzo Picinali
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-10-03
+Summary: Traditional Head-Related Transfer Functions (HRTFs) acquisition methods rely on specialised equipment and acoustic expertise, posing accessibility challenges. Alternatively, high-resolution 3D modelling offers a pathway to numerically synthesise HRTFs using Boundary Elements Methods and others. However, the high cost and limited availability of advanced 3D scanners restrict their applicability. Ph...
+
+--- [11] 2510.01891v2 ---
+Title: HRTFformer: A Spatially-Aware Transformer for Individual HRTF Upsampling in Immersive Audio Rendering
+Authors: Xuyi Hu, Jian Li, Shaojie Zhang, Stefan Goetz, Lorenzo Picinali et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-10-02
+Summary: Individual Head-Related Transfer Functions (HRTFs) are starting to be introduced in many commercial immersive audio applications and are crucial for realistic spatial audio rendering. However, one of the main hesitations regarding their introduction is that creating individual HRTFs is impractical at scale due to the complexities of the HRTF measurement process. To mitigate this drawback, HRTF spa...
+
+--- [12] 2509.00400v1 ---
+Title: Deep Learning for Personalized Binaural Audio Reproduction
+Authors: Xikun Lu, Yunda Chen, Zehua Chen, Jie Wang, Mingxing Liu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-08-30
+Summary: Personalized binaural audio reproduction is the basis of realistic spatial localization, sound externalization, and immersive listening, directly shaping user experience and listening effort. This survey reviews recent advances in deep learning for this task and organizes them by generation mechanism into two paradigms: explicit personalized filtering and end-to-end rendering. Explicit methods pre...
+
+--- [13] 2507.05053v2 ---
+Title: The Extended SONICOM HRTF Dataset and Spatial Audio Metrics Toolbox
+Authors: Katarina C. Poole, Julie Meyer, Vincent Martin, Rapolas Daugintis, Nils Marggraf-Turley et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-07-07
+Summary: Headphone-based spatial audio uses head-related transfer functions (HRTFs) to simulate real-world acoustic environments. HRTFs are unique to everyone, due to personal morphology, shaping how sound waves interact with the body before reaching the eardrums. Here we present the extended SONICOM HRTF dataset which expands on the previous version released in 2023. The total number of measured subjects ...
+
+--- [14] 2507.02815v1 ---
+Title: Towards Perception-Informed Latent HRTF Representations
+Authors: You Zhang, Andrew Francl, Ruohan Gao, Paul Calamia, Zhiyao Duan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-07-03
+Summary: Personalized head-related transfer functions (HRTFs) are essential for ensuring a realistic auditory experience over headphones, because they take into account individual anatomical differences that affect listening. Most machine learning approaches to HRTF personalization rely on a learned low-dimensional latent space to generate or select custom HRTFs for a listener. However, these latent repres...
+
+--- [15] 2504.17586v1 ---
+Title: A Machine Learning Approach for Denoising and Upsampling HRTFs
+Authors: Xuyi Hu, Jian Li, Lorenzo Picinali, Aidan O. T. Hogg
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2025-04-24
+Summary: The demand for realistic virtual immersive audio continues to grow, with Head-Related Transfer Functions (HRTFs) playing a key role. HRTFs capture how sound reaches our ears, reflecting unique anatomical features and enhancing spatial perception. It has been shown that personalized HRTFs improve localization accuracy, but their measurement remains time-consuming and requires a noise-free environme...
+
+--- [16] 2503.11312v1 ---
+Title: A Data-Driven Exploration of Elevation Cues in HRTFs: An Explainable AI Perspective Across Multiple Datasets
+Authors: Juan Antonio De Rus, Mario Montagud, Jesus Lopez-Ballester, Francesc J. Ferri, Maximo Cobos
+Primary cat: eess.SP | All cats: eess.SP, cs.SD, eess.AS
+Published: 2025-03-14
+Summary: Precise elevation perception in binaural audio remains a challenge, despite extensive research on head-related transfer functions (HRTFs) and spectral cues. While prior studies have advanced our understanding of sound localization cues, the interplay between spectral features and elevation perception is still not fully understood. This paper presents a comprehensive analysis of over 600 subjects f...
+
+--- [17] 2501.18227v2 ---
+Title: BSM-iMagLS: ILD Informed Binaural Signal Matching for Reproduction with Head-Mounted Microphone Arrays
+Authors: Or Berebi, Zamir Ben-Hur, David Lou Alon, Boaz Rafaely
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-01-30
+Summary: Headphone listening in applications such as augmented and virtual reality (AR and VR) relies on high-quality spatial audio to ensure immersion, making accurate binaural reproduction a critical component. As capture devices, wearable arrays with only a few microphones with irregular arrangement face challenges in achieving a reproduction quality comparable to that of arrays with a large number of m...
+
+--- [18] 2501.13017v1 ---
+Title: Retrieval-Augmented Neural Field for HRTF Upsampling and Personalization
+Authors: Yoshiki Masuyama, Gordon Wichern, François G. Germain, Christopher Ick, Jonathan Le Roux
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-01-22
+Summary: Head-related transfer functions (HRTFs) with dense spatial grids are desired for immersive binaural audio generation, but their recording is time-consuming. Although HRTF spatial upsampling has shown remarkable progress with neural fields, spatial upsampling only from a few measured directions, e.g., 3 or 5 measurements, is still challenging. To tackle this problem, we propose a retrieval-augmente...
+
+--- [19] 2501.02871v1 ---
+Title: Towards HRTF Personalization using Denoising Diffusion Models
+Authors: Juan Camilo Albarracín Sánchez, Luca Comanducci, Mirco Pezzoli, Fabio Antonacci
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-01-06
+Summary: Head-Related Transfer Functions (HRTFs) have fundamental applications for realistic rendering in immersive audio scenarios. However, they are strongly subject-dependent as they vary considerably depending on the shape of the ears, head and torso. Thus, personalization procedures are required for accurate binaural rendering. Recently, Denoising Diffusion Probabilistic Models (DDPMs), a class of gen...
+
+--- [20] 2408.16410v2 ---
+Title: Denoising of photogrammetric dummy head ear point clouds for individual Head-Related Transfer Functions computation
+Authors: Fabio Di Giusto, Francesc Lluís, Sjoerd van Ophem, Elke Deckers
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-08-29
+Summary: Individual Head-Related Transfer Functions (HRTFs), crucial for realistic virtual audio rendering, can be efficiently numerically computed from precise three-dimensional head and ear scans. While photogrammetry scanning is promising, it generally lacks accuracy, leading to HRTFs showing significant perceptual deviation from reference data, mainly due to scanning errors affecting the most occluded ...
+
+--- [21] 2310.14018v1 ---
+Title: Temporal convolutional neural networks to generate a head-related impulse response from one direction to another
+Authors: Tatsuki Kobayashi, Yoshiko Maruyama, Isao Nambu, Shohei Yano, Yasuhiro Wada
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2023-10-21
+Summary: Virtual sound synthesis is a technology that allows users to perceive spatial sound through headphones or earphones. However, accurate virtual sound requires an individual head-related transfer function (HRTF), which can be difficult to measure due to the need for a specialized environment. In this study, we proposed a method to generate HRTFs from one direction to the other. To this end, we used ...
+
+--- [22] 2310.13430v1 ---
+Title: HRTF Interpolation using a Spherical Neural Process Meta-Learner
+Authors: Etienne Thuillier, Craig Jin, Vesa Välimäki
+Primary cat: eess.AS | All cats: eess.AS, cs.LG
+Published: 2023-10-20
+Summary: Several individualization methods have recently been proposed to estimate a subject's Head-Related Transfer Function (HRTF) using convenient input modalities such as anthropometric measurements or pinnae photographs. There exists a need for adaptively correcting the estimation error committed by such methods using a few data point samples from the subject's HRTF, acquired using acoustic measuremen...
+
+--- [23] 2307.14650v2 ---
+Title: Spatial Upsampling of Head-Related Transfer Functions Using a Physics-Informed Neural Network
+Authors: Fei Ma, Thushara D. Abhayapala, Prasanga N. Samarasinghe, Xingyu Chen
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2023-07-27
+Summary: Head-related transfer function (HRTF) capture the information that a person uses to localize sound sources in space, and thus is crucial for creating personalized virtual acoustic experiences. However, practical HRTF measurement systems may only measure a person's HRTFs sparsely, and this necessitates HRTF upsampling. This paper proposes a physics-informed neural network (PINN) method for HRTF ups...
+
+--- [24] 2307.12888v1 ---
+Title: An objective evaluation of Hearing Aids and DNN-based speech enhancement in complex acoustic scenes
+Authors: Enric Gusó, Joanna Luberadzka, Martí Baig, Umut Sayin Saraç, Xavier Serra
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2023-07-24
+Summary: We investigate the objective performance of five high-end commercially available Hearing Aid (HA) devices compared to DNN-based speech enhancement algorithms in complex acoustic environments. To this end, we measure the HRTFs of a single HA device to synthesize a binaural dataset for training two state-of-the-art causal and non-causal DNN enhancement models. We then generate an evaluation set of r...
+
+--- [25] 2306.05812v2 ---
+Title: HRTF upsampling with a generative adversarial network using a gnomonic equiangular projection
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AHRTF+AND+abs%3Ageneration&max_results=25&sortBy=submittedDate&sortOrder=descending
+Authors: Aidan O. T. Hogg, Mads Jenkins, He Liu, Isaac Squires, Samuel J. Cooper et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CV, cs.HC, cs.LG, cs.SD
+Published: 2023-06-09
+Summary: An individualised head-related transfer function (HRTF) is very important for creating realistic virtual reality (VR) and augmented reality (AR) environments. However, acoustically measuring high-quality HRTFs requires expensive equipment and an acoustic lab setting. To overcome these limitations and to make this measurement more efficient HRTF upsampling has been exploited in the past where a hig...
+

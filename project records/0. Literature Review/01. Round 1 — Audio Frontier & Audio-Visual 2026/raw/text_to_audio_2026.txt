@@ -1,0 +1,37 @@
+# Total entries: 5
+# URL: https://export.arxiv.org/api/query?search_query=all%3A%22text-to-audio%22+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.06078v1 ---
+Title: Report of the 8th LSVOS Challenge: Complex and Multimodal Video Object Segmentation
+Authors: Chang Liu, Henghui Ding, Lingyi Hong, Ning Xu, Linjie Yang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: This report summarizes the 8th Large-scale Video Object Segmentation (LSVOS) Challenge, held in conjunction with ECCV 2026. The challenge evaluates video segmentation in three complementary settings: complex semi-supervised video object segmentation on MOSEv2, text-guided referring video object segmentation on MeViSv2-Text, and audio-guided referring video object segmentation on MeViSv2-Audio. We ...
+
+--- [2] 2609.04173v1 ---
+Title: Last Translation Benchmark
+Authors: Vilém Zouhar, Niyati Bafna, Mukund Choudhary, Maike Züfle, Sara Rajaee et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-03
+Summary: For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for machine translation are approaching saturation. Further, automatic translation metrics are unreliable, vulnerable to reward-hacking, and provide unactionable assessments. Even gold human evaluation is...
+
+--- [3] 2608.26535v1 ---
+Title: Multi2AV-Safety: Benchmarking Safety in Multimodal-to-Audio-Video Generation
+Authors: Kaichao Jiang, Changtao Miao, Baiqi Wu, Zhiyuan Lu, Kang Yang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-27
+Summary: Audio-video generation is rapidly moving from prompt-driven synthesis toward multimodal conditioning, where text, images, audio, and video can jointly shape the generated output. This shift changes the nature of safety evaluation: harmful intent may no longer reside in any single input, but instead emerge from how otherwise benign or weakly harmful conditions interact across modalities and time. E...
+
+--- [4] 2607.01669v1 ---
+Title: UT-AISTimprt submission for ICME 2026 Grand Challenge on Academic Text-to-Music Generation
+Authors: Shunsuke Yoshida, Yu-Hua Chen, Satoru Fukayama
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-02
+Summary: This work investigates the effect of batch sampling strategies during training for text-to-audio music generation under low-data and small-scale model settings. This paper describes our approach and findings for the ICME 2026 Grand Challenge on Academic Text-to-Music Generation. Training data are clustered using either text embeddings or audio embeddings, and samples with similar characteristics a...
+
+--- [5] 2604.14148v1 ---
+Title: Seedance 2.0: Advancing Video Generation for World Complexity
+Authors: Team Seedance, De Chen, Liyang Chen, Xin Chen, Ying Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-15
+Summary: Seedance 2.0 is a new native multi-modal audio-video generation model, officially released in China in early February 2026. Compared with its predecessors, Seedance 1.0 and 1.5 Pro, Seedance 2.0 adopts a unified, highly efficient, and large-scale architecture for multi-modal audio-video joint generation. This allows it to support four input modalities: text, image, audio, and video, by integrating...
+

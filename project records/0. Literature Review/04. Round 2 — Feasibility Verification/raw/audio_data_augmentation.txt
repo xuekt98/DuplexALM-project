@@ -1,0 +1,142 @@
+--- [1] 2609.07399v1 ---
+Title: Open-Set Vessel Re-Identification from Underwater Ship-Radiated Noise with a Raw-Waveform Selective-Kernel Acoustic Neural Network (SKANN) and a Cross-Passage Evaluation Protocol
+Authors: Sunil Tyagi
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-07
+Summary: Underwater acoustic target recognition has converged on closed-set classification by vessel type, a task that does not answer whether a monitoring system has heard this hull before. We formalise open-set, cross-passage vessel re-identification on public hydrophone data and specify a protocol that removes the two easiest routes to a high score: hull-disjoint splits keyed to MMSI/IMO, galleries and ...
+
+--- [2] 2609.03471v1 ---
+Title: Summary of the ChinaVoices Challenge 2026: Data, Tasks, Baseline, and Methods
+Authors: Yujie Liao, Bingshen Mu, Shuiyuan Wang, Liumeng Xue, Hexin Liu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-03
+Summary: This paper summarizes the ChinaVoices Challenge 2026, which aims to establish unified task definitions and evaluation conditions for Chinese dialect speech processing and to advance multi-dialect identification and automatic speech recognition. The challenge covers 16 dialect categories and defines two tasks: Chinese Multi-Dialect Identification and Chinese Multi-Dialect Automatic Speech Recogniti...
+
+--- [3] 2608.29549v1 ---
+Title: PhysWave: Physics-Guided Latent Diffusion Models for Controllable Spatial Audio Generation
+Authors: Lingfeng Yao, Chenpei Huang, Xingke Yang, Ziye Geng, Changqing Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM
+Published: 2026-08-30
+Summary: Text-to-spatial audio generation, such as text-to-First-Order Ambisonics (FOA), provides a convenient way to create spatial audio for billion-dollar gaming and film industries. However, existing text-to-FOA methods are largely data-driven and may produce audio that violates acoustic relations between source direction and distance. They also separate descriptive and parametric control, forcing user...
+
+--- [4] 2608.27121v1 ---
+Title: How AI Experiences Art: Emergent Aesthetic Structure in a Self-Supervised Multimodal Embedding Space
+Authors: Corey D. C. Heath
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.LG
+Published: 2026-08-27
+Summary: Aesthetics are an important part of the symbolism of artistic works. Although subjective, humans categorize art based on the emotion evoked regardless of modality. What remains under-explored is how AI models form their own aesthetic categorization of human-produced media without explicit labels or cross-modal supervision. We present a self-supervised framework that projects four modalities (text,...
+
+--- [5] 2608.19055v1 ---
+Title: Generalized Audio-Driven Synthesis of Precise Drummer Motion
+Authors: Álvaro G. Iñesta, Mattia Ryffel, Amit H. Bermano, Robert W. Sumner, Martin Guay
+Primary cat: cs.CV | All cats: cs.CV, cs.GR, cs.SD
+Published: 2026-08-19
+Summary: Music-driven character animation enables and enhances transformative applications in entertainment and interactive education. However, synthesizing realistic drumming motion from audio remains challenging due to the inherent tension between high-acceleration dynamics and the need for extreme spatial-temporal precision. Existing approaches, often reliant on motion matching or MIDI input, struggle w...
+
+--- [6] 2608.15369v1 ---
+Title: AudioTQ: A Data-Oblivious 6-Bit CPU Audio Codec via Randomized Hadamard Rotation and Lloyd-Max Quantization
+Authors: Sahil Gangurde
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR
+Published: 2026-08-15
+Summary: Lossy audio compression algorithms traditionally rely on psychoacoustic modeling and frequency-domain representations (e.g., MP3, AAC, and Opus) to discard information that is imperceptible to the human auditory system. While highly effective, these approaches are computationally complex and domain-specific. In this paper, we present the design and mathematical formulation of AudioTQ, a data-obliv...
+
+--- [7] 2608.14249v1 ---
+Title: AT-ADD: All-Type Audio Deepfake Detection Challenge Summary
+Authors: Yuankun Xie, Haonan Cheng, Jiayi Zhou, Xiaoxuan Guo, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-14
+Summary: This paper summarizes the ACM Multimedia 2026 AT-ADD Grand Challenge on all-type audio deepfake detection. AT-ADD contains two tracks: robust speech deepfake detection under realistic acoustic and channel variations, and type-agnostic detection over speech, environmental sound, singing voice, and music. We describe the challenge tasks, dataset and evaluation-set design, official leaderboard result...
+
+--- [8] 2608.09288v1 ---
+Title: DAVE: A Decoupled Audio-Visual Enhancement Framework for Real-World Speech Separation
+Authors: Wei Zhou, Wanyi Ning, Yinshang Guo, Qianxiao Fang, Haitao Qian et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-10
+Summary: Audio-visual speech enhancement under real-world conditions remains challenging due to unreliable visual inputs and the lack of large-scale training data with realistic acoustic conditions. Existing approaches usually fuse visual features directly into the separation network, making them vulnerable to degraded visual signals. In this paper, we present DAVE, a decoupled audio-visual enhancement fra...
+
+--- [9] 2608.06165v3 ---
+Title: Audio-to-Score Transcription using Pre-trained Features, Data Augmentation, and the New SheetSage-A2S Dataset
+Authors: Eoin Cummins, Zhongyi Huang, Alexandre D'Hooge, Zhuoru Mo, Yaolong Ju
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM
+Published: 2026-08-06
+Summary: Existing audio-to-score (A2S) systems primarily focus on classical music, and the application to popular music remains underexplored. This paper first presents the new SheetSage-A2S Dataset, which includes 61 hours of audio with **kern score encodings for 9,468 clips originating from 6,066 unique songs, the first of its kind to facilitate A2S research for popular music. Additionally, we improve on...
+
+--- [10] 2608.24916v1 ---
+Title: Domain-Adaptive ASR for Telephony AI Agents: Fine-tuning Canary Flash Models for Enterprise Contact Center Applications
+Authors: Chanameth Boonpramuk, Winn Voravuthikunchai, Songpol Bunyang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-03
+Summary: This technical report describes Botnoi Group's methodology and results for rapidly fine-tuning the open-source NVIDIA Canary 180M Flash and NVIDIA Canary 1B Flash multitask models for speech-to-text tasks using the NVIDIA NeMo framework, with a focus on telephony-grade audio. To support this adaptation, we construct a telephony-oriented fine-tuning dataset from live voicebot system recordings and ...
+
+--- [11] 2607.28351v2 ---
+Title: Teffic-Audio: Tell Fact from Fiction
+Authors: Wan Lin, Li Wang, Jindong Wang, Kunyu Feng, Zhizheng Wu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-30
+Summary: Speech deepfake detection has expanded in scope with increasingly heterogeneous spoofing mechanisms, including speech synthesis, voice conversion, vocoder reconstruction, and neural-codec resynthesis. The resulting spoofing artifacts can be further shaped by variability in source speech, recording environments, and transmission channels. This variability makes robust generalization across heteroge...
+
+--- [12] 2607.23395v1 ---
+Title: Music-Source-Separation-Training (MSST): A Unified Framework for Training and Evaluating Music Demixing Models
+Authors: Roman Solovyev, Ilya Kiselev, Alexander Stempkovskiy, Tatiana Gabruseva
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-07-25
+Summary: Music Source Separation (MSS), the task of recovering individual sound components (stems) from a polyphonic mixture, is central to applications ranging from karaoke and remixing to audio restoration and content production. The separation quality depends on engineering decisions across the entire pipeline: model choice, training data preparation and augmentation, loss function and metrics choice, t...
+
+--- [13] 2607.19339v1 ---
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Adata+AND+abs%3Aaugmentation&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
+Authors: Yu Chen, Caorui Li, Ziyu Xiong, Yidong Wang, Mingqi Gao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-21
+Summary: Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs learn, via supervised fine-tuning and reinforcement learning, to decide whether and where to call a ...
+
+--- [14] 2607.16369v1 ---
+Title: Component-Level Ensemble Fusion for Speech and Environmental Sound Deepfake Detection
+Authors: André Runewicz, Karla Schäfer, Martin Steinebach
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-17
+Summary: This paper describes our submission to the ICME 2026 ESDD2 challenge on environment-aware speech and sound deepfake detection. The task requires five-class classification of audio clips in which speech, environmental sound, both components, or neither component may be spoofed. We propose a component-level ensemble system based on four publicly available pre-trained anti-spoofing models: XLSR-Mamba...
+
+--- [15] 2607.10790v1 ---
+Title: Data Augmentation for L2 English Speaking Assessment using TTS
+Authors: Stefano Bannò, Penny Karanasou, Mengjie Qian, Kate M. Knill, Mark J. F. Gales
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-12
+Summary: Automated assessment of second language (L2) speaking proficiency relies on large-scale annotated speech data, which remains scarce compared to widely available written learner corpora. A promising direction for addressing this imbalance is to use text-to-speech (TTS) and voice cloning to convert written L2 production into synthetic speech. However, written and spoken L2 differ fundamentally: spon...
+
+--- [16] 2607.08208v2 ---
+Title: Diarization-Guided Qwen-ASR Adaptation for Multilingual Two-Speaker Conversational Speech
+Authors: Hao Wu, RongQi Han, Zhen Wang, Wei Liang, Wei Xu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-09
+Summary: This paper describes our self-designed system for Task 1 of the MLC-SLM 2026 Challenge for multilingual two-speaker conversational speech. The system combines a modular speaker diarization front end with a challenge-adapted Qwen3-ASR-1.7B recognizer. The diarization front end performs voice activity detection, subsegment generation, CAMPPlus speaker embedding extraction, two-speaker spectral clust...
+
+--- [17] 2607.05953v1 ---
+Title: Few-Shot Class-Incremental Audio Classification Using Pseudo-Incrementally Trained Embedding Learner and Continually Updated Stochastic Classifier
+Authors: Yanxiong Li, Wenchang Cao, Jiaxin Tan, Qianqian Li, Guoqing Chen
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-07
+Summary: Few-shot Class-incremental Audio Classification (FCAC) aims to progressively recognize incremental classes with few tagged samples and meanwhile memorize base classes. To achieve satisfactory FCAC performance, the model needs to have high stability (memorizing base classes) and strong plasticity (adapting to incremental classes). In this work, we design a model which can be decoupled into two inde...
+
+--- [18] 2606.30988v3 ---
+Title: Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force
+Authors: Jaden Clark, Changhao Wang, Yihuai Gao, Seongheon Hong, Hojung Choi et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-29
+Summary: Robot manipulation often relies on sensory feedback beyond vision, particularly in contact-rich settings where force, tactile, or audio signals reveal interaction states that are not directly observable from images. However, these modalities are often hardware- and task-specific, and large-scale multisensory robot datasets remain scarce. As a result, it is impractical to pretrain policies with eve...
+
+--- [19] 2606.29544v1 ---
+Title: Proteus: Automated Adversarial Robustness Testing for Audio Deepfake Detectors
+Authors: Nicolas M. Müller, Aditya Tirumala Bukkapatnam, Zohaib Ahmed
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-28
+Summary: We present Proteus, a framework developed at Resemble AI for automated robustness testing of our audio deepfake detection system. Given a detector, Proteus systematically searches over sequences of everyday audio transformations (codec transcoding, additive noise, reverberation, dynamic-range compression, and VoIP simulation) to find combinations that fool the detector while preserving speech qual...
+
+--- [20] 2606.29031v2 ---
+Title: How to Leverage Synthetic Speech for LLM-Based ASR Systems?
+Authors: Yanis Labrak, Dairazalia Sanchez-Cortes, Sergio Burdisso, Séverin Baroudi, Shashi Kumar et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-27
+Summary: In regulated domains such as banking and healthcare, where privacy constraints make real speech costly to collect and retain, synthetic speech from modern text-to-speech (TTS) is an appealing alternative for training automatic speech recognition (ASR) without exposing sensitive customer recordings. Yet a persistent distributional gap between synthetic and real data limits how far it can replace ge...
+

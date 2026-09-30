@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Appo+AND+abs%3Avoice+AND+abs%3Aagent&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.31890v1 ---
+Title: FARE: Deep Reinforcement Learning For Fair Exposure Constrained Uncertainty Aware Financial Content Personalization
+Authors: Arundeep Chinta, Lucas Vinh Tran, Jay Katukuri
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.IR
+Published: 2026-09-25
+Summary: Content personalization systems in financial services must ensure fair exposure across diverse offerings-a requirement driven by contractual obligations and the need to prevent "rich-get-richer" dynamics where content with high click-through rate (CTR) dominates while other relevant products receive minimal visibility. Share of Voice (SOV) constraints, which guarantee each content category a targe...
+

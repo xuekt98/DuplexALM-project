@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aneural+AND+abs%3Acodec+AND+abs%3A2026&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.14474v1 ---
+Title: Can Tokens Compete? Token Representations against Supervised CNN Backbones for BirdCLEF+ 2026
+Authors: Anthony Miyaguchi, Murilo Gustineli, Adrian Cheung
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-07-16
+Summary: This paper details the DS@GT ARC team's approach to BirdCLEF+ 2026, multi-label detection of animal vocalizations in soundscapes from the Pantanal wetlands. The 2026 edition adds about an hour of labeled soundscapes, shifting the task toward supervised pipelines fit to the labeled set. First, we build a competitive supervised baseline that ensembles a frozen Perch v2 backbone, a trained HGNetV2-B0...
+

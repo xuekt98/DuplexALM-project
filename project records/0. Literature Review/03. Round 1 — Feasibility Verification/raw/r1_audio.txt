@@ -1,0 +1,156 @@
+--- [1] 2608.25177v1 ---
+Title: AudioLens: Multi-Perspective Speech Clustering with Reasoning Audio-Language Models
+Authors: Wenjun Huang, Qiaosong Chu, Tiger Shao, Pengfei Zhang, Yutong Song et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-25
+Summary: Audio clustering is a fundamental task for organizing rapidly growing speech collections, supporting applications such as conversational analysis and speech-driven discovery. However, existing methods rely on fixed acoustic similarity metrics or ASR-based text pipelines, limiting their ability to reorganize the same audio collection under different user-specified perspectives, especially when clus...
+
+--- [2] 2608.16539v1 ---
+Title: Listen, Reason, and Segment: Aligning LALMs with Editorial Judgment for Media Chapterization
+Authors: Tony Alex, Wish Suharitdamrong, Sara Atito, Armin Mustafa, Muhammad Awais et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-08-17
+Summary: Large Audio Language Models (LALMs) have made rapid progress on standardized benchmarks, yet their deployment in practical media workflows, curation, archival indexing, and content distribution remains largely unrealized. We identify automated audio chapterization, the task of segmenting continuous audio streams into thematically coherent chapters, as a demanding and commercially consequential set...
+
+--- [3] 2608.09435v1 ---
+Title: Listen, See and Track: Spatio-Temporal Audio-Visual Sound Event Reasoning for Omni-Modal Language Models
+Authors: Zhi Zeng, Cheng Zhang, Zesheng Yang, Rendong Pi, Jiaying Wu et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-10
+Summary: Understanding dynamic sound sources requires jointly determining what produces a sound, where the source is located, and how it moves over time. Yet existing audio-language models often represent clips as global acoustic events, while vision-language models lack the spatial audio cues needed to localize and track individual sources. To evaluate this missing capability, we introduce ST-OmniQA, a sp...
+
+--- [4] 2606.01485v1 ---
+Title: Perception First: A Frontier Native-Video Model with Self-Consistency for Implicit Video Question Answering
+Authors: Ali Alavi
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-05-31
+Summary: We describe our submission to the VRR Challenge @ CVPR 2026, built on the \emph{ImplicitQA} / \emph{VRR-QA} benchmark~\cite{implicitqa}: multiple-choice video question answering in which answers are deliberately \emph{not} observable in any single frame and must be inferred from spatial layout, motion, depth, viewpoint, causality, and social context across discontinuous frames of creative video. W...
+
+--- [5] 2605.01638v1 ---
+Title: Omni-Fake: Benchmarking Unified Multimodal Social Media Deepfake Detection
+Authors: Tianxiao Li, Zhenglin Huang, Haiquan Wen, Yiwei He, Xinze Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-02
+Summary: Multimodal deepfakes are proliferating on social media and threaten authenticity, information integrity, and digital forensics. Existing benchmarks are constrained by their single-modality scope, simplified manipulations, or unrealistic distributions, which limit their ability to assess real-world robustness. To address these limitations, we present Omni-Fake, a unified omni-dataset for comprehens...
+
+--- [6] 2605.00777v1 ---
+Title: LASE: Language-Adversarial Speaker Encoding for Indic Cross-Script Identity Preservation
+Authors: Venkata Pushpak Teja Menta
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-05-01
+Summary: A speaker encoder used in multilingual voice cloning should treat the same speaker identically regardless of which script the audio was uttered in. Off-the-shelf encoders do not, and the failure is accent-conditional. On a 1043-pair Western-accented voice corpus across English, Hindi, Telugu, and Tamil, WavLM-base-plus-sv loses 0.082 absolute cosine similarity when the same voice changes script an...
+
+--- [7] 2602.08355v4 ---
+Title: E-VAds: An E-commerce Short Videos Understanding Benchmark for MLLMs
+Authors: Xianjie Liu, Yiman Hu, Liang Wu, Ping Hu, Yixiong Zou et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-09
+Summary: E-commerce short videos represent a high-revenue segment of the online video industry characterized by a goal-driven format and dense multi-modal signals. Current models often struggle with these videos because existing benchmarks focus primarily on general-purpose tasks and neglect the reasoning of commercial intent. In this work, we first propose a multi-modal information density assessment fram...
+
+--- [8] 2602.05847v2 ---
+Title: OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention
+Authors: Zhangquan Chen, Jiale Tao, Ruihuang Li, Yihao Hu, Ruitao Chen et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-02-05
+Summary: While humans perceive the world through diverse modalities that operate synergistically to support a holistic understanding of their surroundings, existing omnivideo models still face substantial challenges on audio-visual understanding tasks. In this paper, we propose OmniVideo-R1, a novel reinforced framework that improves mixed-modality reasoning. OmniVideo-R1 empowers models to "think with omn...
+
+--- [9] 2511.15848v2 ---
+Title: Step-Audio-R1 Technical Report
+Authors: Fei Tian, Xiangyu Tony Zhang, Yuxin Zhang, Haoyang Zhang, Yuxin Li et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.SD
+Published: 2025-11-19
+Summary: Recent advances in reasoning models have demonstrated remarkable success in text and vision domains through extended chain-of-thought deliberation. However, a perplexing phenomenon persists in audio language models: they consistently perform better with minimal or no reasoning, raising a fundamental question - can audio intelligence truly benefit from deliberate thinking? We introduce Step-Audio-R...
+
+--- [10] 2511.14143v2 ---
+Title: SMART: Shot-Aware Multimodal Video Moment Retrieval with Audio-Enhanced MLLM
+Authors: An Yu, Weiheng Lu, Jian Li, Zhenfei Zhang, Yunhang Shen et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2025-11-18
+Summary: Video Moment Retrieval is a task in video understanding that aims to localize a specific temporal segment in an untrimmed video based on a natural language query. Despite recent progress in moment retrieval from videos using both traditional techniques and Multimodal Large Language Models (MLLM), most existing methods still rely on coarse temporal understanding and a single visual modality, limiti...
+
+--- [11] 2509.15661v1 ---
+Title: SightSound-R1: Cross-Modal Reasoning Distillation from Vision to Audio Language Models
+Authors: Qiaolin Wang, Xilin Jiang, Linyang He, Junkai Wu, Nima Mesgarani
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2025-09-19
+Summary: While large audio-language models (LALMs) have demonstrated state-of-the-art audio understanding, their reasoning capability in complex soundscapes still falls behind large vision-language models (LVLMs). Compared to the visual domain, one bottleneck is the lack of large-scale chain-of-thought audio data to teach LALM stepwise reasoning. To circumvent this data and modality gap, we present SightSo...
+
+--- [12] 2509.07526v3 ---
+Title: Competitive Audio-Language Models with Data-Efficient Single-Stage Training on Public Data
+Authors: Gokul Karthik Kumar, Rishabh Saraf, Ludovick Lepauloux, Abdul Muneer, Billel Mokeddem et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.LG
+Published: 2025-09-09
+Summary: Large language models (LLMs) have transformed NLP, yet their integration with audio remains underexplored despite audio's centrality to human communication. We introduce Falcon3-Audio, a family of Audio-Language Models (ALMs) built on instruction-tuned LLMs and Whisper encoders. Using a remarkably small amount of public audio data, less than 30K hours (5K unique), Falcon3-Audio-7B matches the best...
+
+--- [13] 2507.07966v4 ---
+Title: Scaling RL to Long Videos
+Authors: Yukang Chen, Wei Huang, Baifeng Shi, Qinghao Hu, Hanrong Ye et al.
+# Total entries: 22
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AR1+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL
+Published: 2025-07-10
+Summary: We introduce a full-stack framework that scales up reasoning in vision-language models (VLMs) to long videos, leveraging reinforcement learning. We address the unique challenges of long video reasoning by integrating three critical components: (1) a large-scale dataset, LongVideo-Reason, comprising 104K long video QA pairs with high-quality reasoning annotations across diverse domains such as spor...
+
+--- [14] 2505.20256v1 ---
+Title: Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration
+Authors: Hao Zhong, Muzhi Zhu, Zongze Du, Zheng Huang, Canyu Zhao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-05-26
+Summary: Long-horizon video-audio reasoning and fine-grained pixel understanding impose conflicting requirements on omnimodal models: dense temporal coverage demands many low-resolution frames, whereas precise grounding calls for high-resolution inputs. We tackle this trade-off with a two-system architecture: a Global Reasoning System selects informative keyframes and rewrites the task at low spatial cost,...
+
+--- [15] 2505.09439v3 ---
+Title: Omni-R1: Do You Really Need Audio to Fine-Tune Your Audio LLM?
+Authors: Andrew Rouditchenko, Saurabhchand Bhati, Edson Araujo, Samuel Thomas, Hilde Kuehne et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-05-14
+Summary: We propose Omni-R1 which fine-tunes a recent multi-modal LLM, Qwen2.5-Omni, on an audio question answering dataset with the reinforcement learning method GRPO. This leads to new State-of-the-Art performance on the recent MMAU and MMAR benchmarks. Omni-R1 achieves the highest accuracies on the sounds, music, speech, and overall average categories, both on the Test-mini and Test-full splits. To unde...
+
+--- [16] 2505.04623v1 ---
+Title: EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning
+Authors: Zhenghao Xing, Xiaowei Hu, Chi-Wing Fu, Wenhai Wang, Jifeng Dai et al.
+Primary cat: cs.CV | All cats: cs.CV, eess.AS
+Published: 2025-05-07
+Summary: Multimodal large language models (MLLMs) have advanced perception across text, vision, and audio, yet they often struggle with structured cross-modal reasoning, particularly when integrating audio and visual signals. We introduce EchoInk-R1, a reinforcement learning framework that enhances such reasoning in MLLMs. Built upon the Qwen2.5-Omni-7B foundation and optimized with Group Relative Policy O...
+
+--- [17] 2504.15900v3 ---
+Title: SARI: Structured Audio Reasoning via Curriculum-Guided Reinforcement Learning
+Authors: Cheng Wen, Tingwei Guo, Shuaijiang Zhao, Wei Zou, Xiangang Li
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-04-22
+Summary: Recent work shows that reinforcement learning(RL) can markedly sharpen the reasoning ability of large language models (LLMs) by prompting them to "think before answering." Yet whether and how these gains transfer to audio-language reasoning remains largely unexplored. We extend the Group-Relative Policy Optimization (GRPO) framework from DeepSeek-R1 to a Large Audio-Language Model (LALM), and cons...
+
+--- [18] 2503.11197v4 ---
+Title: Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering
+Authors: Gang Li, Jizhong Liu, Heinrich Dinkel, Yadong Niu, Junbo Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2025-03-14
+Summary: Recently, reinforcement learning (RL) has been shown to greatly enhance the reasoning capabilities of large language models (LLMs), and RL-based approaches have been progressively applied to visual multimodal tasks. However, the audio modality has largely been overlooked in these developments. Thus, we conduct a series of RL explorations in audio understanding and reasoning, specifically focusing ...
+
+--- [19] 2503.01743v2 ---
+Title: Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs
+Authors:  Microsoft,  :, Abdelrahman Abouelenin, Atabak Ashfaq, Adam Atkinson et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG
+Published: 2025-03-03
+Summary: We introduce Phi-4-Mini and Phi-4-Multimodal, compact yet highly capable language and multimodal models. Phi-4-Mini is a 3.8-billion-parameter language model trained on high-quality web and synthetic data, significantly outperforming recent open-source models of similar size and matching the performance of models twice its size on math and coding tasks requiring complex reasoning. This achievement...
+
+--- [20] 2501.18648v2 ---
+Title: Multimodal Large Language Models for Image, Text, and Speech Data Augmentation: A Survey
+Authors: Ranjan Sapkota, Shaina Raza, Maged Shoman, Achyut Paudel, Manoj Karkee
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-01-29
+Summary: In the past five years, research has shifted from traditional Machine Learning (ML) and Deep Learning (DL) approaches to leveraging Large Language Models (LLMs) , including multimodality, for data augmentation to enhance generalization, and combat overfitting in training deep convolutional neural networks. However, while existing surveys predominantly focus on ML and DL techniques or limited modal...
+
+--- [21] 2207.04156v2 ---
+Title: Automated Audio Captioning and Language-Based Audio Retrieval
+Authors: Clive Gomes, Hyejin Park, Patrick Kollman, Yi Song, Iffanice Houndayi et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.IR, eess.AS
+Published: 2022-07-08
+Summary: This project involved participation in the DCASE 2022 Competition (Task 6) which had two subtasks: (1) Automated Audio Captioning and (2) Language-Based Audio Retrieval. The first subtask involved the generation of a textual description for audio samples, while the goal of the second was to find audio samples within a fixed dataset that match a given description. For both subtasks, the Clotho data...
+
+--- [22] 1509.09113v1 ---
+Title: Processing of acoustical signals via a wavelet-based analysis
+Authors: Evangelos Matsinos
+Primary cat: cs.SD | All cats: cs.SD, physics.data-an
+Published: 2015-09-30
+Summary: In the present paper, details are given on the implementation of a wavelet-based analysis tailored to the processing of acoustical signals. The family of the suitable wavelets (`Reimann wavelets') are obtained in the time domain from a Fourier transform, extracted in Ref.~\cite{r1} after invoking theoretical principles and time-frequency localisation constraints. A scheme is set forth to determine...
+

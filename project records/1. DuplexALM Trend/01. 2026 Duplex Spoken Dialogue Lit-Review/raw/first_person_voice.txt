@@ -1,0 +1,79 @@
+# Total entries: 11
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Afirst-person+AND+abs%3Avoice+AND+abs%3Aagent&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.04438v2 ---
+Title: ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory
+Authors: Shidu Ren, Yunze Liu, Xing Liu, Chi-Hao Wu, Enmin Zhou et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Long-horizon multimodal agents should remember not only what happened but also who participated. This capability depends on linking recurring faces, voices, names, person-associated objects, events, and social relations to consistent identities over time. Existing long-video and multimodal-agent benchmarks measure broad memory question answering, but they do not isolate the ability to maintain rec...
+
+--- [2] 2606.25632v1 ---
+Title: Staying In Character: Perspective-Bounded Memory For Book-Based Role-Playing Agents
+Authors: Xushuo Tang, Junhe Zhang, Zihan Yang, Yifu Tang, Sichao Li et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-24
+Summary: Recent LLM role-playing systems build character agents from novels by extracting characters, scenes, and relations. Yet long-narrative role-playing suffers from two failures: Factual Overreach, where shared retrieval or parametric memory lets a character use facts outside its perspective, and Stylistic Monotony, where profile descriptions flatten a character into a fixed voice. To address these fa...
+
+--- [3] 2605.15044v1 ---
+Title: SpeakerLLM: A Speaker-Specialized Audio-LLM for Speaker Understanding and Verification Reasoning
+Authors: KiHyun Nam, Jungwoo Heo, Siu Bae, Ha-Jin Yu, Joon Son Chung
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS
+Published: 2026-05-14
+Summary: As audio-first agents become increasingly common in physical AI, conversational robots, and screenless wearables, audio large language models (audio-LLMs) must integrate speaker-specific understanding to support user authorization, personalization, and context-aware interaction. This requires modeling who is speaking, how the voice sounds, and how recording conditions affect speaker cues. Conventi...
+
+--- [4] 2605.14628v1 ---
+Title: SmartWalkCoach: An AI Companion for End-to-End Walking Guidance, Motivation, and Reflection
+Authors: Xianzhe Zhang, Mingxuan Hu, Bufan Xue, Erick Purwanto, Thomas J Selig et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-05-14
+Summary: We present SmartWalkCoach, a mobile AI companion that supports the full walking journey: from pre-walk planning to in-walk guidance through to post-walk reflection. Addressing a gap between map navigation and motivational coaching, SmartWalkCoach orchestrates three lightweight agents: (1) GeographyAgent for conversational route curation from nearby points of interest and user preferences while del...
+
+--- [5] 2602.10535v3 ---
+Title: Exploring the Interplay Between Voice, Personality, and Gender in Human-Agent Interactions
+Authors: Kai Alexander Hackney, Lucas Guarenti Zangari, Jhonathan Sora-Cardenas, Emmanuel Munoz, Sterling R. Kalogeras et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-02-11
+Summary: To foster effective human-agent interactions, designers must understand how vocal cues influence the perception of agent personality and the role of user-agent alignment in shaping these perceptions. In this work, we examine whether users can perceive extroversion in voice-only artificial agents and how perceived personality relates to user-agent synchrony. We conducted a study with 388 participan...
+
+--- [6] 2601.20194v1 ---
+Title: An Autonomous Agent Framework for Feature-Label Extraction from Device Dialogues and Automatic Multi-Dimensional Device Hosting Planning Based on Large Language Models
+Authors: Huichao Men, Yizhen Hu, Yu Gao, Xiaofeng Mou, Yi Xu et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-01-28
+Summary: With the deep integration of artificial intelligence and smart home technologies, the intelligent transformation of traditional household appliances has become an inevitable trend. This paper presents AirAgent--an LLM-driven autonomous agent framework designed for home air systems. Leveraging a voice-based dialogue interface, AirAgent autonomously and personally manages indoor air quality through ...
+
+--- [7] 2509.11914v2 ---
+Title: EgoMem: Lifelong Memory Agent for Full-duplex Omnimodal Models
+Authors: Yiqun Yao, Naitong Yu, Xiang Li, Xin Jiang, Xuezhi Fang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2025-09-15
+Summary: We introduce EgoMem, the first lifelong memory agent tailored for full-duplex models that process real-time omnimodal streams. EgoMem enables real-time models to recognize multiple users directly from raw audiovisual streams, to provide personalized response, and to maintain long-term knowledge of users' facts, preferences, and social relationships extracted from audiovisual history. EgoMem operat...
+
+--- [8] 2505.20277v2 ---
+Title: OmniCharacter: Towards Immersive Role-Playing Agents with Seamless Speech-Language Personality Interaction
+Authors: Haonan Zhang, Run Luo, Xiong Liu, Yuchuan Wu, Ting-En Lin et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2025-05-26
+Summary: Role-Playing Agents (RPAs), benefiting from large language models, is an emerging interactive AI system that simulates roles or characters with diverse personalities. However, existing methods primarily focus on mimicking dialogues among roles in textual form, neglecting the role's voice traits (e.g., voice style and emotions) as playing a crucial effect in interaction, which tends to be more imme...
+
+--- [9] 2407.00476v3 ---
+Title: Large Language Models for Power Scheduling: A User-Centric Approach
+Authors: Thomas Mongaillard, Samson Lasaulce, Othman Hicheur, Chao Zhang, Lina Bariah et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.SY
+Published: 2024-06-29
+Summary: While traditional optimization and scheduling schemes are designed to meet fixed, predefined system requirements, future systems are moving toward user-driven approaches and personalized services, aiming to achieve high quality-of-experience (QoE) and flexibility. This challenge is particularly pronounced in wireless and digitalized energy networks, where users' requirements have largely not been ...
+
+--- [10] 2303.13548v1 ---
+Title: Hey Dona! Can you help me with student course registration?
+Authors: Vishesh Kalvakurthi, Aparna S. Varde, John Jenq
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.LG
+Published: 2023-03-21
+Summary: In this paper, we present a demo of an intelligent personal agent called Hey Dona (or just Dona) with virtual voice assistance in student course registration. It is a deployed project in the theme of AI for education. In this digital age with a myriad of smart devices, users often delegate tasks to agents. While pointing and clicking supersedes the erstwhile command-typing, modern devices allow us...
+
+--- [11] 1804.04649v1 ---
+Title: Peer to Peer Hate: Hate Speech Instigators and Their Targets
+Authors: Mai ElSherief, Shirin Nilizadeh, Dana Nguyen, Giovanni Vigna, Elizabeth Belding
+Primary cat: cs.SI | All cats: cs.SI, cs.CY
+Published: 2018-04-12
+Summary: While social media has become an empowering agent to individual voices and freedom of expression, it also facilitates anti-social behaviors including online harassment, cyberbullying, and hate speech. In this paper, we present the first comparative study of hate speech instigators and target users on Twitter. Through a multi-step classification process, we curate a comprehensive hate speech datase...
+

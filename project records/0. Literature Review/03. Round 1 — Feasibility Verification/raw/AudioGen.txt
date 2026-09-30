@@ -1,0 +1,51 @@
+# Total entries: 7
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AAudioGen&max_results=15&sortBy=submittedDate&sortOrder=descending
+--- [1] 2605.27838v1 ---
+Title: Dasheng AudioGen: A Unified Model for Generating Coherent Audio Scenes from Text
+Authors: Jiahao Mei, Heinrich Dinkel, Yadong Niu, Xingwei Sun, Gang Li et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-05-27
+Summary: Audio generation has long been fragmented, with speech, music, and sound effects produced by domain-specific models that fail to jointly generate coherent audio scenes from a single description. The key obstacles are insufficient fine-grained supervision for real-world mixed audio and limited acoustic representations for modeling concurrent audio components. We present Dasheng AudioGen, a unified ...
+
+--- [2] 2508.00733v4 ---
+Title: AudioGen-Omni: A Unified Multimodal Diffusion Transformer for Video-Synchronized Audio, Speech, and Song Generation
+Authors: Le Wang, Jun Wang, Chunyu Qiang, Feng Deng, Chen Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.MM, eess.AS
+Published: 2025-08-01
+Summary: We present AudioGen-Omni - a unified approach based on multimodal diffusion transformers (MMDit), capable of generating high-fidelity audio, speech, and song coherently synchronized with the input video. AudioGen-Omni introduces a novel joint training paradigm that seamlessly integrates large-scale video-text-audio corpora, enabling a model capable of generating semantically rich, acoustically div...
+
+--- [3] 2507.09834v1 ---
+Title: Generative Audio Language Modeling with Continuous-valued Tokens and Masked Next-Token Prediction
+Authors: Shu-wen Yang, Byeonggeun Kim, Kuan-Po Huang, Qingming Tang, Huy Phan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CV, cs.SD
+Published: 2025-07-14
+Summary: Autoregressive next-token prediction with the Transformer decoder has become a de facto standard in large language models (LLMs), achieving remarkable success in Natural Language Processing (NLP) at scale. Extending this paradigm to audio poses unique challenges due to its inherently continuous nature. We research audio generation with a causal language model (LM) without discrete tokens. We lever...
+
+--- [4] 2409.09381v1 ---
+Title: Text Prompt is Not Enough: Sound Event Enhanced Prompt Adapter for Target Style Audio Generation
+Authors: Chenxu Xiong, Ruibo Fu, Shuchen Shi, Zhengqi Wen, Jianhua Tao et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2024-09-14
+Summary: Current mainstream audio generation methods primarily rely on simple text prompts, often failing to capture the nuanced details necessary for multi-style audio generation. To address this limitation, the Sound Event Enhanced Prompt Adapter is proposed. Unlike traditional static global style transfer, this method extracts style embedding through cross-attention between text and reference audio for ...
+
+--- [5] 2406.04683v1 ---
+Title: PPPR: Portable Plug-in Prompt Refiner for Text to Audio Generation
+Authors: Shuchen Shi, Ruibo Fu, Zhengqi Wen, Jianhua Tao, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-06-07
+Summary: Text-to-Audio (TTA) aims to generate audio that corresponds to the given text description, playing a crucial role in media production. The text descriptions in TTA datasets lack rich variations and diversity, resulting in a drop in TTA model performance when faced with complex text. To address this issue, we propose a method called Portable Plug-in Prompt Refiner, which utilizes rich knowledge abo...
+
+--- [6] 2310.18099v1 ---
+Title: Enabling Acoustic Audience Feedback in Large Virtual Events
+Authors: Tamay Aykut, Markus Hofbauer, Christopher Kuhn, Eckehard Steinbach, Bernd Girod
+Primary cat: cs.MM | All cats: cs.MM, cs.SD, eess.AS
+Published: 2023-10-27
+Summary: The COVID-19 pandemic shifted many events in our daily lives into the virtual domain. While virtual conference systems provide an alternative to physical meetings, larger events require a muted audience to avoid an accumulation of background noise and distorted audio. However, performing artists strongly rely on the feedback of their audience. We propose a concept for a virtual audience framework ...
+
+--- [7] 2209.15352v2 ---
+Title: AudioGen: Textually Guided Audio Generation
+Authors: Felix Kreuk, Gabriel Synnaeve, Adam Polyak, Uriel Singer, Alexandre Défossez et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2022-09-30
+Summary: We tackle the problem of generating audio samples conditioned on descriptive text captions. In this work, we propose AaudioGen, an auto-regressive generative model that generates audio samples conditioned on text inputs. AudioGen operates on a learnt discrete audio representation. The task of text-to-audio generation poses multiple challenges. Due to the way audio travels through a medium, differe...
+

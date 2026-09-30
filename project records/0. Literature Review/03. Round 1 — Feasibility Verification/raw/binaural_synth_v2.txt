@@ -1,0 +1,177 @@
+--- [1] 2609.06837v1 ---
+Title: BinauralVAE: Spatial Audio Reconstruction For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-06
+Summary: Embodied artificial intelligence has historically very much relied on visual perception, leading to a proliferation of multiple vision-centric world models. However, this reliance fails to capture spatial understanding in its entirety and can even present vulnerabilities in environments with visual occlusions, low-light conditions, or blackouts-scenarios, where acoustic information becomes a criti...
+
+--- [2] 2609.00966v1 ---
+Title: ABSE-NET: A Lightweight Neural Model for Active Binaural Speech Enhancement in Open-Fit Hearing Aids
+Authors: De Hu, Xue Du, Qingying Zhao, Qintuya Si
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-01
+Summary: Open-fit hearing aids have attracted growing attention due to their superior wearing comfort. However, the open-fit design inevitably causes acoustic leakage into the ear canal, degrading the performance of existing binaural speech enhancement (BSE). To this end, we propose ABSE-NET, an active BSE framework integrating active noise control (ANC) with BSE to jointly enhance target speech and suppre...
+
+--- [3] 2608.21075v1 ---
+Title: AudioWorldSim: Realistic Binaural Audio Datasets For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-08-21
+Summary: This technical report presents AudioWorldSim, an open-source platform designed to generate realistic binaural audio datasets and advance research in audio-based machine learning, particularly world models. Built as a custom extension of Meta's SoundSpaces 2.0 platform, AudioWorldSim leverages their comprehensive acoustics framework, but focuses on the automatic rollout of random agent navigations,...
+
+--- [4] 2608.16299v1 ---
+Title: A Novel Binaural Cue Preservation Loss for DNN-Based Binaural Speech Enhancement
+Authors: Jayteerth Amble, Thomas Haubner, Hendrik Schröter, Christoph Hoog Antink, Henning Puder
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-17
+Summary: Binaural speech enhancement for hearing aids aims to reduce noise while preserving the interaural cues needed for spatial localization. Although deep neural network-based methods achieve strong noise reduction, they often distort the rela- tionship between the left and right signals. In this paper, we propose two novel binaural cue preservation losses. First, a binaural reconstruction error loss t...
+
+--- [5] 2608.16240v1 ---
+Title: Geometry-adaptive Ambisonic encoding for sparse microphone arrays of variable topology using physics-informed diffusion
+Authors: Xiang Zhou, Zhengqiao Zhao, Zhengding Luo, Wen Zhang
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-17
+Summary: Ambisonics delivers compact scene based spatial audio representation, yet higher order Ambisonic encoding poses difficulties for wearables and embedded hardware. Their microphone arrays are often sparse, irregular, and constrained by device specific boundary conditions. These factors make the spherical-harmonic (SH) domain encoding ill conditioned: inverse filtering amplifies noise, while determin...
+
+--- [6] 2608.14097v2 ---
+Title: Ambisonics Encoding of Room Impulse Responses using a Device-Agnostic Diffusion Model
+Authors: Eloi Moliner, Christoph Hold, Juan Azcarreta Ortiz, Sebastian Prepelita, Ishwarya Ananthabhotla et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-14
+Summary: We address the problem of encoding room impulse responses (RIRs) into high-order Ambisonics (HOA) representations from arbitrary and potentially insufficient or incomplete microphone array measurements. This task is fundamentally ill-posed for microphone arrays with limited spatial capture capabilities, such as irregular or sparse arrays, as classical linear methods fail to reconstruct high-order ...
+
+--- [7] 2608.10106v1 ---
+Title: BiTSE: Binaural Target Speaker Extraction in Noisy Multi-Talker Environments for AR Glass Arrays
+Authors: Selani A. Indrapala, Wageesha N. Manamperi
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-10
+Summary: Isolating a desired speech signal in noisy multi-talker conversational scenarios is a key requirement for augmented reality (AR) wearable microphone array systems. In this work, a binaural target speaker extraction (TSE) framework, termed BiTSE, is proposed. It leverages both spatial and temporal cues, specifically the direction-of-arrival (DoA) of the target speaker and corresponding voice activi...
+
+--- [8] 2607.25919v1 ---
+Title: Spacing Out: On the Reliability of Binaural Music Source Separation Metrics
+Authors: Richa Namballa, Magdalena Fuentes
+Primary cat: eess.AS | All cats: eess.AS, cs.SD, eess.SP
+Published: 2026-07-28
+Summary: Despite the rising popularity of immersive audio, binaural music remains underexplored in music information retrieval (MIR), particularly regarding the task of music source separation (MSS). While existing stereo MSS models can process binaural audio, they often degrade the spatial quality of the separated stems and undermine listener immersion. Through a perceptual study comparing binaural and st...
+
+--- [9] 2607.15265v1 ---
+Title: SceneBind: Binding What and Where Across Vision, Audio and Language
+Authors: Mingfei Chen, Zijun Cui, Ruoke Zhang, Hyeonggon Ryu, Eli Shlizerman
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM, cs.SD
+Published: 2026-07-16
+Summary: We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at instance-level semantics (i.e., what is present), but often lack explicit spatial structure (i.e., where it is). SceneBind addresses this gap by representing each scene as a semantic-spatial entity, combinin...
+
+--- [10] 2607.10368v2 ---
+Title: Perceived Annoyance in Multi-source Electric Vehicle AVAS Environments
+Authors: Berkay Kullukcu, Jonas Krautwurm, Serkan Atamer, Ercan Altinsoy
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-07-11
+Summary: The increasing usage of electric vehicles in urban environments has resulted in a widespread presence of AVAS sounds. While individual vehicle sound design and testing is a common approach, real-world traffic scenarios often involve the simultaneous presence of multiple vehicles. Their combined presence may lead to changes in perception, compared to when they are presented individually, specifical...
+
+--- [11] 2607.08645v1 ---
+Title: It Takes Few to TANGO: A Quantized Distributed Model for Binaural Speech Enhancement
+Authors: Zahra Benslimane, Pierre Chouteau, Martyna Poreba, Fabrice Auzanneau, Michal Szczepanski et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-09
+Summary: Neural network-based multichannel speech enhancement systems achieve strong enhancement performance, but their computational and memory requirements limit deployment on resource-constrained devices. This paper investigates low-precision inference for TANGO, a hybrid distributed binaural speech enhancement system combining neural mask estimation with spatial filtering. We evaluate post-training qua...
+
+--- [12] 2607.03920v2 ---
+Title: LH-AVLN: A Benchmark for Long-Horizon Audio-Visual-Language Navigation
+Authors: Rufeng Chen, Yue Chang, Zili Shao, Zhaofan Zhang, Li Chen et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-04
+Summary: Embodied navigation is moving toward long-horizon missions, yet existing long-horizon benchmarks are largely acoustically silent, and audio-visual navigation tasks typically focus on a single goal. We introduce LH-AVLN, a benchmark for Long-Horizon Audio-Visual-Language Navigation that combines multi-goal mission execution, heterogeneous goal specifications, and persistent spatialized acoustic cue...
+
+--- [13] 2607.03890v4 ---
+Title: Microsecond-precision sound localization emerges from slow equilibrium dynamics
+Authors: Toshio Irino
+Primary cat: q-bio.NC | All cats: q-bio.NC
+Published: 2026-07-04
+Summary: Precise sound localization relies on microsecond sensitivity to interaural time differences (ITDs), yet binaural perception exhibits sluggish tracking of dynamic acoustic cues. How such extraordinary temporal precision arises despite comparatively slow neural responses remains unresolved. This study proposes that ITD is represented as a stable equilibrium of neural population dynamics rather than ...
+
+--- [14] 2607.01834v1 ---
+Title: RT-Tango: Real-Time Distributed Binaural Speech Enhancement for Low-Power Hearing Aid Devices
+Authors: Z. Benslimane, P. Chouteau, M. Poreba, F. Auzanneau, M. Szczepanski et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-02
+Summary: Real-time binaural speech enhancement is constrained by latency, computational cost, and inter-device communication, yet existing efficient solutions predominantly address single-channel settings. In this paper, we introduce RT-Tango, a real-time distributed binaural speech enhancement framework designed for streaming on resource-constrained platforms and specifically for hearing aids. RT-Tango re...
+
+--- [15] 2606.26342v1 ---
+Title: A Large-Scale Database and Predictive Model of Listener-Rated Ease of Speech Understanding in Commercial Hearing Aids
+Authors: Andrew Sabin, Steve Taddei, Abram Bailey
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-24
+Summary: HearAdvisor aims to provide hearing-aid consumers with audio-performance metrics and recordings that reflect real listening experience. For speech-related metrics, HearAdvisor has historically used HASPIv2, a metric designed to predict objective intelligibility and validated primarily under simulated distortions. Its relationship to consumer-rated ease of understanding for commercial hearing aids ...
+
+--- [16] 2606.14820v1 ---
+Title: Spectro-Temporal Interference Confounds Phase Encoding in Spatial Audio Foundation Models
+Authors: Yuxuan Chen, Haoyuan Yu, Peize He
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-06-12
+Summary: Recent spatial self supervised audio models achieve high performance on localization tasks, raising questions about their encoding of microsecond interaural phase fine structures. We propose a psychoacoustic benchmark based on the binaural masking level difference to evaluate this. Using an equalization cancellation baseline and a GCC PHAT positive control we evaluate nine frozen audio models span...
+
+--- [17] 2606.06795v1 ---
+Title: BiEAR: A Human Auditory-Inspired Adaptive Binaural Front-end for Multi-Speaker Localisation and Distance Estimation
+Authors: Hanyu Meng, Eliathamby Ambikairajah, Vidhyasaharan Sethu, Qiquan Zhang, Haizhou Li
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-05
+Summary: We present BiEAR, a human auditory-inspired adaptive binaural front-end for multi-speaker localisation and distance estimation. Inspired by medial olivocochlear (MOC) feedback in human hearing, BiEAR uses a neural controller to adaptively adjust the frequency selectivity of a binaural auditory filterbank during inference. This yields time-frequency adaptive representations for ears, enabling the m...
+
+--- [18] 2605.30469v1 ---
+Title: 3DAE: Binaural Quality Assessment for Audio Novel View Synthesis with Spatial Maps and Benchmark
+Authors: Jialu Xu, Yifan Zhou
+Primary cat: cs.SD | All cats: cs.SD, cs.CV
+Published: 2026-05-28
+Summary: 3D audio and novel-view acoustic synthesis models are usually evaluated with global metrics.However, global metrics often hide where and why binaural prediction fails. We propose a full-reference diagnostic framework that uses time-frequency audio error maps for magnitude, ILD, IPD, temporal alignment, loudness, and high-frequency failures, forming a 3D Audio Error Map (3DAE Map) for visual inspec...
+
+--- [19] 2605.23619v1 ---
+Title: Frame-Aligned Fusion of Canary and WavLM for Non-Intrusive Intelligibility Prediction of Hearing-Aid-Processed Speech
+Authors: Kazushi Nakazawa
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-05-22
+Summary: Non-intrusive intelligibility prediction estimates how well hearing-impaired listeners understand hearing-aid-processed speech without a clean reference. We study this task in the 3rd Clarity Prediction Challenge using two frozen speech encoders, Canary and WavLM. The central question is not only whether complementary pretrained representations should be combined, but where their interaction shoul...
+
+--- [20] 2604.11179v1 ---
+Title: Direction-Preserving MIMO Speech Enhancement Using a Neural Covariance Estimator
+Authors: Thomas Deppisch
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-13
+Summary: Multichannel speech enhancement is widely used as a front-end in microphone array processing systems. While most existing approaches produce a single enhanced signal, direction-preserving multiple-input multiple-output (MIMO) methods instead aim to provide enhanced multichannel signals that retain directional properties, enabling downstream applications such as beamforming, binaural rendering, and...
+
+--- [21] 2604.08967v1 ---
+Title: AudioGS: Spectrogram-Based Audio Gaussian Splatting for Sound Field Reconstruction
+Authors: Chunhao Bi, Houqiang Zhong, Zhixin Xu, Li Song, Zhengxue Cheng
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-04-10
+Summary: Spatial audio is fundamental to immersive virtual experiences, yet synthesizing high-fidelity binaural audio from sparse observations remains a significant challenge. Existing methods typically rely on implicit neural representations conditioned on visual priors, which often struggle to capture fine-grained acoustic structures. Inspired by 3D Gaussian Splatting (3DGS), we introduce AudioGS, a nove...
+
+--- [22] 2604.05007v1 ---
+Title: Generalizable Audio-Visual Navigation via Binaural Difference Attention and Action Transition Prediction
+Authors: Jia Li, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-06
+Summary: In Audio-Visual Navigation (AVN), agents must locate sound sources in unseen 3D environments using visual and auditory cues. However, existing methods often struggle with generalization in unseen scenarios, as they tend to overfit to semantic sound features and specific training environments. To address these challenges, we propose the \textbf{Binaural Difference Attention with Action Transition P...
+
+--- [23] 2604.02391v1 ---
+Title: Reliability-Aware Geometric Fusion for Robust Audio-Visual Navigation
+Authors: Teng Liu, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-02
+Summary: Audio-Visual Navigation (AVN) requires an embodied agent to navigate toward a sound source by utilizing both vision and binaural audio. A core challenge arises in complex acoustic environments, where binaural cues become intermittently unreliable, particularly when generalizing to previously unheard sound categories. To address this, we propose RAVN (Reliability-Aware Audio-Visual Navigation), a f...
+
+--- [24] 2603.29820v1 ---
+Title: SIREN: Spatially-Informed Reconstruction of Binaural Audio with Vision
+Authors: Mingyeong Song, Seoyeon Ko, Junhyug Noh
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-31
+Summary: Binaural audio delivers spatial cues essential for immersion, yet most consumer videos are monaural due to capture constraints. We introduce SIREN, a visually guided mono to binaural framework that explicitly predicts left and right channels. A ViT-based encoder learns dual-head self-attention to produce a shared scene map and end-to-end L/R attention, replacing hand-crafted masks. A soft, anneale...
+
+--- [25] 2603.27998v2 ---
+Title: HRIR-Former: Grid-Free Time-Domain Reconstruction of Head-Related Impulse Responses with a Spatially Encoded Transformer
+Authors: Shaoheng Xu, Chunyi Sun, Jihui Zhang, Amy Bastine, Prasanga N. Samarasinghe et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.LG
+Published: 2026-03-30
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Abinaural&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Individualized head-related impulse responses (HRIRs) enable binaural rendering, but dense per-listener measurements are costly. We address HRIR spatial up-sampling from sparse per-listener measurements: given a few measured HRIRs for a listener, predict HRIRs at unmeasured target directions. Prior learning methods often work in the frequency domain, rely on minimum-phase assumptions or separate t...
+

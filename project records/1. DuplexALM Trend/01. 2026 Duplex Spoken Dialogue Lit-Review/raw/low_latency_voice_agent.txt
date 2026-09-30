@@ -1,0 +1,163 @@
+--- [1] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [2] 2609.30774v1 ---
+Title: Dialogue-Based Streaming Audio-Visual Target Speaker Extraction with Predictive Dialogue Information
+Authors: Shuhan Zhang, Wenxuan Wu, Haizhou Li
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-25
+Summary: In face-to-face, real-time communication, a talking agent must track the target speaker through natural pauses, turn-taking, and backchannels, often amid background cross-talk. Most target speaker extraction (TSE) studies, however, rely on simulated mixtures with full or sparse overlap and ignore the turn-taking of real conversations. We therefore introduce, to our knowledge, the first benchmark f...
+
+--- [3] 2609.29837v2 ---
+Title: PUBG Ally: A Conversational Embodied Agent as an AI Teammate
+Authors:  PUBG Ally Team, Irene Chen, Youngin Cho, Seungjun Chung, Jimin Hong et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.HC
+Published: 2026-09-24
+Summary: We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate. Building such a teammate requires combining two difficult capabilities: it must perceive and respond to a constantly changing game world under strict latency constraints while interacting naturally with players, keeping its speech synchronized...
+
+--- [4] 2609.19334v2 ---
+Title: A frontend-backend architecture for tool calls in full-duplex speech models
+Authors: Ke Hu, Slyne Deng, Chen Chen, Elena Rastorgueva, Edresson Casanova et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-16
+Summary: Full-duplex speech-to-speech (S2S) models provide natural, low-latency conversational interaction and would benefit from the ability to use external tools and complete voice-agent tasks. We propose a frontend-backend architecture where a duplex speech-to-text frontend learns to emit a delegation token and forwards streaming ASR transcripts to a text-based backend LLM for tool calls. Tool-call resu...
+
+--- [5] 2609.14991v1 ---
+Title: Typhoon ASR Streaming: Steerable Low-Latency Thai Speech Recognition with Real-Time Shallow Fusion
+Authors: Warit Sirichotedumrong, Tanawin Samutsin, Shah Faisal Wani, Sittipong Sripaisarnmongkol, Kunat Pipatanakul
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-14
+Summary: Open Thai automatic speech recognition (ASR) is dominated by offline, Whisper-based models that read the whole utterance before transcribing, ruling out low-latency uses such as live captioning and voice agents. We present a deployable system for streaming Thai ASR that lets a user steer its vocabulary at decode time, without retraining. A widely used open Thai model, trained with full context, co...
+
+--- [6] 2609.11231v2 ---
+Title: A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and Key Technologies
+Authors: Tianxiang Zhou
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.HC
+Published: 2026-09-10
+Summary: This paper presents SurgicalRoomAgent, a voice-interactive multi-agent system for smart operating rooms based on large language models (LLMs). The system achieves natural language understanding, device control, intraoperative recording, and surgical report generation through a layered architecture comprising a voice interaction pipeline (wake, ASR, turn detection, agent reasoning, TTS) and an agen...
+
+--- [7] 2609.08672v2 ---
+Title: X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR
+Authors: Zhiwei Lin, Kaiqi Fu, Rime Wen, Zehan Liu, Shawn Qin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-08
+Summary: Streaming automatic speech recognition (ASR) for real-time voice agents and full-duplex dialogue must provide accurate partial transcripts with low commit latency. Existing systems commonly use a fixed chunk size, look-ahead, or target delay, or encourage emissions near estimated acoustic boundaries. These approaches do not directly optimize how much additional context to use at each output positi...
+
+--- [8] 2609.02812v2 ---
+Title: VibeVoice-ASR-Streaming Technical Report
+Authors: Yujie Tu, Zhiliang Peng, Jianwei Yu, Li Dong, Songchen Xu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-02
+Summary: Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks. Recently, end-to-end models such as VibeVoice-ASR have unified the two tasks within a single model. However, existing unified models still mainly support offline recognition, making it difficult to meet the low-latency requirements of real-time voice assistants and agents. To tackle this issue, we...
+
+--- [9] 2609.29528v1 ---
+Title: A Corpus of Real Scam- and Spam-Call Conversations from an Active Voice-Agent Honeypot
+Authors: Ethan Traister, Dennis Tsang Ng, Siyu Zhang, Huaiyu Guo, Tommy Duong et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.CL, cs.LG
+Published: 2026-08-25
+Summary: Real conversations between fraudsters and their targets are among the most informative artifacts for studying telephone scams, yet also the scarcest: passive honeypots overwhelmingly capture automated messages and hang-ups, large-scale studies characterize call metadata rather than dialogue, and manual scam-baiting does not scale. We present a dataset of real scam-call conversations collected by a...
+
+--- [10] 2608.06027v1 ---
+Title: FormBharo: Designing and Evaluating a Voice Agent for Conversational Form Filling in Rural India
+Authors: Aman Dalmia, Sanskriti Midha, Jigar Doshi
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC
+Published: 2026-08-06
+Summary: In India, almost every social benefit starts with a form, yet the people who need these benefits most are often unable to read or write. Reaching them requires a spoken conversation. Today that work falls to frontline health workers who enroll beneficiaries one at a time, a poor use of stretched capacity. We built FormBharo ("fill the form" in Hindi), a voice agent that fills a structured form ove...
+
+--- [11] 2605.28272v1 ---
+Title: EchoAvatar: Real-time Generative Avatar Animation from Audio Streams
+Authors: Bohong Chen, Yumeng Li, Yinglin Xu, Youyi Zheng, Yanlin Weng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-27
+Summary: Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively. In this paper, we introduce a novel framework designed to ...
+
+--- [12] 2605.13360v2 ---
+Title: Speculative Interaction Agents: Building Real-Time Agents with Asynchronous I/O and Speculative Tool Calling
+Authors: Coleman Hooper, Minwoo Kang, Suhong Moon, Nicholas Lee, Eric Wen et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-05-13
+Summary: There is a growing demand for agentic AI technologies for a range of downstream applications like customer service and personal assistants. For applications where the agent needs to interact with a person, real-time low-latency responsiveness is required; for example, with voice-controlled applications, under 1 second of latency is typically required for the interaction to feel seamless. However, ...
+
+--- [13] 2605.09272v1 ---
+Title: Towards Conversational Medical AI with Eyes, Ears and a Voice
+# Total entries: 23
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Alow-latency+AND+abs%3Avoice+AND+abs%3Aagent&max_results=25&sortBy=submittedDate&sortOrder=descending
+Authors: Meet Shah, Jason Gusdorf, Anil Palepu, Chunjong Park, Jack W. O'Sullivan et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-05-10
+Summary: The practice of medicine relies not only upon skillful dialogue but also on the nuanced exchange and interpretation of rich auditory and visual cues between doctors and patients. Building on the low-latency voice and video processing capabilities of Gemini, we introduce AI co-clinician, a first-of-its-kind conversational AI system utilizing continuous streams of audio-visual data from live patient...
+
+--- [14] 2604.01897v6 ---
+Title: FastTurn: Unifying Acoustic and Streaming Semantic Cues for Low-Latency and Robust Turn Detection
+Authors: Chengyou Wang, Hongfei Xue, Mingchen Shao, Chunjiang He, Jingbin Hu et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-04-02
+Summary: Recent advances in AudioLLMs have enabled spoken dialogue systems to move beyond turn-based interaction toward real-time full-duplex communication, where the agent must decide when to speak, yield, or interrupt while the user is still talking. Existing full-duplex approaches either rely on voice activity cues, which lack semantic understanding, or on ASR-based modules, which introduce latency and ...
+
+--- [15] 2603.26515v1 ---
+Title: JAL-Turn: Joint Acoustic-Linguistic Modeling for Real-Time and Robust Turn-Taking Detection in Full-Duplex Spoken Dialogue Systems
+Authors: Guangzhao Yang, Yu Pan, Shi Qiu, Ningjie Bai
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-03-27
+Summary: Despite recent advances, efficient and robust turn-taking detection remains a significant challenge in industrial-grade Voice AI agent deployments. Many existing systems rely solely on acoustic or semantic cues, leading to suboptimal accuracy and stability, while recent attempts to endow large language models with full-duplex capabilities require costly full-duplex data and incur substantial train...
+
+--- [16] 2602.18448v2 ---
+Title: INSURE-Dial: A Phase-Aware Conversational Dataset & Benchmark for Compliance Verification and Phase Detection
+Authors: Shubham Kulkarni, Alexander Lyzhov, Preetam Joshi, Shiva Chaitanya
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-01-28
+Summary: Administrative phone tasks drain roughly 1 trillion USD annually from U.S. healthcare, with over 500 million insurance-benefit verification calls manually handled in 2024. We introduce INSURE-Dial, to our knowledge the first public benchmark for developing and assessing compliance-aware voice agents for phase-aware call auditing with span-based compliance verification. The corpus includes 50 de-id...
+
+--- [17] 2602.06053v1 ---
+Title: PersonaPlex: Voice and Role Control for Full Duplex Conversational Speech Models
+Authors: Rajarshi Roy, Jonathan Raiman, Sang-gil Lee, Teodor-Dumitru Ene, Robert Kirby et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-01-14
+Summary: Recent advances in duplex speech models have enabled natural, low-latency speech-to-speech interactions. However, existing models are restricted to a fixed role and voice, limiting their ability to support structured, role-driven real-world applications and personalized interactions. In this work, we introduce PersonaPlex, a duplex conversational speech model that incorporates hybrid system prompt...
+
+--- [18] 2510.04016v1 ---
+Title: Thai Semantic End-of-Turn Detection for Real-Time Voice Agents
+Authors: Thanapol Popit, Natthapath Rungseesiripak, Monthol Charattrakool, Saksorn Ruangtanusak
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2025-10-05
+Summary: Fluid voice-to-voice interaction requires reliable and low-latency detection of when a user has finished speaking. Traditional audio-silence end-pointers add hundreds of milliseconds of delay and fail under hesitations or language-specific phenomena. We present, to our knowledge, the first systematic study of Thai text-only end-of-turn (EOT) detection for real-time agents. We compare zero-shot and...
+
+--- [19] 2509.00078v2 ---
+Title: ChipChat: Low-Latency Cascaded Conversational Agent in MLX
+Authors: Tatiana Likhomanenko, Richard He Bai, Zijin Gu, Zakaria Aldeneh, Shiladitya Dutta et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2025-08-26
+Summary: The emergence of large language models (LLMs) has transformed spoken dialog systems, yet the optimal architecture for real-time on-device voice agents remains an open question. While end-to-end approaches promise theoretical advantages, cascaded systems (CSs) continue to outperform them in language understanding tasks, despite being constrained by sequential processing latency. In this work, we in...
+
+--- [20] 2508.04721v1 ---
+Title: Toward Low-Latency End-to-End Voice Agents for Telecommunications Using Streaming ASR, Quantized LLMs, and Real-Time TTS
+Authors: Vignesh Ethiraj, Ashwath David, Sidhanth Menon, Divya Vijay
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-08-05
+Summary: We introduce a low-latency telecom AI voice agent pipeline for real-time, interactive telecommunications use, enabling advanced voice AI for call center automation, intelligent IVR (Interactive Voice Response), and AI-driven customer support. The solution is built for telecom, combining four specialized models by NetoAI: TSLAM, a 4-bit quantized Telecom-Specific Large Language Model (LLM); T-VEC, ...
+
+--- [21] 2505.20277v2 ---
+Title: OmniCharacter: Towards Immersive Role-Playing Agents with Seamless Speech-Language Personality Interaction
+Authors: Haonan Zhang, Run Luo, Xiong Liu, Yuchuan Wu, Ting-En Lin et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2025-05-26
+Summary: Role-Playing Agents (RPAs), benefiting from large language models, is an emerging interactive AI system that simulates roles or characters with diverse personalities. However, existing methods primarily focus on mimicking dialogues among roles in textual form, neglecting the role's voice traits (e.g., voice style and emotions) as playing a crucial effect in interaction, which tends to be more imme...
+
+--- [22] 2505.02707v1 ---
+Title: Voila: Voice-Language Foundation Models for Real-Time Autonomous Interaction and Voice Role-Play
+Authors: Yemin Shi, Yu Shu, Siwei Dong, Guangyi Liu, Jaward Sesay et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.SD
+Published: 2025-05-05
+Summary: A voice AI agent that blends seamlessly into daily life would interact with humans in an autonomous, real-time, and emotionally expressive manner. Rather than merely reacting to commands, it would continuously listen, reason, and respond proactively, fostering fluid, dynamic, and emotionally resonant interactions. We introduce Voila, a family of large voice-language foundation models that make a s...
+
+--- [23] 2111.12028v1 ---
+Title: Romanian Speech Recognition Experiments from the ROBIN Project
+Authors: Andrei-Marius Avram, Vasile Păiş, Dan Tufiş
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2021-11-23
+Summary: One of the fundamental functionalities for accepting a socially assistive robot is its communication capabilities with other agents in the environment. In the context of the ROBIN project, situational dialogue through voice interaction with a robot was investigated. This paper presents different speech recognition experiments with deep neural networks focusing on producing fast (under 100ms latenc...
+

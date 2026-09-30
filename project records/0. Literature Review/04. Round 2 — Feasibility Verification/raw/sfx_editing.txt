@@ -1,0 +1,142 @@
+--- [1] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [2] 2608.08349v1 ---
+Title: Dramarrator: Object-Based Audio Editing for Audio Drama Production from Books
+Authors: Karim Benharrak, Oriol Nieto, Bryan Wang, Zeyu Jin, Amy Pavel
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.MM
+Published: 2026-08-08
+Summary: Audio dramas weave dialogue, sound effects, and music into immersive stories. Creators often adapt books into audio dramas, but this process remains labor-intensive, requiring them to interpret source material, author scripts, generate audio assets, and assemble them on a timeline. Because story elements like characters and scenes manifest across many interdependent assets, a single change can rip...
+
+--- [3] 2608.03093v1 ---
+Title: DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling
+Authors: Haocheng Fu, Yuqi Qian, Luyao Wang, Yun Cao
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-08-04
+Summary: Large language model (LLM) watermarking provides an important mechanism for tracing the provenance of generated text. Existing statistical watermarks are often effective and robust, but most of them rely on private detection keys, which centralizes verification and complicates public auditing. Recent public or publicly verifiable watermarking schemes improve key management, yet many of them rely o...
+
+--- [4] 2607.19531v1 ---
+Title: Equilibrium Causal Games: Separation, Identification, and the Identifiability of Cyclic Latent States
+Authors: Faraz Dadgostari, Neda Nazemi
+Primary cat: math.OC | All cats: math.OC, cs.LG, eess.SY
+Published: 2026-07-21
+Summary: Power grids, markets, and interacting populations, settle into feedback driven equilibria observed through unknown sensors. Our Equilibrium Causal Game (ECG) joins a game to its cyclic causal model, hidden inputs, sensor map, and rules for interventions and equilibrium selection; interventions edit declared objects and recompute equilibrium. Under stated conditions, ECG-separation is sound but inc...
+
+--- [5] 2607.09973v1 ---
+Title: A Production-Oriented Framework for Evaluation of SFX Generation
+Authors: Mélodie Desbos, Yara Bahram, Eric Granger, Mohammadhadi Shateri
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS, eess.SP, eess.SY
+Published: 2026-07-10
+Summary: Industrial sound design requires audio generation systems that not only produce realistic audio, but also preserve the perceptual identity of a reference, support controllable variation, and remain efficient for practical workflows. Existing evaluations are usually tied to text-to-audio (TTA), unconditional, or task-specific settings, limiting assessment for reference-guided sound effects (SFX) va...
+
+--- [6] 2606.22019v1 ---
+Title: Channel Location Constrains the Auditability of Subliminal Learning
+Authors: Tamas Madl
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-06-20
+Summary: Subliminal learning lets a student inherit a teacher's hidden trait from distillation data that never names it. We ask when such transfer can be audited before training. The answer is not model identity or scale alone, but channel location: the carrier through which the trait reaches the student. We find three regimes. In a controlled initialization-dependent body channel, a pre-training screen wo...
+
+--- [7] 2606.15149v2 ---
+Title: EchoEdit: Stabilizing Inversion-Free Audio Editing via Optimal Transport Geometry
+Authors: Zhongyuan Fu, Yuhang Jia, Hui Wang, Pengjun Chen, Jian Gao et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-06-13
+Summary: Text-guided audio editing with pretrained generative models is commonly implemented through inversion or noising. This topology induces a structural trade-off, as stronger edits require deeper corruption of the very rhythm, transients, timbre, and long-range form that should remain unchanged. Here, we introduce EchoEdit, a training-free and inversion-free framework for real-audio editing that dire...
+
+--- [8] 2606.10159v1 ---
+Title: Gaming AI-Assisted Peer Reviews Poses New Risks to the Scientific Community
+Authors: Lin Li, Qi Zhang, Xander Davies, Jianing Qiu, Yarin Gal
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.CY, cs.LG
+Published: 2026-06-08
+Summary: AI is increasingly used to support scientific peer review, from manuscript screening, reviewer assistance to editorial triage. Although such systems promise to reduce reviewer burden and accelerate publication, their robustness to strategic manipulation remains poorly understood. Here we show that AI-mediated peer review is vulnerable to a simple, low-cost manipulation: superficial rephrasing of t...
+
+--- [9] 2606.08286v1 ---
+Title: FXplorer: A Map-Based Interface for Exploratory Audio Effect Design
+Authors: Annie Chu, Jason Brent Smith, Bryan Pardo
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-06
+Summary: Audio effects (FX) shape sound in contemporary music practice. However, most interfaces present them as discrete modules and parameters that favor targeted adjustment over exploratory listening. This separation can make it difficult to build intuition about the broader space of possible transformations or to move fluidly between searching and refinement. We present FXplorer, an interface that orga...
+
+--- [10] 2605.15307v1 ---
+Title: Sound Sparks Motion: Audio and Text Tuning for Video Editing
+Authors: AmirHossein Naghi Razlighi, Aryan Mikaeili, Ali Mahdavi-Amiri, Daniel Cohen-Or, Yiorgos Chrysanthou
+Primary cat: cs.GR | All cats: cs.GR, cs.CV, cs.MM, cs.SD
+Published: 2026-05-14
+Summary: Motion-centric video editing remains difficult for large generative video models, which often respond well to appearance changes but struggle to produce specific, localized actions or state transitions in an existing clip. We introduce Sound Sparks Motion, a training-free framework that enables motion editing in an audio-visual video generation model by tuning its internal multimodal conditioning ...
+
+--- [11] 2605.16403v1 ---
+Title: When Vision Speaks for Sound
+Authors: Xiaofei Wen, Wenjie Jacky Mo, Xingyu Fu, Rui Cai, Tinghui Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-05-13
+Summary: Despite rapid progress in video-capable MLLMs, we find that their apparent audio understanding in videos is often vision-driven: models rely on visual cues to infer or hallucinate acoustic information, rather than verifying the audio stream. This issue appears across both state-of-the-art open-source omni models and leading closed-source models from providers such as Google and OpenAI. We characte...
+
+--- [12] 2602.17097v1 ---
+Title: AudioChat: Unified Audio Storytelling, Editing, and Understanding with Transfusion Forcing
+Authors: William Chen, Prem Seetharaman, Rithesh Kumar, Oriol Nieto, Shinji Watanabe et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-02-19
+Summary: Despite recent breakthroughs, audio foundation models struggle in processing complex multi-source acoustic scenes. We refer to this challenging domain as audio stories, which can have multiple speakers and background/foreground sound effects. Compared to traditional audio processing tasks, audio stories introduce new layers of semantic, temporal, and physical complexity. To address this challenge,...
+
+--- [13] 2602.11850v2 ---
+Title: Free Lunch for Stabilizing Rectified Flow Inversion
+Authors: Chenru Wang, Beier Zhu, Chi Zhang
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-02-12
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Asound+AND+abs%3Aeffect+AND+abs%3Aediting&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Rectified-Flow (RF)-based generative models have recently emerged as strong alternatives to traditional diffusion models, demonstrating state-of-the-art performance across various tasks. By learning a continuous velocity field that transforms simple noise into complex data, RF-based models not only enable high-quality generation, but also support training-free inversion, which facilitates downstre...
+
+--- [14] 2601.23121v1 ---
+Title: An Automatic Deep Learning Approach for Trailer Generation through Large Language Models
+Authors: Roberto Balestri, Pasquale Cascarano, Mirko Degli Esposti, Guglielmo Pescatore
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-01-30
+Summary: Trailers are short promotional videos designed to provide audiences with a glimpse of a movie. The process of creating a trailer typically involves selecting key scenes, dialogues and action sequences from the main content and editing them together in a way that effectively conveys the tone, theme and overall appeal of the movie. This often includes adding music, sound effects, visual effects and ...
+
+--- [15] 2512.24731v2 ---
+Title: EchoFoley: Event-Centric Hierarchical Control for Video Grounded Creative Sound Generation
+Authors: Bingxuan Li, Yiming Cui, Yicheng He, Yiwei Wang, Shu Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-12-31
+Summary: Sound effects build an essential layer of multimodal storytelling, shaping the emotional atmosphere and the narrative semantics of videos. Despite recent advancement in video-text-to-audio (VT2A), the current formulation faces three key limitations: First, an imbalance between visual and textual conditioning that leads to visual dominance; Second, the absence of a concrete definition for fine-grai...
+
+--- [16] 2512.02650v2 ---
+Title: Hear What Matters! Text-conditioned Selective Video-to-Audio Generation
+Authors: Junwon Lee, Juhan Nam, Jiyoung Lee
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.MM, cs.SD, eess.AS
+Published: 2025-12-02
+Summary: This work introduces a new task, text-conditioned selective video-to-audio (V2A) generation, which produces only the user-intended sound from a multi-object video. This capability is especially crucial in multimedia production, where audio tracks are handled individually for each sound source for precise editing, mixing, and creative control. We propose SELVA, a novel text-conditioned V2A model th...
+
+--- [17] 2511.21146v1 ---
+Title: AV-Edit: Multimodal Generative Sound Effect Editing via Audio-Visual Semantic Joint Control
+Authors: Xinyue Guo, Xiaoran Yang, Lipan Zhang, Jianxuan Yang, Zhao Wang et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2025-11-26
+Summary: Sound effect editing-modifying audio by adding, removing, or replacing elements-remains constrained by existing approaches that rely solely on low-level signal processing or coarse text prompts, often resulting in limited flexibility and suboptimal audio quality. To address this, we propose AV-Edit, a generative sound effect editing framework that enables fine-grained editing of existing audio tra...
+
+--- [18] 2510.02158v1 ---
+Title: Mirage Fools the Ear, Mute Hides the Truth: Precise Targeted Adversarial Attacks on Polyphonic Sound Event Detection Systems
+Authors: Junjie Su, Weifei Jin, Yuxin Cao, Derui Wang, Kai Ye et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.SD
+Published: 2025-10-02
+Summary: Sound Event Detection (SED) systems are increasingly deployed in safety-critical applications such as industrial monitoring and audio surveillance. However, their robustness against adversarial attacks has not been well explored. Existing audio adversarial attacks targeting SED systems, which incorporate both detection and localization capabilities, often lack effectiveness due to SED's strong con...
+
+--- [19] 2509.24550v1 ---
+Title: Training-Free Multimodal Guidance for Video to Audio Generation
+Authors: Eleonora Grassucci, Giuliano Galadini, Giordano Cicchetti, Aurelio Uncini, Fabio Antonacci et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.SD
+Published: 2025-09-29
+Summary: Video-to-audio (V2A) generation aims to synthesize realistic and semantically aligned audio from silent videos, with potential applications in video editing, Foley sound design, and assistive multimedia. Although the excellent results, existing approaches either require costly joint training on large-scale paired datasets or rely on pairwise similarities that may fail to capture global multimodal ...
+
+--- [20] 2510.00050v1 ---
+Title: Object-AVEdit: An Object-level Audio-Visual Editing Model
+Authors: Youquan Fu, Ruiyang Si, Hongfa Wang, Dongzhan Zhou, Jiacheng Sun et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI, cs.CV, cs.SD, eess.AS
+Published: 2025-09-27
+Summary: There is a high demand for audio-visual editing in video post-production and the film making field. While numerous models have explored audio and video editing, they struggle with object-level audio-visual operations. Specifically, object-level audio-visual editing requires the ability to perform object addition, replacement, and removal across both audio and visual modalities, while preserving th...
+

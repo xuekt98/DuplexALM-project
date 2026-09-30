@@ -1,0 +1,142 @@
+--- [1] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [2] 2608.17492v2 ---
+Title: FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations
+Authors: Feiyu Shen, Kun Xie, Yichen Wu, Ziqi Dai, Yichen Han et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-18
+Summary: Recent continuous autoregressive TTS models operate directly on continuous speech representations, preserving rich acoustic details while leveraging the instruction-following capabilities of text LLMs. This paradigm opens new possibilities for voice cloning, instruction-controlled voice design, and speech editing, but remains susceptible to error accumulation during autoregressive generation. Exis...
+
+--- [3] 2608.06424v1 ---
+Title: Multi Codec Discrete Diffusion Model for Text Guided Speech Inpainting and Editing
+Authors: Iftach Shoham, Tali Dror, Oren Gal, Haim Permuter, Gilad Katz et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-08-05
+Summary: Speech recordings often contain missing, corrupted, or incorrect regions that must be reconstructed or modified without re-synthesizing the entire utterance. Speech inpainting restores missing segments, whereas speech editing replaces spoken content according to an edited transcript. Both tasks require the generated speech to express the intended words while remaining consistent with the surroundi...
+
+--- [4] 2608.02673v2 ---
+Title: dots.tts.edit: Precisely Controlled Speech Editing with a Continuous Autoregressive Model
+Authors: Hankun Wang, Bohan Li, Shi Lian, Xiaoyu Gu, Jing Peng et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-08-02
+Summary: Speech editing for content creation requires precise control over both what an edit should do and where it should apply. Free-form natural language provides a flexible interface for expressing edit requests, but its ambiguity may leave the intended operation, parameters, or target region underspecified. We study a precise and explicit interface for speech editing: a transcript-grounded structural ...
+
+--- [5] 2606.31128v1 ---
+Title: UniSAE: Unified Speech Attribute Editing on Speaker, Emotion and Low-Level Content via Discrete Phonetic Posteriorgram Modelling
+Authors: Chuanbo Zhu, Wuyou Zhou, Rongxiu Zhong, Shilei Zhang, Kun Qian et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-06-30
+Summary: Speech editing aims to modify specific portions of an utterance while preserving the remaining speech. Existing approaches primarily focus on word-level content modification and typically treat content, speaker, and emotion editing as separate tasks, limiting both editing granularity and flexibility. We propose UniSAE, a unified speech attribute editing framework which supports composable speaker,...
+
+--- [6] 2606.28732v1 ---
+Title: CTC-Seeded Token Edit Refinement for Non-Autoregressive Speech Recognition
+Authors: Wanting Huang, Weiran Wang
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-27
+Summary: Non-autoregressive automatic speech recognition (ASR) enables parallel decoding, but many refinement-based methods begin from random, fully masked, or fixed-length token sequences, requiring multiple iterations to reconstruct the complete transcript. We instead formulate ASR decoding as a variable-length edit refinement of a greedy connectionist temporal classification (CTC) hypothesis. An acousti...
+
+--- [7] 2606.01804v3 ---
+Title: SpeechEditBench: A Bilingual Multi-Attribute Benchmark for Instruction-Guided Speech Editing
+Authors: Hanlin Zhang, Daxin Tan, Dehua Tao, Xiao Chen, Haochen Tan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-01
+Summary: Instruction-guided speech editing requires a model to modify specified speech attributes while preserving non-target characteristics. Despite rapid progress in Speech Large Language Models (Speech LLMs), systematic evaluation of this capability remains challenging, as existing benchmarks are fragmented across isolated editing tasks. To bridge this gap, we introduce SpeechEditBench, a bilingual mul...
+
+--- [8] 2605.25930v2 ---
+Title: CosyEdit2: Speech-Editing-Oriented Reinforcement Learning Unlocks Better Zero-Shot TTS
+Authors: Junyang Chen, Yuhang Jia, Hui Wang, Jiaming Zhou, Yongchang Gan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-05-25
+Summary: Speech editing and zero-shot Text-to-Speech (TTS) share a similar generative foundation conditioned on speech prompts, yet speech editing demands far stricter local acoustic consistency with surrounding unedited content. While prior work has shown that Supervised Fine-Tuning (SFT) enables TTS models to acquire functional editing capability, this approach remains fundamentally bottlenecked by imper...
+
+--- [9] 2605.17652v1 ---
+Title: Beyond Transcripts: Iterative Peer-Editing with Audio Unlocks High-Quality Human Summaries of Conversational Speech
+Authors: Kaavya Chaparala, Thomas Thebaud, Jesús Villalba López, Laureano Moro-Velazquez, Peter Viechnicki et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-05-17
+Summary: There are not enough established benchmarks for the task fo speech summarization. Creating new benchmarks demands human annotation, as LLMs could embed systemic errors and bias into datasets. We test ten annotation workflows varying input modality (audio, transcript, or both) and the inclusion of editing (self or peer-editing) to investigate potential quality tradeoffs from using human annotators ...
+
+--- [10] 2604.16056v2 ---
+Title: AST: Adaptive, Seamless, and Training-Free Precise Speech Editing
+Authors: Sihan Lv, Yechen Jin, Zhen Li, Jintao Chen, Jinshan Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-04-17
+Summary: Text-based speech editing aims to modify specific segments while preserving speaker identity and acoustic context. Current approaches generally involve either expensive task-specific training or adapting pre-trained Text-to-Speech (TTS) models. However, both paradigms face challenges: task-specific methods often degrade fidelity in unedited regions, whereas TTS adaptations struggle with a trade-of...
+
+--- [11] 2603.26364v1 ---
+Title: LLaDA-TTS: Unifying Speech Synthesis and Zero-Shot Editing via Masked Diffusion Modeling
+Authors: Xiaoyu Fan, Huizhi Xie, Wei Zou, Yunzhang Chen
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-27
+Summary: Large language model (LLM)-based text-to-speech (TTS) systems achieve remarkable naturalness via autoregressive (AR) decoding, but require N sequential steps to generate N speech tokens. We present LLaDA-TTS, which replaces the AR LLM with a masked diffusion model that completes generation in a fixed number of parallel steps, decoupling inference latency from sequence length. Remarkably, using onl...
+
+--- [12] 2602.00560v2 ---
+Title: Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards
+Authors: Yong Ren, Jiangyan Yi, Jianhua Tao, Tao Wang, Le Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-01-31
+Summary: Imperceptible text-based speech editing modifies spoken content through transcript manipulation while preserving acoustic continuity. Prior acoustic-space approaches suffer from content-style entanglement, causing unstable generation and boundary artifacts. We introduce a framework guided by the principle of "Edit Content, Preserve Acoustics". Editing is conducted in a stable semantic space, while...
+
+--- [13] 2601.21463v3 ---# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Aspeech+AND+ti%3Aedit&max_results=20&sortBy=submittedDate&sortOrder=descending
+
+Title: Unifying Speech Editing Detection and Content Localization via Prior-Enhanced Audio LLMs
+Authors: Jun Xue, Yi Chai, Yanzhen Ren, Jinshen He, Zhiqiang Tang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-01-29
+Summary: Existing speech editing detection (SED) datasets are predominantly constructed using manual splicing or limited editing operations, resulting in restricted diversity and poor coverage of realistic editing scenarios. Meanwhile, current SED methods rely heavily on frame-level supervision to detect observable acoustic anomalies, which fundamentally limits their ability to handle deletion-type edits, ...
+
+--- [14] 2601.12480v1 ---
+Title: A Unified Neural Codec Language Model for Selective Editable Text to Speech Generation
+Authors: Hanchen Pei, Shujie Liu, Yanqing Liu, Jianwei Yu, Yuanhang Qian et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-01-18
+Summary: Neural codec language models achieve impressive zero-shot Text-to-Speech (TTS) by fully imitating the acoustic characteristics of a short speech prompt, including timbre, prosody, and paralinguistic information. However, such holistic imitation limits their ability to isolate and control individual attributes. In this paper, we present a unified codec language model SpeechEdit that extends zero-sh...
+
+--- [15] 2601.10000v1 ---
+Title: EditEmoTalk: Controllable Speech-Driven 3D Facial Animation with Continuous Expression Editing
+Authors: Diqiong Jiang, Kai Zhu, Dan Song, Jian Chang, Chenglizhao Chen et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV
+Published: 2026-01-15
+Summary: Speech-driven 3D facial animation aims to generate realistic and expressive facial motions directly from audio. While recent methods achieve high-quality lip synchronization, they often rely on discrete emotion categories, limiting continuous and fine-grained emotional control. We present EditEmoTalk, a controllable speech-driven 3D facial animation framework with continuous emotion editing. The k...
+
+--- [16] 2601.05329v2 ---
+Title: CosyEdit: Unlocking End-to-End Speech Editing Capability from Zero-Shot Text-to-Speech Models
+Authors: Junyang Chen, Yuhang Jia, Hui Wang, Jiaming Zhou, Yong Qin
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-01-08
+Summary: Automatic speech editing aims to modify spoken content based on textual instructions, yet traditional cascade systems rely on explicit temporal alignment and complex preprocessing. To address these limitations, we propose CosyEdit, an end-to-end speech editing model adapted from CosyVoice through task-specific post-training and a complementary training paradigm, which internalizes text--speech ali...
+
+--- [17] 2511.12347v1 ---
+Title: VoiceCraft-X: Unifying Multilingual, Voice-Cloning Speech Synthesis and Speech Editing
+Authors: Zhisheng Zheng, Puyuan Peng, Anuj Diwan, Cong Phuoc Huynh, Xiaohang Sun et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD
+Published: 2025-11-15
+Summary: We introduce VoiceCraft-X, an autoregressive neural codec language model which unifies multilingual speech editing and zero-shot Text-to-Speech (TTS) synthesis across 11 languages: English, Mandarin, Korean, Japanese, Spanish, French, German, Dutch, Italian, Portuguese, and Polish. VoiceCraft-X utilizes the Qwen3 large language model for phoneme-free cross-lingual text processing and a novel token...
+
+--- [18] 2511.05516v1 ---
+Title: Ming-UniAudio: Speech LLM for Joint Understanding, Generation and Editing with Unified Representation
+Authors: Canxiang Yan, Chunxiang Jin, Dawei Huang, Haibing Yu, Han Peng et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2025-10-26
+Summary: Existing speech models suffer from competing requirements on token representations by understanding and generation tasks. This discrepancy in representation prevents speech language models from performing instruction-based free-form editing. To solve this challenge, we introduce a novel framework that unifies speech understanding, generation, and editing. The core of our unified model is a unified...
+
+--- [19] 2509.24570v1 ---
+Title: ISSE: An Instruction-Guided Speech Style Editing Dataset And Benchmark
+Authors: Yun Chen, Qi Chen, Zheqi Dai, Arshdeep Singh, Philip J. B. Jackson et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-29
+Summary: Speech style editing refers to modifying the stylistic properties of speech while preserving its linguistic content and speaker identity. However, most existing approaches depend on explicit labels or reference audio, which limits both flexibility and scalability. More recent attempts to use natural language descriptions remain constrained by oversimplified instructions and coarse style control. T...
+
+--- [20] 2508.09767v4 ---
+Title: UtterTune: LoRA-Based Target-Language Pronunciation Edit and Control in Multilingual Text-to-Speech
+Authors: Shuhei Kato
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2025-08-13
+Summary: We propose UtterTune, a lightweight method for adapting a multilingual text-to-speech (TTS) system built on a large language model (LLM). It improves control of pronunciation in the target language while preserving performance in the others. Although LLM architectures have enabled TTS models to achieve remarkable naturalness, accurately modeling grapheme-to-phoneme (G2P) mapping and prosody remain...
+

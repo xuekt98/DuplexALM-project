@@ -1,0 +1,72 @@
+# Total entries: 10
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22video%22+AND+abs%3A%22audio%22+AND+abs%3A%22generation%22+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.26535v1 ---
+Title: Multi2AV-Safety: Benchmarking Safety in Multimodal-to-Audio-Video Generation
+Authors: Kaichao Jiang, Changtao Miao, Baiqi Wu, Zhiyuan Lu, Kang Yang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-27
+Summary: Audio-video generation is rapidly moving from prompt-driven synthesis toward multimodal conditioning, where text, images, audio, and video can jointly shape the generated output. This shift changes the nature of safety evaluation: harmful intent may no longer reside in any single input, but instead emerge from how otherwise benign or weakly harmful conditions interact across modalities and time. E...
+
+--- [2] 2607.25543v1 ---
+Title: Less is More: Modality-Decoupling for General AIGC Audio-Video Detection
+Authors: Jielun Peng, Yabin Wang, Yaqi Li, Jincheng Liu, Xiaopeng Hong et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-28
+Summary: Generative AI has rapidly expanded audio-visual forgery beyond human-centric deepfakes into general scenes. Existing AIGC detection methods assume audio-visual content correspondence, identifying forgeries by spotting cross-modal inconsistencies. However, we empirically find that this assumption does not consistently hold in general scenarios. We argue that, for general audio-visual AIGC detection...
+
+--- [3] 2607.15779v2 ---
+Title: Multimodal Ambivalence and Hesitancy Recognition via Cross-Attention and Gated Fusion
+Authors: Oussama Berhili, Yassine Ouzar, Larbi Boubchir
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-17
+Summary: We present a multimodal framework for Ambivalence/Hesitancy (A/H) recognition in video, developed for the ABAW11 challenge at ECCV 2026. The proposed approach fuses textual, acoustic, and visual modalities extracted from the BAH dataset using three pretrained encoders: F2LLM-v2-0.6B for transcripts (1024-d), WavLM-Large for audio (1024-d), and VideoMAE V2 for facial video (768-d). We first establi...
+
+--- [4] 2605.06707v1 ---
+Title: The Single-File Test: A Longitudinal Public-Interface Evaluation of First-Output LLM Web Generation with Social Reach Tracking
+Authors: Diego Cabezas Palacios
+Primary cat: cs.SE | All cats: cs.SE, cs.AI
+Published: 2026-05-06
+Summary: This paper presents an eight-week observational comparison of 68 single-file HTML generations collected across 17 public experiments in the "HTML AI Battle" project between December 10, 2025 and February 4, 2026. Four reasoning model families, GPT, Gemini, Grok, and Claude, were compared under a fixed public-interface protocol with no custom instructions, no personality tuning, and no repair promp...
+
+--- [5] 2604.14148v1 ---
+Title: Seedance 2.0: Advancing Video Generation for World Complexity
+Authors: Team Seedance, De Chen, Liyang Chen, Xin Chen, Ying Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-15
+Summary: Seedance 2.0 is a new native multi-modal audio-video generation model, officially released in China in early February 2026. Compared with its predecessors, Seedance 1.0 and 1.5 Pro, Seedance 2.0 adopts a unified, highly efficient, and large-scale architecture for multi-modal audio-video joint generation. This allows it to support four input modalities: text, image, audio, and video, by integrating...
+
+--- [6] 2603.23650v1 ---
+Title: Foundation Model Embeddings Meet Blended Emotions: A Multimodal Fusion Approach for the BLEMORE Challenge
+Authors: Masoumeh Chapariniya, Aref Farhadipour, Sarah Ebling, Volker Dellwo, Teodora Vukovic
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-24
+Summary: We present our system for the BLEMORE Challenge at FG 2026 on blended emotion recognition with relative salience prediction. Our approach combines six encoder families through late probability fusion: an S4D-ViTMoE face encoder adapted with soft-label KL training, frozen layer-selective Wav2Vec2 audio features, finetuned body-language encoders (TimeSformer, VideoMAE), and -- for the first time in ...
+
+--- [7] 2512.24140v1 ---
+Title: Environmental Sound Deepfake Detection Challenge: An Overview
+Authors: Han Yin, Yang Xiao, Rohan Kumar Das, Jisheng Bai, Ting Dang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-12-30
+Summary: Recent progress in audio generation models has made it possible to create highly realistic and immersive soundscapes, which are now widely used in film and virtual-reality-related applications. However, these audio generators also raise concerns about potential misuse, such as producing deceptive audio for fabricated videos or spreading misleading information. Therefore, it is essential to develop...
+
+--- [8] 2508.04529v2 ---
+Title: ESDD 2026: Environmental Sound Deepfake Detection Challenge Evaluation Plan
+Authors: Han Yin, Yang Xiao, Rohan Kumar Das, Jisheng Bai, Ting Dang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-08-06
+Summary: Recent advances in audio generation systems have enabled the creation of highly realistic and immersive soundscapes, which are increasingly used in film and virtual reality. However, these audio generators also raise concerns about potential misuse, such as generating deceptive audio content for fake videos and spreading misleading information. Existing datasets for environmental sound deepfake de...
+
+--- [9] 2506.22960v1 ---
+Title: Peccavi: Visual Paraphrase Attack Safe and Distortion Free Image Watermarking Technique for AI-Generated Images
+Authors: Shreyas Dixit, Ashhar Aziz, Shashwat Bajpai, Vasu Sharma, Aman Chadha et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-06-28
+Summary: A report by the European Union Law Enforcement Agency predicts that by 2026, up to 90 percent of online content could be synthetically generated, raising concerns among policymakers, who cautioned that "Generative AI could act as a force multiplier for political disinformation. The combined effect of generative text, images, videos, and audio may surpass the influence of any single modality." In r...
+
+--- [10] 2502.17119v2 ---
+Title: Diffusion and Flow Matching Models for Tabular Data: A Survey
+Authors: Zhong Li, Qi Huang, Lincen Yang, Jiayang Shi, Zhao Yang et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2025-02-24
+Summary: Deep generative models have made rapid progress in image, text, audio, and video generation, and are increasingly being applied to structured records. For tabular data, however, generative modeling remains difficult: a dataset may contain numerical and categorical attributes, missing values, sensitive fields, imbalanced categories, complex feature dependencies, and domain constraints. Earlier tabu...
+

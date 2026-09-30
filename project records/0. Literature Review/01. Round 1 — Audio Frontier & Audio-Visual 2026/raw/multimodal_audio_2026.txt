@@ -1,0 +1,86 @@
+# Total entries: 12
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22multimodal%22+AND+abs%3A%22audio%22+AND+abs%3A%222026%22+AND+abs%3A%22large%22&max_results=30&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.06078v1 ---
+Title: Report of the 8th LSVOS Challenge: Complex and Multimodal Video Object Segmentation
+Authors: Chang Liu, Henghui Ding, Lingyi Hong, Ning Xu, Linjie Yang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: This report summarizes the 8th Large-scale Video Object Segmentation (LSVOS) Challenge, held in conjunction with ECCV 2026. The challenge evaluates video segmentation in three complementary settings: complex semi-supervised video object segmentation on MOSEv2, text-guided referring video object segmentation on MeViSv2-Text, and audio-guided referring video object segmentation on MeViSv2-Audio. We ...
+
+--- [2] 2608.26535v1 ---
+Title: Multi2AV-Safety: Benchmarking Safety in Multimodal-to-Audio-Video Generation
+Authors: Kaichao Jiang, Changtao Miao, Baiqi Wu, Zhiyuan Lu, Kang Yang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-27
+Summary: Audio-video generation is rapidly moving from prompt-driven synthesis toward multimodal conditioning, where text, images, audio, and video can jointly shape the generated output. This shift changes the nature of safety evaluation: harmful intent may no longer reside in any single input, but instead emerge from how otherwise benign or weakly harmful conditions interact across modalities and time. E...
+
+--- [3] 2608.12034v1 ---
+Title: The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models
+Authors: Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao, Yuhang Dai et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-12
+Summary: Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity ...
+
+--- [4] 2608.11343v1 ---
+Title: Can Frontier LLMs Match Natively Multimodal Embeddings? A Comparison on Hard-Negative Text-to-Image Retrieval
+Authors: Archan Dutta, Vyanktesh Kanungo
+Primary cat: cs.AI | All cats: cs.AI, cs.CV, cs.IR, cs.LG
+Published: 2026-08-11
+Summary: Multimodal retrieval and classification across different types of media, spanning text, images,video and audio, has traditionally relied on dual-encoder models that align visual and textual representations through contrastive learning. The March 2026 release of Gemini Embedding 2, Google's first natively multimodal embedding model to map text, images, video, audio, and documents into a single shar...
+
+--- [5] 2607.15779v2 ---
+Title: Multimodal Ambivalence and Hesitancy Recognition via Cross-Attention and Gated Fusion
+Authors: Oussama Berhili, Yassine Ouzar, Larbi Boubchir
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-17
+Summary: We present a multimodal framework for Ambivalence/Hesitancy (A/H) recognition in video, developed for the ABAW11 challenge at ECCV 2026. The proposed approach fuses textual, acoustic, and visual modalities extracted from the BAH dataset using three pretrained encoders: F2LLM-v2-0.6B for transcripts (1024-d), WavLM-Large for audio (1024-d), and VideoMAE V2 for facial video (768-d). We first establi...
+
+--- [6] 2607.05623v3 ---
+Title: NAVER LABS System Re-implementation for the IWSLT 2026 Instruction-Following Task
+Authors: Anand Kamble, Aniket Tathe
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-06
+Summary: We re-implement the NAVER LABS IWSLT 2025 instruction-following pipeline for the IWSLT 2026 Shared Task (constrained condition, short audio track), adapting it to the mandated components: SeamlessM4T-v2-large as the speech encoder and Qwen3-4B-Instruct as the LLM backbone. The three-stage approach projector alignment, text-only LoRA pre-training, and multimodal merging is preserved from the origin...
+
+--- [7] 2606.29335v1 ---
+Title: AMR: Adaptive Modality Routing for Multimodal Polyglot Speaker Identification
+Authors: Chuxiao Zuo, Yao Zhu, Minqiang Xu, Manhong Wang, Yunke Zhang et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.SD
+Published: 2026-06-28
+Summary: Multimodal speaker identification systems face two key challenges in real-world deployment: missing modalities and language mismatch between training and testing conditions. In practical scenarios, background multi-speaker conversations, ambient noise, and overlapping speech further degrade identification accuracy. To address these challenges, we propose a multimodal polyglot speaker identificatio...
+
+--- [8] 2606.21933v1 ---
+Title: ISCSLP 2026 CoT-TTS Challenge: Chain-of-Thought Reasoning for Context-Aware Text-to-Speech
+Authors: Wei Xue, Junlan Feng, Shilei Zhang, Yue Wang, Ruosong Yang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-20
+Summary: Recent advances in text-to-speech (TTS) have greatly improved speech naturalness, speaker similarity, and controllability. However, most existing controllable TTS systems still rely on explicit user-provided style prompts, making it difficult to automatically determine how a sentence should be spoken in long and complex conversational scenarios. This proposal introduces the ISCSLP 2026 CoT-TTS Cha...
+
+--- [9] 2604.12527v3 ---
+Title: Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models
+Authors: Longhao Li, Hongjie Chen, Zehan Li, Qihan Hu, Jian Kang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-14
+Summary: Recent advances in reasoning models have driven significant progress in text and multimodal domains, yet audio reasoning remains relatively limited. Only a few Large Audio Language Models (LALMs) incorporate explicit Chain-of-Thought (CoT) reasoning, and their capabilities are often inconsistent and insufficient for complex tasks. To bridge this gap, we introduce Audio-Cogito, a fully open-source ...
+
+--- [10] 2603.23650v1 ---
+Title: Foundation Model Embeddings Meet Blended Emotions: A Multimodal Fusion Approach for the BLEMORE Challenge
+Authors: Masoumeh Chapariniya, Aref Farhadipour, Sarah Ebling, Volker Dellwo, Teodora Vukovic
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-24
+Summary: We present our system for the BLEMORE Challenge at FG 2026 on blended emotion recognition with relative salience prediction. Our approach combines six encoder families through late probability fusion: an S4D-ViTMoE face encoder adapted with soft-label KL training, frozen layer-selective Wav2Vec2 audio features, finetuned body-language encoders (TimeSformer, VideoMAE), and -- for the first time in ...
+
+--- [11] 2603.22728v1 ---
+Title: The Interspeech 2026 Audio Encoder Capability Challenge for Large Audio Language Models
+Authors: Heinrich Dinkel, Jiahao Zhou, Guanbo Wang, Yadong Niu, Junbo Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-03-24
+Summary: This paper presents the Interspeech 2026 Audio Encoder Capability Challenge, a benchmark specifically designed to evaluate and advance the performance of pre-trained audio encoders as front-end modules for Large Audio Language Models (LALMs). While LALMs have shown remarkable understanding of complex acoustic scenes, their performance depends on the semantic richness of the underlying audio encode...
+
+--- [12] 2512.10882v4 ---
+Title: Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity
+Authors: Hauke Licht
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-12-11
+Summary: Research increasingly leverages audio-visual materials to analyze emotions in political communication. Multimodal large language models (mLLMs) promise to enable such analyses through in-context learning. However, we lack systematic evidence on whether current mLLMs can reliably measure emotions in real-world political settings. This paper closes this gap by evaluating open- and closed-weights mLL...
+

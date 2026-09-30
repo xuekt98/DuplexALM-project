@@ -1,0 +1,177 @@
+--- [1] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [2] 2609.04085v1 ---
+Title: Deep Neural Compression for RIR-Characterized Acoustic Environments with Structure-Aware Constraints
+Authors: Chen-Yuan Ning, Yang Ai, Hui-Peng Du, Xiao-Hang Jiang, Zhen-Hua Ling
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-03
+Summary: Room impulse responses (RIRs) characterize the acoustic environment of a room by capturing how sound propagates and decays within an enclosed space. In applications such as immersive audio rendering, accurate acoustic reconstruction often relies on spatially densely sampled RIRs. This consequently gives rise to a large volume of RIR data, imposing a substantial burden on storage. Although recent n...
+
+--- [3] 2609.03320v1 ---
+Title: Beyond .WAV: Design and Software Verification of VocalCap, a Traceable Browser-Based Audio Capture System for Vocal Biomarker Research
+Authors: Augusto Camargo
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-03
+Summary: Remote voice studies often retain a final audio file with limited evidence about how it was captured, transferred, processed, and accepted. This paper presents VocalCap, an institution-controlled, browser-based system for self-guided capture of voice and related acoustic signals by participants without technical training. A versioned protocol drives the workflow. Each accepted recording retains a ...
+
+--- [4] 2609.02606v1 ---
+Title: Predictors of Loneliness in Older Adults Using Multimodal Analysis of Speech and Language
+Authors: Vinmay Khandode, Sai Karthik Kosuri, Neil K. R. Sehgal, Adam Greene, Elif Alpoge et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-02
+Summary: Loneliness is a critical public health issue among older adults, linked to higher risks of depression, cognitive decline, and mortality. Scalable, objective methods for its detection remain limited, particularly in natural conversational contexts. We analyzed speech and language markers of loneliness in 310 older adults using semi-structured telephone interviews to help understand how they process...
+
+--- [5] 2608.30726v1 ---
+Title: Multimodal Adaptive Expert Selection with Text Routing and Ordinal Prototype Optimization for Sentiment Analysis
+Authors: Xiaode Chen, Jiakang Yu, Hongtao Deng, Huina Qu, Xun Zhu et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-31
+Summary: Multimodal Sentiment Analysis (MSA) is a fundamental component of affective computing that aims to decipher complex emotional states by integrating verbal content with non-verbal cues including vocal intonation and facial micro-expressions. While recent disentanglement-based approaches have advanced the field, their potential is hindered by two methodological challenges. First, static computation ...
+
+--- [6] 2608.30456v1 ---
+Title: Self-Supervised Pretext Tasks for Infant Cry Analysis: A Controlled Comparison and a Cautionary Result on Donateacry
+Authors: Luigi Simeone
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-08-31
+Summary: We compare six self-supervised pretext tasks for infant cry analysis under a fixed budget, meaning the same compact encoder of 1.17M parameters, the same 115 hours of license-verified public pretraining audio, and the same evaluation protocol for every candidate. On cry detection the reconstructive objectives dominate, and a linear probe over a masked-spectrogram encoder reaches 0.988 AUC with sub...
+
+--- [7] 2608.29999v1 ---
+Title: TEMPO: Temporally-grounded Multi-task Post-training for Large Audio-Language Models
+Authors: Apoorva Kulkarni, Kaousheik Jayakumar, Sreyan Ghosh, Utathya Aich, Ramani Duraiswami et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-08-30
+Summary: Large audio-language models (LALMs) describe audio at the clip level but cannot assign timestamps to the events, speakers, or sounds they identify. Despite being essential for downstream tasks like speech recognition and dense audio captioning, timestamping remains a key limitation of most LALMs. We present TEMPO (Temporally-grounded Multi-task Post-training), the first unified model to handle aud...
+
+--- [8] 2609.00055v1 ---
+Title: Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment
+Authors: Mustafa Talha İlerisoy, Hung Manh Pham, Mathias Funk, Mykola Pechenizkiy, Aaqib Saeed
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-08-30
+Summary: Self-supervised respiratory encoders lack semantic grounding in clinical domain needed for zero-shot inference, limiting their utility without task-specific labeled data. We propose a framework that aligns these encoders with medical terminology in a shared latent space turning them into a zero-shot-capable foundation model. To address paired data scarcity, we use a medical LLM to synthesize struc...
+
+--- [9] 2608.28127v1 ---
+Title: Exploring the Design Space of Representation Learning for Audio Transformations
+Authors: Sungho Lee, Marco Martínez-Ramírez, Junghyun Koo, Wei-Hsiang Liao, Kyogu Lee et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-28
+Summary: Neural audio representation learning has enabled a range of content-oriented applications, but the resulting features remain limited for tasks involving audio processing. Furthermore, it is not obvious what processing-aware representations should capture: the processing itself, abstracted away from source content, or the processed audio that retains it. Existing approaches implicitly commit to one...
+
+--- [10] 2608.23938v1 ---
+Title: Generalization, memorization, and overfitting for diffusion models trained in the lazy high-dimensional regime
+Authors: Hugo Latourelle-Vigeant, Sinho Chewi, Aram-Alexandre Pooladian, John Sous, Theodor Misiakiewicz
+Primary cat: stat.ML | All cats: stat.ML, cs.LG, math.ST
+Published: 2026-08-25
+Summary: Modern score-based generative models have achieved remarkable empirical success in high-dimensional tasks such as image, audio, and video synthesis. These models reduce distribution learning to a sequence of regression problems that, if solved exactly on finite data, would ultimately reproduce the training samples. Their ability to generalize must therefore arise from the implicit or explicit regu...
+
+--- [11] 2608.23234v1 ---
+Title: MLLM-Assisted Audio VOS: A 3rd Place Report for the MeViS-Audio Track, 8th LSVOS Challenge
+Authors: Liangtao Shi, Jinxia Xie, Xiantao Hu, Ting Liu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: In this technical report, we present a training-free framework for audio-guided video object segmentation, which integrates Multimodal Large Language Models (MLLMs) with SAM-based segmentation models. We decompose the task into several stages and identify suitable foundation models for each stage. Without introducing additional model training or task-specific fine-tuning, our approach leverages th...
+
+--- [12] 2608.22337v1 ---
+Title: Motion-Aware Reasoning from Speech to Mask Tracks: Runner-up Solution for the MeViS-Audio Track of the 8th LSVOS Challenge 2026
+Authors: Jinxing Zhou, Suiyi Zhao, Yanghao Zhou, Ruohao Guo
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-08-23
+Summary: Speech-guided referring video object segmentation aims to recover the mask tracks of objects specified by a spoken motion description. Here, speech carries a linguistic instruction rather than acoustic evidence from a sounding object, so a solution must connect speech recognition, motion-centric temporal grounding, mask tracking, and explicit no-target handling. We introduce Speech2MaskTrack, our ...
+
+--- [13] 2608.22111v2 ---
+Title: FlowSep 2: Self-Supervised Flow Matching for Language-Queried Audio Source Separation
+Authors: Yi Yuan, Xubo Liu, Haohe Liu, Xiyuan Kang, Mark D. Plumbley et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-22
+Summary: Language-queried audio source separation (LASS) aims to extract target sources from audio mixtures according to natural language descriptions, offering a flexible and scalable interface for audio source separation. However, most existing LASS methods rely on discriminative, mask-based models, which estimate masks from the input mixture. These methods often over-suppress target sounds or fail to fu...
+
+--- [14] 2608.19827v1 ---
+Title: Dancing Through Soundscapes: Designing a Low-Cost, Sound-Based Device for Sensing and Interpreting Movement and Dance
+Authors: Swen E. Gaudl, Silvia Carderelli-Gronau
+Primary cat: cs.HC | All cats: cs.HC, cs.SD
+Published: 2026-08-20
+Summary: When we move through space, we often rely on multiple senses beyond vision to perceive and act in that environment: we ``feel'' the presence of others; we build internal representations and models and recall them to navigate the environment. We also leave traces and impressions that others pick up on. The traces include echoes, heat, the displacement of objects such as furniture or footprints, air...
+
+--- [15] 2608.16125v1 ---
+Title: Navigating Speech Enhancement for Real-Time MRI: A Systematic Assessment of Signal Quality, Source Preservation, and Downstream Tasks
+Authors: Huang-Cheng Chou, Sean Foley, Haley Hsu, Kevin Huang, Szu-Jui Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-17
+Summary: Audio recorded during real-time magnetic resonance imaging (rtMRI) is heavily contaminated by scanner noise, but it remains unclear whether general-purpose speech enhancement improves the signal for speech research and downstream processing. Three off-the-shelf systems---Denoiser, PASE, and RE-USE---are evaluated across five rtMRI corpora using naturally recorded inputs, a clean-input probe, and a...
+
+--- [16] 2608.15578v1 ---
+Title: ARENA: Automated Red-Teaming for Large Audio Language Models
+Authors: Jiaming He, Zhicong Huang, Tian Jin, Zhen Sun, Cheng Hong et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-16
+Summary: Large audio-language models (LALMs) make it possible to interact with language models through speech, music, and environmental sound, but they also introduce a safety surface that is difficult to expose with text-only red-teaming. We study automated audio-grounded red-teaming, where a text query must remain safe in isolation while the joint text-audio input induces harmful target behavior. We prop...
+
+--- [17] 2608.14400v2 ---
+Title: Ten simple rules for non-visual, reproducible and accessible bioinformatics
+Authors: Jacqueline G. Kientsch, Stephan C. F. Neuhauss, Izaskun Mallona
+Primary cat: q-bio.GN | All cats: q-bio.GN, cs.HC
+Published: 2026-08-14
+Summary: Bioinformatics workflows rely heavily on visual representations. Quality-control plots, cell embeddings, heatmaps, genome-browser tracks, and interactive dashboards are not merely illustrations, but instruments for making analytical decisions. For blind and low-vision researchers who use screen readers, braille displays, or audio-based interfaces, these create a barrier: the evidence used to justi...
+
+--- [18] 2608.11913v1 ---
+Title: HarmoniDPO: Video-guided Audio Generation via Preference-Optimized Diffusion
+Authors: Wenshuo Peng, Kaipeng Zhang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-12
+Summary: Video-to-audio (V2A) generation faces significant challenges in achieving precise temporal synchronization and high perceptual quality due to the complex, ambiguous relationship between visual and auditory cues. Existing methods typically compress video inputs into single feature representations, leading to significant loss of temporal dynamics and fine-grained visual information. These approaches...
+
+--- [19] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+
+--- [20] 2608.09861v1 ---
+Title: Towards Expert-level Medical AI for Real-time Video Consultations
+Authors: Mahvish Nagda, Jihyeon Lee, Matthew Thompson, Chunjong Park, Tim Strother et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-08-10
+Summary: Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues. While text-based AI has shown promise, it discards essential perceptual dimensions and limits patients who cannot articulate symptoms in writing. Early efforts to extend medical AI to audio-visual interaction have demonstrated fea...
+
+--- [21] 2608.09288v1 ---
+Title: DAVE: A Decoupled Audio-Visual Enhancement Framework for Real-World Speech Separation
+Authors: Wei Zhou, Wanyi Ning, Yinshang Guo, Qianxiao Fang, Haitao Qian et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-10
+Summary: Audio-visual speech enhancement under real-world conditions remains challenging due to unreliable visual inputs and the lack of large-scale training data with realistic acoustic conditions. Existing approaches usually fuse visual features directly into the separation network, making them vulnerable to degraded visual signals. In this paper, we present DAVE, a decoupled audio-visual enhancement fra...
+
+--- [22] 2608.08638v2 ---
+Title: CuteTTS: Efficient and High-Quality Speech Synthesis via Autoregressive Modeling of Continuous Latents
+Authors: Yuqian Zhang, Yao Shi, Kexin Huang, Botian Jiang, Zhe Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-09
+Summary: Zero-shot text-to-speech (TTS) now supports interactive assistants, personalized media, and accessibility tools. All TTS systems require faithful linguistic rendering, consistent speaker identity, and low-latency response. Yet compact streaming systems must preserve sufficient acoustic detail in a predictable low-rate latent sequence, while iterative diffusion sampling and classifier-free guidance...
+
+--- [23] 2608.08469v1 ---
+Title: Aero Realtime: Fully Aligned Input-Output Streams for Low-Latency Streaming Multimodal Generation
+Authors: Kaichen Zhang, Wei Huang, Keming Wu, Bo Li, Xiaojuan Qi
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-09
+Summary: Existing streaming multimodal models process observations incrementally but still follow a turn-based prefill-then-decode pattern, making them non-duplex: new observations cannot naturally enter an active generation stream. Proactive alternatives use micro-turn polling or external response gates, which fragment continuous interaction, decouple response timing from language generation, and complica...
+
+--- [24] 2608.08349v1 ---
+Title: Dramarrator: Object-Based Audio Editing for Audio Drama Production from Books
+Authors: Karim Benharrak, Oriol Nieto, Bryan Wang, Zeyu Jin, Amy Pavel
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.MM
+Published: 2026-08-08
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aobject-based+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Audio dramas weave dialogue, sound effects, and music into immersive stories. Creators often adapt books into audio dramas, but this process remains labor-intensive, requiring them to interpret source material, author scripts, generate audio assets, and assemble them on a timeline. Because story elements like characters and scenes manifest across many interdependent assets, a single change can rip...
+
+--- [25] 2608.08147v1 ---
+Title: SAMOT: State-Aware Step Modulation and Optimal Transport Matching for Audio-Visual Instance Segmentation
+Authors: Kai Peng, Yunzhe Shen, Miao Zhang, Leiye Liu, Wei Ji et al.
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-08-08
+Summary: Audio-Visual Instance Segmentation (AVIS) aims to simultaneously classify, segment, and track sounding objects within video sequences. Unlike Audio-Visual Semantic Segmentation (AVS), AVIS involves instance-level modeling across longer video sequences, introducing two key challenges: (1) complex modality-state changes disrupt long-range modeling, and (2) substantial structural and distributional d...
+

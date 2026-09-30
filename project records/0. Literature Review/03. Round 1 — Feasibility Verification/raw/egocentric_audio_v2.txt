@@ -1,0 +1,177 @@
+--- [1] 2608.22359v1 ---
+Title: Pre-Decoding Acoustic Triage for Budgeted Vision-Language Captioning of Untrimmed Egocentric Video
+Authors: Masoud Jalayer, Changyi Li, Yu Xiao
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.SD
+Published: 2026-08-23
+Summary: Automatically analyzing hours-long egocentric video is increasingly essential for progress monitoring, quality control, and safety in logistics, construction, and manufacturing. Yet current pipelines that process short, fixed-size windows with a vision-language model (VLM) are prohibitively expensive because cost scales with the number of model calls. To reduce this cost, prior work proposes triag...
+
+--- [2] 2608.12627v3 ---
+Title: EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory
+Authors: Le Zhang, Hao Chen, Vlad Roznyatovskiy, Jianzhong Zhang, Ke Sun
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-08-12
+Summary: Long-horizon egocentric memory transforms continuous first-person video and audio into a searchable record of past experiences. We demonstrate two bottlenecks in existing systems: indices built from context-poor captions are unreliable for agentic search, while retrieval ignores a question's temporal intent. To address both bottlenecks, we introduce EgoCITE (Egocentric Context-augmented Indexing a...
+
+--- [3] 2608.12034v1 ---
+Title: The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models
+Authors: Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao, Yuhang Dai et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-12
+Summary: Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity ...
+
+--- [4] 2607.28625v1 ---
+Title: ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine
+Authors: Yukang Cao, Haozhe Xie, Beichen Wen, Runmao Yao, Yinghao Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-30
+Summary: Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modalities, or spatial scales, leaving the full perception-action loop only partially observed. We introdu...
+
+--- [5] 2607.11487v1 ---
+Title: LightMem-Ego: Your AI Memory for Everyday Life
+Authors: Yijun Chen, Boyi Xiao, Yixian Zhao, Haoting Xia, Buqiang Xu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.CV, cs.HC, cs.MM
+Published: 2026-07-13
+Summary: Personal AI assistants on mobile and wearable devices continuously perceive users' daily lives through visual and audio streams. However, answering queries about past experiences requires lightweight multimodal memory that can continuously accumulate, organize, and retrieve long-term experiences, which remains challenging. To address this challenge, we present LightMem-Ego, a lightweight streaming...
+
+--- [6] 2607.10287v1 ---
+Title: InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation
+Authors: Yichen Peng, Jyun-Ting Song, Chen-Chieh Liao, Kris Kitani, Hideki Koike et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-11
+Summary: Human-pet interaction estimation and generation remain underexplored due to the absence of a high-quality large-scale dataset. We present InterPet4D, the first multimodal dataset capturing natural interactions between humans and dogs. Using a synchronized multi-view capture system, we record human-dog obedience tasks and provide annotations for both humans and dogs, including multi-view and egocen...
+
+--- [7] 2607.08083v2 ---
+Title: HeadRoom: Lightweight, Edge-deployable Pipeline for Adaptive Notification Routing
+Authors: Dinithi Dissanayake, Prasanth Sasikumar, Suranga Nanayakkara
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-07-09
+Summary: Emerging wearables, such as smart glasses, can deliver notifications through multiple sensory channels, but there is still a limited understanding of how to choose the right channel at the right moment. We propose HeadRoom, a lightweight, edge-deployable pipeline that estimates the availability of visual and auditory channels in real time from egocentric video and audio. Our controlled user study ...
+
+--- [8] 2607.06691v1 ---
+Title: CoMind: Understanding Collaborative Human Activity from Multiple Minds and Views
+Authors: Alexey Gavryushin, Dingxi Zhang, Zhao Huang, Alexandros Delitzas, Jiaqi Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-07
+Summary: Human-human collaboration is a fundamental aspect of everyday life, essential to success in a wide range of goal-directed activities from household tasks to professional teamwork. While much research has focused on modeling coordination and task execution, the cognitive processes that support such collaboration, particularly Theory of Mind (the ability to infer the mental states of others), remain...
+
+--- [9] 2607.03213v1 ---
+Title: OpenGlass: A Sensing-Computing Split Architecture for Local MLLM-Driven Real-Time Visual Assistance
+Authors: Mengzhang Li, Yuan Yao
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-07-03
+Summary: We present OpenGlass, an open-source, privacy-oriented, local-first system for low-latency multimodal visual assistance, with a primary focus on blind and low-vision users. Cloud MLLM assistants offer strong visual understanding, but often require uploading first-person visual data and can suffer multi-second network delays; wearable glasses are ideal for sensing, but cannot host large models unde...
+
+--- [10] 2606.07433v1 ---
+Title: Watch, Remember, Reason: Human-View Video Understanding with MLLMs
+Authors: Jiahao Meng, Yue Tan, Qi Xu, Kuan Gao, Weisong Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2026-06-05
+Summary: Video understanding is being rapidly transformed by multimodal large language models (MLLMs), as research moves from short clips to long, multimodal, and knowledge-intensive video scenarios. These scenarios require models to handle sparse evidence, long-range dependencies, multimodal alignment, and reliable inference under limited computational budgets. This work presents a human-view perspective ...
+
+--- [11] 2606.00825v1 ---
+Title: SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory
+Authors: Samiul Alam, Shakhrul Iman Siam, Michael J. Proulx, James Fort, Richard Newcombe et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.ET, cs.HC, cs.MA
+Published: 2026-05-30
+Summary: AI glasses present a compelling platform for AI agents to serve as personalized memory assistants. To be genuinely useful, such systems must move beyond short-term video comprehension and address memory gaps that humans experience for practical, personal, or social purposes over longitudinal egocentric video streams. However, existing egocentric datasets predominantly focus on action recognition o...
+
+--- [12] 2606.02246v1 ---
+Title: Ego-METAS: Egocentric online Multimodal Energy-efficient Temporal Action Segmentation benchmark
+Authors: Maria Santos-Villafranca, Jesus Bermudez-cameo, Alejandro Perez-Yus, Giovanni Maria Farinella, Antonino Furnari
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-29
+Summary: To operate in the physical world, embodied agents must perceive their environment in an "always-on" fashion, selectively accessing the most informative sensors to balance energy constraints and task accuracy. Despite its importance for resource-constrained devices, energy-aware perception remains under-explored, with most prior work assuming unlimited compute. To address this, we introduce Ego-MET...
+
+--- [13] 2605.18194v1 ---
+Title: Beyond the Cartesian Illusion: Testing Two-Stage Multi-Modal Theory of Mind under Perceptual Bottlenecks
+Authors: Yajing Zhou, Xiangyu Kong
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-05-18
+Summary: While Multi-Modal Large Language Models (MLLMs) demonstrate impressive capabilities in general reasoning, their embodied spatial intelligence remains hampered by a "Cartesian Illusion" - a reliance on text-based probability distributions that lack grounded, 3D topological understanding. This limitation is starkly exposed in multi-agent environments, which demand more than just scene perception; th...
+
+--- [14] 2605.17262v1 ---
+Title: EgoIntrospect: An Egocentric Dataset and Benchmark for User-Centric Internal State Reasoning
+Authors: Zeyu Wang, Chang Liu, Eduardus Tjitrahardja, Yuntao Wang, Borislav Pavlov et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-17
+Summary: Despite extensive efforts on egocentric video datasets and benchmarks, understanding users' internal states, which is crucial for enabling seamless AI assistant experiences, remains largely overlooked. In this work, we introduce EgoIntrospect, the first egocentric dataset captured in user-driven scenarios with self-annotations that explicitly reveal users' interactive intentions with AI assistants...
+
+--- [15] 2604.23860v1 ---
+Title: Exploring Audio Hallucination in Egocentric Video Understanding
+Authors: Ashish Seth, Xinhao Mei, Changsheng Zhao, Varun Nagaraja, Ernie Chang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-04-26
+Summary: Egocentric videos provide a distinctive setting in which sound serves as crucial cues to understand user activities and surroundings, particularly when visual information is unstable or occluded due to continuous camera movement. State-of-the-art large audio-visual language models (AV-LLMs) can generate multimodal descriptions. However, we show in this work that they are prone to audio hallucinati...
+
+--- [16] 2604.22036v1 ---
+Title: EgoMAGIC- An Egocentric Video Field Medicine Dataset for Training Perception Algorithms
+Authors: Brian VanVoorst, Nicholas Walczak, Christopher Gilleo, Charles Meissner, Fabio Felix et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.LG
+Published: 2026-04-23
+Summary: This paper introduces EgoMAGIC (Medical Assistance, Guidance, Instruction, and Correction), an egocentric medical activity dataset collected as part of DARPA's Perceptually-enabled Task Guidance (PTG) program. This dataset comprises 3,355 videos of 50 medical tasks, with at least 50 labeled videos per task. The primary objective of the PTG program was to develop virtual assistants integrated into ...
+
+--- [17] 2604.15823v1 ---
+Title: Watching Movies Like a Human: Egocentric Emotion Understanding for Embodied Companions
+Authors: Ze Dong, Hao Shi, Zejia Gao, Zhonghua Yi, Kaiwei Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-17
+Summary: Embodied robotic agents often perceive movies through an egocentric screen-view interface rather than native cinematic footage, introducing domain shifts such as viewpoint distortion, scale variation, illumination changes, and environmental interference. However, existing research on movie emotion understanding is almost exclusively conducted on cinematic footage, limiting cross-domain generalizat...
+
+--- [18] 2604.11182v2 ---
+Title: Evaluating Memory Capability in Continuous Lifelog Scenario
+Authors: Jianjie Zheng, Zhichen Liu, Zhanyu Shen, Jingxiang Qu, Guanhua Chen et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-04-13
+Summary: Nowadays, wearable devices can continuously lifelog ambient conversations, creating substantial opportunities for memory systems. However, existing benchmarks primarily focus on online one-on-one chatting or human-AI interactions, thus neglecting the unique demands of real-world scenarios. Given the scarcity of public lifelogging audio datasets, we propose a hierarchical synthesis framework to cur...
+
+--- [19] 2603.29095v1 ---
+Title: VueBuds: Visual Intelligence with Wireless Earbuds
+Authors: Maruchi Kim, Rasya Fawwaz, Zhi Yang Lim, Brinda Moudgalya, Hexi Wang et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-03-31
+Summary: Despite their ubiquity, wireless earbuds remain audio-centric due to size and power constraints. We present VueBuds, the first camera-integrated wireless earbuds for egocentric vision, capable of operating within stringent power and form-factor limits. Each VueBud embeds a camera into a Sony WF-1000XM3 to stream visual data over Bluetooth to a host device for on-device vision language model (VLM) ...
+
+--- [20] 2603.18496v1 ---
+Title: NymeriaPlus: Enriching Nymeria Dataset with Additional Annotations and Data
+Authors: Daniel DeTone, Federica Bogo, Eric-Tuan Le, Duncan Frost, Julian Straub et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-19
+Summary: The Nymeria Dataset, released in 2024, is a large-scale collection of in-the-wild human activities captured with multiple egocentric wearable devices that are spatially localized and temporally synchronized. It provides body-motion ground truth recorded with a motion-capture suit, device trajectories, semi-dense 3D point clouds, and in-context narrations. In this paper, we upgrade Nymeria and intr...
+
+--- [21] 2603.18082v1 ---
+Title: EgoAdapt: Enhancing Robustness in Egocentric Interactive Speaker Detection Under Missing Modalities
+Authors: Xinyuan Qian, Xinjia Zhu, Alessio Brutti, Dong Liang
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-03-18
+Summary: TTM (Talking to Me) task is a pivotal component in understanding human social interactions, aiming to determine who is engaged in conversation with the camera-wearer. Traditional models often face challenges in real-world scenarios due to missing visual data, neglecting the role of head orientation, and background noise. This study addresses these limitations by introducing EgoAdapt, an adaptive f...
+
+--- [22] 2603.10888v1 ---
+Title: VoxCare: Studying Natural Communication Behaviors of Hospital Caregivers through Wearable Sensing of Egocentric Audio
+Authors: Tiantian Feng, Kleanthis Avramidis, Anfeng Xu, Deqi Wang, Brandon M Booth et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-11
+Summary: Healthcare professionals work in complex, high-stakes environments where effective communication is critical for care delivery, team coordination, and individual well-being. However, communication activity in everyday clinical settings remains challenging to measure and largely unexplored in human behavioral research. We present VoxCare, a scalable egocentric wearable audio sensing and computing s...
+
+--- [23] 2603.07966v1 ---
+Title: Listening with the Eyes: Benchmarking Egocentric Co-Speech Grounding across Space and Time
+Authors: Weijie Zhou, Xuantang Xiong, Zhenlin Hu, Xiaomeng Zhu, Chaoyang Zhao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-09
+Summary: In situated collaboration, speakers often use intentionally underspecified deictic commands (e.g., ``pass me \textit{that}''), whose referent becomes identifiable only by aligning speech with a brief co-speech pointing \emph{stroke}. However, many embodied benchmarks admit language-only shortcuts, allowing MLLMs to perform well without learning the \emph{audio--visual alignment} required by deicti...
+
+--- [24] 2602.06139v1 ---
+Title: EgoAVU: Egocentric Audio-Visual Understanding
+Authors: Ashish Seth, Xinhao Mei, Changsheng Zhao, Varun Nagaraja, Ernie Chang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-05
+Summary: Understanding egocentric videos plays a vital role for embodied intelligence. Recent multi-modal large language models (MLLMs) can accept both visual and audio inputs. However, due to the challenge of obtaining text labels with coherent joint-modality information, whether MLLMs can jointly understand both modalities in egocentric videos remains under-explored. To address this problem, we introduce...
+
+--- [25] 2601.18157v3 ---
+Title: Agentic Very Long Video Understanding
+Authors: Aniket Rege, Arka Sadhu, Yuliang Li, Kejie Li, Ramya Korlakai Vinayak et al.
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aegocentric+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-01-26
+Summary: The advent of always-on personal AI assistants, enabled by all-day wearable devices such as smart glasses, demands a new level of contextual understanding, one that goes beyond short, isolated events to encompass the continuous, longitudinal stream of egocentric video. Achieving this vision requires advances in long-horizon video understanding, where systems must interpret and recall visual and au...
+

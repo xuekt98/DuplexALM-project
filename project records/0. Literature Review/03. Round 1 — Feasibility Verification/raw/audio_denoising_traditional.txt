@@ -1,0 +1,135 @@
+--- [1] 2605.22262v1 ---
+Title: Automatic Contextual Audio Denoising
+Authors: Diep Luong, Konstantinos Drossos, Mikko Heikkinen, Tuomas Virtanen
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-05-21
+Summary: Audio context determines which sound components and sources are relevant and which can be perceived as irrelevant (noise) by listeners. For example, traffic noise is informative in urban surveillance but noise for a phone call at the same location. Most current audio denoising systems apply fixed target-noise definitions, often removing useful components in one context while failing to suppress ir...
+
+--- [2] 2512.02457v2 ---
+Title: Does Hearing Help Seeing? Investigating Audio-Video Joint Denoising for Video Generation
+Authors: Jianzong Wu, Hao Lian, Dachao Hao, Ye Tian, Qingyu Shi et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-12-02
+Summary: Recent audio-video generative systems suggest that coupling modalities benefits not only audio-video synchrony but also the video modality itself. We pose a fundamental question: Does audio-video joint denoising training improve video generation, even when we only care about video quality? To study this, we introduce a parameter-efficient Audio-Video Full DiT (AVFullDiT) architecture that leverage...
+
+--- [3] 2511.01773v1 ---
+Title: ADNAC: Audio Denoiser using Neural Audio Codec
+Authors: Daniel Jimon, Mircea Vaida, Adriana Stan
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2025-11-03
+Summary: Audio denoising is critical in signal processing, enhancing intelligibility and fidelity for applications like restoring musical recordings. This paper presents a proof-of-concept for adapting a state-of-the-art neural audio codec, the Descript Audio Codec (DAC), for music denoising. This work overcomes the limitations of traditional architectures like U-Nets by training the model on a large-scale...
+
+--- [4] 2503.20782v1 ---
+Title: Zero-Shot Audio-Visual Editing via Cross-Modal Delta Denoising
+Authors: Yan-Bo Lin, Kevin Lin, Zhengyuan Yang, Linjie Li, Jianfeng Wang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.MM, cs.SD, eess.AS
+Published: 2025-03-26
+Summary: In this paper, we introduce zero-shot audio-video editing, a novel task that requires transforming original audio-visual content to align with a specified textual prompt without additional model training. To evaluate this task, we curate a benchmark dataset, AvED-Bench, designed explicitly for zero-shot audio-video editing. AvED-Bench includes 110 videos, each with a 10-second duration, spanning 1...
+
+--- [5] 2412.19563v1 ---
+Title: Reinforced Label Denoising for Weakly-Supervised Audio-Visual Video Parsing
+Authors: Yongbiao Gao, Xiangcheng Sun, Guohua Lv, Deng Yu, Sijiu Niu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2024-12-27
+Summary: Audio-visual video parsing (AVVP) aims to recognize audio and visual event labels with precise temporal boundaries, which is quite challenging since audio or visual modality might include only one event label with only the overall video labels available. Existing label denoising models often treat the denoising process as a separate preprocessing step, leading to a disconnect between label denoisi...
+
+--- [6] 2406.09161v1 ---
+Title: Complex Image-Generative Diffusion Transformer for Audio Denoising
+Authors: Junhui Li, Pu Wang, Jialu Li, Youshan Zhang
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-06-13
+Summary: The audio denoising technique has captured widespread attention in the deep neural network field. Recently, the audio denoising problem has been converted into an image generation task, and deep learning-based approaches have been applied to tackle this problem. However, its performance is still limited, leaving room for further improvement. In order to enhance audio denoising performance, this pa...
+
+--- [7] 2406.09154v1 ---
+Title: Diffusion Gaussian Mixture Audio Denoise
+Authors: Pu Wang, Junhui Li, Jialu Li, Liangdong Guo, Youshan Zhang
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2024-06-13
+Summary: Recent diffusion models have achieved promising performances in audio-denoising tasks. The unique property of the reverse process could recover clean signals. However, the distribution of real-world noises does not comply with a single Gaussian distribution and is even unknown. The sampling of Gaussian noise conditions limits its application scenarios. To overcome these challenges, we propose a Di...
+
+--- [8] 2310.19588v1 ---
+Title: DPATD: Dual-Phase Audio Transformer for Denoising
+Authors: Junhui Li, Pu Wang, Jialu Li, Xinzhe Wang, Youshan Zhang
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2023-10-30
+Summary: Recent high-performance transformer-based speech enhancement models demonstrate that time domain methods could achieve similar performance as time-frequency domain methods. However, time-domain speech enhancement systems typically receive input audio sequences consisting of a large number of time steps, making it challenging to model extremely long sequences and train models to perform adequately....
+
+--- [9] 2310.16109v1 ---
+Title: Complex Image Generation SwinTransformer Network for Audio Denoising
+Authors: Youshan Zhang, Jialu Li
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2023-10-24
+Summary: Achieving high-performance audio denoising is still a challenging task in real-world applications. Existing time-frequency methods often ignore the quality of generated frequency domain images. This paper converts the audio denoising problem into an image generation task. We first develop a complex image generation SwinTransformer network to capture more information from the complex Fourier domain...
+
+--- [10] 2310.13388v2 ---
+Title: Music Augmentation and Denoising For Peak-Based Audio Fingerprinting
+Authors: Kamil Akesbi, Dorian Desblancs, Benjamin Martin
+Primary cat: cs.SD | All cats: cs.SD, cs.IR, cs.LG, eess.AS
+Published: 2023-10-20
+Summary: Audio fingerprinting is a well-established solution for song identification from short recording excerpts. Popular methods rely on the extraction of sparse representations, generally spectral peaks, and have proven to be accurate, fast, and scalable to large collections. However, real-world applications of audio identification often happen in noisy environments, which can cause these systems to fa...
+
+--- [11] 2305.14079v3 ---
+Title: Masked Modeling Duo for Speech: Specializing General-Purpose Audio Representation to Speech using Denoising Distillation
+Authors: Daisuke Niizumi, Daiki Takeuchi, Yasunori Ohishi, Noboru Harada, Kunio Kashino
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2023-05-23
+Summary: Self-supervised learning general-purpose audio representations have demonstrated high performance in a variety of tasks. Although they can be optimized for application by fine-tuning, even higher performance can be expected if they can be specialized to pre-train for an application. This paper explores the challenges and solutions in specializing general-purpose audio representations for a specifi...
+
+--- [12] 2212.11277v1 ---
+Title: Audio Denoising for Robust Audio Fingerprinting
+Authors: Kamil Akesbi
+Primary cat: cs.SD | All cats: cs.SD, cs.IR, cs.LG
+Published: 2022-12-21
+Summary: Music discovery services let users identify songs from short mobile recordings. These solutions are often based on Audio Fingerprinting, and rely more specifically on the extraction of spectral peaks in order to be robust to a number of distortions. Few works have been done to study the robustness of these algorithms to background noise captured in real environments. In particular, AFP systems sti...
+
+--- [13] 2211.09707v2 ---
+Title: Listen, Denoise, Action! Audio-Driven Motion Synthesis with Diffusion Models
+Authors: Simon Alexanderson, Rajmund Nagy, Jonas Beskow, Gustav Eje Henter
+Primary cat: cs.LG | All cats: cs.LG, cs.CV, cs.GR, cs.HC, cs.SD
+Published: 2022-11-17
+# Total entries: 19
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Aaudio+AND+ti%3Adenoising&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Diffusion models have experienced a surge of interest as highly expressive yet efficiently trainable probabilistic models. We show that these models are an excellent fit for synthesising human motion that co-occurs with audio, e.g., dancing and co-speech gesticulation, since motion is complex and highly ambiguous given audio, calling for a probabilistic description. Specifically, we adapt the Diff...
+
+--- [14] 2210.10196v1 ---
+Title: BirdSoundsDenoising: Deep Visual Audio Denoising for Bird Sounds
+Authors: Youshan Zhang, Jialu Li
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2022-10-18
+Summary: Audio denoising has been explored for decades using both traditional and deep learning-based methods. However, these methods are still limited to either manually added artificial noise or lower denoised audio quality. To overcome these challenges, we collect a large-scale natural noise bird sound dataset. We are the first to transfer the audio denoising problem into an image segmentation problem a...
+
+--- [15] 2204.11573v4 ---
+Title: Joint-Modal Label Denoising for Weakly-Supervised Audio-Visual Video Parsing
+Authors: Haoyue Cheng, Zhaoyang Liu, Hang Zhou, Chen Qian, Wayne Wu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2022-04-25
+Summary: This paper focuses on the weakly-supervised audio-visual video parsing task, which aims to recognize all events belonging to each modality and localize their temporal boundaries. This task is challenging because only overall labels indicating the video events are provided for training. However, an event might be labeled but not appear in one of the modalities, which results in a modality-specific ...
+
+--- [16] 2201.02099v1 ---
+Title: Implementing simple spectral denoising for environmental audio recordings
+Authors: Fábio Felix Dias, Moacir Antonelli Ponti, Rosane Minghim
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2022-01-06
+Summary: This technical report details changes applied to a noise filter to facilitate its application and improve its results. The filter is applied to denoise natural sounds recorded in the wild and to generate an acoustic index used in soundscape analysis.
+
+--- [17] 2111.00242v4 ---
+Title: Self-Supervised Speech Denoising Using Only Noisy Audio Signals
+Authors: Jiasong Wu, Qingchun Li, Guanyu Yang, Lei Li, Lotfi Senhadji et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2021-10-30
+Summary: In traditional speech denoising tasks, clean audio signals are often used as the training target, but absolutely clean signals are collected from expensive recording equipment or in studios with the strict environments. To overcome this drawback, we propose an end-to-end self-supervised speech denoising training scheme using only noisy audio signals, named Only-Noisy Training (ONT), without extra ...
+
+--- [18] 2010.11860v1 ---
+Title: Perceptual Loss based Speech Denoising with an ensemble of Audio Pattern Recognition and Self-Supervised Models
+Authors: Saurabh Kataria, Jesús Villalba, Najim Dehak
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2020-10-22
+Summary: Deep learning based speech denoising still suffers from the challenge of improving perceptual quality of enhanced signals. We introduce a generalized framework called Perceptual Ensemble Regularization Loss (PERL) built on the idea of perceptual losses. Perceptual loss discourages distortion to certain speech properties and we analyze it using six large-scale pre-trained models: speaker classifica...
+
+--- [19] 1703.08019v2 ---
+Title: Single Channel Audio Source Separation using Convolutional Denoising Autoencoders
+Authors: Emad M. Grais, Mark D. Plumbley
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2017-03-23
+Summary: Deep learning techniques have been used recently to tackle the audio source separation problem. In this work, we propose to use deep fully convolutional denoising autoencoders (CDAEs) for monaural audio source separation. We use as many CDAEs as the number of sources to be separated from the mixed signal. Each CDAE is trained to separate one source and treats the other sources as background noise....
+

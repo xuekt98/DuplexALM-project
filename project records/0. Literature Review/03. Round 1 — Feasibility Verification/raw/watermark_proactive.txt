@@ -1,0 +1,177 @@
+--- [1] 2608.27492v1 ---
+Title: Can Tainted Pixels Expose Deepfake Videos?
+Authors: Juan Hu, Shaojing Fan, Sanjay Saha, Marc Herrera, Terence Sim
+Primary cat: cs.CR | All cats: cs.CR, cs.CV
+Published: 2026-08-26
+Summary: Publicly-acceesible face-manipulation tools have made deepfake creation accessible to non-expert users. Against these, existing defenses are mostly post-hoc, detecting only after forgery has occurred, and operating on still images rather than videos. Research is lacking in i) the proactive protection of published facial videos against black-box manipulation tools, and in (ii) understanding its per...
+
+--- [2] 2608.25289v1 ---
+Title: Combining Self-Embedding Audio Watermarking with Ultra-Low-Bitrate Neural Codecs
+Authors: Yigitcan Özer, Xin Wang, Zhe Zhang, Junichi Yamagishi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-26
+Summary: Partial manipulation of speech recordings, where only localized segments of an utterance are altered, poses a significant challenge for content integrity verification, as reliable detection and localization of such edits becomes harder as the manipulated proportion decreases. Watermarking offers a proactive defense alternative by embedding auxiliary information prior to distribution; classical has...
+
+--- [3] 2608.11495v1 ---
+Title: Defending against Model Extraction for GNNs with Model Reprogramming
+Authors: Yan Wen, Zhenyi Wang, Heng Huang
+Primary cat: cs.LG | All cats: cs.LG, cs.CR, cs.IR
+Published: 2026-08-11
+Summary: Graph Neural Networks (GNNs) serve as the backbone for high-stakes applications in Machine-Learning-as-a-Service (MLaaS). Still, their black-box deployment exposes them to Model Extraction (ME) attacks, in which adversaries steal intellectual property by querying APIs. Existing defenses suffer from a critical ''Euclidean bias'': they transfer image-based strategies (e.g., random noise) to graphs, ...
+
+--- [4] 2608.02656v1 ---
+Title: Secure AI Watermarking Framework for IP Protection in Multi-Tenant Cloud Platforms
+Authors: M Anjan Kumar, Kishor Kumar Gajula, Ch Prathima
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-08-01
+Summary: The Secured data safe guard transaction with multi-tenant environments run on private-protected authenticate platforms runs by secured handed environments that emerges with the expansion of cloud-based AI services. To enhanced this secured leakage address challenges solution to protect a secure AI Watermarking system incorporating key distributed between trusted parties based on key authentication...
+
+--- [5] 2607.13685v1 ---
+Title: DNA: Dual-stage Native Attribution for Generated Image Source Tracing
+Authors: Chao Wang, Kejiang Chen, Zijin Yang, Yaofei Wang, Yuang Qi et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-15
+Summary: The rapid evolution of image generation has produced numerous within-family variants, making source-model attribution of suspect images increasingly important for digital forensics. Existing proactive methods rely on watermark embedding or model modification, which may degrade visual quality and limit deployment flexibility. Passive methods often rely on large-scale supervised training or a single...
+
+--- [6] 2606.29759v1 ---
+Title: GoodDiffusion: Proactive Copyright Protection for Diffusion Bridge Models via Learnable Sample-specific Signatures
+Authors: Shixi Qin, Zhiyong Yang, Shilong Bao, Zitai Wang, Qianqian Xu et al.
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-06-29
+Summary: This paper tackles the challenging problem of developing a proactive copyright protection mechanism that cuts off unauthorized use of diffusion bridge models. Existing studies largely fall into post-hoc attribution (e.g., watermarking and fingerprinting) or degradation-only defenses, which offer only indirect and limited preventive effects. We therefore propose GoodDiffusion, inspired by backdoor ...
+
+--- [7] 2605.14291v1 ---
+Title: To See is Not to Learn: Protecting Multimodal Data from Unauthorized Fine-Tuning of Large Vision-Language Model
+Authors: Chengshuai Zhao, Zhen Tan, Dawei Li, Zhiyuan Yu, Huan Liu
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.CL, cs.CV, cs.LG
+Published: 2026-05-14
+Summary: The rapid advancement of Large Vision-Language Models (LVLMs) is increasingly accompanied by unauthorized scraping and training on multimodal web data, posing severe copyright and privacy risks to data owners. Existing countermeasures, such as machine unlearning and watermarks, are inherent post-hoc approaches that act only after intellectual property infringement has already occurred. In this wor...
+
+--- [8] 2604.26519v2 ---
+Title: GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking
+Authors: Shupeng Che, Zhiqing Guo, Changtao Miao, Dan Ma, Gaobo Yang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-29
+Summary: The rapid evolution of deepfake technology poses an unprecedented threat to the authenticity of Graphics Interchange Format (GIF) imagery, which serves as a representative of short-loop temporal media in social networks. However, existing proactive forensics works are designed for static images, which limits their applicability to animated GIFs. To bridge this gap, we propose GIFGuard, the first s...
+
+--- [9] 2604.26342v2 ---
+Title: Whether, Which, and Whose: Solving the Triple Challenge of Deepfake Proactive Forensics in Multi-Face Scenarios
+Authors: Lei Zhang, Zhiqing Guo, Dan Ma, Wenzhong Yang, Gaobo Yang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-29
+Summary: Unlike single-face forgeries, deepfakes in complex multi-person interaction scenarios (such as group photos and multi-person meetings) more closely reflect real-world threats. Although existing proactive forensics solutions demonstrate good performance, they heavily rely on a "single-face" setting, making it difficult to effectively deal with the problems of deepfake detection, localization, and s...
+
+--- [10] 2604.23957v2 ---
+Title: LAVA: Layered Audio-Visual Anti-tampering Watermarking for Robust Deepfake Detection and Localization
+Authors: Bokang Zeng, Zheng Gao, Xiaoyu Li, Xiaoyan Feng, Jiaojiao Jiang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-27
+Summary: Proactive watermarking offers a promising approach for deepfake tamper detection and localization in short-form videos. However, existing methods often decouple audio and visual evidence and assume that watermark signals remain reliable under real-world degradations, making tamper localization vulnerable to multimodal misalignment and compression distortions. Moreover, existing semi-fragile visual...
+
+--- [11] 2603.23178v1 ---
+Title: SAiW: Source-Attributable Invisible Watermarking for Proactive Deepfake Defense
+Authors: Bibek Das, Chandranath Adak, Soumi Chattopadhyay, Zahid Akhtar, Soumya Dutta
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-03-24
+Summary: Deepfakes generated by modern generative models pose a serious threat to information integrity, digital identity, and public trust. Existing detection methods are largely reactive, attempting to identify manipulations after they occur and often failing to generalize across evolving generation techniques. This motivates the need for proactive mechanisms that secure media authenticity at the time of...
+
+--- [12] 2603.01067v1 ---
+Title: Hide&Seek: Remove Image Watermarks with Negligible Cost via Pixel-wise Reconstruction
+Authors: Huajie Chen, Tianqing Zhu, Hailin Yang, Yuchen Zhong, Yang Zhang et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-03-01
+Summary: Watermarking has emerged as a key defense against the misuse of machine-generated images (MGIs). Yet the robustness of these protections remains underexplored. To reveal the limits of SOTA proactive image watermarking defenses, we propose HIDE&SEEK (HS), a suite of versatile and cost-effective attacks that reliably remove embedded watermarks while preserving high visual fidelity.
+
+--- [13] 2602.23523v1 ---
+Title: All in One: Unifying Deepfake Detection, Tampering Localization, and Source Tracing with a Robust Landmark-Identity Watermark
+Authors: Junjiang Wu, Liejun Wang, Zhiqing Guo
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-26
+Summary: With the rapid advancement of deepfake technology, malicious face manipulations pose a significant threat to personal privacy and social security. However, existing proactive forensics methods typically treat deepfake detection, tampering localization, and source tracing as independent tasks, lacking a unified framework to address them jointly. To bridge this gap, we propose a unified proactive fo...
+
+--- [14] 2602.20618v1 ---
+Title: RecoverMark: Robust Watermarking for Localization and Recovery of Manipulated Faces
+Authors: Haonan An, Xiaohui Ye, Guang Hua, Yihang Tao, Hangcheng Cao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-24
+Summary: The proliferation of AI-generated content has facilitated sophisticated face manipulation, severely undermining visual integrity and posing unprecedented challenges to intellectual property. In response, a common proactive defense leverages fragile watermarks to detect, localize, or even recover manipulated regions. However, these methods always assume an adversary unaware of the embedded watermar...
+
+--- [15] 2602.19019v2 ---
+Title: TokenTrace: Multi-Concept Attribution through Watermarked Token Recovery
+Authors: Li Zhang, Shruti Agarwal, John Collomosse, Pengtao Xie, Vishal Asnani
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-22
+Summary: Generative AI models pose a significant challenge to intellectual property (IP), as they can replicate unique artistic styles and concepts without attribution. While watermarking offers a potential solution, existing methods often fail in complex scenarios where multiple concepts (e.g., an object and an artistic style) are composed within a single image. These methods struggle to disentangle and a...
+
+--- [16] 2512.10600v1 ---
+Title: Authority Backdoor: A Certifiable Backdoor Mechanism for Authoring DNNs
+Authors: Han Yang, Shaofeng Li, Tian Dong, Xiangyu Xu, Guangchi Liu et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.LG
+Published: 2025-12-11
+Summary: Deep Neural Networks (DNNs), as valuable intellectual property, face unauthorized use. Existing protections, such as digital watermarking, are largely passive; they provide only post-hoc ownership verification and cannot actively prevent the illicit use of a stolen model. This work proposes a proactive protection scheme, dubbed ``Authority Backdoor," which embeds access constraints directly into t...
+
+--- [17] 2511.04949v2 ---
+Title: DeepForgeSeal: Latent Space-Driven Semi-Fragile Watermarking for Deepfake Detection Using Adversarial Reinforcement Learning
+Authors: Tharindu Fernando, Clinton Fookes, Sridha Sridharan
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2025-11-07
+Summary: Rapid advances in generative AI have led to increasingly realistic deepfakes, posing growing challenges for law enforcement and public trust. Existing passive deepfake detectors struggle to keep pace, largely due to their dependence on specific forgery artifacts, which limits their ability to generalize to new deepfake types. Proactive deepfake detection using watermarks has emerged to address the...
+
+--- [18] 2509.05835v2 ---
+Title: Yours or Mine? Overwriting Attacks Against Neural Audio Watermarking
+Authors: Lingfeng Yao, Chenpei Huang, Shengyao Wang, Junpei Xue, Hanqing Guo et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.SD, eess.AS
+Published: 2025-09-06
+Summary: As generative audio models are rapidly evolving, AI-generated audios increasingly raise concerns about copyright infringement and misinformation spread. Audio watermarking, as a proactive defense, can embed secret messages into audio for copyright protection and source verification. However, current neural audio watermarking methods focus primarily on the imperceptibility and robustness of waterma...
+
+--- [19] 2508.17247v2 ---
+Title: Uncovering and Mitigating Destructive Multi-Embedding Attacks in Deepfake Proactive Forensics
+Authors: Lixin Jia, Haiyang Sun, Zhiqing Guo, Yunfeng Diao, Dan Ma et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-08-24
+Summary: With the rapid evolution of deepfake technologies and the wide dissemination of digital media, personal privacy is facing increasingly serious security threats. Deepfake proactive forensics, which involves embedding imperceptible watermarks to enable reliable source tracking, serves as a crucial defense against these threats. Although existing methods show strong forensic ability, they rely on an ...
+
+--- [20] 2508.02115v4 ---
+Title: Coward: Collision-based OOD Watermarking for Practical Proactive Federated Backdoor Detection
+Authors: Wenjie Li, Siying Gu, Yiming Li, Shuxin Li, Zhili Chen et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2025-08-04
+Summary: Backdoor detection is currently the mainstream defense against backdoor attacks in federated learning (FL), where a small number of malicious clients can upload poisoned updates to compromise the federated global model. Existing backdoor detection techniques fall into two categories, passive and proactive, depending on whether the server proactively intervenes in the training process. However, bot...
+
+--- [21] 2506.14398v1 ---
+Title: A Comparative Study on Proactive and Passive Detection of Deepfake Speech
+Authors: Chia-Hua Wu, Wanying Ge, Xin Wang, Junichi Yamagishi, Yu Tsao et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-06-17
+Summary: Solutions for defending against deepfake speech fall into two categories: proactive watermarking models and passive conventional deepfake detectors. While both address common threats, their differences in training, optimization, and evaluation prevent a unified protocol for joint evaluation and selecting the best solutions for different cases. This work proposes a framework to evaluate both model ...
+
+--- [22] 2505.23821v2 ---
+Title: SpeechVerifier: Robust Acoustic Fingerprint against Tampering Attacks via Watermarking
+Authors: Lingfeng Yao, Chenpei Huang, Shengyao Wang, Junpei Xue, Hanqing Guo et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.SD, eess.AS
+Published: 2025-05-28
+Summary: With the surge of social media, maliciously tampered public speeches, especially those from influential figures, have seriously affected social stability and public trust. Existing speech tampering detection methods remain insufficient: they either rely on external reference data or fail to be both sensitive to attacks and robust to benign operations, such as compression and resampling. To tackle ...
+
+--- [23] 2505.19081v2 ---
+Title: Towards Generalized Proactive Defense against Face Swapping with Contour-Hybrid Watermark
+Authors: Ruiyang Xia, Dawei Zhou, Decheng Liu, Lin Yuan, Jie Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-05-25
+Summary: Face swapping, recognized as a privacy and security concern, has prompted considerable defensive research. With the advancements in AI-generated content, the discrepancies between the real and swapped faces have become nuanced. Considering the difficulty of forged traces detection, we shift the focus to the face swapping purpose and proactively embed elaborate watermarks against unknown face swapp...
+
+--- [24] 2505.08614v5 ---
+Title: WaveGuard: Robust Deepfake Detection and Source Tracing via Dual-Tree Complex Wavelet and Graph Neural Networks
+Authors: Ziyuan He, Zhiqing Guo, Liejun Wang, Gaobo Yang, Yunfeng Diao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-05-13
+Summary: Deepfake technology poses increasing risks such as privacy invasion and identity theft. To address these threats, we propose WaveGuard, a proactive watermarking framework that enhances robustness and imperceptibility via frequency-domain embedding and graph-based structural consistency. Specifically, we embed watermarks into high-frequency sub-bands using Dual-Tree Complex Wavelet Transform (DT-CW...
+
+--- [25] 2504.13759v1 ---
+Title: Fragile Watermarking for Image Certification Using Deep Steganographic Embedding
+Authors: Davide Ghiani, Jefferson David Rodriguez Chivata, Stefano Lilliu, Simone Maurizio La Cava, Marco Micheletto et al.
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Awatermark+AND+abs%3Aproactive&max_results=25&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2025-04-18
+Summary: Modern identity verification systems increasingly rely on facial images embedded in biometric documents such as electronic passports. To ensure global interoperability and security, these images must comply with strict standards defined by the International Civil Aviation Organization (ICAO), which specify acquisition, quality, and format requirements. However, once issued, these images may underg...
+

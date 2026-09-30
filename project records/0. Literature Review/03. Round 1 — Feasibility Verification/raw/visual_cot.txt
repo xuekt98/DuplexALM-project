@@ -1,0 +1,177 @@
+--- [1] 2609.06704v1 ---
+Title: Counterfactual Tests for Measuring Chain-of-Thought Faithfulness in Visual Language Models
+Authors: Bayar Menzat, Maximilian Süss, Ruizhi Wang, Benno Steinegger, Thomas Lukasiewicz et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL
+Published: 2026-09-06
+Summary: Chain-of-thought (CoT) may often look plausible, yet it may not faithfully reflect the model's decision-making process. While methods for measuring the faithfulness of CoTs for textual inputs have been increasingly introduced, using these methods for visual inputs is not straightforward. In this work, we adapt the family of counterfactual methods for measuring CoT faithfulness, namely the Counterf...
+
+--- [2] 2609.06410v1 ---
+Title: Visual Search Augmented Chain-of-Thought Reasoning for Attribute Value Extraction from Product Videos
+Authors: Tong Wu, Ming Cheng, Jiazhen Hu, Jiaying Gong, Hoda Eldardiry
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2026-09-06
+Summary: Existing approaches to visual attribute value extraction (AVE) primarily rely on static product images, failing to capture temporal cues, multi-angle views and fine-grained visual details. Directly applying video vision-language models (VLMs) to product AVE results in limited performance due to the lack of domain knowledge, and fine-tuning them requires extensive high-quality data and substantial ...
+
+--- [3] 2609.04947v2 ---
+Title: MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression
+Authors: Guangheng Yang, Zhenliang Ni, Zhenkai Wu, Han Shu, Juan Feng et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-04
+Summary: Recently, multimodal large-scale reasoning models have demonstrated remarkable capabilities in solving complex tasks through long Chains-of-Thought (M-CoT). However, excessively long reasoning trajectories incur substantial computational costs and significant KV-cache pressure. Existing CoT compression and alignment paradigms mainly rely on static rules or single-dimensional preferences, lacking f...
+
+--- [4] 2609.04645v1 ---
+Title: Latent-Aligned Reasoning for Multimodal Recommendation
+Authors: Jiarui Jin, Anyang Ji
+Primary cat: cs.IR | All cats: cs.IR, cs.CL, cs.CV, cs.LG
+Published: 2026-09-04
+Summary: Multimodal Vision-Language Models (VLMs) have demonstrated remarkable capabilities in cross-modal understanding, yet a fundamental challenge persists when applying them to recommendation: as representations propagate through multi-step reasoning, both visual and textual signals progressively attenuate - a phenomenon we term cross-modal dilution. To address this, we propose LARK (Latent-Aligned Rea...
+
+--- [5] 2609.00656v1 ---
+Title: Physically Plausible Video Generation via Visual-Semantic Chain-of-Events Conditioning
+Authors: Zixuan Wang, Yixin Hu, Wen Li, Feng Chen, Yan Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-01
+Summary: Physically Plausible Video Generation (PPVG) seeks to synthesize videos consistent with physical principles, yet remains challenging due to underspecified natural language conditioning. Advanced chain-of-thought (CoT) frameworks augment prompts with physical knowledge. However, such prompts describe physical phenomena holistically, overlooking intermediate states and transition dynamics. In this p...
+
+--- [6] 2609.01659v1 ---
+Title: Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving
+Authors: Zhengxu Tang, Xiaozhou Zhang, Guofeng Cui, Ziyu Gong, Zi Wang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.CL, cs.RO
+Published: 2026-08-31
+Summary: Chain-of-thought (CoT) reasoning powers generative models by eliciting intermediate steps before producing an answer. In autonomous driving, the answer is a continuous action. Thus its reasoning must share the same spatiotemporal structure as the physical world. This survey studies the resulting shift from textual CoT to action-grounded reasoning. Surveying 171 papers, including 130 method papers ...
+
+--- [7] 2608.30457v1 ---
+Title: Learning Where Outcomes Change:Credit-Addressable Reasoning for Multimodal Geometry
+Authors: Jiani Guo, Junjie Wang, Jie Wu, Pengxiang Zhao, Dongdong Zhang et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.CL
+Published: 2026-08-31
+Summary: Multimodal geometry reasoning requires VLMs to extract precise visual relations and preserve them through multi-step deduction. Existing free-form traces obscure the decisions that determine the answer, and trajectory-level reinforcement learning distributes a single terminal signal across the entire response. We introduce credit-addressable reasoning, in which the semantic units exposed during in...
+
+--- [8] 2608.30156v1 ---
+Title: Reactivating Test-Time Scaling for Plane Geometry Problem Solving
+Authors: Xiaoqiang Kang, Shengen Wu, Maizhen Ning, Xiaobo Jin, Kaizhu Huang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-31
+Summary: Plane geometry problem (PGP) solving has become a critical benchmark for multimodal reasoning because it requires accurate visual perception and precise multi-step symbolic deduction. Although test-time scaling (TTS) has demonstrated remarkable success in general mathematical reasoning, it fails to scale effectively under the symbolic-program paradigm for plane geometry. We identify two key obstac...
+
+--- [9] 2608.28958v1 ---
+Title: CoVA-SFT: A Large-Scale Dataset for Chain of Visual Abstractions
+Authors: Tsung-Han Wu, Heekyung Lee, Anya Ji, Haoming Chen, Trevor Darrell et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2026-08-29
+Summary: Chain-of-thought (CoT) reasoning has dramatically improved large language models (LLMs) by allowing them to decompose problems into intermediate steps. While CoT is widely effective for linguistic tasks, text-only CoT forces models to serialize visual problems into awkward prose. Although architectural solutions exist to process visual inputs, the community lacks a massive, multi-step, self-correc...
+
+--- [10] 2608.27793v1 ---
+Title: CAVE-NAV: VLM-Based Autonomous 3D Navigation in Underwater Cave Environments
+Authors: Zhenqi Wu, Yuanjie Lu, Yisheng Zhang, Miao Yu, Xuesu Xiao et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-08-28
+Summary: Autonomous navigation in underwater cave environments is essential for search-and-rescue operations, scientific exploration, and emergency egress. Traditional navigation systems commonly depend on dense visual features for localization and mapping. In underwater caves, however, visual degradation can undermine feature-based localization, sonar-based mapping may yield overly conservative obstacle r...
+
+--- [11] 2608.24959v1 ---
+Title: GaussVLA: Geometry-Aware Spatial Reasoning for Vision-Language-Action Model
+Authors: Md Selim Sarowar, Md Tanvir Islam, Sungho Kim, Sangtae Ahn
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-08-25
+Summary: Vision-Language-Action (VLA) models encode visual observations as flat 2D patch tokens that carry no intrinsic geometric structure, and augmenting them with dense monocular depth injects per-pixel scalar values that encode neither surface orientation nor geometric confidence. This leaves the policy with limited structured spatial reasoning for action prediction. We propose GaussVLA, a Mamba-based ...
+
+--- [12] 2608.23354v1 ---
+Title: OptiSight: Bridging Semantic Reasoning and Geometric Control for Embodied Navigation
+Authors: Alperen Avan, Jordi Sanchez-Riera
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-08-24
+Summary: Autonomous indoor navigation requires both semantic understanding and precise geometric control. We propose OptiSight, a hybrid framework that combines Vision-Language Model reasoning with deterministic visual servoing through a finite-state Chain-of-Thought architecture. Grounded-SAM localizes open-vocabulary targets, while camera projection geometry converts visual observations into navigation c...
+
+--- [13] 2608.21883v2 ---
+Title: VIG: Visual Information Gain as a Reward Signal for Multimodal Chain-of-Thought Compression
+Authors: Wen Luo, Xiaohan Yi, Xiaotao Huang, Liqun Huang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-22
+Summary: Multimodal large reasoning models often rely on long Chain-of-Thought (CoT) traces in which a substantial fraction of tokens, such as repeated visual descriptions, self-reflection, and other visually-disengaged filler, inflate inference cost without contributing to the answer. Existing CoT compression methods optimize output length but never measure whether a reasoning token is actually grounded i...
+
+--- [14] 2608.18627v1 ---
+Title: PCQA-R1: Advancing Generalized 3D Point Cloud Quality Assessment with Reinforcement Learning
+Authors: Kangning Ye, Yunhao Li, Sijing Wu, Yucheng Zhu, Guangtao Zhai
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-19
+Summary: No-reference point cloud quality assessment (PCQA) has been an active topic in recent years and is used to measure and optimize the visual experience of point clouds. However, large multimodal models (LMMs) have rarely been explored in this area. Previous LMM-based methods mainly rely on supervised fine-tuning to directly predict numerical quality scores, lacking the ability to generalize across d...
+
+--- [15] 2608.17414v1 ---
+Title: REChart: Reasoning-Efficient Chart Editing with Large Reasoning Models
+Authors: Yuanbang Liu, Chenxi Ruan, Yihan Hou, Qiong Luo, Wei Zeng
+Primary cat: cs.CV | All cats: cs.CV, cs.PL
+Published: 2026-08-18
+Summary: Chart editing requires inferring and modifying visualization code from a reference chart image based on an editing instruction, challenging fine-grained visual reasoning, instruction following, and executable code synthesis capabilities of MLLMs. Large reasoning models (LRMs) with extended Chain-of-Thought (CoT) reasoning are suitable for tackling such complex multimodal tasks. However, our prelim...
+
+--- [16] 2608.15869v1 ---
+Title: Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning
+Authors: Xiaoyu Zhu, Xinke Deng, Suresh Taddewadikar, Arnab Kumar Mondal, Zhongyu Jiang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.LG, cs.MM
+Published: 2026-08-16
+Summary: Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reasoning images, Visual CoT provides an intuitive mechanism for visual foresight but introduces substantial inference overhead, which is particularly problematic for proactive video reasoning. We ask whether models can lear...
+
+--- [17] 2608.13239v1 ---
+Title: Reasoning for Social Audio-Visual Question Answering: Where Do We Stand?
+Authors: Koen P. de Vries, Xavier Alameda-Pineda, Estefanía Talavera, Stéphane Lathuilière
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-13
+Summary: Training Multimodal Large Language Models for audio-visual social understanding is a crucial step toward embodied social intelligence. Chain-of-thought (CoT) reasoning has become the dominant approach, with HumanOmniV2 and its IntentBench benchmark as a prominent reference point. In this context, we report three findings. First, IntentBench is highly noisy: $\sim$7% of questions are broken and $\s...
+
+--- [18] 2608.13221v1 ---
+Title: TsuGO: Probing Search Efficiency in LLM Reasoning via Go Life-and-Death Problems
+Authors: Shunwen Bai, Ziping Ma, Chaoyang Zhang, Yarong Wang, Jiale Liu et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-13
+Summary: The evaluation of LLM reasoning is moving from final-answer accuracy to process-level assessment, yet existing methods still fail to capture how models plan reasoning paths and allocate reasoning resources--that is, how they organize search. Prior process-level methods focus on the coherence and redundancy of chain-of-thought (CoT), and most benchmark tasks have a single objective solvable by stat...
+
+--- [19] 2608.13112v1 ---
+Title: Towards Physics-Faithful Generation of Scientific Diagrams
+Authors: Minghui Zhang, Jinxin Shi, Yifan Chang, Liangliang Zhao, Yuandong Pu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-13
+Summary: Text-to-image generation has reached photorealistic quality, yet state-of-the-art systems remain unreliable at producing scientific diagrams, whose value depends not on appearance but on physical faithfulness: correct force directions, valid coordinate systems, consistent thermodynamic states, and equations matching the depicted scenario. Trained on web imagery with physically shallow captions, ge...
+
+--- [20] 2608.11691v1 ---
+Title: LEMUR: Latent Entropy-aware Multimodal Unlearning via Visual-anchored Reasoning Redirection
+Authors: Xinhao Zhong, Yuxia Qiao, Junhao Li, Hao Fang, Yi Sun et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.CL
+Published: 2026-08-12
+Summary: Reinforcement-learning (RL) post-training equips multimodal large reasoning models (MLRMs) with exploratory chains of thought (CoT), substantially improving visual reasoning. However, we find that this capability introduces a distinct privacy vulnerability: even when a sensitive fact is successfully unlearned from the final answer, the model may still reproduce it in its reasoning trace. This leak...
+
+--- [21] 2608.10964v1 ---
+Title: CARE: Confidence-Aware Reasoning for Reliable Medical VQA
+Authors: Yuetian Du, Yucheng Wang, Zhenyuan Chen, Luyuan Chen, Rongyu Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-11
+Summary: Reinforcement Fine-Tuning (RFT) has enabled medical Multimodal Large Language Models (MLLMs) to produce Chain-of-Thought (CoT) reasoning for visual question answering, yet these models suffer from $\textit{confidence miscalibration}$---a systematic gap between expressed certainty and actual diagnostic accuracy that undermines clinical trust. We propose $\textbf{CARE}$, a $\textbf{C}$onfidence-$\te...
+
+--- [22] 2608.10635v1 ---
+Title: MedUP: Awakening Unified Understanding and Perception in Medical Vision-Language Models
+Authors: Yuan Wang, Hualiang Wang, Yixin Chen, Songtao Jiang, Shujian Gao et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-11
+Summary: Medical Vision-Language Models (Med-VLMs) excel at verbalizing visual content, yet precise visual perception, segmentation, and grounding remain challenging. Existing approaches either verbalize regions as coordinate strings or rely on external modules that decouple perception from understanding, creating representation gaps for region-language alignment. We present MedUP, a Med-VLM that natively ...
+
+--- [23] 2608.09666v1 ---
+Title: Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models
+Authors: Shulin Tian, Ziqi Huang, Fan Zhang, Hongyuan Zhu, Yu Qiao et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-10
+Summary: Recent advances in visual generative models have enabled high-quality image and video generation, but evaluating these models often demands sampling hundreds or thousands of images or videos, which is computationally expensive. Existing evaluation methods also rely on rigid pipelines that overlook specific user needs and provide numerical results without clear explanations. Mimicking how humans qu...
+
+--- [24] 2608.09477v1 ---
+Title: SmellCC: A Tool for Automated Code Smells Remediation
+Authors: Xiaoting Zhang, Yujie Zhang, Zhipeng Gao, Xing Hu, Xin Xia
+Primary cat: cs.SE | All cats: cs.SE
+Published: 2026-08-10
+Summary: Code smells significantly threaten software maintainability by accumulating technical debt, yet developers often lack the resources to manually address these flaws under tight release schedules. While static analysis tools like SonarQube provide precise detection, they function largely as passive alert systems, leaving the burden of refactoring on developers. To bridge this gap, we present a novel...
+
+--- [25] 2608.06994v1 ---
+Title: Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models
+Authors: Xiangkai Ma, Yue Ma, Junjie Wang, Sheng Xu, Mingyang Li et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2026-08-07
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Avisual+AND+abs%3Acot&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: World Action Models (WAMs) aim to construct a unified architecture capable of understanding world state evolution and guiding to generative motion planning. However, existing visual branches focus on predicting static visual observation, rather than reflecting potential transition information that captures the evolution of world states under motion interactions. This leads to representational enta...
+

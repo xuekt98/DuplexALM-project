@@ -1,0 +1,37 @@
+# Total entries: 5
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Arlhf+AND+abs%3Aspeech+AND+abs%3Allm&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2606.18747v1 ---
+Title: Generating Natural and Expressive Robot Gestures through Iterative Reinforcement Learning with Human Feedback using LLMs
+Authors: Chris Lee, Flora Salim, Benjamin Tag, Francisco Cruz
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2026-06-17
+Summary: Expressive gestures are essential for natural and effective communication, complementing speech when verbal cues alone are insufficient (e.g., pointing). For social robots such as the humanoid Pepper, producing natural and expressive movements is critical for improving human-robot interaction (HRI) and long-term acceptance. However, generating gestures remains challenging due to reliance on expert...
+
+--- [2] 2605.24652v1 ---
+Title: AVBench: Human-Aligned and Automated Evaluation Benchmark for Audio-Video Generative Models
+Authors: Jialiang Yang, Bin Xia, Ruihang Chu, Dingdong Wang, Wanke Xia et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV, cs.MM, cs.SD
+Published: 2026-05-23
+Summary: Rapid advances in audio-video (AV) generation have enabled high-fidelity synthesis with synchronized sound, particularly for human-related scenarios involving speech and interactions. Yet evaluation for AV generation remains at an early stage, with only a few coarse-grained benchmarks for human-related scenarios and relying on limited preset evaluations with generic multimodal LLMs, leading to ina...
+
+--- [3] 2602.13891v1 ---
+Title: GSRM: Generative Speech Reward Model for Speech RLHF
+Authors: Maohao Shen, Tejas Jayashankar, Osama Hanna, Naoyuki Kanda, Yancheng Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-02-14
+Summary: Recent advances in speech language models, such as GPT-4o Voice Mode and Gemini Live, have demonstrated promising speech generation capabilities. Nevertheless, the aesthetic naturalness of the synthesized audio still lags behind that of human speech. Enhancing generation quality requires a reliable evaluator of speech naturalness. However, existing naturalness evaluators typically regress raw audi...
+
+--- [4] 2501.00039v1 ---
+Title: Speech Recognition With LLMs Adapted to Disordered Speech Using Reinforcement Learning
+Authors: Chirag Nagpal, Subhashini Venugopalan, Jimmy Tobin, Marilyn Ladewig, Katherine Heller et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2024-12-25
+Summary: We introduce a large language model (LLM) capable of processing speech inputs and show that tuning it further with reinforcement learning on human preference (RLHF) enables it to adapt better to disordered speech than traditional fine-tuning. Our method replaces low-frequency text tokens in an LLM's vocabulary with audio tokens and enables the model to recognize speech by fine-tuning it on speech ...
+
+--- [5] 2408.01420v1 ---
+Title: Mission Impossible: A Statistical Perspective on Jailbreaking LLMs
+Authors: Jingtong Su, Julia Kempe, Karen Ullrich
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL
+Published: 2024-08-02
+Summary: Large language models (LLMs) are trained on a deluge of text data with limited quality control. As a result, LLMs can exhibit unintended or even harmful behaviours, such as leaking information, fake news or hate speech. Countermeasures, commonly referred to as preference alignment, include fine-tuning the pretrained LLMs with carefully crafted text examples of desired behaviour. Even then, empiric...
+

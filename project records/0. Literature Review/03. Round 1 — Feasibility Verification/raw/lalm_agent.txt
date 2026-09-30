@@ -1,0 +1,107 @@
+--- [1] 2608.05126v1 ---
+Title: Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models
+Authors: Yuezhang Peng, Yuxin Liu, Changfeng Gao, Zhifu Gao, Xiangang Li et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.MM
+Published: 2026-08-05
+Summary: Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics for closed-set tasks after in-domain supervised fine-tuning, it faces significant challenges in leveraging in-context learning for open-domain tasks due to its ambiguous rule defini...
+
+--- [2] 2607.07985v1 ---
+Title: A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents
+Authors: A. Sayyad, J. Emmons, S. Jones, T. Lin, H. Krishnan
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2026-07-08
+Summary: We report the empirical reliability of Gemini models as audio judges that score full-duplex agent conversations directly from the raw stereo waveform, tested across three models in the Gemini family: 2.5 Flash, 3.5 Flash, and 3.1 Pro. Our primary evidence base uses Gemini 2.5 Flash as the ground-truth model, validated against three calibrated human raters on 209 stereo sessions, scored on 8 produc...
+
+--- [3] 2606.15141v1 ---
+Title: EChO-Agent: Evidence Chain Orchestration Agent for Audio Reasoning
+Authors: Siyuan Zhang, Jian Zong, Junyu Wang, Peiyuan Jiang, Jiahao Yan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2026-06-13
+Summary: While LALMs show promise on audio question answering, they fail to focus on question-relevant segments of audio and provide a clear, checkable reasoning process when dealing with complex audio reasoning. Reinforcement learning and tool-augmented prompting can help models better relate questions to audio but lack a reliable way to understand, integrate, and self-verify audio segments. To address th...
+
+--- [4] 2606.07264v2 ---
+Title: VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track
+Authors: Wenming Tu, Jian Gao, Yanru Huo, Yixuan Wang, Jing Peng et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-05
+Summary: Audio reasoning requires multi-step, evidence-grounded inference over temporally dynamic and acoustically mixed signals, exceeding conventional perception tasks such as ASR or captioning. We present VISA, our submission to the Interspeech 2026 Audio Reasoning Challenge (Agent Track), evaluated via the MMAR Rubrics for correctness and reasoning quality. Under a "LALM as a Tool" paradigm, VISA stren...
+
+--- [5] 2605.28480v1 ---
+Title: Audio-Mind: An Auditable Agentic Framework for Audio Understanding
+Authors: Yucheng Wang, Jing Peng, Hanqi Li, Chenghao Wang, Wenming Tu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-05-27
+Summary: Audio agents extend large audio-language models (LALMs) by decomposing audio questions into tool calls, intermediate evidence, and iterative reasoning steps. However, as LALMs become stronger, the key challenge shifts from enabling tool use to determining when agentic evidence acquisition genuinely benefits audio understanding. We propose Audio-Mind, an auditable and pluggable framework for condit...
+
+--- [6] 2604.15849v1 ---
+Title: TinyMU: A Compact Audio-Language Model for Music Understanding
+Authors: Xiquan Li, Aurian Quelennec, Slim Essid
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-04-17
+Summary: Music understanding and reasoning are central challenges in the Music Information Research field, with applications ranging from retrieval and recommendation to music agents and virtual assistants. Recent Large Audio-Language Models (LALMs) have shown remarkable progress in answering music-related questions by following user instructions. However, their massive scale, often billions of parameters,...
+
+--- [7] 2604.14604v1 ---
+Title: Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection
+Authors: Meng Chen, Kun Wang, Li Lu, Jiaheng Zhang, Tianwei Zhang
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.SD
+Published: 2026-04-16
+Summary: Modern Large audio-language models (LALMs) power intelligent voice interactions by tightly integrating audio and text. This integration, however, expands the attack surface beyond text and introduces vulnerabilities in the continuous, high-dimensional audio channel. While prior work studied audio jailbreaks, the security risks of malicious audio injection and downstream behavior manipulation remai...
+
+--- [8] 2603.17822v1 ---
+Title: Multi-Source Evidence Fusion for Audio Question Answering
+Authors: Aivo Olev, Tanel Alumäe
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-03-18
+Summary: Large audio language models (LALMs) can answer questions about speech, music, and environmental sounds, yet their internal reasoning is largely opaque and difficult to validate. We describe TalTech's solution to the Agent Track of the Interspeech 2026 Audio Reasoning Challenge, in which systems are evaluated on reasoning process quality, specifically the factual accuracy, logical soundness, and co...
+
+--- [9] 2603.04293v1 ---
+Title: LabelBuddy: An Open Source Music and Audio Language Annotation Tagging Tool Using AI Assistance
+Authors: Ioannis Prokopiou, Ioannis Sina, Agisilaos Kounelis, Pantelis Vikatos, Themos Stafylakis
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.IR, cs.LG
+Published: 2026-03-04
+Summary: The advancement of Machine learning (ML), Large Audio Language Models (LALMs), and autonomous AI agents in Music Information Retrieval (MIR) necessitates a shift from static tagging to rich, human-aligned representation learning. However, the scarcity of open-source infrastructure capable of capturing the subjective nuances of audio annotation remains a critical bottleneck. This paper introduces \...
+
+--- [10] 2602.23387v1 ---
+Title: Hello-Chat: Towards Realistic Social Audio Interactions
+Authors: Yueran Hou, Peilei Jia, Zihan Sun, Qihang Lu, Wenbing Yang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-02-16
+Summary: Recent advancements in Large Audio Language Models (LALMs) have demonstrated exceptional performance in speech recognition and translation. However, existing models often suffer from a disconnect between perception and expression, resulting in a robotic "read-speech" style that lacks the spontaneity and emotional resonance of real human interaction. In this report, we introduce Hello-Chat, an end-...
+
+--- [11] 2602.14224v1 ---
+Title: The Interspeech 2026 Audio Reasoning Challenge: Evaluating Reasoning Process Quality for Audio Reasoning Models and Agents
+Authors: Ziyang Ma, Ruiyang Xu, Yinghao Ma, Chao-Han Huck Yang, Bohan Li et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-02-15
+Summary: Recent Large Audio Language Models (LALMs) excel in understanding but often lack transparent reasoning. To address this "black-box" limitation, we organized the Audio Reasoning Challenge at Interspeech 2026, the first shared task dedicated to evaluating Chain-of-Thought (CoT) quality in the audio domain. The challenge introduced MMAR-Rubrics, a novel instance-level protocol assessing the factualit...
+
+--- [12] 2602.13685v1 ---
+Title: AuTAgent: A Reinforcement Learning Framework for Tool-Augmented Audio Reasoning
+Authors: Siqian Tong, Xuan Li, Yiwei Wang, Baolong Bi, Yujun Cai et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-02-14
+Summary: Large Audio Language Models (LALMs) excel at perception but struggle with complex reasoning requiring precise acoustic measurements. While external tools can extract fine-grained features like exact tempo or pitch, effective integration remains challenging: naively using all tools causes information overload, while prompt-based selection fails to assess context-dependent utility. To address this, ...
+
+--- [13] 2602.10656v1 ---
+Title: AudioRAG: A Challenging Benchmark for Audio Reasoning and Information Retrieval
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ALALM+AND+abs%3Aagent&max_results=25&sortBy=submittedDate&sortOrder=descending
+Authors: Jingru Lin, Chen Zhang, Tianrui Wang, Haizhou Li
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-02-11
+Summary: Due to recent advancements in Large Audio-Language Models (LALMs) that demonstrate remarkable performance across a range of sound-, speech- and music-related tasks, there is a growing interest in proposing benchmarks to assess these models. Existing benchmarks generally focus only on reasoning with internal knowledge, neglecting real-world scenarios that require external information grounding. To ...
+
+--- [14] 2510.02995v2 ---
+Title: AudioToolAgent: An Agentic Framework for Audio-Language Models
+Authors: Gijs Wijngaard, Elia Formisano, Michel Dumontier, Jenia Jitsev
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-10-03
+Summary: Large Audio-Language Models (LALMs) perform well on audio understanding tasks but lack multistep reasoning and tool-calling found in recent Large Language Models (LLMs). This paper presents AudioToolAgent, a framework that coordinates audio-language models as tools via a central LLM agent that accesses tool adapters for audio question answering and speech-to-text. The agent reasons about which too...
+
+--- [15] 1907.10179v2 ---
+Title: Resource-aware Exact Decentralized Optimization Using Event-triggered Broadcasting
+Authors: Changxin Liu, Huiping Li, Yang Shi
+Primary cat: math.OC | All cats: math.OC
+Published: 2019-07-24
+Summary: This work addresses the decentralized optimization problem where a group of agents with coupled private objective functions work together to exactly optimize the summation of local interests. Upon modeling the decentralized problem as an equality-constrained centralized one, we leverage the linearized augmented Lagrangian method (LALM) to design an event-triggered decentralized algorithm that only...
+

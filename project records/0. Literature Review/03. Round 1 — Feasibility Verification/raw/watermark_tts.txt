@@ -1,0 +1,142 @@
+--- [1] 2609.09102v1 ---
+Title: TILING I: Field-level Bayesian reconstruction of cosmological initial conditions during the epoch of reionization
+Authors: Nikolaos Triantafyllou, Andrei Mesinger, Steven Murray, Samuel Gagnon-Hartman
+Primary cat: astro-ph.CO | All cats: astro-ph.CO, astro-ph.GA
+Published: 2026-09-08
+Summary: Reconstructing the initial conditions (ICs) of the matter field for an observed volume gives a complete picture of that region's temporal evolution. IC reconstruction is common at low redshifts but largely unexplored during the epoch of reionization (EoR; $z\gtrsim 5$), partly due to difficulties modeling inhomogeneous cosmic radiation fields. Yet the EoR spans half the observable Universe, offeri...
+
+--- [2] 2609.08213v1 ---
+Title: DRIFT: Removing Diffusion Watermarks by Deflecting the Generative Trajectory
+Authors: Rui Bao, Zheng Gao, Xiaoyu Li, Xiaoyan Feng, Yang Song et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.LG
+Published: 2026-09-08
+Summary: Diffusion watermarking embeds verifiable signals into the generative process and commonly verifies them by recovering trajectory-dependent evidence, making the marks robust to conventional pixel-space distortions. Existing removal attacks either regenerate along deterministic trajectories, which often preserve the watermark-bearing latent structure, or optimize every image separately. We identify ...
+
+--- [3] 2609.08204v1 ---
+Title: Stabilizing Instruction Supervision for Instruct-TTS via Controllable Diversification and Drift Filtering
+Authors: Yizhong Geng, Kecan Mao, Qifei Li, Cong Wang, Yingming Gao et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Instruct-TTS systems expand structured style labels into natural-language training instructions through LLM rewriting, yet we find that over 40% of unconstrained rewrites contain semantic drift that corrupts supervision and weakens generalization. We formalize this problem as instruction supervision instability and propose a data-centric stabilization recipe that jointly improves coverage and fide...
+
+--- [4] 2609.08160v1 ---
+Title: Generalized DBLog: A Verified Contract for Interleaving Database Rows with a Change Log
+Authors: Andreas Andreakis
+Primary cat: cs.DB | All cats: cs.DB, cs.DC, cs.LO
+Published: 2026-09-08
+Summary: Change-data capture (CDC) feeds downstream systems like caches, search indexes, and data warehouses from a database's log of committed row changes. When bootstrapping, adding a table, or repairing downstream data, a pipeline must also copy existing rows. Merging this copy with the active log introduces the copy-to-log handoff problem. Changes must not fall through a gap, and older copied state mus...
+
+--- [5] 2609.07372v1 ---
+Title: Low-rank approximation of Moment Tensor Potential enables reducing training set size without loss of accuracy
+Authors: Anna Bondarenko, Nikita Rybin, Maxim Rakhuba, Ivan S. Novikov
+Primary cat: physics.chem-ph | All cats: physics.chem-ph
+Published: 2026-09-07
+Summary: In this study, we implement a low-rank approximation of Moment Tensor Potential (MTP) based on the tensor train (TT) decomposition. The implemented tensor-factorized MTP (TFMTP) and the original MTP model are actively trained via a MaxVol-based algorithm during molecular dynamics simulations of a four-component molten salt mixture, LiF-NaF-KF (FLiNaK), and geometry optimizations of a five-componen...
+
+--- [6] 2609.07200v1 ---
+Title: KABURI-TTS: Phoneme-Keyed Activity-conditioned Bi-channel Utterance Rendering for Interaction
+Authors: Ryuichiro Higashinaka, Shinnosuke Takamichi, Tetsuji Ogawa
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-09-07
+Summary: Realizing full-duplex spoken dialogue requires large amounts of two-channel, one-speaker-per-channel conversational speech data. Although conversational text-to-speech (TTS) engines have been developed, they are not necessarily robust to two-party simultaneous phenomena such as backchannels, interruptions, and overlaps that occur while the interlocutor is speaking. In this work, aiming at conversa...
+
+--- [7] 2609.07133v1 ---
+Title: Counting Representations of Quadratic Forms
+Authors: Gilles Felber
+Primary cat: math.NT | All cats: math.NT
+Published: 2026-09-07
+Summary: We answer a question of C. S. Herz about the number of integral $k\times m$ matrices $T$ such that $T^tT\leq R$ for a fixed positive definite $m\times m$ matrix $R$. We give an asymptotic formula for the count. This can be seen as a generalization of the Gauss circle problem, as counting representation of quadratic forms by the identity $I_k$, and as counting integral points bounded by the Stiefel...
+
+--- [8] 2609.06708v1 ---
+Title: A Trustworthy Watermarking Framework for LLM-Generated Food Safety Content
+Authors: Zhongli Fang, Yiran Chen, Lingyun Zhang, Yu Liu, Ping Chen et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-09-06
+Summary: Large language models are transforming many industries with their text generation abilities. However, their outputs can be easily tampered with, creating serious risks in critical areas such as food safety reporting. To protect the integrity and traceability of AI-generated content, this paper introduces ToSS (Token Oriented Repartitioning and Strategic Selection), a reliable authentication method...
+
+--- [9] 2609.06446v1 ---
+Title: Tensor-based Approximation of Molecular Kinetics: Generator Learning, Reaction Coordinates and Incremental Updating
+Authors: Minakshi Verma, Peter Benner, Feliks Nüske
+Primary cat: physics.chem-ph | All cats: physics.chem-ph
+Published: 2026-09-06
+Summary: We present an approach to analyze long-timescale kinetics of molecular dynamics simulations - meta-stable states and transition timescales - by a tensor-based approximation of the infinitesimal generator. We start from the variational approximation of low-lying generator eigenvalues, and discretize the associated eigenvalue problem using a tensor-product basis. We derive analytical expressions for...
+
+--- [10] 2609.06405v1 ---
+Title: Statistical mechanical evaluation of a spread-spectrum watermarking model with image restoration II AT stability of a hybrid system with message decoding and image
+Authors: Tatsuya Uezu, Kao Hayashi, Masaki Kawamura
+Primary cat: cond-mat.stat-mech | All cats: cond-mat.stat-mech
+Published: 2026-09-06
+Summary: In the previous paper (arxiv.org/abs/1209.4772), we proposed a spread-spectrum watermarking model with image restoration based on Bayes estimation assuming several prior probabilities and adopting the Gaussian channel model to represent attacks from unauthorized users. When an image is generated from the infinite range Ising model, we analyzed the model using the statistical mechanical method, the...
+
+--- [11] 2609.06214v1 ---
+Title: Fourier-cosine Tensor Trains for Density Recovery and Expectation Calculation
+Authors: Auke Schaap, Fang Fang
+Primary cat: math.NA | All cats: math.NA
+Published: 2026-09-05
+Summary: The Fourier--cosine (COS) method of Fang and Oosterlee (2008) recovers densities and computes expectations semi-analytically from the characteristic function (ch.f.). In higher dimensions, both expansion synthesis and computation of COS coefficient-tensor entries scale exponentially with dimension. We address this curse of dimensionality with two tensor-train (TT) methods. COS-TT replaces the COS ...
+
+--- [12] 2609.05741v1 ---
+Title: Practical Zero-Trust for Mission-Critical Robotic Fleets via Hardware Attestation and Packet Timing Watermarking
+Authors: Ryne Gonzales, Ethan Liesdyanto, Rex Worley, Michael Frederick, Jaewon Kim et al.
+Primary cat: eess.SY | All cats: eess.SY, cs.MA
+Published: 2026-09-04
+Summary: Autonomous unmanned vehicles are vital to tactical missions, mission-critical public-safety operations like search and rescue and disaster response. However, their reliance on open wireless links and standard Robot Operating System (ROS 2) middleware exposes a broad cyber-physical attack surface. A compromise of these systems can disrupt real-time control loops, leading to mission failure or asset...
+
+--- [13] 2609.04772v1 ---
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Atts+watermark&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: A Robust Watermark-based Fingerprint Framework for GNNs Ownership Verification
+Authors: Han Zhang, Yan Wang, Guanfeng Liu, Pengfei Ding, Huaxiong Wang et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-09-04
+Summary: The high training cost of Graph Neural Networks (GNNs) has raised growing concerns regarding model ownership infringement, such as model stealing and unauthorized misuse. To verify model ownership and prevent significant economic losses, two groups of GNN Ownership Verification (OV) methods have been proposed: watermark-based methods and fingerprint-based methods. However, these methods typically ...
+
+--- [14] 2609.04709v1 ---
+Title: AngelFingerprint: A Traceable, Explainable, and White-Box Stealthy Watermark for Text-Guided Image Editing
+Authors: Bo-Han Kung, Futa Waseda, Ching-Chun Chang, Isao Echizen, Shang-Tse Chen
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-04
+Summary: Text-guided diffusion editing raises disinformation concerns, making reliable image provenance essential. While watermarks are commonly used for this purpose, most methods carry a fixed ID that cannot explain what was changed and which prompt produced it. Furthermore, under open-source white-box access, attackers can easily locate and remove watermarks added as separate modules. Targeting this set...
+
+--- [15] 2609.04455v1 ---
+Title: Brain2Speech-Net: Intelligible, Real-Time Brain-to-Speech Synthesis Without Text Decoding
+Authors: Shreeram Suresh Chandra, Zexin Cai, Yu Tsao, Simon King, Berrak Sisman
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-03
+Summary: The loss of speech limits communication for individuals with paralysis. Restoring speech by synthesizing it directly from neural activity is challenging: intracortical data are scarce and lack aligned targets, so most systems rely on cascaded neural-to-text-to-speech pipelines that add latency and propagate errors. We present Brain2Speech-Net, among the first single-stage frameworks to remain inte...
+
+--- [16] 2609.03979v1 ---
+Title: Eight Local Couplings of Gravitational Waves from Unified Field Equations
+Authors: Hong-Bo Jin, Yue-Liang Wu
+Primary cat: gr-qc | All cats: gr-qc, astro-ph.HE
+Published: 2026-09-03
+Summary: A gravitational-wave (GW) detector records a linear mixture of local couplings under the assumption that extra polarizations enter geodesic deviation. Vacuum general relativity (GR) admits two transverse-traceless (TT) amplitudes. It remains to determine the largest set of couplings that can sit in that mixture, and whether a tensor-only arm-length result selects GR uniquely. The little group \(E(...
+
+--- [17] 2609.03844v1 ---
+Title: Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference
+Authors: Simone Ceppi, Ignacio Sanchez
+Primary cat: cs.CR | All cats: cs.CR, cs.CL, cs.LG
+Published: 2026-09-03
+Summary: We introduce Stateless Bernoulli Watermarking (SBW), a new statistical watermark for Large Language Models that determines green list membership through independent per-token Bernoulli trials. Unlike KGW's vocabulary permutation or SynthID's multi-layer tournament, SBW requires only a single comparison per token against a counter-based random number generator, reducing membership complexity to $O(...
+
+--- [18] 2609.03749v1 ---
+Title: Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG
+Authors: Alexandr Goultiaev Tolstokorov, Kyriakos Mouratidis, Javad Dogani, Nikolaos Laoutaris
+Primary cat: cs.CR | All cats: cs.CR, cs.CL
+Published: 2026-09-03
+Summary: Third-party retrieval-augmented generation (RAG) marketplaces create a new auditing problem: data providers may license corpora to a RAG operator, yet later have no visibility into whether their documents are being reused without compensation. Auditing this misuse is difficult because the operator is non-cooperative, answers are paraphrased by the generator, and one response may combine evidence f...
+
+--- [19] 2609.03536v1 ---
+Title: Controllability, returning waves and scattering without reverberation in 3D acoustic dynamic system
+Authors: Mikhail I. Belishev, Aleksei F. Vakulenko
+Primary cat: math-ph | All cats: math-ph
+Published: 2026-09-03
+Summary: The dynamic acoustic scattering system is governed by the wave equation $u_{tt}-Δu+qu=0$ in $\Bbb R^3,\,\,\,-\infty<t<\infty$, with a compactly supported potential $q$ and infinitely distant sources (controls) $f$, which initiate incoming spherical waves $u=u^f(x,t)$ provided $u^f\big|_{|x|<-t,\,\,\,t<0}=0$. These waves are focused at $x=0$ and fill up the whole space at the moment $t=0$. The syst...
+
+--- [20] 2609.03502v1 ---
+Title: Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech
+Authors: Kunat Pipatanakul, Potsawee Manakul, Warit Sirichotedumrong, Sittipong Sripaisarnmongkol, Pakorn Nathong et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-03
+Summary: In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus. We study a third route: using a large voice-cloning model as a programmable data source to turn a short voice reference (e.g., 15 seconds) into a compact fixed-voice student trained entirely on synthet...
+

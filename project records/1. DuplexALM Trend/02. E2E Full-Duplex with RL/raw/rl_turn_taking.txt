@@ -1,0 +1,177 @@
+--- [1] 2609.34461v1 ---
+Title: CharDuplex: Building Character-Consistent Full-Duplex Spoken Dialogue Models
+Authors: Donghang Wu, Yisi Liu, Chen Chen, Hexin Liu, Eng Siong Chng
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech models are moving voice interaction beyond conventional turn-taking, yet natural conversation is shaped not only by when an agent speaks, but also by how it behaves as a conversational character. We present CharDuplex, a character-driven full-duplex speech model that combines real-time spoken interaction with persona-conditioned behavior. We first adapt GLM-4-Voice to an always-...
+
+--- [2] 2609.30226v1 ---
+Title: PoEM: Predicting RL Outcomes from Existing Policies
+Authors: Kimia Hamidieh, Giannis Daras, Antonio Torralba
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL, cs.CV
+Published: 2026-09-24
+Summary: Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine multiple rewards. We hence ask: given a new reward function, is it ...
+
+--- [3] 2609.12623v1 ---
+Title: SteerDuplex: Steerable Duplex Speech Dialogue Models
+Authors: Utkarsh Tyagi, Ramaneswaran Selvakumar, Advait Gosai, Sonal Kumar, Nikhil Barhate et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2026-09-11
+Summary: Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident...
+
+--- [4] 2608.29357v1 ---
+Title: LiteSearch-VL: Small Multimodal Search Agents via Trajectory Distillation and Synthetic Step-DPO
+Authors: Saeed Khaki, Nima Safaei, Kamal Ginotra
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-29
+Summary: Multimodal search agents answer visual questions by interleaving image understanding, web retrieval, tool use, and evidence synthesis. Strong systems exist, but in two expensive regimes: proprietary frontier models such as GPT-5 and Gemini, or large open vision-language backbones trained with substantial agentic data and reinforcement learning. We ask a different question: when released agent traj...
+
+--- [5] 2608.22167v1 ---
+Title: MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning
+Authors: Ziyang Luo, Yan Yang, Xiangru Jian, Ziji Shi, Xiaoqiang Lin et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-08-23
+Summary: Reinforcement learning (RL) has become an effective way to improve the tool-use ability of large language models (LLMs), but most existing RL frameworks stop at the policy update. For every new domain, the user is left with two hard systems problems: standing up an isolated environment for each of hundreds of concurrent trajectories and connecting it to training, and scheduling the rollout so that...
+
+--- [6] 2608.07565v2 ---
+Title: What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems
+Authors: Zhijing Zhang, Jinpeng Yu, Xin Song, Bingnan Li, Chuyue Li et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-08-03
+Summary: Conversational assistants increasingly recommend follow-up edits to help users continue a task. Existing systems primarily target text-only interactions, leaving image-creation conversations underexplored. In image-creation tasks, useful follow-up edit suggestions must reflect user preferences, offer diverse directions, and remain executable on the current image. We collected 100,000 real multi-tu...
+
+--- [7] 2607.27756v1 ---
+Title: Cocktail-Talker: Multi-Speaker Dialog Modeling in Noisy Social Environments with Turn Action GRPO
+Authors: Xilin Jiang, Riki Shimizu, Sukru Samet Dindar, Junkai Wu, Zhongweiyang Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM, eess.AS
+Published: 2026-07-30
+Summary: Spoken dialog systems are typically designed for clean, dyadic interactions in which a single user and an assistant take turns speaking. Real-world social conversations, however, are often more ambiguous: multiple speakers may participate in the same conversation amid irrelevant speech and background noise. Each utterance may be directed to the assistant, addressed to another speaker, or completel...
+
+--- [8] 2608.07527v1 ---
+Title: DocAtlas: Long-Document Understanding as Mutable-State Interaction
+Authors: Hongchen Wei, Yuanzhe Wang, Bei Liu, Yifan Yang, Qi Dai et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-07-21
+Summary: Long-document understanding requires models to find and combine evidence across many pages, layouts, tables, figures, and charts. Existing retrieval-augmented systems usually select evidence from a static index before generation, while recent agentic systems add multi-turn tool use but often rely on frozen proprietary backbones whose behavior is set by prompts. We present DocAtlas, a system that t...
+
+--- [9] 2607.07148v1 ---
+Title: Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning
+Authors: Yuxin Li, Donghang Wu, Guan-Ting Lin, Hung-yi Lee, Chengwei Qin et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-08
+Summary: Recent full-duplex spoken dialogue models have demonstrated compelling progress toward human-like interaction, enabling agents to respond with low latency, produce backchannels, and handle user barge-ins. Yet these improvements in conversational dynamics often come with weaker reasoning and instruction-following abilities, revealing a potential tension between interactive dynamics and intelligence...
+
+--- [10] 2607.03530v1 ---
+Title: MentalThink: Shaping Thoughts in Mental SVG World
+Authors: Kangheng Lin, Jisheng Yin, Dingming Li, En Yu, Yana Wei et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-03
+Summary: We introduce MentalThink, a visual-symbolic reasoning paradigm that equips Multimodal LLMs (MLLMs) with an executable mechanism for "mental" visualization. The core of MentalThink is a think-with-SVG pipeline, where the model learns to generate, render, and interpret scalable vector graphics (SVG) code as an intermediate visual representation for multi-turn reasoning. By creating structured vector...
+
+--- [11] 2606.13675v2 ---
+Title: Improving Robotic Generalist Policies via Flow Reversal Steering
+Authors: Andy Tang, William Chen, Andrew Wagenmaker, Chelsea Finn, Sergey Levine
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-11
+Summary: Generalist policies can learn a wide range of skills from diverse robot datasets. In order to solve or improve on challenging new tasks, we need a way to infer and invoke the appropriate actions from the policy's rich behavioral prior, especially when directly commanding the policy fails. We focus on flow matching generalists and propose Flow Reversal Steering (FRS): a method that takes suboptimal...
+
+--- [12] 2606.12372v1 ---
+Title: UniIntervene: Agentic Intervention for Efficient Real-World Reinforcement Learning
+Authors: Haoyuan Deng, Yitong Gao, Yudong Lin, Haichao Liu, Zhenyu Wu et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.LG
+Published: 2026-06-10
+Summary: Human-in-the-loop reinforcement learning (HiL-RL) has emerged as an effective paradigm for real-world robotic manipulation, enabling online policy improvement with human guidance. However, current HiL-RL frameworks remain intervention-intensive, relying on frequent human corrections to redirect the policy out of unproductive exploration, which incurs high labor cost and limits real-world scalabili...
+
+--- [13] 2606.11167v2 ---
+Title: Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models
+Authors: Atsumoto Ohashi, Neil Zeghidour, Alexandre Défossez, Eugene Kharitonov
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-06-09
+Summary: Full-duplex spoken dialogue models can listen and speak simultaneously, making them a promising architecture for natural conversation. However, current models are trained solely with supervised learning through token-level likelihood maximization, which does not directly optimize interaction-level behaviors, causing interactivity issues such as excessive silence and ill-timed turn-taking. Recent w...
+
+--- [14] 2606.06162v2 ---
+Title: Learning to Contest: Decentralized Robust Fairness in Cooperative MARL via Cross-Attention
+Authors: Can Savcı
+Primary cat: cs.MA | All cats: cs.MA, cs.GT
+Published: 2026-06-04
+Summary: Fair cooperative multi-agent reinforcement learning (MARL) teams that maximize an egalitarian welfare are exploitable: a single self-interested agent free-rides on the surplus that fair agents forgo to raise the worst-off, and the known remedy is a centralized need-based allocator. We show that a decentralized defense becomes possible once contention is graded: when a contested resource still deli...
+
+--- [15] 2605.27140v2 ---
+Title: StepOPSD: Step-Aware Online Preference Self-Distillation for Agent Reinforcement Learning
+Authors: Yanfei Zhang, Xu Lin, Chenglin Wu
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-05-26
+Summary: Reinforcement learning for multi-turn agents suffers from a credit-assignment mismatch: rewards are sparse and trajectory-level, while success often hinges on a few local decisions. Existing online policy distillation (OPD) provides denser token-level supervision, but typically treats heterogeneous agent trajectories as monolithic strings rather than causal interaction units. We present StepOPSD, ...
+
+--- [16] 2605.14879v2 ---
+Title: Temporal Fair Division in Multi-Agent Systems: From Precise Alternation Metrics to Scalable Coordination Proxies
+Authors: Nikolaos Al. Papadopoulos, Ismael Tito Freire, Marti Sanchez-Fibla, Konstantinos E. Psannis
+Primary cat: cs.MA | All cats: cs.MA, cs.GT, cs.LG
+Published: 2026-05-14
+Summary: Many intelligent computing and autonomous systems rely on multiple independent, often learning, agents repeatedly sharing a limited resource. Examples include autonomous robots accessing a shared workstation, wireless devices competing for communication opportunities, and distributed AI agents coordinating access to shared computational resources. While conventional fairness measures assess whethe...
+
+--- [17] 2604.10065v1 ---
+Title: ASPIRin: Action Space Projection for Interactivity-Optimized Reinforcement Learning in Full-Duplex Speech Language Models
+Authors: Chi-Yuan Hsiao, Ke-Han Lu, Yu-Kuan Fu, Guan-Ting Lin, Hsiao-Tsung Hung et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2026-04-11
+Summary: End-to-end full-duplex Speech Language Models (SLMs) require precise turn-taking for natural interaction. However, optimizing temporal dynamics via standard raw-token reinforcement learning (RL) degrades semantic quality, causing severe generative collapse and repetition. We propose ASPIRin, an interactivity-optimized RL framework that explicitly decouples when to speak from what to say. Using Act...
+
+--- [18] 2603.11834v1 ---
+Title: Hybrid Human-Agent Social Dilemmas in Energy Markets
+Authors: Isuri Perera, Frits de Nijs, Julian Garcia
+Primary cat: cs.MA | All cats: cs.MA, cs.AI, cs.GT
+Published: 2026-03-12
+Summary: In hybrid populations where humans delegate strategic decision-making to autonomous agents, understanding when and how cooperative behaviors can emerge remains a key challenge. We study this problem in the context of energy load management: consumer agents schedule their appliance use under demand-dependent pricing. This structure can create a social dilemma where everybody would benefit from coor...
+
+--- [19] 2602.04634v3 ---
+Title: WideSeek-R1: Exploring Width Scaling for Broad Information Seeking via Multi-Agent Reinforcement Learning
+Authors: Zelai Xu, Zhexuan Xu, Ruize Zhang, Chunyang Zhu, Shi Yu et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.LG, cs.MA
+Published: 2026-02-04
+Summary: Recent advancements in Large Language Models (LLMs) have largely focused on depth scaling, where a single agent solves long-horizon problems with multi-turn reasoning and tool use. However, as tasks grow broader, the key bottleneck shifts from individual competence to organizational capability. In this work, we explore a complementary dimension of width scaling with multi-agent systems to address ...
+
+--- [20] 2601.19063v1 ---
+Title: Optimizing Conversational Quality in Spoken Dialogue Systems with Reinforcement Learning from AI Feedback
+Authors: Siddhant Arora, Jinchuan Tian, Jiatong Shi, Hayato Futami, Yosuke Kashiwagi et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-01-27
+Summary: Reinforcement learning from human or AI feedback (RLHF/RLAIF) for speech-in/speech-out dialogue systems (SDS) remains underexplored, with prior work largely limited to single semantic rewards applied at the utterance level. Such setups overlook the multi-dimensional and multi-modal nature of conversational quality, which encompasses semantic coherence, audio naturalness, speaker consistency, emoti...
+
+--- [21] 2512.04773v1 ---
+Title: Using Machine Learning to Take Stay-or-Go Decisions in Data-driven Drone Missions
+Authors: Giorgos Polychronis, Foivos Pournaropoulos, Christos D. Antonopoulos, Spyros Lalis
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2025-12-04
+Summary: Drones are becoming indispensable in many application domains. In data-driven missions, besides sensing, the drone must process the collected data at runtime to decide whether additional action must be taken on the spot, before moving to the next point of interest. If processing does not reveal an event or situation that requires such an action, the drone has waited in vain instead of moving to th...
+
+--- [22] 2511.14460v2 ---
+Title: Agent-R1: A Unified and Modular Framework for Agentic Reinforcement Learning
+Authors: Mingyue Cheng, Shuo Yu, Daoyu Wang, Qingchuan Li, Xiaoyu Tao et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-11-18
+Summary: Large language models (LLMs) have rapidly evolved from single-turn text generators into the foundation of increasingly capable agents. As these agents take on more complex reasoning, decision making, tool use, and long-horizon tasks, reinforcement learning (RL) is becoming increasingly important for shaping their behavior. This shift is especially visible in agentic RL, where models must interact ...
+
+--- [23] 2511.08325v1 ---
+Title: AgentPRM: Process Reward Models for LLM Agents via Step-Wise Promise and Progress
+Authors: Zhiheng Xi, Chenyang Liao, Guanyu Li, Yajie Yang, Wenxiang Chen et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.IR, cs.LG
+Published: 2025-11-11
+Summary: Despite rapid development, large language models (LLMs) still encounter challenges in multi-turn decision-making tasks (i.e., agent tasks) like web shopping and browser navigation, which require making a sequence of intelligent decisions based on environmental feedback. Previous work for LLM agents typically relies on elaborate prompt engineering or fine-tuning with expert trajectories to improve ...
+
+--- [24] 2510.07030v1 ---
+Title: Diffusing Trajectory Optimization Problems for Recovery During Multi-Finger Manipulation
+Authors: Abhinav Kumar, Fan Yang, Sergio Aguilera Marinovic, Soshi Iba, Rana Soltani Zarrin et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2025-10-08
+Summary: Multi-fingered hands are emerging as powerful platforms for performing fine manipulation tasks, including tool use. However, environmental perturbations or execution errors can impede task performance, motivating the use of recovery behaviors that enable normal task execution to resume. In this work, we take advantage of recent advances in diffusion models to construct a framework that autonomousl...
+
+--- [25] 2510.05921v3 ---
+Title: Prompt reinforcing for long-term planning of large language models
+Authors: Hsien-Chin Lin, Benjamin Matthias Ruppik, Carel van Niekerk, Chia-Hao Shen, Michael Heck et al.
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areinforcement+AND+abs%3Alearning+AND+abs%3Aturn-taking&max_results=25&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.CL | All cats: cs.CL, cs.LG
+Published: 2025-10-07
+Summary: Large language models (LLMs) have achieved remarkable success in a wide range of natural language processing tasks and can be adapted through prompting. However, they remain suboptimal in multi-turn interactions, often relying on incorrect early assumptions and failing to track user goals over time, which makes such tasks particularly challenging. Prior works in dialogue systems have shown that lo...
+

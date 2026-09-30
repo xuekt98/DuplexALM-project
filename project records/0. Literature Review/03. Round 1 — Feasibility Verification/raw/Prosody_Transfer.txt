@@ -1,0 +1,107 @@
+--- [1] 2608.27848v1 ---
+Title: Is Prosody Lost in Translation? Fine-Grained Cross-Lingual Prosody Similarity Across Languages
+Authors: Haopeng Xie, Ismail Rasim Ulgen, Sofia Son, Berrak Sisman, Philipp Koehn
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-08-28
+Summary: Prosody plays an important role in speech translation, conveying information such as emphasis, emotion, and intent beyond lexical content. However, despite recent progress in expressive speech-to-speech translation (S2ST), little is known about how prosodic patterns are similar/different across languages. Understanding these cross-lingual similarities and differences is crucial for effectively inc...
+
+--- [2] 2607.26541v1 ---
+Title: Prosody-driven Jailbreaks in Audio LLMs: A Controlled Study and Mechanistic Analysis
+Authors: Jiachen Qian, Junyu Li
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-07-29
+Summary: Audio-capable foundation models enable end-to-end spoken interaction, but they also introduce safety risks beyond transcript content. It remains unclear how much jailbreak capability can arise from matched-text variation in speech delivery rather than from lexical rewriting or broader style transfer. We study this question by holding transcript content fixed and varying six speech-delivery presets...
+
+--- [3] 2607.21550v1 ---
+Title: X$^3$-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment
+Authors: Dongjie Fu, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-07-23
+Summary: While large audio-language models have achieved remarkable progress in auditory perception, they still lag behind text-based large language models in deep logical reasoning, primarily due to the scarcity of high-quality audio reasoning data. To bridge this gap, we propose X$^3$-OPD, a cross-modal on-policy distillation framework that transfers reasoning capabilities from a powerful text teacher to...
+
+--- [4] 2607.12706v2 ---
+Title: AutoSIFT: Automatic Style Sifting for Controllable Speech Generation with Arbitrary Style Infilling
+Authors: Haowei Lou, Junda Wu, Chengkai Huang, Tong Yu, Hye-young Paik et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-14
+Summary: State-of-the-art text-to-speech (TTS) models achieve impressive naturalness and expressiveness, yet fine-grained, disentangled control over speaking styles remains challenging. In professional scenarios such as film dubbing, game voice acting, and video content generation, users often need to modify a specific style category, such as emotion, age, or gender, while preserving all others. Existing s...
+
+--- [5] 2606.31947v2 ---
+Title: LuxEmo: Expressive Text-to-Speech Corpus for Luxembourgish
+Authors: Nina Hosseini-Kivanani, Sandipana Dowerah
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-06-30
+Summary: State-of-the-art speech datasets predominantly focus on widely spoken languages, often overlooking low-resource languages such as Luxembourgish, which remain underrepresented in speech technology research. In this work, we introduce LuxEmo, a 21-hour conversational expressive speech corpus for Luxembourgish with 4 emotion categories. LuxEmo is derived from Radio Télévision Luxembourg (RTL) youth b...
+
+--- [6] 2606.23232v1 ---
+Title: Word Lengthening as a Function of Utterance Position: A Multi-Corpus Study
+Authors: Mateo Cámara, José Luis Blanco, Juan Ignacio Godino-Llorente, Jeung-Yoon Choi, Stefanie Shattuck-Hufnagel
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-22
+Summary: Efficient turn-taking requires interlocutors to predict turn endings within a few hundred milliseconds. Beyond syntactic and pragmatic completion, prosody (especially pre-boundary lengthening) supports projection. We test whether turn-final words are longer than mid-sentence words, whether this reflects prosodic modification rather than lexical choice, and where within the word it concentrates. We...
+
+--- [7] 2606.21888v1 ---
+Title: ProsoCodec: Prosody-Oriented Speech Codec for Voice Conversion
+Authors: Jeongsoo Choi, Ji-Hoon Kim, Shujie Hu, Joon Son Chung
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-20
+Summary: Neural speech codecs efficiently compress speech and have become a foundation for speech generation, but they are typically learned as holistic representations that intertwine linguistic content, speaker identity, and prosody. While this design is effective for zero-shot voice cloning, it hinders downstream tasks that require prosody preservation or transfer, such as voice conversion. To address t...
+
+--- [8] 2606.19935v1 ---
+Title: PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation
+Authors: Zhangzhao Liang, Xiaofen Xing, Mingyue Yang, Wenlve Zhou, Xiangmin Xu
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-18
+Summary: Humanoid robots require co-speech motions that are not only expressive and speech-aligned, but also physically executable under embodiment constraints. Existing co-speech generation pipelines are predominantly human-centric: motions are first generated in human-body representations such as SMPL-X and subsequently retargeted to humanoid robots. In this work, we identify a fundamental embodiment gap...
+
+--- [9] 2606.14922v1 ---
+Title: An Empirical Study on Learning Latent Representations for Emotional Speech Synthesis
+Authors: Vinh Dang Quang, Huy Ngo Quang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-06-12
+Summary: For the last couple of years, the field of speech synthesis has improved dramatically thanks to deep learning. There are more and more deep learning-based TTS systems developed to make it possible to produce voices with high intelligibility and naturalness. Meanwhile, controlling the expressiveness is yet a big deal, generating speech in different styles or manners has received a lot of attention ...
+
+--- [10] 2606.05367v2 ---
+Title: Task-Vector Arithmetic for Emotional Expressivity Control in Language-Model-Based Text-to-Speech
+Authors: Daniel Oliveira de Brito, Arnaldo Candido Junior
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-06-03
+Summary: We investigate whether task-vector arithmetic, successful for cross-speaker emotional intensity control in modular text-to-speech (TTS), transfers to large-scale TTS systems built on language-model backbones with in-context learning (LM-TTS). Through a systematic elimination study over four progressively narrower operands on Qwen3-TTS-12Hz-1.7B - model weights via LoRA fine-tuning, continuous code...
+
+--- [11] 2606.01905v1 ---
+Title: Advancing Electrolaryngeal Speech Enhancement Through Speech-Text Representation Learning
+Authors: Ding Ma, Jinyi Mi, Fengji Li, Lester Phillip Violeta, Jiajun He et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-01
+Summary: Objective: laryngectomees depend on an electromechanical device to generate electrolaryngeal (EL) speech. Compared with normal speech, EL speech suffers from severe distortion, limited phonetic variation, unnatural prosody, and temporal shifts, degrading naturalness and intelligibility. Although sequence-to-sequence (seq2seq) voice conversion (VC) based EL-speech-to-normal-speech conversion (EL2SP...
+
+--- [12] 2605.03039v1 ---
+Title: Mixed-Precision Information Bottlenecks for On-Device Trait-State Disentanglement in Bipolar Agitation Detection
+Authors: Joydeep Chandra
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.HC, cs.SD
+Published: 2026-05-04
+Summary: Continuous monitoring of bipolar disorder agitation via voice biomarkers requires disentangling stable speaker traits from volatile affective states on resource-constrained edge devices. We introduce MP-IB, the first framework to treat mixed-precision quantization as an information bottleneck for clinical trait-state separation. The core insight is that numerical precision itself controls capacity...
+
+--- [13] 2604.26347v2 ---
+Title: The False Resonance: A Critical Examination of Emotion Embedding Similarity for Speech Generation Evaluation
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aprosody+AND+abs%3Atransfer&max_results=15&sortBy=submittedDate&sortOrder=descending
+Authors: Yun-Shao Tsai, Yi-Cheng Lin, Huang-Cheng Chou, Tzu-Wen Hsu, Yun-Man Hsu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-04-29
+Summary: Objective metrics for emotional expressiveness are vital for speech generation, particularly in expressive synthesis and voice conversion requiring emotional prosody transfer. To quantify this, the field widely relies on emotion similarity between reference and generated samples. This approach computes cosine similarity of embeddings from encoders like emotion2vec, assuming they capture affective ...
+
+--- [14] 2604.17647v2 ---
+Title: Prosody as Supervision: Bridging the Non-Verbal--Verbal for Multilingual Speech Emotion Recognition
+Authors:  Girish, Mohd Mujtaba Akhtar, Muskaan Singh
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-19
+Summary: In this work, we introduce a paralinguistic supervision paradigm for low-resource multilingual speech emotion recognition (LRM-SER) that leverages non-verbal vocalizations to exploit prosody-centric emotion cues. Unlike conventional SER systems that rely heavily on labeled verbal speech and suffer from poor cross-lingual transfer, our approach reformulates LRM-SER as non-verbal-to-verbal transfer,...
+
+--- [15] 2604.10413v1 ---
+Title: Sign-to-Speech Prosody Transfer via Sign Reconstruction-based GAN
+Authors: Toranosuke Manabe, Yuto Shibata, Shinnosuke Takamichi, Yoshimitsu Aoki
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-04-12
+Summary: Deep learning models have improved sign language-to-text translation and made it easier for non-signers to understand signed messages. When the goal is spoken communication, a naive approach is to convert signed messages into text and then synthesize speech via Text-to-Speech (TTS). However, this two-stage pipeline inevitably treat text as a bottleneck representation, causing the loss of rich non-...
+

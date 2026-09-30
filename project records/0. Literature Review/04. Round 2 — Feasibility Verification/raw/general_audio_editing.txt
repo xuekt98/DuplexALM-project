@@ -1,0 +1,142 @@
+--- [1] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [2] 2609.08275v1 ---
+Title: Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation
+Authors: Tianyi Zeng, Junchao Liao, Yujie Wei, Ziying Zhang, Litao Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-08
+Summary: Recent multi-shot audio-video generators can produce increasingly coherent and cinematic outputs, but coherence does not imply the ability to execute editing techniques. Professional editing depends on shot structure, transition grammar, audio-video cut relations, and montage, yet existing benchmarks largely rely on proxies such as content quality, synchronization, or physical plausibility, system...
+
+--- [3] 2609.06144v1 ---
+Title: TBDub: Production-Oriented Visual Dubbing
+Authors: Bihan Li, Xinyang Li, Zeran Xu, Meiguang Jin, Junfeng Ma
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: Visual dubbing must synchronize mouth motion with replacement speech while preserving identity, appearance, and temporal consistency. Although X-Dub provides a strong mask-free video-editing baseline, its application to livestream and generated-video content reveals limitations in production-domain robustness, temporal and motion stability, identity and oral-detail preservation, and inference effi...
+
+--- [4] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [5] 2609.01828v1 ---
+Title: AVERT: Audio-Verified Adjudication for Spoken Dialogue State Tracking
+Authors: Chunggi Lee, Hanspeter Pfister
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-01
+Summary: Spoken dialogue state tracking recovers slot-value pairs from speech, where ASR errors concentrate in entity values and persist across turns, making it both a generation and an editing problem. A strong per-turn text editor corrects much of this but, operating on the transcript alone, leaves three recoverable errors: a value predicted inconsistently across turns, an omitted slot, and a value the a...
+
+--- [6] 2609.01277v1 ---
+Title: TimeSteer: Inference-Time Speech Scheduling in Joint Audio-Visual Diffusion Models
+Authors: Chao Zhou, Yiling Chen, Qi Chu, Tao Gong, Nenghai Yu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2026-09-01
+Summary: Although pretrained joint audio-visual diffusion models offer rich control over \emph{what} to generate, they provide no explicit control over \emph{when} an utterance should occur. To address this, we study \emph{inference-time speech scheduling}, a novel task that places coupled speech and visual articulation within user-specified begin--end intervals without finetuning the backbone model. We un...
+
+--- [7] 2608.25734v1 ---
+Title: InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control
+Authors: Ekkasit Pinyoanuntapong, Ajinkya Deogade, Paul Streli, Wenjing Zhang, Joanna Materzynska et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-26
+Summary: Co-speech gesture generation has made significant progress toward realistic full-body motion from speaker audio, yet existing models lack fine-grained spatial controllability of individual joints. To address this, we introduce \emph{InteractGesture}, a model-agnostic, inference-time method for spatially controllable gesture generation. \emph{InteractGesture} guides target latent estimates of a dif...
+
+--- [8] 2608.24329v1 ---
+Title: How Do Professional Editors Evaluate the Editing Quality of AI-Generated Cinematic Video Ads?
+Authors: Po-Ming Law, Weizhi Li, Arpit Narechania
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-25
+Summary: On social media, we often encounter short-form video ads that employ cinematic editing techniques to evoke an emotional response. While AI tools are beginning to generate such cinematic ads automatically, we lack a fine-grained framework for evaluating these ads. In this paper, we first characterize social media video ad formats and identify cinematic ads as a recurring format in our corpus. We th...
+
+--- [9] 2608.24168v2 ---
+Title: FireRedAudio: A General-Purpose Audio Language Model with Decoupled Continuous Representations for Understanding and Generation
+Authors: Feiyu Shen, Fenglong Xie, Junjie Li, Kun Xie, Lei Xie et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-08-25
+Summary: A unified audio model must recognize and understand linguistic, paralinguistic, and environmental information while supporting speech synthesis and editing. A key challenge is representation: understanding favors compact features suited to long-context modeling, whereas speech generation requires reconstructible features that preserve fine-grained acoustic detail. We introduce FireRedAudio, a gene...
+
+--- [10] 2608.23820v1 ---
+Title: From Anonymous Shapes to Named Places: A Tool for Braille and Place-Semantic Annotation of Tactile Maps
+Authors: Li Liu, Ashmita Dua, Jiaming Qu, David T. Lee, Leilani H. Gilpin
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-24
+Summary: On a 3D-printed tactile map, a building felt under the finger is an anonymous shape: touch alone cannot tell which footprint is which, and a spoken description cannot reliably point to one shape at one place. We present a web-based tool that lets a sighted helper click to add on-shape Braille labels to an already-generated map model, downstream of the geometry generator so that whoever knows the r...
+
+--- [11] 2608.18832v1 ---
+Title: EfficientSync: Real-Time Lip Synchronization via Deformation-Based Reference Texture Mixing
+Authors: Fa-Ting Hong, Runzhen Liu, Luchuan Song, Hongmin Cai, Chuhua Xian
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-19
+Summary: Audio-driven lip synchronization manipulates the mouth region of a talking-face video to match the driving audio while preserving head pose, identity, and background. Although the task is inherently local editing, prevailing approaches reconstruct the entire lower face with heavy GAN- or diffusion-based decoders, incurring substantial latency and, more critically, hallucinating intra-oral details ...
+
+--- [12] 2608.17492v2 ---
+Title: FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations
+Authors: Feiyu Shen, Kun Xie, Yichen Wu, Ziqi Dai, Yichen Han et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-18
+Summary: Recent continuous autoregressive TTS models operate directly on continuous speech representations, preserving rich acoustic details while leveraging the instruction-following capabilities of text LLMs. This paradigm opens new possibilities for voice cloning, instruction-controlled voice design, and speech editing, but remains susceptible to error accumulation during autoregressive generation. Exis...
+
+--- [13] 2608.14916v1 ---
+Title: Distinguishing AI-Generated Music from Edited Audio as a Hard-Negative Robustness Task
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Ageneral+AND+abs%3Aaudio+AND+abs%3Aediting&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Alexandru-Stefan Morosanu, Valerian Cecan, Stefan-Daniel Achirei, Laura Erhan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-08-14
+Summary: AI-generated music detectors are commonly evaluated against original songs, but real-world uploads are often remixed, re-encoded, pitch-shifted, or otherwise edited. These edited versions form a difficult negative class: they are not generated by AI, yet they may introduce spectral artifacts that resemble synthetic audio fingerprints. We study this problem as a hard-negative robustness setting for...
+
+--- [14] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+
+--- [15] 2608.08349v1 ---
+Title: Dramarrator: Object-Based Audio Editing for Audio Drama Production from Books
+Authors: Karim Benharrak, Oriol Nieto, Bryan Wang, Zeyu Jin, Amy Pavel
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.MM
+Published: 2026-08-08
+Summary: Audio dramas weave dialogue, sound effects, and music into immersive stories. Creators often adapt books into audio dramas, but this process remains labor-intensive, requiring them to interpret source material, author scripts, generate audio assets, and assemble them on a timeline. Because story elements like characters and scenes manifest across many interdependent assets, a single change can rip...
+
+--- [16] 2608.05803v1 ---
+Title: Vorch-Omni: Multi-Task Orchestration of Sight and Sound
+Authors:  Vorch Team, Xiaoyu Chen, Yang Ding, Cong Han, Menglin Han et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-06
+Summary: Recent advances in generative video modeling have enabled diverse generation, reference-based synthesis, extension, and editing, but existing approaches often rely on fragmented task-specific models. A general model must distinguish heterogeneous target, source, and reference signals to determine what to generate, preserve, or use as guidance, while reducing interference among tasks. Joint audio-v...
+
+--- [17] 2608.05727v2 ---
+Title: LILAC: An Idempotent Neural Speech Codec
+Authors: June Young Yi, Dongwook Lee, Jiheum Yeom, Sungroh Yoon
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-08-06
+Summary: Neural Audio Codecs are widely adopted in speech generation and editing. However, existing neural audio codecs are not idempotent: across the paper's twelve baseline systems, every configuration tested rewrites, on average, at least 15% of its tokens in a single decode-re-encode pass. This poses a problem for utilizing Neural Audio Codecs as token interfaces in pipelines where re-encoding decoded ...
+
+--- [18] 2608.05442v1 ---
+Title: Diff2Mix: Controllable Music Mixing via Diffusion Models and Differentiable Audio Effects
+Authors: Yisu Zong, Jinjie Shi, Joshua Reiss
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-05
+Summary: Automatic music mixing aims to combine multitrack recordings into a balanced and coherent musical piece. Because the content of different songs and the subjective preferences of mixing engineers jointly shape the final outcome, a practical system should deliver well-balanced mixes while allowing for controllable stylistic variation. However, most existing methods treat automatic mixing and mixing ...
+
+--- [19] 2608.05145v2 ---
+Title: Objects as Audio-Visual Modal Sound Fields
+Authors: Zisen Shao, Zihao Wei, Derong Jin, Ruohan Gao
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-08-05
+Summary: While modern 3D reconstruction excels at modeling object geometry and appearance, it largely ignores the rich acoustic cues revealed through physical interaction. Object impact sounds convey material, stiffness, and structural properties that complement vision, yet existing impact sound modeling approaches either rely on expensive physics-based simulation or require large datasets to generalize in...
+
+--- [20] 2608.03253v3 ---
+Title: CLASVS: Continuous-Latent Autoregression for Melody-Preserving Lyric Editing in Singing Voice Synthesis
+Authors: Yizhong Geng, Tian-Hao Zhang, Chunfeng Wang, Wenxin Fu, Yingming Gao et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-04
+Summary: Reference-conditioned melody-preserving lyric editing replaces words while retaining a performance's timing, singer identity, and naturalness. Continuous-latent autoregression avoids finite codebooks and offers stepwise generation with learned stopping. Editing creates a conflict absent from ordinary reconstruction: training pairs reference cues with original lyrics, whereas inference asks revised...
+

@@ -1,0 +1,177 @@
+--- [1] 2609.08896v1 ---
+Title: Evolution of Multimodal Question Answering: From Modality-Adaptive Extraction to Unified Language Representation
+Authors: Abdullah Al Shafi
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2026-09-08
+Summary: The rapid growth of multimodal data has intensified the need for question answering (QA) systems capable of reasoning across heterogeneous sources such as text, tables, and images. In this paper, we present a comprehensive methodological comparison of three influential frameworks, namely Multimodal Adaptive Extraction (MAE), Solar, and UniMMQA, tracing the evolution of multimodal question answerin...
+
+--- [2] 2609.08841v1 ---
+Title: Leveraging Visual and Geometric Priors for Metric-scale and Complete Vehicle Gaussian Reconstruction from Limited Views
+Authors: Jinyu Miao, Jiusi Li, Yifei He, Miao Long, Kun Jiang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: High-fidelity vehicle assets are essential for controllable traffic scene generation, particularly for synthesizing rare and safety-critical long-tail scenarios. However, reconstructing a reusable vehicle representation from in-the-wild onboard images remains challenging for two reasons. First, image-to-3D generation methods generally produce models without reliable metric scale. Second, onboard c...
+
+--- [3] 2609.08345v1 ---
+Title: CoVeR: Coverage-Based Token Pruning for Multi-View 3D Reasoning in VLMs
+Authors: Nhat-Tan Bui, Varshini Elangovan, Arun Reddy Anugu, Sreyas Mohan, Wei Ye et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-09-08
+Summary: Representing a 3D scene as multi-view images allows 2D VLMs to reason in 3D by reusing priors from pre-training, sidestepping the scarcity of annotated 3D data. However, it produces thousands of redundant visual tokens whose cost grows with every view. Existing visual token pruners fall into two families, each limited in the 3D multi-view setting. Learned importance methods rank tokens by attentio...
+
+--- [4] 2609.08300v1 ---
+Title: Human-Centric Image Captioning with Subject-Centered Spatial Understanding
+Authors: Bozhou Li, Jiahang Zhang, Yue Ding, Yushuo Guan, Bohan Zeng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: While multimodal large language models (MLLMs) achieve remarkable performance on generic image captioning, they frequently suffer from structural hallucinations in human-centric scenarios. Accurately modeling human subjects is foundational for critical downstream applications, such as accurate avatar/video/image generation and fine-grained human action understanding. However, these tasks require h...
+
+--- [5] 2609.08224v1 ---
+Title: 3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints
+Authors: Ziqin Huang, Yingyue Li, Chenyangguang Zhang, Ruida Zhang, Yuxin Chen et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2026-09-08
+Summary: Intermediate representations are key to bridging the modality gap between generalizable manipulation policies and large-scale pretrained vision-language models (VLMs). Among these, trajectory-based representations compactly represent motion-relevant cues, yet most existing approaches predict trajectories in 2D image space, resulting in intrinsic 3D ambiguity. Moreover, using 2D trajectories with d...
+
+--- [6] 2609.08029v1 ---
+Title: BanglaMemeX: Advancing Cultural Metaphoric Image Interpretation in Bangla with a Multimodal Explainable Dataset
+Authors: Md. Sadman Sakib, Zisan Mahmud, Md. Fahim Arefin, Md Fahim
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2026-09-07
+Summary: Vision Language Models have achieved strong performance on multimodal benchmarks, yet their ability to reason about culturally grounded and metaphor-rich content remains insufficiently studied. Internet memes present a challenging setting where meaning emerges from implicit interactions between image, overlaid text, sarcasm, and shared socio-cultural knowledge rather than literal visual recognitio...
+
+--- [7] 2609.08025v1 ---
+Title: Eliciting Self-Verification in Multimodal Reasoning Agents with Reinforcement Learning
+Authors: Vishwas Sathish, Viresh Ranjan, Xinliang Zhu, Arnab Dhua, Douglas Gray
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-09-07
+Summary: Reasoning agents increasingly rely on external tools such as web search to answer complex queries. Reinforcement learning (RL) finetuning algorithms such as GRPO have improved long-form reasoning in text-only language models, particularly for coding and mathematics. Reliable tool use in multimodal agents, however, remains challenging because models must interpret text and images while integrating ...
+
+--- [8] 2609.07937v1 ---
+Title: TDDN: Text-aligned Diffused DINO Network for Puzzle Understanding
+Authors: Harsha Patnala, Debopriyo Banerjee, Ayush Sunil Munot, Somak Aditya
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-07
+Summary: Structured visual reasoning, such as image puzzles, demands fine-grained visual perception, an ability current Vision Language Models (VLMs) lack. VLMs built on CLIP-based ViT backbones trade fine-grained detail for high-level semantics, and we show this loss propagates downstream. To recover it, we fuse DINOv3 and CleanDIFT representations into a perception encoder (DiffusedDINO) and align it wit...
+
+--- [9] 2609.07884v1 ---
+Title: Are Image Generators Zero-Shot Perceivers? A Rigorous Evaluation
+Authors: Shangzhe Di, Zhaokai Wang, Weidi Xie
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-07
+Summary: Recent work, such as Vision Banana, shows that lightweight instruction tuning can enable an image generator to achieve state-of-the-art performance across multiple visual perception tasks. Motivated by this perspective, we ask how far image generators can go on public visual perception benchmarks in a zero-shot setting. We introduce ProbeGen, a benchmark for zero-shot generative perception that ca...
+
+--- [10] 2609.07823v1 ---
+Title: SAFIRE: Safety-Critical Benchmark for Fine-grained Fire and Smoke Understanding in Multimodal LLMs
+Authors: Pengfei Li, Naufal Suryanto, Sicheng Zhang, Mohammad Alsharid, Muzammal Naseer
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL
+Published: 2026-09-07
+Summary: Multimodal Large Language Models (MLLMs) show strong progress on vision-language tasks, yet their reliability in safety-critical settings remains underexplored. Fire-smoke understanding is central to public safety and disaster response, but most existing benchmarks lack diverse real-world scenarios and context-aware evaluation. We introduce SAFIRE, a large-scale benchmark for fire-smoke understand...
+
+--- [11] 2609.07719v1 ---
+Title: A radiographic world model for clinical reasoning and evidence generation
+Authors: Suyang Xi, Songtao Hu, Shansong Wang, Mojtaba Safari, Luke del Balzo et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-07
+Summary: Medical imaging artificial intelligence (AI) is commonly developed as separate mappings from radiographs to diagnostic outputs or from clinical descriptions to generated images, although both arise from the same underlying radiographic state. A world-model formulation instead seeks to learn an internal representation of this state that can support both clinical readout and conditional simulation o...
+
+--- [12] 2609.07064v1 ---
+Title: SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem
+Authors: Soohyun Ryu, Sohee Kim, Eunho Yang
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-07
+Summary: Large Vision-Language Models (LVLMs) have achieved strong performance on diverse visual tasks, yet their ability to reconstruct and reason about the 3D structure of the scene depicted in 2D images -- referred to as spatial intelligence -- remains limited. Existing approaches attempt to address this gap by using real-scene spatial question answering datasets that require dense geometric annotations...
+
+--- [13] 2609.06914v1 ---
+Title: A visual large language foundational model for medical image recognition using clinician-oriented social media
+Authors: Lingxuan Hou, Yuhua Xie, Yue Hu, Yan Zhuang, Junqi Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-07
+Summary: Large language models (LLMs) have demonstrated strong capabilities across diverse domains, showing considerable potential in medicine. However, their application in medical settings remains limited by the scarcity of visual question answering (VQA) datasets that capture clinical reasoning and explicit image-text alignment. Here, we leverage de-identified medical images and expert commentaries shar...
+
+--- [14] 2609.06810v1 ---
+Title: OCTN: Neural OCT Representations for Robot-Guided Precision Intervention
+Authors: Ravi Prakash, Ryan P. McNabb, Patrick J. Codd, Shan Lin
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-06
+Summary: Optical coherence tomography (OCT) offers compact, contactless, micron-scale imaging suitable for intraoperative guidance, but native OCT volumes are discretely sampled, anisotropic, and currently inefficient for downstream geometric reasoning and robot integration. We present OCTN (pronounced "octane"), an implicit neural representation framework that converts volumetric OCT scans into a continuo...
+
+--- [15] 2609.05959v1 ---
+Title: FineHOI: Part-Aware Dense Representations for Zero-Shot Human-Object Interaction Detection
+Authors: Francesco Tonini, Lorenzo Vaquero, Mohammad Mahdi Derakhshani, Cees Snoek, Elisa Ricci et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: Human-Object Interaction (HOI) detection aims to localize humans and objects in images and classify their interactions. Zero-shot HOI focuses on recognizing interactions that are not observed during training, requiring models to generalize beyond seen verb-object compositions. Recent approaches leverage Vision-Language Models (VLMs), benefiting from rich semantic representations. However, they oft...
+
+--- [16] 2609.05902v1 ---
+Title: GenPuzzle: Benchmarking Visual Reasoning in Image Generation Models
+Authors: Changpeng Zhao, Yiren Song, Jinpeng Wang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-05
+Summary: Recent image generation systems increasingly combine multimodal understanding, reasoning, and synthesis, suggesting that they may do more than render plausible scenes. Yet existing evaluations emphasize aesthetics, prompt alignment, compositionality, or text-based answers, leaving unclear whether these systems can solve visual problems and faithfully express solutions in pixels. We introduce GenPu...
+
+--- [17] 2609.05583v1 ---
+Title: An overview of 3D Vision-Language Models
+Authors: Márcus Lobo, Vitor Matias, Afonso Paiva, Jeová Farias, Tiago Novello et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-04
+Summary: Vision-Language Models (VLMs) are reshaping computer vision by aligning visual and textual embeddings, allowing models to recognize visual concepts and reason about them using natural language. Traditional 3D deep-learning models, however, are typically trained for specific tasks, such as classification, segmentation, or detection, and do not naturally support cross-modal retrieval from their embe...
+
+--- [18] 2609.05171v1 ---
+Title: WeAgent-MMGenEdit: A Full-Stack Recipe for Multimodal Agentic Image Generation and Editing
+Authors: Hui Zhang, Zongkai Liu, Liqiang Niu, Juntao Liu, Han Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-04
+Summary: Image generation and editing models have advanced rapidly, yet remain unreliable when prompts require external world knowledge. Bounded and long-tail parametric knowledge prevents direct or reason-then-generate approaches from recovering the required facts and visual appearances. Existing agentic generation and editing methods mitigate this limitation with retrieval tools, yet remain constrained b...
+
+--- [19] 2609.05091v1 ---
+Title: Training-Free Logical and Structural Anomaly Detection via Calibrated Fusion
+Authors: Changyi Li, Miao Yu, Kai Dong, Yu Xiao
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-04
+Summary: Industrial anomaly detection must handle two distinct defect families: structural anomalies, which manifest as local texture corruptions, and logical anomalies, which violate global rules on object count, composition, or arrangement. Existing detectors typically favor one family at the expense of the other. In particular, training-free methods effectively exploit frozen representations but lack an...
+
+--- [20] 2609.04859v2 ---
+Title: MM-IFEval-Pro: A Multilingual and Attack-Resistant Benchmark for Instruction-Following in Vision-Language Models
+Authors: Changming Xiao, Zhenliang Ni, Jinhui He, Han Shu, Jie Hu
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-04
+Summary: As vision-language models (VLMs) rapidly advance in image understanding, cross-modal reasoning, and complex instruction execution, instruction-following capability has become a key indicator of their reliability and practicality. However, existing multimodal instruction-following benchmarks still suffer from limited language coverage and insufficient adversarial safety scenarios, making them inade...
+
+--- [21] 2609.04200v1 ---
+Title: Principia: Relational Physics Tests for Video Models
+Authors: Varun Varma Thozhiyoor, Shivam Tripathi, Venkatesh Babu Radhakrishnan, Anand Bhattad
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the same physical law, their motions must satisfy predictable relationships, and these relationships ho...
+
+--- [22] 2609.04070v1 ---
+Title: Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving
+Authors: Ruoyu Yao, Yusen Xie, Qingzhao Liu, Pei Liu, Zewei Yang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.RO
+Published: 2026-09-03
+Summary: Bridging the gap between the discrete reasoning of Vision-Language Models and the continuous, physics-constrained nature of autonomous driving remains a significant challenge. In this work, we introduce LaPla, a unified Vision-Language-Action (VLA) framework featuring latent-aligned planning to seamlessly ground semantic understanding in precise motion execution. We first design an action tokenize...
+
+--- [23] 2609.04034v2 ---
+Title: Editable Visual Design
+Authors: Junyan Ye, Wei Liu, Dongzhi Jiang, Zichen Wen, HaoDong Li et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.CL
+Published: 2026-09-03
+Summary: While diffusion base models such as GPT-Image-2 and Nano-Banana exhibit remarkable visual expressiveness, their end-to-end generation inherently yields flattened bitmaps with error-prone text, precluding layer-wise post-editing. Conversely, code-based visual generation via Coding Agents provides precise layout control and decoupled layers, yet remains constrained by a lack of global aesthetic intu...
+
+--- [24] 2609.03952v1 ---
+Title: WorldReward: Reward Modeling for Camera-Conditioned World Models
+Authors: Yibin Wang, Zehan Wang, Junshu Tang, Zhimin Li, Yujie Zhou et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Camera-conditioned world models generate interactive videos in which commanded actions should induce the expected scene changes while appearance, geometry, and temporal dynamics remain coherent. Existing rewards assess these requirements separately: geometry-based rewards estimate trajectory execution but cannot judge the visual quality of the executed motion, whereas image-based rewards measure f...
+
+--- [25] 2609.03931v1 ---
+Title: Sparse auto-regressive modeling for scene generation from multi-view images
+Authors: Thomas Lucas, Maxime Pietrantoni, Philippe Weinzaepfel, Wonjune Cho, Bardienus Pieter Duisterhof et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-09-03
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Areasoning+AND+abs%3Aimage+AND+abs%3Ageneration&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Generating complete 3D scenes from sparse, unconstrained views is a fundamental challenge in 3D vision which requires reasoning beyond observed content while remaining computationally tractable. Existing feed-forward reconstruction methods are inherently limited to content visible in the input images, while 3D generative modeling is hindered by the high computational cost of dense volumetric repre...
+

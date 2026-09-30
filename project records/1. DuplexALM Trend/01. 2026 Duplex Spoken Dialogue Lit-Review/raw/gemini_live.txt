@@ -1,0 +1,177 @@
+--- [1] 2609.34973v1 ---
+Title: APEX-Voice: Can Voice Agents Complete Professional Workflows Through Full-Duplex Interaction
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-28
+Summary: Full-duplex voice agents can now listen, speak, use tools, and act during spoken interactions, but fluent dialogue does not guarantee correct completion of delegated professional workflows. We introduce APEX-Voice, a benchmark of 120 interactive professional workflows spanning ten work archetypes such as form completion, corporate negotiation, coordination, consulting, and interviewing. Each workf...
+
+--- [2] 2609.27353v1 ---
+Title: Guides That Cause Actions: An Offline Study of Guide-Action Mutual Reinforcement in Multimodal Web Agents
+Authors: Chengguang Gan, Yunhao Liang, QingHao Zhang, Shiwen Ni
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-23
+Summary: Web agents are usually evaluated in live environments, where environment state and judge models drift between runs, so the same checkpoint rarely reproduces the same score, making controlled studies of training phenomena impractical. We present WebMRE, an offline benchmark of 541 tasks and 5,293 steps derived from successful WebArena trajectories, with fully audited test labels and a deterministic...
+
+--- [3] 2609.23162v1 ---
+Title: From Prompt to Recommendation: A Fitted Stage Model of Brand Visibility in AI Search
+Authors: Benjamin Tannenbaum
+Primary cat: cs.IR | All cats: cs.IR
+Published: 2026-09-19
+Summary: We analyze 34,960 unbranded prompt-engine observations from 75 anonymized Aiso projects, covering 2,854 distinct monitored prompts and repeated GPT and Gemini runs from June-September 2026. When neither the target brand nor its own domain appears in the observable live retrieval path, target mention rates are 2.8% for GPT and 3.8% for Gemini. With an own-domain citation but no branded fan-out, the...
+
+--- [4] 2609.23136v1 ---
+Title: Fast Intent-Driven Service Orchestration with Jev for 6G Edge Networks
+Authors: Delong Li, Xu Wang, Haochen Gong, Rui Lang, Guangsheng Yu
+Primary cat: cs.NI | All cats: cs.NI
+Published: 2026-09-19
+Summary: Intent-driven services envisioned for sixth-generation (6G) edge networks must translate changing requirements into executable contracts while wireless requests continue to arrive. Interpretation consumes part of the same deadline budget as transmission, queueing, and execution. We evaluate Jev as a decision model for this stage, asking whether faster contract activation improves service timelines...
+
+--- [5] 2609.22586v1 ---
+Title: SEABED: SouthEast Asian Benchmark for Evaluating Audio Reasoning
+Authors: Harshit Rajgarhia, Asif Shaik, Rachuri Lokesh, Sushanta Kumar Pani, Abhishek Mukherji
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-18
+Summary: Modern audio-language models are no longer judged only on what words they can transcribe, but on whether they can reason over what they hear: recovering meaning that lives in tone and prosody, telling dialects and regional languages apart, and resolving ambiguity that the written form leaves open. This capability is now measured by a growing family of audio-reasoning benchmarks, but almost entirel...
+
+--- [6] 2609.22510v1 ---
+Title: Defusing Explosive Prompts: Understanding and Preventing Trigger-Based Prompt Injections in LLM Agents
+Authors: Justin Szczepaniak, Elad Feldman, Naum Viner, Ben Nassi
+Primary cat: cs.CR | All cats: cs.CR, cs.LG
+Published: 2026-09-18
+Summary: As LLM applications integrate with external tools, they are increasingly exposed to indirect prompt injection (IPI), where adversarial instructions are embedded in retrieved content. Conventional IPIs fire on contact: the moment an agent ingests the content, it carries out the instruction. We introduce the explosive prompt, a conditional payload that stays dormant until an attacker-chosen trigger ...
+
+--- [7] 2609.20124v1 ---
+Title: Multi-Dimensional Prosody Judgment For Live Streaming Speech Synthesis
+Authors: Zifan Guan, Longyu Lu, Junan Zhang, Zhizheng Wu, Meiguang Jin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-17
+Summary: Evaluating live streaming speech synthesis (TTS) requires assessing fine-grained, highly expressive prosody such as emotion, intonation, and energy which traditional MOS predictors fail to capture. While proprietary Large Language Models (LLMs) like Gemini can evaluate these aspects, they are too costly for massive inference and reinforcement learning feedback. To address this, we first introduce ...
+
+--- [8] 2609.13814v3 ---
+Title: Realtime-Venus: A full-duplex interaction system with asynchronous delegation
+Authors:  Ant Group
+Primary cat: cs.CV | All cats: cs.CV, eess.AS
+Published: 2026-09-12
+Summary: Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken dialogue relies on acoustic and linguistic cues, while video interaction also requires grounding the conversation in evolving visual context. We present Realtime-Venus, a proactive full-duplex interaction system with two separately trained 9B models: Realtime-Venus-Omni for audio-vi...
+
+--- [9] 2609.09203v1 ---
+Title: OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows
+Authors: Aayam Bansal, Keertan Balaji
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-05
+Summary: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic reasoning from fortunate guessing. We present \textbf{OpenDiscoveryTrace}, a public dataset of 558 co...
+
+--- [10] 2609.04444v3 ---
+Title: HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals
+Authors: Jasmine Brazilek, Miles Tidmarsh, Matthias Endres, Anshuman Singh, Jeremiah Miller
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: HarvestBench is the first benchmark to 1) put a price on avoiding a side effect and 2) name the side effect as a living creature. Nine LLMs each drive a crew of two tractors to gather a corn harvest. The animals in their path are not part of the goal function. When an animal blocks the route the autopilot pauses and asks the agent whether to drive over it for free or swerve for a given fuel cost. ...
+
+--- [11] 2609.03423v2 ---
+Title: DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Full-duplex voice agents must continuously decide when to speak, listen, backchannel, interrupt, overlap, and yield the conversational floor. Existing benchmarks evaluate these behaviors through explicit turn-management instructions, whereas voice agents are often configured through roles or personas from which appropriate conversational behavior must be inferred. We introduce DuplexSpeechBench-IF...
+
+--- [12] 2608.28875v1 ---
+Title: No Detectable Change in Side-Level WER from Prompt-Level Context: A Preregistered Ablation on a Production Oral-History Corpus
+Authors: Theodore O. Cochran, Stephanie Dodson, Keith Nore
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-08-28
+Summary: Supplying context at inference time to a large multimodal model is an inexpensive lever for adapting speech transcription to a domain, and earlier results on smaller models reported large gains. This work tested that mechanism where it ships, in the prompt-conditioning layer of a production oral-history transcription tool, on a sample from its own production corpus. Full prompt-level context did n...
+
+--- [13] 2609.00330v1 ---
+Title: Topic Matching in the Wild: Benchmark and Lessons from Real-World ASR Transcripts
+Authors: Saman Rahbar, Xiliang Zhu, Irvin Cardoza, David Rossouw
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG
+Published: 2026-08-27
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Agemini+AND+abs%3Alive&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: In contact centers, real-time agent-assist tools determine, for each of many predefined topics, whether a live customer utterance is relevant and display a coaching card to the agent when it is. The input is noisy and challenging: ASR(Automatic Speech Recognition) transcripts of spontaneous phone conversations, which can be unclear, repetitive, and mostly lack punctuation. To systematically study ...
+
+--- [14] 2608.22808v4 ---
+Title: CatchBench: When Can an Agent Failure Be Caught?
+Authors: Yue Zhao, Mengyuan Li, Ruolin Li, Prince Zizhuang Wang, Shuli Jiang et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.MA, cs.PF
+Published: 2026-08-24
+Summary: When can an agent failure be caught? A weak audit score alone cannot identify whether the record or the method is limiting. CatchBench therefore puts one auditor's question to three information states: the declared configuration before a run (PRE), a growing prefix of its trace (LIVE), and the finished trace (POST). Prior benchmarks fix one of these states or vary the telemetry; to our knowledge n...
+
+--- [15] 2608.24921v3 ---
+Title: post-graph-rag: A PostgreSQL-Native Bi-Temporal Graph RAG Engine with Temporal Grounding at Synthesis
+Authors: Chandan Rajah
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-14
+Summary: Graph RAG connects facts no single passage states, but implementations pay three times: in infrastructure, keeping vector store, graph database and document store in sync; in quality, because a pipeline that never refuses extractor output stores edges asserting nothing; and over time, because a graph that only accumulates treats superseded and current facts alike. post-graph-rag is an open-source ...
+
+--- [16] 2608.03018v1 ---
+Title: UrbanAgent: A Tool-Augmented Agent for Cross-System Urban Tasks
+Authors: Jiayu Cao, Xingyuan Zeng, feiyu Li, Zhijing Huang, Xujie Yuan et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-04
+Summary: Modern cities rely on an increasing number of digital services to operate, but residents' daily needs are still difficult to meet. Services are fragmented and have little interoperability, placing a heavy operational burden on users. Existing digital platforms, urban foundation models, and intelligent assistants each address only isolated aspects of an urban task. But they struggle to reliably con...
+
+--- [17] 2608.02464v1 ---
+Title: Real-Time Detection and Repair of LLM Agent Failures
+Authors: Sunny Dubey
+Primary cat: cs.AI | All cats: cs.AI, cs.LG, cs.SE
+Published: 2026-08-03
+Summary: LLM agents fail mid-episode -- they loop, cascade tool errors, drift off goal, fabricate results, or silently absorb corrupted content -- and the standard remedy, judging every step with a second LLM, costs more than the agent itself. We ask how much detection is achievable from observable step telemetry alone, using monitors costing microseconds per step and trained only on healthy runs. On 2,823...
+
+--- [18] 2607.27353v1 ---
+Title: LayerRAG-Bench: A Cross-Layer Reliability Benchmark for Agentic Retrieval-Augmented Generation
+Authors: Musa Shams
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-29
+Summary: Agentic retrieval-augmented generation systems can produce answers that appear grounded while failing at the evidence, tool-contract, authorization, or session-state layer. We introduce LayerRAG-Bench, a controlled cross-layer reliability benchmark with 8 enterprise domains, 240 tasks, 9 fault scenarios, 2 contract modes, and 38,880 live task-level records across nine models from OpenAI, Anthropic...
+
+--- [19] 2607.25667v2 ---
+Title: MyMentorLLM: A psychotherapy GenAI environment with multimodal voice/text patients, trainees and experts for deliberate practice
+Authors: Rodolfo Rizzi, Alessandro Grecucci, Massimo Stella
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-07-28
+Summary: Psychotherapists need repeated training and supervision; however, scalability is problematic. We present MyMentorLLM, a multimodal voice- and text-based deliberate-practice environment with 2,100 complete Cognitive Behavioural Therapy (CBT) sessions. Each session links a DSM-5-TR-grounded LLM patient (with major depressive, generalised anxiety or borderline personality disorder), an LLM therapist-...
+
+--- [20] 2608.12373v1 ---
+Title: Don't Want Your LLM to Recommend Nuclear Strike? Try Asking It in Japanese
+Authors: Rian Touchent
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-21
+Summary: Large language models are increasingly used in strategic and advisory contexts, yet their safety alignment is typically evaluated in English only. We test nine models from six providers and ask whether the language of a prompt can change a model's decision in a high-stakes scenario. We use single-turn game-theoretic vignettes in which a model advises a nuclear-armed nation on whether to strike a d...
+
+--- [21] 2607.14582v1 ---
+Title: MathCoPilot: An Interactive System for Human-AI Symbiotic Paradigm of Mathematical Research
+Authors: Junjie Zhang, Jiayu Liu, Wenbin Liu, Zhenya Huang, Doudou Wang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-16
+Summary: Existing LLM-based theorem provers have achieved impressive results on formal mathematics benchmarks, yet they remain confined to acting as autonomous agents that prove a stated proposition. In this paper, we propose MathCoPilot, a human-in-the-loop system that embodies a new human--AI symbiotic paradigm for mathematical research, in which the mathematician steers the high-level mathematical direc...
+
+--- [22] 2608.24902v1 ---
+Title: Beyond the Chatbot: Co-Learning and Co-Teaching through a Dual-Persona Generative-AI Assistant
+Authors: Chaido Mizeli, Marina Delianidi, Konstantinos Diamantaras
+Primary cat: cs.HC | All cats: cs.HC, cs.AI
+Published: 2026-07-14
+Summary: In this paper we present a generative AI application developed to support both teachers and students in secondary education. The system employs two Large Language Models-LLMs, Gemini and DeepSeek, and a Small Language Model-SLM, Gemma, integrated within a Retrieval Augmented Generation - RAG framework, creating a pedagogically grounded, Greek-language assistant capable of adapting its reasoning an...
+
+--- [23] 2607.10557v1 ---
+Title: UNIBROWSE: A Data-to-Agent Framework for Multimodal BrowseComp
+Authors: Xiyu Wei, Qingwei Zong, Zhuocheng Yu, Sujian Li
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-12
+Summary: Multimodal BrowseComp tasks require agents to combine perception, tool use, and long-horizon reasoning over dynamic web content, challenging their ability to handle compositional structure, open-world uncertainty, and multimodal integration across extended interactions. Crucially, real-world multimodal browsing involves three distinct information-flow patterns: text-only, image-to-text, and text-t...
+
+--- [24] 2607.06411v2 ---
+Title: RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications
+Authors: Evgeny Shilov
+Primary cat: cs.SE | All cats: cs.SE, cs.AI, cs.CL
+Published: 2026-07-07
+Summary: Developers increasingly delegate real maintenance work to product-grade coding agents, and many state tasks in their native language, in the style of a customer request rather than a curated English issue. We introduce RuBench 1.0, a benchmark of 25 tasks mined from recent fix commits in five live open-source repositories (aiohttp, aiogram, Laravel, NestJS, Fastify), each specified natively in Rus...
+
+--- [25] 2607.02469v1 ---
+Title: TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution
+Authors: Jiale Amber Wang, Kaiyuan Wang, Pengyu Nie
+Primary cat: cs.SE | All cats: cs.SE, cs.AI, cs.CL
+Published: 2026-07-02
+Summary: Software tests and code evolve together: a code change should be followed by new or updated tests that record the new software behavior. Yet existing test generation and update benchmarks often isolate the test from the code change, and rely on static metadata that does not verify whether a test is executable or semantically tied to the code change. This makes it difficult to evaluate whether a te...
+

@@ -1,0 +1,93 @@
+--- [1] 2605.02223v1 ---
+Title: Toward Fine-Grained Speech Inpainting Forensics:A Dataset, Method, and Metric for Multi-Region Tampering Localization
+Authors: Tung Vu, Yen Nguyen, Hai Nguyen, Cuong Pham, Cong Tran
+Primary cat: cs.SD | All cats: cs.SD, cs.CV
+Published: 2026-05-04
+Summary: Recent advances in voice cloning and text-to-speech synthesis have made partial speech manipulation - where an adversary replaces a few words within an utterance to alter its meaning while preserving the speaker's identity - an increasingly realistic threat. Existing audio deepfake detection benchmarks focus on utterance-level binary classification or single-region tampering, leaving a critical ga...
+
+--- [2] 2601.18535v3 ---
+Title: Audio Inpainting in Time-Frequency Domain with Phase-Aware Prior
+Authors: Peter Balušík, Pavel Rajmic
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-01-26
+Summary: We address the problem of time-frequency audio inpainting, where the goal is to fill missing spectrogram portions with consistent information. Despite recent advances, existing approaches still face limitations in both reconstruction quality and computational efficiency. To bridge this gap, we propose a method that utilizes a phase-aware signal prior which exploits estimates of the instantaneous f...
+
+--- [3] 2510.03735v1 ---
+Title: Soft Disentanglement in Frequency Bands for Neural Audio Codecs
+Authors: Benoit Ginies, Xiaoyu Bie, Olivier Fercoq, Gaël Richard
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-10-04
+Summary: In neural-based audio feature extraction, ensuring that representations capture disentangled information is crucial for model interpretability. However, existing disentanglement methods often rely on assumptions that are highly dependent on data characteristics or specific tasks. In this work, we introduce a generalizable approach for learning disentangled features within a neural architecture. Ou...
+
+--- [4] 2507.19524v1 ---
+Title: Kolmogorov Arnold Network Autoencoder in Medicine
+Authors: Ugo Lomoio, Pierangelo Veltri, Pietro Hiram Guzzi
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2025-07-19
+Summary: Deep learning neural networks architectures such Multi Layer Perceptrons (MLP) and Convolutional blocks still play a crucial role in nowadays research advancements. From a topological point of view, these architecture may be represented as graphs in which we learn the functions related to the nodes while fixed edges convey the information from the input to the output. A recent work introduced a ne...
+
+--- [5] 2409.06392v3 ---
+Title: Janssen 2.0: Audio Inpainting in the Time-frequency Domain
+Authors: Ondřej Mokrý, Peter Balušík, Pavel Rajmic
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-09-10
+Summary: The paper focuses on inpainting missing parts of an audio signal spectrogram, i.e., estimating the lacking time-frequency coefficients. The autoregression-based Janssen algorithm, a state-of-the-art for the time-domain audio inpainting, is adapted for the time-frequency setting. This novel method, termed Janssen-TF, is compared with the deep-prior neural network approach using both objective metri...
+
+--- [6] 2310.18846v1 ---
+Title: INCODE: Implicit Neural Conditioning with Prior Knowledge Embeddings
+Authors: Amirhossein Kazerouni, Reza Azad, Alireza Hosseini, Dorit Merhof, Ulas Bagci
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2023-10-28
+Summary: Implicit Neural Representations (INRs) have revolutionized signal representation by leveraging neural networks to provide continuous and smooth representations of complex data. However, existing INRs face limitations in capturing fine-grained details, handling noise, and adapting to diverse signal types. To address these challenges, we introduce INCODE, a novel approach that enhances the control o...
+
+--- [7] 2306.07579v1 ---
+Title: Parametric Implicit Face Representation for Audio-Driven Facial Reenactment
+Authors: Ricong Huang, Peiwen Lai, Yipeng Qin, Guanbin Li
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2023-06-13
+Summary: Audio-driven facial reenactment is a crucial technique that has a range of applications in film-making, virtual avatars and video conferences. Existing works either employ explicit intermediate face representations (e.g., 2D facial landmarks or 3D face models) or implicit ones (e.g., Neural Radiance Fields), thus suffering from the trade-offs between interpretability and expressive power, hence be...
+
+--- [8] 2305.15266v3 ---
+Title: Diffusion-Based Audio Inpainting
+Authors: Eloi Moliner, Vesa Välimäki
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2023-05-24
+Summary: Audio inpainting aims to reconstruct missing segments in corrupted recordings. Most of existing methods produce plausible reconstructions when the gap lengths are short, but struggle to reconstruct gaps larger than about 100 ms. This paper explores recent advancements in deep learning and, particularly, diffusion models, for the task of audio inpainting. The proposed method uses an unconditionally...
+
+--- [9] 2210.15228v3 ---
+Title: Solving Audio Inverse Problems with a Diffusion Model
+Authors: Eloi Moliner, Jaakko Lehtinen, Vesa Välimäki
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2022-10-27
+Summary: This paper presents CQT-Diff, a data-driven generative audio model that can, once trained, be used for solving various different audio inverse problems in a problem-agnostic setting. CQT-Diff is a neural diffusion model with an architecture that is carefully constructed to exploit pitch-equivariant symmetries in music. This is achieved by preconditioning the model with an invertible Constant-Q Tra...
+
+--- [10] 2207.10441v1 ---
+Title: Deep Audio Waveform Prior
+Authors: Arnon Turetzky, Tzvi Michelson, Yossi Adi, Shmuel Peleg
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2022-07-21
+Summary: Convolutional neural networks contain strong priors for generating natural looking images [1]. These priors enable image denoising, super resolution, and inpainting in an unsupervised manner. Previous attempts to demonstrate similar ideas in audio, namely deep audio priors, (i) use hand picked architectures such as harmonic convolutions, (ii) only work with spectrogram input, and (iii) have been u...
+
+--- [11] 2204.03042v1 ---
+Title: FFC-SE: Fast Fourier Convolution for Speech Enhancement
+Authors: Ivan Shchekotov, Pavel Andreev, Oleg Ivanov, Aibek Alanov, Dmitry Vetrov
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2022-04-06
+Summary: Fast Fourier convolution (FFC) is the recently proposed neural operator showing promising performance in several computer vision problems. The FFC operator allows employing large receptive field operations within early layers of the neural network. It was shown to be especially helpful for inpainting of periodic structures which are common in audio processing. In this work, we design neural networ...
+
+--- [12] 2110.02405v1 ---
+Title: Echo-Reconstruction: Audio-Augmented 3D Scene Reconstruction
+Authors: Justin Wilson, Nicholas Rewkowski, Ming C. Lin, Henry Fuchs
+Primary cat: cs.CV | All cats: cs.CV, cs.SD, eess.AS
+Published: 2021-10-05
+Summary: Reflective and textureless surfaces such as windows, mirrors, and walls can be a challenge for object and scene reconstruction. These surfaces are often poorly reconstructed and filled with depth discontinuities and holes, making it difficult to cohesively reconstruct scenes that contain these planar discontinuities. We propose Echoreconstruction, an audio-visual method that uses the reflections o...
+
+--- [13] 1810.12138v3 ---
+Title: Audio inpainting of music by means of neural networks
+Authors: Andrés Marafioti, Nicki Holighaus, Piotr Majdak, Nathanaël Perraudin
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2018-10-29
+# Total entries: 13
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Ainpainting+AND+abs%3Aneural&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: We studied the ability of deep neural networks (DNNs) to restore missing audio content based on its context, a process usually referred to as audio inpainting. We focused on gaps in the range of tens of milliseconds. The proposed DNN structure was trained on audio signals containing music and musical instruments, separately, with 64-ms long gaps. The input to the DNN was the context, i.e., the sig...
+

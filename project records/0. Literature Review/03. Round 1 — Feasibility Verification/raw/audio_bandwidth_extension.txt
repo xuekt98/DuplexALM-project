@@ -1,0 +1,142 @@
+--- [1] 2608.03721v1 ---
+Title: On the Geometry of Music Bandwidth Extension in Latent Spaces of Audio Codecs
+Authors: Hendrik Vincent Koops, Hao Hao Tan, Elio Quinton
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-04
+Summary: Recent audio restoration increasingly relies on large-scale conditional latent generative modeling, including diffusion, Schrodinger Bridges, and Flow Matching variants, to invert degradations such as bandwidth limitation or noise. We present an analysis of the performance of various state-of-the-art methods compared to simple arithmetic transformations in the latent spaces of multiple neural code...
+
+--- [2] 2608.00572v1 ---
+Title: AnyBand: Unified Multi-Bandwidth Speech Extension via Frequency-Aware In-Context Spectral Infilling
+Authors: Junchuan Zhao, Minh Duc Vu, Bowen Zhang, Ye Wang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-01
+Summary: Bandwidth extension (BWE) aims to recover missing high-frequency content from band-limited speech. Existing methods often formulate BWE as a fixed or predefined bandwidth conversion problem, potentially requiring cutoff-specific models or retraining when the input bandwidth changes. This assumption limits their applicability to practical scenarios where speech may arrive with diverse cutoff freque...
+
+--- [3] 2607.19434v1 ---
+Title: CAPS: A Cascaded Reconstruction Model to Power Saving in Hearables Using Sub-Nyquist Sampling with Bandwidth Extension
+Authors: Tarikul Islam Tamiti, Sajid Fardin Dipto, Luke Baja-Ricketts, David Vergano, Anomadarshi Barua
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-21
+Summary: Hearables are wearable computers worn on the ear. Bone conduction microphones are used with air conduction microphones in hearables for multimodal speech enhancement in noisy conditions. Despite this potential, current models largely fail to explore how jointly reducing sampling bit resolution and sampling frequency in analog-to-digital converters (ADCs) of hearables impacts both power usage and a...
+
+--- [4] 2606.06962v1 ---
+Title: FSC-Net: Integrating Fast Fourier Convolutions and Progressive Learning for Speech Bandwidth Extension
+Authors: Xinan Chen, Xiaobin Rong, Qinwen Hu, Kai Chen, Jing Lu
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-05
+Summary: Speech bandwidth extension (BWE) aims to reconstruct high-fidelity wideband audio from narrowband inputs. While recent approaches have made significant progress, they often struggle to reconstruct realistic high-frequency phase and harmonic structures, leading to perceptual artifacts. In this paper, we propose FSC-Net (Full-Spectrum Context Network), a parameter-efficient architecture designed to ...
+
+--- [5] 2605.16681v2 ---
+Title: A Survey of Advancing Audio Super-Resolution and Bandwidth Extension from Discriminative to Generative Models
+Authors: Ningyuan Yang, Yize Li, Diego A. Cuji, Ryan M. Corey, Pu Zhao et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD, eess.SP
+Published: 2026-05-15
+Summary: Audio super-resolution (SR), also referred to as bandwidth extension (BWE), aims to reconstruct high-fidelity signals from low-resolution (LR) or band-limited (BL) observations, an inherently ill-posed task due to the ambiguity of missing high-frequency (HF) content. This survey provides a comprehensive overview of the field, with a particular focus on the paradigm shift from discriminative mappin...
+
+--- [6] 2603.07285v1 ---
+Title: Fast and Flexible Audio Bandwidth Extension via Vocos
+Authors: Yatharth Sharma
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2026-03-07
+Summary: We propose a Vocos-based bandwidth extension model that enhances audio at 8-48 kHz by generating missing high-frequency content. Inputs are resampled to 48 kHz and processed by a neural vocoder backbone, enabling a single network to support arbitrary upsampling ratios. A lightweight Linkwitz-Riley-inspired refiner merges the original low band with the generated high frequencies via a smooth crosso...
+
+--- [7] 2603.02022v2 ---
+Title: CodecFlow: Efficient Bandwidth Extension via Conditional Flow Matching in Neural Codec Latent Space
+Authors: Bowen Zhang, Junchuan Zhao, Ian McLoughlin, Ye Wang, A S Madhukumar
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-03-02
+Summary: Speech Bandwidth Extension improves clarity and intelligibility by restoring/inferring appropriate high-frequency content for low-bandwidth speech. Existing methods often rely on spectrogram or waveform modeling, which can incur higher computational cost and have limited high-frequency fidelity. Neural audio codecs offer compact latent representations that better preserve acoustic detail, yet accu...
+
+--- [8] 2601.14356v1 ---
+Title: Single-step Controllable Music Bandwidth Extension With Flow Matching
+Authors: Carlos Hernandez-Olivan, Hendrik Vincent Koops, Hao Hao Tan, Elio Quinton
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-01-20
+Summary: Audio restoration consists in inverting degradations of a digital audio signal to recover what would have been the pristine quality signal before the degradation occurred. This is valuable in contexts such as archives of music recordings, particularly those of precious historical value, for which a clean version may have been lost or simply does not exist. Recent work applied generative models to ...
+
+--- [9] 2511.21580v1 ---
+Title: Harmonic-Percussive Disentangled Neural Audio Codec for Bandwidth Extension
+Authors: Benoît Giniès, Xiaoyu Bie, Olivier Fercoq, Gaël Richard
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-11-26
+Summary: Bandwidth extension, the task of reconstructing the high-frequency components of an audio signal from its low-pass counterpart, is a long-standing problem in audio processing. While traditional approaches have evolved alongside the broader trends in signal processing, recent advances in neural architectures have significantly improved performance across a wide range of audio tasks, In this work, w...
+
+--- [10] 2510.01109v1 ---
+Title: NLDSI-BWE: Non Linear Dynamical Systems-Inspired Multi Resolution Discriminators for Speech Bandwidth Extension
+Authors: Tarikul Islam Tamiti, Anomadarshi Barua
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-10-01
+Summary: In this paper, we design two nonlinear dynamical systems-inspired discriminators -- the Multi-Scale Recurrence Discriminator (MSRD) and the Multi-Resolution Lyapunov Discriminator (MRLD) -- to \textit{explicitly} model the inherent deterministic chaos of speech. MSRD is designed based on Recurrence representations to capture self-similarity dynamics. MRLD is designed based on Lyapunov exponents to...
+
+--- [11] 2508.01796v1 ---
+Title: Enhancing Spectrogram Realism in Singing Voice Synthesis via Explicit Bandwidth Extension Prior to Vocoder
+Authors: Runxuan Yang, Kai Li, Guo Chen, Xiaolin Hu
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-08-03
+Summary: This paper addresses the challenge of enhancing the realism of vocoder-generated singing voice audio by mitigating the distinguishable disparities between synthetic and real-life recordings, particularly in high-frequency spectrogram components. Our proposed approach combines two innovations: an explicit linear spectrogram estimation step using denoising diffusion process with DiT-based neural net...
+
+--- [12] 2507.15970v3 ---
+Title: CIS-BWE: Chaos-Informed Speech Bandwidth Extension
+Authors: Tarikul Islam Tamiti, Tonmoy Das, Nursadul Mamun, Anomadarshi Barua
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-07-21
+Summary: Recovering high-frequency components lost to bandwidth constraints is crucial for applications ranging from telecommunications to high-fidelity audio on limited resources. We introduce NDSI-BWE, a new adversarial Band Width Extension (BWE) framework that leverage four new discriminators inspired by nonlinear dynamical system to capture diverse temporal behaviors: a Multi-Resolution Lyapunov Discri...
+
+--- [13] 2505.16404v2 ---
+Title: UBGAN: Enhancing Coded Speech with Blind and Guided Bandwidth Extension
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Abandwidth+AND+ti%3Aextension&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Kishan Gupta, Srikanth Korse, Andreas Brendel, Nicola Pia, Guillaume Fuchs
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-05-22
+Summary: In practical application of speech codecs, a multitude of factors such as the quality of the radio connection, limiting hardware or required user experience necessitate trade-offs between achievable perceptual quality, engendered bitrate and computational complexity. Most conventional and neural speech codecs operate on wideband (WB) speech signals to achieve this compromise. To further enhance th...
+
+--- [14] 2409.05784v2 ---
+Title: Vector Quantized Diffusion Model Based Speech Bandwidth Extension
+Authors: Yuan Fang, Jinglin Bai, Jiajie Wang, Xueliang Zhang
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-09-09
+Summary: Recent advancements in neural audio codec (NAC) unlock new potential in audio signal processing. Studies have increasingly explored leveraging the latent features of NAC for various speech signal processing tasks. This paper introduces the first approach to speech bandwidth extension (BWE) that utilizes the discrete features obtained from NAC. By restoring high-frequency details within highly comp...
+
+--- [15] 2407.15624v1 ---
+Title: DSP-informed bandwidth extension using locally-conditioned excitation and linear time-varying filter subnetworks
+Authors: Shahan Nercessian, Alexey Lukin, Johannes Imort
+Primary cat: eess.AS | All cats: eess.AS, cs.SD, eess.SP
+Published: 2024-07-22
+Summary: In this paper, we propose a dual-stage architecture for bandwidth extension (BWE) increasing the effective sampling rate of speech signals from 8 kHz to 48 kHz. Unlike existing end-to-end deep learning models, our proposed method explicitly models BWE using excitation and linear time-varying (LTV) filter stages. The excitation stage broadens the spectrum of the input, while the filtering stage pro...
+
+--- [16] 2406.02250v1 ---
+Title: Multi-Stage Speech Bandwidth Extension with Flexible Sampling Rate Control
+Authors: Ye-Xin Lu, Yang Ai, Zheng-Yan Sheng, Zhen-Hua Ling
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-06-04
+Summary: The majority of existing speech bandwidth extension (BWE) methods operate under the constraint of fixed source and target sampling rates, which limits their flexibility in practical applications. In this paper, we propose a multi-stage speech BWE model named MS-BWE, which can handle a set of source and target sampling rate pairs and achieve flexible extensions of frequency bandwidth. The proposed ...
+
+--- [17] 2401.06387v2 ---
+Title: Towards High-Quality and Efficient Speech Bandwidth Extension with Parallel Amplitude and Phase Prediction
+Authors: Ye-Xin Lu, Yang Ai, Hui-Peng Du, Zhen-Hua Ling
+Primary cat: eess.AS | All cats: eess.AS, cs.SD, eess.SP
+Published: 2024-01-12
+Summary: Speech bandwidth extension (BWE) refers to widening the frequency bandwidth range of speech signals, enhancing the speech quality towards brighter and fuller. This paper proposes a generative adversarial network (GAN) based BWE model with parallel prediction of Amplitude and Phase spectra, named AP-BWE, which achieves both high-quality and efficient wideband speech waveform generation. The propose...
+
+--- [18] 2311.07363v3 ---
+Title: Efficient bandwidth extension of musical signals using a differentiable harmonic plus noise model
+Authors: Pierre-Amaury Grumiaux, Mathieu Lagrange
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2023-11-13
+Summary: The task of bandwidth extension addresses the generation of missing high frequencies of audio signals based on knowledge of the low-frequency part of the sound. This task applies to various problems, such as audio coding or audio restoration. In this article, we focus on efficient bandwidth extension of monophonic and polyphonic musical signals using a differentiable digital signal processing (DDS...
+
+--- [19] 2306.01433v2 ---
+Title: Blind Audio Bandwidth Extension: A Diffusion-Based Zero-Shot Approach
+Authors: Eloi Moliner, Filip Elvander, Vesa Välimäki
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2023-06-02
+Summary: Audio bandwidth extension involves the realistic reconstruction of high-frequency spectra from bandlimited observations. In cases where the lowpass degradation is unknown, such as in restoring historical audio recordings, this becomes a blind problem. This paper introduces a novel method called BABE (Blind Audio Bandwidth Extension) that addresses the blind problem in a zero-shot setting, leveragi...
+
+--- [20] 2303.10008v2 ---
+Title: Configurable EBEN: Extreme Bandwidth Extension Network to enhance body-conducted speech capture
+Authors: Julien Hauret, Thomas Joubaud, Véronique Zimpfer, Éric Bavu
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2023-03-17
+Summary: This paper presents a configurable version of Extreme Bandwidth Extension Network (EBEN), a Generative Adversarial Network (GAN) designed to improve audio captured with body-conduction microphones. We show that although these microphones significantly reduce environmental noise, this insensitivity to ambient noise happens at the expense of the bandwidth of the speech signal acquired by the wearer ...
+

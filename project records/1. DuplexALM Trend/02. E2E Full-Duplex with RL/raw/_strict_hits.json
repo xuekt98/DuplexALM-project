@@ -1,0 +1,172 @@
+[
+  {
+    "arxiv_id": "2609.12623v1",
+    "title": "SteerDuplex: Steerable Duplex Speech Dialogue Models",
+    "published": "2026-09-11",
+    "summary": "Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + duplex-speech",
+      "E2E + RL + full-duplex",
+      "RL + audio dialogue",
+      "RL + barge-in",
+      "RL + turn-taking",
+      "Reward + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2607.07148v1",
+    "title": "Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning",
+    "published": "2026-07-08",
+    "summary": "Recent full-duplex spoken dialogue models have demonstrated compelling progress toward human-like interaction, enabling agents to respond with low latency, produce backchannels, and handle user barge-ins. Yet these improvements in conversational dynamics often come with weaker reasoning and instruction-following abilities, revealing a potential tension between interactive dynamics and intelligence",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex",
+      "E2E + RL + spoken",
+      "GRPO + duplex",
+      "RL + barge-in",
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2605.14339v1",
+    "title": "Sub-Band Full Duplex Resource Allocation: A Predictive Deep Reinforcement Learning Approach",
+    "published": "2026-05-14",
+    "summary": "This paper presents a predictive deep learning framework for dynamic sub-band allocation in Sub-Band Full Duplex (SBFD) systems, addressing the challenge of balancing uplink (UL) and downlink (DL) performance under highly dynamic traffic conditions. The key contribution lies in integrating a hybrid Bidirectional Long Short-Term Memory (Bi-LSTM) model for traffic forecasting with a Double Deep Q-Ne",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2604.14920v1",
+    "title": "Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models",
+    "published": "2026-04-16",
+    "summary": "Achieving seamless, human-like interaction remains a key challenge for full-duplex spoken dialogue models (SDMs). Reinforcement learning (RL) has substantially enhanced text- and vision-language models, while well-designed reward signals are crucial for the performance of RL. We consider RL a promising strategy to address the key challenge for SDMs. However, a fundamental barrier persists: prevail",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2604.14309v2",
+    "title": "Aerial Multi-Functional RIS in Fluid Antennas-Aided Full-Duplex Networks: A Self-Optimized Hybrid Deep Reinforcement Learning Approach",
+    "published": "2026-04-15",
+    "summary": "To address high data traffic demands of sixth-generation (6G) networks, this paper proposes a novel architecture that integrates autonomous aerial vehicles (AAVs) and multi-functional reconfigurable intelligent surfaces (MF-RISs) as AM-RIS in fluid antenna (FA)-assisted full-duplex (FD) networks. The AM-RIS provides hybrid functionalities, including signal reflection, amplification, and energy har",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex",
+      "PPO + duplex",
+      "PPO + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2604.10065v1",
+    "title": "ASPIRin: Action Space Projection for Interactivity-Optimized Reinforcement Learning in Full-Duplex Speech Language Models",
+    "published": "2026-04-11",
+    "summary": "End-to-end full-duplex Speech Language Models (SLMs) require precise turn-taking for natural interaction. However, optimizing temporal dynamics via standard raw-token reinforcement learning (RL) degrades semantic quality, causing severe generative collapse and repetition. We propose ASPIRin, an interactivity-optimized RL framework that explicitly decouples when to speak from what to say. Using Act",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + duplex-speech",
+      "E2E + RL + full-duplex",
+      "E2E + RL + speech-LLM",
+      "E2E + duplex",
+      "GRPO + duplex",
+      "RL + turn-taking",
+      "Reward + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2603.09180v1",
+    "title": "DuplexCascade: Full-Duplex Speech-to-Speech Dialogue with VAD-Free Cascaded ASR-LLM-TTS Pipeline and Micro-Turn Optimization",
+    "published": "2026-03-10",
+    "summary": "Spoken dialog systems with cascaded ASR-LLM-TTS modules retain strong LLM intelligence, but VAD segmentation often forces half-duplex turns and brittle control. On the other hand, VAD-free end-to-end model support full-duplex interaction but is hard to maintain conversational intelligence. In this paper, we present DuplexCascade, a VAD-free cascaded streaming pipeline for full-duplex speech-to-spe",
+    "directions": [
+      "E2E + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2510.15796v1",
+    "title": "Cavity Duplexer Tuning with 1d Resnet-like Neural Networks",
+    "published": "2025-10-17",
+    "summary": "This paper presents machine learning method for tuning of cavity duplexer with a large amount of adjustment screws. After testing we declined conventional reinforcement learning approach and reformulated our task in the supervised learning setup. The suggested neural network architecture includes 1d ResNet-like backbone and processing of some additional information about S-parameters, like the sha",
+    "directions": [
+      "E2E + RL + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2501.02271v2",
+    "title": "Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning",
+    "published": "2025-01-04",
+    "summary": "In this paper, we study a secure integrated sensing and communication (ISAC) system employing a full-duplex base station with sensing capabilities against a mobile proactive adversarial target$\\unicode{x2014}$a malicious unmanned aerial vehicle (M-UAV). We develop a game-theoretic model to enhance communication security, radar sensing accuracy, and power efficiency. The interaction between the leg",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2404.00631v1",
+    "title": "Network-Assisted Full-Duplex Cell-Free mmWave Networks: Hybrid MIMO Processing and Multi-Agent DRL-Based Power Allocation",
+    "published": "2024-03-31",
+    "summary": "This paper investigates the network-assisted full-duplex (NAFD) cell-free millimeter-wave (mmWave) networks, where the distribution of the transmitting access points (T-APs) and receiving access points (R-APs) across distinct geographical locations mitigates cross-link interference, facilitating the attainment of a truly flexible duplex mode. To curtail deployment expenses and power consumption fo",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2307.15393v1",
+    "title": "Deep Reinforcement Learning Based Intelligent Reflecting Surface Optimization for TDD MultiUser MIMO Systems",
+    "published": "2023-07-28",
+    "summary": "In this letter, we investigate the discrete phase shift design of the intelligent reflecting surface (IRS) in a time division duplexing (TDD) multi-user multiple input multiple output (MIMO) system.We modify the design of deep reinforcement learning (DRL) scheme so that we can maximizing the average downlink data transmission rate free from the sub-channel channel state information (CSI). Based on",
+    "directions": [
+      "E2E + RL + duplex",
+      "PPO + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2212.13854v3",
+    "title": "A DRL Approach for RIS-Assisted Full-Duplex UL and DL Transmission: Beamforming, Phase Shift and Power Optimization",
+    "published": "2022-12-28",
+    "summary": "We propose a deep reinforcement learning (DRL) approach for a full-duplex (FD) transmission that predicts the phase shifts of the reconfigurable intelligent surface (RIS), base station (BS) active beamformers, and the transmit powers to maximize the weighted sum rate of uplink and downlink users. Existing methods require channel state information (CSI) and residual self-interference (SI) knowledge",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2208.07820v1",
+    "title": "Deep Reinforcement Learning for RIS-aided Multiuser Full-Duplex Secure Communications with Hardware Impairments",
+    "published": "2022-08-16",
+    "summary": "In this paper, we investigate a reconfigurable intelligent surface (RIS)-aided multiuser full-duplex secure communication system with hardware impairments at transceivers and RIS, where multiple eavesdroppers overhear the two-way transmitted signals simultaneously, and an RIS is applied to enhance the secrecy performance. Aiming at maximizing the sum secrecy rate (SSR), a joint optimization proble",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2208.07424v1",
+    "title": "Deep Reinforcement Learning for RIS-Assisted FD Systems: Single or Distributed RIS?",
+    "published": "2022-08-15",
+    "summary": "This paper investigates reconfigurable intelligent surface (RIS)-assisted full-duplex multiple-input single-output wireless system, where the beamforming and RIS phase shifts are optimized to maximize the sum-rate for both single and distributed RIS deployment schemes. The preference of using the single or distributed RIS deployment scheme is investigated through three practical scenarios based on",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2110.04859v1",
+    "title": "Deep Reinforcement Learning for Optimizing RIS-Assisted HD-FD Wireless Systems",
+    "published": "2021-10-10",
+    "summary": "This letter investigates the reconfigurable intelligent surface (RIS)-assisted multiple-input single-output (MISO) wireless system, where both half-duplex (HD) and full-duplex (FD) operating modes are considered together, for the first time in the literature. The goal is to maximize the rate by optimizing the RIS phase shifts. A novel deep reinforcement learning (DRL) algorithm is proposed to solv",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2004.12546v1",
+    "title": "Demo: A Reinforcement Learning-based Flexible Duplex System for B5G with Sub-6 GHz",
+    "published": "2020-04-27",
+    "summary": "In this paper, we propose a reinforcement learning-based flexible duplex system for B5G with Sub-6 GHz. This system combines full-duplex radios and dynamic spectrum access to maximize the spectral efficiency. We verify this method's feasibility by implementing an FPGA-based real-time testbed. In addition, we compare the proposed algorithm with the result derived from the numerical analysis through",
+    "directions": [
+      "E2E + RL + full-duplex"
+    ]
+  }
+]

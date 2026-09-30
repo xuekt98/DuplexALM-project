@@ -1,0 +1,44 @@
+# Total entries: 6
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio-visual%22+AND+abs%3A%222026%22&max_results=30&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.14812v1 ---
+Title: Separate First, Then Associate: A Two-Stage Approach for Real-World Audio-Visual Speech Enhancement
+Authors: Tongtao Ling, Zhong-Qiu Wang
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-14
+Summary: Audio-visual speech enhancement (AVSE) aims at extracting target speech from multi-speaker mixtures by exploiting visual cues. Although recent studies have reported strong performance on simulated datasets, the performance, however, often drops dramatically when they are applied to real-world audio-visual recordings. To bridge this gap, the Real-World AVSE Challenge held in the ISCSLP 2026 confere...
+
+--- [2] 2607.25543v1 ---
+Title: Less is More: Modality-Decoupling for General AIGC Audio-Video Detection
+Authors: Jielun Peng, Yabin Wang, Yaqi Li, Jincheng Liu, Xiaopeng Hong et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-28
+Summary: Generative AI has rapidly expanded audio-visual forgery beyond human-centric deepfakes into general scenes. Existing AIGC detection methods assume audio-visual content correspondence, identifying forgeries by spotting cross-modal inconsistencies. However, we empirically find that this assumption does not consistently hold in general scenarios. We argue that, for general audio-visual AIGC detection...
+
+--- [3] 2607.13669v1 ---
+Title: Learning Speaker Identity Beyond Language and Modality Constraints: Insights from the POLY-SIM 2026 Challenge
+Authors: Marta Moscati, Muhammad Saad Saeed, Marina Zanoni, Mubashir Noman, Rohan Kumar Das et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-15
+Summary: Multimodal speaker identification systems typically assume the availability of complete and homogeneous audio-visual modalities during both training and testing, and assume each speaker only speaks a single language. However, in real-world applications, such assumptions often do not hold. Visual or audio information may be missing due to occlusions, camera or microphone failures, or privacy constr...
+
+--- [4] 2603.24569v2 ---
+Title: POLY-SIM: Polyglot Speaker Identification with Missing Modality Grand Challenge 2026 Evaluation Plan
+Authors: Marta Moscati, Muhammad Saad Saeed, Marina Zanoni, Mubashir Noman, Rohan Kumar Das et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-25
+Summary: Multimodal speaker identification systems typically assume the availability of complete and homogeneous audio-visual modalities during both training and testing. However, in real-world applications, such assumptions often do not hold. Visual information may be missing due to occlusions, camera failures, or privacy constraints, while multilingual speakers introduce additional complexity due to ling...
+
+--- [5] 2512.10882v4 ---
+Title: Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity
+Authors: Hauke Licht
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-12-11
+Summary: Research increasingly leverages audio-visual materials to analyze emotions in political communication. Multimodal large language models (mLLMs) promise to enable such analyses through in-context learning. However, we lack systematic evidence on whether current mLLMs can reliably measure emotions in real-world political settings. This paper closes this gap by evaluating open- and closed-weights mLL...
+
+--- [6] 2508.04592v2 ---
+Title: Face-voice Association in Multilingual Environments (FAME) 2026 Challenge Evaluation Plan
+Authors: Marta Moscati, Ahmed Abdullah, Muhammad Saad Saeed, Shah Nawaz, Rohan Kumar Das et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-08-06
+Summary: The advancements of technology have led to the use of multimodal systems in various real-world applications. Among them, audio-visual systems are among the most widely used multimodal systems. In the recent years, associating face and voice of a person has gained attention due to the presence of unique correlation between them. The Face-voice Association in Multilingual Environments (FAME) 2026 Ch...
+

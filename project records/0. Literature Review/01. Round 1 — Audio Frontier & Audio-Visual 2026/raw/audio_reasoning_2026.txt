@@ -1,0 +1,37 @@
+# Total entries: 5
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio+reasoning%22+AND+abs%3A%222026%22&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2606.07264v2 ---
+Title: VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track
+Authors: Wenming Tu, Jian Gao, Yanru Huo, Yixuan Wang, Jing Peng et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-05
+Summary: Audio reasoning requires multi-step, evidence-grounded inference over temporally dynamic and acoustically mixed signals, exceeding conventional perception tasks such as ASR or captioning. We present VISA, our submission to the Interspeech 2026 Audio Reasoning Challenge (Agent Track), evaluated via the MMAR Rubrics for correctness and reasoning quality. Under a "LALM as a Tool" paradigm, VISA stren...
+
+--- [2] 2604.18187v1 ---
+Title: Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models
+Authors: Xiang He, Chenxing Li, Jinting Wang, Yan Rong, Tianxin Xie et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-04-20
+Summary: Large Audio-Language Models (LALMs) have made significant progress in audio understanding, yet they primarily operate as perception-and-answer systems without explicit reasoning processes. Existing methods for enhancing audio reasoning rely either on supervised chain-of-thought (CoT) fine-tuning, which is limited by training data quality, or on reinforcement learning (RL) with coarse rewards that ...
+
+--- [3] 2604.12527v3 ---
+Title: Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models
+Authors: Longhao Li, Hongjie Chen, Zehan Li, Qihan Hu, Jian Kang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-14
+Summary: Recent advances in reasoning models have driven significant progress in text and multimodal domains, yet audio reasoning remains relatively limited. Only a few Large Audio Language Models (LALMs) incorporate explicit Chain-of-Thought (CoT) reasoning, and their capabilities are often inconsistent and insufficient for complex tasks. To bridge this gap, we introduce Audio-Cogito, a fully open-source ...
+
+--- [4] 2603.17822v1 ---
+Title: Multi-Source Evidence Fusion for Audio Question Answering
+Authors: Aivo Olev, Tanel Alumäe
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-03-18
+Summary: Large audio language models (LALMs) can answer questions about speech, music, and environmental sounds, yet their internal reasoning is largely opaque and difficult to validate. We describe TalTech's solution to the Agent Track of the Interspeech 2026 Audio Reasoning Challenge, in which systems are evaluated on reasoning process quality, specifically the factual accuracy, logical soundness, and co...
+
+--- [5] 2602.14224v1 ---
+Title: The Interspeech 2026 Audio Reasoning Challenge: Evaluating Reasoning Process Quality for Audio Reasoning Models and Agents
+Authors: Ziyang Ma, Ruiyang Xu, Yinghao Ma, Chao-Han Huck Yang, Bohan Li et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-02-15
+Summary: Recent Large Audio Language Models (LALMs) excel in understanding but often lack transparent reasoning. To address this "black-box" limitation, we organized the Audio Reasoning Challenge at Interspeech 2026, the first shared task dedicated to evaluating Chain-of-Thought (CoT) quality in the audio domain. The challenge introduced MMAR-Rubrics, a novel instance-level protocol assessing the factualit...
+

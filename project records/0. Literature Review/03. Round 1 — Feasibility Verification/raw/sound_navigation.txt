@@ -1,0 +1,177 @@
+--- [1] 2609.07019v1 ---
+Title: Phase spaces of phase spaces: A method of constructing generalizable and topologically informed bases from time series demonstrated by reconstruction of the geometry of the macroeconomy
+Authors: Maximilian Topel
+Primary cat: physics.soc-ph | All cats: physics.soc-ph, physics.comp-ph
+Published: 2026-09-07
+Summary: Laws from physics to social science rest on a small, enumerable number of factors explaining variation in the systems they describe. While the orthodoxy of economics, physics and chemistry relies on a small number of analytically interpretable laws, large data models pursuing universality throw in all available data. Both fail in their extremes through the same flaw, an incorrect basis: too few or...
+
+--- [2] 2609.06837v1 ---
+Title: BinauralVAE: Spatial Audio Reconstruction For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-06
+Summary: Embodied artificial intelligence has historically very much relied on visual perception, leading to a proliferation of multiple vision-centric world models. However, this reliance fails to capture spatial understanding in its entirety and can even present vulnerabilities in environments with visual occlusions, low-light conditions, or blackouts-scenarios, where acoustic information becomes a criti...
+
+--- [3] 2608.30689v1 ---
+Title: CANVAS: Consistency-Aware Navigation via Visual Adaptive Sampling for Long-Context Text-to-SVG Generation
+Authors: Yichen Wu, Haoxuan Qu, Yihang Lou, Hossein Rahmani, Jun Liu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Autoregressive large models have recently advanced Text-to-SVG generation from simple icons to complex, long-context graphics, yet standard autoregressive decoding often fails to maintain global consistency across geometry, layout, occlusion, and composition. We introduce CANVAS (Consistency-Aware Navigation via Visual Adaptive Sampling), a training-free, render-aware inference framework that comb...
+
+--- [4] 2608.23189v1 ---
+Title: EchoWM: Open and Enterable Omnimodal World Models
+Authors: Songchun Zhang, Yaowei Li, Junhao Zhuang, Weiyang Jin, Haoyu Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: We present EchoWM, an omnimodal world model for enterable generative media that responds to continuous navigation while jointly generating 720p video, environmental sound, music and speech. We organize interaction around camera intent: in first-person scenes, it specifies observer motion, while in third-person scenes, camera--character dynamics are learned from data without view-specific controlle...
+
+--- [5] 2608.21075v1 ---
+Title: AudioWorldSim: Realistic Binaural Audio Datasets For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-08-21
+Summary: This technical report presents AudioWorldSim, an open-source platform designed to generate realistic binaural audio datasets and advance research in audio-based machine learning, particularly world models. Built as a custom extension of Meta's SoundSpaces 2.0 platform, AudioWorldSim leverages their comprehensive acoustics framework, but focuses on the automatic rollout of random agent navigations,...
+
+--- [6] 2608.19827v1 ---
+Title: Dancing Through Soundscapes: Designing a Low-Cost, Sound-Based Device for Sensing and Interpreting Movement and Dance
+Authors: Swen E. Gaudl, Silvia Carderelli-Gronau
+Primary cat: cs.HC | All cats: cs.HC, cs.SD
+Published: 2026-08-20
+Summary: When we move through space, we often rely on multiple senses beyond vision to perceive and act in that environment: we ``feel'' the presence of others; we build internal representations and models and recall them to navigate the environment. We also leave traces and impressions that others pick up on. The traces include echoes, heat, the displacement of objects such as furniture or footprints, air...
+
+--- [7] 2608.02737v1 ---
+Title: What Is Sonification? Toward a Philosophy of Sonification
+Authors: Rubén García-Benito
+Primary cat: physics.soc-ph | All cats: physics.soc-ph, cs.SD
+Published: 2026-08-03
+Summary: Sonification operates across scientific, artistic, and design contexts, yet its identity remains conceptually ambiguous: is it music, a scientific method, or a hybrid practice? This paper presents a philosophical framework that treats sonification as a coherent, transcategorical practice. Drawing on Gustavo Bueno's materialist gnoseology, we identify its operative core through systematic data-to-s...
+
+--- [8] 2607.22413v1 ---
+Title: Reflector: Arrangement-Aware Harmonic Retrieval for Sample-Based Composition
+Authors: Austin Rockman
+Primary cat: cs.SD | All cats: cs.SD, cs.IR, cs.LG
+Published: 2026-07-24
+Summary: Sample retrieval tools can help composers find harmonically compatible material, but querying from a fixed reference sample becomes less informative as arrangements evolve and the harmonic context shifts with each musical decision. We present Reflector, an interactive audio workstation that tracks harmonic combinations as they accumulate on the composer's timeline and adapts retrieval as the arran...
+
+--- [9] 2607.13110v1 ---
+Title: A Hybrid Mamba for Audio-Visual Navigation
+Authors: Yi Wang, Yinfeng Yu
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, eess.SP
+Published: 2026-07-14
+Summary: Since the paradigm centered on convolutional neural networks and recurrent architectures was established in 2020, the fundamental backbone networks for audio-visual navigation have undergone no essential changes for more than five years, making them inadequate to support efficient representation of dynamic multimodal sequences. This paper proposes Samba(A Hybrid Mamba for Audio-Visual Navigation)....
+
+--- [10] 2607.03920v2 ---
+Title: LH-AVLN: A Benchmark for Long-Horizon Audio-Visual-Language Navigation
+Authors: Rufeng Chen, Yue Chang, Zili Shao, Zhaofan Zhang, Li Chen et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-04
+Summary: Embodied navigation is moving toward long-horizon missions, yet existing long-horizon benchmarks are largely acoustically silent, and audio-visual navigation tasks typically focus on a single goal. We introduce LH-AVLN, a benchmark for Long-Horizon Audio-Visual-Language Navigation that combines multi-goal mission execution, heterogeneous goal specifications, and persistent spatialized acoustic cue...
+
+--- [11] 2606.25504v1 ---
+Title: GROVE: Grounded Pedestrian Simulation via Natural Language for Interactive Social Robot Navigation
+Authors: Duc Tai Nguyen, Volodymyr Shcherbyna, Anh Do Duc, Zhengcheng Shen, Teham Buiyan et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-24
+Summary: Pedestrian simulation is a critical component for training and deploying social robot navigation approaches, yet it remains a largely rigid system that repeatedly requires manual data generation to define even simple scenarios. We propose GROVE, a text-to-scenario pedestrian simulation framework that combines state-of-the-art approaches to produce realistic, socially challenging scenarios for soci...
+
+--- [12] 2606.25366v1 ---
+Title: Reliability-Asymmetric Spacecraft Autonomy: Co-Designing a Capable Learned GNC Stack with a Verified, Adaptation-Aware Runtime Shield
+Authors: Alireza Shojaei
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2026-06-24
+Summary: Deep-space missions need onboard autonomy that is both capable and certifiable. Rule-based autonomy is certifiable but brittle, while learned autonomy is capable but hard to verify. We present AMPLE-GNC, a three-tier guidance, navigation, and control stack. Its capability path combines a small foundation-model commander that maps natural language to PDDL+, a constraint-screening verifier, and a fa...
+
+--- [13] 2606.21067v1 ---
+Title: Snatcher: Apple Find My Network Exposes Your Lost Devices To Strangers
+Authors: Zhenyu Ren, Yanbo Zhang, Boya Liu, Mo Li
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-06-19
+Summary: Apple's Find My network connects nearly one billion devices to locate missing property via Bluetooth Low Energy (BLE). This paper reveals that insecure BLE advertisements and design tradeoffs allow unauthorized discovery and physical theft of lost Apple devices. We develop Snatcher, an attack and analysis framework implemented fully on Android smartphones without specialized hardware. Snatcher ide...
+
+--- [14] 2606.18543v2 ---
+Title: CEO-Bench: Can Agents Play the Long Game?
+Authors: Haozhe Chen, Karthik Narasimhan, Zhuang Liu
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.SE
+Published: 2026-06-16
+Summary: Language model agents are becoming proficient executors at isolated, short-horizon tasks such as software engineering and customer service. Yet real-world challenges require a combination of sophisticated skills that remain largely untested in agents: (1) navigating long horizons amid uncertainty; (2) acquiring information in noisy environments; (3) adapting to a changing world; (4) orchestrating ...
+
+--- [15] 2606.17962v1 ---
+Title: A Neuro-Symbolic Approach to Strategy Synthesis for Strategic Logics
+Authors: Marco Aruta, Vadim Malvone, Aniello Murano, Domenico Parente, Luca Rizzuti
+Primary cat: cs.MA | All cats: cs.MA, cs.AI
+Published: 2026-06-16
+Summary: Reasoning about what agents can achieve through strategic interaction is a core challenge in Multi-Agent Systems (MAS). Logics for strategic ability, such as ATL, provide rigorous methods, but their adoption is often hindered by the computational cost of strategy synthesis. We introduce a neuro-symbolic framework that integrates large language models (LLMs) into the model-checking pipeline for MAS...
+
+--- [16] 2606.09870v1 ---
+Title: Safecloud: A Distributed, Encrypted Storage Cloud for Streaming
+Authors: Gregory Magarshak
+Primary cat: cs.CR | All cats: cs.CR, cs.DB, cs.DC, cs.MM, cs.NI
+Published: 2026-06-02
+Summary: We present Safecloud, a distributed, encrypted, self-pricing storage and streaming network whose storage and routing nodes never see plaintext and never hold keys. Each file is split into chunks, encrypted on the owner's device, and distributed across Drops (browser tabs storing ciphertext in IndexedDB) and Jets (federated routing servers). Only the owner, or an authorised grantee, can decrypt. We...
+
+--- [17] 2605.17676v2 ---
+Title: Building Resilience to Misinformation: A Cross-National Development of the Digital Media and Information Literacy Scale (DMILS)
+Authors: Sijia Qian, Cuihua Shen, Huiyi Wang, Hichang Cho
+Primary cat: cs.CY | All cats: cs.CY
+Published: 2026-05-17
+Summary: Amid growing concern about information quality and credibility in digital media environments, researchers and educators still lack a concise, comprehensive yet psychometrically sound instrument for tracking the competencies that help people navigate this landscape. This article develops the Digital Media and Information Literacy Scale (DMILS), a robust and multidimensional measure that distinguish...
+
+--- [18] 2605.12581v1 ---
+Title: Ensuring Logic in the Fog: Sound POMDP Synthesis with LTL Objectives
+Authors: Can Zhou, Yulong Gao, Pian Yu
+Primary cat: cs.LO | All cats: cs.LO, cs.AI, cs.FL, math.OC
+Published: 2026-05-12
+Summary: Synthesising autonomous agents that can navigate uncertain environments while adhering to complex temporal constraints remains a fundamental challenge. While Linear Temporal Logic (LTL) provides a rigorous language for specifying such tasks, the inherent undecidability of qualitatively verifying LTL satisfaction in partially observable Markov decision processes renders quantitative synthesis diffi...
+
+--- [19] 2604.27685v1 ---
+Title: VibroML: an automated toolkit for high-throughput vibrational analysis and dynamic instability remediation of crystalline materials using machine-learned potentials
+Authors: Rogério Almeida Gouvêa, Gian-Marco Rignanese
+Primary cat: cond-mat.mtrl-sci | All cats: cond-mat.mtrl-sci, cs.AI, cs.LG, physics.comp-ph
+Published: 2026-04-30
+Summary: While machine-learned interatomic potentials (MLIPs) accelerate phonon dispersion calculations, merely identifying dynamical instabilities in computationally predicted materials is insufficient; automated pathways to resolve them are required. We introduce VibroML, an open-source Python toolkit driven by foundational MLIPs that shifts the paradigm from stability verification to automated structura...
+
+--- [20] 2604.23909v1 ---
+Title: AMAVA: Adaptive Motion-Aware Video-to-Audio Framework for Visually-Impaired Assistance
+Authors: Benjamin Klein, Kazi Ruslan Rahman, Sanchita Ghose
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-26
+Summary: Navigational aids for blind and low vision individuals struggle conveying dynamic real-world environments, leading to cognitive overload from continuous, undifferentiated feedback. We present AMAVA, a novel real-time video-to-audio framework that converts mobile device video into contextually relevant sound effects or text-to-speech descriptions. We propose a motion-aware pipeline using a lightwei...
+
+--- [21] 2604.21152v1 ---
+Title: Dialect vs Demographics: Quantifying LLM Bias from Implicit Linguistic Signals vs. Explicit User Profiles
+Authors: Irti Haq, Belén Saldías
+Primary cat: cs.CY | All cats: cs.CY, cs.AI, cs.CL, cs.HC, cs.IR
+Published: 2026-04-22
+Summary: As state-of-the-art Large Language Models (LLMs) have become ubiquitous, ensuring equitable performance across diverse demographics is critical. However, it remains unclear whether these disparities arise from the explicitly stated identity itself or from the way identity is signaled. In real-world interactions, users' identity is often conveyed implicitly through a complex combination of various ...
+
+--- [22] 2604.05007v1 ---
+Title: Generalizable Audio-Visual Navigation via Binaural Difference Attention and Action Transition Prediction
+Authors: Jia Li, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-06
+Summary: In Audio-Visual Navigation (AVN), agents must locate sound sources in unseen 3D environments using visual and auditory cues. However, existing methods often struggle with generalization in unseen scenarios, as they tend to overfit to semantic sound features and specific training environments. To address these challenges, we propose the \textbf{Binaural Difference Attention with Action Transition P...
+
+--- [23] 2604.02391v1 ---
+Title: Reliability-Aware Geometric Fusion for Robust Audio-Visual Navigation
+Authors: Teng Liu, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-02
+Summary: Audio-Visual Navigation (AVN) requires an embodied agent to navigate toward a sound source by utilizing both vision and binaural audio. A core challenge arises in complex acoustic environments, where binaural cues become intermittently unreliable, particularly when generalizing to previously unheard sound categories. To address this, we propose RAVN (Reliability-Aware Audio-Visual Navigation), a f...
+
+--- [24] 2604.02390v1 ---
+Title: Spatial-Aware Conditioned Fusion for Audio-Visual Navigation
+Authors: Shaohang Wu, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-02
+Summary: Audio-visual navigation tasks require agents to locate and navigate toward continuously vocalizing targets using only visual observations and acoustic cues. However, existing methods mainly rely on simple feature concatenation or late fusion, and lack an explicit discrete representation of the target's relative position, which limits learning efficiency and generalization. We propose Spatial-Aware...
+
+--- [25] 2604.02389v1 ---
+Title: Audio Spatially-Guided Fusion for Audio-Visual Navigation
+Authors: Xinyu Zhou, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-02
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Asound+AND+abs%3Anavigation&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Audio-visual Navigation refers to an agent utilizing visual and auditory information in complex 3D environments to accomplish target localization and path planning, thereby achieving autonomous navigation. The core challenge of this task lies in the following: how the agent can break free from the dependence on training data and achieve autonomous navigation with good generalization performance wh...
+

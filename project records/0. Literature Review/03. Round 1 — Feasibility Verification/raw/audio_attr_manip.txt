@@ -1,0 +1,142 @@
+--- [1] 2608.09593v1 ---
+Title: MADBench: A Benchmark for Modality-Aware Audio Deepfake Detection
+Authors: Yanqiu Li, Yang Xiao, Jisheng Bai, Bin Chen, Hong Jia et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-10
+Summary: Recent advances in speech synthesis and audio generation have made high-fidelity acoustic forgery low-cost and difficult to attribute, enabling a realistic attack scenario in which speech and background audio are independently manipulated over otherwise authentic video. Yet existing research either focuses on visual manipulation, addresses speech detection in isolation, or conflates speech and non...
+
+--- [2] 2607.06461v1 ---
+Title: WordVoice: Explicit and Decoupled Multi-Dimensional Word-Level Control for LLM-Based TTS
+Authors: Sihang Nie, Jinxin Ji, Xiaofen Xing, Deyi Tuo, Chengbin Jin et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD
+Published: 2026-07-07
+Summary: While recent Large Language Model (LLM)-based Text-to-Speech (TTS) systems have achieved remarkable naturalness, they predominantly rely on implicit end-to-end generation paradigms, resulting in coarse-grained control. In scenarios demanding precise stylistic interventions and strict temporal alignment, such as audiobook narration and video dubbing, the inability to explicitly manipulate word-leve...
+
+--- [3] 2606.26694v2 ---
+Title: PhysEditWorld: A Large-Scale Dataset Toward Physics-Editable World Models
+Authors: Bin Hu, Yanwen Ma, Jiehui Huang, Ziliang Zhang, Haoning Wu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-25
+Summary: Recent game world models can synthesize visually plausible, action-conditioned rollouts. However, their interaction behaviors often remain limited to exploratory or wandering trajectories, and physical dynamics are typically learned as implicit correlations from data rather than as controllable variables. This limitation hinders their applicability to authored game environments, where physical rul...
+
+--- [4] 2606.14466v1 ---
+Title: The Perceived Fragility of Explanations in Audio Models: Manipulation of Attribution with Unchanged Predictions
+Authors: Piotr Kitłowski, Dominik Wiącek, Mateusz Modrzejewski
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-06-12
+Summary: This paper investigates the fragility of post-hoc explanation methods in audio deepfake detection. While previous work on explanation manipulation focused on images using standard $L_p$ metrics, we introduce a psychoacoustic framework that optimizes inaudible perturbations to decouple model attributions from final classifications. We evaluate this vulnerability across state-of-the-art architecture...
+
+--- [5] 2605.24618v1 ---
+Title: FC-TTS: Style and Timbre Control in Zero-Shot Text-to-Speech with Disentangled Speech Representations
+Authors: Yoonhyung Lee, Hyunsin Park, Jinhwan Park, Jinkyu Lee
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-23
+Summary: Recent advances in zero-shot text-to-speech (TTS) have enabled accurate imitation of reference speech in terms of both speaking style and speaker timbre. However, achieving disentangled control over these aspects from separate references remains a challenging task. Several studies have proposed disentangled speech representations that decompose speech into interpretable attributes (e.g., timbre, p...
+
+--- [6] 2605.11192v1 ---
+Title: Exploring Token-Space Manipulation in Latent Audio Tokenizers
+Authors: Francesco Paissan, Luca Della Libera, Mirco Ravanelli, Cem Subakan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-05-11
+Summary: Neural audio codecs provide compact discrete representations for speech generation and manipulation. However, most codecs organize tokens as frame-level sequences, making it difficult to study or intervene on global factors of variation. In this work, we propose the Latent Audio Tokenizer for Token-space Editing (LATTE) that appends a fixed set of learnable latent tokens to the audio feature seque...
+
+--- [7] 2605.04797v1 ---
+Title: Beyond Seeing Is Believing: On Crowdsourced Detection of Audiovisual Deepfakes
+Authors: Michael Soprano, Andrea Cioci, Stefano Mizzaro
+Primary cat: cs.IR | All cats: cs.IR, cs.AI
+Published: 2026-05-06
+Summary: Deepfakes are increasingly realistic and easy to produce, raising concerns about the reliability of human judgments in misinformation settings. We study audiovisual deepfake detection by measuring how consistently crowd workers distinguish authentic from manipulated videos and, when they flag a video as manipulated, how accurately they identify the manipulation type (audio-only, video-only, or aud...
+
+--- [8] 2604.26453v1 ---
+Title: Attribution-Guided Multimodal Deepfake Detection via Cross-Modal Forensic Fingerprints
+Authors: Wasim Ahmad, Wei Zhang, Xuerui Mao
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-29
+Summary: Audio-visual deepfakes have reached a level of realism that makes perceptual detection unreliable, threatening media integrity and biometric security. While multimodal detection has shown promise, most approaches are binary classification tasks that often latch onto dataset-specific artifacts rather than genuine generative traces. We argue that a detector incapable of identifying how a video was f...
+
+--- [9] 2603.22260v1 ---
+Title: Greater accessibility can amplify discrimination in generative AI
+Authors: Carolin Holtermann, Minh Duc Bui, Kaitlyn Zhou, Valentin Hofmann, Katharina von der Wense et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-03-23
+Summary: Hundreds of millions of people rely on large language models (LLMs) for education, work, and even healthcare. Yet these models are known to reproduce and amplify social biases present in their training data. Moreover, text-based interfaces remain a barrier for many, for example, users with limited literacy, motor impairments, or mobile-only devices. Voice interaction promises to expand accessibili...
+
+--- [10] 2603.15597v2 ---
+Title: AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer
+Authors: Pengjun Fang, Yingqing He, Yazhou Xing, Qifeng Chen, Ser-Nam Lim et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.LG, cs.MM, eess.AS
+Published: 2026-03-16
+Summary: Existing video-to-audio (V2A) generation methods predominantly rely on text prompts alongside visual information to synthesize audio. However, two critical bottlenecks persist: semantic granularity gaps in training data, such as conflating acoustically distinct sounds under coarse labels, and textual ambiguity in describing micro-acoustic features. These bottlenecks make it difficult to perform fi...
+
+--- [11] 2603.07090v1 ---
+Title: mAVE: A Watermark for Joint Audio-Visual Generation Models
+Authors: Luyang Si, Leyi Pan, Lijie Wen
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.CV
+Published: 2026-03-07
+Summary: As Joint Audio-Visual Generation Models see widespread commercial deployment, embedding watermarks has become essential for protecting vendor copyright and ensuring content provenance. However, existing techniques suffer from an architectural mismatch by treating modalities as decoupled entities, exposing a critical Binding Vulnerability. Adversaries exploit this via Swap Attacks by replacing auth...
+
+--- [12] 2603.05095v1 ---
+Title: GEM-TFL: Bridging Weak and Full Supervision for Forgery Localization through EM-Guided Decomposition and Temporal Refinement
+Authors: Xiaodong Zhu, Yuanming Zheng, Suting Wang, Junqi Yang, Yuhong Yang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-03-05
+Summary: Temporal Forgery Localization (TFL) aims to precisely identify manipulated segments within videos or audio streams, providing interpretable evidence for multimedia forensics and security. While most existing TFL methods rely on dense frame-level labels in a fully supervised manner, Weakly Supervised TFL (WS-TFL) reduces labeling cost by learning only from binary video-level labels. However, curren...
+
+--- [13] 2602.04535v1 ---
+Title: HoliAntiSpoof: Audio LLM for Holistic Speech Anti-Spoofing
+Authors: Xuenan Xu, Yiming Ren, Liwei Liu, Wen Wu, Baoxiang Li et al.
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aattribute+AND+abs%3Amanipulation&max_results=20&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-02-04
+Summary: Recent advances in speech synthesis and editing have made speech spoofing increasingly challenging. However, most existing methods treat spoofing as binary classification, overlooking that diverse spoofing techniques manipulate multiple, coupled speech attributes and their semantic effects. In this paper, we introduce HoliAntiSpoof, the first audio large language model (ALLM) framework for holisti...
+
+--- [14] 2512.09504v1 ---
+Title: DMP-TTS: Disentangled multi-modal Prompting for Controllable Text-to-Speech with Chained Guidance
+Authors: Kang Yin, Chunyu Qiang, Sirui Zhao, Xiaopeng Wang, Yuzhe Liang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-12-10
+Summary: Controllable text-to-speech (TTS) systems face significant challenges in achieving independent manipulation of speaker timbre and speaking style, often suffering from entanglement between these attributes. We present DMP-TTS, a latent Diffusion Transformer (DiT) framework with explicit disentanglement and multi-modal prompting. A CLAP-based style encoder (Style-CLAP) aligns cues from reference aud...
+
+--- [15] 2511.22443v1 ---
+Title: Do You See What I Say? Generalizable Deepfake Detection based on Visual Speech Recognition
+Authors: Maheswar Bora, Tashvik Dhamija, Shukesh Reddy, Baptiste Chopin, Pranav Balaji et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-11-27
+Summary: Deepfake generation has witnessed remarkable progress, contributing to highly realistic generated images, videos, and audio. While technically intriguing, such progress has raised serious concerns related to the misuse of manipulated media. To mitigate such misuse, robust and reliable deepfake detection is urgently needed. Towards this, we propose a novel network FauxNet, which is based on pre-tra...
+
+--- [16] 2510.12175v4 ---
+Title: Audio Palette: A Diffusion Transformer with Multi-Signal Conditioning for Controllable Foley Synthesis
+Authors: Junnuo Wang
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-10-14
+Summary: Recent advances in diffusion-based generative models have enabled high-quality text-to-audio synthesis, but fine-grained acoustic control remains a significant challenge in open-source research. We present Audio Palette, a diffusion transformer (DiT) based model that extends the Stable Audio Open architecture to address this "control gap" in controllable audio generation. Unlike prior approaches t...
+
+--- [17] 2510.05191v2 ---
+Title: Provable Speech Attributes Conversion via Latent Independence
+Authors: Jonathan Svirsky, Ofir Lindenbaum, Uri Shaham
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2025-10-06
+Summary: While signal conversion and disentangled representation learning have shown promise for manipulating data attributes across domains such as audio, image, and multimodal generation, existing approaches, especially for speech style conversion, are largely empirical and lack rigorous theoretical foundations to guarantee reliable and interpretable control. In this work, we propose a general framework ...
+
+--- [18] 2509.25842v1 ---
+Title: HiStyle: Hierarchical Style Embedding Predictor for Text-Prompt-Guided Controllable Speech Synthesis
+Authors: Ziyu Zhang, Hanzhao Li, Jingbin Hu, Wenhao Li, Lei Xie
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2025-09-30
+Summary: Controllable speech synthesis refers to the precise control of speaking style by manipulating specific prosodic and paralinguistic attributes, such as gender, volume, speech rate, pitch, and pitch fluctuation. With the integration of advanced generative models, particularly large language models (LLMs) and diffusion models, controllable text-to-speech (TTS) systems have increasingly transitioned f...
+
+--- [19] 2509.21597v2 ---
+Title: AUDDT: A Unified Benchmark Toolkit for Audio and Speech Deepfake Detectors
+Authors: Yi Zhu, Heitor R. Guimarães, Arthur Pimentel, Tiago Falk
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD
+Published: 2025-09-25
+Summary: With the prevalence of artificial intelligence (AI)-generated content, such as audio deepfakes, a large body of recent work has focused on developing deepfake detection techniques. However, existing benchmarks employ a narrow set of datasets, leaving detector generalization to real-world conditions uncertain. In this paper, we systematically review 31 existing audio deepfake datasets and present a...
+
+--- [20] 2508.18670v1 ---
+Title: RÉCITKIT: A Spatial Toolkit for Designing and Evaluating Human-Centered Immersive Data Narratives
+Authors: Vidya Setlur, Samuel Ridet
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-08-26
+Summary: Spatial computing presents new opportunities for immersive data storytelling, yet there is limited guidance on how to build such experiences or adapt traditional narrative visualizations to this medium. We introduce a toolkit, RÉCITKIT for supporting spatial data narratives in head-mounted display (HMD) environments. The toolkit allows developers to create interactive dashboards, tag data attribut...
+

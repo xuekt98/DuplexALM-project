@@ -1,0 +1,177 @@
+--- [1] 2609.34973v1 ---
+Title: APEX-Voice: Can Voice Agents Complete Professional Workflows Through Full-Duplex Interaction
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-28
+Summary: Full-duplex voice agents can now listen, speak, use tools, and act during spoken interactions, but fluent dialogue does not guarantee correct completion of delegated professional workflows. We introduce APEX-Voice, a benchmark of 120 interactive professional workflows spanning ten work archetypes such as form completion, corporate negotiation, coordination, consulting, and interviewing. Each workf...
+
+--- [2] 2609.34461v1 ---
+Title: CharDuplex: Building Character-Consistent Full-Duplex Spoken Dialogue Models
+Authors: Donghang Wu, Yisi Liu, Chen Chen, Hexin Liu, Eng Siong Chng
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech models are moving voice interaction beyond conventional turn-taking, yet natural conversation is shaped not only by when an agent speaks, but also by how it behaves as a conversational character. We present CharDuplex, a character-driven full-duplex speech model that combines real-time spoken interaction with persona-conditioned behavior. We first adapt GLM-4-Voice to an always-...
+
+--- [3] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [4] 2609.33311v1 ---
+Title: SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation
+Authors: Chengqun Yang, Tengjie Zhu, Liang Xu, Fulong Liu, Guanzhu Ren et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-09-27
+Summary: Humanoid robots are increasingly expected to serve as embodied social agents that communicate naturally with humans through face-to-face interaction. During such communication, humanoid robots require body behaviors that are synchronized with speech, affectively expressive, and suitable for real-time execution. However, existing co-speech methods are primarily developed for digital humans and lack...
+
+--- [5] 2609.32569v1 ---
+Title: OmniSmartHome: A Multimodal Reasoning Benchmark for Smart-Home Agents
+Authors: Jihoo Jung, Suho Yoo, Jeongsoo Choi, Hyebin Cho, Tae Wook Haam et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-26
+Summary: Smart-home assistants are expected to handle diverse, realistic requests that arise in daily life. In such interactions, users often rely on the surrounding multimodal context-pointing at objects or referring to what they see or hear, leaving their requests underspecified in language alone. Existing smart-home benchmarks, however, express user requests solely through language, leaving context-depe...
+
+--- [6] 2609.30774v1 ---
+Title: Dialogue-Based Streaming Audio-Visual Target Speaker Extraction with Predictive Dialogue Information
+Authors: Shuhan Zhang, Wenxuan Wu, Haizhou Li
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-25
+Summary: In face-to-face, real-time communication, a talking agent must track the target speaker through natural pauses, turn-taking, and backchannels, often amid background cross-talk. Most target speaker extraction (TSE) studies, however, rely on simulated mixtures with full or sparse overlap and ignore the turn-taking of real conversations. We therefore introduce, to our knowledge, the first benchmark f...
+
+--- [7] 2609.29837v2 ---
+Title: PUBG Ally: A Conversational Embodied Agent as an AI Teammate
+Authors:  PUBG Ally Team, Irene Chen, Youngin Cho, Seungjun Chung, Jimin Hong et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.HC
+Published: 2026-09-24
+Summary: We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate. Building such a teammate requires combining two difficult capabilities: it must perceive and respond to a constantly changing game world under strict latency constraints while interacting naturally with players, keeping its speech synchronized...
+
+--- [8] 2609.29452v1 ---
+Title: Voice Agents under Acoustic Stress: From Signal Degradation to Interaction and Action
+Authors: Amir Ivry, Kai-Wei Chang, Lin Zhang, Sharon Gannot, Carlos Busso
+Primary cat: eess.AS | All cats: eess.AS, cs.HC
+Published: 2026-09-24
+Summary: Voice agents must complete users' tasks despite noise, reverberation, and competing speech. Evaluating agents' robustness therefore requires following how acoustic conditions affect the conversation and the actions taken on the user's behalf. This overview examines what existing benchmarks reveal about agents' ability to complete tasks under acoustic stress and where further task-based evaluation ...
+
+--- [9] 2609.28812v1 ---
+Title: Signals of AI Hallucination: Designing Hallucination-Aware Cues for Embodied Conversational Agents in VR
+Authors: Xiaoran Yang, Yang Zhan, Xie He, Yuxuan Huang, Yichen Yu et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-09-23
+Summary: LLM-powered conversational agents (CAs) often present uncertainty and provenance cues alongside their responses to help users assess response reliability and identify potential hallucinations. In immersive environments such as Virtual Reality (VR), CAs often take the form of speech-based embodied conversational agents (ECAs), where uncertainty and provenance cues cannot rely on persistent inline t...
+
+--- [10] 2609.25195v1 ---
+Title: Qwen-Audio-Agent Technical Report
+Authors: Chong Deng, Yunjie Ji, Yuxiang Kong, Xiangang Li, Xu Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.MA
+Published: 2026-09-21
+Summary: We present Qwen-Audio-Agent, a harness that combines full-duplex voice interaction with asynchronous task execution through a foreground-background architecture. A Frontend Agent manages dialogue and selects between direct tool use and delegation, while a Backend Agent carries out delegated tasks in a separate context. An Orchestration Runtime maintains task state, coordinates requests for user in...
+
+--- [11] 2609.22913v1 ---
+Title: AVTR-1: Open Stack for Real-Time Interactive Avatars
+Authors: Artem Kravtsov, Dmitrii Ziganshin, Vsevolod Poletaev, Gleb Balitskiy, Anastasia Tikhonova et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.LG
+Published: 2026-09-19
+Summary: Talking-head and dyadic models now achieve real-time inference, yet fast motion generation alone does not produce an interactive conversation. A live system must synchronize the model's output with speech from an external voice agent, schedule video frames for playback, and handle interruptions. We introduce AVTR-1, an open stack for real-time interactive avatar conversations, built around a compa...
+
+--- [12] 2609.21967v1 ---
+Title: NemotronLabs VoiceChat: An Open Full-duplex Speech-to-Speech Model with Tool Calling Capabilities
+Authors: Jagadeesh Balam, Travis Bartley, Edresson Casanova, Sanjay Chauhan, Chen Chen et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-18
+Summary: We introduce NemotronLabs VoiceChat, an open full-duplex speech-to-speech model with native tool-calling capabilities. NemotronLabs VoiceChat combines a streaming speech encoder and decoder-only language model with parallel specialized output streams for agent text and structured function calls, an auxiliary RNN-T branch for incremental user transcription, and a streaming TTS decoder. This design ...
+
+--- [13] 2609.21576v1 ---
+Title: GestureFAR: Streaming Co-Speech Gesture Generation with Flow Autoregression
+Authors: Pinxin Liu, Haiyang Liu, Jiahao Luo, Junhua Huang, Chunhao Zou et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.GR, cs.HC
+Published: 2026-09-18
+Summary: Generating natural co-speech gestures from streaming speech is essential for embodied conversational agents, where motion must be produced while a user is still speaking. Recent streaming gesture systems make online generation possible by autoregressing over discrete motion tokens, but this design compresses high-dimensional continuous motion into finite codebooks and can limit the realism and div...
+
+--- [14] 2609.21392v1 ---
+Title: Omni Demand Understanding: A Benchmark for Contextual User-Intent Inference in Multimodal Interaction
+Authors: Qi Chen, Yunfei Chu, Haolin He, Yifan Yang, Zihan Liu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.CV, cs.MM, cs.SD
+Published: 2026-09-18
+Summary: Natural audio-visual interaction is emerging as an important interface for AI assistants, allowing users to communicate through speech and vision rather than carefully composed text prompts. However, existing benchmarks of interactive capabilities still focus primarily on response quality, leaving a more fundamental question underexplored: can a model correctly infer the user's underlying demand f...
+
+--- [15] 2609.20995v1 ---
+Title: Voice-Light: A Full-Duplex Cascaded Voice Agent with Causal Turn-Taking and Speculative Generation
+Authors: Bertil Braun
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-17
+Summary: Natural spoken interaction requires more than streaming ASR, language generation, and speech synthesis: a system must react to overlap without canceling on every acknowledgment, prepare a response before a turn is certain, and ensure canceled audio cannot enter conversation history. We present Voice-Light, a full-duplex cascaded voice agent that combines immediate acoustic onset, a causal adapter ...
+
+--- [16] 2609.19334v2 ---
+Title: A frontend-backend architecture for tool calls in full-duplex speech models
+Authors: Ke Hu, Slyne Deng, Chen Chen, Elena Rastorgueva, Edresson Casanova et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-16
+Summary: Full-duplex speech-to-speech (S2S) models provide natural, low-latency conversational interaction and would benefit from the ability to use external tools and complete voice-agent tasks. We propose a frontend-backend architecture where a duplex speech-to-text frontend learns to emit a delegation token and forwards streaming ASR transcripts to a text-based backend LLM for tool calls. Tool-call resu...
+
+--- [17] 2609.17527v1 ---
+Title: Agentic Societies Need a Social Harness
+Authors: Tapan Chugh, Vidushi Singh, Krish Jain, Arvind Krishnamurthy, Ratul Mahajan
+Primary cat: cs.MA | All cats: cs.MA, cs.AI, cs.NI
+Published: 2026-09-15
+Summary: An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes with existing harnesses and messaging primitives, and that faulty or malicious agents can stall coll...
+
+--- [18] 2609.14512v1 ---
+Title: Beyond Scene Description: Multi-Agent Orchestration for Non-visual Access to Virtual Worlds
+Authors: Toqeer Ali Syed, Ali Akarma, Adeel Ahmad, Danial Hameed
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-13
+Summary: Virtual worlds now host classrooms, meetings, conferences, shops, and social venues, and nearly every interaction they expose assumes a user who can scan a three-dimensional scene, follow avatars, and read floating panels. Blind and visually impaired (BVI) users are left with assistive tools that each solve one task in isolation: naming an object, reading text, describing a scene, or planning a ro...
+
+--- [19] 2609.13076v1 ---
+Title: MP-Bench: Evaluating Voice Agents as a Multiparty Conversation Participant
+Authors: Yi-Jen Shih, Shih-Yun Shan Kuan, Guan-Ting Lin, Kai-Wei Chang, Siddhant Arora et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL
+Published: 2026-09-11
+Summary: Conversational voice agents have advanced significantly, offering increasingly natural human-machine interactions through both cascaded and end-to-end architectures. However, while recent benchmarks extensively evaluate dyadic interactions and passive audio comprehension, they largely overlook a prevalent real-world scenario: multi-party conversations. Evaluating agents in these settings is fundam...
+
+--- [20] 2609.12563v1 ---
+Title: TokenMapper: A Step Toward Interoperable Speech Token Translation
+Authors: Tal Kozakov, Tal Rosenwein, Eliya Nachmani
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.SD, eess.AS
+Published: 2026-09-11
+Summary: Neural audio codecs discretize speech into token sequences, but the resulting token spaces differ in vocabulary and codebook structure, preventing direct communication across models. This limitation affects applications such as conversational voice agents and speech to speech translation systems where multiple speech models must interact. As a result, transferring information between speech system...
+
+--- [21] 2609.09852v1 ---
+Title: $S^3$-Bench: Evaluating Speech Interaction Models as Scientific Voice Assistants
+Authors: Heyang Liu, Jiayi Huang, Wenyang Xiao, Ziyang Cheng, Lixin Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-09
+Summary: The advance of multimodal large language models (MLLMs) has fundamentally reshaped the paradigm of human-computer interaction, especially speech interaction models capable of seamless conversations. Despite remarkable performance as general voice assistants, their performance in specialized domains remains underexplored, particularly in scientific areas. Scientific interactions introduce formidabl...
+
+--- [22] 2609.09628v1 ---
+Title: Who Are They to Each Other? Multi-Agent Reasoning for Speaker Relationship Inference
+Authors: Yaohan Guan, Yen-Ju Lu, Yuzhe Wang, Junhyeok Lee, Jesus Villalba et al.
+Primary cat: cs.MA | All cats: cs.MA, cs.CL, cs.SD
+Published: 2026-09-09
+Summary: Inferring speaker relationships from spoken conversations is an important step towards socially aware speech understanding. However, this task remains underexplored, and supervised modeling is costly to train and scale. At the same time, existing inference-time LLM approaches provide limited structure for handling subtle, distributed, and multimodal relational cues that may support multiple plausi...
+
+--- [23] 2609.04850v1 ---
+Title: ElderBench: Benchmarking Autonomous Mobile Agents for Older Adults
+Authors: Weide Zhan, Qumu Shaqu, Yuanqing Liu, Peng Zhang, Jiahao Liu et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-04
+Summary: While autonomous mobile agents hold great potential for assisting older adults with smartphone usage, existing GUI benchmarks mainly rely on explicit, goal-oriented instructions and rarely capture the naturally occurring language patterns of older users, such as indirect speech, referential ambiguity, and under-specified requests. This mismatch between benchmark instructions and real-world elderly...
+
+--- [24] 2609.03423v2 ---
+Title: DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Full-duplex voice agents must continuously decide when to speak, listen, backchannel, interrupt, overlap, and yield the conversational floor. Existing benchmarks evaluate these behaviors through explicit turn-management instructions, whereas voice agents are often configured through roles or personas from which appropriate conversational behavior must be inferred. We introduce DuplexSpeechBench-IF...
+
+--- [25] 2609.00570v2 ---
+Title: VoiceLongMemEval: Do Assistants Remember How You Sounded?
+Authors: Ramit Pahwa, Parivesh Priye, Apoorva Beedu
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-09-01
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Ainteractive+AND+abs%3Aspeech+AND+abs%3Aagent&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: With the growing scale of multi-agent architectures and large language models, deployed AI assistants are increasingly tasked with reasoning over long, continuous, multi-session conversation histories. Current benchmarks evaluate this dialogue history as information retrieval over long horizon, temporal reasoning, or knowledge updates, while crucially ignoring the fundamental dynamics of human-age...
+

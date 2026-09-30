@@ -1,0 +1,177 @@
+--- [1] 2609.05631v1 ---
+Title: TamilEOT: A Dataset and Model for Semantic End-of-Turn Detection in Tamil Telephone Speech
+Authors: Santhoshkumar V
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-09-04
+Summary: A voice agent has to decide, at every pause, whether the user has finished speaking. Without a model of the language that decision falls back to a fixed silence timeout: set it short and the agent interrupts, set it long and every turn pays the full wait. Open semantic end-of-turn detectors exist, but to our knowledge none covers a South Indian language. We release TamilEOT: 18,485 labelled turn b...
+
+--- [2] 2606.12555v2 ---
+Title: AudioX-Turbo: A Unified Framework for Efficient Anything-to-Audio Generation
+Authors: Zeyue Tian, Lei Ke, Zhaoyang Liu, Ruibin Yuan, Liumeng Xue et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.MM
+Published: 2026-06-10
+Summary: Audio and music generation based on flexible multimodal control signals is a widely applicable topic, with the following key challenges: 1) a unified multimodal modeling framework, 2) large-scale, high-quality training data, and 3) the prohibitive inference cost of multi-step diffusion sampling. As such, we propose AudioX-Turbo, a unified and efficient framework for anything-to-audio generation th...
+
+--- [3] 2606.03540v1 ---
+Title: Attend to Anything: Foundation Model for Unified Human Attention Modeling
+Authors: Wenzhuo Zhao, Ronghao Xian, Keren Fu, Qijun Zhao
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-02
+Summary: Existing human attention (saliency) modeling methods persist as highly fragmented across modalities, scenes, and task formulations. Consequently, even with increasing model capacity and data scale, current models predominantly remain scene-dependent and task-specific, failing to practically generalize in real-world applications. To address the fundamental limitations, we present the Attend to Anyt...
+
+--- [4] 2603.19176v1 ---
+Title: Few-shot Acoustic Synthesis with Multimodal Flow Matching
+Authors: Amandine Brunetto
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2026-03-19
+Summary: Generating audio that is acoustically consistent with a scene is essential for immersive virtual environments. Recent neural acoustic field methods enable spatially continuous sound rendering but remain scene-specific, requiring dense audio measurements and costly training for each environment. Few-shot approaches improve scalability across rooms but still rely on multiple recordings and, being de...
+
+--- [5] 2509.17537v2 ---
+Title: SimToken: A Simple Baseline for Referring Audio-Visual Segmentation
+Authors: Dian Jin, Yanghao Zhou, Jinxing Zhou, Jiaqi Ma, Ruohao Guo et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-09-22
+Summary: Referring Audio-Visual Segmentation (Ref-AVS) aims to segment specific objects in videos based on natural language expressions involving audio, vision, and text information. This task poses significant challenges in cross-modal reasoning and fine-grained object localization. In this paper, we propose a simple framework, SimToken, that integrates a multimodal large language model (MLLM) with the Se...
+
+--- [6] 2509.15625v1 ---
+Title: The Rhythm In Anything: Audio-Prompted Drums Generation with Masked Language Modeling
+Authors: Patrick O'Reilly, Julia Barnett, Hugo Flores García, Annie Chu, Nathan Pruyne et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-09-19
+Summary: Musicians and nonmusicians alike use rhythmic sound gestures, such as tapping and beatboxing, to express drum patterns. While these gestures effectively communicate musical ideas, realizing these ideas as fully-produced drum recordings can be time-consuming, potentially disrupting many creative workflows. To bridge this gap, we present TRIA (The Rhythm In Anything), a masked transformer model for ...
+
+--- [7] 2507.16736v1 ---
+Title: DFR: A Decompose-Fuse-Reconstruct Framework for Multi-Modal Few-Shot Segmentation
+Authors: Shuai Chen, Fanman Meng, Xiwei Zhang, Haoran Wei, Chenhao Wu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-07-22
+Summary: This paper presents DFR (Decompose, Fuse and Reconstruct), a novel framework that addresses the fundamental challenge of effectively utilizing multi-modal guidance in few-shot segmentation (FSS). While existing approaches primarily rely on visual support samples or textual descriptions, their single or dual-modal paradigms limit exploitation of rich perceptual information available in real-world s...
+
+--- [8] 2506.01015v2 ---
+Title: AuralSAM2: Enabling SAM2 Hear Through Pyramid Audio-Visual Feature Prompting
+Authors: Yuyuan Liu, Yuanhong Chen, Chong Wang, Junlin Han, Junde Wu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-06-01
+Summary: Segment Anything Model 2 (SAM2) exhibits strong generalisation for promptable segmentation in video clips; however, its integration with the audio modality remains underexplored. Existing approaches either convert audio into visual prompts (e.g., boxes) via foundation models, or inject adapters into the image encoder for audio-visual fusion. Yet both directions fall short in human-in-the-loop scen...
+
+--- [9] 2503.10522v4 ---
+Title: AudioX: A Unified Framework for Anything-to-Audio Generation
+Authors: Zeyue Tian, Zhaoyang Liu, Yizhu Jin, Ruibin Yuan, Liumeng Xue et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.LG, cs.SD, eess.AS
+Published: 2025-03-13
+Summary: Audio and music generation based on flexible multimodal control signals is a widely applicable topic, with the following key challenges: 1) a unified multimodal modeling framework, and 2) large-scale, high-quality training data. As such, we propose AudioX, a unified framework for anything-to-audio generation that integrates varied multimodal conditions (i.e., text, video, and audio signals) in thi...
+
+--- [10] 2502.16359v2 ---
+Title: Audio Visual Segmentation Through Text Embeddings
+Authors: Kyungbok Lee, You Zhang, Zhiyao Duan
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2025-02-22
+Summary: The goal of Audio-Visual Segmentation (AVS) is to localize and segment the sounding source objects from video frames. Research on AVS suffers from data scarcity due to the high cost of fine-grained manual annotations. Recent works attempt to overcome the challenge of limited data by leveraging the vision foundation model, Segment Anything Model (SAM), prompting it with audio to enhance its ability...
+
+--- [11] 2502.11515v1 ---
+Title: SayAnything: Audio-Driven Lip Synchronization with Conditional Video Diffusion
+Authors: Junxian Ma, Shiwen Wang, Jian Yang, Junyi Hu, Jian Liang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-02-17
+Summary: Recent advances in diffusion models have led to significant progress in audio-driven lip synchronization. However, existing methods typically rely on constrained audio-visual alignment priors or multi-stage learning of intermediate representations to force lip motion synthesis. This leads to complex training pipelines and limited motion naturalness. In this paper, we present SayAnything, a conditi...
+
+--- [12] 2502.18479v1 ---
+Title: Disrupt Your Research Using Generative AI Powered ScienceSage
+Authors: Yong Zhang, Eric Herrison Gyamfi, Kelly Anderson, Sasha Roberts, Matt Barker
+Primary cat: cs.IR | All cats: cs.IR
+Published: 2025-02-06
+Summary: Large Language Models (LLM) are disrupting science and research in different subjects and industries. Here we report a minimum-viable-product (MVP) web application called $\textbf{ScienceSage}$. It leverages generative artificial intelligence (GenAI) to help researchers disrupt the speed, magnitude and scope of product innovation. $\textbf{ScienceSage}$ enables researchers to build, store, update ...
+
+--- [13] 2412.15838v2 ---
+Title: Align Anything: Training All-Modality Models to Follow Instructions with Language Feedback
+Authors: Jiaming Ji, Jiayi Zhou, Hantao Lou, Boyuan Chen, Donghai Hong et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2024-12-20
+Summary: Reinforcement learning from human feedback (RLHF) has proven effective in enhancing the instruction-following capabilities of large language models; however, it remains underexplored in the cross-modality domain. As the number of modalities increases, aligning all-modality models with human intentions -- such as instruction following -- becomes a pressing challenge. In this work, we make the first...
+
+--- [14] 2409.14709v1 ---
+Title: Video-to-Audio Generation with Fine-grained Temporal Semantics
+Authors: Yuchen Hu, Yu Gu, Chenxing Li, Rilin Chen, Dong Yu
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-09-23
+Summary: With recent advances of AIGC, video generation have gained a surge of research interest in both academia and industry (e.g., Sora). However, it remains a challenge to produce temporally aligned audio to synchronize the generated video, considering the complicated semantic information included in the latter. In this work, inspired by the recent success of text-to-audio (TTA) generation, we first in...
+
+--- [15] 2407.19435v1 ---
+Title: ASI-Seg: Audio-Driven Surgical Instrument Segmentation with Surgeon Intention Understanding
+Authors: Zhen Chen, Zongming Zhang, Wenwu Guo, Xingjian Luo, Long Bai et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC, cs.RO
+Published: 2024-07-28
+Summary: Surgical instrument segmentation is crucial in surgical scene understanding, thereby facilitating surgical safety. Existing algorithms directly detected all instruments of pre-defined categories in the input image, lacking the capability to segment specific instruments according to the surgeon's intention. During different stages of surgery, surgeons exhibit varying preferences and focus toward di...
+
+--- [16] 2407.02004v2 ---
+Title: SAVE: Segment Audio-Visual Easy way using Segment Anything Model
+Authors: Khanh-Binh Nguyen, Chae Jung Park
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.SD, eess.AS
+Published: 2024-07-02
+Summary: The primary aim of Audio-Visual Segmentation (AVS) is to precisely identify and locate auditory elements within visual scenes by accurately predicting segmentation masks at the pixel level. Achieving this involves comprehensively considering data and model aspects to address this task effectively. This study presents a lightweight approach, SAVE, which efficiently adapts the pre-trained segment an...
+
+--- [17] 2406.06163v1 ---
+Title: Extending Segment Anything Model into Auditory and Temporal Dimensions for Audio-Visual Segmentation
+Authors: Juhyeong Seon, Woobin Im, Sebin Lee, Jumin Lee, Sung-Eui Yoon
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2024-06-10
+Summary: Audio-visual segmentation (AVS) aims to segment sound sources in the video sequence, requiring a pixel-level understanding of audio-visual correspondence. As the Segment Anything Model (SAM) has strongly impacted extensive fields of dense prediction problems, prior works have investigated the introduction of SAM into AVS with audio as a new modality of the prompt. Nevertheless, constrained by SAM'...
+
+--- [18] 2404.17625v3 ---
+Title: Alice's Adventures in a Differentiable Wonderland -- Volume I, A Tour of the Land
+Authors: Simone Scardapane
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2024-04-26
+Summary: Neural networks surround us, in the form of large language models, speech transcription systems, molecular discovery algorithms, robotics, and much more. Stripped of anything else, neural networks are compositions of differentiable primitives, and studying them means learning how to program and how to interact with these models, a particular example of what is called differentiable programming. Th...
+
+--- [19] 2403.06363v2 ---
+Title: Say Anything with Any Style
+Authors: Shuai Tan, Bin Ji, Yu Ding, Ye Pan
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2024-03-11
+Summary: Generating stylized talking head with diverse head motions is crucial for achieving natural-looking videos but still remains challenging. Previous works either adopt a regressive method to capture the speaking style, resulting in a coarse style that is averaged across all training data, or employ a universal network to synthesize videos with different styles which causes suboptimal performance. To...
+
+--- [20] 2308.04126v2 ---
+Title: OmniDataComposer: A Unified Data Structure for Multimodal Data Fusion and Infinite Data Generation
+Authors: Dongyang Yu, Shihao Wang, Yuan Fang, Wangpeng An
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.MM, cs.SD, eess.AS
+Published: 2023-08-08
+Summary: This paper presents OmniDataComposer, an innovative approach for multimodal data fusion and unlimited data generation with an intent to refine and uncomplicate interplay among diverse data modalities. Coming to the core breakthrough, it introduces a cohesive data structure proficient in processing and merging multimodal data inputs, which include video, audio, and text. Our crafted algorithm lever...
+
+--- [21] 2305.11019v4 ---
+Title: Annotation-free Audio-Visual Segmentation
+Authors: Jinxiang Liu, Yu Wang, Chen Ju, Chaofan Ma, Ya Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2023-05-18
+Summary: The objective of Audio-Visual Segmentation (AVS) is to localise the sounding objects within visual scenes by accurately predicting pixel-wise segmentation masks. To tackle the task, it involves a comprehensive consideration of both the data and model aspects. In this paper, first, we initiate a novel pipeline for generating artificial data for the AVS task without extra manual annotations. We leve...
+
+--- [22] 2305.01836v1 ---
+Title: AV-SAM: Segment Anything Model Meets Audio-Visual Localization and Segmentation
+Authors: Shentong Mo, Yapeng Tian
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.MM, cs.SD, eess.AS
+Published: 2023-05-03
+Summary: Segment Anything Model (SAM) has recently shown its powerful effectiveness in visual segmentation tasks. However, there is less exploration concerning how SAM works on audio-visual tasks, such as visual sound localization and segmentation. In this work, we propose a simple yet effective audio-visual localization and segmentation framework based on the Segment Anything Model, namely AV-SAM, that ca...
+
+--- [23] 2004.14491v1 ---
+Title: Detecting Deep-Fake Videos from Appearance and Behavior
+Authors: Shruti Agarwal, Tarek El-Gaaly, Hany Farid, Ser-Nam Lim
+Primary cat: cs.CV | All cats: cs.CV, cs.LG, cs.MM, eess.IV
+Published: 2020-04-29
+Summary: Synthetically-generated audios and videos -- so-called deep fakes -- continue to capture the imagination of the computer-graphics and computer-vision communities. At the same time, the democratization of access to technology that can create sophisticated manipulated video of anybody saying anything continues to be of concern because of its power to disrupt democratic elections, commit small to lar...
+
+--- [24] 1808.00118v1 ---
+Title: Toward Multimodal Interaction in Scalable Visual Digital Evidence Visualization Using Computer Vision Techniques and ISS
+Authors: Serguei A. Mokhov, Miao Song, Jashanjot Singh, Joey Paquet, Mourad Debbabi et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.CR, cs.HC
+Published: 2018-08-01
+Summary: Visualization requirements in Forensic Lucid have to do with different levels of case knowledge abstraction, representation, aggregation, as well as the operational aspects as the final long-term goal of this proposal. It encompasses anything from the finer detailed representation of hierarchical contexts to Forensic Lucid programs, to the documented evidence and its management, its linkage to pro...
+
+--- [25] 1804.07958v1 ---
+Title: Expert Finding in Community Question Answering: A Review
+Authors: Sha Yuan, Yu Zhang, Jie Tang, Juan Bautista Cabotà
+Primary cat: cs.IR | All cats: cs.IR, cs.CL
+Published: 2018-04-21
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aanything-to-anything+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: The rapid development recently of Community Question Answering (CQA) satisfies users quest for professional and personal knowledge about anything. In CQA, one central issue is to find users with expertise and willingness to answer the given questions. Expert finding in CQA often exhibits very different challenges compared to traditional methods. Sparse data and new features violate fundamental ass...
+

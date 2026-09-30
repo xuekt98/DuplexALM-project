@@ -1,0 +1,177 @@
+--- [1] 2608.16143v1 ---
+Title: AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model
+Authors: Kwan Yun, Serin Yoon, Sunjin Jung, Jung Eun Yoo, Inyup Lee et al.
+Primary cat: cs.GR | All cats: cs.GR, cs.CV, cs.MM, cs.SD
+Published: 2026-08-17
+Summary: We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any animation data. While existing audio-driven 3D speech animation methods rely on character-specific training data or laborious rigging/re-meshing, AnyTalk circumvents these limitations by leveraging recent video diffusion models trained on extensive video datasets. We first adapt a ...
+
+--- [2] 2608.08638v2 ---
+Title: CuteTTS: Efficient and High-Quality Speech Synthesis via Autoregressive Modeling of Continuous Latents
+Authors: Yuqian Zhang, Yao Shi, Kexin Huang, Botian Jiang, Zhe Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-09
+Summary: Zero-shot text-to-speech (TTS) now supports interactive assistants, personalized media, and accessibility tools. All TTS systems require faithful linguistic rendering, consistent speaker identity, and low-latency response. Yet compact streaming systems must preserve sufficient acoustic detail in a predictable low-rate latent sequence, while iterative diffusion sampling and classifier-free guidance...
+
+--- [3] 2608.13602v2 ---
+Title: Omni-LiveAvatar: Minute-Level Real-Time Streaming Joint Audio-Video Avatar Generation
+Authors: Lunjie Zhu, Xingtong Ge, Fangyu Lin, Yi Zhang, Zhening Liu et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-08-07
+Summary: Joint audio-video generative models serve as foundation for immersive and interactive digital-human generation. Nevertheless, most existing models rely on bidirectional attention and multi-step denoising and can generate only short clips, making them unsuitable for real-time interaction over extended durations. We present Omni-LiveAvatar, the first framework for minute-level, real-time streaming j...
+
+--- [4] 2608.05663v2 ---
+Title: Vorch-Streamer: Extending Human Audio-Visual Generation to Real-Time Long-Form Streaming
+Authors: Menglin Han, Yang Ding, Yulei Lu, Haoran Yu, Xin Ma et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-08-06
+Summary: Real-time long-form avatar audio-video generation requires causal, continuous synthesis while maintaining audiovisual synchronization and visual consistency. Adapting a pretrained bidirectional model to this setting presents two key dilemmas. First, autoregressively reusing generated blocks as context creates exposure bias, causing errors and visual drift to accumulate over long rollouts. Second, ...
+
+--- [5] 2608.00079v1 ---
+Title: LeapTalk: Breaking the Latency-Quality Trade-off in Talking Head Generation
+Authors: Rongxiang Zhang, Songhua Liu
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-07-29
+Summary: Long-form and real-time talking-head generation remains challenging due to a latency-quality trade-off: inefficient multi-step diffusion prohibits streaming generation, whereas real-time autoregressive approaches suffer from error accumulation and identity drift. To address this drawback, we propose LeapTalk, a novel framework that achieves stable and real-time talking-head generation with a singl...
+
+--- [6] 2607.26004v1 ---
+Title: Parallel Decoding Distillation for Fast Image and Video Generation
+Authors: Neta Shaul, Chao Liu, Arash Vahdat, Julius Berner
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-07-28
+Summary: Generation in video diffusion or flow models is computationally expensive due to the slow and iterative sampling process. Current state-of-the-art (SOTA) acceleration methods heavily rely on variational score distillation (VSD) and adversarial losses to distill diffusion models into few-step generators. Albeit achieving high-quality video generation, these training losses are notoriously hard to o...
+
+--- [7] 2607.14749v4 ---
+Title: WanSong v1.0 Technical Report
+Authors: Binghui Chen, Pandeng Li, Yu Liu, Jingren Zhou
+Primary cat: eess.AS | All cats: eess.AS, cs.CV
+Published: 2026-07-16
+Summary: Music generation foundation models have recently attracted significant industry attention. However, achieving efficient generation and high-fidelity long-form audio while supporting controllability remains challenging. To address these needs, we present \textbf{WanSong}, a simple yet powerful approach for long-form, commercial-grade song generation. Unlike autoregressive (AR) and cascaded multi-st...
+
+--- [8] 2606.31259v1 ---
+Title: SwiftAudio: Data-Efficient Caption-Only Distillation for One-Step Text-to-Audio Diffusion-based Generation
+Authors: Binh Mai, Tran Quoc Bao Le, Hung Dinh, Cong Tran
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM, eess.AS
+Published: 2026-06-30
+Summary: Diffusion-based text-to-audio (TTA) models achieve impressive synthesis quality but suffer from high inference latency due to iterative multi-step denoising. Existing one-step approaches alleviate this issue but still rely on paired text--audio data during distillation. To address these limitations, we propose SwiftAudio, a one-step TTA framework that performs audio-free distillation from a pretra...
+
+--- [9] 2606.22905v2 ---
+Title: InteractiveAvatar: Real-Time Streaming Video Generation for Consistent and Intent-Aware Avatars
+Authors: Quanyue Song, Yishan He, Yanfei Zhang, Shihao Cheng, Zhixiang He et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-22
+Summary: Recent diffusion-based models have enabled realistic audio-driven avatar generation in real-time streaming. However, existing approaches struggle to maintain visual temporal consistency and fail to explicitly perceive user intent in complex interactive streaming scenarios. To address these challenges, we propose InteractiveAvatar, a real-time infinite-streaming video generation framework that supp...
+
+--- [10] 2606.12555v2 ---
+Title: AudioX-Turbo: A Unified Framework for Efficient Anything-to-Audio Generation
+Authors: Zeyue Tian, Lei Ke, Zhaoyang Liu, Ruibin Yuan, Liumeng Xue et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.MM
+Published: 2026-06-10
+Summary: Audio and music generation based on flexible multimodal control signals is a widely applicable topic, with the following key challenges: 1) a unified multimodal modeling framework, 2) large-scale, high-quality training data, and 3) the prohibitive inference cost of multi-step diffusion sampling. As such, we propose AudioX-Turbo, a unified and efficient framework for anything-to-audio generation th...
+
+--- [11] 2606.11180v1 ---
+Title: Lip Forcing: Few-Step Autoregressive Diffusion for Real-time Lip Synchronization
+Authors: Paul Hyunbin Cho, Jinhyuk Jang, SeokYoung Lee, Joungbin Lee, Siyoon Jin et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-09
+Summary: Diffusion-based lip synchronization models achieve strong visual quality and audio-visual alignment, but full-sequence bidirectional attention and many denoising steps make them impractical for real-time inference. We present Lip Forcing, to our knowledge the first autoregressive diffusion method for video-to-video (V2V) lip synchronization, which distills a 14B audio-conditioned bidirectional vid...
+
+--- [12] 2605.17414v1 ---
+Title: S2Accompanist: A Semantic-Aware and Structure-Guided Diffusion Model for Music Accompaniment Generation
+Authors: Huakang Chen, Wenkai Cheng, Guobin Ma, Chunbo Hao, Yuxuan Xia et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-17
+Summary: High-fidelity text-to-music generation typically relies on massive proprietary datasets and immense computational resources. Existing models often struggle to generate coherent pure musical accompaniments and lack precise, localized semantic control due to their reliance on coarse, track-level annotations. To address these limitations under constrained data and computing resources, we propose S2Ac...
+
+--- [13] 2605.02948v3 ---
+Title: AsymTalker: Identity-Consistent Long-Term Talking Head Generation via Asymmetric Distillation
+Authors: Yuxin Lu, Jiayang Sun, Guibo Zhu, Min Cao
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.SD
+Published: 2026-05-01
+Summary: Diffusion-based talking head generation has achieved remarkable visual quality, yet scaling it to long-term videos remains challenging. The widely adopted chunk-wise paradigm introduces two fundamental failures: (1) temporal-spatial misalignment between static identity references and dynamic audio streams, and (2) cascading identity drift propagated through self-generated continuity references acr...
+
+--- [14] 2605.00329v1 ---
+Title: Fast Text-to-Audio Generation with One-Step Sampling via Energy-Scoring and Auxiliary Contextual Representation Distillation
+Authors: Kuan-Po Huang, Bo-Ru Lu, Byeonggeun Kim, Mihee Lee, Zalan Fabian et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-05-01
+Summary: Autoregressive (AR) models with diffusion heads have recently achieved strong text-to-audio performance, yet their iterative decoding and multi-step sampling process introduce high-latency issues. To address this bottleneck, we propose a one-step sampling framework that combines an energy-distance training objective with representation-level distillation. An energy-scoring head maps Gaussian noise...
+
+--- [15] 2604.23632v1 ---
+Title: Hallo-Live: Real-Time Streaming Joint Audio-Video Avatar Generation with Asynchronous Dual-Stream and Human-Centric Preference Distillation
+Authors: Chunyu Li, Jiaye Li, Ruiqiao Mei, Haoyuan Xia, Hao Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-04-26
+Summary: Real-time text-driven joint audio-video avatar generation requires jointly synthesizing portrait video and speech with high fidelity and precise synchronization, yet existing audio-visual diffusion models remain too slow for interactive use and often degrade noticeably after aggressive acceleration. We present Hallo-Live, a streaming framework for joint audio-visual avatar generation that combines...
+
+--- [16] 2604.14580v2 ---
+Title: TurboTalk: Progressive Distillation for One-Step Audio-Driven Talking Avatar Generation
+Authors: Xiangyu Liu, Feng Gao, Xiaomei Zhang, Yong Zhang, Xiaoming Wei et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-04-16
+Summary: Existing audio-driven video digital human generation models rely on multi-step denoising, resulting in substantial computational overhead that severely limits their deployment in real-world settings. While one-step distillation approaches can significantly accelerate inference, they often suffer from training instability. To address this challenge, we propose TurboTalk, a two-stage progressive dis...
+
+--- [17] 2604.07823v2 ---
+Title: LPM 1.0: Video-based Character Performance Model
+Authors: Ailing Zeng, Casper Yang, Chauncey Ge, Eddie Zhang, Garvey Xu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2026-04-09
+Summary: Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is what makes a character alive. Learning such performance from video is a promising alternative to traditional 3D pipelines. However, existing video models struggle to jointly achieve high expressiveness, real-time inference, and long-horizon identity stability, a tension we call the...
+
+--- [18] 2604.07612v1 ---
+Title: Towards Real-Time Human-AI Musical Co-Performance: Accompaniment Generation with Latent Diffusion Models and MAX/MSP
+Authors: Tornike Karchkhadze, Shlomo Dubnov
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-04-08
+Summary: We present a framework for real-time human-AI musical co-performance, in which a latent diffusion model generates instrumental accompaniment in response to a live stream of context audio. The system combines a MAX/MSP front-end-handling real-time audio input, buffering, and playback-with a Python inference server running the generative model, communicating via OSC/UDP messages. This allows musicia...
+
+--- [19] 2603.14331v2 ---
+Title: AvatarForcing: One-Step Streaming Talking Avatars via Local-Future Sliding-Window Denoising
+Authors: Liyuan Cui, Wentao Hu, Wenyuan Zhang, Zesong Yang, Fan Shi et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-03-15
+Summary: Real-time talking avatar generation requires low latency and minute-level temporal stability. Autoregressive (AR) forcing enables streaming inference but suffers from exposure bias, which causes errors to accumulate and become irreversible over long rollouts. In contrast, full-sequence diffusion transformers mitigate drift but remain computationally prohibitive for real-time long-form synthesis. W...
+
+--- [20] 2603.11647v2 ---
+Title: OmniForcing: Unleashing Real-time Joint Audio-Visual Generation
+Authors: Yaofeng Su, Yuming Li, Zeyue Xue, Jie Huang, Siming Fu et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-03-12
+Summary: Recent joint audio-visual diffusion models achieve remarkable generation quality but suffer from high latency due to their bidirectional attention dependencies, hindering real-time applications. We propose OmniForcing, the first framework to distill an offline, dual-stream bidirectional diffusion model into a high-fidelity streaming autoregressive generator. However, naively applying causal distil...
+
+--- [21] 2603.06057v1 ---
+Title: TempoSyncDiff: Distilled Temporally-Consistent Diffusion for Low-Latency Audio-Driven Talking Head Generation
+Authors: Soumya Mazumdar, Vineet Kumar Rakesh
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.LG, cs.SD
+Published: 2026-03-06
+Summary: Diffusion models have recently advanced photorealistic human synthesis, although practical talking-head generation (THG) remains constrained by high inference latency, temporal instability such as flicker and identity drift, and imperfect audio-visual alignment under challenging speech conditions. This paper introduces TempoSyncDiff, a reference-conditioned latent diffusion framework that explores...
+
+--- [22] 2602.18104v1 ---
+Title: MeanVoiceFlow: One-step Nonparallel Voice Conversion with Mean Flows
+Authors: Takuhiro Kaneko, Hirokazu Kameoka, Kou Tanaka, Yuto Kondo
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, eess.AS
+Published: 2026-02-20
+Summary: In voice conversion (VC) applications, diffusion and flow-matching models have exhibited exceptional speech quality and speaker similarity performances. However, they are limited by slow conversion owing to their iterative inference. Consequently, we propose MeanVoiceFlow, a novel one-step nonparallel VC model based on mean flows, which can be trained from scratch without requiring pretraining or ...
+
+--- [23] 2601.22501v1 ---
+Title: MIRRORTALK: Forging Personalized Avatars Via Disentangled Style and Hierarchical Motion Control
+Authors: Renjie Lu, Xulong Zhang, Xiaoyang Qu, Jianzong Wang, Shangfei Wang
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-01-30
+Summary: Synthesizing personalized talking faces that uphold and highlight a speaker's unique style while maintaining lip-sync accuracy remains a significant challenge. A primary limitation of existing approaches is the intrinsic confounding of speaker-specific talking style and semantic content within facial motions, which prevents the faithful transfer of a speaker's unique persona to arbitrary speech. I...
+
+--- [24] 2512.23576v1 ---
+Title: LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation
+Authors: Ethan Chern, Zhulin Hu, Bohao Tang, Jiadi Su, Steffi Chern et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-12-29
+Summary: Real-time video generation via diffusion is essential for building general-purpose multimodal interactive AI systems. However, the simultaneous denoising of all video frames with bidirectional attention via an iterative process in diffusion models prevents real-time interaction. While existing distillation methods can make the model autoregressive and reduce sampling steps to mitigate this, they f...
+
+--- [25] 2512.23379v3 ---
+Title: SoulX-FlashTalk: Real-Time Infinite Streaming of Audio-Driven Avatars via Self-Correcting Bidirectional Distillation
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Adiffusion+AND+abs%3Adistillation&max_results=25&sortBy=submittedDate&sortOrder=descending
+Authors: Le Shen, Qian Qiao, Tan Yu, Ke Zhou, Tianhang Yu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2025-12-29
+Summary: Deploying massive diffusion models for real-time, infinite-duration, audio-driven avatar generation presents a significant engineering challenge, primarily due to the conflict between computational load and strict latency constraints. Existing approaches often compromise visual fidelity by enforcing strictly unidirectional attention mechanisms or reducing model capacity. To address this problem, w...
+

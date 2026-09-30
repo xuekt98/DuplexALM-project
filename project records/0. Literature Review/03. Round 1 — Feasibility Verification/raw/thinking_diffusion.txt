@@ -1,0 +1,177 @@
+--- [1] 2609.07815v1 ---
+Title: VoT: Vision-of-Thought for Unified Multimodal Representation Alignment
+Authors: Jingxiang Sun, Chao Liao, Zhengxiong Luo, Chaorui Deng, Chen-lin Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL
+Published: 2026-09-07
+Summary: Current text-to-image systems typically employ a "text encoder plus diffusion decoder" paradigm, in which text semantics directly modulate continuous latent noise. Despite their success, these methods lack an explicit, interpretable intermediate representation that effectively bridges high-level linguistic semantics and low-level visual signals. In this paper, we propose Vision-of-Thought (VoT), a...
+
+--- [2] 2608.24319v1 ---
+Title: Can a Dynamic Internal Field Govern a Transformer's Cognition? Certifiability, not Superiority, in Homeostatic Compute Control
+Authors: Francisco M. Arrabal-Campos, Ignacio Fernandez, Francisco G. Montoya, Alfredo Alcayde
+Primary cat: cs.AI | All cats: cs.AI, cs.LG, eess.SY
+Published: 2026-08-25
+Summary: An intelligent system does not merely reason: it governs its own reasoning - how much to compute, when to stop, which module to activate. Can that role be played by a dynamic internal field - a low-dimensional homeostatic state with explicit physics and certified stability - that modulates cognition without performing it? Ours is a field on the module graph governed by a family of PDEs on the grap...
+
+--- [3] 2608.08168v1 ---
+Title: Thinking vs. NoThinking: Towards Interpreting Reasoning Mechanisms of Large Language Models via Sparse Autoencoders
+Authors: Bo Cheng, Qiaolin Lu, Yi Chang, Yuan Wu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-08
+Summary: While Large Language Models (LLMs) employing Chain-of-Thought (CoT) exhibit superior reasoning capabilities, the neural mechanisms distinguishing this explicit Thinking mode from direct answer generation (NoThinking mode) remain poorly understood. To deconstruct this cognitive process, we apply Top-K Sparse Autoencoders (SAEs) to the intermediate representations of DeepSeek-R1-Distill-Qwen-7B and ...
+
+--- [4] 2608.00146v1 ---
+Title: DiffusionGemma Technical Report
+Authors:  DiffusionGemma Team, Adrien Ali Taïga, James Assiene, Daniele Calandriello, Rahma Chaabouni et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-07-31
+Summary: We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text at exceptionally high speed. Rather than decoding one token at a time, DiffusionGemma iteratively refines blocks of 256 tokens in parallel, avoiding the sequential decoding bottleneck of conventional autoregressive (AR) large language models. Instead of training from scratch, we ob...
+
+--- [5] 2607.26647v1 ---
+Title: Anchoring and Steering Diffusion: Enhancing the Faithfulness of Text-to-Image Generation at Inference Time
+Authors: Xinyi Wang, Yuyang Huang, Yalin Su, Pengcheng Luan, Tao Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-29
+Summary: While text-to-image diffusion models achieve impressive visual quality, they frequently struggle to maintain precise alignment with complex compositional prompts. An effective strategy is to improve the inference process of diffusion models, thereby better leveraging their pretrained priors to address misalignment. Existing training-free methods can be divided into two categories. The first catego...
+
+--- [6] 2607.22241v2 ---
+Title: AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment
+Authors: Ziyao Huang, Shunkai Li, Juan Cao, Chenyu Li, Youliang Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-24
+Summary: Recent advances in video diffusion models have spurred interest in human-object interaction (HOI) video generation, which demands fine-grained control over interaction logic beyond single-subject animation. However, existing HOI methods rely heavily on explicit motion control, limiting scalability and generalization across diverse objects and interactions. In this study, we propose AgentHOI, a tex...
+
+--- [7] 2606.28758v1 ---
+Title: X-Mind: Efficient Visual Chain-of-Thought via Predictive World Model for End-to-End Driving
+Authors: Bohao Zhao, Chengrui Wei, Guangfeng Jiang, Ruixin Liu, Xuejie Lv et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-06-27
+Summary: Predicting future states is essential for autonomous agents, yet current Vision-Language-Action (VLA) models fundamentally lack this capability, relying instead on reactive perception-action mapping. While integrating Predictive World Models (PWMs) addresses this gap, existing approaches either incur prohibitive cascaded latency or act as shallow terminal tasks that fail to deeply embed forward-lo...
+
+--- [8] 2606.19315v1 ---
+Title: Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation
+Authors: Ruida Wang, Rui Pan, Pengcheng Wang, Shizhe Diao, Tong Zhang
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-06-17
+Summary: Enhancing the formal math reasoning capabilities of Large Language Models (LLMs) has become a key focus in both mathematical and computer science communities in recent years. While significant progress has been made in using state-of-the-art Auto-Regressive (AR) LLMs for formal theorem proving, these models suffer from inherent limitations. Their next-token prediction generation methods may yield ...
+
+--- [9] 2605.30311v1 ---
+Title: Archon: A Unified Multimodal Model for Holistic Digital Human Generation
+Authors: Chong Bao, Shichen Liu, Lijun Yu, David Futschik, Stylianos Moschoglou et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-05-28
+Summary: Digital humans are fundamental to immersive interaction, yet creating a unified model for holistic modalities, including text, audio, motion, and visual content, remains an open challenge. In this paper, we present Archon, a fully pretrained, human-centric unified multimodal model for holistic avatar generation. Archon unifies seven modalities with modality-specific tokenizers, and a native autore...
+
+--- [10] 2605.26483v1 ---
+Title: Clinically-Grounded Counterfactual Reasoning for Medical Video Diagnosis
+Authors: Jianzhe Gao, Churan Wang, Weiyi Zhang, Jianghua Li, Li-An Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-26
+Summary: Medical video diagnosis involves inferring clinical decisions from dynamic tissue responses throughout examination processes. Existing methods rely on an end-to-end learning paradigm that i) focuses on appearance rather than pathology, ii) lacks clinical priors, and iii) reasons solely from observations without counterfactual comparison. This work introduces MedVCR, a counterfactual reasoning fram...
+
+--- [11] 2605.22967v3 ---
+Title: Learned Relay Representations for Forward-Thinking Discrete Diffusion Models
+Authors: Benjamin Rozonoyer, Jacopo Minniti, Dhruvesh Patel, Neil Band, Avishek Joey Bose et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-05-21
+Summary: When Masked Diffusion Models (MDMs) generate sequences through iterative refinement, the rich internal computation over masked positions is discarded, forcing every subsequent refinement step to recompute the valuable internal information stored as model representations. To avoid a hard reset between denoising rounds, we propose Learned Relay Representations (Relay), a method that allows MDMs to b...
+
+--- [12] 2605.14344v2 ---
+Title: CrystalReasoner: Reasoning and RL for Property-Conditioned Crystal Structure Generation
+Authors: Yuyang Wu, Stefano Falletta, Delia McGrath, Sherry Yang
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-05-14
+Summary: Generative modeling has emerged as a promising approach for crystal structure discovery. However, existing LLM-based generative models struggle with low-level atomic precision, while diffusion-based methods fall short in integrating high-level scientific knowledge. As a result, generated structures are often invalid, unstable, or do not possess desirable properties. To address this gap, we propose...
+
+--- [13] 2605.00788v1 ---
+Title: Repurposing Image Diffusion Models for Adversarial Synthetic Structured Data: A Case Study of Ground Truth Drift
+Authors: Adam Arthur, Christopher Schwartz
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-05-01
+Summary: Public image diffusion models are now powerful enough that an attacker without the resources to train a tabular-specific generator may repurpose one off the shelf. This study tests that possibility directly. An unmodified Stable Diffusion U-Net is applied to the UCI Adult Income dataset by reshaping each row into a small single-channel pseudo-image. The architecture's inductive bias toward spatial...
+
+--- [14] 2604.25050v3 ---
+Title: DiscreteRTC: Discrete Diffusion Policies are Natural Asynchronous Executors
+Authors: Pengcheng Wang, Kaiwen Hong, Chensheng Peng, Katherine Driggs-Campbell, Masayoshi Tomizuka et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-04-27
+Summary: Unlike chatbots, physical AI must act while the world keeps evolving. Therefore, the inter-chunk pause of synchronous executors are fatal for dynamic tasks regardless of how fast the inference is. Asynchronous execution -- thinking while acting -- is therefore a structural requirement, and real-time chunking (RTC) makes it viable by recasting chunk transitions as inpainting: freezing committed act...
+
+--- [15] 2604.19149v1 ---
+Title: How Do Answer Tokens Read Reasoning Traces? Self-Reading Patterns in Thinking LLMs for Quantitative Reasoning
+Authors: Haoyang Chen, Yi Liu, Jianzhi Shao, Tao Zhang, Chengfu Huo et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-04-21
+Summary: Thinking LLMs produce reasoning traces before answering. Prior activation steering work mainly targets on shaping these traces. It remains less understood how answer tokens actually read and integrate the reasoning to produce reliable outcomes. Focusing on quantitative reasoning, we analyze the answer-to-reasoning attention and observe a benign self-reading pattern aligned with correctness, charac...
+
+--- [16] 2604.13540v1 ---
+Title: Free Lunch for Unified Multimodal Models: Enhancing Generation via Reflective Rectification with Inherent Understanding
+Authors: Yibo Jiang, Tao Wu, Rui Jiang, Yehao Lu, Chaoxiang Cai et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-04-15
+Summary: Unified Multimodal Models (UMMs) aim to integrate visual understanding and generation within a single structure. However, these models exhibit a notable capability mismatch, where their understanding capability significantly outperforms their generation. This mismatch indicates that the model's rich internal knowledge, while effective for understanding tasks, remains underactivated during generati...
+
+--- [17] 2602.21778v2 ---
+Title: From Statics to Dynamics: Physics-Aware Image Editing with Latent Transition Priors
+Authors: Liangbing Zhao, Le Zhuo, Sayak Paul, Hongsheng Li, Mohamed Elhoseiny
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-25
+Summary: Instruction-based image editing has achieved remarkable success in semantic alignment, yet state-of-the-art models frequently fail to render physically plausible results when editing involves complex causal dynamics, such as refraction or material deformation. We attribute this limitation to the dominant paradigm that treats editing as a discrete mapping between image pairs, which provides only bo...
+
+--- [18] 2602.20528v1 ---
+Title: Stop-Think-AutoRegress: Language Modeling with Latent Diffusion Planning
+Authors: Justin Lovelace, Christian Belardi, Sofian Zalouk, Adhitya Polavaram, Srivatsa Kundurthy et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.LG
+Published: 2026-02-24
+Summary: The Stop-Think-AutoRegress Language Diffusion Model (STAR-LDM) integrates latent diffusion planning with autoregressive generation. Unlike conventional autoregressive language models limited to token-by-token decisions, STAR-LDM incorporates a "thinking" phase that pauses generation to refine a semantic plan through diffusion before continuing. This enables global planning in continuous space prio...
+
+--- [19] 2602.11242v1 ---
+Title: ReTracing: An Archaeological Approach Through Body, Machine, and Generative Systems
+Authors: Yitong Wang, Yue Yao
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-11
+Summary: We present ReTracing, a multi-agent embodied performance art that adopts an archaeological approach to examine how artificial intelligence shapes, constrains, and produces bodily movement. Drawing from science-fiction novels, the project extracts sentences that describe human-machine interaction. We use large language models (LLMs) to generate paired prompts "what to do" and "what not to do" for e...
+
+--- [20] 2602.09744v2 ---
+Title: DiffuReason: Bridging Latent Reasoning and Generative Refinement for Sequential Recommendation
+Authors: Jie Jiang, Yang Wu, Qian Li, Yuling Xiong, Yihang Su et al.
+Primary cat: cs.IR | All cats: cs.IR
+Published: 2026-02-10
+Summary: Latent reasoning has emerged as a promising paradigm for sequential recommendation, enabling models to capture complex user intent through multi-step deliberation. Yet existing approaches often rely on deterministic latent chains that accumulate noise and overlook the uncertainty inherent in user intent, and they are typically trained in staged pipelines that hinder joint optimization and explorat...
+
+--- [21] 2602.09555v3 ---
+Title: Adaptive Test-Time Compute Allocation for Block Diffusion Language Models in Complex Reasoning
+Authors: Yi Lu, Deyang Kong, Jianing Wang, Linsen Guo, Xue Wang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-02-10
+Summary: Recent advances in block diffusion language models have demonstrated competitive performance and strong scalability on reasoning tasks. However, their test-time compute allocation remains largely unexplored, leaving a critical speed-effectiveness trade-off unresolved in long Chain-of-Thought reasoning. To address this, we propose a unified test-time compute allocation framework that introduces ada...
+
+--- [22] 2602.07035v1 ---
+Title: DLLM-Searcher: Adapting Diffusion Large Language Model for Search Agents
+Authors: Jiahao Zhao, Shaoxuan Xu, Zhongxiang Sun, Fengqi Zhu, Jingyang Ou et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-02-03
+Summary: Recently, Diffusion Large Language Models (dLLMs) have demonstrated unique efficiency advantages, enabled by their inherently parallel decoding mechanism and flexible generation paradigm. Meanwhile, despite the rapid advancement of Search Agents, their practical deployment is constrained by a fundamental limitation, termed as 1) Latency Challenge: the serial execution of multi-round reasoning, too...
+
+--- [23] 2601.22889v1 ---
+Title: DiffuSpeech: Silent Thought, Spoken Answer via Unified Speech-Text Diffusion
+Authors: Yuxuan Lou, Ziming Wu, Yaochen Wang, Yong Liu, Yingxuan Ren et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG, cs.SD
+Published: 2026-01-30
+Summary: Current speech language models generate responses directly without explicit reasoning, leading to errors that cannot be corrected once audio is produced. We introduce \textbf{``Silent Thought, Spoken Answer''} -- a paradigm where speech LLMs generate internal text reasoning alongside spoken responses, with thinking traces informing speech quality. To realize this, we present \method{}, the first d...
+
+--- [24] 2601.14041v1 ---
+Title: Top 10 Open Challenges Steering the Future of Diffusion Language Model and Its Variants
+Authors: Yunhe Wang, Kai Han, Huiling Zhen, Yuchuan Tian, Hanting Chen et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-01-20
+Summary: The paradigm of Large Language Models (LLMs) is currently defined by auto-regressive (AR) architectures, which generate text through a sequential ``brick-by-brick'' process. Despite their success, AR models are inherently constrained by a causal bottleneck that limits global structural foresight and iterative refinement. Diffusion Language Models (DLMs) offer a transformative alternative, conceptu...
+
+--- [25] 2601.10332v1 ---
+Title: Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Athinking+AND+abs%3Adiffusion&max_results=25&sortBy=submittedDate&sortOrder=descending
+Authors: Siqi Kou, Jiachun Jin, Zetong Zhou, Ye Ma, Yugang Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-01-15
+Summary: Recent progress in text-to-image (T2I) diffusion models (DMs) has enabled high-quality visual synthesis from diverse textual prompts. Yet, most existing T2I DMs, even those equipped with large language model (LLM)-based text encoders, remain text-pixel mappers -- they employ LLMs merely as text encoders, without leveraging their inherent reasoning capabilities to infer what should be visually depi...
+

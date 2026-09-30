@@ -1,0 +1,44 @@
+# Total entries: 6
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aediting+AND+abs%3Asurvey&max_results=15&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.20379v1 ---
+Title: A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications
+Authors: Neel Mokaria, Rishie Raj, Dheeraj Baiju, Xiaoqian Shen, Shraman Pramanick et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-28
+Summary: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video...
+
+--- [2] 2606.23139v1 ---
+Title: Audio Editing in the Era of Foundation Models: A Survey
+Authors: Changhao Pan, Yifei Fan, Fan Zhuo, Yifu Chen, Wenxiang Guo et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-22
+Summary: Audio editing aims to modify a given synthetic or real-world audio signal to satisfy specific user needs. As a promising yet challenging direction in AIGC, it has attracted increasing attention. Recent advances in audio generation have made powerful generative models central to modern audio editing systems. This rapid progress has created a growing need to organize emerging tasks, methods, and res...
+
+--- [3] 2603.06623v1 ---
+Title: Advances in GRPO for Generation Models: A Survey
+Authors: Zexiang Liu, Xianglong He, Yangguang Li
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-02-21
+Summary: Large-scale flow matching models have achieved strong performance across generative tasks such as text-to-image, video, 3D, and speech synthesis. However, aligning their outputs with human preferences and task-specific objectives remains challenging. Flow-GRPO extends Group Relative Policy Optimization (GRPO) to generation models, enabling stable reinforcement learning alignment for generative sys...
+
+--- [4] 2412.03220v1 ---
+Title: Survey of different Large Language Model Architectures: Trends, Benchmarks, and Challenges
+Authors: Minghao Shao, Abdul Basit, Ramesh Karri, Muhammad Shafique
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2024-12-04
+Summary: Large Language Models (LLMs) represent a class of deep learning models adept at understanding natural language and generating coherent responses to various prompts or queries. These models far exceed the complexity of conventional neural networks, often encompassing dozens of neural network layers and containing billions to trillions of parameters. They are typically trained on vast datasets, util...
+
+--- [5] 2409.05405v2 ---
+Title: A Survey of Multimodal Composite Editing and Retrieval
+Authors: Suyan Li, Fuxiang Huang, Lei Zhang
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.IR, cs.MM
+Published: 2024-09-09
+Summary: In the real world, where information is abundant and diverse across different modalities, understanding and utilizing various data types to improve retrieval systems is a key focus of research. Multimodal composite retrieval integrates diverse modalities such as text, image and audio, etc. to provide more accurate, personalized, and contextually relevant results. To facilitate a deeper understandi...
+
+--- [6] 2405.19334v2 ---
+Title: LLMs Meet Multimodal Generation and Editing: A Survey
+Authors: Yingqing He, Zhaoyang Liu, Jingye Chen, Zeyue Tian, Hongyu Liu et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV, cs.MM, cs.SD
+Published: 2024-05-29
+Summary: With the recent advancement in large language models (LLMs), there is a growing interest in combining LLMs with multimodal learning. Previous surveys of multimodal large language models (MLLMs) mainly focus on multimodal understanding. This survey elaborates on multimodal generation and editing across various domains, comprising image, video, 3D, and audio. Specifically, we summarize the notable a...
+

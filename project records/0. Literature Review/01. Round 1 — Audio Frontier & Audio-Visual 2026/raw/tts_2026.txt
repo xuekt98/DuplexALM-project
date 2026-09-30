@@ -1,0 +1,65 @@
+# Total entries: 9
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22text-to-speech%22+AND+abs%3A%222026%22&max_results=30&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.11706v1 ---
+Title: VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion
+Authors: Aastha Sharma, Guangjing Wang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-13
+Summary: Modern LLM-driven text-to-speech (TTS) and voice conversion (VC) systems produce synthetic speech that differs from the generators represented in many legacy spoofing benchmarks. This mismatch creates a temporal generalization gap that can overestimate detector robustness under real-world post-processing conditions. We bridge this gap by introducing VoxENES 2026, a bilingual (English and Spanish) ...
+
+--- [2] 2606.26003v2 ---
+Title: Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect
+Authors: Dihia Lanasri, Rebeh Imane Ammar Aouchiche, Abdelkarim Remmide, Fairouz Taki, Asma Kemmoum
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-06-24
+Summary: Automatic speech and language technologies are still heavily biased toward high-resource languages, limiting their applicability to dialectal and low-resource settings such as Algerian Dialect. This language presents additional challenges including lack of standardized orthography, frequent codeswitching with French, and scarcity of annotated speech resources. This paper addresses the problem of b...
+
+--- [3] 2606.21933v1 ---
+Title: ISCSLP 2026 CoT-TTS Challenge: Chain-of-Thought Reasoning for Context-Aware Text-to-Speech
+Authors: Wei Xue, Junlan Feng, Shilei Zhang, Yue Wang, Ruosong Yang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-20
+Summary: Recent advances in text-to-speech (TTS) have greatly improved speech naturalness, speaker similarity, and controllability. However, most existing controllable TTS systems still rely on explicit user-provided style prompts, making it difficult to automatically determine how a sentence should be spoken in long and complex conversational scenarios. This proposal introduces the ISCSLP 2026 CoT-TTS Cha...
+
+--- [4] 2606.07240v1 ---
+Title: KIT's Submission to Cross-Lingual Voice Cloning in IWSLT 2026
+Authors: Seymanur Akti, Alexander Waibel
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-06-05
+Summary: Cross-lingual voice cloning aims to generate speech in a target language while preserving speaker identity from a source-language reference. This task is central to speech translation and is the focus of the IWSLT 2026 Cross-Lingual Voice Cloning track. A key challenge is maintaining intelligibility and naturalness in the presence of accent variation and domain-specific vocabulary. We build on a m...
+
+--- [5] 2605.26978v1 ---
+Title: PashtoTTS-Bench: automated screening for low-resource non-Latin-script text-to-speech
+Authors: Hanif Rahman
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-05-26
+Summary: Text-to-speech (TTS) evaluation for low-resource non-Latin-script languages can fail when it relies on a single ASR round-trip word error rate (WER). A system may produce no audio, speak a neighbouring language, preserve target script text only in an ASR transcript, or sound unnatural to native listeners. We introduce INSV (Intelligibility, Naturalness, Script fidelity, and Verification), a report...
+
+--- [6] 2605.25928v1 ---
+Title: Thaka at KSAA-2026 Task 2: Regularized Fine-Tuning for Arabic Speech Diacritization
+Authors: Meshal Alamr, Hassan Alqaeri, Abdullah Aldahlawi
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-05-25
+Summary: We describe the winning system for Task 2 of the KSAA-2026 Shared Task on Arabic Speech Dictation with Automatic Diacritization. The task requires producing fully diacritized Arabic text from speech audio and undiacritized transcripts, with only 2,327 training samples available and no external data permitted. Our system fine-tunes CATT-Whisper, a character-level multimodal model combining a pretra...
+
+--- [7] 2603.08092v1 ---
+Title: Language-Invariant Multilingual Speaker Verification for the TidyVoice 2026 Challenge
+Authors: Ze Li, Xiaoxiao Miao, Juan Liu, Ming Li
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-03-09
+Summary: Multilingual speaker verification (SV) remains challenging due to limited cross-lingual data and language-dependent information in speaker embeddings. This paper presents a language-invariant multilingual SV system for the TidyVoice 2026 Challenge. We adopt the multilingual self-supervised w2v-BERT 2.0 model as the backbone, enhanced with Layer Adapters and Multi-scale Feature Aggregation to bette...
+
+--- [8] 2601.07303v5 ---
+Title: ESDD2: Environment-Aware Speech and Sound Deepfake Detection Challenge Evaluation Plan
+Authors: Xueping Zhang, Han Yin, Yang Xiao, Lin Zhang, Ting Dang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-01-12
+Summary: Audio recorded in real-world environments often contains a mixture of foreground speech and background environmental sounds. With rapid advances in text-to-speech, voice conversion, and other generation models, either component can now be modified independently. Such component-level manipulations are harder to detect, as the remaining unaltered component can mislead the systems designed for whole ...
+
+--- [9] 2408.17352v2 ---
+Title: AASIST3: KAN-Enhanced AASIST Speech Deepfake Detection using SSL Features and Additional Regularization for the ASVspoof 2024 Challenge
+Authors: Kirill Borodin, Vasiliy Kudryavtsev, Dmitrii Korzh, Alexey Efimenko, Grach Mkrtchian et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2024-08-30
+Summary: Automatic Speaker Verification (ASV) systems, which identify speakers based on their voice characteristics, have numerous applications, such as user authentication in financial transactions, exclusive access control in smart devices, and forensic fraud detection. However, the advancement of deep learning algorithms has enabled the generation of synthetic audio through Text-to-Speech (TTS) and Voic...
+

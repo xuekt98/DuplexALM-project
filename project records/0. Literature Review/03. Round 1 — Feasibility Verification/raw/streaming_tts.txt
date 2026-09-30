@@ -1,0 +1,177 @@
+--- [1] 2608.18661v1 ---
+Title: X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Text with Speech-State Inheritance
+Authors: Rime Wen, Zehan Liu, Shawn Qin, Lights Shi, Roy Gan et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-19
+Summary: Streaming text-to-speech is essential for low-latency spoken dialogue systems, yet many systems wait for sentence-level text and are therefore only pseudo-streaming. True token-level synthesis must generate speech from uncertain prefixes while maintaining perceptual continuity over an unbounded stream with bounded context. We present X2Streaming-TTS, a causal TTS framework that consumes asynchrono...
+
+--- [2] 2608.13831v1 ---
+Title: VoiceChat-TTS: A Low-Latency Continuous Speech Synthesis Model for Interactive Agents
+Authors: Edresson Casanova, Jaehyeon Kim, Mariana Graterol Fuenmayor, Shehzeen Hussain, Viacheslav Klimkov et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL
+Published: 2026-08-13
+Summary: Spoken dialogue is a natural form of human--computer interaction, yet most speech language models remain limited to turn-based operation and lack real-time adaptability, such as user barge-in. Recent duplex speech-to-speech and speech-to-text models reduce latency by replacing multi-stage pipelines, but often compromise speech quality because accurate ASR, interruption handling, and high-fidelity ...
+
+--- [3] 2608.12951v2 ---
+Title: VoxAudio: Vocalized Audio Synthesis via Multi-Reward Autoregressive Flow Matching
+Authors: Wenxiang Guo, Changhao Pan, Ziyue Jiang, Zhou Zhao, Fei Wu
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-13
+Summary: Vocalized audio synthesis, the task of generating audio in which intelligible speech is embedded within an environmental soundscape, underpins applications such as podcast production and video dubbing. Existing Text-to-Audio (T2A) systems either reduce quoted speech to unintelligible vocal murmur or delegate it to a separate TTS model with post-hoc mixing, which forfeits control over when speech o...
+
+--- [4] 2608.08638v2 ---
+Title: CuteTTS: Efficient and High-Quality Speech Synthesis via Autoregressive Modeling of Continuous Latents
+Authors: Yuqian Zhang, Yao Shi, Kexin Huang, Botian Jiang, Zhe Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-09
+Summary: Zero-shot text-to-speech (TTS) now supports interactive assistants, personalized media, and accessibility tools. All TTS systems require faithful linguistic rendering, consistent speaker identity, and low-latency response. Yet compact streaming systems must preserve sufficient acoustic detail in a predictable low-rate latent sequence, while iterative diffusion sampling and classifier-free guidance...
+
+--- [5] 2608.08286v1 ---
+Title: ReLMCodec: Designing Predictable Speech Tokens from Pre-Quantization Phoneme Structure
+Authors: Zixiang Wan, Xusheng Yang, Zheng Wang, Peiji Yang
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-08
+Summary: Neural speech codecs face a fundamental tension in the language-model era: tokens that support high-fidelity reconstruction are not necessarily easy for autoregressive models to predict. Our controlled analysis of diverse codec and self-supervised speech representations shows that clearer phoneme structure before discrete code assignment is consistently associated with easier autoregressive token ...
+
+--- [6] 2607.21042v1 ---
+Title: Faster IndexTTS-2: Accelerating and Streaming Autoregressive Zero-Shot Text-to-Speech Synthesis on GPUs
+Authors: Muyang Du, Shuang Yu, Junjie Lai
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-07-23
+Summary: Autoregressive text-to-speech models achieve strong naturalness but suffer from slow inference due to sequential token generation, limiting their deployment in production applications that require low latency. IndexTTS-2 is a state-of-the-art autoregressive TTS model consisting of a GPT, a flow-matching Diffusion Transformer, and a vocoder. Despite its high synthesis quality, its inference speed b...
+
+--- [7] 2607.17544v1 ---
+Title: X-Translator: A Real-Time Multilingual Speaker-Aware Speech-to-Speech Translation System
+Authors: Yuxiang Zhao, Yichi Zhang, Yanjie An, Yanqiao Zhu, Zhanxun Liu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-07-20
+Summary: Real-time speech-to-speech translation (S2ST) systems must balance translation quality, latency, speech naturalness, and speaker consistency. Publicly documented S2ST systems have advanced direct, multilingual, streaming, and expressive modeling, while proprietary products and APIs increasingly expose real-time translation capabilities to users. However, practical deployment remains challenging fo...
+
+--- [8] 2607.08936v1 ---
+Title: A Tensor-Train Discontinuous Galerkin Method for the Vlasov-Maxwell System
+Authors: Rujeko Chinomona, Dibyendu Adak, William J. Barham, Duc P. Truong, Nathan V. Roberts et al.
+Primary cat: math.NA | All cats: math.NA
+Published: 2026-07-09
+Summary: We present a tensor-train discontinuous Galerkin (TT-DG) formulation for the Vlasov--Maxwell system that combines a modal DG discretization with low-rank tensor representations of the phase-space solution and discrete operators. The formulation exploits the tensor-product structure of the DG discretization to perform quadrature, differentiation, nonlinear upwind flux evaluation, and time integrati...
+
+--- [9] 2609.04222v1 ---
+Title: GEPARD - Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue
+Authors: Denis Pavlov, Ulanbek Abdurazakov, Nursultan Bakashov
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2026-07-04
+Summary: We present GEPARD (Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue), a streaming text-to-speech model for real-time spoken dialogue. GEPARD generates speech autoregressively with an LLM backbone - text and audio embeddings are trained together in a single decoder-only model - and decodes it to a waveform with an FSQ-based neural codec, streaming audio chunk-by-...
+
+--- [10] 2606.31061v1 ---
+Title: Online TT-ALS for Streaming Tensor Decomposition with Incremental Orthogonalization
+Authors: Hiroki Takeda, Yuto Miyatake, Daisuke Furihata
+Primary cat: math.NA | All cats: math.NA, cs.CV, cs.LG
+Published: 2026-06-30
+Summary: Tensor Train (TT) decomposition is a powerful technique for analyzing high-dimensional data. Existing algorithms for computing TT decompositions can be categorized into two main types: conventional batch-based approaches and recursive online methods. In the context of streaming data, batch methods typically achieve higher reconstruction accuracy but often suffer from memory exhaustion, while onlin...
+
+--- [11] 2606.26900v1 ---
+Title: Incremental Tensor-Train Compression from Streaming TT-Formatted Data: Applications to Reduced-Order Modeling
+Authors: Wei Guo, Zhichao Peng
+Primary cat: math.NA | All cats: math.NA
+Published: 2026-06-25
+Summary: High-dimensional tensor data streams arise naturally in scientific and engineering applications, such as simulations of kinetic equations and quantum systems, where samples become available sequentially and are often already represented in compressed low-rank tensor formats. Existing streaming tensor-train (TT) algorithms typically construct or update representations from dense tensor data or rand...
+
+--- [12] 2606.25041v3 ---
+Title: Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models
+Authors: Lianghua Huang, Zhi-Fan Wu, Wei Wang, Yupeng Shi, Mengyang Feng et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.GR, cs.SD
+Published: 2026-06-23
+Summary: We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for real-time, low-latency, full-duplex audio-visual interaction. Wan-Streamer seamlessly models language, audio, and video as both input and output within a single Transformer, where the sequence is represented as interleaved visual, audio, and text input tokens together with visual, a...
+
+--- [13] 2606.24320v2 ---
+Title: ZONOS2 Technical Report
+Authors: Gabriel Clark, Sofian Mejjoute, Mohamed Osman, George Close, Beren Millidge
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-23
+Summary: We present ZONOS2 8B, our latest TTS model, which achieves state-of-the-art naturalness, prosody, and voice cloning fidelity. We improve upon Zonos-v0.1 across scale, data, and training recipe. We scale the model from 1.6B to 8B total parameters (900M active) with a novel mixture-of-experts (MoE) backbone, improving inference latency and throughput. We expand our training corpus from 200K to over ...
+
+--- [14] 2606.21882v1 ---
+Title: Streaming T5-based Text-to-Speech Synthesis with Limited Lookahead
+Authors: Muyang Du, Jason Roche, Junjie Lai
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-20
+Summary: Streaming text-to-speech synthesis in cascaded LLM-TTS systems still faces latency challenges as most TTS models require full context before initiating generation. We present S5-TTS, a streaming variant of T5-TTS that enables low-latency, word-by-word incremental speech synthesis through encoder-decoder language modeling and monotonic alignment learning. S5-TTS begins generating speech immediately...
+
+--- [15] 2606.14777v1 ---
+Title: JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence
+Authors: Dingyu Yao, Junhao Zhou, Chenxu Yang, Chuanyu Qin, Haowen Hou et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-06-10
+Summary: Many moments in the real world do not wait for a user to ask. A fire starts on a security monitor, an expression flickers across a video call, or a product a viewer wants flashes by in a livestream. Yet today's large models remain mostly turn-based by design: they answer only when addressed, and even video-call apps that appear interactive still operate as question-answer systems, reacting only wh...
+
+--- [16] 2606.11611v1 ---
+Title: SARA: A Dual-Stream VAE for High-Fidelity Speech Generation via Integrating Semantic and Acoustic Representations
+Authors: Peijie Chen, Wenhao Guan, Weijie Wu, Kaidi Wang, Daiyu Huang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-10
+Summary: Zero-shot text-to-speech (TTS) relies on robust speech representations. However, current speech tokenizers face a fundamental trade-off: acoustic codecs preserve high-fidelity audio but lack linguistic constraints, causing content errors during generation, whereas semantic tokens from self-supervised learning (SSL) models ensure precise text alignment but discard some acoustic information. To brid...
+
+--- [17] 2606.10029v1 ---
+Title: Interpreting and Steering a Text-to-Speech Language Model with Sparse Autoencoders
+Authors: Nikita Koriagin, Georgii Aparin, Nikita Balagansky, Daniil Gavrilov
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL
+Published: 2026-06-08
+Summary: Language models increasingly serve as the backbone of text-to-speech (TTS) systems, yet we understand little about the representations they build when text and generated speech tokens share a single residual stream. We train BatchTopK sparse autoencoders on the LM backbone of CosyVoice3 and introduce a modality-aware auto-interp pipeline that labels each feature from where it fires-text-prefix con...
+
+--- [18] 2606.09141v2 ---
+Title: FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation
+Authors: Hanke Xie, Xiaming Ren, Dake Guo, Ruonan You, Wenhao Li et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-08
+Summary: Recent progress in speech dialogue systems requires Text-to-Speech (TTS) models to be faster and more responsive. Modern speech dialogue systems impose two primary requirements on TTS models: low latency and support for streaming inputs and outputs. However, most existing single-codebook LLM-based TTS methods rely on multi-stage pipelines that lack native streaming capabilities. These systems typi...
+
+--- [19] 2606.09098v2 ---
+Title: HoliDubber: Holistic Video Dubbing for Complex Acoustic Scenes via Text-Guided Audio Synthesis
+Authors: Wenhao Guan, Yifan Duan, Junxi Liu, Yu Gu, Feng Dang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-08
+Summary: Video dubbing is a cornerstone of multimedia content creation, aiming to synthesize synchronized acoustic sequences for visual streams. While Text-to-Speech (TTS) and Text-to-Audio (TTA) generation have each achieved remarkable progress, existing dubbing systems remain confined to isolated speech synthesis without incorporating sound effects and ambient audio, forcing practitioners to rely on frag...
+
+--- [20] 2606.07080v2 ---
+Title: dots.tts Technical Report
+Authors: Shi Lian, Changtao Li, Bohan Li, Hankun Wang, Da Zheng et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-06-05
+Summary: We present dots$.$tts, a 2B-parameter continuous autoregressive text-to-speech (TTS) foundation model that models speech in a continuous latent space. Compared with existing continuous autoregressive models, our key innovations are threefold. First, we train an AudioVAE with multiple objectives to build a semantically structured and prediction-friendly continuous speech space. Second, we use full-...
+
+--- [21] 2606.02739v2 ---
+Title: EntangleCodec: A Unified Discrete Audio Tokenizer via Semantic-Acoustic Entanglement
+Authors: Hui Li, Yangfan Gao, Junlin Shang, Changhao Jiang, Tao Gui et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-06-01
+Summary: Audio tokenizers serve as the discrete interface between continuous audio and Audio Language Models (ALMs), but existing tokenizers often struggle to support both understanding and generation. Reconstruction-oriented codecs preserve acoustic fidelity but lack rich semantics, while semantic-aware tokenizers typically rely on separate semantic and acoustic streams, introducing redundancy or misalign...
+
+--- [22] 2605.30748v3 ---
+Title: Chatterbox-Flash: Prior-Calibrated Block Diffusion for Streaming Zero-Shot TTS
+Authors: Deokjin Seo, Gangin Park, Kihyun Nam
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-05-29
+Summary: We present Chatterbox-Flash, a zero-shot text-to-speech model obtained by fine-tuning a pretrained autoregressive TTS decoder into a block-diffusion decoder, enabling parallel token generation within each block while retaining block-by-block streaming. We find that naively transferring mainstream block-diffusion decoding to discrete speech tokens degrades quality, as a long-tail token distribution...
+
+--- [23] 2605.27190v1 ---
+Title: Learning When to Think While Listening in Large Audio-Language Models
+Authors: Zhiyuan Song, Weici Zhao, Yang Xiao, Suhao Yu, Cheng Zhu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG, cs.SD
+Published: 2026-05-26
+Summary: Recent advances in Large Audio-Language Models (LALMs) have made real-time, streaming spoken interaction increasingly practical. In this setting, reasoning quality and responsiveness are tightly coupled: delaying reasoning until the speech endpoint can improve answer quality but moves deliberation into user-visible response delay, while answering too early risks committing before decisive evidence...
+
+--- [24] 2605.17583v1 ---
+Title: AgentSteerTTS: A Multi-Agent Closed-Loop Framework for Composite-Instruction Text-to-Speech
+Authors: Bin Kang, Shaoguo Wen, Yang Fan, Shunlong Wu, Junjie Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-14
+Summary: While existing text-to-speech (TTS) models exhibit high expressiveness, fine-grained control over composite instructions remains challenging due to the structural mismatch between discrete textual intents and continuous acoustic realizations. Inspired by human cognitive decoupling, we introduce AgentSteerTTS, a multi-agent closed-loop framework designed for intent-faithful expressive control of co...
+
+--- [25] 2605.04461v1 ---
+Title: Stream-T1: Test-Time Scaling for Streaming Video Generation
+Authors: Yijing Tu, Shaojin Wu, Mengqi Huang, Wenchuan Wang, Yuxin Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-06
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Astreaming+AND+abs%3Atts&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: While Test-Time Scaling (TTS) offers a promising direction to enhance video generation without the surging costs of training, current test-time video generation methods based on diffusion models suffer from exorbitant candidate exploration costs and lack temporal guidance. To address these structural bottlenecks, we propose shifting the focus to streaming video generation. We identify that its chu...
+

@@ -1,0 +1,107 @@
+--- [1] 2605.17991v1 ---
+Title: Stable Audio 3
+Authors: Zach Evans, Julian D. Parker, Matthew Rice, CJ Carr, Zack Zukowski et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-05-18
+Summary: Stable Audio 3 is a family of fast latent diffusion models (small, medium, large) for variable-length audio generation and editing. Since our models can generate several minutes of audio, variable-length generations are key to avoid the cost of producing full-length generations for short sounds. We also support inpainting, enabling targeted audio editing and the continuation of short recordings. O...
+
+--- [2] 2603.28209v1 ---
+Title: On the Usefulness of Diffusion-Based Room Impulse Response Interpolation to Microphone Array Processing
+Authors: Sagi Della Torre, Mirco Pezzoli, Fabio Antonacci, Sharon Gannot
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-30
+Summary: Room Impulse Responses estimation is a fundamental problem in spatial audio processing and speech enhancement. In this paper, we build upon our previously introduced diffusion-based inpainting framework for Room Impulse Response interpolation and demonstrate its applicability to enhancing the performance of practical multi-microphone array processing tasks. Furthermore, we validate the robustness ...
+
+--- [3] 2602.21818v3 ---
+Title: SkyReels-V4: Multi-modal Video-Audio Generation, Inpainting and Editing model
+Authors: Guibin Chen, Dixuan Lin, Jiangping Yang, Youqiang Zhang, Zhengcong Fei et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-02-25
+Summary: SkyReels V4 is a unified multi modal video foundation model for joint video audio generation, inpainting, and editing. The model adopts a dual stream Multimodal Diffusion Transformer (MMDiT) architecture, where one branch synthesizes video and the other generates temporally aligned audio, while sharing a powerful text encoder based on the Multimodal Large Language Models (MLLM). SkyReels V4 accept...
+
+--- [4] 2601.22143v2 ---
+Title: JUST-DUB-IT: Video Dubbing via Joint Audio-Visual Diffusion
+Authors: Anthony Chen, Naomi Ken Korem, Gal Zeevi, Tavi Halperin, Matan Ben Yosef et al.
+Primary cat: cs.GR | All cats: cs.GR, cs.CV
+Published: 2026-01-29
+Summary: Audio-Visual Foundation Models, which are pretrained to jointly generate sound and visual content, have recently shown an unprecedented ability to model multi-modal generation and editing, opening new opportunities for downstream tasks. Among these tasks, video dubbing could greatly benefit from such priors, yet most existing solutions still rely on complex, task-specific pipelines that struggle i...
+
+--- [5] 2601.22127v1 ---
+Title: EditYourself: Audio-Driven Generation and Manipulation of Talking Head Videos with Diffusion Transformers
+Authors: John Flynn, Wolfgang Paier, Dimitar Dinev, Sam Nhut Nguyen, Hayk Poghosyan et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.GR, cs.LG, cs.MM
+Published: 2026-01-29
+Summary: Current generative video models excel at producing novel content from text and image prompts, but leave a critical gap in editing existing pre-recorded videos, where minor alterations to the spoken script require preserving motion, temporal coherence, speaker identity, and accurate lip synchronization. We introduce EditYourself, a DiT-based framework for audio-driven video-to-video (V2V) editing t...
+
+--- [6] 2512.25066v2 ---
+Title: From Inpainting to Editing: Unlocking Robust Mask-Free Visual Dubbing via Generative Bootstrapping
+Authors: Xu He, Haoxian Zhang, Hejia Chen, Changyuan Zheng, Liyang Chen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-12-31
+Summary: Audio-driven visual dubbing aims to synchronize a video's lip movements with new speech but is fundamentally challenged by the lack of ideal training data: paired videos differing only in lip motion. Existing methods circumvent this via mask-based inpainting. However, masking inevitably destroys spatiotemporal context, leading to identity drift and poor robustness (e.g., to occlusions), while also...
+
+--- [7] 2512.21736v3 ---
+Title: SyncAnyone: Implicit Disentanglement via Progressive Self-Correction for Lip-Syncing in the wild
+Authors: Xindi Zhang, Dechao Meng, Steven Xiao, Qi Wang, Peng Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-12-25
+Summary: High-quality AI-powered video dubbing demands precise audio-lip synchronization, high-fidelity visual generation, and faithful preservation of identity and background. Most existing methods rely on a mask-based training strategy, where the mouth region is masked in talking-head videos, and the model learns to synthesize lip movements from corrupted inputs and target audios. While this facilitates ...
+
+--- [8] 2509.21887v1 ---
+Title: StableDub: Taming Diffusion Prior for Generalized and Efficient Visual Dubbing
+Authors: Liyang Chen, Tianze Zhou, Xu He, Boshi Tang, Zhiyong Wu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MM
+Published: 2025-09-26
+Summary: The visual dubbing task aims to generate mouth movements synchronized with the driving audio, which has seen significant progress in recent years. However, two critical deficiencies hinder their wide application: (1) Audio-only driving paradigms inadequately capture speaker-specific lip habits, which fail to generate lip movements similar to the target avatar; (2) Conventional blind-inpainting app...
+
+--- [9] 2509.21739v2 ---
+Title: Noise-to-Notes: Diffusion-based Generation and Refinement for Automatic Drum Transcription
+Authors: Michael Yeung, Keisuke Toyama, Toya Teramoto, Shusuke Takahashi, Tamaki Kojima
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2025-09-26
+Summary: Automatic drum transcription (ADT) is traditionally formulated as a discriminative task to predict drum events from audio spectrograms. In this work, we redefine ADT as a conditional generative task and introduce Noise-to-Notes (N2N), a framework leveraging diffusion modeling to transform audio-conditioned Gaussian noise into drum events with associated velocities. This generative diffusion approa...
+
+--- [10] 2509.21714v3 ---
+Title: MusicWeaver: Programmable Long-Form Music Generation with Provably Local Editing
+Authors: Xuanchen Wang, Heng Wang, Weidong Cai
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2025-09-26
+Summary: Music generation systems produce increasingly realistic audio, yet they expose no interface between a creator's structural intent and the rendered sound. Form can only be steered through prompts, while local revisions require regenerating entire pieces. We recast music creation as program-guided generation, using an explicit, human-interpretable program layer between intent and audio. We present M...
+
+--- [11] 2509.16342v1 ---
+Title: Similarity-Guided Diffusion for Long-Gap Music Inpainting
+Authors: Sean Turland, Eloi Moliner, Vesa Välimäki
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2025-09-19
+Summary: Music inpainting aims to reconstruct missing segments of a corrupted recording. While diffusion-based generative models improve reconstruction for medium-length gaps, they often struggle to preserve musical plausibility over multi-second gaps. We introduce Similarity-Guided Diffusion Posterior Sampling (SimDPS), a hybrid method that combines diffusion-based inference with similarity search. Candid...
+
+--- [12] 2508.08890v1 ---
+Title: Transient Noise Removal via Diffusion-based Speech Inpainting
+Authors: Mordehay Moradi, Sharon Gannot
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-08-12
+Summary: In this paper, we present PGDI, a diffusion-based speech inpainting framework for restoring missing or severely corrupted speech segments. Unlike previous methods that struggle with speaker variability or long gap lengths, PGDI can accurately reconstruct gaps of up to one second in length while preserving speaker identity, prosody, and environmental factors such as reverberation. Central to this a...
+
+--- [13] 2507.08333v4 ---
+Title: Token-Based Audio Inpainting via Discrete Diffusion
+Authors: Tali Dror, Iftach Shoham, Moshe Buchris, Oren Gal, Haim Permuter et al.
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Ainpainting+AND+abs%3Adiffusion&max_results=15&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.IT, cs.LG, eess.AS
+Published: 2025-07-11
+Summary: Audio inpainting seeks to restore missing segments in degraded recordings. Previous diffusion-based methods exhibit impaired performance when the missing region is large. We introduce the first approach that applies discrete diffusion over tokenized music representations from a pre-trained audio tokenizer, enabling stable and semantically coherent restoration of long gaps. Our method further incor...
+
+--- [14] 2506.23552v2 ---
+Title: JAM-Flow: Joint Audio-Motion Synthesis with Flow Matching
+Authors: Mingi Kwon, Joonghyuk Shin, Jaeseok Jung, Jaesik Park, Youngjung Uh
+Primary cat: cs.CV | All cats: cs.CV, cs.SD, eess.AS
+Published: 2025-06-30
+Summary: The intrinsic link between facial motion and speech is often overlooked in generative modeling, where talking head synthesis and text-to-speech (TTS) are typically addressed as separate tasks. This paper introduces JAM-Flow, a unified framework to simultaneously synthesize and condition on both facial motion and speech. Our approach leverages flow matching and a novel Multi-Modal Diffusion Transfo...
+
+--- [15] 2506.18881v1 ---
+Title: Let Your Video Listen to Your Music!
+Authors: Xinyu Zhang, Dong Gong, Zicheng Duan, Anton van den Hengel, Lingqiao Liu
+Primary cat: cs.CV | All cats: cs.CV, cs.MM
+Published: 2025-06-23
+Summary: Aligning the rhythm of visual motion in a video with a given music track is a practical need in multimedia production, yet remains an underexplored task in autonomous video editing. Effective alignment between motion and musical beats enhances viewer engagement and visual appeal, particularly in music videos, promotional content, and cinematic editing. Existing methods typically depend on labor-in...
+

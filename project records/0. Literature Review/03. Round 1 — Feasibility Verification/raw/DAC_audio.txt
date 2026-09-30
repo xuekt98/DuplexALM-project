@@ -1,0 +1,177 @@
+--- [1] 2609.05871v1 ---
+Title: Where Does the Sound Go? Tracing Acoustic Information Loss in Audio-Conditioned LLMs
+Authors: Song-ha Jo, Sehyun Lee, Soyoon Kim, Jaesik Choi, Sanghyuk Choi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-05
+Summary: Audio-conditioned language models often underuse acoustic cues such as prosody, emotion, and non-speech sounds, raising the question of whether ASR-supervised frontends discard this information before it reaches the LM. We test whether the frontend is responsible by comparing Whisper-Tiny and Whisper-Small with EnCodec, DAC-VAE, and WavTokenizer in a shared Qwen3.5-4B audio-LM pipeline on ASR, emo...
+
+--- [2] 2609.03940v1 ---
+Title: Masked Autoregressive Speech Enhancement with Continuous Neural Audio Codec Representations
+Authors: Yoto Fujita, Simon Leglaive, Laurent Girin
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Most previous work on speech enhancement (SE) based on masked generative modeling relied on discrete token representations of audio signals, obtained using neural audio codecs (NACs). However, a recent study has shown that continuous latent representations of NACs can be advantageous for SE in terms of speech quality and intelligibility. In this work, we propose masked autoregressive SE (MARSE), a...
+
+--- [3] 2606.17879v1 ---
+Title: A 399uW 114.3 dB DR Companding Readout ASIC for MEMS Microphones Employing a Multirate Time-Domain ADC
+Authors: Javier Granizo, Ruben Garvi, Ricardo Carrero, Jorge de la Torre, Javier Fernandez et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-16
+Summary: Improvements in the dynamic range and sensitivity of digital MEMS microphones are essential in applications like advanced noise canceling and voice recognition. A cost effective solution to achieve these goals is the companding ADC architecture. Companding ADCs split the dynamic range in several segments with different quantization noise levels, relaxing power constraints. A common problem of comp...
+
+--- [4] 2605.13404v1 ---
+Title: Seconds-Aligned PCA-DAC Latent Diffusion for Symbolic-to-Audio Drum Rendering
+Authors: Konstantinos Soiledis, Maximos Kaliakatsos Papakostas, Dimos Makris, Konstantinos Tsamis
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-05-13
+Summary: Symbolic-control drum generation requires preserving explicit event timing and dynamics while synthesizing acoustically plausible waveforms. We present Sec2Drum-DAC, a conditional latent-diffusion model for symbolic-to-audio drum rendering. The model conditions on event features sampled in physical time at codec-frame locations and predicts standardized principal-component coordinates of frozen DA...
+
+--- [5] 2605.10281v1 ---
+Title: Drum Synthesis from Expressive Drum Grids via Neural Audio Codecs
+Authors: Konstantinos Soiledis, Maximos Kaliakatsos-Papakostas, Dimos Makris, Konstantinos Tsamis
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-05-11
+Summary: Generating realistic drum audio directly from symbolic representations is a challenging task at the intersection of music perception and machine learning. We propose a system that transforms an expressive drum grid, a time-aligned MIDI representation with microtiming and velocity information, into drum audio by predicting discrete codes of a neural audio codec. Our approach uses a Transformer-base...
+
+--- [6] 2603.18359v2 ---
+Title: Towards Interpretable Framework for Neural Audio Codecs via Sparse Autoencoders: A Case Study on Accent Information
+Authors: Shih-Heng Wang, Tiantian Feng, Aditya Kommineni, Thanathai Lertpetchpun, Bowen Yi et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-18
+Summary: Neural Audio Codecs (NACs) are widely adopted in modern speech systems, yet how they encode linguistic and paralinguistic information remains unclear. Improving the interpretability of NAC representations is critical for understanding and deploying them in sensitive applications. Hence, we employ Sparse Autoencoders (SAEs) to decompose dense NAC representations into sparse, interpretable activatio...
+
+--- [7] 2511.23142v1 ---
+Title: Adapting Neural Audio Codecs to EEG
+Authors: Ard Kastrati, Luca Lanzendörfer, Riccardo Rigoni, John Staib Matilla, Roger Wattenhofer
+Primary cat: cs.LG | All cats: cs.LG, cs.SD
+Published: 2025-11-28
+Summary: EEG and audio are inherently distinct modalities, differing in sampling rate, channel structure, and scale. Yet, we show that pretrained neural audio codecs can serve as effective starting points for EEG compression, provided that the data are preprocessed to be suitable to the codec's input constraints. Using DAC, a state-of-the-art neural audio codec as our base, we demonstrate that raw EEG can ...
+
+--- [8] 2511.01773v1 ---
+Title: ADNAC: Audio Denoiser using Neural Audio Codec
+Authors: Daniel Jimon, Mircea Vaida, Adriana Stan
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2025-11-03
+Summary: Audio denoising is critical in signal processing, enhancing intelligibility and fidelity for applications like restoring musical recordings. This paper presents a proof-of-concept for adapting a state-of-the-art neural audio codec, the Descript Audio Codec (DAC), for music denoising. This work overcomes the limitations of traditional architectures like U-Nets by training the model on a large-scale...
+
+--- [9] 2510.02187v1 ---
+Title: High-Fidelity Speech Enhancement via Discrete Audio Tokens
+Authors: Luca A. Lanzendörfer, Frédéric Berdoz, Antonis Asonitis, Roger Wattenhofer
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2025-10-02
+Summary: Recent autoregressive transformer-based speech enhancement (SE) methods have shown promising results by leveraging advanced semantic understanding and contextual modeling of speech. However, these approaches often rely on complex multi-stage pipelines and low sampling rate codecs, limiting them to narrow and task-specific speech enhancement. In this work, we introduce DAC-SE1, a simplified languag...
+
+--- [10] 2509.18823v2 ---
+Title: Towards Evaluating Generative Audio: Insights from Neural Audio Codec Embedding Distances
+Authors: Arijit Biswas, Lars Villemoes
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-23
+Summary: Neural audio codecs (NACs) achieve low-bitrate compression by learning compact audio representations, which can also serve as features for perceptual quality evaluation. We introduce DACe, an enhanced, higher-fidelity version of the Descript Audio Codec (DAC), trained on diverse real and synthetic tonal data with balanced sampling. We systematically compare Fréchet Audio Distance (FAD) and Maximum...
+
+--- [11] 2509.11717v6 ---
+Title: CodecSep: Prompt-Driven Universal Sound Separation on Neural Audio Codec Latents
+Authors: Adhiraj Banerjee, Vipul Arora
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2025-09-15
+Summary: Text-guided sound separation enables flexible audio editing, assistive listening, and open-domain source extraction, but systems such as AudioSep remain too expensive for low-latency edge or codec-mediated deployment. Existing neural audio codec separators are efficient, yet largely restricted to fixed stems or closed taxonomies. We introduce CodecSep, a prompt-driven universal sound separation fr...
+
+--- [12] 2507.01563v1 ---
+Title: Real-Time Emergency Vehicle Siren Detection with Efficient CNNs on Embedded Hardware
+Authors: Marco Giordano, Stefano Giacomelli, Claudia Rinaldi, Fabio Graziosi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-07-02
+Summary: We present a full-stack emergency vehicle (EV) siren detection system designed for real-time deployment on embedded hardware. The proposed approach is based on E2PANNs, a fine-tuned convolutional neural network derived from EPANNs, and optimized for binary sound event detection under urban acoustic conditions. A key contribution is the creation of curated and semantically structured datasets - Aud...
+
+--- [13] 2505.13000v2 ---
+Title: DualCodec: A Low-Frame-Rate, Semantically-Enhanced Neural Audio Codec for Speech Generation
+Authors: Jiaqi Li, Xiaolong Lin, Zhekai Li, Shixi Huang, Yuancheng Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-05-19
+Summary: Neural audio codecs form the foundational building blocks for language model (LM)-based speech generation. Typically, there is a trade-off between frame rate and audio quality. This study introduces a low-frame-rate, semantically enhanced codec model. Existing approaches distill semantically rich self-supervised (SSL) representations into the first-layer codec tokens. This work proposes DualCodec,...
+
+--- [14] 2503.01485v1 ---
+Title: FlowDec: A flow-based full-band general audio codec with high perceptual quality
+Authors: Simon Welker, Matthew Le, Ricky T. Q. Chen, Wei-Ning Hsu, Timo Gerkmann et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS, eess.SP
+Published: 2025-03-03
+Summary: We propose FlowDec, a neural full-band audio codec for general audio sampled at 48 kHz that combines non-adversarial codec training with a stochastic postfilter based on a novel conditional flow matching method. Compared to the prior work ScoreDec which is based on score matching, we generalize from speech to general audio and move from 24 kbit/s to as low as 4 kbit/s, while improving output quali...
+
+--- [15] 2502.12759v1 ---
+Title: High-Fidelity Music Vocoder using Neural Audio Codecs
+Authors: Luca A. Lanzendörfer, Florian Grötschla, Michael Ungersböck, Roger Wattenhofer
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2025-02-18
+Summary: While neural vocoders have made significant progress in high-fidelity speech synthesis, their application on polyphonic music has remained underexplored. In this work, we propose DisCoder, a neural vocoder that leverages a generative adversarial encoder-decoder architecture informed by a neural audio codec to reconstruct high-fidelity 44.1 kHz audio from mel spectrograms. Our approach first transf...
+
+--- [16] 2409.13382v1 ---
+Title: Audio Codec Augmentation for Robust Collaborative Watermarking of Speech Synthesis
+Authors: Lauri Juvela, Xin Wang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2024-09-20
+Summary: Automatic detection of synthetic speech is becoming increasingly important as current synthesis methods are both near indistinguishable from human speech and widely accessible to the public. Audio watermarking and other active disclosure methods of are attracting research activity, as they can complement traditional deepfake defenses based on passive detection. In both active and passive detection...
+
+--- [17] 2409.09401v2 ---
+Title: Towards Diverse and Efficient Audio Captioning via Diffusion Models
+Authors: Manjie Xu, Chenxing Li, Xinyi Tu, Yong Ren, Ruibo Fu et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2024-09-14
+Summary: We introduce Diffusion-based Audio Captioning (DAC), a non-autoregressive diffusion model tailored for diverse and efficient audio captioning. Although existing captioning models relying on language backbones have achieved remarkable success in various captioning tasks, their insufficient performance in terms of generation speed and diversity impede progress in audio understanding and multimedia a...
+
+--- [18] 2407.04518v2 ---
+Title: From Audio Encoders to Piano Judges: Benchmarking Performance Understanding for Solo Piano
+Authors: Huan Zhang, Jinhua Liang, Simon Dixon
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2024-07-05
+Summary: Our study investigates an approach for understanding musical performances through the lens of audio encoding models, focusing on the domain of solo Western classical piano music. Compared to composition-level attribute understanding such as key or genre, we identify a knowledge gap in performance-level music understanding, and address three critical tasks: expertise ranking, difficulty estimation,...
+
+--- [19] 2405.11554v1 ---
+Title: DAC-JAX: A JAX Implementation of the Descript Audio Codec
+Authors: David Braun
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-05-19
+Summary: We present an open-source implementation of the Descript Audio Codec (DAC) using Google's JAX ecosystem of Flax, Optax, Orbax, AUX, and CLU. Our codebase enables the reuse of model weights from the original PyTorch DAC, and we confirm that the two implementations produce equivalent token sequences and decoded audio if given the same input. We provide a training and fine-tuning script which support...
+
+--- [20] 2402.10533v2 ---
+Title: APCodec: A Neural Audio Codec with Parallel Amplitude and Phase Spectrum Encoding and Decoding
+Authors: Yang Ai, Xiao-Hang Jiang, Ye-Xin Lu, Hui-Peng Du, Zhen-Hua Ling
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-02-16
+Summary: This paper introduces a novel neural audio codec targeting high waveform sampling rates and low bitrates named APCodec, which seamlessly integrates the strengths of parametric codecs and waveform codecs. The APCodec revolutionizes the process of audio encoding and decoding by concurrently handling the amplitude and phase spectra as audio parametric characteristics like parametric codecs. It is com...
+
+--- [21] 2306.05624v1 ---
+Title: Domestic Activities Classification from Audio Recordings Using Multi-scale Dilated Depthwise Separable Convolutional Network
+Authors: Yufei Zeng, Yanxiong Li, Zhenfeng Zhou, Ruiqi Wang, Difeng Lu
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2023-06-09
+Summary: Domestic activities classification (DAC) from audio recordings aims at classifying audio recordings into pre-defined categories of domestic activities, which is an effective way for estimation of daily activities performed in home environment. In this paper, we propose a method for DAC from audio recordings using a multi-scale dilated depthwise separable convolutional network (DSCN). The DSCN is a...
+
+--- [22] 2205.05590v1 ---
+Title: A neural prosody encoder for end-ro-end dialogue act classification
+Authors: Kai Wei, Dillon Knox, Martin Radfar, Thanh Tran, Markus Muller et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2022-05-11
+Summary: Dialogue act classification (DAC) is a critical task for spoken language understanding in dialogue systems. Prosodic features such as energy and pitch have been shown to be useful for DAC. Despite their importance, little research has explored neural approaches to integrate prosodic features into end-to-end (E2E) DAC models which infer dialogue acts directly from audio signals. In this work, we pr...
+
+--- [23] 1712.06288v1 ---
+Title: Adaptive antenna system by ESP32-PICO-D4 and its application to web radio system
+Authors: Toshiro Kodera
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2017-12-18
+Summary: Adaptive antenna technique has an important role in the IoT environment in order to establish reliable and stable wireless communication in high congestion situation. Even if knowing antenna characteristics in advance, electromagnetic wave propagation in the non-line-of-sight environment is very complex and unpredictable, therefore, the adjustment the antenna radiation for the optimum signal recep...
+
+--- [24] 1701.06382v1 ---
+Title: Design of an Audio Interface for Patmos
+Authors: Daniel Sanz Ausin, Fabian Goerge
+Primary cat: cs.AR | All cats: cs.AR
+Published: 2017-01-23
+Summary: This paper describes the design and implementation of an audio interface for the Patmos processor, which runs on an Altera DE2-115 FPGA board. This board has an audio codec included, the WM8731. The interface described in this work allows to receive and send audio from and to the WM8731, and to synthesize, store or manipulate audio signals writing C programs for Patmos. The audio interface describ...
+
+--- [25] 1210.5342v1 ---
+Title: Design & Simulation of 128x Interpolator Filter
+Authors: Rahul Sinha, Sonika Arora
+Primary cat: cs.ET | All cats: cs.ET, cs.AR
+Published: 2012-10-19
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ADAC+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: This paper presents the design consideration and simulation of interpolator of OSR 128. The proposed structure uses the half band filers & Comb/Sinc filter. Experimental result shows that proposed interpolator achieves the design specification, and also has good noise rejection capabilities. The interpolator accepts the input at 44.1 kHz for applications like CD & DVD audio. The interpolation filt...
+

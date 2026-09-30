@@ -1,0 +1,177 @@
+--- [1] 2609.08542v1 ---
+Title: Spatial Audio Coding Through Relative Room Impulse Response Estimation
+Authors: Nour Bouayed, Adrien Llave, Jérôme Daniel, Pascal Scalart
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate ...
+
+--- [2] 2609.04085v1 ---
+Title: Deep Neural Compression for RIR-Characterized Acoustic Environments with Structure-Aware Constraints
+Authors: Chen-Yuan Ning, Yang Ai, Hui-Peng Du, Xiao-Hang Jiang, Zhen-Hua Ling
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-03
+Summary: Room impulse responses (RIRs) characterize the acoustic environment of a room by capturing how sound propagates and decays within an enclosed space. In applications such as immersive audio rendering, accurate acoustic reconstruction often relies on spatially densely sampled RIRs. This consequently gives rise to a large volume of RIR data, imposing a substantial burden on storage. Although recent n...
+
+--- [3] 2609.01050v1 ---
+Title: What Limits Robustness in Deep Image Watermarking: An Analysis of Mechanisms and Their Scaling Across Capacities
+Authors: Marta Bistroń, Zbigniew Piotrowski
+Primary cat: cs.CR | All cats: cs.CR
+Published: 2026-09-01
+Summary: Robustness remains the principal open problem in deep image watermarking, and what limits it becomes sharper as payload grows. This paper asks whether capacity is itself the limit or only makes other limits visible, and answers in two parts. The first organizes the distortions a watermark must survive and the strategies developed to resist them, ordering each by the axis that governs it: payload c...
+
+--- [4] 2608.30202v1 ---
+Title: ReLViC: Loss-Resilient Learned Video Coding with Dispersed Packetization and Controllable Packet Dependencies
+Authors: Xuyang Chen, Daquan Feng, Xianfu Chen, Xiang-Gen Xia
+Primary cat: eess.IV | All cats: eess.IV, cs.MM
+Published: 2026-08-31
+Summary: Packet loss can severely impair learned video coding because missing latent tokens compromise both spatial reconstruction and temporal prediction. We present ReLViC, a loss-resilient learned video coding framework that jointly addresses latent coding and packet-loss recovery. ReLViC disperses spatially adjacent latent tokens across packets and employs a dual-purpose Transformer to estimate entropy...
+
+--- [5] 2608.28689v2 ---
+Title: Projection-Aware End-to-End Learned Video Compression for 360-Degree Video
+Authors: Niloofar Maani
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-26
+Summary: 360-degree video supports immersive applications such as virtual reality, autonomous driving, and education. Because spherical content cannot be processed directly by conventional video codecs, it must first be mapped to a two-dimensional projection. Projection choice affects spatial continuity, sampling uniformity, motion estimation, and compression efficiency. This thesis investigates how projec...
+
+--- [6] 2608.25410v2 ---
+Title: Token-Oriented Semantic Communication with Pretrained Vision Transformers
+Authors: Jiwoong Im, Minwoo Kim, Jaeho Lee, Yo-Seb Jeon, Yongjune Kim
+Primary cat: eess.SP | All cats: eess.SP, cs.AI, cs.CV, cs.LG
+Published: 2026-08-26
+Summary: Token communications realize the semantic communication principle at the granularity of transformer tokens, providing a promising direction for client--server collaborative inference in resource-constrained edge systems. However, directly transmitting token embeddings presents two practical challenges: substantial communication cost and limited interoperability across model-specific token embeddin...
+
+--- [7] 2608.21446v1 ---
+Title: HiFiC-G: Adapting HiFiC for Hi-C Contact Matrices
+Authors: Andre Antonio Straton
+Primary cat: eess.IV | All cats: eess.IV, cs.CV, q-bio.GN
+Published: 2026-08-19
+Summary: We study whether the loss design of High-Fidelity Generative Image Compression (HiFiC), a GAN-based neural codec originally built for natural photographs, can be adapted to preserve biologically meaningful structure in Hi-C chromatin contact maps under lossy compression. Standard image compression, including HiFiC in its original form, optimizes for human visual perception; but a Hi-C contact map ...
+
+--- [8] 2608.11845v1 ---
+Title: ResPCC: A Loss-Resilient Neural Point Cloud Codec over Lossy Networks
+Authors: Xueqin Niu, Mufan Liu, Yifan Wang, Le Yang, Jun Sun et al.
+Primary cat: eess.IV | All cats: eess.IV, cs.MM
+Published: 2026-08-12
+Summary: Point cloud compression (PCC) is critical for efficient storage and transmission of 3D data. While recent learning-based PCC methods achieve good rate-distortion (R-D) performance, they generally rely on ideal transmission conditions. In practice, packet loss is a common issue and can severely distort latent features, causing coordinate drift and geometric degradation. To address this challenge, w...
+
+--- [9] 2608.08832v1 ---
+Title: Visual Token Codec: Unleashing Spatial Redundancy for ViT Feature Coding
+Authors: Donghui Feng, Fengxi Zhang, Changsheng Gao, Wenhan Yang, Qi Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-09
+Summary: Distributed deployment of large vision foundation models often partitions a ViT backbone and exchanges intermediate token features between computing nodes, making efficient feature compression critical under bandwidth and computation constraints. Existing ViT feature codecs typically flatten heterogeneous global and patch tokens into an L x C pseudo image, causing entropy models to mainly capture ...
+
+--- [10] 2608.00687v1 ---
+Title: Proteus: A Truncation-Robust Entropy Model for Progressive LiDAR Compression
+Authors: Yihan Qiu, Xiaodong Lin, Baoquan Zhao, Hailong Jiao, Ge Li
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-01
+Summary: LiDAR point clouds provide explicit, deterministic physical boundaries critical for collaborative safety-critical perception. However, wireless channels inherently impair and corrupt transmitted signals. Existing robust frameworks (such as deep JSCC or MDC) attempt to counter these channel impairments through statistical or parametric estimation, turning exact physical measurements into unverified...
+
+--- [11] 2607.28144v1 ---
+Title: ReGenVC: End-to-End Real-Time Generative Video Coding at Ultra-Low Bitrate
+Authors: Zheyuan Zhang, Johnson Wu
+Primary cat: eess.IV | All cats: eess.IV, cs.CV
+Published: 2026-07-30
+Summary: We present ReGenVC, an end-to-end generative video codec that compresses talking-head video to an ultra-low bitrate and decodes it in real time. The encoder reduces a source clip to a compact bitstream -- a neurally compressed first frame, per-frame pose keypoints, and metadata -- totaling about 26 kB for a 77-frame sequence. The decoder is a four-step distilled diffusion transformer that reconstr...
+
+--- [12] 2607.28020v1 ---
+Title: ENCORE: Event-Assisted Complementary Motion Refinement for Learned Video Compression
+Authors: Shuhan Ye, Hongbin Yu, Chenqi Kong, Pingchuan Ma, Chong Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-30
+Summary: Learned video compression relies on accurate temporal modeling to remove redundancy between adjacent frames. However, most existing codecs infer motion solely from discretely sampled RGB frames, making their estimates vulnerable to fast motion, blur, occlusion, weak texture, low illumination, and abrupt brightness changes. Event cameras asynchronously capture fine-grained intensity changes between...
+
+--- [13] 2607.27943v1 ---
+Title: Compact Representation of Mipmapped SVBRDFs via Shared Gaussians
+Authors: Fengdi Zhang, Haocheng Ren, Qing Luo, Yaqing Li, Jibing Lou et al.
+Primary cat: cs.GR | All cats: cs.GR
+Published: 2026-07-30
+Summary: Spatially-varying BRDFs (SVBRDFs) are central to material representation in computer graphics, but their high-resolution, multi-channel, mipmapped textures impose a substantial storage burden. Existing compression methods face a fundamental trade-off: block-based compression provides random access and hardware-friendly decoding but exploits redundancy only within local blocks; image codecs offer s...
+
+--- [14] 2607.24904v1 ---
+Title: Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model
+Authors: Senqiao Yang, Kaichen Zhang, Zhaoyang Jia, Jinghao Guo, Yifei Shen et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.CL
+Published: 2026-07-27
+Summary: Standard vision-language models (VLMs) suffer from Moravec's paradox: they excel at complex offline visual reasoning but struggle with simple streaming perception tasks and process them inefficiently. We present Mage-VL, an efficient codec-native streaming foundation model for real-time multimodal understanding and interaction. At its core, our custom tokenizer, Mage-ViT, replaces uniform frame sa...
+
+--- [15] 2607.23366v1 ---
+Title: Codebook Capacity Governs Perceptual Quality Across Resolutions in Hierarchical Discrete Video Compression
+Authors: Manikanta Kotthapalli, Banafsheh Rekabdar
+Primary cat: eess.IV | All cats: eess.IV, cs.CV, cs.MM
+Published: 2026-07-25
+Summary: Learned video codecs based on continuous latent representations typically require resolution-specific retraining or rate-distortion (RD) recalibration when scaling to new spatial resolutions, because entropy models and Lagrangian weights are tightly coupled to the operating point. We investigate whether hierarchical discrete latent codecs exhibit the same sensitivity. Using a controlled empirical ...
+
+--- [16] 2607.15033v1 ---
+Title: URVC: A Unified Real-Time Neural Video Coding Model with Temporal, Spatial, and Perceptual Adaptivity
+Authors: Xihua Sheng, Chang Wen Chen
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-07-16
+Summary: Neural video coding has advanced rapidly, achieving competitive compression performance while also enabling real-time coding speed. Yet, existing codecs exhibit severe rigidity when deployed in dynamic environments, failing to adapt to different video content, user requirements, and quality preferences. First, to meet the real-time constraint, they discard explicit motion estimation and motion com...
+
+--- [17] 2607.10478v1 ---
+Title: Differentiable Proxy Learning for Adaptive Quantization Control in H.264 Video Coding
+Authors: Qihan Xu, Ivan V. Bajić
+Primary cat: eess.IV | All cats: eess.IV, cs.CV
+Published: 2026-07-11
+Summary: H.264 has been the most widely used video coding format for the past two decades due to its relative simplicity, efficiency, and wide availability of software and hardware implementations. However, optimizing codec parameters such as the quantization parameter (QP) for specific objectives (e.g., perceptual quality or machine vision tasks) is challenging due to the non-differentiable nature of stan...
+
+--- [18] 2607.10237v1 ---
+Title: CoSAG: Compact Semantic Anchor Gaussians via Training-Free Rate-Distortion Coding
+Authors: Yuang Jia, Jinlong Wang, Junhong Lin, Ruiting Dai, Wei Gao
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-11
+Summary: Open-vocabulary 3D scene understanding is commonly achieved by embedding 2D vision-language features such as CLIP into a 3D Gaussian Splatting scene, turning it into a text-queryable semantic field. However, attaching a high-dimensional feature to each of millions of Gaussians inflates a single scene to gigabytes, which makes storage and deployment the real bottleneck of these fields. Existing com...
+
+--- [19] 2607.01182v2 ---
+Title: The Decode-Work Law: Margin-Governed, Provably-Exact Spatial Joins over Compressed Geometry
+Authors: Madhulatha Mandarapu, Sandeep Kunkunuru
+Primary cat: cs.DB | All cats: cs.DB, cs.CG
+Published: 2026-07-01
+Summary: Filter-and-refine spatial joins have always avoided touching exact geometry for certified candidate pairs, but the field never modeled the decompression cost of the pairs that survive the filter. When geometry is stored in a compressed, progressively-decodable multiresolution codec, the join's true cost is bytes decoded. We study provably-exact polygon intersection joins over a Douglas-Peucker lev...
+
+--- [20] 2607.00189v1 ---
+Title: VOCA: Visual Odometry with Codec Awareness
+Authors: Nouri Alexander Hilscher, Mateo de Mayo, Dominik Muhle, Christoph Otten genannt Hermes, Daniel Cremers
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-30
+Summary: Camera pose estimation from image streams is a critical component of spatial world models that integrate perception into planning and decision-making. Nearly all Visual Odometry (VO) and Simultaneous Localization and Mapping (V-SLAM) systems have focused on datasets containing raw, uncompressed videos. Many working systems instead use ubiquitous hardware units to efficiently compress and decode vi...
+
+--- [21] 2606.24661v1 ---
+Title: Perceptual Evaluation of Higher-Order Ambisonic Codecs on Both Synthetic Mixing and Native Recordings
+Authors: Adrien Llave, Grégory Pallone, Jérôme Daniel
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-23
+Summary: Spatial audio is spreading in applications such as virtual and augmented reality and immersive games. The higher-order ambisonic (HOA) format is particularly useful in this context. Transmitting spatial information requires multiple channels, e.g., 16 channels for 3rd-order ambisonics, resulting in increased memory requirements for storage and higher bitrates for communication. Therefore, efficien...
+
+--- [22] 2606.21033v1 ---
+Title: MoECodec: Image Compression for joint human and machine perception via Mixture-of-Experts
+Authors: Jiancheng Zhao, Xiang Ji, Yifan Zhan, Zunian Wan, Yinqiang Zheng
+Primary cat: eess.IV | All cats: eess.IV, cs.AI, cs.CV
+Published: 2026-06-19
+Summary: Image compression for machines calls for a unified codec that serves multiple downstream vision tasks. Existing approaches either adopt task-specific end-to-end designs, raising parameter and deployment overhead, or rely on transfer-based adaptations that remain externally attached and heuristic task design. A key limitation shared by both lines of work is their largely static computation pattern,...
+
+--- [23] 2606.16253v1 ---
+Title: Learned Image Compression for Vision-Language-Action Models
+Authors: Hyeonjun Kim, Jegwang Ryu, Sangbeom Ha, Junhyeok Lee, Jun-Hyuk Kim et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-06-15
+Summary: Vision-language-action (VLA) models increasingly rely on high-frequency multi-camera observations, making visual communication a major bottleneck for real-time robotic control in bandwidth-constrained or distributed deployment settings. Existing image and video codecs, however, are designed to preserve generic visual fidelity rather than the control performance of downstream VLA policies. In this ...
+
+--- [24] 2606.14820v1 ---
+Title: Spectro-Temporal Interference Confounds Phase Encoding in Spatial Audio Foundation Models
+Authors: Yuxuan Chen, Haoyuan Yu, Peize He
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-06-12
+Summary: Recent spatial self supervised audio models achieve high performance on localization tasks, raising questions about their encoding of microsecond interaural phase fine structures. We propose a psychoacoustic benchmark based on the binaural masking level difference to evaluate this. Using an equalization cancellation baseline and a GCC PHAT positive control we evaluate nine frozen audio models span...
+
+--- [25] 2606.14353v1 ---
+Title: Can Deep Neural Networks Improve Compression of Very Large Scientific Data?
+Authors: Muhannad Alhumaidi, Guozhong Li, Spiros Skiadopoulos, Panos Kalnis
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-06-12
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspatial+AND+abs%3Acodec&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Error-bounded lossy compression is a fundamental technique for managing the rapidly growing volumes of scientific data produced by modern simulations and observational instruments. Most state-of-the-art-compressors follow a prediction-residual paradigm, where compression effectiveness depends on the quality of the predictor: more accurate predictions generate smaller residuals that are easier to c...
+

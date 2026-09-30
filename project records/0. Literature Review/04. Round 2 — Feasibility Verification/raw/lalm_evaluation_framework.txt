@@ -1,0 +1,142 @@
+--- [1] 2608.28966v1 ---
+Title: When Vocal Tone and Literal Meaning Diverge: An Acoustic-Semantic Incongruity Study for Large Audio-Language Models
+Authors: Yu-Wen Chen, William Ho, Maxim Topaz, Zoran Kostic, Julia Hirschberg
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-29
+Summary: Affective cues across modalities may be incongruous (e.g., sarcasm or mocking praise), potentially leading to misinterpretation when relying on a single modality. Large Audio-Language Models (LALMs) have recently gained popularity and been applied to multimodal emotion recognition, but their ability to disentangle acoustic and semantic cues, especially in incongruent cases, remains underexplored. ...
+
+--- [2] 2608.16539v1 ---
+Title: Listen, Reason, and Segment: Aligning LALMs with Editorial Judgment for Media Chapterization
+Authors: Tony Alex, Wish Suharitdamrong, Sara Atito, Armin Mustafa, Muhammad Awais et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-08-17
+Summary: Large Audio Language Models (LALMs) have made rapid progress on standardized benchmarks, yet their deployment in practical media workflows, curation, archival indexing, and content distribution remains largely unrealized. We identify automated audio chapterization, the task of segmenting continuous audio streams into thematically coherent chapters, as a demanding and commercially consequential set...
+
+--- [3] 2608.15578v1 ---
+Title: ARENA: Automated Red-Teaming for Large Audio Language Models
+Authors: Jiaming He, Zhicong Huang, Tian Jin, Zhen Sun, Cheng Hong et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-16
+Summary: Large audio-language models (LALMs) make it possible to interact with language models through speech, music, and environmental sound, but they also introduce a safety surface that is difficult to expose with text-only red-teaming. We study automated audio-grounded red-teaming, where a text query must remain safe in isolation while the joint text-audio input induces harmful target behavior. We prop...
+
+--- [4] 2608.13624v1 ---
+Title: Measuring Fairness in Large Audio Language Models via Semantic-Aware Bias Estimation
+Authors: Zhe Liu
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-08-13
+Summary: Large Audio Language Models (LALMs) have seen increasing use for audio understanding tasks such as speech recognition and audio question answering, raising concerns about fairness across demographic subgroups. Fairness evaluation in spoken-input settings is challenging due to confounding factors, including semantic variation in spoken content and speaker-specific characteristics. Ignoring these fa...
+
+--- [5] 2607.17812v1 ---
+Title: ESCUCHA: A Spanish Speech Benchmark for Heterogeneous Acoustic Conditions
+Authors: Fernando López, Ana Ayala, Guillermo Segovia, Fernando Ibáñez, Ana Martínez et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-20
+Summary: As large audio language models (LALMs) advance, robust evaluation frameworks have become essential. In this context, Spanish speech understanding under realistic acoustic conditions has received particularly little attention. We introduce ESCUCHA, the first Spanish speech understanding benchmark designed to evaluate LALMs across heterogeneous acoustic conditions and reasoning abilities. ESCUCHA co...
+
+--- [6] 2606.22868v1 ---
+Title: MSU-Bench: Towards Speaker-Centric Understanding in Conversational Multi-Speaker Scenarios
+Authors: Zhaokai Sun, Shuai Wang, Zhennan Lin, Chengyou Wang, Dehui Gao et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-22
+Summary: Spoken Language Understanding (SLU) is moving from task-specific pipelines toward large audio language models (LALMs) that generate natural-language responses. However, existing speech benchmarks mainly focus on single-speaker settings or isolated subtasks, leaving speaker-centric understanding in realistic multi-speaker conversations insufficiently evaluated. We introduce MSU-Bench, a diagnostic ...
+
+--- [7] 2606.11260v1 ---
+Title: RAIL: Rethinking Auditory Intelligence in Large Audio-Language Models with a CHC-Grounded Benchmark
+Authors: Hongyu Jin, Siyi Wang, Yang Xiao, Jiaheng Dong, Shihong Tan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-09
+Summary: Humans process rich auditory environments through tightly integrated cognitive capabilities such as audio perception, audio reasoning, and memory. Despite recent progress in large audio-language models (LALMs) across speech understanding and multimodal audio reasoning, current evaluation paradigms remain largely task- or modality-centric, focusing on end performance while overlooking underlying au...
+
+--- [8] 2606.08194v1 ---
+Title: GlobeAudio: A Multilingual Multicultural Benchmark for Naturalistic Evaluation of Large Audio-Language Models
+Authors: Ryner Tan, Wenxuan Zhang
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-06
+Summary: Large Audio-Language Models (LALMs) integrate audio perception and language understanding within a unified framework, enabling a wide range of real-world applications. Despite recent advances, evaluation for LALMs remains heavily underspecified relative to real-world requirements: most lack true linguistic and cultural authenticity, while others fail to capture acoustic realism. To bridge this gap...
+
+--- [9] 2605.20266v2 ---
+Title: A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook
+Authors: Kaiwen Luo, Zhenhong Zhou, Leyan Wang, Liang Lin, Tianyu Shao et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-05-18
+Summary: Advances in Large Language Models (LLMs) have paved the way for Multimodal Large Language Models (MLLMs). Among these, Large Audio Language Models (LALMs) are essential for realizing universal auditory intelligence. Despite their remarkable performance, the escalation of LALMs' capabilities has significantly outpaced the development of systemic frameworks to ensure their trustworthiness. This surv...
+
+--- [10] 2604.24401v1 ---
+Title: All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation
+Authors: Leonardo Haw-Yang Foo, Chih-Kai Yang, Chen-An Li, Ke-Han Lu, Hung-yi Lee
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-04-27
+Summary: Large Audio-Language Models show consistent performance gains across speech and audio benchmarks, yet high scores may not reflect true auditory perception. If a model can answer questions without processing the acoustic signal, the benchmark fails as a measure of auditory understanding. We present a diagnostic framework using two axes: text prior, which measures answerability from text and general...
+
+--- [11] 2604.18187v1 ---
+Title: Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models
+Authors: Xiang He, Chenxing Li, Jinting Wang, Yan Rong, Tianxin Xie et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-04-20
+Summary: Large Audio-Language Models (LALMs) have made significant progress in audio understanding, yet they primarily operate as perception-and-answer systems without explicit reasoning processes. Existing methods for enhancing audio reasoning rely either on supervised chain-of-thought (CoT) fine-tuning, which is limited by training data quality, or on reinforcement learning (RL) with coarse rewards that ...
+
+--- [12] 2604.17248v2 ---
+Title: VIBE: Voice-Induced open-ended Bias Evaluation for Large Audio-Language Models via Real-World Speech
+Authors: Yi-Cheng Lin, Yusuke Hirota, Sung-Feng Huang, Hung-yi Lee
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.SD
+Published: 2026-04-19
+Summary: Large Audio-Language Models (LALMs) are increasingly integrated into daily applications, yet their generative biases remain underexplored. Existing speech fairness benchmarks rely on synthetic speech and Multiple-Choice Questions (MCQs), both offering a fragmented view of fairness. We propose VIBE, a framework that evaluates generative bias through open-ended tasks such as personalized recommendat...
+
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ALALM+AND+abs%3Aevaluation+AND+abs%3Aframework&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [13] 2604.06694v2 ---
+Title: AudioKV: KV Cache Eviction in Efficient Large Audio Language Models
+Authors: Yuxuan Wang, Peize He, Xiyan Gui, Xiaoqian Liu, Junhao He et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-04-08
+Summary: Large Audio-Language Models (LALMs) have set new benchmarks in speech processing, yet their deployment is hindered by the memory footprint of the Key-Value (KV) cache during long-context inference. While general KV cache compression techniques excel in LLMs, they often fail in the audio domain by overlooking the intrinsic temporal continuity of acoustic signals. To bridge this gap, we propose Audi...
+
+--- [14] 2603.22728v1 ---
+Title: The Interspeech 2026 Audio Encoder Capability Challenge for Large Audio Language Models
+Authors: Heinrich Dinkel, Jiahao Zhou, Guanbo Wang, Yadong Niu, Junbo Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-03-24
+Summary: This paper presents the Interspeech 2026 Audio Encoder Capability Challenge, a benchmark specifically designed to evaluate and advance the performance of pre-trained audio encoders as front-end modules for Large Audio Language Models (LALMs). While LALMs have shown remarkable understanding of complex acoustic scenes, their performance depends on the semantic richness of the underlying audio encode...
+
+--- [15] 2603.20433v1 ---
+Title: ALICE: A Multifaceted Evaluation Framework of Large Audio-Language Models' In-Context Learning Ability
+Authors: Yen-Ting Piao, Jay Chiehen Liao, Wei-Tang Chien, Toshiki Ogimoto, Shang-Tse Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-03-20
+Summary: While Large Audio-Language Models (LALMs) have been shown to exhibit degraded instruction-following capabilities, their ability to infer task patterns from in-context examples under audio conditioning remains unstudied. To address this gap, we present ALICE, a three-stage framework that progressively reduces textual guidance to systematically evaluate LALMs' in-context learning ability under audio...
+
+--- [16] 2603.17231v1 ---
+Title: Neuron-Level Emotion Control in Speech-Generative Large Audio-Language Models
+Authors: Xiutian Zhao, Ismail Rasim Ulgen, Philipp Koehn, Björn Schuller, Berrak Sisman
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-03-18
+Summary: Large audio-language models (LALMs) can produce expressive speech, yet reliable emotion control remains elusive: conversions often miss the target affect and may degrade linguistic fidelity through refusals, hallucinations, or paraphrase. We present, to our knowledge, the first neuron-level study of emotion control in speech-generative LALMs and demonstrate that compact emotion-sensitive neurons (...
+
+--- [17] 2603.10725v3 ---
+Title: Towards Robust Speech Deepfake Detection via Human-Inspired Reasoning
+Authors: Artem Dvirniak, Evgeny Kushnir, Dmitrii Tarasov, Artem Iudin, Oleg Kiriukhin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-03-11
+Summary: The modern generative audio models can be used by an adversary in an unlawful manner, specifically, to impersonate other people to gain access to private information. To mitigate this issue, speech deepfake detection (SDD) methods started to evolve. Unfortunately, current SDD methods generally suffer from the lack of generalization to new audio domains and generators. More than that, they lack int...
+
+--- [18] 2603.09232v1 ---
+Title: How Contrastive Decoding Enhances Large Audio Language Models?
+Authors: Tzu-Quan Lin, Wei-Ping Huang, Yi-Cheng Lin, Hung-yi Lee
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-03-10
+Summary: While Contrastive Decoding (CD) has proven effective at enhancing Large Audio Language Models (LALMs), the underlying mechanisms driving its success and the comparative efficacy of different strategies remain unclear. This study systematically evaluates four distinct CD strategies across diverse LALM architectures. We identify Audio-Aware Decoding and Audio Contrastive Decoding as the most effecti...
+
+--- [19] 2603.02266v1 ---
+Title: When Scaling Fails: Mitigating Audio Perception Decay of LALMs via Multi-Step Perception-Aware Reasoning
+Authors: Ruixiang Mao, Xiangnan Ma, Dan Chen, Ziming Zhu, Yuan Ge et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-02-28
+Summary: Test-Time Scaling has shown notable efficacy in addressing complex problems through scaling inference compute. However, within Large Audio-Language Models (LALMs), an unintuitive phenomenon exists: post-training models for structured reasoning trajectories results in marginal or even negative gains compared to post-training for direct answering. To investigate it, we introduce CAFE, an evaluation ...
+
+--- [20] 2601.08516v1 ---
+Title: Robust CAPTCHA Using Audio Illusions in the Era of Large Language Models: from Evaluation to Advances
+Authors: Ziqi Ding, Yunfeng Wan, Wei Song, Yi Liu, Gelei Deng et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CY, eess.AS
+Published: 2026-01-13
+Summary: CAPTCHAs are widely used by websites to block bots and spam by presenting challenges that are easy for humans but difficult for automated programs to solve. To improve accessibility, audio CAPTCHAs are designed to complement visual ones. However, the robustness of audio CAPTCHAs against advanced Large Audio Language Models (LALMs) and Automatic Speech Recognition (ASR) models remains unclear. In t...
+

@@ -1,0 +1,142 @@
+--- [1] 2609.14740v1 ---
+Title: Bridging Data, Reasoning, and Alignment: A Unified Framework for Context-Aware Instruction-Following TTS
+Authors: Jingbin Hu, Luyu Wang, Wenjie Tian, Kangxiang Xia, Qirui Zhan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-13
+Summary: The ISCSLP 2026 CoT-TTS Challenge requires TTS systems to generate Chain-of-Thought (CoT) reasoning from dialogue history before synthesizing contextually appropriate speech. While the official baseline establishes a unified architecture, it remains constrained by limited contextual comprehension, weak instruction fidelity, and suboptimal audio quality. We present a systematic optimization pipelin...
+
+--- [2] 2609.11864v1 ---
+Title: RetroThinker: Enabling Retrospective Thinking in Speech LLMs
+Authors: Yi-Jen Shih, Puyuan Peng, Abdelrahman Mohamed, David Harwath
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL
+Published: 2026-09-10
+Summary: Speech large language models (SpeechLLMs) offer reduced latency and retain paralinguistic nuances that are typically lost in cascaded automatic speech recognition (ASR) and text-based LM architectures. However, they continue to lag behind text-only LLMs on complex reasoning tasks, while real-time spoken interaction imposes strict latency constraints. Although prior works employ Chain-of-Thought (C...
+
+--- [3] 2609.11260v2 ---
+Title: Preference Optimization with LALM Feedback for Continuous Autoregressive Non-Verbal Vocalization Generation
+Authors: Jingbin Hu, Qirui Zhan, Yuang Cao, Ziyu Zhang, Yunxiang Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-10
+Summary: We propose a preference optimization framework with Large Audio-Language Model (LALM) feedback for controllable non-verbal vocalization (NVV) generation in continuous autoregressive speech models. To construct preference data without human preference annotation, we build a bilingual prompt corpus by combining NVV-injected real transcripts with LLM-generated semantically aligned prompts, perform st...
+
+--- [4] 2609.04222v1 ---
+Title: GEPARD - Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue
+Authors: Denis Pavlov, Ulanbek Abdurazakov, Nursultan Bakashov
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2026-07-04
+Summary: We present GEPARD (Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue), a streaming text-to-speech model for real-time spoken dialogue. GEPARD generates speech autoregressively with an LLM backbone - text and audio embeddings are trained together in a single decoder-only model - and decodes it to a waveform with an FSQ-based neural codec, streaming audio chunk-by-...
+
+--- [5] 2606.14528v1 ---
+Title: BayLing-Duplex: Native Full-Duplex Speech Dialogue with a Single Autoregressive LLM
+Authors: Qingkai Fang, Shoutao Guo, Yang Feng
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-06-12
+Summary: Real-time, full-duplex speech interaction is a key feature of next-generation spoken chatbots, allowing the model to listen and speak at the same time and to handle natural phenomena such as overlap, hesitation, and barge-in. Existing speech language models (SpeechLMs) such as LLaMA-Omni and GLM-4-Voice are still turn-based and rely on an external Voice Activity Detection (VAD) module to mark the ...
+
+--- [6] 2606.13006v1 ---
+Title: Emo-LiPO: Listwise Preference Optimization for Fine-Grained Emotion Intensity Control in LLM-based Text-to-Speech
+Authors: Yihang Lin, Li Zhou, Congwei Cao, Dongchu Xie, Xiaoxue Gao et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-11
+Summary: Large language model (LLM)-based text-to-speech (TTS) systems enable prompt-conditioned emotional control but struggle with fine-grained emotion intensity due to the semantic -- acoustic gap between text and speech. To address this challenge, we formulate emotion intensity control in LLM-based TTS as a learning-to-rank problem and propose Emo-LiPO, a listwise preference optimization framework that...
+
+--- [7] 2605.27772v1 ---
+Title: Do Audio LLMs Listen or Read? Analyzing and Mitigating Paralinguistic Failures with VoxParadox
+Authors: Jiacheng Pang, Ashutosh Chaubey, Mohammad Soleymani
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-05-26
+Summary: Audio large language models (Audio LLMs) demonstrate strong performance on speech understanding tasks, yet their ability to understand paralinguistic information remains limited. To systematically quantify this issue, we introduce VoxParadox, an adversarial benchmark with 2,000 verified examples, spanning 10 paralinguistic tasks, created with controlled speech synthesis to intentionally mismatch t...
+
+--- [8] 2605.23975v2 ---
+Title: Direct Preference Optimization for English-Mandarin Code-Switching Speech Recognition in Audio LLMs
+Authors: Trung Nguyen Quang, Cheng Yi Lewis Won, Minh Duc Pham, Yingxu He, Shuo Sun et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-05-13
+Summary: Audio large language models (Audio LLMs) exhibit systematic failures in transcribing code-switching speech despite strong multilingual capabilities. Focusing on English-Mandarin, we identify three failure modes: language omission, translation-instead-of-transcription, and hallucination. We apply Direct Preference Optimization (DPO) to align models, constructing preference pairs in which chosen res...
+
+--- [9] 2603.24034v1 ---
+Title: From Oracle to Noisy Context: Mitigating Contextual Exposure Bias in Speech-LLMs
+Authors: Xiaoyong Guo, Nanjie Li, Zijie Zeng, Kai Wang, Hao Huang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-03-25
+Summary: Contextual automatic speech recognition (ASR) with Speech-LLMs is typically trained with oracle conversation history, but relies on error-prone history at inference, causing a train-test mismatch in the context channel that we term contextual exposure bias. We propose a unified training framework to improve robustness under realistic histories: (i) Teacher Error Knowledge by using Whisper large-v3...
+
+--- [10] 2601.04656v1 ---
+Title: FlexiVoice: Enabling Flexible Style Control in Zero-Shot TTS with Natural Language Instructions
+Authors: Dekun Chen, Xueyao Zhang, Yuancheng Wang, Kenan Dai, Li Ma et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-01-08
+Summary: This study proposes FlexiVoice, a text-to-speech (TTS) synthesis system capable of flexible style control with zero-shot voice cloning. The speaking style is controlled by a natural-language instruction and the voice timbre is provided by a speech reference in zero-shot manner. FlexiVoice is built with an LLM core, which takes text as input, and also takes an optional natural language instruction ...
+
+--- [11] 2512.20156v4 ---
+Title: Fun-Audio-Chat Technical Report
+Authors:  Tongyi Fun Team, Qian Chen, Luyao Cheng, Chong Deng, Xiangang Li et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2025-12-23
+Summary: Recent advancements in joint speech-text models show great potential for seamless voice interactions. However, existing models face critical challenges: temporal resolution mismatch between speech tokens (25Hz) and text tokens (~3Hz) dilutes semantic information, incurs high computational costs, and causes catastrophic forgetting of text LLM knowledge. We introduce Fun-Audio-Chat, a Large Audio La...
+
+--- [12] 2511.12609v2 ---
+Title: Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data
+Authors: Yunxin Li, Xinyu Chen, Shenyuan Jiang, Haoyuan Shi, Zhenyu Liu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.CV
+Published: 2025-11-16
+Summary: We present Uni-MoE 2.0 from the Lychee family. As a fully open-source omnimodal large model (OLM), it substantially advances Lychee's Uni-MoE series in language-centric multimodal understanding, reasoning, and generating. Based on the dense LLM, we build Uni-MoE-2.0-Omni from scratch through three core contributions: dynamic-capacity Mixture-of-Experts (MoE) design, a progressive training strategy...
+
+--- [13] 2510.12195v1 ---
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Adpo+AND+abs%3Aspeech+AND+abs%3Allm&max_results=25&sortBy=submittedDate&sortOrder=descending
+Title: DPO-Tuned Large Language Models for Segmentation in Simultaneous Speech Translation
+Authors: Zeyu Yang, Satoshi Nakamura
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-10-14
+Summary: Simultaneous speech translation requires accurate segmentation to balance translation quality and latency. Recent studies such as SHAS have introduced pretrained segmentation models, achieving stronger performance than heuristic rules. However, segmentation models such as SHAS, though pretrained and more robust than heuristic methods, are still constrained by supervised learning objectives and do ...
+
+--- [14] 2510.07497v1 ---
+Title: Can Speech LLMs Think while Listening?
+Authors: Yi-Jen Shih, Desh Raj, Chunyang Wu, Wei Zhou, SK Bong et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, eess.AS
+Published: 2025-10-08
+Summary: Recent advances in speech large language models (speech LLMs) have enabled seamless spoken interactions, but these systems still struggle with complex reasoning tasks. Previously, chain-of-thought (CoT) prompting or fine-tuning has been to shown to significantly improve the reasoning abilities of text-based LLMs. In this work, we investigate the effect of CoT fine-tuning for multi-stream speech LL...
+
+--- [15] 2506.14903v1 ---
+Title: DETONATE: A Benchmark for Text-to-Image Alignment and Kernelized Direct Preference Optimization
+Authors: Renjith Prasad, Abhilekh Borah, Hasnat Md Abdullah, Chathurangi Shyalika, Gurpreet Singh et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-06-17
+Summary: Alignment is crucial for text-to-image (T2I) models to ensure that generated images faithfully capture user intent while maintaining safety and fairness. Direct Preference Optimization (DPO), prominent in large language models (LLMs), is extending its influence to T2I systems. This paper introduces DPO-Kernels for T2I models, a novel extension enhancing alignment across three dimensions: (i) Hybri...
+
+--- [16] 2506.08967v2 ---
+Title: Step-Audio-AQAA: a Fully End-to-End Expressive Large Audio Language Model
+Authors: Ailin Huang, Bingxin Li, Bruce Wang, Boyong Wu, Chao Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2025-06-10
+Summary: Large Audio-Language Models (LALMs) have significantly advanced intelligent human-computer interaction, yet their reliance on text-based outputs limits their ability to generate natural speech responses directly, hindering seamless audio interactions. To address this, we introduce Step-Audio-AQAA, a fully end-to-end LALM designed for Audio Query-Audio Answer (AQAA) tasks. The model integrates a du...
+
+--- [17] 2412.15453v1 ---
+Title: Northeastern Uni at Multilingual Counterspeech Generation: Enhancing Counter Speech Generation with LLM Alignment through Direct Preference Optimization
+Authors: Sahil Wadhwa, Chengtian Xu, Haoming Chen, Aakash Mahalingam, Akankshya Kar et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2024-12-19
+Summary: The automatic generation of counter-speech (CS) is a critical strategy for addressing hate speech by providing constructive and informed responses. However, existing methods often fail to generate high-quality, impactful, and scalable CS, particularly across diverse linguistic contexts. In this paper, we propose a novel methodology to enhance CS generation by aligning Large Language Models (LLMs) ...
+
+--- [18] 2411.01834v2 ---
+Title: Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback
+Authors: Guan-Ting Lin, Prashanth Gurunath Shivakumar, Aditya Gourav, Yile Gu, Ankur Gandhe et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2024-11-04
+Summary: While textless Spoken Language Models (SLMs) have shown potential in end-to-end speech-to-speech modeling, they still lag behind text-based Large Language Models (LLMs) in terms of semantic coherence and relevance. This work introduces the Align-SLM framework, which leverages preference optimization inspired by Reinforcement Learning with AI Feedback (RLAIF) to enhance the semantic understanding o...
+
+--- [19] 2409.10157v1 ---
+Title: Emo-DPO: Controllable Emotional Speech Synthesis through Direct Preference Optimization
+Authors: Xiaoxue Gao, Chen Zhang, Yiming Chen, Huayun Zhang, Nancy F. Chen
+Primary cat: eess.AS | All cats: eess.AS, cs.SD, eess.SP
+Published: 2024-09-16
+Summary: Current emotional text-to-speech (TTS) models predominantly conduct supervised training to learn the conversion from text and desired emotion to its emotional speech, focusing on a single emotion per text-speech pair. These models only learn the correct emotional outputs without fully comprehending other emotion characteristics, which limits their capabilities of capturing the nuances between diff...
+
+--- [20] 2408.13296v3 ---
+Title: The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs: An Exhaustive Review of Technologies, Research, Best Practices, Applied Research Challenges and Opportunities
+Authors: Venkatesh Balavadhani Parthasarathy, Ahtsham Zafar, Aafaq Khan, Arsalan Shahid
+Primary cat: cs.LG | All cats: cs.LG, cs.CL
+Published: 2024-08-23
+Summary: This report examines the fine-tuning of Large Language Models (LLMs), integrating theoretical insights with practical applications. It outlines the historical evolution of LLMs from traditional Natural Language Processing (NLP) models to their pivotal role in AI. A comparison of fine-tuning methodologies, including supervised, unsupervised, and instruction-based approaches, highlights their applic...
+

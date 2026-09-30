@@ -1,0 +1,86 @@
+# Total entries: 12
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aend-to-end+AND+abs%3Areinforcement+AND+abs%3Aspoken&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.07148v1 ---
+Title: Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning
+Authors: Yuxin Li, Donghang Wu, Guan-Ting Lin, Hung-yi Lee, Chengwei Qin et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-08
+Summary: Recent full-duplex spoken dialogue models have demonstrated compelling progress toward human-like interaction, enabling agents to respond with low latency, produce backchannels, and handle user barge-ins. Yet these improvements in conversational dynamics often come with weaker reasoning and instruction-following abilities, revealing a potential tension between interactive dynamics and intelligence...
+
+--- [2] 2604.14932v1 ---
+Title: WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training
+Authors: Yifu Chen, Shengpeng Ji, Qian Chen, Tianle Liang, Yangzhuo Li et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-04-16
+Summary: End-to-end spoken dialogue models have garnered significant attention because they offer a higher potential ceiling in expressiveness and perceptual ability than cascaded systems. However, the intelligence and expressiveness of current open-source spoken dialogue models often remain below expectations. Motivated by the success of online reinforcement learning(RL) in other domains, one might attemp...
+
+--- [3] 2601.18281v1 ---
+Title: Reflecting Twice before Speaking with Empathy: Self-Reflective Alternating Inference for Empathy-Aware End-to-End Spoken Dialogue
+Authors: Yuhang Jia, Pei Liu, Haoqin Sun, Jiaming Zhou, Xuxin Cheng et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-01-26
+Summary: End-to-end Spoken Language Models (SLMs) hold great potential for paralinguistic perception, and numerous studies have aimed to enhance their capabilities, particularly for empathetic dialogue. However, current approaches largely depend on rigid supervised signals, such as ground-truth response in supervised fine-tuning or preference scores in reinforcement learning. Such reliance is fundamentally...
+
+--- [4] 2601.09365v2 ---
+Title: Frame of Reference: Addressing the Challenges of Common Ground Representation in Situational Dialogs
+Authors: Biswesh Mohapatra, Théo Charlot, Giovanni Duca, Mayank Palan, Laurent Romary et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-01-14
+Summary: Common ground plays a critical role in situated spoken dialogs, where interlocutors must establish and maintain shared references to entities, events, and relations to sustain coherent interaction in a shared space and over time. With the increasing presence of embodied conversational agents and social robots, the ability to correctly ground this kind of conversational content in order to refer ba...
+
+--- [5] 2510.08618v2 ---
+Title: VAPO: End-to-end Slide-Enhanced Speech Recognition with Omni-modal Large Language Models
+Authors: Rui Hu, Delai Qiu, Yining Wang, Shengping Liu, Jitao Sang
+Primary cat: eess.AS | All cats: eess.AS, cs.CV, cs.SD
+Published: 2025-10-08
+Summary: Omni-modal large language models (OLLMs) offer a promising end-to-end solution for slide-enhanced speech recognition due to their inherent multimodal capabilities. However, we found a fundamental issue faced by OLLMs: \textit{Visual Interference}, where models show a bias towards visible text over auditory signals, causing them to hallucinate slide content that was never spoken. To address this, w...
+
+--- [6] 2508.20916v2 ---
+Title: SageLM: A Multi-aspect and Explainable Large Language Model for Speech Judgement
+Authors: Yuan Ge, Junxiang Zhang, Xiaoqian Liu, Bei Li, Xiangnan Ma et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-08-28
+Summary: Speech-to-Speech (S2S) Large Language Models (LLMs) are foundational to natural human-computer interaction, enabling end-to-end spoken dialogue systems. However, evaluating these models remains a fundamental challenge. We propose \texttt{SageLM}, an end-to-end, multi-aspect, and explainable speech LLM for comprehensive S2S LLMs evaluation. First, unlike cascaded approaches that disregard acoustic ...
+
+--- [7] 2505.09558v2 ---
+Title: WavReward: Spoken Dialogue Models With Generalist Reward Evaluators
+Authors: Shengpeng Ji, Tianle Liang, Yangzhuo Li, Jialong Zuo, Minghui Fang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2025-05-14
+Summary: End-to-end spoken dialogue models such as GPT-4o-audio have recently garnered significant attention in the speech domain. However, the evaluation of spoken dialogue models' conversational performance has largely been overlooked. This is primarily due to the intelligent chatbots convey a wealth of non-textual information which cannot be easily measured using text-based language models like ChatGPT....
+
+--- [8] 2412.20632v1 ---
+Title: EVOLVE: Emotion and Visual Output Learning via LLM Evaluation
+Authors: Jordan Sinclair, Christopher Reardon
+Primary cat: cs.RO | All cats: cs.RO, cs.HC
+Published: 2024-12-30
+Summary: Human acceptance of social robots is greatly effected by empathy and perceived understanding. This necessitates accurate and flexible responses to various input data from the user. While systems such as this can become increasingly complex as more states or response types are included, new research in the application of large language models towards human-robot interaction has allowed for more str...
+
+--- [9] 2411.01834v2 ---
+Title: Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback
+Authors: Guan-Ting Lin, Prashanth Gurunath Shivakumar, Aditya Gourav, Yile Gu, Ankur Gandhe et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2024-11-04
+Summary: While textless Spoken Language Models (SLMs) have shown potential in end-to-end speech-to-speech modeling, they still lag behind text-based Large Language Models (LLMs) in terms of semantic coherence and relevance. This work introduces the Align-SLM framework, which leverages preference optimization inspired by Reinforcement Learning with AI Feedback (RLAIF) to enhance the semantic understanding o...
+
+--- [10] 2305.10126v1 ---
+Title: Fusion-S2iGan: An Efficient and Effective Single-Stage Framework for Speech-to-Image Generation
+Authors: Zhenxing Zhang, Lambert Schomaker
+Primary cat: cs.CV | All cats: cs.CV, cs.MM
+Published: 2023-05-17
+Summary: The goal of a speech-to-image transform is to produce a photo-realistic picture directly from a speech signal. Recently, various studies have focused on this task and have achieved promising performance. However, current speech-to-image approaches are based on a stacked modular framework that suffers from three vital issues: 1) Training separate networks is time-consuming as well as inefficient an...
+
+--- [11] 2011.00554v1 ---
+Title: Can a Robot Trust You? A DRL-Based Approach to Trust-Driven Human-Guided Navigation
+Authors: Vishnu Sashank Dorbala, Arjun Srinivasan, Aniket Bera
+Primary cat: cs.RO | All cats: cs.RO, cs.AI, cs.MA
+Published: 2020-11-01
+Summary: Humans are known to construct cognitive maps of their everyday surroundings using a variety of perceptual inputs. As such, when a human is asked for directions to a particular location, their wayfinding capability in converting this cognitive map into directional instructions is challenged. Owing to spatial anxiety, the language used in the spoken instructions can be vague and often unclear. To ac...
+
+--- [12] 1810.00679v1 ---
+Title: Direct optimization of F-measure for retrieval-based personal question answering
+Authors: Rasool Fakoor, Amanjit Kainth, Siamak Shakeri, Christopher Winestock, Abdel-rahman Mohamed et al.
+Primary cat: cs.IR | All cats: cs.IR, cs.CL, cs.LG, stat.ML
+Published: 2018-09-28
+Summary: Recent advances in spoken language technologies and the introduction of many customer facing products, have given rise to a wide customer reliance on smart personal assistants for many of their daily tasks. In this paper, we present a system to reduce users' cognitive load by extending personal assistants with long-term personal memory where users can store and retrieve by voice, arbitrary pieces ...
+

@@ -1,0 +1,23 @@
+# Total entries: 3
+# URL: https://export.arxiv.org/api/query?search_query=(all%3A%22sound+event%22+OR+all%3A%22audio+understanding%22)+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.14474v1 ---
+Title: Can Tokens Compete? Token Representations against Supervised CNN Backbones for BirdCLEF+ 2026
+Authors: Anthony Miyaguchi, Murilo Gustineli, Adrian Cheung
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-07-16
+Summary: This paper details the DS@GT ARC team's approach to BirdCLEF+ 2026, multi-label detection of animal vocalizations in soundscapes from the Pantanal wetlands. The 2026 edition adds about an hour of labeled soundscapes, shifting the task toward supervised pipelines fit to the labeled set. First, we build a competitive supervised baseline that ensembles a frozen Perch v2 backbone, a trained HGNetV2-B0...
+
+--- [2] 2604.18187v1 ---
+Title: Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models
+Authors: Xiang He, Chenxing Li, Jinting Wang, Yan Rong, Tianxin Xie et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-04-20
+Summary: Large Audio-Language Models (LALMs) have made significant progress in audio understanding, yet they primarily operate as perception-and-answer systems without explicit reasoning processes. Existing methods for enhancing audio reasoning rely either on supervised chain-of-thought (CoT) fine-tuning, which is limited by training data quality, or on reinforcement learning (RL) with coarse rewards that ...
+
+--- [3] 2604.00776v2 ---
+Title: Description and Discussion on DCASE 2026 Challenge Task 4: Spatial Semantic Segmentation of Sound Scenes
+Authors: Binh Thien Nguyen, Masahiro Yasuda, Noboru Harada, Romain Serizel, Mayank Mishra et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-01
+Summary: This paper presents an overview of the Detection and Classification of Acoustic Scenes and Events (DCASE) 2026 Challenge Task 4, Spatial Semantic Segmentation of Sound Scenes (S5). The S5 task focuses on the joint detection and separation of sound events in complex spatial audio mixtures, contributing to the foundation of immersive communication. First introduced in DCASE 2025, the S5 task continu...
+

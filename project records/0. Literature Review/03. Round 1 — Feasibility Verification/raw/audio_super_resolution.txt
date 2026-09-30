@@ -1,0 +1,142 @@
+--- [1] 2605.30594v2 ---
+Title: FiPA-SR -- FiLM-Conditioned Perceptually Informed Audio Super-Resolution
+Authors: Wallace Abreu, Luiz W. P. Biscainho
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-28
+Summary: Audio bandwidth extension aims to reconstruct missing high-frequency content from bandlimited signals. This paper proposes FiPA-SR, a GAN-based perceptual architecture capable of handling different input bandwidths within a single model. Building upon the previous $\textrm{AEROMamba}_\textrm{P}$ framework, the proposed model incorporates FiLM layers to adapt the reconstruction process according to...
+
+--- [2] 2605.16681v2 ---
+Title: A Survey of Advancing Audio Super-Resolution and Bandwidth Extension from Discriminative to Generative Models
+Authors: Ningyuan Yang, Yize Li, Diego A. Cuji, Ryan M. Corey, Pu Zhao et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD, eess.SP
+Published: 2026-05-15
+Summary: Audio super-resolution (SR), also referred to as bandwidth extension (BWE), aims to reconstruct high-fidelity signals from low-resolution (LR) or band-limited (BL) observations, an inherently ill-posed task due to the ambiguity of missing high-frequency (HF) content. This survey provides a comprehensive overview of the field, with a particular focus on the paradigm shift from discriminative mappin...
+
+--- [3] 2604.09188v2 ---
+Title: LatentFlowSR: High-Fidelity Audio Super-Resolution via Noise-Robust Latent Flow Matching
+Authors: Fei Liu, Yang Ai, Hui-Peng Du, Yu-Fei Shi, Zhen-Hua Ling
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-04-10
+Summary: Audio super-resolution aims to recover missing high-frequency details from bandwidth-limited low-resolution audio, thereby improving the naturalness and perceptual quality of the reconstructed signal. However, most existing methods directly operate in the waveform or time-frequency domain, which not only involves high-dimensional generation spaces but is also largely limited to speech tasks, leavi...
+
+--- [4] 2603.04122v1 ---
+Title: FastWave: Optimized Diffusion Model for Audio Super-Resolution
+Authors: Nikita Kuznetsov, Maksim Kaledin
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-03-04
+Summary: Audio Super-Resolution is a set of techniques aimed at high-quality estimation of the given signal as if it would be sampled with higher sample rate. Among suggested methods there are diffusion and flow models (which are considered slower), generative adversarial networks (which are considered faster), however both approaches are currently presented by high-parametric networks, requiring high comp...
+
+--- [5] 2510.00771v2 ---
+Title: UniverSR: Unified and Versatile Audio Super-Resolution via Vocoder-Free Flow Matching
+Authors: Woongjib Choi, Sangmin Lee, Hyungseob Lim, Hong-Goo Kang
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD, eess.SP
+Published: 2025-10-01
+Summary: In this paper, we present a vocoder-free framework for audio super-resolution that employs a flow matching generative model to capture the conditional distribution of complex-valued spectral coefficients. Unlike conventional two-stage diffusion-based approaches that predict a mel-spectrogram and then rely on a pre-trained neural vocoder to synthesize waveforms, our method directly reconstructs wav...
+
+--- [6] 2509.24924v1 ---
+Title: SAGA-SR: Semantically and Acoustically Guided Audio Super-Resolution
+Authors: Jaekwon Im, Juhan Nam
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-29
+Summary: Versatile audio super-resolution (SR) aims to predict high-frequency components from low-resolution audio across diverse domains such as speech, music, and sound effects. Existing diffusion-based SR methods often fail to produce semantically aligned outputs and struggle with consistent high-frequency reconstruction. In this paper, we propose SAGA-SR, a versatile audio SR model that combines semant...
+
+--- [7] 2509.17609v3 ---
+Title: Audio Super-Resolution with Latent Bridge Models
+Authors: Chang Li, Zehua Chen, Liyuan Wang, Jun Zhu
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2025-09-22
+Summary: Audio super-resolution (SR), i.e., upsampling the low-resolution (LR) waveform to the high-resolution (HR) version, has recently been explored with diffusion and bridge models, while previous methods often suffer from sub-optimal upsampling quality due to their uninformative generation prior. Towards high-quality audio super-resolution, we present a new system with latent bridge models (LBMs), whe...
+
+--- [8] 2508.02391v1 ---
+Title: Inference-time Scaling for Diffusion-based Audio Super-resolution
+Authors: Yizhu Jin, Zhen Ye, Zeyue Tian, Haohe Liu, Qiuqiang Kong et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-08-04
+Summary: Diffusion models have demonstrated remarkable success in generative tasks, including audio super-resolution (SR). In many applications like movie post-production and album mastering, substantial computational budgets are available for achieving superior audio quality. However, while existing diffusion approaches typically increase sampling steps to improve quality, the performance remains fundamen...
+
+--- [9] 2501.10807v1 ---
+Title: FlashSR: One-step Versatile Audio Super-resolution via Diffusion Distillation
+Authors: Jaekwon Im, Juhan Nam
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-01-18
+Summary: Versatile audio super-resolution (SR) is the challenging task of restoring high-frequency components from low-resolution audio with sampling rates between 4kHz and 32kHz in various domains such as music, speech, and sound effects. Previous diffusion-based SR methods suffer from slow inference due to the need for a large number of sampling steps. In this paper, we introduce FlashSR, a single-step d...
+
+--- [10] 2501.04926v1 ---
+Title: FLowHigh: Towards Efficient and High-Quality Audio Super-Resolution with Single-Step Flow Matching
+Authors: Jun-Hak Yun, Seung-Bin Kim, Seong-Whan Lee
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2025-01-09
+Summary: Audio super-resolution is challenging owing to its ill-posed nature. Recently, the application of diffusion models in audio super-resolution has shown promising results in alleviating this challenge. However, diffusion-based models have limitations, primarily the necessity for numerous sampling steps, which causes significantly increased latency when synthesizing high-quality audio samples. In thi...
+
+--- [11] 2411.07364v1 ---
+Title: AEROMamba: An efficient architecture for audio super-resolution using generative adversarial networks and state space models
+Authors: Wallace Abreu, Luiz Wagner Pereira Biscainho
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-11-11
+Summary: Audio super-resolution aims to enhance low-resolution signals by creating high-frequency content. In this work, we modify the architecture of AERO (a state-of-the-art system for this task) for music super-resolution. SPecifically, we replace its original Attention and LSTM layers with Mamba, a State Space Model (SSM), across all network layers. Mamba is capable of effectively substituting the ment...
+
+--- [12] 2405.01242v3 ---
+Title: TRAMBA: A Hybrid Transformer and Mamba Architecture for Practical Audio and Bone Conduction Speech Super Resolution and Enhancement on Mobile and Wearable Platforms
+Authors: Yueyuan Sui, Minghui Zhao, Junxi Xia, Xiaofan Jiang, Stephen Xia
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, eess.AS
+Published: 2024-05-02
+Summary: We propose TRAMBA, a hybrid transformer and Mamba architecture for acoustic and bone conduction speech enhancement, suitable for mobile and wearable platforms. Bone conduction speech enhancement has been impractical to adopt in mobile and wearable platforms for several reasons: (i) data collection is labor-intensive, resulting in scarcity; (ii) there exists a performance gap between state of-art m...
+
+--- [13] 2309.07314v1 ---
+Title: AudioSR: Versatile Audio Super-resolution at Scale
+Authors: Haohe Liu, Ke Chen, Qiao Tian, Wenwu Wang, Mark D. Plumbley
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM, eess.AS, eess.SP
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Aaudio+AND+ti%3Asuper-resolution&max_results=20&sortBy=submittedDate&sortOrder=descending
+Published: 2023-09-13
+Summary: Audio super-resolution is a fundamental task that predicts high-frequency components for low-resolution audio, enhancing audio quality in digital applications. Previous methods have limitations such as the limited scope of audio types (e.g., music, speech) and specific bandwidth settings they can handle (e.g., 4kHz to 8kHz). In this paper, we introduce a diffusion-based generative model, AudioSR, ...
+
+--- [14] 2211.12232v2 ---
+Title: AERO: Audio Super Resolution in the Spectral Domain
+Authors: Moshe Mandel, Or Tal, Yossi Adi
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2022-11-22
+Summary: We present AERO, a audio super-resolution model that processes speech and music signals in the spectral domain. AERO is based on an encoder-decoder architecture with U-Net like skip connections. We optimize the model using both time and frequency domain loss functions. Specifically, we consider a set of reconstruction losses together with perceptual ones in the form of adversarial and feature disc...
+
+--- [15] 2210.15887v2 ---
+Title: Nonparallel High-Quality Audio Super Resolution with Domain Adaptation and Resampling CycleGANs
+Authors: Reo Yoneyama, Ryuichi Yamamoto, Kentaro Tachibana
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD, eess.SP
+Published: 2022-10-28
+Summary: Neural audio super-resolution models are typically trained on low- and high-resolution audio signal pairs. Although these methods achieve highly accurate super-resolution if the acoustic characteristics of the input data are similar to those of the training data, challenges remain: the models suffer from quality degradation for out-of-domain data, and paired data are required for training. To addr...
+
+--- [16] 2112.13156v1 ---
+Title: Enabling Real-time On-chip Audio Super Resolution for Bone Conduction Microphones
+Authors: Yuang Li, Yuntao Wang, Xin Liu, Yuanchun Shi, Shao-fu Shih
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2021-12-24
+Summary: Voice communication using the air conduction microphone in noisy environments suffers from the degradation of speech audibility. Bone conduction microphones (BCM) are robust against ambient noises but suffer from limited effective bandwidth due to their sensing mechanism. Although existing audio super resolution algorithms can recover the high frequency loss to achieve high-fidelity audio, they re...
+
+--- [17] 2111.00195v2 ---
+Title: Learning Continuous Representation of Audio for Arbitrary Scale Super Resolution
+Authors: Jaechang Kim, Yunjoo Lee, Seunghoon Hong, Jungseul Ok
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2021-10-30
+Summary: Audio super resolution aims to predict the missing high resolution components of the low resolution audio signals. While audio in nature is a continuous signal, current approaches treat it as discrete data (i.e., input is defined on discrete time domain), and consider the super resolution over a fixed scale factor (i.e., it is required to train a new neural network to change output resolution). To...
+
+--- [18] 2109.14994v1 ---
+Title: An investigation of pre-upsampling generative modelling and Generative Adversarial Networks in audio super resolution
+Authors: James King, Ramon Viñas Torné, Alexander Campbell, Pietro Liò
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2021-09-30
+Summary: There have been several successful deep learning models that perform audio super-resolution. Many of these approaches involve using preprocessed feature extraction which requires a lot of domain-specific signal processing knowledge to implement. Convolutional Neural Networks (CNNs) improved upon this framework by automatically learning filters. An example of a convolutional approach is AudioUNet, ...
+
+--- [19] 2108.11637v1 ---
+Title: Self-Attention for Audio Super-Resolution
+Authors: Nathanaël Carraz Rakotonirina
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2021-08-26
+Summary: Convolutions operate only locally, thus failing to model global interactions. Self-attention is, however, able to learn representations that capture long-range dependencies in sequences. We propose a network architecture for audio super-resolution that combines convolution and self-attention. Attention-based Feature-Wise Linear Modulation (AFiLM) uses self-attention mechanism instead of recurrent ...
+
+--- [20] 2106.08507v1 ---
+Title: WSRGlow: A Glow-based Waveform Generative Model for Audio Super-Resolution
+Authors: Kexun Zhang, Yi Ren, Changliang Xu, Zhou Zhao
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2021-06-16
+Summary: Audio super-resolution is the task of constructing a high-resolution (HR) audio from a low-resolution (LR) audio by adding the missing band. Previous methods based on convolutional neural networks and mean squared error training objective have relatively low performance, while adversarial generative models are difficult to train and tune. Recently, normalizing flow has attracted a lot of attention...
+

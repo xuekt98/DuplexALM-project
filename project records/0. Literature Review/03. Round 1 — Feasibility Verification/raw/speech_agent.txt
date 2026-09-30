@@ -1,0 +1,177 @@
+--- [1] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [2] 2609.08672v1 ---
+Title: X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR
+Authors: Zhiwei Lin, Kaiqi Fu, Rime Wen, Zehan Liu, Shawn Qin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-08
+Summary: Streaming automatic speech recognition (ASR) for real-time voice agents and full-duplex dialogue must provide accurate partial transcripts with low commit latency. Existing systems commonly use a fixed chunk size, look-ahead, or target delay, or encourage emissions near estimated acoustic boundaries. These approaches do not directly optimize how much additional context to use at each output positi...
+
+--- [3] 2609.08171v1 ---
+Title: EviSI: An Evaluation Agent for Simultaneous Interpreting
+Authors: Ben Yan, Zongyao Li, Daimeng Wei, Weidong Liu, Huan Zhao et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-08
+Summary: Simultaneous speech-to-speech translation requires understanding, translation and spoken delivery while the source stream continues. To support timely delivery and limit accumulated delay, systems adopt reformulation and summarization, which can preserve meaning while departing from written references. BLEU and COMET may not reliably distinguish such variation from semantic loss. We introduce EviS...
+
+--- [4] 2609.06563v1 ---
+Title: MARBO: Relational Belief Grounding for LLM Agents in Social Deduction Games
+Authors: Hwang Yechan, Bae Sangjun, Kim Jeongmo, Bang Sangwoo, Han Seungyul
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-09-06
+Summary: Social deduction games (SDGs) require agents to reason under partial observability by maintaining relational beliefs about hidden roles and team alignments. While recent LLM-agent approaches improve gameplay through prompting and preference optimization, they often optimize actions and in-game speech without explicitly grounding them in such beliefs. This frequently leads to strategically inconsis...
+
+--- [5] 2609.04850v1 ---
+Title: ElderBench: Benchmarking Autonomous Mobile Agents for Older Adults
+Authors: Weide Zhan, Qumu Shaqu, Yuanqing Liu, Peng Zhang, Jiahao Liu et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-04
+Summary: While autonomous mobile agents hold great potential for assisting older adults with smartphone usage, existing GUI benchmarks mainly rely on explicit, goal-oriented instructions and rarely capture the naturally occurring language patterns of older users, such as indirect speech, referential ambiguity, and under-specified requests. This mismatch between benchmark instructions and real-world elderly...
+
+--- [6] 2609.03423v1 ---
+Title: DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-03
+Summary: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through explicit turn-management instructions, while deployed agents are often configured through roles or personas from which the appropriate conversational behavior must be inferred. We introduce DuplexSpeech...
+
+--- [7] 2609.03203v2 ---
+Title: VoxReason: Listener-Free Evaluation of Source-Grounded Speech Planning Before Synthesis
+Authors: Mengzhe Geng
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG, eess.AS
+Published: 2026-09-02
+Summary: Expressive speech systems have to decide how an utterance is delivered before any waveform is rendered. In dialogue agents, narration, and role-conditioned TTS, that planning step sets affect, pitch, energy, rate, pause, emphasis, and stance, yet standard audio metrics rarely show whether those choices were actually licensed by the source record. This leaves a practical evaluation gap: a system ma...
+
+--- [8] 2609.02812v1 ---
+Title: VibeVoice-ASR-Streaming Technical Report
+Authors: Yujie Tu, Zhiliang Peng, Jianwei Yu, Li Dong, Songchen Xu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-02
+Summary: Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks. Recently, end-to-end models such as VibeVoice-ASR have unified the two tasks within a single model. However, existing unified models still mainly support offline recognition, making it difficult to meet the low-latency requirements of real-time voice assistants and agents. To tackle this issue, we...
+
+--- [9] 2609.00570v2 ---
+Title: VoiceLongMemEval: Do Assistants Remember How You Sounded?
+Authors: Ramit Pahwa, Parivesh Priye, Apoorva Beedu
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-09-01
+Summary: With the growing scale of multi-agent architectures and large language models, deployed AI assistants are increasingly tasked with reasoning over long, continuous, multi-session conversation histories. Current benchmarks evaluate this dialogue history as information retrieval over long horizon, temporal reasoning, or knowledge updates, while crucially ignoring the fundamental dynamics of human-age...
+
+--- [10] 2608.31005v2 ---
+Title: From Intent to Evidence: Policy-Steered Multi-Strategy Retrieval for Long-Video Agents
+Authors: Can Zhang, Baofeng Zhang, Xiaotian Han, Junyuan Shang, Yuchen Ding et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Existing long-video agents acquire evidence through one uniform behavior, ignoring whether the required evidence is concentrated, requires broad occurrence coverage, or must discriminate competing hypotheses---which can cause failure before substantive reasoning begins. Prescribing a fine-grained solution procedure for every question is not a satisfactory remedy, as it restricts autonomous explora...
+
+--- [11] 2608.29241v1 ---
+Title: When Patients Cut In: Extending Clinical Conversational AI Safety to Interruptions
+Authors: Zachary Ellis, Spencer Hazel, Adam Brandt, Yajie Vera He, Ernest Lim et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-29
+Summary: Clinical voice agents are now deployed in routine care, where real patients do not wait their turn: they interrupt. These systems typically use a cascaded architecture (speech-to-text -> LLM -> text-to-speech), so when a patient cuts the agent off mid-utterance, clinically required content can be lost even when the model handles cooperative transcripts well. Yet clinical conversational-AI benchmar...
+
+--- [12] 2608.28973v1 ---
+Title: Free Speech and Artificial Intelligence
+Authors: Etienne Brown
+Primary cat: cs.CY | All cats: cs.CY, cs.AI
+Published: 2026-08-29
+Summary: Philosophers and legal scholars are engaged in debates about the implications of artificial intelligence for freedom of expression. This paper analyzes the free speech issues raised by two distinct AI technologies: social media recommendation algorithms and conversational AI (i.e., chatbots powered by large language models). The first part shows that, through their recommendation algorithms, socia...
+
+--- [13] 2608.28932v2 ---
+Title: VocalAffectBench: Evaluating Vocal Emotion Recognition in AI Audio Models
+Authors: Luc Debaupte, Tyler Baumgartner, Brandon Tai, Candice Fan, Bill Wang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-08-28
+Summary: Voice products increasingly need affective cues that are present in speech but absent from transcripts. We introduce VocalAffectBench, a public, test-only benchmark for evaluating whether AI audio models can identify expressed vocal emotion from raw audio. The benchmark contains 273 human-recorded English WAV clips from 51 speaker accounts totaling 1.95 hours across seven labels: angry, disgusted,...
+
+--- [14] 2609.00330v1 ---
+Title: Topic Matching in the Wild: Benchmark and Lessons from Real-World ASR Transcripts
+Authors: Saman Rahbar, Xiliang Zhu, Irvin Cardoza, David Rossouw
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG
+Published: 2026-08-27
+Summary: In contact centers, real-time agent-assist tools determine, for each of many predefined topics, whether a live customer utterance is relevant and display a coaching card to the agent when it is. The input is noisy and challenging: ASR(Automatic Speech Recognition) transcripts of spontaneous phone conversations, which can be unclear, repetitive, and mostly lack punctuation. To systematically study ...
+
+--- [15] 2608.27176v2 ---
+Title: When Text Misleads: Inconsistent-Aware Reasoning for Audio-Grounded Dialogue
+Authors: Yen-Ju Lu, Yuzhe Wang, Yaohan Guan, Xiluo He, Jiarui Hai et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG, eess.AS
+Published: 2026-08-27
+Summary: Understanding spoken dialogue requires joint reasoning over lexical content and paralinguistic acoustic signals such as emotion and conversational intent. However, existing evaluations often allow shortcuts based on transcripts or single-modality solutions, obscuring whether models genuinely ground predictions in speech. We formalize this failure mode as cross-modal disagreement, where transcripts...
+
+--- [16] 2608.27524v1 ---
+Title: SETU: An Agentic Ecosystem for Multilingual, Persona-Aware Communication Coaching
+Authors: Jonnalagadda Maruthi Tejas, Uponika Barman Roy, Tilottama Goswami, Samir Goswami, Mousita Dhar
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-27
+Summary: Corporate training teams need scalable and explainable tools to improve workforce communication in multilingual settings. Existing systems often score text, audio, or video in isolation, or produce black-box outputs that are difficult to audit for coaching use. This paper presents SETU, an agentic ecosystem for corporate communication coaching aimed at recruiters, frontline sales professionals and...
+
+--- [17] 2608.26432v1 ---
+Title: SpeechGym: An Audio-Native Gym for Training Voice Agents via Reinforcement Learning
+Authors: Jiajun Fan, Jingyuan Li, Prashanth Gurunath Shivakumar, Jia-Hong Huang, Qi Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-26
+Summary: Voice agents must call tools and hold multi-turn dialogue entirely through speech, yet the dominant paradigm trains them in text. Existing frameworks either cascade TTS and ASR around a proprietary voice API, where gradients cannot flow and per-call cost makes on-policy reinforcement learning prohibitive, or stay in text: they measure voice agents but cannot improve them. We present SpeechGym, an ...
+
+--- [18] 2608.24555v1 ---
+Title: StrokeGuard: A Multi-Agent Guided System for Prehospital Stroke Assessment
+Authors: Wentao Yang, Zhenye Xu, Ruoyi Li, Musen Zhang, Yao Guo
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.MA
+Published: 2026-08-25
+Summary: Prehospital stroke assessment aims to accurately identify stroke symptoms and make rapid decisions through standardized procedures within an extremely narrow time window, thereby saving valuable time for subsequent treatment. In clinical practice, FAST-based scales are widely used for prehospital stroke assessment by issuing instructions that guide subjects to perform specific actions to screen fa...
+
+--- [19] 2608.24314v1 ---
+Title: Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight
+Authors: Anupam Purwar, Shashank Singh, Kritika Srivastava
+Primary cat: cs.AI | All cats: cs.AI, cs.ET
+Published: 2026-08-25
+Summary: Evaluating conversational voice agents at scale re- quires reliable assessment methods that capture both observ- able interaction quality and the contextual judgment typically provided by human evaluators. We investigate LLM-as-a-Judge evaluation by comparing human judgments with GPT-4.1 and GPT-5 on telecom and retail voice-agent conversations, across conversational quality and safety dimensions....
+
+--- [20] 2608.24048v1 ---
+Title: Don't Just Listen, Try Planning: Graph-based Retrieval-Generation Agent for Long-form Audio Meeting Understanding
+Authors: Quanwei Tang, Dong Zhang, Shoushan Li, Guodong Zhou
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-25
+Summary: While long-form audio meeting understanding (LAMU) is garnering growing attention, task-specific question answering (QA) datasets remain scarce. Existing speech QA paradigms and state-of-the-art Speech LLMs suffer from acoustic information loss and poor long-term context memory. To address these issues, we construct the LongAudioQA dataset and propose the GRGA model, which models heterogeneous aud...
+
+--- [21] 2608.23152v3 ---
+Title: Counter with Evidence! A Multi-Agent Memory Efficient Reasoning Framework for Hate Category Informed Counterspeech Generation
+Authors: Sujoy Nath, Aswini Kumar, Tanmoy Chakraborty
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-24
+Summary: Counterspeech effectively neutralizes the impact of online hate. Although prior work explores automated counterspeech generation, it largely emphasizes stylistic control while treating hate speech as homogeneous, overlooking that distinct forms of abuse require fundamentally different counterspeech strategies. To address this gap, we introduce FIRE (Factuality Informed Multi-Agent Reasoning Framew...
+
+--- [22] 2608.22731v1 ---
+Title: LLM-Based Selection of Incongruent Verbal and Nonverbal Behavior for Virtual Humans
+Authors: Parisa Ghanad Torshizi, Stacy Marsella
+Primary cat: cs.AI | All cats: cs.AI, cs.HC, cs.RO
+Published: 2026-08-24
+Summary: Nonverbal behavior generation systems for virtual agents often take an utterance as input and generate nonverbal behaviors that emphasize or illustrate the content of the verbal channel. However, human nonverbal behavior is shaped by more than the content of the speech. It is also influenced by speaker roles, interpersonal relationships, social context, and the cognitive and emotional states of th...
+
+--- [23] 2608.22702v1 ---
+Title: AffAdapt: AFFect-driven ADAPTive AI Personas for Seamless Conversations
+Authors: Nishanth Chidambaram, Kaustubh Paliwal, Kayla Hom, Shaoze Zhou, Chen Chen et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-24
+Summary: AI-generated personas are being increasingly used for support, training and simulations. While generative AI models possess abilities to generate affect-aware responses, their embodiment into visual personas is an active area of investigation. Naturalistic exchanges require understanding of the conversational partners' turn completions, whether the agent should respond or keep listening and rely o...
+
+--- [24] 2608.22101v1 ---
+Title: Beyond Fresh Starts: Stateful Inference for Streaming ASR in Conversational Voice Agents
+Authors: Sameep Chattopadhyay, Alexander Erdmann, Mari Ostendorf
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-08-22
+Summary: Modern voice-agent systems rely on streaming speech recognition models that operate under stringent latency constraints. This study shows that, due to the limited memory constraints of real-time processing, these systems are adversely impacted by conversational phenomena such as long silences and backchannels. While many agentic pipelines mitigate this by resetting state at each turn, this approac...
+
+--- [25] 2608.22035v1 ---
+Title: Ludi${}_{\scriptscriptstyle 0.1}$: An Agentic System for Socially Intelligent Robots
+Authors: Wooseong Chung, William Cong, Jakub Dworakowski, Ethan Ewer, Tri Wahyu Guntara et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-08-22
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspeech+AND+abs%3Aagent&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Robot foundation models have substantially advanced perception and control, but natural human-robot collaboration requires more than executing isolated commands. A robot must recognize ambiguity, maintain context across turns, communicate its intentions, and revise ongoing behavior as the user's intent changes. We present $\scriptstyle\mathsf{Ludi}_{\scriptscriptstyle 0.1}$, an agentic system for ...
+

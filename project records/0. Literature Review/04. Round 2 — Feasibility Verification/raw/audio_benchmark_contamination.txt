@@ -1,0 +1,23 @@
+# Total entries: 3
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Abenchmark+AND+abs%3Acontamination&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.20769v1 ---
+Title: Do SpeechLMs Hear Their Own Opinions? Diagnosing and Mitigating Previous-Belief Contamination in Streaming Emotion Understanding
+Authors: Haoyue Liu, Zhichao Wang, Ye Chen, Haonan Deng, Xiaoying Tang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-21
+Summary: Streaming emotion understanding uses historical state while continuously interpreting current audio, often feeding the model's previous prediction back as context. We show that this history conditioning can distort current perception. On a balanced CREMA-D-Stream counterfactual diagnostic, changing only the injected previous emotion label while holding the audio fixed reduces current-audio accurac...
+
+--- [2] 2510.10509v2 ---
+Title: MARS-Sep: Multimodal-Aligned Reinforced Sound Separation
+Authors: Zihan Zhang, Xize Cheng, Zhennan Jiang, Dongjie Fu, Jingyuan Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2025-10-12
+Summary: Universal sound separation faces a fundamental misalignment: models optimized for low-level signal metrics often produce semantically contaminated outputs, failing to suppress perceptually salient interference from acoustically similar sources. We introduce a preference alignment perspective, analogous to aligning LLMs with human intent. To address this, we introduce MARS-Sep, a reinforcement lear...
+
+--- [3] 2302.12258v1 ---
+Title: Data leakage in cross-modal retrieval training: A case study
+Authors: Benno Weck, Xavier Serra
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.IR, cs.LG, eess.AS
+Published: 2023-02-23
+Summary: The recent progress in text-based audio retrieval was largely propelled by the release of suitable datasets. Since the manual creation of such datasets is a laborious task, obtaining data from online resources can be a cheap solution to create large-scale datasets. We study the recently proposed SoundDesc benchmark dataset, which was automatically sourced from the BBC Sound Effects web page. In ou...
+

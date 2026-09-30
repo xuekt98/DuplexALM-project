@@ -1,0 +1,177 @@
+--- [1] 2609.06837v1 ---
+Title: BinauralVAE: Spatial Audio Reconstruction For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-06
+Summary: Embodied artificial intelligence has historically very much relied on visual perception, leading to a proliferation of multiple vision-centric world models. However, this reliance fails to capture spatial understanding in its entirety and can even present vulnerabilities in environments with visual occlusions, low-light conditions, or blackouts-scenarios, where acoustic information becomes a criti...
+
+--- [2] 2609.00369v1 ---
+Title: Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation
+Authors: Vida Adeli, Soroush Mehraban, Jacob Rommann, Harrison Sanborn, Cole Clifford et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-31
+Summary: Generating co-speech gestures that are temporally coherent, semantically aligned with speech, and grounded with surrounding objects remains challenging. Prior speech-driven gesture models emphasize audio-gesture alignment but do not explicitly account for posture constraints or surrounding objects, failing to capture the inherent correlation between body gestures and the physical space. We present...
+
+--- [3] 2608.13239v1 ---
+Title: Reasoning for Social Audio-Visual Question Answering: Where Do We Stand?
+Authors: Koen P. de Vries, Xavier Alameda-Pineda, Estefanía Talavera, Stéphane Lathuilière
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-13
+Summary: Training Multimodal Large Language Models for audio-visual social understanding is a crucial step toward embodied social intelligence. Chain-of-thought (CoT) reasoning has become the dominant approach, with HumanOmniV2 and its IntentBench benchmark as a prominent reference point. In this context, we report three findings. First, IntentBench is highly noisy: $\sim$7% of questions are broken and $\s...
+
+--- [4] 2608.04709v1 ---
+Title: EmpaAva: An Open-source Agentic 3D-Avatar Empathetic Live Chatbot
+Authors: Jie Yang, Wenhao Xu, Shuhui Lin, Hao Fei
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-05
+Summary: This paper presents EmpaAva, to our knowledge the first open-source, agentic 3D-avatar empathetic chatbot, which carries empathetic response generation (ERG) from text-only exchanges into live, face-to-face interaction. Through a video-call-like interface, a user speaks to a 3D digital human that reads their affect from speech and optional vision, and replies with emotional speech, lip-synced faci...
+
+--- [5] 2608.01157v1 ---
+Title: InteracVid: Building a Real Interactive Audio-Visual Response Dataset from Live-Chat Videos
+Authors: Chi Zhang, Haoyang Shi, Yueyi Liu, Zhaokun Yan, Yishu Yin et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-02
+Summary: Large language models have made text the default medium for human--AI interaction, buttext alone cannot express the full range of responses required by multimodal assistants,avatars, and embodied agents. While recent audio-video generative models can synthesizehigh-fidelity synchronized content, existing supervision is largely \emph{descriptive}:models are trained to render captions rather than to...
+
+--- [6] 2607.28625v1 ---
+Title: ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine
+Authors: Yukang Cao, Haozhe Xie, Beichen Wen, Runmao Yao, Yinghao Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-30
+Summary: Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modalities, or spatial scales, leaving the full perception-action loop only partially observed. We introdu...
+
+--- [7] 2607.13110v1 ---
+Title: A Hybrid Mamba for Audio-Visual Navigation
+Authors: Yi Wang, Yinfeng Yu
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, eess.SP
+Published: 2026-07-14
+Summary: Since the paradigm centered on convolutional neural networks and recurrent architectures was established in 2020, the fundamental backbone networks for audio-visual navigation have undergone no essential changes for more than five years, making them inadequate to support efficient representation of dynamic multimodal sequences. This paper proposes Samba(A Hybrid Mamba for Audio-Visual Navigation)....
+
+--- [8] 2608.26163v1 ---
+Title: From Sound to Symptom: Real-Time Respiratory Signal Understanding for Conversational Healthcare Agents
+Authors: Tanmay Laud, Herprit Mahal, Subhabrata Mukherjee
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC, cs.MA, cs.SD
+Published: 2026-07-10
+Summary: Cough events during live spoken conversations carry clinically valuable respiratory signals, yet existing dialogue systems treat them as acoustic noise to be discarded. We present HealthCUES (Clinical Understanding from Embodied Sounds), a streaming pipeline for paralinguistic respiratory monitoring in real-time conversational agents, a capability that, to the best of our knowledge, is absent from...
+
+--- [9] 2607.03920v2 ---
+Title: LH-AVLN: A Benchmark for Long-Horizon Audio-Visual-Language Navigation
+Authors: Rufeng Chen, Yue Chang, Zili Shao, Zhaofan Zhang, Li Chen et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-04
+Summary: Embodied navigation is moving toward long-horizon missions, yet existing long-horizon benchmarks are largely acoustically silent, and audio-visual navigation tasks typically focus on a single goal. We introduce LH-AVLN, a benchmark for Long-Horizon Audio-Visual-Language Navigation that combines multi-goal mission execution, heterogeneous goal specifications, and persistent spatialized acoustic cue...
+
+--- [10] 2606.21018v1 ---
+Title: LK Jam: System Architecture and Implementation of a Real-Time Human-AI Interactive Music Generation System using Role-Aware GRU
+Authors: Yakun Liu, Zhiyu Jin, Dong Liu, Hai Luan
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-06-19
+Summary: As artificial intelligence advances into the era of Embodied AI, live musical interaction urgently needs to break free from the limitations of offline, unidirectional generation, achieving a "virtual synergy" capable of low-latency, dynamic interplay. To address this, this technical report presents LK_Jam, a real-time, bidirectional human-computer interactive music generation system based on a lig...
+
+--- [11] 2606.13190v1 ---
+Title: Multi-Modal Multi-Agent Robotic Cognitive Alignment enabled by Non-Invasive Consumer Brain Computer Interfaces: A Proof of Concept Exploration
+Authors: Nataliya Kosmyna, Liz Jenkins, Anoop K. Sinha
+Primary cat: cs.RO | All cats: cs.RO, cs.HC
+Published: 2026-06-11
+Summary: While non-verbal behaviors and expressive movements are essential for natural human-robot interaction, existing methods often overlook a crucial element: the human's internal cognitive state. Frequently, proactive multi-agent systems can interrupt humans at inopportune moments, leading to cognitive overload and decreased task performance. This paper introduces a framework for generating "cognitive...
+
+--- [12] 2606.03686v1 ---
+Title: The DeepSpeak-Agentic Dataset
+Authors: Sarah Barrington, Maty Bohacek, Hany Farid
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-02
+Summary: We present DeepSpeak-Agentic, a dataset of videos comprising over 37 hours of semi-structured conversations between a human and an embodied AI agent. We use this dataset to evaluate the automatic forensic identification (audio, video, or text) of AI agents, study the nature of human-agent interactions, and provide a benchmark for future advances in the large-language models and AI-generated voices...
+
+--- [13] 2606.02800v4 ---
+Title: Cosmos 3: Omnimodal World Models for Physical AI
+Authors:  NVIDIA,  :,  Aditi, Niket Agarwal, Arslan Ali et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.LG, cs.MM, cs.RO
+Published: 2026-06-01
+Summary: We introduce Cosmos 3, a family of omnimodal world models designed to jointly process and generate language, image, video, audio, and action sequences within a unified mixture-of-transformers architecture. By supporting highly flexible input-output configurations, Cosmos 3 seamlessly unifies critical modalities for Physical AI -- effectively subsuming vision-language models, video generators, worl...
+
+--- [14] 2606.02246v1 ---
+Title: Ego-METAS: Egocentric online Multimodal Energy-efficient Temporal Action Segmentation benchmark
+Authors: Maria Santos-Villafranca, Jesus Bermudez-cameo, Alejandro Perez-Yus, Giovanni Maria Farinella, Antonino Furnari
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-29
+Summary: To operate in the physical world, embodied agents must perceive their environment in an "always-on" fashion, selectively accessing the most informative sensors to balance energy constraints and task accuracy. Despite its importance for resource-constrained devices, energy-aware perception remains under-explored, with most prior work assuming unlimited compute. To address this, we introduce Ego-MET...
+
+--- [15] 2605.18194v1 ---
+Title: Beyond the Cartesian Illusion: Testing Two-Stage Multi-Modal Theory of Mind under Perceptual Bottlenecks
+Authors: Yajing Zhou, Xiangyu Kong
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-05-18
+Summary: While Multi-Modal Large Language Models (MLLMs) demonstrate impressive capabilities in general reasoning, their embodied spatial intelligence remains hampered by a "Cartesian Illusion" - a reliance on text-based probability distributions that lack grounded, 3D topological understanding. This limitation is starkly exposed in multi-agent environments, which demand more than just scene perception; th...
+
+--- [16] 2605.09796v2 ---
+Title: When Sounds Hurt and Voices Aren't Heard: An Experience Report on Misophonia, Sensory Trauma, and Trauma-Informed Design
+Authors: Tawfiq Ammari
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-05-10
+Summary: This experience report reflects on researching misophonia as someone who lives with it. Misophonia is an aversive response to everyday sounds (chewing, sniffling, pen clicking) and, for many of us, to associated visual cues (misokinesia). It is poorly recognized clinically and socially. People with misophonia are routinely disbelieved, and they live inside platform surfaces (auto-playing audio, al...
+
+--- [17] 2605.05340v2 ---
+Title: How Far Are VLMs from Privacy Awareness in the Physical World? An Empirical Study
+Authors: Junran Wang, Xinjie Shen, Zehao Jin, Pan Li
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-05-06
+Summary: As Vision-Language Models (VLMs) are increasingly deployed as autonomous cognitive cores for embodied assistants, evaluating their privacy awareness in physical environments becomes critical. Unlike digital chatbots, these agents operate in intimate spaces, such as homes and hospitals, where they possess the physical agency to observe and manipulate privacy-sensitive information and artifacts. How...
+
+--- [18] 2605.04045v1 ---
+Title: Audio-Visual Intelligence in Large Foundation Models
+Authors: You Qin, Kai Liu, Shengqiong Wu, Kai Wang, Shijian Deng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-05
+Summary: Audio-Visual Intelligence (AVI) has emerged as a central frontier in artificial intelligence, bridging auditory and visual modalities to enable machines that can perceive, generate, and interact in the multimodal real world. In the era of large foundation models, joint modeling of audio and vision has become increasingly crucial, i.e., not only for understanding but also for controllable generatio...
+
+--- [19] 2604.24790v1 ---
+Title: Semantic Denial of Service in LLM-controlled robots
+Authors: Jonathan Steinberg, Oren Gal
+Primary cat: cs.CR | All cats: cs.CR, cs.AI
+Published: 2026-04-25
+Summary: Safety-oriented instruction-following is supposed to keep LLM-controlled robots safe. We show it also creates an availability attack surface. By injecting short safety-plausible phrases (1-5 tokens) into a robots audio channel, an adversary can trigger the models safety reasoning to halt or disrupt execution without jailbreaking the model or overriding its policy. In the embodied setting, this is ...
+
+--- [20] 2604.17211v1 ---
+Title: EmbodiedHead: Real-Time Listening and Speaking Avatar for Conversational Agents
+Authors: Yu Zhang, Kaiyuan Shen, Yang Li
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-19
+Summary: We present EmbodiedHead, a speech-driven talking-head framework that equips LLMs with real-time visual avatars for conversation. A practical embodied avatar must achieve real-time generation, unified listening-speaking behavior, and high rendered visual quality simultaneously. Our framework couples the first Rectified-Flow Diffusion Transformer (DiT) for this task with a differentiable renderer, e...
+
+--- [21] 2604.15823v1 ---
+Title: Watching Movies Like a Human: Egocentric Emotion Understanding for Embodied Companions
+Authors: Ze Dong, Hao Shi, Zejia Gao, Zhonghua Yi, Kaiwei Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-17
+Summary: Embodied robotic agents often perceive movies through an egocentric screen-view interface rather than native cinematic footage, introducing domain shifts such as viewpoint distortion, scale variation, illumination changes, and environmental interference. However, existing research on movie emotion understanding is almost exclusively conducted on cinematic footage, limiting cross-domain generalizat...
+
+--- [22] 2604.11417v5 ---
+Title: Efficient Emotion-Aware Iconic Gesture Prediction for Robot Co-Speech
+Authors: Edwin C. Montiel-Vazquez, Christian Arzate Cruz, Stefanos Gkikas, Thomas Kassiotis, Giorgos Giannakakis et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2026-04-13
+Summary: Co-speech gestures increase engagement and improve speech understanding. Most data-driven robot systems generate rhythmic beat-like motion, yet few integrate semantic emphasis. To address this, we propose a lightweight transformer that derives iconic gesture placement and intensity from text and emotion alone, requiring no audio input at inference time. The model outperforms GPT-4o in both semanti...
+
+--- [23] 2604.09426v1 ---
+Title: Three Modalities, Two Design Probes, One Prototype, and No Vision: Experience-Based Co-Design of a Multi-modal 3D Data Visualization Tool
+Authors: Sanchita S. Kamath, Aziz N Zeidieh, Venkatesh Potluri, Sile O'Modhrain, Kenneth Perry et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.IR
+Published: 2026-04-10
+Summary: Three-dimensional (3D) data visualizations, such as surface plots, are vital in STEM fields from biomedical imaging to spectroscopy, yet remain largely inaccessible to blind and low-vision (BLV) people. To address this gap, we conducted an Experience-Based Co-Design with BLV co-designers with expertise in non-visual data representations to create an accessible, multi-modal, web-native visualizatio...
+
+--- [24] 2604.07859v1 ---
+Title: Object-Attribute-Relation Model Driven Adaptive Hierarchical Transmission for Multimodal Semantic Communication
+Authors: Chenxing Li, Yiping Duan, Han Jiao, Xiaoming Tao, Weiyao Lin et al.
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-04-09
+Summary: Traditional video coding (VVC, HEVC) prioritizes human visual perception, transmitting substantial texture redundancy that severely hinders machine decision-making under constrained bandwidths. In dynamic channels, this redundancy causes severe ``cliff effects'' and prohibitive latency. To address this, we propose a robust multimodal semantic communication framework based on an adaptive Object-Att...
+
+--- [25] 2604.02391v1 ---
+Title: Reliability-Aware Geometric Fusion for Robust Audio-Visual Navigation
+Authors: Teng Liu, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-02
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aembodied+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Audio-Visual Navigation (AVN) requires an embodied agent to navigate toward a sound source by utilizing both vision and binaural audio. A core challenge arises in complex acoustic environments, where binaural cues become intermittently unreliable, particularly when generalizing to previously unheard sound categories. To address this, we propose RAVN (Reliability-Aware Audio-Visual Navigation), a f...
+

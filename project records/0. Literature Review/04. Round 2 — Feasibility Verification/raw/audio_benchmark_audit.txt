@@ -1,0 +1,142 @@
+--- [1] 2609.04256v1 ---
+Title: Probing Warmth-Mediated Harm in Speech-Enabled LLMs for Mental-Health Conversations
+Authors: Eugenia Kim, Bolor-Erdene Jagdagdorj, Dina Pekelis, Leah Zulas, Amanda Minnich
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-01
+Summary: Audio LLM benchmarks measure understanding and dialogue quality, not whether speech-enabled models respond with relational warmth when a vulnerable user discloses a mental-health concern. We introduce a 7-turn scripted-disclosure probe grounded in WHO mental-health clinical guidelines, with each script run on the same model (Azure OpenAI gpt-realtime) in both audio and text-only conditions, and ac...
+
+--- [2] 2608.30713v1 ---
+Title: Closing the Verification Loop: Self-Check Captioning for Long-Paragraph Detailed Audio Captioning
+Authors: Fengji Ma, Yan Rong, Xu Li, Chen Zhang, Pengfei Wan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-31
+Summary: Long-paragraph detailed audio captioning, which requires dense and transcript-faithful descriptions of fine-grained audio content, remains unsolved for current audio-visual multimodal language models. We attribute this failure to two structural problems. The first is data poverty, as no public corpus jointly provides long clips, paragraph captions, and verbatim-transcript fidelity. The second is g...
+
+--- [3] 2608.28916v1 ---
+Title: VoiceCodeBench: Evaluating Exact Structured-Token Recovery in Automatic Speech Recognition
+Authors: Tyler Baumgartner, Brandon Tai, Lisa Kaelin-Martin, Candice Fan, Luc Debaupte et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-28
+Summary: Automatic speech recognition (ASR) systems are commonly evaluated with word error rate (WER), yet many voice workflows depend on exact written values for identifiers, paths, and measured quantities. A transcript can appear fluent and achieve low WER while corrupting a value that a downstream system must parse, store, or execute. We introduce VoiceCodeBench, a benchmark for evaluating exact structu...
+
+--- [4] 2607.18912v1 ---
+Title: From a Multilingual Streaming ASR Backbone to Kenyan-Language Systems: Data-Centric Adaptation of Nemotron 3.5 for Kikuyu, Dholuo, and Kalenjin
+Authors: Mark Gatere
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-21
+Summary: Automatic speech recognition (ASR) for African languages is constrained by orthographic inconsistency, annotation artifacts, missing audio, speaker and domain imbalance, and evaluation procedures that differ from deployment. We present an end-to-end engineering study adapting NVIDIA Nemotron 3.5 ASR Streaming 0.6B to Kikuyu, Dholuo, and Kalenjin. Starting from a Kenyan Swahili-adapted checkpoint, ...
+
+--- [5] 2607.18508v1 ---
+Title: Style over Substance: A Shortcut Audit of Emotion-Description Preference Evaluation
+Authors: Jiabing Yang, Yixiang Chen, Yuan Xu, Qisen Ma, Tao Yu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-20
+Summary: Preference over model-generated emotion descriptions is emerging as a standard evaluation metric for multimodal emotion understanding, exemplified by the MER2026 MER-Prefer track on EmoPrefer. Such benchmarks assume that predicting the preferred description requires grounded cross-modal understanding of the video. We conduct a systematic shortcut audit of EmoPrefer using content-blind probes. A si...
+
+--- [6] 2607.14189v1 ---
+Title: MultiRef-Compass: Towards Comprehensive Evaluation of Multi-Reference-to-Audio-Video Generation
+Authors: Xiaohan Zhang, Yuqing Wen, Junlin Chen, Yuqi Tang, Yiting He et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-07-15
+Summary: Multi-reference-to-audio-video (MR2AV) generation aims to generate coherent audio-video content conditioned on multiple references and textual instructions. Existing benchmarks mainly focus on text-driven generation, single-reference subject preservation, or isolated audio-video alignment, leaving the emerging MR2AV setting largely unexplored. Compared with these settings, MR2AV requires models to...
+
+--- [7] 2608.26137v1 ---
+Title: Interpretable, Fairly Evaluated Automated L2 Speaking Assessment that Beats the Single-Human Ceiling and Why Pause Encoding Does Not Change LLM Fluency Scores
+Authors: Eichi Uehara
+Primary cat: cs.CL | All cats: cs.CL, cs.LG, cs.SD
+Published: 2026-06-25
+Summary: Second-language (L2) English learners can rarely rehearse speaking with a partner. Speaking is also the most anxiety-laden skill. These gaps drive a fast-growing market for automated speaking practice and scoring. But an automated score is trustworthy only if it is accurate, interpretable, fair, and benchmarked against the right human bar. We build an interpretable feature-plus-LLM hybrid for spon...
+
+--- [8] 2606.26384v1 ---
+Title: What Do Deepfake Benchmarks Measure? An Audit Using Frozen Self-Supervised Representations
+Authors: Samuel Pagon, Yixuan Shen, Vishal Asnani, Feng Liu
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-24
+Summary: As deepfake generators approach perceptual indistinguishability, reliable detection becomes critical. Yet, detectors that score well on benchmarks routinely fail in the wild. A concerning feedback loop has emerged: benchmarks drive increasingly complex, engineered detectors, yet if those benchmarks do not reflect real-world deepfakes, this complexity may be solving the wrong problem entirely. This...
+
+--- [9] 2606.01639v1 ---
+Title: RRP-Voice: A Longitudinal Dataset and Benchmark for Recurrent Respiratory Papillomatosis Detection
+Authors: Wenze Ren, Ke-Han Lu, Kai-Wei Chang, Tiantian Feng, Ching Fang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-01
+Summary: Deep learning has advanced pathological voice detection rapidly, yet rare laryngeal diseases remain underexplored due to data scarcity. Recurrent Respiratory Papillomatosis (RRP) exemplifies this gap: an HPV-induced disease of the larynx in which patients oscillate between recurrence and post-surgical remission over the years. RRP demands continuous voice monitoring that existing cross-sectional c...
+
+--- [10] 2605.30339v1 ---
+Title: Benchmarking Single-Factor Physical Video-to-Audio Generation
+Authors: Tingle Li, Siddharth Gururani, Kevin J. Shih, Gantavya Bhatt, Sang-gil Lee et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD, eess.AS
+Published: 2026-05-28
+Summary: Generative video-to-audio (V2A) models produce highly plausible soundtracks, but it remains unclear whether they capture the underlying physical processes. Existing evaluations emphasize perceptual realism and overlook physical correctness under controlled interventions. In this paper, we introduce FlatSounds, a benchmark that audits the physical reasoning of V2A models through: 1) controlled coun...
+
+--- [11] 2605.26978v1 ---
+Title: PashtoTTS-Bench: automated screening for low-resource non-Latin-script text-to-speech
+Authors: Hanif Rahman
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-05-26
+Summary: Text-to-speech (TTS) evaluation for low-resource non-Latin-script languages can fail when it relies on a single ASR round-trip word error rate (WER). A system may produce no audio, speak a neighbouring language, preserve target script text only in an ASR transcript, or sound unnatural to native listeners. We introduce INSV (Intelligibility, Naturalness, Script fidelity, and Verification), a report...
+
+--- [12] 2605.21002v1 ---
+Title: Verifiable Provenance and Watermarking for Generative AI: An Evidentiary Framework for International Operational Law and Domestic Courts
+Authors: Gustav Olaf Yunus Laitinen-Fredriksson Lundström-Imanov, Nurana Abdullayeva
+Primary cat: cs.CR | All cats: cs.CR, cs.CV, cs.CY, cs.MM
+Published: 2026-05-20
+Summary: Generative artificial intelligence now synthesizes photorealistic imagery, audio, and video at a cost that defeats traditional forensic intuition. The legal consequences span three regimes studied so far in isolation: international operational law, domestic procedure, and product regulation. This article presents a unified evidentiary framework that maps cryptographic content provenance, robust st...
+
+--- [13] 2605.23977v1 ---
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Abenchmark+AND+abs%3Aaudit&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: A Multi-Probe Audit of Clinical-Interview Depression Detection Benchmarks
+Authors: Takehiro Ishikawa, Jon Duke
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-05-13
+Summary: This paper audits benchmark evaluation in clinical-interview depression detection through four complementary probes across DAIC/E-DAIC, CMDC, ANDROIDS, MODMA, and PDCH. First, we re-evaluate E-DAIC under strict subject-disjoint leave-one-subject-out cross-validation. A lightweight hybrid text-plus-LLM-score model reaches macro-F1 = 0.723 - the highest reported under this protocol, to our knowledge...
+
+--- [14] 2605.12034v2 ---
+Title: Boosting Omni-Modal Language Models: Staged Post-Training with Visually Debiased Evaluation
+Authors: Che Liu, Lichao Ma, Xiangyu Tony Zhang, Yuxin Zhang, Haoyang Zhang et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI, cs.CV
+Published: 2026-05-12
+Summary: Omni-modal language models are intended to jointly understand audio, visual inputs, and language, but benchmark gains can be inflated when visual evidence alone is enough to answer a query. We study whether current omni-modal benchmarks separate visual shortcuts from genuine audio-visual-language evidence integration, and how post-training behaves under a visually debiased evaluation setting. We a...
+
+--- [15] 2604.20719v2 ---
+Title: ONOTE: Hypergraph-Grounded Omnimodal Reasoning for Computational Music Science
+Authors: Menghe Ma, Siqing Wei, Yuecheng Xing, Ziyue Zhu, Zhenghong Lin et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM, eess.AS
+Published: 2026-04-22
+Summary: Omnimodal notation processing, centered on sheet music, is a controlled scientific setting in which auditory, visual, symbolic, and physical representations must encode the same musical events. Yet existing work remains fragmented across recognition and transcription, rarely testing structural consistency across notation systems. Western-staff bias and underspecified model judges further conceal e...
+
+--- [16] 2604.13776v2 ---
+Title: Who Gets Flagged? The Pluralistic Evaluation Gap in AI Content Watermarking
+Authors: Alexander Nemecek, Osama Zafar, Yuqiao Xu, Wenbiao Li, Erman Ayday
+Primary cat: cs.CY | All cats: cs.CY, cs.CL, cs.CR, cs.CV
+Published: 2026-04-15
+Summary: Watermarking is becoming the default mechanism for AI content authentication, with governance policies and frameworks referencing it as infrastructure for content provenance. Yet across text, image, and audio modalities, watermark signal strength, detectability, and robustness depend on statistical properties of the content itself, properties that vary systematically across languages, cultural vis...
+
+--- [17] 2604.04598v1 ---
+Title: Benchmarking Multilingual Speech Models on Pashto: Zero-Shot ASR, Script Failure, and Cross-Domain Evaluation
+Authors: Hanif Rahman
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-04-06
+Summary: Pashto is spoken by approximately 60--80 million people but has no published benchmarks for multilingual automatic speech recognition (ASR) on any shared public test set. This paper reports the first reproducible multi-model evaluation on public Pashto data, covering zero-shot ASR, script-level failure, and cross-domain evaluation of fine-tuned models. For zero-shot ASR, ten models (all seven Whis...
+
+--- [18] 2603.28378v2 ---
+Title: Membership Inference Attacks against Large Audio Language Models
+Authors: Jia-Kai Dong, Yu-Xiang Lin, Hung-Yi Lee
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-03-30
+Summary: We present the first systematic Membership Inference Attack (MIA) evaluation of LALMs. Using Multi-modal Blind Baselines based on textual, spectral and prosodic features, we demonstrate that common audio datasets exhibit near-perfect train/test separability (AUC ~ 1.0) even without model inference, thus MIA may primarily detect distribution shift. We therefore introduce a blind-baseline protocol t...
+
+--- [19] 2601.02954v3 ---
+Title: The World is Not Mono: Enabling Spatial Understanding in Large Audio-Language Models
+Authors: Yuhuan You, Lai Wei, Xihong Wu, Tianshu Qu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-01-06
+Summary: Large audio-language models have made rapid progress in recognizing what is present in an audio clip, but spatial audio-language understanding still lacks a clear task interface. A model must also decide where sound events occur, which semantic and spatial attributes belong to the same auditory object, how multiple objects are arranged, and whether a scene-level answer is physically plausible. We ...
+
+--- [20] 2509.26291v1 ---
+Title: Representation-Based Data Quality Audits for Audio
+Authors: Alvaro Gonzalez-Jimenez, Fabian Gröger, Linda Wermelinger, Andrin Bürli, Iason Kastanis et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2025-09-30
+Summary: Data quality issues such as off-topic samples, near duplicates, and label errors often limit the performance of audio-based systems. This paper addresses these issues by adapting SelfClean, a representation-to-rank data auditing framework, from the image to the audio domain. This approach leverages self-supervised audio representations to identify common data quality issues, creating ranked review...
+

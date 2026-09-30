@@ -1,0 +1,65 @@
+# Total entries: 9
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Arlhf+AND+abs%3Aaudio+AND+abs%3Alanguage&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2605.23463v1 ---
+Title: StepAudio 2.5 Technical Report
+Authors: Bin Lin, Bo Zhao, Boyong Wu, Chao Yan, Chen Wu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-22
+Summary: Unified audio-language modeling has emerged as a prominent trend in modern speech systems, promising to bring the reasoning capabilities of large language models to auditory tasks. However, existing unified foundations often struggle to match the depth of specialized systems across automatic speech recognition (ASR), text-to-speech synthesis (TTS), and realtime spoken interaction. Bridging this ga...
+
+--- [2] 2604.25719v2 ---
+Title: Step-Audio-R1.5 Technical Report
+Authors: Yuxin Zhang, Xiangyu Tony Zhang, Daijiao Liu, Fei Tian, Yayue Deng et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-28
+Summary: Recent advancements in large audio language models have extended Chain-of-Thought (CoT) reasoning into the auditory domain, enabling models to tackle increasingly complex acoustic and spoken tasks. To elicit and sustain these extended reasoning chains, the prevailing paradigm -- driven by the success of text-based reasoning models -- overwhelmingly relies on Reinforcement Learning with Verified Re...
+
+--- [3] 2602.13891v1 ---
+Title: GSRM: Generative Speech Reward Model for Speech RLHF
+Authors: Maohao Shen, Tejas Jayashankar, Osama Hanna, Naoyuki Kanda, Yancheng Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-02-14
+Summary: Recent advances in speech language models, such as GPT-4o Voice Mode and Gemini Live, have demonstrated promising speech generation capabilities. Nevertheless, the aesthetic naturalness of the synthesized audio still lags behind that of human speech. Enhancing generation quality requires a reliable evaluator of speech naturalness. However, existing naturalness evaluators typically regress raw audi...
+
+--- [4] 2602.00846v2 ---
+Title: Omni-RRM: Advancing Omni Reward Modeling via Automatic Rubric-Grounded Preference Synthesis
+Authors: Zicheng Kong, Dehua Ma, Zhenbo Xu, Alven Yang, Yiwei Ru et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-01-31
+Summary: Multimodal large language models (MLLMs) struggle with alignment due to the limitations of existing reward models (RMs), which are predominantly vision-centric, dependent on costly human labels, and provide opaque scalar scores that fail to capture nuanced reasoning, leading to brittle alignment. We present Omni-RRM, an \textbf{Omni}-modal \textbf{R}ubric-grounded \textbf{R}eward \textbf{M}odel th...
+
+--- [5] 2509.14659v3 ---
+Title: Aligning Audio Captions with Human Preferences
+Authors: Kartik Hegde, Rehana Mahfuz, Yinyi Guo, Erik Visser
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2025-09-18
+Summary: Current audio captioning relies on supervised learning with paired audio-caption data, which is costly to curate and may not reflect human preferences in real-world scenarios. To address this, we propose a preference-aligned audio captioning framework based on Reinforcement Learning from Human Feedback (RLHF). To capture nuanced preferences, we train a Contrastive Language-Audio Pretraining (CLAP)...
+
+--- [6] 2508.06475v2 ---
+Title: HapticLLaMA: A Multimodal Sensory Language Model for Haptic Captioning
+Authors: Guimin Hu, Daniel Hershcovich, Hasti Seifi
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2025-08-08
+Summary: Haptic captioning is the task of generating natural language descriptions from haptic signals, such as vibrations, for use in virtual reality, accessibility, and rehabilitation applications. While previous multimodal research has focused primarily on vision and audio, haptic signals for the sense of touch remain underexplored. To address this gap, we formalize the haptic captioning task and propos...
+
+--- [7] 2507.05911v1 ---
+Title: Differentiable Reward Optimization for LLM based TTS system
+Authors: Changfeng Gao, Zhihao Du, Shiliang Zhang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-07-08
+Summary: This paper proposes a novel Differentiable Reward Optimization (DiffRO) method aimed at enhancing the performance of neural codec language models based text-to-speech (TTS) systems. In contrast to conventional reinforcement learning from human feedback (RLHF) approaches applied to TTS, DiffRO directly compute the rewards based on neural codec tokens, rather than relying on synthesized audio. Furth...
+
+--- [8] 2501.00039v1 ---
+Title: Speech Recognition With LLMs Adapted to Disordered Speech Using Reinforcement Learning
+Authors: Chirag Nagpal, Subhashini Venugopalan, Jimmy Tobin, Marilyn Ladewig, Katherine Heller et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2024-12-25
+Summary: We introduce a large language model (LLM) capable of processing speech inputs and show that tuning it further with reinforcement learning on human preference (RLHF) enables it to adapt better to disordered speech than traditional fine-tuning. Our method replaces low-frequency text tokens in an LLM's vocabulary with audio tokens and enables the model to recognize speech by fine-tuning it on speech ...
+
+--- [9] 2412.15838v2 ---
+Title: Align Anything: Training All-Modality Models to Follow Instructions with Language Feedback
+Authors: Jiaming Ji, Jiayi Zhou, Hantao Lou, Boyuan Chen, Donghai Hong et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL
+Published: 2024-12-20
+Summary: Reinforcement learning from human feedback (RLHF) has proven effective in enhancing the instruction-following capabilities of large language models; however, it remains underexplored in the cross-modality domain. As the number of modalities increases, aligning all-modality models with human intentions -- such as instruction following -- becomes a pressing challenge. In this work, we make the first...
+

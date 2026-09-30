@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ASwiftAudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2606.31259v1 ---
+Title: SwiftAudio: Data-Efficient Caption-Only Distillation for One-Step Text-to-Audio Diffusion-based Generation
+Authors: Binh Mai, Tran Quoc Bao Le, Hung Dinh, Cong Tran
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM, eess.AS
+Published: 2026-06-30
+Summary: Diffusion-based text-to-audio (TTA) models achieve impressive synthesis quality but suffer from high inference latency due to iterative multi-step denoising. Existing one-step approaches alleviate this issue but still rely on paired text--audio data during distillation. To address these limitations, we propose SwiftAudio, a one-step TTA framework that performs audio-free distillation from a pretra...
+

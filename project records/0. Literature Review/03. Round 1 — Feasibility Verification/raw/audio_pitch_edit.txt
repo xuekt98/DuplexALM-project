@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=ti%3Apitch+AND+ti%3Aedit&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2401.04558v1 ---
+Title: HyperGANStrument: Instrument Sound Synthesis and Editing with Pitch-Invariant Hypernetworks
+Authors: Zhe Zhang, Taketo Akama
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2024-01-09
+Summary: GANStrument, exploiting GANs with a pitch-invariant feature extractor and instance conditioning technique, has shown remarkable capabilities in synthesizing realistic instrument sounds. To further improve the reconstruction ability and pitch accuracy to enhance the editability of user-provided sound, we propose HyperGANStrument, which introduces a pitch-invariant hypernetwork to modulate the weigh...
+

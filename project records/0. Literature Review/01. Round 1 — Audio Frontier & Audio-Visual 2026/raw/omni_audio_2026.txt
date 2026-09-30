@@ -1,0 +1,9 @@
+# Total entries: 1
+# URL: https://export.arxiv.org/api/query?search_query=(all%3A%22omni-modal%22+OR+all%3A%22omnimodal%22)+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2501.02189v7 ---
+Title: A Survey of State of the Art Large Vision Language Models: Alignment, Benchmark, Evaluations and Challenges
+Authors: Zongxia Li, Xiyang Wu, Hongyang Du, Fuxiao Liu, Huy Nghiem et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.LG, cs.RO
+Published: 2025-01-04
+Summary: Large vision-language models (VLMs) have evolved rapidly from contrastive image-text encoders and adapter-based assistants into natively multimodal foundation models that support long-context reasoning, agentic workflows, and, increasingly, unified perception-generation-action loops. Since 2025, the frontier has consolidated around a small number of large pretraining families, including GPT, Gemin...
+

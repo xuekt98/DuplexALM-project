@@ -1,0 +1,177 @@
+--- [1] 2609.02812v1 ---
+Title: VibeVoice-ASR-Streaming Technical Report
+Authors: Yujie Tu, Zhiliang Peng, Jianwei Yu, Li Dong, Songchen Xu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-02
+Summary: Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks. Recently, end-to-end models such as VibeVoice-ASR have unified the two tasks within a single model. However, existing unified models still mainly support offline recognition, making it difficult to meet the low-latency requirements of real-time voice assistants and agents. To tackle this issue, we...
+
+--- [2] 2608.31106v1 ---
+Title: DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution
+Authors: Jiashu Zhu, Yanhao Zheng, Ruitian Tian, Rujing Dang, Shen Zhang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-08-31
+Summary: Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual dynamics and acoustic events. We present DreamX-Creator 1.0, a compact native joint audio-video generation system centered on a 7B generator. Conditioned on a first frame and a text prompt, the generator jointly denoises modality-specialized audio and video streams. The streams are...
+
+--- [3] 2609.04249v1 ---
+Title: Encore: Infinite Audio-Video Generation with Adaptive Signal Routing
+Authors: Shaohua Pan, Junbao Chen, Shengyi He, Jingfeng Xue, Wen Tao et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-08-28
+Summary: Existing audio-video generation methods produce well-synchronized clips but are limited to short durations, while long-video generation methods extend duration through chunk-based iterative synthesis yet lack audio entirely. Generating long audio-video jointly is fundamentally harder than either task alone: each chunk must simultaneously maintain video temporal coherence, audio temporal coherence,...
+
+--- [4] 2608.25734v1 ---
+Title: InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control
+Authors: Ekkasit Pinyoanuntapong, Ajinkya Deogade, Paul Streli, Wenjing Zhang, Joanna Materzynska et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-26
+Summary: Co-speech gesture generation has made significant progress toward realistic full-body motion from speaker audio, yet existing models lack fine-grained spatial controllability of individual joints. To address this, we introduce \emph{InteractGesture}, a model-agnostic, inference-time method for spatially controllable gesture generation. \emph{InteractGesture} guides target latent estimates of a dif...
+
+--- [5] 2608.22704v2 ---
+Title: WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs
+Authors: Yiming Yao, Chenyang Lyu, Xuanfan Ni, Longyue Wang, Weihua Luo et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD
+Published: 2026-08-24
+Summary: Long-form audio inputs make the KV cache the dominant memory cost of speech LLMs. Prefill-only KV compression methods permanently discard audio KV positions once evicted, with no pathway to recover them during decoding. We show this is fragile on long-form audio: prefill attention concentrates near the audio start (an attention-sink effect), while decode-time attention distributes broadly, and the...
+
+--- [6] 2608.13717v1 ---
+Title: StreamHear: Domain-Adapted Pseudo-Labeling for Semi-Supervised Streaming Speech Recognition
+Authors: Zefang Liu, Chenyang Zhu, Sangwoo Cho, Xujun Peng, Shi-Xiong Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-08-13
+Summary: Streaming automatic speech recognition (ASR) underperforms on domain-shifted target audio, where labeled in-domain data is costly to prepare while unlabeled audio is abundant. We present StreamHear, a semi-supervised pipeline that adapts a pretrained streaming student by fine-tuning an offline transducer teacher on the labeled training set, generating pseudo-labels on the unlabeled portion, and fi...
+
+--- [7] 2608.12951v2 ---
+Title: VoxAudio: Vocalized Audio Synthesis via Multi-Reward Autoregressive Flow Matching
+Authors: Wenxiang Guo, Changhao Pan, Ziyue Jiang, Zhou Zhao, Fei Wu
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-13
+Summary: Vocalized audio synthesis, the task of generating audio in which intelligible speech is embedded within an environmental soundscape, underpins applications such as podcast production and video dubbing. Existing Text-to-Audio (T2A) systems either reduce quoted speech to unintelligible vocal murmur or delegate it to a separate TTS model with post-hoc mixing, which forfeits control over when speech o...
+
+--- [8] 2608.12107v1 ---
+Title: Avatar-Forever: Decoupled Parallel Training for High-Quality Real-Time Infinite Avatars
+Authors: Ruibin Li, Tao Yang, Zhiyuan Ma, Fangzhou Ai, Shilei Wen et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-12
+Summary: Existing streaming video systems often rely on sequential, distillation-centered training pipelines to enable few-step long-video generation. However, this paradigm suffers from two limitations. First, failures or distribution shifts introduced in earlier stages affect later optimization, complicating the training process to converge. Second, the distillation-centric objective favours short-term g...
+
+--- [9] 2608.10720v2 ---
+Title: Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence
+Authors: Haoyu Zhang, Zhipeng Li, Xiaoying Tang, Tianshu Yu, Yiwen Guo
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-08-11
+Summary: Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, but a spoken answer still leaves the agent visually absent. We introduce \textbf{Ex-Omni-2D}, a framework that answers a multimodal query with coordinated text, personalized speech, and reference-conditioned video. The dialogue model first writes a structured \textit{Visual Thought Plan} (VTP) for scene, emo...
+
+--- [10] 2608.09571v1 ---
+Title: SonicWeave: Chunk-Routed Mixture-of-Experts for Unified Audio Scene Generation
+Authors: Yunrui Cai, Xu Li, Yucheng Zhou, Jinchao Li, Dingdong Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-10
+Summary: Text-conditioned general audio generation is moving beyond isolated speech, music, and sound-effect synthesis toward a single model that can compose them into controllable, coherent audio scenes. This unified setting is particularly challenging: heterogeneous components impose conflicting structural requirements on a shared backbone, while a complex mixed scene may contain locally distinct or over...
+
+--- [11] 2608.05543v3 ---
+Title: omni-macos: On-Device Omni-Modal Search on Apple Silicon
+Authors: Han Xiao
+Primary cat: cs.IR | All cats: cs.IR
+Published: 2026-08-06
+Summary: A search engine that embeds text, code, documents, images, audio and video into the same representation space has to run its encoder and keep its index somewhere, and almost every component built for the purpose assumes a server. We present omni-macos, which runs its encoder, index and store on the Mac that already holds the files, so no indexed file, no typed query and no vector ever leaves the m...
+
+--- [12] 2607.26874v1 ---
+Title: Detection of AI-generated stems within hybrid human-AI music
+Authors: François Rigaud, Gabriel Meseguer-Brocal, Benjamin Martin, Romain Hennequin
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-29
+Summary: This paper presents, to the best of our knowledge, the first study on detecting human-AI hybrid music tracks created by mixing human-produced and AI-generated stems. Building on recent work showing that AI music detectors can identify decoder-related artifacts in fully generated music, we investigate whether such artifacts remain detectable at the stem level after mixing. Using MUSDB18-HQ database...
+
+--- [13] 2607.24013v2 ---
+Title: AptAvatar: Fast and Vivid Long-Form Audio-Driven Video Generation for Production-Ready Avatars
+Authors: Hengyuan Zhang, Jingna Sun, Meiguang Jin, Junfeng Ma
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-27
+Summary: Production-ready audio-driven avatar generation requires efficient inference without sacrificing fidelity or motion expressiveness. However, existing acceleration methods often compromise quality through restrictive architectural choices, such as causal attention and short temporal horizons, or by reducing model capacity and resolution. Without such compromises, we propose AptAvatar, a 14B-paramet...
+
+--- [14] 2607.23023v2 ---
+Title: OmniMate: Open-Ended Real-Time Streaming Audio-Visual Generation for Interactive Avatars
+Authors: Quanyue Song, Yishan He, Yanbo Ding, Zhixiang He, Yongxiang Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-25
+Summary: Recent advances in diffusion-based generative models have enabled real-time audio-driven avatar generation and unified audio-visual synthesis, providing a promising foundation for interactive avatar systems. However, extending unified audio-visual synthesis to real-time interactive streaming remains challenging, as the generation horizon is unknown in advance and the generated identity may drift o...
+
+--- [15] 2607.16635v1 ---
+Title: TellTale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot LLM Judge for Ambivalence/Hesitancy Recognition in Videos
+Authors: Abdel-Karim Al-Tamimi, Ali Rodan
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-18
+Summary: We present TellTale, a text-only approach to ambivalence/hesitancy (A/H) recognition in interview videos, evaluated on the BAH dataset as part of the 3rd A/H Video Recognition Challenge (11th ABAW Workshop, ECCV 2026). Although the dataset provides video, audio, facial crops, and transcripts, TellTale relies on the transcript alone and combines three probability streams. Two text encoders, multili...
+
+--- [16] 2607.12725v2 ---
+Title: Neural Morphing: Sequence-Optimized Token-Level Morphing in Neural Audio Codecs
+Authors: Emmanouil Karystinaios
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-14
+Summary: Neural audio codecs were originally developed for high-fidelity compression; however, their latent token representations and expressive decoders also constitute a powerful substrate for controllable audio transformation. This work introduces Neural Morphing, a training-free token-domain audio effect that selects residual-vector-quantized (RVQ) token grains from a user palette and decodes the edite...
+
+--- [17] 2607.11120v1 ---
+Title: Simple Features and Honest Calibration for Ambivalence and Hesitancy Recognition in Video
+Authors: Vikas Kumar, Aditya Mishra, Haroon R. Lone
+Primary cat: cs.CV | All cats: cs.CV, cs.CL, eess.AS
+Published: 2026-07-13
+Summary: We address ambivalence and hesitancy (A/H) recognition in the ABAW 2026 BAH Challenge: given a short interview video, predict whether the person shows signs of A/H. Our system combines affect-specialised text, audio, and visual representations with a small set of readable linguistic hesitation cues, fused by a reliability gate we call Affective Marker Fusion (AMF), and finished with a simple AP-we...
+
+--- [18] 2607.10191v1 ---
+Title: Breaking the Quality--Intelligibility Trade-off in Streaming Target Speaker Extraction via Deep-Feature-Anchored Preference Optimization
+Authors: Shuhai Peng, Jinjiang Liu, Hui Lu, Liyang Chen, Guiping Zhong et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-11
+Summary: Generative streaming models for Target Speaker Extraction (TSE) commonly exhibit a quality--intelligibility trade-off, wherein naive optimization for perceptual audio quality tends to degrade speech intelligibility, and conversely. We reveal that this trade-off arises not from the constraints of streaming architectures, but from an inappropriate choice of optimization anchor. Directly optimizing a...
+
+--- [19] 2609.04222v1 ---
+Title: GEPARD - Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue
+Authors: Denis Pavlov, Ulanbek Abdurazakov, Nursultan Bakashov
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2026-07-04
+Summary: We present GEPARD (Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue), a streaming text-to-speech model for real-time spoken dialogue. GEPARD generates speech autoregressively with an LLM backbone - text and audio embeddings are trained together in a single decoder-only model - and decodes it to a waveform with an FSQ-based neural codec, streaming audio chunk-by-...
+
+--- [20] 2607.01108v1 ---
+Title: NPUsper: Eliminating Redundant Computation for Real-Time Whisper on Mobile NPUs
+Authors: Sihyeon Lee, Hojeong Lee, Sungwon Woo, Chengpo Yan, Suman Banerjee et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-01
+Summary: We present NPUsper, a live transcription system that makes Whisper efficient on mobile NPUs by eliminating redundant computation. To avoid the heavy padding used by prior streaming systems, NPUsper detects hallucinated tokens online from temporal patterns in decoder cross-attention, allowing each inference round to process short audio inputs with minimal carryover. For efficient mobile-NPU executi...
+
+--- [21] 2606.30944v1 ---
+Title: Preserving Speech-to-Text LLM Capabilities in Speech-to-Speech Generation
+Authors: Yuxuan Hu, Heng Lu, Ruchao Fan, Yao Qian, Xiaofei Wang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-29
+Summary: Strong speech-to-text (S2T) LLMs already provide robust speech perception and text reasoning, but adding speech-to-speech (S2S) output is challenging: fine-tuning the backbone can degrade the original S2T performance, while attaching a downstream talker reintroduces a serial text-to-speech bottleneck. We present PRIME-Speech, a frozen-backbone S2S conversion framework that trains only speech-gener...
+
+--- [22] 2606.27779v1 ---
+Title: MindFlow: Harmonizing Cognitive Semantics and Acoustic Dynamics for Facial Animation Generation in Dyadic Conversations
+Authors: Hejia Chen, Haoxian Zhang, Xu He, Xiaoqiang Liu, Pengfei Wan et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-26
+Summary: Generating lifelike facial animation for dyadic conversations requires reconciling high-level cognitive intent with precise low-level motor reflexes, yet existing methods fall short in the semantic understanding of dialogue context and in precise dynamic control. In this paper, we propose MindFlow, a dual-pathway generative framework inspired by the Ventral-Dorsal pathway model in neuroscience, wh...
+
+--- [23] 2606.24307v1 ---
+Title: Real-Time Interactive Music Generation via Data-Free Streaming Consistency Distillation
+Authors: Baisen Wang, Chenxi Bao, Qisong Han
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.HC
+Published: 2026-06-23
+Summary: Interactive music and live performance relies on real-time human expression, but modern generative music AI remains largely absent from this domain due to its prohibitive inference latency and offline rendering paradigm. To provide pioneer musicians with a novel medium for interactive composition, we should fundamentally change these static models into dynamic, playable instruments. In this paper,...
+
+--- [24] 2606.11180v1 ---
+Title: Lip Forcing: Few-Step Autoregressive Diffusion for Real-time Lip Synchronization
+Authors: Paul Hyunbin Cho, Jinhyuk Jang, SeokYoung Lee, Joungbin Lee, Siyoon Jin et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-09
+Summary: Diffusion-based lip synchronization models achieve strong visual quality and audio-visual alignment, but full-sequence bidirectional attention and many denoising steps make them impractical for real-time inference. We present Lip Forcing, to our knowledge the first autoregressive diffusion method for video-to-video (V2V) lip synchronization, which distills a 14B audio-conditioned bidirectional vid...
+
+--- [25] 2606.10233v1 ---
+Title: ANCHOR: Autoregressive Non-intrusive Chunk-Ordered Refinement for Joint Multi-Resolution Speech Quality Modeling
+Authors: Zhuoyan Tao, Jiatong Shi, Hye-jin Shim, Shinji Watanabe
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2026-06-08
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Achunk+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: While speech quality is typically assessed on complete utterances, streaming and generative systems require incremental estimation from partial audio. Existing predictors assume full context, degrading on prefix-constrained inputs. Extending ARECHO, we propose ANCHOR, reformulating incremental assessment as a multi-resolution autoregressive task. It models chunk- and utterance-level quality within...
+

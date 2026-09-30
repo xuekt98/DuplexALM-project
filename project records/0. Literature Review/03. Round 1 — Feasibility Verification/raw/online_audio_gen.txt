@@ -1,0 +1,177 @@
+--- [1] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [2] 2609.03940v1 ---
+Title: Masked Autoregressive Speech Enhancement with Continuous Neural Audio Codec Representations
+Authors: Yoto Fujita, Simon Leglaive, Laurent Girin
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-03
+Summary: Most previous work on speech enhancement (SE) based on masked generative modeling relied on discrete token representations of audio signals, obtained using neural audio codecs (NACs). However, a recent study has shown that continuous latent representations of NACs can be advantageous for SE in terms of speech quality and intelligibility. In this work, we propose masked autoregressive SE (MARSE), a...
+
+--- [3] 2608.18661v1 ---
+Title: X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Text with Speech-State Inheritance
+Authors: Rime Wen, Zehan Liu, Shawn Qin, Lights Shi, Roy Gan et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-19
+Summary: Streaming text-to-speech is essential for low-latency spoken dialogue systems, yet many systems wait for sentence-level text and are therefore only pseudo-streaming. True token-level synthesis must generate speech from uncertain prefixes while maintaining perceptual continuity over an unbounded stream with bounded context. We present X2Streaming-TTS, a causal TTS framework that consumes asynchrono...
+
+--- [4] 2608.11913v1 ---
+Title: HarmoniDPO: Video-guided Audio Generation via Preference-Optimized Diffusion
+Authors: Wenshuo Peng, Kaipeng Zhang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-12
+Summary: Video-to-audio (V2A) generation faces significant challenges in achieving precise temporal synchronization and high perceptual quality due to the complex, ambiguous relationship between visual and auditory cues. Existing methods typically compress video inputs into single feature representations, leading to significant loss of temporal dynamics and fine-grained visual information. These approaches...
+
+--- [5] 2608.04709v1 ---
+Title: EmpaAva: An Open-source Agentic 3D-Avatar Empathetic Live Chatbot
+Authors: Jie Yang, Wenhao Xu, Shuhui Lin, Hao Fei
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-05
+Summary: This paper presents EmpaAva, to our knowledge the first open-source, agentic 3D-avatar empathetic chatbot, which carries empathetic response generation (ERG) from text-only exchanges into live, face-to-face interaction. Through a video-call-like interface, a user speaks to a 3D digital human that reads their affect from speech and optional vision, and replies with emotional speech, lip-synced faci...
+
+--- [6] 2607.26818v1 ---
+Title: Ripple: Real-Time Streaming Audio-Video Generation With Cross-Modal Recurrent Memory
+Authors: Yanbo Ding, Zhizhi Guo, Quanyue Song, Yishan He, Zhixiang He et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-29
+Summary: Audio-video generative models achieve impressive quality but suffer from high latency, making them unsuitable for real-time applications. Although several streaming audio-video generation methods have been proposed, they remain costly and fail to support long-form generation. To address this, we propose \textbf{Ripple}, a real-time joint audio-video generation system with a cross-modal recurrent m...
+
+--- [7] 2607.24013v2 ---
+Title: AptAvatar: Fast and Vivid Long-Form Audio-Driven Video Generation for Production-Ready Avatars
+Authors: Hengyuan Zhang, Jingna Sun, Meiguang Jin, Junfeng Ma
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-27
+Summary: Production-ready audio-driven avatar generation requires efficient inference without sacrificing fidelity or motion expressiveness. However, existing acceleration methods often compromise quality through restrictive architectural choices, such as causal attention and short temporal horizons, or by reducing model capacity and resolution. Without such compromises, we propose AptAvatar, a 14B-paramet...
+
+--- [8] 2608.24909v1 ---
+Title: Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans
+Authors: Wentao Jiang, Youchen Xie, Haidi Fan, Yajing Chen, Xin Wang et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.CV, cs.SD
+Published: 2026-07-22
+Summary: Existing co-speech gesture generation methods are predominantly studied in offline settings, where gestures are synthesized from complete speech segments. However, interactive digital humans in real-world scenarios are required to generate speech-synchronous gestures online, using only currently available response audio under strict latency constraints. As a result, prior methods are unsuitable fo...
+
+--- [9] 2607.15697v1 ---
+Title: SpeechGuard: Online Defense against Backdoor Attacks on Speech Recognition Models
+Authors: Jinwen Xin, Xixiang Lv
+Primary cat: cs.SD | All cats: cs.SD, cs.CR, cs.LG
+Published: 2026-07-17
+Summary: Backdoor attacks pose a critical threat to neural network models, allowing attackers to implant a backdoor during the training phase by manipulating a small portion of the training data. In security-sensitive applications such as voice interaction for autonomous driving, the presence of backdoor attacks introduces substantial security risks. This study focuses on implementing backdoor defense meas...
+
+--- [10] 2607.12121v2 ---
+Title: FlashDiff: Efficient Regional Execution and Scheduling for Diffusion Model Serving
+Authors: Yaqi Qiao, Ping He, Songrun Xie, Ayush Barik, Chensong Zhang et al.
+Primary cat: cs.DC | All cats: cs.DC, cs.LG
+Published: 2026-07-13
+Summary: Diffusion models have become the central backbone for modern image, video, and audio generation, but their efficient service remains a challenge. Unlike autoregressive decoding, diffusion inference repeatedly updates high-dimensional spatial or temporal latents over many denoising steps. This all-region execution pattern makes generation latency high and limits serving throughput. Existing multi-G...
+
+--- [11] 2607.11699v2 ---
+Title: Qwen-Music Technical Report
+Authors: Jin Xu, Kangdi Wang, Ruibin Yuan, Shun Lei, Xiong Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-13
+Summary: In this report, we introduce Qwen-Music, a powerful music generation model capable of producing highly musical and high-fidelity songs with complete vocal singing. Qwen-Music supports two core tasks: Text to Music Generation, which create entirely new songs from text descriptions, lyrics, and musical attributes, and Cover Song Generation, which reinterprets existing songs with different styles and...
+
+--- [12] 2607.11633v1 ---
+Title: Breaking the 15% Barrier: A Real-World Data-Driven System for Proactive Social Robot Triggered by User Nonverbal Cues
+Authors: Yuga Yano, Yuki Okafuji, Ryo Miyoshi, Sanae Yamashita, Yoshiki Ohira
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-13
+Summary: Service robots in retail stores increasingly rely on cascaded speech pipelines (STT-LLM-TTS), yet many customer-robot interactions are initiated or guided by nonverbal behaviors such as approaching, waving, pointing, or showing items. This paper studies such cues in a real-world store deployment with a teleoperated humanoid robot and shows that a non-negligible portion of robot turns are triggered...
+
+--- [13] 2607.08912v1 ---
+Title: MemeBuddy: Dialog-Style Audio Representations for Engaging Non-Visual Meme Experiences
+Authors: Chirag Bhansali, Vikas Ashok, Hae-Na Lee
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-07-09
+Summary: Image memes are a pervasive form of online communication, widely used to convey humor, opinions, and cultural references. Prior work has explored making memes accessible to blind users, primarily through auto-generated descriptive captions. While these approaches improve comprehensibility and sometimes incorporate prosodic or emotional cues, they often fail to capture the humor, narrative structur...
+
+--- [14] 2607.02640v1 ---
+Title: Metronome: Bound the Cache, Keep the Beat for Real-Time Interaction Model Serving
+Authors: Jiaying Meng, Bojie Li
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.NI
+Published: 2026-07-02
+Summary: Real-time interaction models -- Moshi, MiniCPM-o, Qwen-Omni -- turn serving into a periodic real-time task: on every frame a session ingests streaming audio and must respond by a recurring wall-clock deadline, while its KV cache grows monotonically and stays pinned for the whole conversation. This regime hides a dangerous failure mode. On a real full-duplex stack, sustained load does not degrade s...
+
+--- [15] 2606.30849v1 ---
+Title: SyncCache: Exploiting Asymmetric Dynamics for Fast Audio-Driven Portrait Animation
+Authors: Juncheng Ma, Yuxuan Du, Yanan Sun, Zhening Xing, Changlin Li et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD, eess.AS
+Published: 2026-06-29
+Summary: Diffusion Transformers (DiTs) have significantly advanced audio-driven portrait animation, but their high computational cost leads to substantial inference latency. Although training-free diffusion caching accelerates inference significant, existing methods are primarily developed for text-conditioned generation and overlook the spatial and modality imbalances inherent in audio-driven portrait ani...
+
+--- [16] 2606.30145v1 ---
+Title: FacePlex: Full-Duplex Joint Speech-Facial Motion Generation for Conversational Avatars
+Authors: Habin Lim, Jae-Ho Lee, Hah Min Lew, Ji-Su Kang, Gyeong-Moon Park
+Primary cat: cs.AI | All cats: cs.AI, cs.CV, cs.LG
+Published: 2026-06-29
+Summary: Natural face-to-face conversation requires real-time speech generation together with synchronized facial motion. Existing systems only partially address this problem: speech-only full-duplex models can generate speech in real time but do not produce facial motion, while audio-driven facial motion models animate a face from already available audio rather than jointly generating speech and motion on...
+
+--- [17] 2606.25496v1 ---
+Title: Recommendation as Generation: Unifying Personalized Video Generation and Recommendation at Industrial Scale
+Authors: Yanhua Cheng, Bo Wang, Haotian Zhang, Xinyuan Gao, Zhihui Yin et al.
+Primary cat: cs.IR | All cats: cs.IR
+Published: 2026-06-24
+Summary: Traditional short-video recommendation systems match user interest to a fixed pool of pre-produced videos, which limits their ability to capture fine-grained and dynamic preferences. We propose Recommendation-as-Generation (RaG), a new paradigm that generates personalized videos on demand from inferred user interest. Our framework unifies generative recommendation and video generation through shar...
+
+--- [18] 2606.17800v1 ---
+Title: MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model
+Authors: Lichen Bai, Tianhao Zhang, Shitong Shao, Dingwei Tan, Qiyu Zhong et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-16
+Summary: As an increasing majority of global video content is consumed on social platforms for interactive social purposes, video generation models built for social worlds are important but largely overlooked by previous studies. In this work, we define the position of social world models and build a prototype model as the first step towards this goal. While previous world models successfully simulate phys...
+
+--- [19] 2606.13707v1 ---
+Title: Orchestra-o1: Omnimodal Agent Orchestration
+Authors: Fan Zhang, Vireo Zhang, Shengju Qian, Haoxuan Li, Hao Wu et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-06-10
+Summary: The recent success of agent swarms has shifted the paradigm of large language model (LLM)-based agents from single-agent workflows to multi-agent systems, highlighting the importance of agent orchestration for task decomposition and collaboration. However, existing orchestration frameworks are limited to a narrow set of modalities and struggle to generalize to more complex settings where heterogen...
+
+--- [20] 2606.07207v1 ---
+Title: Entropy as a Structural Prior: How a Log-Barrier on DiT Belief Space Drives Musical Diversity and Development
+Authors: Zixi Li, Youzhen Li
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-06-05
+Summary: Confidence-based loss weighting is usually avoided in generative models because it accelerates errors when the model is confidently wrong, but this intuition breaks down in supervised diffusion training. We introduce the Eisbach log-barrier, a parameter-free weight derived from the entropy of the DiT output's spatial energy distribution: high entropy damps the gradient, while low entropy preserves...
+
+--- [21] 2606.03183v1 ---
+Title: Inference-Time Scaling for Joint Audio-Video Generation
+Authors: Jaemin Jung, Kyeongha Rho, Inkyu Shin, Joon Son Chung
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD, eess.AS
+Published: 2026-06-02
+Summary: Joint audio-video generation aims to synthesize realistic audio-video pairs that are both semantically aligned with text prompts and precisely synchronized. While existing joint audio-video generation models often require substantial training resources to improve fidelity, Inference-Time Scaling (ITS) has recently emerged as a promising training-free alternative in single-modality domains. However...
+
+--- [22] 2605.31530v2 ---
+Title: UNISON: A Unified Sound Generation and Editing Framework via Deep LLM Fusion
+Authors: Zhaoqing Li, Haoning Xu, Jingran Su, Yaofang Liu, Zhefan Rao et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-05-29
+Summary: We present UNISON, a latent diffusion framework that unifies speech generation, sound generation, and audio editing within a single model. A single model handles text-to-audio, text-to-speech, zero-shot speaker cloning, mixed speech-and-sound generation, scene-level audio editing, speech-in-scene editing, and timed temporal composition, all of which share a single set of weights. Our architecture ...
+
+--- [23] 2605.31082v1 ---
+Title: Sound effects in media:A comparative analysis of recorded and synthetic samples in live-action and animation
+Authors: Nelly Garcia, Joshua Reiss
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-05-29
+Summary: Creating sound for storytelling is crucial to establishing the environment in productions such as films, TV series and video games. This process often involves repeating, layering and recording real objects or using sound libraries, which can be time-consuming and repetitive. To address these challenges, procedural audio, also known as digital foley, offers a solution by allowing sound designers t...
+
+--- [24] 2605.30940v1 ---
+Title: Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer
+Authors: Ke Lei, Yu Zhang, Changhao Pan, Xueyi Pu, Wenxiang Guo et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.MM, cs.SD
+Published: 2026-05-29
+Summary: Real-time and accurate spatial audio generation is pivotal for delivering an immersive experience. However, existing spatial audio synthesis technologies are often encumbered by a tradeoff between generation quality and high inference latency, as well as difficulty in capturing precise spatial information from multimodal inputs. To address these challenges, we propose SwanSphere, a unified streami...
+
+--- [25] 2605.29643v1 ---
+Title: AgentCVR: Active Multi-Agent Cross-Video Reasoning via Script-Simulated Reinforcement Learning
+Authors: Yilun Qiu, Jiahe Wang, Cilin Yan, Jiayin Cai, Xiaolong Jiang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.MA
+Published: 2026-05-28
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aonline+AND+abs%3Aaudio+AND+abs%3Ageneration&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Cross-Video Reasoning (CVR) has emerged as a critical frontier in multimodal intelligence, requiring models to retrieve, align, and aggregate evidence distributed across multiple videos. Current Multimodal Large Language Models (MLLMs) often struggle with CVR, as simple single-pass strategies encode multiple videos into a shared compressed context, potentially obscuring rare but critical evidence....
+

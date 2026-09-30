@@ -1,0 +1,142 @@
+--- [1] 2609.04983v1 ---
+Title: MIVAIS: A Study Environment for Multi-Agent Mixed-Initiative Visual Analytics Applications
+Authors: Tobias Stähle, Simon Schneider, Rita Sevastjanova, Mennatallah El-Assady
+Primary cat: cs.HC | All cats: cs.HC, cs.MA
+Published: 2026-09-04
+Summary: Mixed-initiative Visual Analytics (VA) systems empower human users by interleaving human intuition with software agents and their machine intelligence. However, the development and rigorous evaluation of such systems remain constrained by engineering overhead. Developers must, e.g., implement complex, low-level state synchronization to manage asynchronous agent behaviors, while researchers struggl...
+
+--- [2] 2608.24726v1 ---
+Title: Arbitrary Polygon Oscillator: Generalizing Polygonal Synthesis to Arbitrary Shapes, Morphing, and Three-Dimensional Polyhedra
+Authors: Antonio Argentieri, Francesco Scagliola
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-08-25
+Summary: Polygonal synthesis generates audio by traversing the perimeter of a polygon with a phasor; prior work uses a constant angular velocity, whereas the proposed system adopts constant arc-length (perimeter) velocity. Existing formulations operate on regular, parametrically defined polygons, producing smooth timbral transitions within a single family of shapes. This paper generalizes polygonal synthes...
+
+--- [3] 2608.23189v1 ---
+Title: EchoWM: Open and Enterable Omnimodal World Models
+Authors: Songchun Zhang, Yaowei Li, Junhao Zhuang, Weiyang Jin, Haoyu Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: We present EchoWM, an omnimodal world model for enterable generative media that responds to continuous navigation while jointly generating 720p video, environmental sound, music and speech. We organize interaction around camera intent: in first-person scenes, it specifies observer motion, while in third-person scenes, camera--character dynamics are learned from data without view-specific controlle...
+
+--- [4] 2608.20958v1 ---
+Title: TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming
+Authors: Yibo Hu, Yu Qian, Mao Gu, Yingfan Tao, Yuhao Chen et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-08-21
+Summary: E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts are distributed across speech, video frames, product images, overlaid text, and user queries. We present TLive-Omni, an omni-modal understanding model tailored to live-commerce scenarios. It maps image, video, audio, and text inputs into a unified representation space. For long-fo...
+
+--- [5] 2608.05506v1 ---
+Title: Rethinking Automatic Music Mixing as Sequential Stem Blending
+Authors: Yen-Tung Yeh, Chung-Jui Chan,  Yun-Ning,  Hung, Yi-Hsuan Yang
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-06
+Summary: Automatic music mixing, the task of automatically combining individual audio tracks into a cohesive mixture, is typically addressed by parallelized architectures that process all input tracks in a single pass. In this work, inspired by how human mix engineers process stems one at a time, we propose a paradigm shift and ask whether automatic music mixing can be reformulated as a sequential stem ble...
+
+--- [6] 2607.28625v1 ---
+Title: ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine
+Authors: Yukang Cao, Haozhe Xie, Beichen Wen, Runmao Yao, Yinghao Liu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-30
+Summary: Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modalities, or spatial scales, leaving the full perception-action loop only partially observed. We introdu...
+
+--- [7] 2607.23395v1 ---
+Title: Music-Source-Separation-Training (MSST): A Unified Framework for Training and Evaluating Music Demixing Models
+Authors: Roman Solovyev, Ilya Kiselev, Alexander Stempkovskiy, Tatiana Gabruseva
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-07-25
+Summary: Music Source Separation (MSS), the task of recovering individual sound components (stems) from a polyphonic mixture, is central to applications ranging from karaoke and remixing to audio restoration and content production. The separation quality depends on engineering decisions across the entire pipeline: model choice, training data preparation and augmentation, loss function and metrics choice, t...
+
+--- [8] 2607.19605v2 ---
+Title: RIME: Enabling Large-Scale Agentic Music Post-Production
+Authors: Noah Schaffer, Nikhil Singh
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-21
+Summary: Almost every piece of recorded music you have ever heard was modified before it reached you; commercial releases rarely spring fully-formed from the mind of a musician. Despite the promise of music generation models for one-shot output, such fine-grained iterative refinement workflows are a complementary problem, and largely out of their reach. There is also a gap for musicians: while they can exp...
+
+--- [9] 2607.19339v1 ---
+Title: OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
+Authors: Yu Chen, Caorui Li, Ziyu Xiong, Yidong Wang, Mingqi Gao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-21
+Summary: Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs learn, via supervised fine-tuning and reinforcement learning, to decide whether and where to call a ...
+
+--- [10] 2607.12417v1 ---
+Title: PolarBM: Complex-valued Boltzmann Machine for Modeling Audio Signals in Polar and Log-polar Coordinates
+Authors: Toru Nakashika, Kohei Yatabe
+Primary cat: cs.LG | All cats: cs.LG, cs.SD, eess.AS, stat.ML
+Published: 2026-07-14
+Summary: Although vast amounts of data, such as audio signal spectra, are naturally represented using complex numbers, conventional machine learning methods often simplify complex-domain problems by employing frameworks designed for real-valued variables. While this simplification offers computational benefits, it discards structural information regarding the inherent relationship between amplitude and pha...
+
+--- [11] 2606.29031v2 ---
+Title: How to Leverage Synthetic Speech for LLM-Based ASR Systems?
+Authors: Yanis Labrak, Dairazalia Sanchez-Cortes, Sergio Burdisso, Séverin Baroudi, Shashi Kumar et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-27
+Summary: In regulated domains such as banking and healthcare, where privacy constraints make real speech costly to collect and retain, synthetic speech from modern text-to-speech (TTS) is an appealing alternative for training automatic speech recognition (ASR) without exposing sensitive customer recordings. Yet a persistent distributional gap between synthetic and real data limits how far it can replace ge...
+
+--- [12] 2606.26842v1 ---
+Title: voxmap-studio: An open-source speaker diarization annotation tool with built-in cost instrumentation
+Authors: Fumiaki Yamaguchi
+Primary cat: eess.AS | All cats: eess.AS, cs.HC, cs.SD
+Published: 2026-06-25
+Summary: Labeling speaker diarization data is costly, yet annotation tools rarely measure that cost. We present voxmap-studio, an open-source, React-based diarization annotation tool integrated with the pyannote-based diarization ecosystem. Its canvas is initialized by a fast stride-accelerated diarization engine so that the annotator corrects a hypothesis rather than drawing every speaker turn by hand, an...
+
+--- [13] 2606.26694v2 ---
+Title: PhysEditWorld: A Large-Scale Dataset Toward Physics-Editable World Models
+Authors: Bin Hu, Yanwen Ma, Jiehui Huang, Ziliang Zhang, Haoning Wu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-25
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Adata+AND+abs%3Aengine&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: Recent game world models can synthesize visually plausible, action-conditioned rollouts. However, their interaction behaviors often remain limited to exploratory or wandering trajectories, and physical dynamics are typically learned as implicit correlations from data rather than as controllable variables. This limitation hinders their applicability to authored game environments, where physical rul...
+
+--- [14] 2606.22299v1 ---
+Title: Towards Accurate and Robust Surveillance Roadside IVD via Trackletized Audio-Visual Reasoning
+Authors: Xiwen Li, Xiaoya Tang, Bodong Zhang, Tolga Tasdizen
+Primary cat: cs.CV | All cats: cs.CV, eess.AS
+Published: 2026-06-21
+Summary: Idling Vehicle Detection (IVD) seeks to determine, at the final frame of a video clip, whether any vehicle is idling, meaning the vehicle is stationary with its engine running, using synchronized video from a remote surveillance camera and multichannel audio captured by spatially distributed wireless microphones along the roadside. Prior full-image, clip-level fusion approaches tend to overfit sce...
+
+--- [15] 2606.21521v1 ---
+Title: Gradient-Based Learning of Parametric Engine Sound Representations for Real-Time Resynthesis and Tuning on Embedded Systems
+Authors: Robin Doerfler, Matthieu Kuntz, Clemens Zimmer
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-06-19
+Summary: Engine order enhancement is central in automotive sound design, where selective harmonics are synthesized to shape perceptual qualities such as sportiness, refinedness, or power. This paper investigates a neural network-based approach to combustion engine sound modeling that extends conventional engine order analysis and enhancement by deriving synthesis parameters from audio data with machine lea...
+
+--- [16] 2606.18228v1 ---
+Title: MAJIC: Leveraging Articulatory Motion for Speech-based Emotion Recognition
+Authors: Tanmay Srivastava, Paras Bhavnani, Benjir Alvee Islam, Shubham Jain
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-06-16
+Summary: We introduce MAJIC, a multimodal emotion recognition system that leverages articulatory motion of the jaw and facial muscles for speech-based emotion recognition (SER). While most SER systems perform well on datasets with strongly expressed emotional speech of trained actors, their performance often degrades when emotional expressions become more subtle. We explore this challenge by engineering fe...
+
+--- [17] 2606.18122v1 ---
+Title: Embedded Machine Learning for Microcontroller-Class Edge Devices: Data, Feature, Evaluation, and Deployment Pipelines
+Authors: Mostafa Darvishi
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.AR, eess.AS, eess.SP
+Published: 2026-06-16
+Summary: Embedded machine learning moves inference from cloud services to resource-constrained devices that must acquire data, preprocess signals, run a model, and act within tight limits on memory, energy, and latency. This paper presents a systems-oriented synthesis of an embedded machine-learning workflow for microcontroller-class platforms. The emphasis is placed on engineering decisions that are often...
+
+--- [18] 2606.14702v2 ---
+Title: OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains
+Authors: Xinyue Cai, Chaoyou Fu, Yi-Fan Zhang, Ran He, Caifeng Shan
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-06-12
+Summary: Current automated pipelines for audio-visual Question Answering (QA) generally adopt a ``video-caption-QA'' paradigm. However, these methods typically segment videos into short clips and generate separate descriptions for audio and visual modalities. This decoupled processing severs inherent associations between sounds and their visual sources, while independent clip processing often causes incons...
+
+--- [19] 2608.09940v1 ---
+Title: The impact of design factors of virtual and augmented reality on tertiary students user experience in Metaverse
+Authors: Julius G. Garcia, Alvie Simonette Q. Alip
+Primary cat: cs.HC | All cats: cs.HC, cs.CY, cs.ET
+Published: 2026-06-09
+Summary: The Metaverse is a convergent space integrating virtual reality (VR) and augmented reality (AR) technologies, with market projections rising from \$65.5 billion in 2022 to \$1.3 trillion by 2030. Despite rapid adoption in education, the specific contributions of visual elements, environmental design, and communication features to user experience (UX) remain underexplored, limiting evidence-based d...
+
+--- [20] 2606.10340v1 ---
+Title: OMG: Omni-Modal Motion Generation for Generalist Humanoid Control
+Authors: Siqiao Huang, Kun-Ying Lee, Dongming Qiao, Guanqi He, Zhenyu Wang et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-09
+Summary: Humanoid whole-body control has made significant progress in recent years, yet existing approaches remain limited to few-skill policies with heavy reward engineering, or motion trackers that are difficult to extend to new input modalities. We argue that the key to general-purpose humanoid control is to build a scalable brain, a module capable of reasoning with diverse conditioning modalities, atop...
+

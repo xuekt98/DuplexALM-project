@@ -1,0 +1,177 @@
+--- [1] 2609.34973v1 ---
+Title: APEX-Voice: Can Voice Agents Complete Professional Workflows Through Full-Duplex Interaction
+Authors: Puneet Mathur, Dinesh Manocha
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-28
+Summary: Full-duplex voice agents can now listen, speak, use tools, and act during spoken interactions, but fluent dialogue does not guarantee correct completion of delegated professional workflows. We introduce APEX-Voice, a benchmark of 120 interactive professional workflows spanning ten work archetypes such as form completion, corporate negotiation, coordination, consulting, and interviewing. Each workf...
+
+--- [2] 2609.32016v1 ---
+Title: VoiceNet: Fine-Grained Voice Understanding Beyond Emotion at Scale
+Authors: Christoph Schuhmann, Robert Kaczmarczyk, Gollam Rabby, Felix Friedrich, Maurice Kraus et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-09-25
+Summary: Expressive speech synthesis has outpaced expressive speech perception: systems now render fine-grained vocal performances that no public benchmark can score. Most benchmarks for this inverse problem stop at six to nine basic emotion categories, largely on acted speech. This paper introduces VoiceNet, a human-annotated representation-level benchmark for voice performance understanding on permissive...
+
+--- [3] 2609.10934v1 ---
+Title: Using Semantic Uncertainty to Estimate Transition Relevance in Turn-taking
+Authors: Muhammad Umair, Jan P. de Ruiter
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-10
+Summary: Turn-taking is a fundamental mechanism that governs when interlocutors speak and listen. Although Spoken Dialogue Systems (SDS) exploit a range of linguistic, acoustic, and non-verbal cues, they produce ill-timed responses in unscripted interaction. A central challenge is anticipating Transition Relevance Places (TRPs), or opportunities, not obligations, for a listener to take the floor. Human lis...
+
+--- [4] 2609.08390v1 ---
+Title: Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models
+Authors: Bella Godiva, Yeonju Kim, Yong Man Ro
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.HC
+Published: 2026-09-08
+Summary: Full-duplex spoken dialogue systems enable simultaneous listening and speaking, but their audio-only perception often fails under background noise and overlapping speech, leading to incoherent responses. Recent audio-visual dialogue approaches show that incorporating visual cues such as lip movements improve robustness under audio corruption. However, existing approaches often adapt the large spee...
+
+--- [5] 2609.04452v1 ---
+Title: TRILOGUE: A Trilingual Spoken Dialogue Fact-Checking Benchmark with Evidence and Paired Audio
+Authors: Chaewan Chun, Meruyert Aristombayeva, Jiyoung Choi, Mahjabin Nahar, Delvin Ce Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-03
+Summary: Modern misinformation is often heard before it is read, yet fact-checking systems are still evaluated mainly on clean written claims. Spoken dialogue remains different even when systems operate on transcripts: claims may be distributed across speakers and turns, depend on prior context, and become harder to verify when Automatic Speech Recognition (ASR) errors distort the available text. Prior spo...
+
+--- [6] 2609.01828v1 ---
+Title: AVERT: Audio-Verified Adjudication for Spoken Dialogue State Tracking
+Authors: Chunggi Lee, Hanspeter Pfister
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-01
+Summary: Spoken dialogue state tracking recovers slot-value pairs from speech, where ASR errors concentrate in entity values and persist across turns, making it both a generation and an editing problem. A strong per-turn text editor corrects much of this but, operating on the transcript alone, leaves three recoverable errors: a value predicted inconsistently across turns, an omitted slot, and a value the a...
+
+--- [7] 2609.04250v2 ---
+Title: Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue
+Authors: Chengqian Ma, Wei Tao, Haoyu Zhang, Yiwen Guo
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, eess.AS
+Published: 2026-08-28
+Summary: An avatar that holds a conversation should decide what to say and to move while saying it, yet these abilities live in separate model families: spoken dialogue models produce speech without motion, and co-speech motion models produce motion only from audio handed to them. The standard remedy is a cascade that first generates the spoken response and then runs a motion model over the finished audio,...
+
+--- [8] 2607.26928v1 ---
+Title: Latent-IM: Latent Interaction Management for Speech LLMs
+Authors: Adar Avsian, Atahan Dokme, Tony Woo, Larry Heck
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-29
+Summary: Classical spoken dialogue systems often separated dialogue management from response realization: a policy selected the next dialogue action, and a generation component expressed that action. As dialogue systems shift toward LLMs, this decomposition has largely disappeared into the model's hidden representations. We ask whether an LLM-internal analogue of state estimation and action control can be ...
+
+--- [9] 2607.14846v1 ---
+Title: RW-Voice-EQ Bench: A Real World Benchmark for Evaluating Voice AI Systems
+Authors: David Ayllon, Alice Baird, Jeffrey Brooks, Franc Camps-Febrer, Jakub Piotr Cłapa et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-16
+Summary: Current voice AI benchmarks typically evaluate isolated capabilities such as speech intelligibility, word error rate, or text-based dialogue quality, but they rarely test whether systems harness the acoustic information that distinguishes spoken language from its textual representation. To this end, we introduce the Real World Voice EQ Bench, a multidimensional benchmark for evaluating voice AI ac...
+
+--- [10] 2608.26163v1 ---
+Title: From Sound to Symptom: Real-Time Respiratory Signal Understanding for Conversational Healthcare Agents
+Authors: Tanmay Laud, Herprit Mahal, Subhabrata Mukherjee
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC, cs.MA, cs.SD
+Published: 2026-07-10
+Summary: Cough events during live spoken conversations carry clinically valuable respiratory signals, yet existing dialogue systems treat them as acoustic noise to be discarded. We present HealthCUES (Clinical Understanding from Embodied Sounds), a streaming pipeline for paralinguistic respiratory monitoring in real-time conversational agents, a capability that, to the best of our knowledge, is absent from...
+
+--- [11] 2607.07148v1 ---
+Title: Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning
+Authors: Yuxin Li, Donghang Wu, Guan-Ting Lin, Hung-yi Lee, Chengwei Qin et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-08
+Summary: Recent full-duplex spoken dialogue models have demonstrated compelling progress toward human-like interaction, enabling agents to respond with low latency, produce backchannels, and handle user barge-ins. Yet these improvements in conversational dynamics often come with weaker reasoning and instruction-following abilities, revealing a potential tension between interactive dynamics and intelligence...
+
+--- [12] 2609.04222v1 ---
+Title: GEPARD - Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue
+Authors: Denis Pavlov, Ulanbek Abdurazakov, Nursultan Bakashov
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.LG, cs.SD
+Published: 2026-07-04
+Summary: We present GEPARD (Generative, Prosody-aware, Autoregressive text-to-speech model for Realtime Dialogue), a streaming text-to-speech model for real-time spoken dialogue. GEPARD generates speech autoregressively with an LLM backbone - text and audio embeddings are trained together in a single decoder-only model - and decodes it to a waveform with an FSQ-based neural codec, streaming audio chunk-by-...
+
+--- [13] 2606.26003v2 ---
+Title: Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect
+Authors: Dihia Lanasri, Rebeh Imane Ammar Aouchiche, Abdelkarim Remmide, Fairouz Taki, Asma Kemmoum
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-06-24
+Summary: Automatic speech and language technologies are still heavily biased toward high-resource languages, limiting their applicability to dialectal and low-resource settings such as Algerian Dialect. This language presents additional challenges including lack of standardized orthography, frequent codeswitching with French, and scarcity of annotated speech resources. This paper addresses the problem of b...
+
+--- [14] 2606.25990v1 ---
+Title: SpeechEQ: Benchmarking Emotional Intelligence Quotient in Socially Aware Voice Conversational Models
+Authors: Liang-Yuan Wu, Zih-Ching Chen, Tongshuang Wu, Chao-Han Huck Yang, Hua Shen
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD
+Published: 2026-06-24
+Summary: As multimodal conversational systems increasingly engage in spoken interaction, their ability to navigate paralinguistic social cues has become a critical bottleneck for natural human-AI communication. However, existing evaluations of machine emotional intelligence assess reasoning exclusively through isolated text or passive acoustic perception, overlooking the complex cross-modal reasoning requi...
+
+--- [15] 2606.19453v1 ---
+Title: A Survey of Full-Duplex Spoken Dialogue Systems: Architectural Hierarchy, Interaction Ontology, and Decision State Machine
+Authors: Jingyu Lu, Yuhan Wang, Jianming Luo, Yifu Chen, Tianle Liang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-17
+Summary: More than a dozen spoken dialogue systems have recently claimed to be "full-duplex," yet the term has been used to describe substantially different capabilities. Existing surveys collapse them onto a single axis (cascaded/end-to-end, or engineered/learned) and miss the distinctions that matter most for builders. We argue that much of this ambiguity is taxonomical: current terminology does not spec...
+
+--- [16] 2606.16568v1 ---
+Title: Fast When, Careful Who: Dual-Process Multiparty Turn-Taking with Diffusion Augmentation
+Authors: Rutherford A. Patamia, Ming Liu, Wei Luo, Favour Ekong, Akan Cosgun
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-15
+Summary: Reliable turn-taking is essential for spoken dialogue systems. However, most existing methods are designed for two-speaker interaction and struggle with realistic multiparty audio containing overlap and rapid speaker changes. We study multiparty turn-taking on the VoxConverse dataset and propose an audio-only two-stage pipeline that separates when to trigger a turn boundary from whether the floor ...
+
+--- [17] 2606.16472v1 ---
+Title: From Awareness to Adherence: Bridging the Context Gap in Spoken Dialogue Systems via Context-Aware Decoding
+Authors: Che Hyun Lee, Heeseung Kim, Sungroh Yoon
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-06-15
+Summary: Despite the success of end-to-end (E2E) spoken dialogue systems, maintaining strict context adherence in multi-round conversations remains a challenge. While prior works attribute these failures to models forgetting dialogue history, we highlight an equally critical but overlooked bottleneck: a gap between latent context awareness and active adherence. Although models internally recognize relevant...
+
+--- [18] 2606.13450v1 ---
+Title: Endpoint Anticipation for Low-Latency Spoken Dialogue
+Authors: Sathvik Udupa, Shinji Watanabe, Petr Schwarz, Jan Cernocky
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-11
+Summary: While low-latency interaction is critical for spoken dialogue, cascaded architectures are often bottlenecked by reactive turn-completion detection. We propose Endpoint Anticipation, shifting from reactive detection to proactive forecasting of end-of-turn signals. Our speech-based model anticipates endpoints upto 2.56 seconds in advance, enabling speculative execution of LLM and TTS pipelines on pa...
+
+--- [19] 2606.12902v1 ---
+Title: PRISM: Prosody-Integrated Multi-Agent Reasoning Framework for Empathetic Spoken Dialogue
+Authors: Wen Zhang, Xiaocui Yang, Zhuoyue Gao, Shi Feng, Daling Wang et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-06-11
+Summary: Empathetic spoken dialogue systems require not only semantically appropriate responses but also emotionally aligned prosodic expression. However, cascade pipelines often discard acoustic cues during speech-to-text conversion, while end-to-end speech models lack interpretable control over emotion and knowledge integration. To address these challenges, we propose PRISM, a multi-agent framework for e...
+
+--- [20] 2606.10581v3 ---
+Title: ParaBridge: Bridging Paralinguistic Perception and Dialogue Behavior in Speech Language Models
+Authors: Yuxiang Wang, Qinke Ni, Shengbo Cai, Wan Lin, Liqiang Zhang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-06-09
+Summary: Speech carries more information than just words: a child's voice, a fearful tone, or a noisy background should all lead a sufficiently competent spoken-dialogue assistant to different replies. Current Speech Language Models (SLMs) can recognize such paralinguistic cues but often ignore them in open-ended dialogue. We observe that a simple paralinguistic instruction scaffold at the inference stage ...
+
+--- [21] 2606.06559v1 ---
+Title: IRAF: Interference-Resilient Adaptive Fusion for Noise-Robust End-to-End Full-Duplex Spoken Dialogue Systems
+Authors: Tao Zhong, Jiajun Deng, Nikita Kuzmin, Yinke Zhu, Tianxiang Cao et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-06-04
+Summary: Full-duplex spoken dialogue models allow voice agents to listen and speak concurrently, enabling natural interaction with real-time overlap. However, end-to-end dual-channel models that jointly encode user and agent streams may degrade in realistic acoustic environments: interfering speakers leaking into the user microphone can be encoded as part of the user query, corrupting the LLM's conditionin...
+
+--- [22] 2605.17225v2 ---
+Title: Can Large Audio Language Models Ignore Multilingual Distractors? An Evaluation of Their Selective Auditory Attention Capabilities
+Authors: Heejoon Koo
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-17
+Summary: Robust selective auditory attention under multilingual interference is critical for reliable LALM deployment. We introduce MUSI, a cocktail party-inspired controlled diagnostic evaluation of source-grounded spoken-language understanding and reasoning. Each item pairs an English target dialogue with a plausible distractor in English, Spanish, Korean, or Chinese, and evaluates models under (1) singl...
+
+--- [23] 2605.06007v1 ---
+Title: PersonaKit (PK): A Plug-and-Play Platform for User Testing Diverse Roles in Full-Duplex Dialogue
+Authors: Hyunbae Jeon, Jinho D. Choi
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC
+Published: 2026-05-07
+Summary: As spoken dialogue systems expand beyond traditional assistant roles to encompass diverse personas -- such as authoritative instructors, uncooperative merchants, or distracted workers -- they require distinct, human-like turn-taking behaviors to maintain psychological immersion. However, current full-duplex systems often default to a rigid, overly accommodating ``always-yield'' policy during overl...
+
+--- [24] 2604.18159v1 ---
+Title: FreezeEmpath: Efficient Training for Empathetic Spoken Chatbots with Frozen LLMs
+Authors: Yun Hong, Yan Zhou, Yang Feng
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-04-20
+Summary: Empathy is essential for fostering natural interactions in spoken dialogue systems, as it enables machines to recognize the emotional tone of human speech and deliver empathetic responses. Recent research has made significant progress in developing empathetic spoken chatbots based on large language models (LLMs). However, several challenges still exist when training such models, including reliance...
+
+--- [25] 2604.15710v2 ---
+Title: VoxMind: An End-to-End Agentic Spoken Dialogue System
+Authors: Tianle Liang, Yifu Chen, Shengpeng Ji, Yijun Chen, Zhiyang Jia et al.
+Primary cat: cs.SD | All cats: cs.SD
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aend-to-end+AND+abs%3Aspoken+AND+abs%3Adialogue&max_results=25&sortBy=submittedDate&sortOrder=descending
+Published: 2026-04-17
+Summary: Recent end-to-end spoken dialogue models enable natural interaction. However, as user demands become increasingly complex, models that rely solely on conversational abilities often struggle to cope. Incorporating agentic capabilities is therefore essential: by enabling tool use, these models can extend their knowledge boundaries and better solve real-world tasks. Yet, existing research has largely...
+

@@ -1,0 +1,177 @@
+--- [1] 2609.35118v1 ---
+Title: RemixIT-TSE: Progressive Synthetic-to-Real Adaptation for Target Speech Extraction via Target-Aware Supervision and Remixing
+Authors: Yu Wang, Haixin Guan, Shuang Wei, Yanhua Long
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-28
+Summary: Target Speech Extraction (TSE) in real-world conversational scenarios suffers from severe performance degradation due to the domain gap between synthetic training data and complex acoustic environments, where signal-level ground truth is typically unavailable. To address this challenge, we make the first attempt to extend RemixIT from speech enhancement to TSE and propose a progressive synthetic-t...
+
+--- [2] 2609.30798v1 ---
+Title: Evaluating Real-Time Voice Agents: From Component Quality to Grounded Outcomes
+Authors: Shivam Negi, Arpit Rawat, Rashi Jain
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-09-25
+Summary: Real-time voice agents have moved from research prototypes to production deployments, yet the literature describing them is fragmented across three communities that rarely cite one another: speech foundation modelling, turn-taking psycholinguistics, and agentic evaluation. Architecture papers report latency, turn-taking papers report prediction accuracy, and agentic benchmarks report task success,...
+
+--- [3] 2609.28758v1 ---
+Title: BiMamba2 Masked Discrete-Unit Prediction for Multilingual Speech Representation for Unsupervised Speech in the Wild Challenge
+Authors: Prakriti Subedi, Howard Prioleau, Saurav K Aryal
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-09-23
+Summary: We describe our submission to the Unsupervised Speech in the Wild (UPS) Challenge at Interspeech 2026, a bidirectional Mamba-2 (BiMamba2) encoder trained with masked discrete-unit prediction following the HuBERT-style paradigm. The 47.88M-parameter model is trained on 250 hours of speech across 67 languages from the MLCommons Unsupervised People's Speech dataset, with no labeled data. The objectiv...
+
+--- [4] 2609.27650v2 ---
+Title: Brain-to-Language Decoding: Tasks, Signals, Methods, Evaluation, Practical Use and Beyond
+Authors: Yiqian Yang, Yiqun Duan, Chenyu Liu, Yiqi Wang, Xinliang Zhou et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.HC, cs.NE
+Published: 2026-09-23
+Summary: Brain-to-language decoding translates neural activity associated with language production, internal speech and perception into linguistic or expressive outputs. It offers a route to restoring communication after speech loss and a means of studying how the brain represents language. Advances in neural recording and representation learning have expanded the field from constrained recognition and aco...
+
+--- [5] 2609.27086v1 ---
+Title: NADI 2026: The Second Multidialectal Arabic Speech Processing Shared Task
+Authors: Peter Sullivan, Bashar Talafha, Ahmed Ashraf, Fethi Bougares, Haroun Elleuch et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-22
+Summary: NADI 2026 is the seventh edition of the Nuanced Arabic Dialect Identification (NADI) shared task series and the second dedicated to multidialectal Arabic speech processing. This edition comprises five tasks and eight subtasks spanning Automatic Speech Recognition (ASR), Spoken Dialect Identification (SDID), Text-to-Speech (TTS), Spoken Language Translation (SLT), and Spoken Language Understanding ...
+
+--- [6] 2609.26363v1 ---
+Title: DHSched: Stateless Control for Stateful Real-Time Avatar Serving
+Authors: Xin Wang, Haitong Zhang, Xianghong Li, Shumin Lin, Xianzheng Song et al.
+Primary cat: cs.DC | All cats: cs.DC
+Published: 2026-09-22
+Summary: Real-time avatar services run long-lived, GPU-backed sessions that transform a continuous text stream into speech, facial motion, rendered video, and RTC media. Elastic operation repeatedly reassigns these sessions across Workers. A reassignment updates shared placement state while the previous GPU runtime and RTC connection remain alive, opening a gap between control-plane assignment and executio...
+
+--- [7] 2609.14740v1 ---
+Title: Bridging Data, Reasoning, and Alignment: A Unified Framework for Context-Aware Instruction-Following TTS
+Authors: Jingbin Hu, Luyu Wang, Wenjie Tian, Kangxiang Xia, Qirui Zhan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-13
+Summary: The ISCSLP 2026 CoT-TTS Challenge requires TTS systems to generate Chain-of-Thought (CoT) reasoning from dialogue history before synthesizing contextually appropriate speech. While the official baseline establishes a unified architecture, it remains constrained by limited contextual comprehension, weak instruction fidelity, and suboptimal audio quality. We present a systematic optimization pipelin...
+
+--- [8] 2609.14231v1 ---
+Title: Modeling, Scaling, and Decoding: Optimizing Controllable Speech Generation with Nonverbal Vocalizations
+Authors: Ziyu Zhang, Yun Chen, Taihui Wang, Hanzhao Li, Qicong Xie et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-09-13
+Summary: Controllable synthesis of nonverbal vocalizations (NVVs) is es- sential for natural and expressive speech, but remains challeng- ing due to their acoustic diversity and imbalanced distribution in existing corpora. To address these challenges, we develop an NVV-aware DiTAR system that models continuous speech latents, encodes the 16 target NVV categories as dedicated to- kens, and adapts stop predi...
+
+--- [9] 2609.13792v1 ---
+Title: The VoiceMOS Challenge 2026: Evaluating Speech Enhancement, Emotional TTS and Accented TTS Systems
+Authors: Wen-Chin Huang, Wei Wang, Marvin Sach, Xiaoxue Gao, Nicholas Sanders et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-09-12
+Summary: We present the results of the VoiceMOS Challenge 2026, the fifth edition of a scientific challenge on automatic prediction of subjective speech assessments. After expanding the scope to music and general audio in 2025, we refocused the evaluation target on speech and organized three tracks: prediction of absolute and comparative category ratings for enhanced speech, prediction of naturalness and e...
+
+--- [10] 2609.09929v2 ---
+Title: Source-Adaptive Data Curation for Bilingual NVV-Aware ASR
+Authors: Yuang Cao, Qirui Zhan, Jingbin Hu, Ziyu Zhang, Yunxiang Chen et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-09-09
+Summary: Nonverbal vocalizations (NVVs), such as laughter, sighs, breaths, and coughs, convey affective and interactional information that conventional automatic speech recognition (ASR) systems often discard. We present a bilingual Mandarin-English system for Track 1 of the NVVSpeech Challenge at ISCSLP 2026, which requires joint transcription of lexical content and 16 NVV categories at their transcript-r...
+
+--- [11] 2609.09791v1 ---
+Title: MUCnoHARM@GermEval Shared Task 2026: Retrieval-based In-Context Learning for Defamatory Offences, and Where It Falls Short
+Authors: Kristin Gnadt, Maximilian Meidinger, Matthias Aßenmacher
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-09
+Summary: With hate speech being ubiquitous online, automatic detection is crucial, in particular when it comes to criminally relevant social media posts. We study a variety of retrieval-based in-context learning (RetICL) strategies for detecting defamatory offences under §§ 185-187 StGB (the subject of GermEval 2026 Subtask 4). Few-shot prompting beats zero-shot, but retrieval-based approaches offer only m...
+
+--- [12] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [13] 2609.03471v1 ---
+Title: Summary of the ChinaVoices Challenge 2026: Data, Tasks, Baseline, and Methods
+Authors: Yujie Liao, Bingshen Mu, Shuiyuan Wang, Liumeng Xue, Hexin Liu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-03
+Summary: This paper summarizes the ChinaVoices Challenge 2026, which aims to establish unified task definitions and evaluation conditions for Chinese dialect speech processing and to advance multi-dialect identification and automatic speech recognition. The challenge covers 16 dialect categories and defines two tasks: Chinese Multi-Dialect Identification and Chinese Multi-Dialect Automatic Speech Recogniti...
+
+--- [14] 2609.03231v1 ---
+Title: The 2026 PNPL Competition: Word Classification and Efficient Cross-Subject Generalisation in LibriBrain100
+Authors: Francesco Mantegna, Gereon Elvers, Dulhan Jayalath, Gilad Landau, Tasha Kim et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-09-03
+Summary: The ambition of the 2025 PNPL competition (Landau et al., 2025) was to launch a multi-year curriculum for non-invasive speech decoding. Designed to progress from foundational tasks toward the linguistic complexity required for a practical brain-computer interface (BCI), it set the stage with speech detection and phoneme classification tasks. Winning submissions reached F1-macro scores of 95.6% and...
+
+--- [15] 2609.02296v1 ---
+Title: Meeting the Coming Wave: The Emerging Politics of AI and Work across 33 Parliaments
+Authors: Juliana Chueri, Petter Törnberg
+Primary cat: cs.CY | All cats: cs.CY, cs.ET
+Published: 2026-09-02
+Summary: A new politics of artificial intelligence and work is taking shape across party systems, but comparative politics has yet to map it. Using 1,514,950 parliamentary speeches from 33 parliaments (2023-2026), we show this politics follows a different logic than political economy expects. Research anticipates that technological disruption generates demands for compensation; instead, compensation accoun...
+
+--- [16] 2608.30475v1 ---
+Title: ImageEval 2026: Culturally Grounded Arabic Multimodal Evaluation
+Authors: Samir Abdaljalil, Hunzalah Hassan Bhatti, Ahlam Bashiti, Farina Amir, Md Arid Hasan et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-08-31
+Summary: We present an overview of the ImageEval 2026 shared task on culturally grounded Arabic multimodal evaluation. It includes two tasks: (i) AynVQA, covering spoken visual question answering and image-grounded hallucination detection in English and Modern Standard Arabic (MSA), and (ii) CRAI-Bench, evaluating the cultural accuracy of text-to-image generation. A total of 14 teams participated in the te...
+
+--- [17] 2608.29751v1 ---
+Title: Large-Scale Qualitative Research with AI: Infrastructure, Management and Operation of the Socioscope Data Pipeline
+Authors: Saadi Lahlou, Juan Pablo Caicedo, Shriya Sekhsaria, Valentine Fournand, Paulius Yamin et al.
+Primary cat: cs.CY | All cats: cs.CY
+Published: 2026-08-30
+Summary: The Socioscope project is a pioneering effort in Large-Scale Qualitative Research (LSQR) collecting comparable, open-ended, multimedia field data on hundreds of cases and using AI to make the material analysable at scale. The domain studied is the food system. The entities documented are the organisations that act in it: farms, processors, distributors, retailers, restaurants; and, at meso level, ...
+
+--- [18] 2608.24698v1 ---
+Title: The Annotation Bottleneck in Persian Text NLP: Persian as an Annotation-Scarce Language
+Authors: MohammadHossein Mortazavi, Mostafa Salehi, Hadi Veisi
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-25
+Summary: Persian (Farsi) is often described as a low-resource language in natural language processing, but that label collapses distinct shortages into a single category. This paper argues that Persian is more precisely described as annotation-scarce, provided that the term is understood as a property of its NLP resource ecology rather than an intrinsic property of the language. The review covers 34 repres...
+
+--- [19] 2608.23759v3 ---
+Title: The ISCSLP 2026 Real-World Audio-Visual Speech Enhancement Challenge: A Benchmark with Natural Mixtures and Degraded Video
+Authors: Kai Li, Wenze Ren, Junjie Li, Cheng Yu, Peijun Yang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-24
+Summary: Audio-visual speech enhancement (AVSE) uses a target speaker's visible articulation to recover that speaker's voice from overlapped speech. Yet most evaluation protocols rely on synthetic mixtures and reliable video. The ISCSLP 2026 Real-World AVSE Challenge addresses both gaps. Track~1 combines naturally recorded two-talker mixtures, which lack a clean reference, with reference-available remixes ...
+
+--- [20] 2608.23437v1 ---
+Title: AT-ADD: A Benchmark and Challenge for Robust and All-Type Audio Deepfake Detection
+Authors: Yuankun Xie, Haonan Cheng, Jiayi Zhou, Xiaoxuan Guo, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-24
+Summary: Recent audio generation models can synthesize high-fidelity speech, environmental sound, singing voice, and music, creating new risks for multimedia trust. Existing audio deepfake detection (ADD) benchmarks remain predominantly speech-centric and often underrepresent realistic channel variation and diverse audio types. This paper presents AT-ADD, a large-scale benchmark and challenge designed to e...
+
+--- [21] 2608.23421v2 ---
+Title: A Comprehensive Analysis of Arabic Natural Language Processing Research: Trends, Topic Evolution, and Research Gaps -- A Bibliometric and Topic-Based Study
+Authors: Mullosharaf K. Arabov
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-24
+Summary: Arabic Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, and large language models (LLMs). Despite this growth, a comprehensive quantitative meta-analysis remains absent. This study presents a bibliometric and topic-based analysis of 7,120 Arabic NLP papers published between 1960 and 2026, sourced from five p...
+
+--- [22] 2608.18689v3 ---
+Title: Aslema at NADI 2026: Data Augmentation for Intent Recognition and Slot Filling
+Authors: Tajwaar Shafiq, Hunzalah Hassan Bhatti, Firoj Alam, Shammur Absar Chowdhury
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-08-19
+Summary: We present Aslema, our system for NADI 2026 Shared Task 5, which consists of two subtasks: intent recognition and slot filling. We evaluate four omni LLMs in a zero-shot setting and compare them with fine-tuned models. Our results show that fine-tuning consistently outperforms zero-shot inference. We further explore synthetic data augmentation by using an LLM to generate culturally grounded Tunisi...
+
+--- [23] 2608.14812v1 ---
+Title: Separate First, Then Associate: A Two-Stage Approach for Real-World Audio-Visual Speech Enhancement
+Authors: Tongtao Ling, Zhong-Qiu Wang
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-14
+Summary: Audio-visual speech enhancement (AVSE) aims at extracting target speech from multi-speaker mixtures by exploiting visual cues. Although recent studies have reported strong performance on simulated datasets, the performance, however, often drops dramatically when they are applied to real-world audio-visual recordings. To bridge this gap, the Real-World AVSE Challenge held in the ISCSLP 2026 confere...
+
+--- [24] 2608.14249v1 ---
+Title: AT-ADD: All-Type Audio Deepfake Detection Challenge Summary
+Authors: Yuankun Xie, Haonan Cheng, Jiayi Zhou, Xiaoxuan Guo, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-14
+Summary: This paper summarizes the ACM Multimedia 2026 AT-ADD Grand Challenge on all-type audio deepfake detection. AT-ADD contains two tracks: robust speech deepfake detection under realistic acoustic and channel variations, and type-agnostic detection over speech, environmental sound, singing voice, and music. We describe the challenge tasks, dataset and evaluation-set design, official leaderboard result...
+
+--- [25] 2608.12034v1 ---
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspeech-to-speech+AND+abs%3A2026&max_results=25&sortBy=submittedDate&sortOrder=descending
+Title: The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models
+Authors: Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao, Yuhang Dai et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-12
+Summary: Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity ...
+

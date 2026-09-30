@@ -1,0 +1,142 @@
+--- [1] 2609.09107v1 ---
+Title: For Whom the Xenon Recoils: Magnetic Inelastic Dark Baryons
+Authors: Pouya Asadi, Austin Batz, Patrick J. Fox, Samuel D. Homiller, Graham D. Kribs
+Primary cat: hep-ph | All cats: hep-ph
+Published: 2026-09-08
+Summary: We develop a theory of a dark baryon dark matter candidate that interacts with nuclei dominantly through inelastic scattering mediated by a transition magnetic dipole operator. Models are presented that can elegantly explain both the scattering rate and the size of the inelastic splitting to be consistent with the one event observed at LZ\@. Elastic scattering is suppressed due to accidental symme...
+
+--- [2] 2609.09086v1 ---
+Title: Hierarchical Inference of the Supermassive Black Hole Binary Merger Rates from Joint Searches using Pulsar Timing Arrays
+Authors: Sharon Mary Tomson, Rutger van Haasteren, Boris Goncharov
+Primary cat: astro-ph.HE | All cats: astro-ph.HE, astro-ph.IM, gr-qc
+Published: 2026-09-08
+Summary: Gravitational-wave searches do more than identify individual sources - they provide a way to infer the underlying astrophysical populations that produce them. Currently, Pulsar Timing Arrays (PTAs) constrain the supermassive black-hole binary (SMBHB) merger-rate density through both the stochastic gravitational-wave background (SGWB) and searches for individual SMBHB signals. The latter implies co...
+
+--- [3] 2609.09083v1 ---
+Title: Breaking binary formation mechanism degeneracies with gravitational wave clustering
+Authors: Nicola Bellomo, Michele Bosi, Sarah Libanore, Michele Liguori, Michela Mapelli et al.
+Primary cat: gr-qc | All cats: gr-qc, astro-ph.CO
+Published: 2026-09-08
+Summary: Thanks to the almost 400 gravitational wave events detected, we are currently able to grasp the fundamental features of black hole mass, spin, and distance distributions. However, such a fast increase in the precision of the measurements does not necessarily correspond to a better theoretical understanding of gravitational wave sources, especially in current scenarios where the number of free para...
+
+--- [4] 2609.09075v1 ---
+Title: ThinkPrior: Zero-Rollout Difficulty Priors for Cold-Start Prompt Selection in RLVR
+Authors: Tommy Sha, Skylar Zhai, Siqi Zhao
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: In reinforcement learning with verifiable rewards (RLVR) trained with group relative policy optimization (GRPO), the KL-free reward-advantage term studied here depends on within-group reward variation. If all rollouts in a group are correct or all are wrong, their group-relative advantages are identically zero; these zero-advantage silent groups provide no reward-advantage gradient, yet uniform sa...
+
+--- [5] 2609.09064v1 ---
+Title: Parity and Pattern Detection in Permutation Streams
+Authors: Mark Braverman, Or Zamir
+Primary cat: cs.DS | All cats: cs.DS
+Published: 2026-09-08
+Summary: Consider a permutation of $[n]$ whose values arrive one at a time. We resolve two questions about the space needed to decide natural properties of such input: First, computing the parity of the permutation requires $Θ(n)$ bits, even with randomization and constant error, and a constant number of passes. Second, every permutation pattern of length three can be detected deterministically in one pass...
+
+--- [6] 2609.09044v1 ---
+Title: The Luminosity Function of Ultra-Faint Trans-Neptunian Objects Detected by JWST
+Authors: Marielle R. Eduardo, Anastasia N. Morgan, Wesley C. Fraser, David E. Trilling, Gary M. Bernstein et al.
+Primary cat: astro-ph.EP | All cats: astro-ph.EP
+Published: 2026-09-08
+Summary: We present a definitive discovery of 27 trans-Neptunian objects (TNOs) using the Near-Infrared Camera (NIRCam) aboard the James Webb Space Telescope (JWST). By employing a shift-and-stack technique and a machine learning network geared specifically to identifying false-positive detections in JWST images produced through the shift-and-stack process, we achieved a 40\% detection threshold of $m_{F15...
+
+--- [7] 2609.09038v1 ---
+Title: Do Reasoning Representations Help Humans Evaluate LLM Outputs?
+Authors: Jaewoo Lim, Sungbok Shin, Sanghyun Hong
+Primary cat: cs.LG | All cats: cs.LG, cs.HC
+Published: 2026-09-08
+Summary: Reasoning representations are increasingly used as explanations for large language model outputs. Yet they are typically evaluated with model-centric criteria, such as answer accuracy and faithfulness, leaving it unclear whether they help people evaluate model responses. In this work, we study reasoning representations as human-facing interfaces rather than proxies for model reasoning ability. We ...
+
+--- [8] 2609.09028v1 ---
+Title: Detection of episodic Ultra-fast Outflows in the Low-luminosity quasar Mrk 205 using XMM-Newton data
+Authors: César Ivan Victoria-Ceballos, Anna Lia Longinotti, Yair Krongold, Giorgio Lanzuisi, Miriam Gudiño et al.
+Primary cat: astro-ph.HE | All cats: astro-ph.HE, astro-ph.GA
+Published: 2026-09-08
+Summary: Ultra-fast outflows (UFOs) from Active Galactic Nuclei (AGN) are winds which reach velocities up to 0.3c, and show mass outflow rates of 0.01-1 $M_{\odot} yr^{-1}$ and kinetic energies of $10^{42-45}$ erg/s. Their extreme properties allow UFOs to carry substantial kinetic power, sufficient to drive AGN feedback by injecting energy and momentum into the interstellar medium, regulating the host gala...
+
+--- [9] 2609.09025v1 ---
+Title: Task-driven Processing with Coarse-to-Fine Glimpse-based Active Perception
+Authors: Oleh Kolner, Thomas Ortner, Stanisław Woźniak, Angeliki Pantazi
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: State-of-the-art vision models process images in their entirety, lacking the ability to selectively zoom in on relevant regions. This limitation is particularly acute in scenarios where processing must be conditioned on a specific task - such as instance detection, which requires localizing a specific object in a high-resolution, cluttered scene. In such settings, critical details are easily lost ...
+
+--- [10] 2609.09012v1 ---
+Title: Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild
+Authors: Fei Teng, Sheng Wu, Mengfei Duan, Guoqiang Zhao, Junhui Ma et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.RO, eess.IV
+Published: 2026-09-08
+Summary: Spherical observations provide global visual context for 3D scene understanding. However, visual information is encoded in an angular domain, whereas the physical world is represented in Cartesian coordinates. This cross-space representation gap complicates geometric correspondence and semantic evidence aggregation. To delve into this challenge, we introduce Spheriverse, comprising $64,400$ tempor...
+
+--- [11] 2609.09011v1 ---
+Title: Closed-Form of the Local Galactic Potential and Stellar Distribution Function from Gaia DR3
+Authors: Indranil Das, Adam Kamoski, Dora Demiri, Brianna Isola, Hanieh Karimi et al.
+Primary cat: astro-ph.GA | All cats: astro-ph.GA, astro-ph.IM, cs.LG
+Published: 2026-09-08
+Summary: The local dark matter density determines the strength of the signal expected in direct-detection experiments, yet published estimates from stellar motions disagree by more than their errors, and the most recent machine-learning analysis of Gaia data finds a local density consistent with zero. According to Jeans' theorem, a distribution function built from integrals of motion satisfies the collisio...
+
+--- [12] 2609.09008v1 ---
+Title: Combined JWST and HST Deep Imaging to Characterize the Smallest Known Trans-Neptunian Objects
+Authors: Anastasia N. Morgan, Marielle R. Eduardo, David E. Trilling, Wesley C. Fraser, John A. Stansberry et al.
+Primary cat: astro-ph.EP | All cats: astro-ph.EP
+Published: 2026-09-08
+Summary: We present optical-near-infrared (NIR) color measurements for small ($\leq 40$ km) Trans-Neptunian Objects (TNOs) using coordinated and nearly simultaneous observations from the James Webb Space Telescope (JWST) and the Hubble Space Telescope (HST). JWST/NIRCam data provided detections and NIR photometry for faint TNOs, while HST/ACS and WFC3 imaging enabled recovery in the optical, together yield...
+
+--- [13] 2609.09002v1 ---
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Adeepfake+detection+audio&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: Factorized and Vectorized Execution: Optimizing Analytical and Semantic Queries over Relations
+Authors: Sunny Yasser, Anas Dorbani, Amine Mhedhbi
+Primary cat: cs.DB | All cats: cs.DB
+Published: 2026-09-08
+Summary: Many-to-many joins are central to analytical and semantic workloads such as fraud detection, network analysis, and recommendation, where insights arise from relationships between entities. These workloads often suffer from an explosion of intermediate results, sometimes orders of magnitude larger than the inputs. Factorized representations address this problem by exploiting conditional independenc...
+
+--- [14] 2609.09001v1 ---
+Title: Deposon: An Auditable, Conservation-Guaranteed, Game-Theoretically Tested Scattering Layer over LLM Reasoning Paths
+Authors: Qihao Yuan
+Primary cat: cs.AI | All cats: cs.AI, cs.LG
+Published: 2026-09-08
+Summary: Multi-step LLM reasoning lacks a machine-recheckable ledger: discarded reasoning paths leave no auditable record. We propose the Deposon scattering layer, which binds each node of an LLM-generated concept-decomposition graph to a two-parameter Deposon state; paths undergo three-channel scattering -- transmission, reflection, irreversible dissipation -- obeying T+R+A=1 for arbitrary parameters, wit...
+
+--- [15] 2609.09000v1 ---
+Title: Intelligent Fault and Lightning Detection Algorithm for VSC-MTDC grids based on ResNet with Hybrid Attention Mechanism
+Authors: Yunqi Zhang
+Primary cat: eess.SY | All cats: eess.SY
+Published: 2026-09-08
+Summary: To address the existing challenges in fault detection for voltage source converter-based multi-terminal DC (VSC-MTDC) grids, this paper proposes an intelligent fault and lightning detection algorithm based on S transform and Residual Network with hybrid attention mechanism (RWHAM).The DC line double-ended initial current traveling waves (ICTWs) are first converted into time-frequency matrices by p...
+
+--- [16] 2609.08989v1 ---
+Title: TARTARUS: A High-Performance Python Code for Ray Tracing in Curved Spacetimes
+Authors: David F. Bambague, Alexis Larrañaga
+Primary cat: gr-qc | All cats: gr-qc, astro-ph.IM
+Published: 2026-09-08
+Summary: The recent observations of the supermassive black holes M87* and Sagittarius A* by the Event Horizon Telescope collaboration (EHT) have shown the need for robust, efficient, and accessible numerical tools to model light propagation in strongly curved spacetimes. Comparing theoretical accretion models with observational data relies heavily on ray-tracing algorithms that calculate the trajectories o...
+
+--- [17] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [18] 2609.08973v1 ---
+Title: Restart and first detection in a lackadaisical quantum walk with flat-band localization
+Authors: Debraj Das
+Primary cat: quant-ph | All cats: quant-ph, cond-mat.stat-mech
+Published: 2026-09-08
+Summary: We study stochastic and sharp restart in a one-dimensional lackadaisical discrete-time quantum walk with self-loop weight $\ell$. In the absence of restart, the dynamics has a flat band responsible for intrinsic localization and two dispersive bands supporting ballistic propagation. We compare two initially localized benchmark states: a flat-band-active state with finite flat-band overlap and a fl...
+
+--- [19] 2609.08970v1 ---
+Title: GraphFAS: A Distributed System for Automated Graph Feature Generation and Selection in Industrial Transaction Networks
+Authors: Yice Luo, Yun Zhu, Xi Chen, Yongchao Liu, Xintan Zeng et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.DC
+Published: 2026-09-08
+Summary: Industrial fraud detection often relies on costly expert-crafted features that overlook graph-structured relational signals, while GNNs often do not meet the interpretability and deployment requirements of financial risk control. We propose GraphFAS (Graph Feature Automated Selection), a distributed feature selection procedure based on Boruta that bridges this gap through: (1) a non-parametric gra...
+
+--- [20] 2609.08958v1 ---
+Title: Model Predictive Control of Tensegrity Robots via Contact-Aware Graph Neural Dynamics Model
+Authors: Nelson Chen, Patrick Meng, Charles Tang, Angelina Degay, Zachary Brei et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Tensegrity robots offer lightweight, compliant mobility over challenging terrain but remain difficult to model and control due to complex contact-rich dynamics and partial observability. This work presents a model predictive path integral (MPPI) controller for a three-bar tensegrity robot driven by a learned graph neural network (GNN) dynamics model. This work first extends prior GNN-based models ...
+

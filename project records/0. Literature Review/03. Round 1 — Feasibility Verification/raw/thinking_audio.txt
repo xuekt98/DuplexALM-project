@@ -1,0 +1,177 @@
+--- [1] 2608.23092v1 ---
+Title: Reasoning-Oriented Post-Training and Inference-Time LoRA Rescaling for Audio-Dependent Question Answering
+Authors: Weiteng Hu, Yin Cao, Jun Yang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-24
+Summary: Audio-Dependent Question Answering (ADQA) requires Large Audio-Language Models (LALMs) to answer questions whose correct answers depend on the given audio content. Successful ADQA requires accurate audio perception, identification of question-relevant evidence, and cross-modal reasoning. Using the official ADQA dataset of DCASE 2026 Task 5, we investigate reasoning-oriented post-training with Low-...
+
+--- [2] 2608.22236v2 ---
+Title: MRMAD: A Multi-Round Multi-Audio Benchmark for Evaluating Acoustic Degradation Perception in Large Audio-Language Models
+Authors: Yize Li, Ningyuan Yang, Sile Yin, Sindhuja Thogarrati, Sung-En Chang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-08-23
+Summary: Large audio-language models (LALMs) have shown promising progress in understanding speech, music, and general sound events, yet their ability to reason about how audio signals are degraded remains underexplored. Existing benchmarks primarily evaluate semantic understanding, event recognition, or high-level audio reasoning, leaving a basic question unanswered: Do LALMs understand the differences in...
+
+--- [3] 2608.16539v1 ---
+Title: Listen, Reason, and Segment: Aligning LALMs with Editorial Judgment for Media Chapterization
+Authors: Tony Alex, Wish Suharitdamrong, Sara Atito, Armin Mustafa, Muhammad Awais et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-08-17
+Summary: Large Audio Language Models (LALMs) have made rapid progress on standardized benchmarks, yet their deployment in practical media workflows, curation, archival indexing, and content distribution remains largely unrealized. We identify automated audio chapterization, the task of segmenting continuous audio streams into thematically coherent chapters, as a demanding and commercially consequential set...
+
+--- [4] 2607.19339v1 ---
+Title: OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
+Authors: Yu Chen, Caorui Li, Ziyu Xiong, Yidong Wang, Mingqi Gao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-21
+Summary: Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs learn, via supervised fine-tuning and reinforcement learning, to decide whether and where to call a ...
+
+--- [5] 2607.18718v1 ---
+Title: Summary of DCASE 2026 Task 5: Audio-Dependent Question Answering
+Authors: Haolin He, Renhe Sun, Zheqi Dai, Xingjian Du, Chunyat Wu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-21
+Summary: DCASE~2026 Task~5 introduces Audio-Dependent Question Answering (ADQA), which tests whether large audio-language models answer from the audio rather than from textual priors. An Audio-Dependency Filtering (ADF) pipeline combines silent-audio probing, per-option perplexity, a large language model (LLM) commonsense check, and human review to remove items solvable from text alone. The 3000 items that...
+
+--- [6] 2607.17523v1 ---
+Title: Thinking in Video: Can Video Generators Really Reason About the Real World?
+Authors: Yongheng Zhang, Guang Yang, Ruihan Hou, Qiguang Chen, Ziang Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL
+Published: 2026-07-20
+Summary: Recent advances in world models and video generation have given rise to an emerging reasoning paradigm that leverages video generative models to simulate, predict, and reason about real-world dynamics. We redefine this paradigm as Thinking in Video, where video is not merely an output artifact but a medium for constructing, extending, and verifying causal thought. However, this promise remains unv...
+
+--- [7] 2607.13477v1 ---
+Title: Auditing Protocol-Level Shortcuts in Large Audio Language Model Judges for Speech Evaluation
+Authors: Joonyong Park, David M. Chan, Yuki Saito, Hiroshi Saruwatari
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-07-15
+Summary: Large audio-language models (LALMs) are increasingly used as automatic judges for speech evaluation. However, high agreement with human ratings does not guarantee that their verdicts are grounded in the audio. A judge may instead rely on specialist labels or reference data supplied by the evaluation protocol itself, taking a shortcut in place of listening to the audio. In this paper, we audit such...
+
+--- [8] 2607.02770v2 ---
+Title: Gemma 4 Technical Report
+Authors:  Gemma Team, Sherif El Abd, Vaibhav Aggarwal, Robin Algayres, Alek Andreev et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-07-02
+Summary: We introduce Gemma 4, a new generation of open-weight, natively multimodal language models in the Gemma model family. Designed to advance compute efficiency and reasoning, the Gemma 4 model suite features dense and Mixture-of-Experts architectures, ranging from 2.3B to 31B parameters. Alongside improved vision and audio encoders for all model sizes, we propose a unified, encoder-free architecture ...
+
+--- [9] 2608.20387v1 ---
+Title: Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions
+Authors: Junhui Zhang, Qianhui Xu, Qingxiang Guo, Dawei Yang, Ling Miao et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-30
+Summary: While recent text-to-speech (TTS) models achieve high naturalness, controlling fine-grained expression via natural-language instructions remains challenging. We introduce Poly- InstructTTS, which learns expressive speech from open-ended instructions using in-the-wild audiovisual data. We build a scalable multi-modal pipeline to construct a 1,000-hour instruction-annotated corpus covering 1,000+ fi...
+
+--- [10] 2606.14694v2 ---
+Title: AdaSR: Adaptive Streaming Reasoning with Hierarchical Relative Policy Optimization
+Authors: Junlong Tong, Wenqi Xu, Yingqi Fan, Anhao Zhao, Xuan Lu et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-06-12
+Summary: Large reasoning models typically follow a read-then-think paradigm: they observe the complete input, reason over a static context, and then produce the answer. Yet many real-world scenarios are inherently dynamic, such as audio and video stream, where information arrives as a continuous stream and models must reason, update, and respond under partial observations. Recent streaming reasoning method...
+
+--- [11] 2606.09186v1 ---
+Title: DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking for Full-Duplex Interaction
+Authors: Muye Huang, Lingling Zhang, Xingyu Yu, Lei Shi, Zhanyu Ma et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-06-08
+Summary: Human interaction is continuous, multimodal, and full-duplex by nature. Although recent omni models have made substantial progress in unified speech, vision, and text modeling, combining seamless real-time interaction with complex reasoning and tool use remains challenging. We present DuplexOmni, a method for real-time multimodal full-duplex interaction. DuplexOmni separates model capability into ...
+
+--- [12] 2606.07433v1 ---
+Title: Watch, Remember, Reason: Human-View Video Understanding with MLLMs
+Authors: Jiahao Meng, Yue Tan, Qi Xu, Kuan Gao, Weisong Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2026-06-05
+Summary: Video understanding is being rapidly transformed by multimodal large language models (MLLMs), as research moves from short clips to long, multimodal, and knowledge-intensive video scenarios. These scenarios require models to handle sparse evidence, long-range dependencies, multimodal alignment, and reliable inference under limited computational budgets. This work presents a human-view perspective ...
+
+--- [13] 2606.18273v1 ---
+Title: Continuous Audio Thinking for Large Audio Language Models
+Authors: Gyojin Han, Dong-Jae Lee, Changho Choi, Jongsuk Kim, Junmo Kim
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS
+Published: 2026-06-05
+Summary: Large audio language models (LALMs) have shown impressive capabilities on diverse audio understanding tasks, ranging from speech transcription to music analysis. However, because LALMs are typically trained to produce text-aligned responses, their hidden states are progressively shaped for text generation rather than for preserving acoustic information. As a result, the diverse acoustic content th...
+
+--- [14] 2606.01802v3 ---
+Title: MOSS-Audio Technical Report
+Authors: Chen Yang, Chufan Yu, Hanfu Chen, Jie Zhu, Jingqi Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-01
+Summary: MOSS-Audio is a unified audio-language model for speech, environmental sound, and music understanding, supporting audio captioning, time-aware question answering, timestamped transcription, and audio-grounded reasoning. MOSS-Audio couples a dedicated audio encoder with a modality adapter and a large language model: the encoder produces 12.5 Hz temporal representations, the adapter projects them in...
+
+--- [15] 2605.30311v1 ---
+Title: Archon: A Unified Multimodal Model for Holistic Digital Human Generation
+Authors: Chong Bao, Shichen Liu, Lijun Yu, David Futschik, Stylianos Moschoglou et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-05-28
+Summary: Digital humans are fundamental to immersive interaction, yet creating a unified model for holistic modalities, including text, audio, motion, and visual content, remains an open challenge. In this paper, we present Archon, a fully pretrained, human-centric unified multimodal model for holistic avatar generation. Archon unifies seven modalities with modality-specific tokenizers, and a native autore...
+
+--- [16] 2605.28056v1 ---
+Title: CogPortrait: Fine-Grained Eye-Region Control in Portrait Animation via Hierarchical Agent Planning
+Authors: He Feng, Yongjia Ma, Donglin Di, Lei Fan, Tonghua Su
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-27
+Summary: Portrait animation methods have achieved substantial visual quality and lip synchronization, but fine-grained manipulation of the eye region still faces a trade-off between input granularity and motion accuracy. Existing methods using emotion labels or coarse text prompts are insufficient for describing subtle ocular dynamics, whereas approaches based on Action Units or driving videos provide high...
+
+--- [17] 2605.27190v1 ---
+Title: Learning When to Think While Listening in Large Audio-Language Models
+Authors: Zhiyuan Song, Weici Zhao, Yang Xiao, Suhao Yu, Cheng Zhu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.LG, cs.SD
+Published: 2026-05-26
+Summary: Recent advances in Large Audio-Language Models (LALMs) have made real-time, streaming spoken interaction increasingly practical. In this setting, reasoning quality and responsiveness are tightly coupled: delaying reasoning until the speech endpoint can improve answer quality but moves deliberation into user-visible response delay, while answering too early risks committing before decisive evidence...
+
+--- [18] 2605.20946v1 ---
+Title: Thinking-while-speaking: A Controlled, Interleaved Reasoning Method for Real-Time Speech Generation
+Authors: Xuan Du, Qiangyu Yan, Wenshuo Li, Borui Jiang, Changming Xiao et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-05-20
+Summary: The thinking-while-speaking paradigm aims to make AI communication more human. A key challenge is maintaining fluent speech while performing deep reasoning. Our method, InterRS, tackles this by inserting reasoning steps only during natural speech generation. This requires high-quality data where reasoning and speech are precisely aligned, and the length ratio are under controlled. We introduce a n...
+
+--- [19] 2605.01278v2 ---
+Title: Valley3: Scaling Omni Foundation Models for E-commerce
+Authors: Zeyu Chen, Guanghao Zhou, Qixiang Yin, Ziwang Zhao, Huanjin Yao et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-05-02
+Summary: In this work, we present Valley3, an omni multimodal large language model (MLLM) developed for diverse global e-commerce tasks, with unified understanding and reasoning capabilities across text, images, video, and audio. A key feature of Valley3 is its native multilingual audio capability for e-commerce, developed by extending vision-language models to better support crucial audio-visual tasks, pa...
+
+--- [20] 2604.22245v1 ---
+Title: Listening with Time: Precise Temporal Awareness for Long-Form Audio Understanding
+Authors: Mingchen Shao, Hang Su, Wenjie Tian, Bingshen Mu, Zhennan Lin et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-24
+Summary: While Large Audio Language Models (LALMs) achieve strong performance on short audio, they degrade on long-form inputs. This degradation is more severe in temporal awareness tasks, where temporal alignment becomes increasingly inaccurate as audio duration grows. We attribute these limitations to the lack of data, benchmarks, and modeling approaches tailored for long-form temporal awareness. To brid...
+
+--- [21] 2604.10905v1 ---
+Title: Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music
+Authors: Sreyan Ghosh, Arushi Goel, Kaousheik Jayakumar, Lasha Koroshinadze, Nishit Anand et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-04-13
+Summary: We present Audio Flamingo Next (AF-Next), the next-generation and most capable large audio-language model in the Audio Flamingo series, designed to advance understanding and reasoning over speech, environmental sounds and music. Compared to Audio Flamingo 3, AF-Next introduces: (i) a stronger foundational audio-language model that significantly improves accuracy across diverse audio understanding ...
+
+--- [22] 2603.20211v1 ---
+Title: Exploring Teacher-Chatbot Interaction and Affect in Block-Based Programming
+Authors: Bahare Riahi, Ally Limke, Xiaoyi Tian, Viktoriia Storozhevykh, Sayali Patukale et al.
+Primary cat: cs.CY | All cats: cs.CY, cs.AI
+Published: 2026-03-02
+Summary: AI-based chatbots have the potential to accelerate learning and teaching, but may also have counterproductive consequences without thoughtful design and scaffolding. To better understand teachers' perspectives on large language model (LLM)-based chatbots, we conducted a study with 11 teams of middle school teachers using chatbots for a science and computational thinking activity within a block-bas...
+
+--- [23] 2602.21900v2 ---
+Title: EmoOmni: Bridging Emotional Understanding and Expression in Omni-Modal LLMs
+Authors: Wenjie Tian, Zhixian Zhao, Jingbin Hu, Huakang Chen, Haohe Liu et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-02-25
+Summary: The evolution of Omni-Modal Large Language Models~(Omni-LLMs) has revolutionized human--computer interaction, enabling unified audio-visual perception and speech response. However, existing Omni-LLMs struggle with complex real-world scenarios, often leading to superficial understanding and contextually mismatched emotional responses. This issue is further intensified by Omni-LLM's Thinker-Talker a...
+
+--- [24] 2602.16334v1 ---
+Title: Spatial Audio Question Answering and Reasoning on Dynamic Source Movements
+Authors: Arvind Krishna Sridhar, Yinyi Guo, Erik Visser
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-02-18
+Summary: Spatial audio understanding aims to enable machines to interpret complex auditory scenes, particularly when sound sources move over time. In this work, we study Spatial Audio Question Answering (Spatial AQA) with a focus on movement reasoning, where a model must infer object motion, position, and directional changes directly from stereo audio. First, we introduce a movement-centric spatial audio a...
+
+--- [25] 2602.05847v2 ---
+Title: OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention
+Authors: Zhangquan Chen, Jiale Tao, Ruihuang Li, Yihao Hu, Ruitao Chen et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-02-05
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Athinking+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: While humans perceive the world through diverse modalities that operate synergistically to support a holistic understanding of their surroundings, existing omnivideo models still face substantial challenges on audio-visual understanding tasks. In this paper, we propose OmniVideo-R1, a novel reinforced framework that improves mixed-modality reasoning. OmniVideo-R1 empowers models to "think with omn...
+

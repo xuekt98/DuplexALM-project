@@ -1,0 +1,44 @@
+# Total entries: 6
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AWavTokenizer&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2609.05871v1 ---
+Title: Where Does the Sound Go? Tracing Acoustic Information Loss in Audio-Conditioned LLMs
+Authors: Song-ha Jo, Sehyun Lee, Soyoon Kim, Jaesik Choi, Sanghyuk Choi
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-09-05
+Summary: Audio-conditioned language models often underuse acoustic cues such as prosody, emotion, and non-speech sounds, raising the question of whether ASR-supervised frontends discard this information before it reaches the LM. We test whether the frontend is responsible by comparing Whisper-Tiny and Whisper-Small with EnCodec, DAC-VAE, and WavTokenizer in a shared Qwen3.5-4B audio-LM pipeline on ASR, emo...
+
+--- [2] 2605.06870v2 ---
+Title: Continuous First, Discrete Later: VQ-VAEs Without Dimensional Collapse
+Authors: Xinyu Zhao, Nikita Karagodin, Hamed Hassani, Sinan Hersek, Paul Pu Liang et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-05-07
+Summary: While many approaches to improve VQ-VAE performance focus on codebook size and utilization, the effect of dimensional collapse, where trained VQ-VAE representations live in an extremely low-dimensional subspace (1-2% of full rank), remains unaddressed. We show theoretically and empirically that dimension collapse causes a hard loss lower bound that various codebook improvement techniques fail to s...
+
+--- [3] 2510.23802v1 ---
+Title: Learning Interpretable Features in Audio Latent Spaces via Sparse Autoencoders
+Authors: Nathan Paek, Yongyi Zang, Qihui Yang, Randal Leistikow
+Primary cat: cs.LG | All cats: cs.LG, cs.SD
+Published: 2025-10-27
+Summary: While sparse autoencoders (SAEs) successfully extract interpretable features from language models, applying them to audio generation faces unique challenges: audio's dense nature requires compression that obscures semantic meaning, and automatic feature characterization remains limited. We propose a framework for interpreting audio generative models by mapping their latent representations to human...
+
+--- [4] 2510.22241v1 ---
+Title: FOA Tokenizer: Low-bitrate Neural Codec for First Order Ambisonics with Spatial Consistency Loss
+Authors: Parthasaarathy Sudarsanam, Sebastian Braun, Hannes Gamper
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-10-25
+Summary: Neural audio codecs have been widely studied for mono and stereo signals, but spatial audio remains largely unexplored. We present the first discrete neural spatial audio codec for first-order ambisonics (FOA). Building on the WavTokenizer architecture, we extend it to support four-channel FOA signals and introduce a novel spatial consistency loss to preserve directional cues in the reconstructed ...
+
+--- [5] 2509.19025v2 ---
+Title: Enhancing Noise Robustness for Neural Speech Codecs through Resource-Efficient Progressive Quantization Perturbation Simulation
+Authors: Rui-Chen Zheng, Yang Ai, Hui-Peng Du, Li-Rong Dai
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-09-23
+Summary: Noise robustness remains a critical challenge for deploying neural speech codecs in real-world acoustic scenarios where background noise is often inevitable. A key observation we make is that even slight input noise perturbations can cause unintended shifts in quantized codewords, thereby degrading the quality of reconstructed speech. Motivated by this finding, we propose a novel and resource-effi...
+
+--- [6] 2408.16532v3 ---
+Title: WavTokenizer: an Efficient Acoustic Discrete Codec Tokenizer for Audio Language Modeling
+Authors: Shengpeng Ji, Ziyue Jiang, Wen Wang, Yifu Chen, Minghui Fang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.MM, cs.SD, eess.SP
+Published: 2024-08-29
+Summary: Language models have been effectively applied to modeling natural signals, such as images, video, speech, and audio. A crucial component of these models is the codec tokenizer, which compresses high-dimensional natural signals into lower-dimensional discrete tokens. In this paper, we introduce WavTokenizer, which offers several advantages over previous SOTA acoustic codec models in the audio domai...
+

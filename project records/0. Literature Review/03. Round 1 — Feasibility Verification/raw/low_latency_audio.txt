@@ -1,0 +1,177 @@
+--- [1] 2609.02812v1 ---
+Title: VibeVoice-ASR-Streaming Technical Report
+Authors: Yujie Tu, Zhiliang Peng, Jianwei Yu, Li Dong, Songchen Xu et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-02
+Summary: Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks. Recently, end-to-end models such as VibeVoice-ASR have unified the two tasks within a single model. However, existing unified models still mainly support offline recognition, making it difficult to meet the low-latency requirements of real-time voice assistants and agents. To tackle this issue, we...
+
+--- [2] 2608.27522v1 ---
+Title: PolyMap: A 64-Channel Polyphonic Guitar Pickup System
+Authors: David Wieland, Jonas Roth, Christoph Studer
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-27
+Summary: In electric guitars, the vibrations of the strings are typically sensed by coils of wire combined with a magnet, called pickups. The pickups and their position along the strings contribute strongly to the instrument's sound. Most guitars feature one to three pickups, each spanning across all strings with fixed positions and generating a single mono output. The work of this Master's Thesis at ETH Z...
+
+--- [3] 2608.26786v1 ---
+Title: Emotion Understanding in Streaming Video with Trajectory-Aware Reliability
+Authors: Qingsong Wang, Qigong Lei, Zitong Wang, Bohan Yu, Zhiang Dong et al.
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-08-27
+Summary: Video emotion understanding is commonly studied as an offline classification problem, where the complete video segment is available before prediction. Real-time interaction, however, requires emotion decisions from incomplete and evolving evidence. This paper studies streaming video emotion understanding as a reliability-aware decision process over evolving emotion beliefs. In this setting, a sing...
+
+--- [4] 2608.24974v1 ---
+Title: Clearing the Underbrush: AI-Enhanced RF Interference Suppression
+Authors: Rahul Jain, Pierre Trepagnier, Rick Gentile, Joey Botero, Alexia Schulz
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, eess.SP
+Published: 2026-08-25
+Summary: AI-based structured interference rejection has grown more popular because deep learning approaches can outperform traditional methods by jointly considering the signal of interest (SOI) and the signal mixture (SOI plus interference). This work builds on a previous AI-enabled approach utilizing autoregressive transformer-based models by adding a Finite Scalar Quantization (FSQ) tokenizer layer whic...
+
+--- [5] 2608.18832v1 ---
+Title: EfficientSync: Real-Time Lip Synchronization via Deformation-Based Reference Texture Mixing
+Authors: Fa-Ting Hong, Runzhen Liu, Luchuan Song, Hongmin Cai, Chuhua Xian
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-19
+Summary: Audio-driven lip synchronization manipulates the mouth region of a talking-face video to match the driving audio while preserving head pose, identity, and background. Although the task is inherently local editing, prevailing approaches reconstruct the entire lower face with heavy GAN- or diffusion-based decoders, incurring substantial latency and, more critically, hallucinating intra-oral details ...
+
+--- [6] 2608.18661v1 ---
+Title: X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Text with Speech-State Inheritance
+Authors: Rime Wen, Zehan Liu, Shawn Qin, Lights Shi, Roy Gan et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-19
+Summary: Streaming text-to-speech is essential for low-latency spoken dialogue systems, yet many systems wait for sentence-level text and are therefore only pseudo-streaming. True token-level synthesis must generate speech from uncertain prefixes while maintaining perceptual continuity over an unbounded stream with bounded context. We present X2Streaming-TTS, a causal TTS framework that consumes asynchrono...
+
+--- [7] 2608.18322v1 ---
+Title: Multimedia Asset Personalization via Multimodal Embeddings at Netflix
+Authors: Emma Yanyang Kong, Aditya Deshpande, Bowei Yan, Asad Abbasi, Santiago Castro et al.
+Primary cat: cs.IR | All cats: cs.IR
+Published: 2026-08-18
+Summary: Personalized promotional assets, namely artwork images and video preview clips, are critical to content discovery on Netflix. Traditional models for asset selection rely on ID-based interaction history, leaving them blind to asset content and unable to serve newly launched titles and assets. We describe how multimodal embeddings reshaped production systems at Netflix and report transferable lesson...
+
+--- [8] 2608.17972v1 ---
+Title: Target Speaker Identification: A Low-Latency Streaming Pipeline
+Authors: Patrick S. Burke, Satyam Raj, Sean Kinahan
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-18
+Summary: We present a real-time pipeline of open source, pretrained models for streaming identification of a target speaker, motivated by hearing-aid applications where latency as low as 10 ms can be perceptible. We formulate a two-step approach in which incoming audio is first segmented by speaker using low-latency streaming diarization, followed by speaker verification against a registered target speaker...
+
+--- [9] 2608.15066v1 ---
+Title: ParaJSCC: A Parameterized Framework for Reusable Multimodal Joint Source-Channel Coding
+Authors: Kemi Chen, Mingkai Chen, Youjia Chen, Qian Liu, Wei Gao et al.
+Primary cat: eess.SP | All cats: eess.SP, cs.MM, eess.IV
+Published: 2026-08-15
+Summary: Multimodal signals, such as visual, audio, and tactile data, are increasingly maintained as persistent digital assets in immersive communication systems and digital twins. In these settings, the same multimodal content is repeatedly accessed by heterogeneous receivers with varying modality and bandwidth requirements. Existing compression and Joint Source-Channel Coding (JSCC) methods typically fol...
+
+--- [10] 2608.14385v1 ---
+Title: DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding
+Authors: Zewen Jin, Shen Fu, Zeping Duan, Shannon Wang, Weihao Wu et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-08-14
+Summary: Mixture-of-Experts (MoE) models have been widely adopted in real-time interactive applications such as coding assistants, real-time audio-video interaction systems. To meet the extremely low response latency requirements of these scenarios, practitioners commonly employ small-batch decoding, under which MoE inference becomes memory-bound and is severely bottlenecked by expert weight loading. Howev...
+
+--- [11] 2608.12615v1 ---
+Title: Drive-to-Music: Context-Aware Generative Audio for In-Vehicle Experiences
+Authors: Cosmin Dragoiu, Nooshin Nabizadeh
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-08-12
+Summary: In-vehicle music can serve as an adaptive interface to enhance driver experience, attention, and well-being. We present Drive-to-Music, a context-aware system that generates music in real time from multimodal driving signals. Using dashcam imagery and vehicle telemetry, the system extracts scene semantics and driving context, maps them to high-level musical descriptors, and conditions generative a...
+
+--- [12] 2608.11343v1 ---
+Title: Can Frontier LLMs Match Natively Multimodal Embeddings? A Comparison on Hard-Negative Text-to-Image Retrieval
+Authors: Archan Dutta, Vyanktesh Kanungo
+Primary cat: cs.AI | All cats: cs.AI, cs.CV, cs.IR, cs.LG
+Published: 2026-08-11
+Summary: Multimodal retrieval and classification across different types of media, spanning text, images,video and audio, has traditionally relied on dual-encoder models that align visual and textual representations through contrastive learning. The March 2026 release of Gemini Embedding 2, Google's first natively multimodal embedding model to map text, images, video, audio, and documents into a single shar...
+
+--- [13] 2608.09861v1 ---
+Title: Towards Expert-level Medical AI for Real-time Video Consultations
+Authors: Mahvish Nagda, Jihyeon Lee, Matthew Thompson, Chunjong Park, Tim Strother et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-08-10
+Summary: Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues. While text-based AI has shown promise, it discards essential perceptual dimensions and limits patients who cannot articulate symptoms in writing. Early efforts to extend medical AI to audio-visual interaction have demonstrated fea...
+
+--- [14] 2608.08638v2 ---
+Title: CuteTTS: Efficient and High-Quality Speech Synthesis via Autoregressive Modeling of Continuous Latents
+Authors: Yuqian Zhang, Yao Shi, Kexin Huang, Botian Jiang, Zhe Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-09
+Summary: Zero-shot text-to-speech (TTS) now supports interactive assistants, personalized media, and accessibility tools. All TTS systems require faithful linguistic rendering, consistent speaker identity, and low-latency response. Yet compact streaming systems must preserve sufficient acoustic detail in a predictable low-rate latent sequence, while iterative diffusion sampling and classifier-free guidance...
+
+--- [15] 2608.07631v1 ---
+Title: PACE: A Playback-Aligned Context Engine for LLM-Based Full-Duplex Voice Dialogue
+Authors: Shibo Wang, Zicheng Zhang, Libo Wang, Junfeng Ma
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM
+Published: 2026-08-07
+Summary: LLM-based full-duplex voice services allow users to speak while the assistant is responding. Because servers can generate output and advance dialogue state faster than clients can play it, subsequent user speech may be interpreted based on content the user never heard. We call this failure Generative Context Mis-anchoring (GCM). To address GCM issues, we present PACE, a provider-independent middle...
+
+--- [16] 2608.06027v1 ---
+Title: FormBharo: Designing and Evaluating a Voice Agent for Conversational Form Filling in Rural India
+Authors: Aman Dalmia, Sanskriti Midha, Jigar Doshi
+Primary cat: cs.CL | All cats: cs.CL, cs.AI, cs.HC
+Published: 2026-08-06
+Summary: In India, almost every social benefit starts with a form, yet the people who need these benefits most are often unable to read or write. Reaching them requires a spoken conversation. Today that work falls to frontline health workers who enroll beneficiaries one at a time, a poor use of stretched capacity. We built FormBharo ("fill the form" in Hindi), a voice agent that fills a structured form ove...
+
+--- [17] 2608.03141v1 ---
+Title: Geometric Cross-Modal Token Selection for Latency-Constrained Multimodal Token Communication
+Authors: Joohyuk Park, Junyong Shin, Yongjeong Oh, Jihong Park, Yo-Seb Jeon
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-08-04
+Summary: This paper proposes a geometry-based joint cross-modal token selection framework for latency-constrained multimodal token communications. To capture cross-modal token dependencies, we leverage the cross-attention mechanism to project modality-specific tokens into a shared query-key space, where the modality with the fewest tokens serves as the anchor modality and the others as non-anchor modalitie...
+
+--- [18] 2608.01618v1 ---
+Title: SGAD: A State-Guided Adaptive Decision Framework for Robust EEG-Based Auditory Attention Switch Decoding
+Authors: Yuting Ding, Xuefei Wang, Ximin Chen, Chunlin Li, Fei Chen
+Primary cat: eess.SP | All cats: eess.SP, cs.SD
+Published: 2026-08-03
+Summary: Achieving robust EEG-based auditory attention switch decoding (AASD) is crucial for intelligent hearing aids. However, its application is limited as EEG non-stationarity complicates sequential decision-making, and insufficient control of potential confounding factors may overestimate performance. Therefore, we propose a state-guided adaptive decision (SGAD) framework that infers attention transiti...
+
+--- [19] 2607.29279v1 ---
+Title: ParaASR: Multi-Token Prediction for Fast and Long-Context LLM-Based Speech Recognition
+Authors: Qingjian Lin, Yuxin Li, Haoyang Zhang, Jun Chen, Yechang Huang et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-31
+Summary: Audio-encoder-LLM-decoder architectures have become the dominant paradigm for modern automatic speech recognition (ASR), improving transcription quality through large-scale language modeling. However, the cost of autoregressive decoding scales with decoder size, creating a fundamental trade-off between recognition quality and serving latency. We argue this trade-off is not inherent: unlike open-en...
+
+--- [20] 2607.23938v1 ---
+Title: Qwen-Audio-3.0-TTS: Freely Controllable and Highly Robust Speech Synthesis with Multi-Stage Training Paradigm
+Authors: Bajian Xiang, Cheng Wen, Han Zhao, Hao Wang, Haoxu Wang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-27
+Summary: In this report, we present Qwen-Audio-3.0-TTS, a production-oriented speech synthesis system that jointly advances content consistency, speaker similarity, prosodic naturalness, audio quality, controllability, multilingual coverage, efficiency, and robustness. It combines a 12.5~Hz low-frame-rate speech tokenizer for reduced inference latency with a five-stage progressive training paradigm for coo...
+
+--- [21] 2607.23023v2 ---
+Title: OmniMate: Open-Ended Real-Time Streaming Audio-Visual Generation for Interactive Avatars
+Authors: Quanyue Song, Yishan He, Yanbo Ding, Zhixiang He, Yongxiang Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-25
+Summary: Recent advances in diffusion-based generative models have enabled real-time audio-driven avatar generation and unified audio-visual synthesis, providing a promising foundation for interactive avatar systems. However, extending unified audio-visual synthesis to real-time interactive streaming remains challenging, as the generation horizon is unknown in advance and the generated identity may drift o...
+
+--- [22] 2607.22377v1 ---
+Title: Kutti AI: A Voice-First, Offline-Capable Learning Companion with Real-Time Struggle Detection for Visually-Impaired Children
+Authors: Kadharmoideen Fadurudeen
+Primary cat: cs.HC | All cats: cs.HC, cs.CY, cs.SD
+Published: 2026-07-24
+Summary: Most educational technology for children is built around visual interfaces, which excludes the many children worldwide who live with visual impairment -- an estimated 1.4 million children are blind and many more have low vision. We present Kutti AI, a voice-first learning companion designed so that audio is the primary and sufficient interface: children learn curriculum concepts through spoken con...
+
+--- [23] 2608.24909v1 ---
+Title: Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans
+Authors: Wentao Jiang, Youchen Xie, Haidi Fan, Yajing Chen, Xin Wang et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.CV, cs.SD
+Published: 2026-07-22
+Summary: Existing co-speech gesture generation methods are predominantly studied in offline settings, where gestures are synthesized from complete speech segments. However, interactive digital humans in real-world scenarios are required to generate speech-synchronous gestures online, using only currently available response audio under strict latency constraints. As a result, prior methods are unsuitable fo...
+
+--- [24] 2607.20086v1 ---
+Title: Cumsum-Composable Phase Transport for Low-Cost Streaming Keyword Spotting
+Authors: Mahesh Godavarti
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-07-22
+Summary: State-space sequence models are attractive for streaming speech because they maintain compact recurrent state, but scan-style training kernels can have unfavorable constants for short audio tasks. We study cumsum-composable phase transport, a streaming-native temporal layer for keyword spotting. Each layer projects acoustic frames to complex channels, transports them by learned unitary rotations, ...
+
+--- [25] 2607.16870v1 ---
+Title: Do Speech Tokens Leak Voiceprints? Speaker Inversion Attacks Against End-to-End Speech Language Models
+Authors: Ye Lu, Yihan Yan, Zhaoyang Zhang, Zhitao Ou, Runze Liu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CR
+Published: 2026-07-18
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Alow+AND+abs%3Alatency+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: End-to-end speech language models increasingly represent user speech with speech tokens rather than relying exclusively on cascaded ASR--LLM--TTS pipelines. Although these tokens support expressive and low-latency spoken interaction, they may also preserve sensitive speaker characteristics. We investigate whether exposed speech tokens leak voiceprints and formulate this risk as a speaker inversion...
+

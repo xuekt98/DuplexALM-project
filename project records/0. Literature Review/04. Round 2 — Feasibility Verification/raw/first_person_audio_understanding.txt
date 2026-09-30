@@ -1,0 +1,142 @@
+--- [1] 2608.10720v2 ---
+Title: Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence
+Authors: Haoyu Zhang, Zhipeng Li, Xiaoying Tang, Tianshu Yu, Yiwen Guo
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-08-11
+Summary: Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, but a spoken answer still leaves the agent visually absent. We introduce \textbf{Ex-Omni-2D}, a framework that answers a multimodal query with coordinated text, personalized speech, and reference-conditioned video. The dialogue model first writes a structured \textit{Visual Thought Plan} (VTP) for scene, emo...
+
+--- [2] 2607.03213v1 ---
+Title: OpenGlass: A Sensing-Computing Split Architecture for Local MLLM-Driven Real-Time Visual Assistance
+Authors: Mengzhang Li, Yuan Yao
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-07-03
+Summary: We present OpenGlass, an open-source, privacy-oriented, local-first system for low-latency multimodal visual assistance, with a primary focus on blind and low-vision users. Cloud MLLM assistants offer strong visual understanding, but often require uploading first-person visual data and can suffer multi-second network delays; wearable glasses are ideal for sensing, but cannot host large models unde...
+
+--- [3] 2605.15044v1 ---
+Title: SpeakerLLM: A Speaker-Specialized Audio-LLM for Speaker Understanding and Verification Reasoning
+Authors: KiHyun Nam, Jungwoo Heo, Siu Bae, Ha-Jin Yu, Joon Son Chung
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS
+Published: 2026-05-14
+Summary: As audio-first agents become increasingly common in physical AI, conversational robots, and screenless wearables, audio large language models (audio-LLMs) must integrate speaker-specific understanding to support user authorization, personalization, and context-aware interaction. This requires modeling who is speaking, how the voice sounds, and how recording conditions affect speaker cues. Conventi...
+
+--- [4] 2604.07823v2 ---
+Title: LPM 1.0: Video-based Character Performance Model
+Authors: Ailing Zeng, Casper Yang, Chauncey Ge, Eddie Zhang, Garvey Xu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM
+Published: 2026-04-09
+Summary: Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is what makes a character alive. Learning such performance from video is a promising alternative to traditional 3D pipelines. However, existing video models struggle to jointly achieve high expressiveness, real-time inference, and long-horizon identity stability, a tension we call the...
+
+--- [5] 2603.29095v1 ---
+Title: VueBuds: Visual Intelligence with Wireless Earbuds
+Authors: Maruchi Kim, Rasya Fawwaz, Zhi Yang Lim, Brinda Moudgalya, Hexi Wang et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-03-31
+Summary: Despite their ubiquity, wireless earbuds remain audio-centric due to size and power constraints. We present VueBuds, the first camera-integrated wireless earbuds for egocentric vision, capable of operating within stringent power and form-factor limits. Each VueBud embeds a camera into a Sony WF-1000XM3 to stream visual data over Bluetooth to a host device for on-device vision language model (VLM) ...
+
+--- [6] 2601.03531v1 ---
+Title: PALM-Bench: A Comprehensive Benchmark for Personalized Audio-Language Models
+Authors: Yuwen Wang, Xinyuan Qian, Tian-Hao Zhang, Jiaran Gao, Yuchen Pan et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-01-07
+Summary: Large Audio-Language Models (LALMs) have demonstrated strong performance in audio understanding and generation. Yet, our extensive benchmarking reveals that their behavior is largely generic (e.g., summarizing spoken content) and fails to adequately support personalized question answering (e.g., summarizing what my best friend says). In contrast, human conditions their interpretation and decision-...
+
+--- [7] 2508.19209v1 ---
+Title: OmniHuman-1.5: Instilling an Active Mind in Avatars via Cognitive Simulation
+Authors: Jianwen Jiang, Weihong Zeng, Zerong Zheng, Jiaqi Yang, Chao Liang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-08-26
+Summary: Existing video avatar models can produce fluid human animations, yet they struggle to move beyond mere physical likeness to capture a character's authentic essence. Their motions typically synchronize with low-level cues like audio rhythm, lacking a deeper semantic understanding of emotion, intent, or context. To bridge this gap, \textbf{we propose a framework designed to generate character animat...
+
+--- [8] 2508.01915v1 ---
+Title: EgoTrigger: Toward Audio-Driven Image Capture for Human Memory Enhancement in All-Day Energy-Efficient Smart Glasses
+Authors: Akshay Paruchuri, Sinan Hersek, Lavisha Aggarwal, Qiao Yang, Xin Liu et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.ET, cs.HC, cs.LG, cs.SD
+Published: 2025-08-03
+Summary: All-day smart glasses are likely to emerge as platforms capable of continuous contextual sensing, uniquely positioning them for unprecedented assistance in our daily lives. Integrating the multi-modal AI agents required for human memory enhancement while performing continuous sensing, however, presents a major energy efficiency challenge for all-day usage. Achieving this balance requires intellige...
+
+--- [9] 2507.22367v1 ---
+Title: Traits Run Deep: Enhancing Personality Assessment via Psychology-Guided LLM Representations and Multimodal Apparent Behaviors
+Authors: Jia Li, Yichao He, Jiacheng Xu, Tianhao Luo, Zhenzhen Hu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.MM
+Published: 2025-07-30
+Summary: Accurate and reliable personality assessment plays a vital role in many fields, such as emotional intelligence, mental health diagnostics, and personalized education. Unlike fleeting emotions, personality traits are stable, often subconsciously leaked through language, facial expressions, and body behaviors, with asynchronous patterns across modalities. It was hard to model personality semantics w...
+
+--- [10] 2504.00221v1 ---
+Title: GazeLLM: Multimodal LLMs incorporating Human Visual Attention
+Authors: Jun Rekimoto
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CV
+Published: 2025-03-31
+Summary: Large Language Models (LLMs) are advancing into Multimodal LLMs (MLLMs), capable of processing image, audio, and video as well as text. Combining first-person video, MLLMs show promising potential for understanding human activities through video and audio, enabling many human-computer interaction and human-augmentation applications such as human activity support, real-world agents, and skill trans...
+
+--- [11] 2503.12102v1 ---
+Title: A Speech-to-Video Synthesis Approach Using Spatio-Temporal Diffusion for Vocal Tract MRI
+Authors: Paula Andrea Pérez-Toro, Tomás Arias-Vergara, Fangxu Xing, Xiaofeng Liu, Maureen Stone et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2025-03-15
+Summary: Understanding the relationship between vocal tract motion during speech and the resulting acoustic signal is crucial for aided clinical assessment and developing personalized treatment and rehabilitation strategies. Toward this goal, we introduce an audio-to-video generation framework for creating Real Time/cine-Magnetic Resonance Imaging (RT-/cine-MRI) visuals of the vocal tract from speech signa...
+
+--- [12] 2502.00718v2 ---
+Title: "I am bad": Interpreting Stealthy, Universal and Robust Audio Jailbreaks in Audio-Language Models
+Authors: Isha Gupta, David Khachaturov, Robert Mullins
+Primary cat: cs.LG | All cats: cs.LG, cs.SD, eess.AS
+Published: 2025-02-02
+Summary: The rise of multimodal large language models has introduced innovative human-machine interaction paradigms but also significant challenges in machine learning safety. Audio-Language Models (ALMs) are especially relevant due to the intuitive nature of spoken communication, yet little is known about their failure modes. This paper explores audio jailbreaks targeting ALMs, focusing on their ability t...
+
+--- [13] 2411.13766v4 ---
+Title: Tiny-Align: Bridging Automatic Speech Recognition and Large Language Model on the Edge
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Afirst-person+AND+abs%3Aaudio+AND+abs%3Aunderstanding&max_results=20&sortBy=submittedDate&sortOrder=descending
+Authors: Ruiyang Qin, Dancheng Liu, Gelei Xu, Zheyu Yan, Chenhui Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2024-11-21
+Summary: The combination of Large Language Models (LLM) and Automatic Speech Recognition (ASR), when deployed on edge devices (called edge ASR-LLM), can serve as a powerful personalized assistant to enable audio-based interaction for users. Compared to text-based interaction, edge ASR-LLM allows accessible and natural audio interactions. Unfortunately, existing ASR-LLM models are mainly trained in high-per...
+
+--- [14] 2410.16341v1 ---
+Title: Vulnerabilities in Machine Learning-Based Voice Disorder Detection Systems
+Authors: Gianpaolo Perelli, Andrea Panzino, Roberto Casula, Marco Micheletto, Giulia Orrù et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.LG
+Published: 2024-10-21
+Summary: The impact of voice disorders is becoming more widely acknowledged as a public health issue. Several machine learning-based classifiers with the potential to identify disorders have been used in recent studies to differentiate between normal and pathological voices and sounds. In this paper, we focus on analyzing the vulnerabilities of these systems by exploring the possibility of attacks that can...
+
+--- [15] 2410.11861v1 ---
+Title: Investigating Role of Big Five Personality Traits in Audio-Visual Rapport Estimation
+Authors: Takato Hayashi, Ryusei Kimura, Ryo Ishii, Shogo Okada
+Primary cat: cs.HC | All cats: cs.HC, cs.AI
+Published: 2024-10-07
+Summary: Automatic rapport estimation in social interactions is a central component of affective computing. Recent reports have shown that the estimation performance of rapport in initial interactions can be improved by using the participant's personality traits as the model's input. In this study, we investigate whether this findings applies to interactions between friends by developing rapport estimation...
+
+--- [16] 2409.06426v1 ---
+Title: Collecting Information Needs for Egocentric Visualizations while Running
+Authors: Ahmed Elshabasi, Lijie Yao, Petra Isenberg, Charles Perin, Wesley Willett
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2024-09-10
+Summary: We investigate research challenges and opportunities for visualization in motion during outdoor physical activities via an initial corpus of real-world recordings that pair egocentric video, biometrics, and think-aloud observations. With the increasing use of tracking and recording devices, such as smartwatches and head-mounted displays, more and more data are available in real-time about a person...
+
+--- [17] 2409.05405v2 ---
+Title: A Survey of Multimodal Composite Editing and Retrieval
+Authors: Suyan Li, Fuxiang Huang, Lei Zhang
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.IR, cs.MM
+Published: 2024-09-09
+Summary: In the real world, where information is abundant and diverse across different modalities, understanding and utilizing various data types to improve retrieval systems is a key focus of research. Multimodal composite retrieval integrates diverse modalities such as text, image and audio, etc. to provide more accurate, personalized, and contextually relevant results. To facilitate a deeper understandi...
+
+--- [18] 2405.15708v1 ---
+Title: EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences
+Authors: Jocelyn Shen, Yubin Kim, Mohit Hulse, Wazeer Zulfikar, Sharifa Alghowinem et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2024-05-24
+Summary: Modeling empathy is a complex endeavor that is rooted in interpersonal and experiential dimensions of human interaction, and remains an open problem within AI. Existing empathy datasets fall short in capturing the richness of empathy responses, often being confined to in-lab or acted scenarios, lacking longitudinal data, and missing self-reported labels. We introduce a new multimodal dataset for e...
+
+--- [19] 2404.00989v2 ---
+Title: 360+x: A Panoptic Multi-modal Scene Understanding Dataset
+Authors: Hao Chen, Yuqi Hou, Chenyuan Qu, Irene Testini, Xiaohan Hong et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.MM, cs.SD, eess.AS
+Published: 2024-04-01
+Summary: Human perception of the world is shaped by a multitude of viewpoints and modalities. While many existing datasets focus on scene understanding from a certain perspective (e.g. egocentric or third-person views), our dataset offers a panoptic perspective (i.e. multiple viewpoints with multiple data modalities). Specifically, we encapsulate third-person panoramic and front views, as well as egocentri...
+
+--- [20] 2312.05976v1 ---
+Title: A Representative Study on Human Detection of Artificially Generated Media Across Countries
+Authors: Joel Frank, Franziska Herbert, Jonas Ricker, Lea Schönherr, Thorsten Eisenhofer et al.
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.CY, cs.LG
+Published: 2023-12-10
+Summary: AI-generated media has become a threat to our digital society as we know it. These forgeries can be created automatically and on a large scale based on publicly available technology. Recognizing this challenge, academics and practitioners have proposed a multitude of automatic detection strategies to detect such artificial media. However, in contrast to these technical advances, the human percepti...
+

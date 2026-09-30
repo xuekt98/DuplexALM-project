@@ -1,0 +1,177 @@
+--- [1] 2609.08542v1 ---
+Title: Spatial Audio Coding Through Relative Room Impulse Response Estimation
+Authors: Nour Bouayed, Adrien Llave, Jérôme Daniel, Pascal Scalart
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate ...
+
+--- [2] 2609.04085v1 ---
+Title: Deep Neural Compression for RIR-Characterized Acoustic Environments with Structure-Aware Constraints
+Authors: Chen-Yuan Ning, Yang Ai, Hui-Peng Du, Xiao-Hang Jiang, Zhen-Hua Ling
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-03
+Summary: Room impulse responses (RIRs) characterize the acoustic environment of a room by capturing how sound propagates and decays within an enclosed space. In applications such as immersive audio rendering, accurate acoustic reconstruction often relies on spatially densely sampled RIRs. This consequently gives rise to a large volume of RIR data, imposing a substantial burden on storage. Although recent n...
+
+--- [3] 2609.00648v1 ---
+Title: Human-robot conversation with multiple participants in noisy public spaces
+Authors: Divesh Lala, Yogeeswaran Muthukumaran, Vincent Fernandes, Kazushi Kato, Shota Fujiki et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.HC
+Published: 2026-09-01
+Summary: For noisy real-world environments such as those in open public spaces, spoken dialogue systems for both autonomous robots and avatars should be carefully designed to provide enhanced speech signals. These signals can be used either for speech recognition or, in the case of an avatar system, transmitted as clean speech to a remote operator. This work proposes an audio system that can be used for bo...
+
+--- [4] 2608.26566v1 ---
+Title: EmoSay: Artificial Intelligence-Driven Text-to-Emotional-Speech System for Affective Communication in Extended Reality
+Authors: Sikiru Ademola Adewale, Sunday D. Ubur, Nikitha Donekal Chandrashekar, Onyeka Emebo, Denis Gračanin
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-27
+Summary: While contemporary neural text-to-speech (TTS) systems have achieved high levels of intelligibility, they frequently lack the emotional nuance required for authentic affective communication. This limitation is particularly critical in Extended Reality (XR), where the absence of emotionally expressive audio can diminish user presence and spatial immersion. We present EmoSay, an Artificial Intellige...
+
+--- [5] 2608.24579v1 ---
+Title: Visually-Guided Spatial Audio Generation for $360^\circ$ In-the-Wild Speech Scenes
+Authors: Qingyu Luo, Peng Zhang, Wenwu Wang, Philip J. B. Jackson
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-25
+Summary: Spatial audio is a key component of immersive $360^\circ$ media, yet high-quality spatial capture remains limited in real-world speech-dominant scenes. We study visually guided First-Order Ambisonics (FOA) speech spatialization in the wild: given aligned $360^\circ$ video and an omnidirectional audio track, we recover the missing directional FOA components. To support this task, we introduce YT-SP...
+
+--- [6] 2608.24558v3 ---
+Title: Array-Agnostic Ambisonics Encoding via Diffusion Posterior Sampling
+Authors: Amit Milstein, Nir Shlezinger, Boaz Rafaely
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-25
+Summary: Spatial audio enhances user immersion by reproducing 3D sound fields, with Ambisonics being a widely adopted representation. While Ambisonics is theoretically independent of the recording setup, practical microphone arrays introduce hardware-dependent encoding artifacts. Moreover, existing data-driven solutions lack flexibility, as they are typically restricted to fixed array geometries. To overco...
+
+--- [7] 2608.15296v1 ---
+Title: FMReward: Aligning and Evaluating Audio-Driven 3D Facial Animation with Human Preferences
+Authors: Sijing Wu, Yunhao Li, Zhilin Gao, Huiyu Duan, Yucheng Zhu et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-15
+Summary: Audio-driven 3D facial animation is essential for advancing immersion and interactivity in virtual experiences. Although recent advances have shown promising capabilities, the training and evaluation of existing methods typically rely on ground-truth-based errors, which fall short of aligning with human preferences. To address this, we present a comprehensive framework that learns an automatic per...
+
+--- [8] 2608.15066v1 ---
+Title: ParaJSCC: A Parameterized Framework for Reusable Multimodal Joint Source-Channel Coding
+Authors: Kemi Chen, Mingkai Chen, Youjia Chen, Qian Liu, Wei Gao et al.
+Primary cat: eess.SP | All cats: eess.SP, cs.MM, eess.IV
+Published: 2026-08-15
+Summary: Multimodal signals, such as visual, audio, and tactile data, are increasingly maintained as persistent digital assets in immersive communication systems and digital twins. In these settings, the same multimodal content is repeatedly accessed by heterogeneous receivers with varying modality and bandwidth requirements. Existing compression and Joint Source-Channel Coding (JSCC) methods typically fol...
+
+--- [9] 2608.08349v1 ---
+Title: Dramarrator: Object-Based Audio Editing for Audio Drama Production from Books
+Authors: Karim Benharrak, Oriol Nieto, Bryan Wang, Zeyu Jin, Amy Pavel
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.MM
+Published: 2026-08-08
+Summary: Audio dramas weave dialogue, sound effects, and music into immersive stories. Creators often adapt books into audio dramas, but this process remains labor-intensive, requiring them to interpret source material, author scripts, generate audio assets, and assemble them on a timeline. Because story elements like characters and scenes manifest across many interdependent assets, a single change can rip...
+
+--- [10] 2608.13602v2 ---
+Title: Omni-LiveAvatar: Minute-Level Real-Time Streaming Joint Audio-Video Avatar Generation
+Authors: Lunjie Zhu, Xingtong Ge, Fangyu Lin, Yi Zhang, Zhening Liu et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD
+Published: 2026-08-07
+Summary: Joint audio-video generative models serve as foundation for immersive and interactive digital-human generation. Nevertheless, most existing models rely on bidirectional attention and multi-step denoising and can generate only short clips, making them unsuitable for real-time interaction over extended durations. We present Omni-LiveAvatar, the first framework for minute-level, real-time streaming j...
+
+--- [11] 2608.06102v1 ---
+Title: MultiMoQ: Multi-Access Media-Over-QUIC for Robust Immersive Video Streaming
+Authors: Yitong Li, Xinjiao Li, Ruonan Chai, Dirk Kutscher
+Primary cat: cs.NI | All cats: cs.NI, cs.MM
+Published: 2026-08-06
+Summary: Live immersive video streaming, particularly 360-degree video, is increasingly adopted in applications such as virtual events, sports broadcasting, and remote education. Existing approaches struggle to support high-bitrate immersive streaming for large numbers of concurrent users, with coarse-grained delivery limiting responsiveness and insufficient support for coordinating concurrent tile streams...
+
+--- [12] 2607.25919v1 ---
+Title: Spacing Out: On the Reliability of Binaural Music Source Separation Metrics
+Authors: Richa Namballa, Magdalena Fuentes
+Primary cat: eess.AS | All cats: eess.AS, cs.SD, eess.SP
+Published: 2026-07-28
+Summary: Despite the rising popularity of immersive audio, binaural music remains underexplored in music information retrieval (MIR), particularly regarding the task of music source separation (MSS). While existing stereo MSS models can process binaural audio, they often degrade the spatial quality of the separated stems and undermine listener immersion. Through a perceptual study comparing binaural and st...
+
+--- [13] 2607.23657v1 ---
+Title: GRAPE: Graduated Routing for Articulated Portrait mesh Estimation
+Authors: Yunfei Liu, Lijian Lin, Ye Zhu, Yu Li
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-26
+Summary: Articulated portrait mesh estimation is fundamental to 3D understanding, avatar generation, and immersive interaction. Existing approaches primarily rely on 3D Morphable Models (3DMMs). However, face-centric models suffer from the "floating head" assumption, conflating head pose with global rotation due to the lack of neck kinematics. Conversely, body-centric models lack high-fidelity facial expre...
+
+--- [14] 2607.23023v2 ---
+Title: OmniMate: Open-Ended Real-Time Streaming Audio-Visual Generation for Interactive Avatars
+Authors: Quanyue Song, Yishan He, Yanbo Ding, Zhixiang He, Yongxiang Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-25
+Summary: Recent advances in diffusion-based generative models have enabled real-time audio-driven avatar generation and unified audio-visual synthesis, providing a promising foundation for interactive avatar systems. However, extending unified audio-visual synthesis to real-time interactive streaming remains challenging, as the generation horizon is unknown in advance and the generated identity may drift o...
+
+--- [15] 2607.20835v2 ---
+Title: Sonic Stage: Auto-Generating Interactive Spatial Soundscapes to Facilitate Dialogue Video Comprehension for Blind Viewers
+Authors: Shuchang Xu, Xiaofu Jin, Gaurav Jain, Wenshuo Zhang, Huamin Qu et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-07-23
+Summary: Audio description (AD) makes film and television accessible to blind and low-vision (BLV) audiences by narrating characters' actions. However, in scenes with lots of dialogue, AD often omits important actions because it is constrained not to overlap with speech. It is not yet known how to convey characters' actions during dialogue. We present Sonic Stage, a system that transforms dialogue videos i...
+
+--- [16] 2607.13471v1 ---
+Title: Bring Music The Horizon: Music-Driven 360$^\circ$ Video Generation
+Authors: Kai Hsu Tsai, Yong Wei Fu, Hung I Yang, Yu-Chih Chen
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD, eess.AS, eess.IV
+Published: 2026-07-15
+Summary: Music visualization offers a powerful way to enhance listeners' understanding and experience of music by translating auditory signals into visual forms. However, most existing approaches either rely heavily on lyrics or generate flat, non-immersive videos similar to conventional music videos, which limits their ability to convey the emotional dynamics of music and provide an immersive listening ex...
+
+--- [17] 2607.11364v1 ---
+Title: BackgroundMellow: A Multi-Modal Cohesive Framework for Narrative-Driven Rich Cinematic Soundscape Generation
+Authors: Ajitesh Jamulkar, Aritra Hazra
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.MM
+Published: 2026-07-13
+Summary: Generating immersive, synchronized and cinematic audio for long-form textual narratives remains a significant challenge in multi-modal AI. While current Text-to-Audio (TTA) frameworks successfully synthesize isolated sound effects, they struggle with narrative cohesion, temporal alignment, and cinematic emotional depth. We present BackgroundMellow, a framework that treats story-to-audio generation...
+
+--- [18] 2607.08083v2 ---
+Title: HeadRoom: Lightweight, Edge-deployable Pipeline for Adaptive Notification Routing
+Authors: Dinithi Dissanayake, Prasanth Sasikumar, Suranga Nanayakkara
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-07-09
+Summary: Emerging wearables, such as smart glasses, can deliver notifications through multiple sensory channels, but there is still a limited understanding of how to choose the right channel at the right moment. We propose HeadRoom, a lightweight, edge-deployable pipeline that estimates the availability of visual and auditory channels in real time from egocentric video and audio. Our controlled user study ...
+
+--- [19] 2607.07015v1 ---
+Title: EscFOA: Enhancing Spatial Learning for Visually Impaired Learners via Generative Spatial Audio in 360-Degree Educational Environments
+Authors: Ziyu Luo, Xiaowei Dai, Siying Zhu, Xiaoming Chen
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-08
+Summary: Immersive 360-degree educational environments often lack accessible spatial structure, limiting visually impaired learners' ability to orient, explore, and construct mental representations. This paper proposes EscFOA, a geometry-aware spatial audio generation framework designed as an \emph{acoustic scaffolding} to support spatial cognition. By integrating 3D Gaussian Splatting (3DGS) with conditio...
+
+--- [20] 2606.24661v1 ---
+Title: Perceptual Evaluation of Higher-Order Ambisonic Codecs on Both Synthetic Mixing and Native Recordings
+Authors: Adrien Llave, Grégory Pallone, Jérôme Daniel
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-23
+Summary: Spatial audio is spreading in applications such as virtual and augmented reality and immersive games. The higher-order ambisonic (HOA) format is particularly useful in this context. Transmitting spatial information requires multiple channels, e.g., 16 channels for 3rd-order ambisonics, resulting in increased memory requirements for storage and higher bitrates for communication. Therefore, efficien...
+
+--- [21] 2606.24146v1 ---
+Title: Evaluation of Headrest-Integrated Loudspeakers for Enhanced Spatial Audio Immersion in Automotive Cabins
+Authors: Martin Wolters, Jacobo Giralt, Harald Mundt, Arijit Biswas
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-23
+Summary: Immersive object-based spatial audio is now firmly established in the music industry as the standard for production, distribution, and playback. The number of automobiles integrating such content to provide premium entertainment experiences is steadily increasing, driving the development of new audio rendering techniques. While loudspeakers integrated into automotive headrests have been around for...
+
+--- [22] 2606.20210v1 ---
+Title: Augmenting Game AI with Deep Reinforcement Learning
+Authors: Alessandro Sestini, Joakim Bergdahl, Amir Baghi, Jean-Philippe Barrette-LaPierre, Florian Fuchs et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-18
+Summary: Immersion in video games depends not only on graphics, audio, and game mechanics, but also on the quality of in-game characters. Producing believable characters, or game AI, remains a significant challenge as behavioral complexity is hard to capture with hand-coded systems. Game AI is a source of immersion and engagement; however, the limitations stemming from the challenges of creating game AI of...
+
+--- [23] 2606.17669v1 ---
+Title: DeSRPA: Decoupled Speech Role-Playing Agent via Inference-Time Intervention
+Authors: Wenqiu Tang, Zhen Wan, Takahiro Komamizu, Ichiro Ide
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-16
+Summary: While Large Language Models (LLMs) have revolutionized text-based role-playing, creating immersive Speech Role-Playing Agents (SRPAs) requires a seamless bridge between cognitive reasoning and paralinguistic nuances. Current SRPAs primarily rely on end-to-end (E2E) fine-tuning. However, this paradigm suffers from poor generalization to unseen characters due to its reliance on role-specific data, w...
+
+--- [24] 2606.14784v2 ---
+Title: LLM-Based Synthetic Ground Truth Generation for Audio-Based Emotion Classification via In-Context Learning
+Authors: Qing Huang, Pooja Pol, Jianing Zhang
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-06-10
+Summary: Understanding human states and interaction dynamics is a core goal of human-computer interaction (HCI). As interaction paradigms become more immersive, virtual reality (VR) has emerged as a powerful platform for studying collaborative work. In such settings, evaluating team collaboration states, including team performance and team resilience, requires continuous and reliable inference of latent te...
+
+--- [25] 2608.09940v1 ---
+Title: The impact of design factors of virtual and augmented reality on tertiary students user experience in Metaverse
+Authors: Julius G. Garcia, Alvie Simonette Q. Alip
+Primary cat: cs.HC | All cats: cs.HC, cs.CY, cs.ET
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aimmersive+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Published: 2026-06-09
+Summary: The Metaverse is a convergent space integrating virtual reality (VR) and augmented reality (AR) technologies, with market projections rising from \$65.5 billion in 2022 to \$1.3 trillion by 2030. Despite rapid adoption in education, the specific contributions of visual elements, environmental design, and communication features to user experience (UX) remain underexplored, limiting evidence-based d...
+

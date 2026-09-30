@@ -1,0 +1,142 @@
+--- [1] 2609.04550v1 ---
+Title: VISTA: Dense Multi-Label Classroom Coding with Vision-Language Models
+Authors: Andrew Franck, Brendan Ng, Ben Fitzgerald, Zane Derrod, Chris Cianci et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-03
+Summary: Video-language benchmarks are usually constructed by the dataset authors without published reliability statistics, leaving the noise floor of the construct unknown. We argue that multimodal benchmarking benefits from methods taken from research communities that have already invested in strategies to ensure reliability. We illustrate the case with the Classroom Observation Protocol for Undergraduat...
+
+--- [2] 2608.27674v1 ---
+Title: Not all generalisation failures can be bought back: four boundaries in affective audio modelling
+Authors: Jingyi Zhang, Xiaotong Yao
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-27
+Summary: Models mapping acoustic properties onto affective response underpin applications from music recommendation to sound design, yet are evaluated almost entirely within the corpus they were fitted on. When one fails outside it, the standard response -- more data, or a larger model -- assumes every failure is a shortage of resources. We show it is not, and that the alternative calls for the opposite re...
+
+--- [3] 2608.27110v1 ---
+Title: DocTalkBN: A Novel Dataset of Expert Telemedicine Conversations in Bengali
+Authors: Anik Saha, Fahmida Sultana Naznin, Sadatul Islam Sadi, Ananya Shahrin Promi, Wahid Al Azad Navid et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-27
+Summary: Reliable medical conversational AI requires authentic expert--patient interaction data, yet such datasets remain scarce, especially for low-resource languages such as Bengali. We present DocTalkBN, a large-scale multimodal dataset of real-world expert telemedicine conversations in Bengali, collected from nationally broadcast telemedicine programs featuring board-certified physicians. DocTalkBN con...
+
+--- [4] 2608.09792v1 ---
+Title: Comparing British and American Audio Description of Movies
+Authors: Igor Sterner, Alex Lascarides, Frank Keller
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-10
+Summary: Narrating the visual component of movies is known as audio description. It is a narrative technique designed to enable blind and visually impaired individuals to follow the story. However, it is far more constrained than most narratives: the descriptions not only need to convey the story in the movie, but they must also fit into gaps between dialogue and they need to conform to guidelines that exi...
+
+--- [5] 2608.09288v1 ---
+Title: DAVE: A Decoupled Audio-Visual Enhancement Framework for Real-World Speech Separation
+Authors: Wei Zhou, Wanyi Ning, Yinshang Guo, Qianxiao Fang, Haitao Qian et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-10
+Summary: Audio-visual speech enhancement under real-world conditions remains challenging due to unreliable visual inputs and the lack of large-scale training data with realistic acoustic conditions. Existing approaches usually fuse visual features directly into the separation network, making them vulnerable to degraded visual signals. In this paper, we present DAVE, a decoupled audio-visual enhancement fra...
+
+--- [6] 2608.09158v1 ---
+Title: From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs
+Authors: Yuanhe Zhang, Weiliu Wang, Jie Ren, Liang Lin, Zhenhong Zhou et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-10
+Summary: Large audio-language models (LALMs) have demonstrated strong capabilities in understanding diverse audio inputs. This diversity includes low-frequency signals that are inaudible to humans but can still enter the model and influence its generation. However, the practical impact of such low-frequency inputs on LALMs remains largely unexplored. In this paper, we propose Intermittent Low-Frequency Loc...
+
+--- [7] 2608.05663v2 ---
+Title: Vorch-Streamer: Extending Human Audio-Visual Generation to Real-Time Long-Form Streaming
+Authors: Menglin Han, Yang Ding, Yulei Lu, Haoran Yu, Xin Ma et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-08-06
+Summary: Real-time long-form avatar audio-video generation requires causal, continuous synthesis while maintaining audiovisual synchronization and visual consistency. Adapting a pretrained bidirectional model to this setting presents two key dilemmas. First, autoregressively reusing generated blocks as context creates exposure bias, causing errors and visual drift to accumulate over long rollouts. Second, ...
+
+--- [8] 2608.01881v1 ---
+Title: Hear, Invoke, and Understand: A Skill-Calling Multimodal Agent for Large Audio Language Models
+Authors: Yuwen Wang, Tian-Hao Zhang, Minghao Cai, Yilin Ren, Ziyang Jiang et al.
+Primary cat: cs.MM | All cats: cs.MM, cs.AI
+Published: 2026-08-03
+Summary: Complex acoustic problems may require models to perform acoustic operations, interact with external tools and reason over the resulting textual or processed-audio observations rather than answer directly from a fixed audio input. We study such problems as tool-interactive audio reasoning and develop SpeechAgent-R, an audio agent that coordinates its intrinsic multimodal understanding with external...
+
+--- [9] 2607.21550v1 ---
+Title: X$^3$-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment
+Authors: Dongjie Fu, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia et al.
+Primary cat: cs.LG | All cats: cs.LG
+Published: 2026-07-23
+Summary: While large audio-language models have achieved remarkable progress in auditory perception, they still lag behind text-based large language models in deep logical reasoning, primarily due to the scarcity of high-quality audio reasoning data. To bridge this gap, we propose X$^3$-OPD, a cross-modal on-policy distillation framework that transfers reasoning capabilities from a powerful text teacher to...
+
+--- [10] 2607.12820v1 ---
+Title: AVSCap: Orchestrating Audio-Visual Synergy for Omni-modal Video Captioning
+Authors: Yanghai Wang, Jiahao Wang, Jiafu Tang, Yuanxing Zhang, Zhe Cao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-14
+Summary: Omni-modal video captioning is not merely combining visual captioning with audio transcription: a useful caption must describe how visual actions, speech, music, and sound effects co-evolve. Existing large multimodal models often fail at this relational step, treating audio and visual streams as loosely coupled observations, relying on automatic speech recognition, and under-specifying non-speech ...
+
+--- [11] 2607.08111v1 ---
+Title: PS4: Proxy-Supervised Joint Training for Real Target Speaker Extraction
+Authors: Wanyi Ning, Wei Zhou, Yingpeng Li, Yinshang Guo, Haitao Qian et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-07-09
+Summary: Training target speaker extraction (TSE) models for real conversational mixtures remains challenging because large-scale training corpora and clean target speech for supervision are unavailable. We present PS4, a proxy-supervised training framework for TSE in real conversational mixtures, with two main contributions. First, we construct a large-scale corpus of 71,771 training samples derived from ...
+
+--- [12] 2607.04941v1 ---
+Title: DuplexChat: Constructing Speaker-Separated Full-Duplex Dialogue Speech at Scale for Spoken Dialogue Language Modeling
+Authors: Wataru Nakata, Yuki Saito, Hiroshi Saruwatari
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-07-06
+Summary: Full-duplex spoken dialogue models are trained on conversational speech in which each speaker is represented as a separate stream, but existing large-scale public speech corpora are mostly monaural, making them unsuited for SDLM training. We present DuplexChat, an open-source corpus for full-duplex spoken dialogue models, and DuplexChat-Pipe, a pipeline for constructing speaker-separated full-dupl...
+
+--- [13] 2607.03700v1 ---
+Title: Content Hidden Behind Execution: Analyzing Public Scratch Projects at Runtime
+Authors: Yuan Si, Yufeng Lin, Daming Li, Hanyuan Shi, Yang Shi et al.
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Acorpus+AND+abs%3Aconstruction&max_results=20&sortBy=submittedDate&sortOrder=descending
+Primary cat: cs.CY | All cats: cs.CY, cs.SE
+Published: 2026-07-04
+Summary: Public Scratch projects are reused in computing education as classroom examples, remix sources, open-exploration materials, and research data. Curation often begins with titles, thumbnails, descriptions, tags, and remix links, but Scratch projects are executable learning artifacts. Content affecting age appropriateness can appear only after execution, gameplay progression, a failure state, user in...
+
+--- [14] 2608.20387v1 ---
+Title: Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions
+Authors: Junhui Zhang, Qianhui Xu, Qingxiang Guo, Dawei Yang, Ling Miao et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-30
+Summary: While recent text-to-speech (TTS) models achieve high naturalness, controlling fine-grained expression via natural-language instructions remains challenging. We introduce Poly- InstructTTS, which learns expressive speech from open-ended instructions using in-the-wild audiovisual data. We build a scalable multi-modal pipeline to construct a 1,000-hour instruction-annotated corpus covering 1,000+ fi...
+
+--- [15] 2606.31186v1 ---
+Title: Gated Multi-Graph Fusion via Graph Attention Networks for Alzheimer's Disease Detection
+Authors: Jinyu Li, Xiao Wei, Bin Wen, Kai Li, Yuqin Lin et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-30
+Summary: Spontaneous speech is a vital non-invasive biomarker for Alzheimer's Disease (AD), yet many systems overlook non-linear structural disruptions and clinical heterogeneity in pathological language. We propose a Multi-View Gated Graph Attention Network that transcribes audio via Automatic Speech Recognition (ASR) to construct semantic, dependency, and co-occurrence graphs, characterizing speech throu...
+
+--- [16] 2606.17542v1 ---
+Title: Evaluating Large Language Models Abilities for Addressee, Turn-change, and Next Speaker Prediction in Meetings
+Authors: Ryo Fukuda, Takatomo Kano, Siddhant Arora, Marc Delcroix, Naohiro Tawara et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-06-16
+Summary: We investigate turn-taking in multimodal multi-party conversations using large language models (LLMs). We construct an evaluation framework for three tasks: addressee detection, turn-change prediction, and next speaker prediction. We compare supervised models trained for these tasks, text-based LLMs, multimodal LLMs (MM-LLMs), and human subjects. Experiments on the AMI corpus showed that LLMs outp...
+
+--- [17] 2606.14591v2 ---
+Title: AudioDER: A Deduplication-Enhanced Reasoning Dataset for Post-Training Large Audio-Language Models
+Authors: Hui Geng, Yi Su, Zijian Gao, Tianjiao Wan, Qisheng Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-12
+Summary: Recent advances in pretrained large audio-language models (LALMs) have demonstrated strong capabilities across speech, sound, and music. To adapt these models to downstream tasks without the cost of pretraining from scratch, post-training has become a widely adopted paradigm. However, the effectiveness of post-training depends critically on the quality of the training corpus. We observe that exist...
+
+--- [18] 2606.05121v2 ---
+Title: Audio Interaction Model
+Authors: Zhifei Xie, Zihang Liu, Ze An, Xiaobin Hu, Yue Liao et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.MM, eess.AS
+Published: 2026-06-03
+Summary: Audio is continuous and interactive, yet most Large Audio Language Models (LALMs) remain offline and streaming systems usually specialize in ASR or spoken dialogue. We formalize the Audio Interaction Model, an always-on perceive--decide--respond paradigm that tracks context, decides whether intervention is warranted, and responds without stopping listening. We instantiate it with Audio-Interaction...
+
+--- [19] 2606.03116v1 ---
+Title: AnyAudio-Judge: A Dynamic Rubric-Based Benchmark and Evaluator for Audio Instruction Following
+Authors: Haitao Li, Tian Tan, Yuguang Yang, Shan Yang, Xie Chen
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2026-06-02
+Summary: The rapid advancement of instruction-guided audio generation has highlighted the critical need for robust alignment evaluation. Current automated evaluation methods heavily rely on holistic scoring from general-purpose large language models, which struggle to decouple complex instructions, lack interpretability, and fail to capture fine-grained attribute mismatches. To address this, we introduce a...
+
+--- [20] 2605.12036v2 ---
+Title: Towards Fine-Grained Multi-Dimensional Speech Understanding: Data Pipeline, Benchmark, and Model
+Authors: Guojian Li, Zhixian Zhao, Zhennan Lin, Jingbin Hu, Qirui Zhan et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-12
+Summary: While speech Large Language Models (LLMs) excel at conventional tasks like basic speech recognition, they lack fine-grained, multi-dimensional perception. This deficiency is evident in their struggle to disentangle complex features like micro-acoustic cues, acoustic scenes, and paralinguistic signals. This resulting incomplete comprehension of real-world speech fundamentally bottlenecks the develo...
+

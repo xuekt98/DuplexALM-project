@@ -1,0 +1,30 @@
+# Total entries: 4
+# URL: https://export.arxiv.org/api/query?search_query=abs%3A%22audio%22+AND+abs%3A%22pre-training%22+AND+abs%3A%222026%22&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2607.16369v1 ---
+Title: Component-Level Ensemble Fusion for Speech and Environmental Sound Deepfake Detection
+Authors: André Runewicz, Karla Schäfer, Martin Steinebach
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-07-17
+Summary: This paper describes our submission to the ICME 2026 ESDD2 challenge on environment-aware speech and sound deepfake detection. The task requires five-class classification of audio clips in which speech, environmental sound, both components, or neither component may be spoofed. We propose a component-level ensemble system based on four publicly available pre-trained anti-spoofing models: XLSR-Mamba...
+
+--- [2] 2607.05623v3 ---
+Title: NAVER LABS System Re-implementation for the IWSLT 2026 Instruction-Following Task
+Authors: Anand Kamble, Aniket Tathe
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-06
+Summary: We re-implement the NAVER LABS IWSLT 2025 instruction-following pipeline for the IWSLT 2026 Shared Task (constrained condition, short audio track), adapting it to the mandated components: SeamlessM4T-v2-large as the speech encoder and Qwen3-4B-Instruct as the LLM backbone. The three-stage approach projector alignment, text-only LoRA pre-training, and multimodal merging is preserved from the origin...
+
+--- [3] 2606.26556v1 ---
+Title: WQ-Fusion: Dynamic Gated Attention for Cross-Domain Audio Representation
+Authors: Mingda Lin, Lei Ding, Xinyue Zhou, Tiantian Xiong, Hanchen Pei et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2026-06-25
+Summary: While pre-trained models excel in specialized tasks, learning universal representations across diverse acoustic domains remains challenging. To address this, we propose WQ-Fusion, a robust dual-encoder framework for cross-domain audio representation learning. Overcoming the limitations of static concatenation, WQ-Fusion integrates whisper and qwen via an Adaptive Feature Modulation module and a no...
+
+--- [4] 2603.22728v1 ---
+Title: The Interspeech 2026 Audio Encoder Capability Challenge for Large Audio Language Models
+Authors: Heinrich Dinkel, Jiahao Zhou, Guanbo Wang, Yadong Niu, Junbo Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-03-24
+Summary: This paper presents the Interspeech 2026 Audio Encoder Capability Challenge, a benchmark specifically designed to evaluate and advance the performance of pre-trained audio encoders as front-end modules for Large Audio Language Models (LALMs). While LALMs have shown remarkable understanding of complex acoustic scenes, their performance depends on the semantic richness of the underlying audio encode...
+

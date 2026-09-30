@@ -1,0 +1,177 @@
+--- [1] 2609.08542v1 ---
+Title: Spatial Audio Coding Through Relative Room Impulse Response Estimation
+Authors: Nour Bouayed, Adrien Llave, Jérôme Daniel, Pascal Scalart
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate ...
+
+--- [2] 2609.04975v2 ---
+Title: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing
+Authors: Ke Lei, Chenyuhao Wen, Yu Zhang, Wenxiang Guo, Changhao Pan et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-04
+Summary: Spatial audio editing modifies an existing soundfield according to a user's instruction while preserving the rest of the scene. Unlike conventional audio editing, it must reason jointly about audio events, spatial information, dynamic changes, and environmental information in first-order Ambisonic (FOA) waveforms. Existing language-guided editors mainly target conventional audio or rely on sequent...
+
+--- [3] 2608.29549v1 ---
+Title: PhysWave: Physics-Guided Latent Diffusion Models for Controllable Spatial Audio Generation
+Authors: Lingfeng Yao, Chenpei Huang, Xingke Yang, Ziye Geng, Changqing Luo et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM
+Published: 2026-08-30
+Summary: Text-to-spatial audio generation, such as text-to-First-Order Ambisonics (FOA), provides a convenient way to create spatial audio for billion-dollar gaming and film industries. However, existing text-to-FOA methods are largely data-driven and may produce audio that violates acoustic relations between source direction and distance. They also separate descriptive and parametric control, forcing user...
+
+--- [4] 2608.24579v1 ---
+Title: Visually-Guided Spatial Audio Generation for $360^\circ$ In-the-Wild Speech Scenes
+Authors: Qingyu Luo, Peng Zhang, Wenwu Wang, Philip J. B. Jackson
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-08-25
+Summary: Spatial audio is a key component of immersive $360^\circ$ media, yet high-quality spatial capture remains limited in real-world speech-dominant scenes. We study visually guided First-Order Ambisonics (FOA) speech spatialization in the wild: given aligned $360^\circ$ video and an omnidirectional audio track, we recover the missing directional FOA components. To support this task, we introduce YT-SP...
+
+--- [5] 2608.24558v3 ---
+Title: Array-Agnostic Ambisonics Encoding via Diffusion Posterior Sampling
+Authors: Amit Milstein, Nir Shlezinger, Boaz Rafaely
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-25
+Summary: Spatial audio enhances user immersion by reproducing 3D sound fields, with Ambisonics being a widely adopted representation. While Ambisonics is theoretically independent of the recording setup, practical microphone arrays introduce hardware-dependent encoding artifacts. Moreover, existing data-driven solutions lack flexibility, as they are typically restricted to fixed array geometries. To overco...
+
+--- [6] 2608.16240v1 ---
+Title: Geometry-adaptive Ambisonic encoding for sparse microphone arrays of variable topology using physics-informed diffusion
+Authors: Xiang Zhou, Zhengqiao Zhao, Zhengding Luo, Wen Zhang
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-17
+Summary: Ambisonics delivers compact scene based spatial audio representation, yet higher order Ambisonic encoding poses difficulties for wearables and embedded hardware. Their microphone arrays are often sparse, irregular, and constrained by device specific boundary conditions. These factors make the spherical-harmonic (SH) domain encoding ill conditioned: inverse filtering amplifies noise, while determin...
+
+--- [7] 2608.14097v2 ---
+Title: Ambisonics Encoding of Room Impulse Responses using a Device-Agnostic Diffusion Model
+Authors: Eloi Moliner, Christoph Hold, Juan Azcarreta Ortiz, Sebastian Prepelita, Ishwarya Ananthabhotla et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-08-14
+Summary: We address the problem of encoding room impulse responses (RIRs) into high-order Ambisonics (HOA) representations from arbitrary and potentially insufficient or incomplete microphone array measurements. This task is fundamentally ill-posed for microphone arrays with limited spatial capture capabilities, such as irregular or sparse arrays, as classical linear methods fail to reconstruct high-order ...
+
+--- [8] 2608.09435v1 ---
+Title: Listen, See and Track: Spatio-Temporal Audio-Visual Sound Event Reasoning for Omni-Modal Language Models
+Authors: Zhi Zeng, Cheng Zhang, Zesheng Yang, Rendong Pi, Jiaying Wu et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-10
+Summary: Understanding dynamic sound sources requires jointly determining what produces a sound, where the source is located, and how it moves over time. Yet existing audio-language models often represent clips as global acoustic events, while vision-language models lack the spatial audio cues needed to localize and track individual sources. To evaluate this missing capability, we introduce ST-OmniQA, a sp...
+
+--- [9] 2607.27775v2 ---
+Title: RIPPLE: Generating Multi-Channel Phase, Not Recovering It
+Authors: Jaehyuk Lee, Yeajin Lee, Dayeon Shin, Donghun Lee
+Primary cat: cs.LG | All cats: cs.LG, cs.SD
+Published: 2026-07-30
+Summary: Generative models synthesize magnitude spectra with high fidelity, while phase is delegated to a recovery module---Griffin--Lim, a vocoder, or a latent decoder---applied independently to each channel. For multi-channel waveforms this delegation is costly: the physical content of spatial audio and three-component seismograms lives in the phase relationships between channels, precisely what channel-...
+
+--- [10] 2607.04471v1 ---
+Title: Weakly Guided and Autoregressive Beamformer Parameterization for Generalizable Moving Speaker Extraction in Higher-Order Ambisonics
+Authors: Jakob Kienegger, Tal Peer, Sina Khanagha, Timo Gerkmann
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2026-07-05
+Summary: Linear spatial filters (beamformers) enable robust, generalizable and interpretable speech enhancement with performance guarantees under ideal parameterization. Modern beamformers are often parameterized by deep neural networks, whose performance degrades in dynamic scenarios with multiple moving speakers of unknown directions. We propose a data-driven beamforming pipeline, which only requires an ...
+
+--- [11] 2607.00548v1 ---
+Title: AmbiDrop: Ambisonics-Based Array-Agnostic Neural Speech Enhancement
+Authors: Michael Tatarjitzky, Vladimir Tourbabin, Boaz Rafaely
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-07-01
+Summary: Multichannel Deep Neural Networks (DNNs) have significantly improved speech enhancement performance; however, they typically remain constrained by reliance on fixed microphone array geometries, leading to poor generalization on unseen or irregular configurations. Current array-agnostic approaches often rely on high-complexity architectures or massive, diverse datasets, yet they still struggle to g...
+
+--- [12] 2606.27751v1 ---
+Title: From General-Purpose Audio Tagging to Spatially Grounded Sound Event Localization and Detection
+Authors: Stefano Giacomelli, Stefano Damiano, Claudia Rinaldi, Fabio Graziosi, Toon van Waterschoot
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-26
+Summary: This report investigates the extension of pretrained General-Purpose Audio Tagging (GP-AT) models toward spatially grounded Sound Event Localization and Detection (SELD). The proposed AT2SELD framework couples a pretrained AT backbone with compact First-Order Ambisonics (FOA) spatial processing, track-wise SED and Cartesian DOA estimation, permutation aware supervision, and calibration. It charact...
+
+--- [13] 2606.24661v1 ---
+Title: Perceptual Evaluation of Higher-Order Ambisonic Codecs on Both Synthetic Mixing and Native Recordings
+Authors: Adrien Llave, Grégory Pallone, Jérôme Daniel
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-23
+Summary: Spatial audio is spreading in applications such as virtual and augmented reality and immersive games. The higher-order ambisonic (HOA) format is particularly useful in this context. Transmitting spatial information requires multiple channels, e.g., 16 channels for 3rd-order ambisonics, resulting in increased memory requirements for storage and higher bitrates for communication. Therefore, efficien...
+
+--- [14] 2606.18480v1 ---
+Title: Generalised Transcoding Framework for Arbitrary Spatial Audio Capture and Playback Formats
+Authors: Archontis Politis, Janani Fernandez, Leo McCormack
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-16
+Summary: This article introduces a unified framework for the parametric analysis and reproduction of spatial sound scenes captured either as Ambisonic signals or as raw microphone array signals. The proposed method estimates time-frequency-dependent spatial metadata that characterises a variable number of primary source components and an ambience component with its own angular power distribution, whose par...
+
+--- [15] 2606.14141v1 ---
+Title: Spatio-Temporal Audio Language Modeling for Dynamic Sound Sources
+Authors: Oh Hyun-Bin, Kazuki Shimada, Yuhta Takida, Kim Sung-Bin, Toshimitsu Uesaka et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-06-12
+Summary: Sound events are entities with semantic identities, locations, and trajectories, but current audio-language models usually reason about clips as global event content. Conversely, sound event localization models track source directions over time but offer limited semantic coverage for language reasoning. To address this gap, we introduce ST-AudioQA, a spatio-temporal audio QA dataset and benchmark ...
+
+--- [16] 2606.11581v1 ---
+Title: Sensitivity Analysis of Generative Spatial Audio Metrics: A Study on Responsiveness, Smoothness, and Symmetry
+Authors: Purnima Kamath, Adrian S. Roman, Koichi Saito, Yuki Mitsufuji, Juan P. Bello
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-06-10
+Summary: Evaluating generative spatial audio for First-Order Ambisonics (FOA) remains challenging due to a limited understanding of how metrics respond to changes in spatial parameters such as azimuth and elevation. We propose a framework to analyze metric sensitivity along continuous spatial trajectories, drawing on principles of sensitivity analysis in parametric sound synthesis. Using controlled FOA sce...
+
+--- [17] 2606.10738v2 ---
+Title: Spatial-Omni: Spatial Audio Understanding Integration in Multimodal LLMs via FOA Encoding
+Authors: Zhiyuan Zhu, Yixuan Chen, Yiwen Shao, Wenxiang Guo, Changhao Pan et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-06-09
+Summary: Recent multimodal large language models mainly process audio as monaural signals, thereby discarding the spatial cues contained in spatial audio for sound localization, spatial relation reasoning, and spatial scene understanding. We propose Spatial-Omni, a lightweight method that implements SO-Encoder to inject First-Order Ambisonics (FOA) spatial audio into existing Omni LLMs as an independent mo...
+
+--- [18] 2606.04584v1 ---
+Title: SHB-AE: Spherical harmonic beamforming based Ambisonics encoding and upscaling method for smartphone microphone array
+Authors: Yuhuan You, Yufan Qian, Tianshu Qu, Bin Wang, Xueyang Lv
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-03
+Summary: With the rapid development of virtual reality (VR) and augmented reality (AR), spatial audio recording and reproduction have gained increasing research interest. Higher Order Ambisonics (HOA) stands out for its adaptability to various playback devices and its ability to integrate head orientation. However, current HOA recordings often rely on bulky spherical microphone arrays (SMA), and portable d...
+
+--- [19] 2606.04570v1 ---
+Title: Flow-HOA: Generative Joint Optimization for Ambisonics Encoding via Flow Matching
+Authors: Yuhuan You, Yufan Qian, Tianshu Qu, Bin Wang, Xueyang Lv
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-06-03
+Summary: Higher-Order Ambisonics (HOA) encoding from sparse, irregular microphone arrays remains a critical challenge for consumer spatial audio capture in immersive communication and XR. We propose Flow-HOA, a generative framework that jointly optimizes a multi-dimensional objective encompassing time-domain, spectral, and spatial fidelity while producing a deployable, time-invariant bank of Finite Impulse...
+
+--- [20] 2604.02781v2 ---
+Title: DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos
+Authors: Ziyu Luo, Lin Chen, Qiang Qu, Xiaoming Chen, Yiran Shen
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-04-03
+Summary: Spatial audio is crucial for immersive 360-degree video experiences, yet most 360-degree videos lack it due to the difficulty of capturing spatial audio during recording. Automatically generating spatial audio such as first-order ambisonics (FOA) from video therefore remains an important but challenging problem. In complex scenes, sound perception depends not only on sound source locations but als...
+
+--- [21] 2603.28757v1 ---
+Title: SonoWorld: From One Image to a 3D Audio-Visual Scene
+Authors: Derong Jin, Xiyi Chen, Ming C. Lin, Ruohan Gao
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-03-30
+Summary: Tremendous progress in visual scene generation now turns a single image into an explorable 3D world, yet immersion remains incomplete without sound. We introduce Image2AVScene, the task of generating a 3D audio-visual scene from a single image, and present SonoWorld, the first framework to tackle this challenge. From one image, our pipeline outpaints a 360° panorama, lifts it into a navigable 3D s...
+
+--- [22] 2603.27342v1 ---
+Title: SHroom: A Python Framework for Ambisonics Room Acoustics Simulation and Binaural Rendering
+Authors: Yhonatan Gayer
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2026-03-28
+Summary: Spherical Harmonics ROOM), an open-source Python library for room acoustics simulation using Ambisonics, available at https://github.com/Yhonatangayer/shroom and installable via \texttt{pip install pyshroom}. \textbf{shroom} projects image-source contributions onto a Spherical Harmonics (SH) basis, yielding a composable pipeline for binaural decoding, spherical array simulation, and real-time head...
+
+--- [23] 2603.22589v1 ---
+Title: Velocity Potential Neural Field for Efficient Ambisonics Impulse Response Modeling
+Authors: Yoshiki Masuyama, Francois G. Germain, Gordon Wichern, Chiori Hori, Jonathan Le Roux
+Primary cat: cs.SD | All cats: cs.SD, eess.AS, eess.SP
+Published: 2026-03-23
+Summary: First-order Ambisonics (FOA) is a standard spatial audio format based on spherical harmonic decomposition. Its zeroth- and first-order components capture the sound pressure and particle velocity, respectively. Recently, physics-informed neural networks have been applied to the spatial interpolation of FOA signals, regularizing the network outputs based on soft penalty terms derived from physical p...
+
+--- [24] 2602.18527v3 ---
+Title: JAEGER: Joint 3D Audio-Visual Grounding and Reasoning in Simulated Physical Environments
+Authors: Zhan Liu, Changli Tang, Yuxin Wang, Zhiyuan Zhu, Youjun Chen et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.SD
+Published: 2026-02-20
+Summary: Current audio-visual large language models (AV-LLMs) are predominantly restricted to 2D perception, relying on RGB video and monaural audio. This design choice introduces a fundamental dimensionality mismatch that precludes reliable source localization and spatial reasoning in complex 3D environments. We address this limitation by presenting JAEGER, a framework that extends AV-LLMs to 3D space, to...
+
+--- [25] 2602.17732v1 ---
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aambisonic&max_results=25&sortBy=submittedDate&sortOrder=descending
+Title: SIRUP: A diffusion-based virtual upmixer of steering vectors for highly-directive spatialization with first-order ambisonics
+Authors: Emilio Picard, Diego Di Carlo, Aditya Arie Nugraha, Mathieu Fontaine, Kazuyoshi Yoshii
+Primary cat: eess.AS | All cats: eess.AS, cs.SD, eess.SP
+Published: 2026-02-18
+Summary: This paper presents virtual upmixing of steering vectors captured by a fewer-channel spherical microphone array. This challenge has conventionally been addressed by recovering the directions and signals of sound sources from first-order ambisonics (FOA) data, and then rendering the higher-order ambisonics (HOA) data using a physics-based acoustic simulator. This approach, however, struggles to han...
+

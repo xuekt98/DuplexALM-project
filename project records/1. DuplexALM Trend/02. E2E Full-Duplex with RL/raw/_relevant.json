@@ -1,0 +1,71 @@
+[
+  {
+    "arxiv_id": "2609.12623v1",
+    "title": "SteerDuplex: Steerable Duplex Speech Dialogue Models",
+    "published": "2026-09-11",
+    "summary": "Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in response to user instructions. We introduce a taxonomy of text- and audio-based steerability that ident",
+    "primary_cat": "cs.AI | All cats: cs.AI, cs.CL",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + duplex-speech",
+      "E2E + RL + full-duplex",
+      "RL + audio dialogue",
+      "RL + barge-in",
+      "RL + turn-taking",
+      "Reward + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2607.07148v1",
+    "title": "Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning",
+    "published": "2026-07-08",
+    "summary": "Recent full-duplex spoken dialogue models have demonstrated compelling progress toward human-like interaction, enabling agents to respond with low latency, produce backchannels, and handle user barge-ins. Yet these improvements in conversational dynamics often come with weaker reasoning and instruction-following abilities, revealing a potential tension between interactive dynamics and intelligence",
+    "primary_cat": "eess.AS | All cats: eess.AS",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex",
+      "E2E + RL + spoken",
+      "GRPO + duplex",
+      "RL + barge-in",
+      "RL + turn-taking"
+    ]
+  },
+  {
+    "arxiv_id": "2604.14920v1",
+    "title": "Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models",
+    "published": "2026-04-16",
+    "summary": "Achieving seamless, human-like interaction remains a key challenge for full-duplex spoken dialogue models (SDMs). Reinforcement learning (RL) has substantially enhanced text- and vision-language models, while well-designed reward signals are crucial for the performance of RL. We consider RL a promising strategy to address the key challenge for SDMs. However, a fundamental barrier persists: prevail",
+    "primary_cat": "cs.AI | All cats: cs.AI",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + full-duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2604.10065v1",
+    "title": "ASPIRin: Action Space Projection for Interactivity-Optimized Reinforcement Learning in Full-Duplex Speech Language Models",
+    "published": "2026-04-11",
+    "summary": "End-to-end full-duplex Speech Language Models (SLMs) require precise turn-taking for natural interaction. However, optimizing temporal dynamics via standard raw-token reinforcement learning (RL) degrades semantic quality, causing severe generative collapse and repetition. We propose ASPIRin, an interactivity-optimized RL framework that explicitly decouples when to speak from what to say. Using Act",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI, cs.SD, eess.AS",
+    "directions": [
+      "E2E + RL + duplex",
+      "E2E + RL + duplex-speech",
+      "E2E + RL + full-duplex",
+      "E2E + RL + speech-LLM",
+      "E2E + duplex",
+      "GRPO + duplex",
+      "RL + turn-taking",
+      "Reward + duplex"
+    ]
+  },
+  {
+    "arxiv_id": "2603.09180v1",
+    "title": "DuplexCascade: Full-Duplex Speech-to-Speech Dialogue with VAD-Free Cascaded ASR-LLM-TTS Pipeline and Micro-Turn Optimization",
+    "published": "2026-03-10",
+    "summary": "Spoken dialog systems with cascaded ASR-LLM-TTS modules retain strong LLM intelligence, but VAD segmentation often forces half-duplex turns and brittle control. On the other hand, VAD-free end-to-end model support full-duplex interaction but is hard to maintain conversational intelligence. In this paper, we present DuplexCascade, a VAD-free cascaded streaming pipeline for full-duplex speech-to-spe",
+    "primary_cat": "cs.CL | All cats: cs.CL, cs.AI",
+    "directions": [
+      "E2E + duplex"
+    ]
+  }
+]

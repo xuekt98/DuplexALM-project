@@ -1,0 +1,30 @@
+# Total entries: 4
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Aeval+AND+abs%3Areliability&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2608.16539v1 ---
+Title: Listen, Reason, and Segment: Aligning LALMs with Editorial Judgment for Media Chapterization
+Authors: Tony Alex, Wish Suharitdamrong, Sara Atito, Armin Mustafa, Muhammad Awais et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-08-17
+Summary: Large Audio Language Models (LALMs) have made rapid progress on standardized benchmarks, yet their deployment in practical media workflows, curation, archival indexing, and content distribution remains largely unrealized. We identify automated audio chapterization, the task of segmenting continuous audio streams into thematically coherent chapters, as a demanding and commercially consequential set...
+
+--- [2] 2603.29263v1 ---
+Title: Audio Hallucination Attacks: Probing the Reliability of Large Audio Language Models
+Authors: Ashish Seth, Sonal Kumar, Ramaneswaran Selvakumar, Nishit Anand, Utkarsh Tyagi et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-03-31
+Summary: Large Audio Language Models (LALMs) achieve strong performance on audio-language tasks; however, their reliability in real-world settings remains underexplored. We introduce Audio Hallucination Attacks (AHA), an attack suite called AHA-Eval, comprising 6.5K QA pairs designed to test whether LALMs genuinely ground their responses in the audio input. AHA targets two attack surfaces: (i) query-based ...
+
+--- [3] 2507.11427v1 ---
+Title: Towards Reliable Objective Evaluation Metrics for Generative Singing Voice Separation Models
+Authors: Paul A. Bereuter, Benjamin Stahl, Mark D. Plumbley, Alois Sontacchi
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2025-07-15
+Summary: Traditional Blind Source Separation Evaluation (BSS-Eval) metrics were originally designed to evaluate linear audio source separation models based on methods such as time-frequency masking. However, recent generative models may introduce nonlinear relationships between the separated and reference signals, limiting the reliability of these metrics for objective evaluation. To address this issue, we...
+
+--- [4] 2109.09929v1 ---
+Title: A Unified Approach of Detecting Misleading Images via Tracing its Instances on Web and Analysing its Past Context for the Verification of Content
+Authors: Deepika Varshney, Dinesh Kumar Vishwakarma
+Primary cat: cs.SI | All cats: cs.SI
+Published: 2021-09-21
+Summary: The verification of multimedia content over social media is one of the challenging and crucial issues in the current scenario and gaining prominence in an age where user-generated content and online social web platforms are the leading sources in shaping and propagating news stories. As these sources allow users to share their opinions without restriction, opportunistic users often post misleading...
+

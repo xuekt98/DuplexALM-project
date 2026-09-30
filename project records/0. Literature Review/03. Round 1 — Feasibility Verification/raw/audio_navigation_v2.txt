@@ -1,0 +1,177 @@
+--- [1] 2609.06837v1 ---
+Title: BinauralVAE: Spatial Audio Reconstruction For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-06
+Summary: Embodied artificial intelligence has historically very much relied on visual perception, leading to a proliferation of multiple vision-centric world models. However, this reliance fails to capture spatial understanding in its entirety and can even present vulnerabilities in environments with visual occlusions, low-light conditions, or blackouts-scenarios, where acoustic information becomes a criti...
+
+--- [2] 2608.29073v1 ---
+Title: Revolutionizing Turn-by-Turn Navigation with Cloud-Edge Deep Learning
+Authors: Yiming Yang, Hao Fu, Fanxiang Zeng, Xikai Yang, Yue Liu et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-08-29
+Summary: Turn-by-turn (TBT) navigation systems are integral to modern driving experiences, providing real-time audio instructions to guide drivers safely to destinations. However, existing audio instruction policy often relies on rule-based approaches that struggle to balance informational content with cognitive load, potentially leading to driver confusion or missed turns in complex environments. To overc...
+
+--- [3] 2608.23383v2 ---
+Title: Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds
+Authors: Nan Duan, Haoyang Huang, Weiyang Jin, Haoran Li, Yaowei Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: Video generation is progressing beyond isolated clips toward long-form narratives and interactive worlds, requiring models to preserve identities, follow user controls, and remain stable over extended rollouts. We present JoyAI-Echo-1.5, a unified audio-visual generation system with two purpose-built variants. The long-video variant introduces composable cross-shot memory that aggregates visual ev...
+
+--- [4] 2608.23189v1 ---
+Title: EchoWM: Open and Enterable Omnimodal World Models
+Authors: Songchun Zhang, Yaowei Li, Junhao Zhuang, Weiyang Jin, Haoyu Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: We present EchoWM, an omnimodal world model for enterable generative media that responds to continuous navigation while jointly generating 720p video, environmental sound, music and speech. We organize interaction around camera intent: in first-person scenes, it specifies observer motion, while in third-person scenes, camera--character dynamics are learned from data without view-specific controlle...
+
+--- [5] 2608.21075v1 ---
+Title: AudioWorldSim: Realistic Binaural Audio Datasets For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-08-21
+Summary: This technical report presents AudioWorldSim, an open-source platform designed to generate realistic binaural audio datasets and advance research in audio-based machine learning, particularly world models. Built as a custom extension of Meta's SoundSpaces 2.0 platform, AudioWorldSim leverages their comprehensive acoustics framework, but focuses on the automatic rollout of random agent navigations,...
+
+--- [6] 2608.19827v1 ---
+Title: Dancing Through Soundscapes: Designing a Low-Cost, Sound-Based Device for Sensing and Interpreting Movement and Dance
+Authors: Swen E. Gaudl, Silvia Carderelli-Gronau
+Primary cat: cs.HC | All cats: cs.HC, cs.SD
+Published: 2026-08-20
+Summary: When we move through space, we often rely on multiple senses beyond vision to perceive and act in that environment: we ``feel'' the presence of others; we build internal representations and models and recall them to navigate the environment. We also leave traces and impressions that others pick up on. The traces include echoes, heat, the displacement of objects such as furniture or footprints, air...
+
+--- [7] 2608.16539v1 ---
+Title: Listen, Reason, and Segment: Aligning LALMs with Editorial Judgment for Media Chapterization
+Authors: Tony Alex, Wish Suharitdamrong, Sara Atito, Armin Mustafa, Muhammad Awais et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, eess.AS
+Published: 2026-08-17
+Summary: Large Audio Language Models (LALMs) have made rapid progress on standardized benchmarks, yet their deployment in practical media workflows, curation, archival indexing, and content distribution remains largely unrealized. We identify automated audio chapterization, the task of segmenting continuous audio streams into thematically coherent chapters, as a demanding and commercially consequential set...
+
+--- [8] 2608.15048v1 ---
+Title: Beyond Overt Reactions: Analyzing Subtle User Emotional Response to Unexpected In-Vehicle System Behavior
+Authors: Huy Quyen Ngo, Suresh Kumaar Jayaraman, Brian Mok, Ken Friedl, Oliver Krause et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-15
+Summary: Modern vehicles, with advanced AI voice and autonomous navigation features, extend beyond traditional driving but, like any autonomous system, can potentially make mistakes or behave in ways unexpected by users. Although providing real-time explanations can alleviate some confusion, constant information can overwhelm users and potentially cause unnecessary distractions. Some situations may require...
+
+--- [9] 2608.10338v1 ---
+Title: ResonaVis: Visualizing Interactive Music Data to Support Reflective Music Composition for Therapeutic Contexts
+Authors: Abhishek Karwankar, Elise Ruggiero, Daniel Stevens, Matthew Louis Mauriello
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-11
+Summary: Designing music for therapeutic contexts requires navigating complex relationships between musical structure and listeners' sensory responses, yet composers often lack structured representations of these interactions, relying instead on intuition. We present ResonaVis, an interactive visualization system that helps composers analyze interaction and audio data from prior sessions with children with...
+
+--- [10] 2607.22413v1 ---
+Title: Reflector: Arrangement-Aware Harmonic Retrieval for Sample-Based Composition
+Authors: Austin Rockman
+Primary cat: cs.SD | All cats: cs.SD, cs.IR, cs.LG
+Published: 2026-07-24
+Summary: Sample retrieval tools can help composers find harmonically compatible material, but querying from a fixed reference sample becomes less informative as arrangements evolve and the harmonic context shifts with each musical decision. We present Reflector, an interactive audio workstation that tracks harmonic combinations as they accumulate on the composer's timeline and adapts retrieval as the arran...
+
+--- [11] 2607.21944v1 ---
+Title: VisionPulse: A Virtual Reality System Enabling Accessible Discovery and Navigation for Blind and Low Vision Users
+Authors: Samuel Martin, Pooyan Fazli, Hasti Seifi
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-07-24
+Summary: Free exploration is an important aspect of many engaging virtual reality (VR) experiences, yet remains largely inaccessible to blind and low vision (BLV) users due to its reliance on visual feedback. Existing approaches support BLV navigation through prebuilt menus of environment and audio beacons, but offer limited support for free-form discovery. We present VisionPulse, an accessible VR system t...
+
+--- [12] 2607.22721v1 ---
+Title: An Interactive Vision Language Platform for Cognitive Remediation in Schizophrenia
+Authors: Nassira Ait Mehdi, Milissa Temmam, Slimane Larabi
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-21
+Summary: Cognitive remediation tasks often require patients to perform structured actions involving object manipulation and sequential reasoning. For patients diagnosed with schizophrenia, these tasks are crucial for addressing severe cognitive deficits. However, evaluating the correctness of these physical actions generally relies on manual observation by clinicians, which introduces subjectivity and limi...
+
+--- [13] 2607.13110v1 ---
+Title: A Hybrid Mamba for Audio-Visual Navigation
+Authors: Yi Wang, Yinfeng Yu
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, eess.SP
+Published: 2026-07-14
+Summary: Since the paradigm centered on convolutional neural networks and recurrent architectures was established in 2020, the fundamental backbone networks for audio-visual navigation have undergone no essential changes for more than five years, making them inadequate to support efficient representation of dynamic multimodal sequences. This paper proposes Samba(A Hybrid Mamba for Audio-Visual Navigation)....
+
+--- [14] 2607.03920v2 ---
+Title: LH-AVLN: A Benchmark for Long-Horizon Audio-Visual-Language Navigation
+Authors: Rufeng Chen, Yue Chang, Zili Shao, Zhaofan Zhang, Li Chen et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-04
+Summary: Embodied navigation is moving toward long-horizon missions, yet existing long-horizon benchmarks are largely acoustically silent, and audio-visual navigation tasks typically focus on a single goal. We introduce LH-AVLN, a benchmark for Long-Horizon Audio-Visual-Language Navigation that combines multi-goal mission execution, heterogeneous goal specifications, and persistent spatialized acoustic cue...
+
+--- [15] 2607.03213v1 ---
+Title: OpenGlass: A Sensing-Computing Split Architecture for Local MLLM-Driven Real-Time Visual Assistance
+Authors: Mengzhang Li, Yuan Yao
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-07-03
+Summary: We present OpenGlass, an open-source, privacy-oriented, local-first system for low-latency multimodal visual assistance, with a primary focus on blind and low-vision users. Cloud MLLM assistants offer strong visual understanding, but often require uploading first-person visual data and can suffer multi-second network delays; wearable glasses are ideal for sensing, but cannot host large models unde...
+
+--- [16] 2608.20379v1 ---
+Title: A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications
+Authors: Neel Mokaria, Rishie Raj, Dheeraj Baiju, Xiaoqian Shen, Shraman Pramanick et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-28
+Summary: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video...
+
+--- [17] 2606.16190v1 ---
+Title: Embedded Arena: Iterative Optimization via Hardware Feedback
+Authors: Zhihan Zhang, Alexander Le Metzger, Jiuyang Lyu, Chun-Cheng Chang, Jiayi Shao et al.
+Primary cat: cs.AR | All cats: cs.AR, cs.AI
+Published: 2026-06-15
+Summary: Embedded devices from wildlife monitoring stations to clinical wearables require local AI inference due to latency, communication, or privacy constraints. Optimizing models for heterogeneous microcontrollers (MCUs) requires simultaneously satisfying hard physical constraints on memory, power, and temperature while preserving accuracy, a multidimensional optimization that is today performed manuall...
+
+--- [18] 2606.11176v1 ---
+Title: Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories
+Authors: Kevin Qinghong Lin, Batu EI, Yuhong Shi, Pan Lu, Philip Torr et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.CL, cs.CY, cs.HC
+Published: 2026-06-09
+Summary: Data tells stories that shape society; the data journalist's job is to turn raw information into stories non-experts can trust. A high-quality news feature takes a newsroom team weeks: hunting for context, running statistics, choosing an angle, and designing visuals. Recent agents handle individual steps well: data-science agents close the analysis loop, while design agents synthesize beautiful we...
+
+--- [19] 2606.09870v1 ---
+Title: Safecloud: A Distributed, Encrypted Storage Cloud for Streaming
+Authors: Gregory Magarshak
+Primary cat: cs.CR | All cats: cs.CR, cs.DB, cs.DC, cs.MM, cs.NI
+Published: 2026-06-02
+Summary: We present Safecloud, a distributed, encrypted, self-pricing storage and streaming network whose storage and routing nodes never see plaintext and never hold keys. Each file is split into chunks, encrypted on the owner's device, and distributed across Drops (browser tabs storing ciphertext in IndexedDB) and Jets (federated routing servers). Only the owner, or an authorised grantee, can decrypt. We...
+
+--- [20] 2605.29120v1 ---
+Title: Improving outdoor navigation for people with blindness using an AI-driven smartphone application and personalized audio guidance
+Authors: Raymond Liu, Patrick Slade
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-05-27
+Summary: Globally, 340 million people have blindness or moderate to severe visual impairment (BVI)$^1$ which limits independent outdoor navigation$^2$ and negatively affects their health and quality of life$^{3,4}$. We surveyed 112 people with BVI and found that an ideal outdoor navigation aid must be able to perform turn-by-turn directions, path guidance, and obstacle detection and avoidance. Existing nav...
+
+--- [21] 2605.26545v1 ---
+Title: Receiver-Centric TDOA Localization Framework for DAB Signals under Synchronization Impairments
+Authors: Mustafa Furkan Beker, Abdullah Tan, Khaled Walid Elgammal, Mehmet Kemal Ozdemir
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-05-26
+Summary: In Global Navigation Satellite System (GNSS)-denied environments, terrestrial signals of opportunity (SoOP) offer an alternative for positioning, but synchronization impairments such as clock offsets, drift, and multipath limit performance. This paper proposes a receiver-centric multi-channel time-difference-of-arrival (TDOA) localization framework based on Digital Audio Broadcasting (DAB) signals...
+
+--- [22] 2605.24287v1 ---
+Title: Humans Cannot Detect AI-Generated Media But Communities May -- For Now: Collaborative AI Detection in r/RealOrAI on Reddit
+Authors: Tuğrulcan Elmas
+Primary cat: cs.SI | All cats: cs.SI
+Published: 2026-05-22
+Summary: We study human AI-detection behaviour at scale using a year of activity from r/RealOrAI, a Reddit community where users collaboratively assess whether visual media is real or AI-generated. The community is moderated by a bot that solicits verified labels from submitters of self-challenging "[GUESS]" posts and publishes an aggregate community prediction for each post, yielding naturalistic ground t...
+
+--- [23] 2607.21611v1 ---
+Title: A Systematic Survey on Image Description Techniques for STEM Domains
+Authors: Marco Cardia, Letizia Angileri, Marina Buzzi, Giulio Galesi, Barbara Leporini
+Primary cat: cs.HC | All cats: cs.HC, cs.AI
+Published: 2026-05-22
+Summary: The proliferation of visual data in Science, Technology, Engineering, and Mathematics (STEM) fields presents accessibility barrier for individuals with blindness or visual impairments. While recent advances in Artificial Intelligence (AI) offer new opportunities to generate textual descriptions of STEM images, the research landscape is fragmented and its impact on real users remains limited. This ...
+
+--- [24] 2605.01540v1 ---
+Title: A Time-Synchronized Video Reference System for Data Analysis of Body-Attached Sensor Nodes in Outdoor Scenarios
+Authors: Lukas Schulthess, Fabian Pleisch, Matheo Käch, Björn P. Bruhin, Michele Magno et al.
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-05-02
+Summary: Wearable body-attached multi-sensor systems enable detailed analysis of human motion and physiological signals in sports, rehabilitation, and movement research. While wireless synchronization techniques can reliably align sensor data streams, interpreting and validating complex or unconstrained activities often requires an additional, objective visual reference. Existing laboratory-grade reference...
+
+--- [25] 2604.23909v1 ---
+Title: AMAVA: Adaptive Motion-Aware Video-to-Audio Framework for Visually-Impaired Assistance
+Authors: Benjamin Klein, Kazi Ruslan Rahman, Sanchita Ghose
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-26
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Anavigation&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Navigational aids for blind and low vision individuals struggle conveying dynamic real-world environments, leading to cognitive overload from continuous, undifferentiated feedback. We present AMAVA, a novel real-time video-to-audio framework that converts mobile device video into contextually relevant sound effects or text-to-speech descriptions. We propose a motion-aware pipeline using a lightwei...
+

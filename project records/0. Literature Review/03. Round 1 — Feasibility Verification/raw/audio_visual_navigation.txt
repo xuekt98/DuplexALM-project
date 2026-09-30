@@ -1,0 +1,177 @@
+--- [1] 2609.06837v1 ---
+Title: BinauralVAE: Spatial Audio Reconstruction For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-06
+Summary: Embodied artificial intelligence has historically very much relied on visual perception, leading to a proliferation of multiple vision-centric world models. However, this reliance fails to capture spatial understanding in its entirety and can even present vulnerabilities in environments with visual occlusions, low-light conditions, or blackouts-scenarios, where acoustic information becomes a criti...
+
+--- [2] 2608.23383v2 ---
+Title: Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds
+Authors: Nan Duan, Haoyang Huang, Weiyang Jin, Haoran Li, Yaowei Li et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: Video generation is progressing beyond isolated clips toward long-form narratives and interactive worlds, requiring models to preserve identities, follow user controls, and remain stable over extended rollouts. We present JoyAI-Echo-1.5, a unified audio-visual generation system with two purpose-built variants. The long-video variant introduces composable cross-shot memory that aggregates visual ev...
+
+--- [3] 2608.23189v1 ---
+Title: EchoWM: Open and Enterable Omnimodal World Models
+Authors: Songchun Zhang, Yaowei Li, Junhao Zhuang, Weiyang Jin, Haoyu Wang et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-24
+Summary: We present EchoWM, an omnimodal world model for enterable generative media that responds to continuous navigation while jointly generating 720p video, environmental sound, music and speech. We organize interaction around camera intent: in first-person scenes, it specifies observer motion, while in third-person scenes, camera--character dynamics are learned from data without view-specific controlle...
+
+--- [4] 2608.10338v1 ---
+Title: ResonaVis: Visualizing Interactive Music Data to Support Reflective Music Composition for Therapeutic Contexts
+Authors: Abhishek Karwankar, Elise Ruggiero, Daniel Stevens, Matthew Louis Mauriello
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-08-11
+Summary: Designing music for therapeutic contexts requires navigating complex relationships between musical structure and listeners' sensory responses, yet composers often lack structured representations of these interactions, relying instead on intuition. We present ResonaVis, an interactive visualization system that helps composers analyze interaction and audio data from prior sessions with children with...
+
+--- [5] 2607.21944v1 ---
+Title: VisionPulse: A Virtual Reality System Enabling Accessible Discovery and Navigation for Blind and Low Vision Users
+Authors: Samuel Martin, Pooyan Fazli, Hasti Seifi
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-07-24
+Summary: Free exploration is an important aspect of many engaging virtual reality (VR) experiences, yet remains largely inaccessible to blind and low vision (BLV) users due to its reliance on visual feedback. Existing approaches support BLV navigation through prebuilt menus of environment and audio beacons, but offer limited support for free-form discovery. We present VisionPulse, an accessible VR system t...
+
+--- [6] 2607.13110v1 ---
+Title: A Hybrid Mamba for Audio-Visual Navigation
+Authors: Yi Wang, Yinfeng Yu
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, eess.SP
+Published: 2026-07-14
+Summary: Since the paradigm centered on convolutional neural networks and recurrent architectures was established in 2020, the fundamental backbone networks for audio-visual navigation have undergone no essential changes for more than five years, making them inadequate to support efficient representation of dynamic multimodal sequences. This paper proposes Samba(A Hybrid Mamba for Audio-Visual Navigation)....
+
+--- [7] 2607.03920v2 ---
+Title: LH-AVLN: A Benchmark for Long-Horizon Audio-Visual-Language Navigation
+Authors: Rufeng Chen, Yue Chang, Zili Shao, Zhaofan Zhang, Li Chen et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-04
+Summary: Embodied navigation is moving toward long-horizon missions, yet existing long-horizon benchmarks are largely acoustically silent, and audio-visual navigation tasks typically focus on a single goal. We introduce LH-AVLN, a benchmark for Long-Horizon Audio-Visual-Language Navigation that combines multi-goal mission execution, heterogeneous goal specifications, and persistent spatialized acoustic cue...
+
+--- [8] 2607.03213v1 ---
+Title: OpenGlass: A Sensing-Computing Split Architecture for Local MLLM-Driven Real-Time Visual Assistance
+Authors: Mengzhang Li, Yuan Yao
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-07-03
+Summary: We present OpenGlass, an open-source, privacy-oriented, local-first system for low-latency multimodal visual assistance, with a primary focus on blind and low-vision users. Cloud MLLM assistants offer strong visual understanding, but often require uploading first-person visual data and can suffer multi-second network delays; wearable glasses are ideal for sensing, but cannot host large models unde...
+
+--- [9] 2606.11176v1 ---
+Title: Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories
+Authors: Kevin Qinghong Lin, Batu EI, Yuhong Shi, Pan Lu, Philip Torr et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.CL, cs.CY, cs.HC
+Published: 2026-06-09
+Summary: Data tells stories that shape society; the data journalist's job is to turn raw information into stories non-experts can trust. A high-quality news feature takes a newsroom team weeks: hunting for context, running statistics, choosing an angle, and designing visuals. Recent agents handle individual steps well: data-science agents close the analysis loop, while design agents synthesize beautiful we...
+
+--- [10] 2605.29120v1 ---
+Title: Improving outdoor navigation for people with blindness using an AI-driven smartphone application and personalized audio guidance
+Authors: Raymond Liu, Patrick Slade
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-05-27
+Summary: Globally, 340 million people have blindness or moderate to severe visual impairment (BVI)$^1$ which limits independent outdoor navigation$^2$ and negatively affects their health and quality of life$^{3,4}$. We surveyed 112 people with BVI and found that an ideal outdoor navigation aid must be able to perform turn-by-turn directions, path guidance, and obstacle detection and avoidance. Existing nav...
+
+--- [11] 2605.24287v1 ---
+Title: Humans Cannot Detect AI-Generated Media But Communities May -- For Now: Collaborative AI Detection in r/RealOrAI on Reddit
+Authors: Tuğrulcan Elmas
+Primary cat: cs.SI | All cats: cs.SI
+Published: 2026-05-22
+Summary: We study human AI-detection behaviour at scale using a year of activity from r/RealOrAI, a Reddit community where users collaboratively assess whether visual media is real or AI-generated. The community is moderated by a bot that solicits verified labels from submitters of self-challenging "[GUESS]" posts and publishes an aggregate community prediction for each post, yielding naturalistic ground t...
+
+--- [12] 2607.21611v1 ---
+Title: A Systematic Survey on Image Description Techniques for STEM Domains
+Authors: Marco Cardia, Letizia Angileri, Marina Buzzi, Giulio Galesi, Barbara Leporini
+Primary cat: cs.HC | All cats: cs.HC, cs.AI
+Published: 2026-05-22
+Summary: The proliferation of visual data in Science, Technology, Engineering, and Mathematics (STEM) fields presents accessibility barrier for individuals with blindness or visual impairments. While recent advances in Artificial Intelligence (AI) offer new opportunities to generate textual descriptions of STEM images, the research landscape is fragmented and its impact on real users remains limited. This ...
+
+--- [13] 2605.01540v1 ---
+Title: A Time-Synchronized Video Reference System for Data Analysis of Body-Attached Sensor Nodes in Outdoor Scenarios
+Authors: Lukas Schulthess, Fabian Pleisch, Matheo Käch, Björn P. Bruhin, Michele Magno et al.
+Primary cat: eess.SP | All cats: eess.SP
+Published: 2026-05-02
+Summary: Wearable body-attached multi-sensor systems enable detailed analysis of human motion and physiological signals in sports, rehabilitation, and movement research. While wireless synchronization techniques can reliably align sensor data streams, interpreting and validating complex or unconstrained activities often requires an additional, objective visual reference. Existing laboratory-grade reference...
+
+--- [14] 2604.23909v1 ---
+Title: AMAVA: Adaptive Motion-Aware Video-to-Audio Framework for Visually-Impaired Assistance
+Authors: Benjamin Klein, Kazi Ruslan Rahman, Sanchita Ghose
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-04-26
+Summary: Navigational aids for blind and low vision individuals struggle conveying dynamic real-world environments, leading to cognitive overload from continuous, undifferentiated feedback. We present AMAVA, a novel real-time video-to-audio framework that converts mobile device video into contextually relevant sound effects or text-to-speech descriptions. We propose a motion-aware pipeline using a lightwei...
+
+--- [15] 2604.06911v1 ---
+Title: Physics-driven Sonification for Improving Multisensory Needle Guidance in Percutaneous Epicardial Access
+Authors: Veronica Ruozzi, Sasan Matinfar, Pasquale Vergara, Alessandro Albanesi, Serena Dell'Aversana et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-04-08
+Summary: Percutaneous epicardial access (PEA), performed on a beating heart under fluoroscopy, enables arrhythmia treatment. However, advancing a needle toward the thin and moving pericardium remains highly challenging and risky. To address this problem, we present a physics-driven sonification method for Extended Reality (XR)-based multisensory navigation to enhance user perception during the critical nee...
+
+--- [16] 2604.05007v1 ---
+Title: Generalizable Audio-Visual Navigation via Binaural Difference Attention and Action Transition Prediction
+Authors: Jia Li, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-06
+Summary: In Audio-Visual Navigation (AVN), agents must locate sound sources in unseen 3D environments using visual and auditory cues. However, existing methods often struggle with generalization in unseen scenarios, as they tend to overfit to semantic sound features and specific training environments. To address these challenges, we propose the \textbf{Binaural Difference Attention with Action Transition P...
+
+--- [17] 2604.03998v1 ---
+Title: VA-FastNavi-MARL: Real-Time Robot Control with Multimedia-Driven Meta-Reinforcement Learning
+Authors: Yang Zhang, Shengxi Jing, Fengxiang Wang, Yuan Feng, Hong Wang
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-04-05
+Summary: Interpreting dynamic, heterogeneous multimedia commands with real-time responsiveness is critical for Human-Robot Interaction. We present VA-FastNavi-MARL, a framework that aligns asynchronous audio-visual inputs into a unified latent representation. By treating diverse instructions as a distribution of navigable goals via Meta-Reinforcement Learning, our method enables rapid adaptation to unseen ...
+
+--- [18] 2604.02391v1 ---
+Title: Reliability-Aware Geometric Fusion for Robust Audio-Visual Navigation
+Authors: Teng Liu, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-02
+Summary: Audio-Visual Navigation (AVN) requires an embodied agent to navigate toward a sound source by utilizing both vision and binaural audio. A core challenge arises in complex acoustic environments, where binaural cues become intermittently unreliable, particularly when generalizing to previously unheard sound categories. To address this, we propose RAVN (Reliability-Aware Audio-Visual Navigation), a f...
+
+--- [19] 2604.02390v1 ---
+Title: Spatial-Aware Conditioned Fusion for Audio-Visual Navigation
+Authors: Shaohang Wu, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-02
+Summary: Audio-visual navigation tasks require agents to locate and navigate toward continuously vocalizing targets using only visual observations and acoustic cues. However, existing methods mainly rely on simple feature concatenation or late fusion, and lack an explicit discrete representation of the target's relative position, which limits learning efficiency and generalization. We propose Spatial-Aware...
+
+--- [20] 2604.02389v1 ---
+Title: Audio Spatially-Guided Fusion for Audio-Visual Navigation
+Authors: Xinyu Zhou, Yinfeng Yu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-04-02
+Summary: Audio-visual Navigation refers to an agent utilizing visual and auditory information in complex 3D environments to accomplish target localization and path planning, thereby achieving autonomous navigation. The core challenge of this task lies in the following: how the agent can break free from the dependence on training data and achieve autonomous navigation with good generalization performance wh...
+
+--- [21] 2603.28757v1 ---
+Title: SonoWorld: From One Image to a 3D Audio-Visual Scene
+Authors: Derong Jin, Xiyi Chen, Ming C. Lin, Ruohan Gao
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-03-30
+Summary: Tremendous progress in visual scene generation now turns a single image into an explorable 3D world, yet immersion remains incomplete without sound. We introduce Image2AVScene, the task of generating a 3D audio-visual scene from a single image, and present SonoWorld, the first framework to tackle this challenge. From one image, our pipeline outpaints a 360° panorama, lifts it into a navigable 3D s...
+
+--- [22] 2603.19660v1 ---
+Title: Semantic Audio-Visual Navigation in Continuous Environments
+Authors: Yichen Zeng, Hebaixu Wang, Meng Liu, Yu Zhou, Chen Gao et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-03-20
+Summary: Audio-visual navigation enables embodied agents to navigate toward sound-emitting targets by leveraging both auditory and visual cues. However, most existing approaches rely on precomputed room impulse responses (RIRs) for binaural audio rendering, restricting agents to discrete grid positions and leading to spatially discontinuous observations. To establish a more realistic setting, we introduce ...
+
+--- [23] 2603.16859v2 ---
+Title: SocialOmni: Benchmarking Audio-Visual Social Interactivity in Omni Models
+Authors: Tianyu Xie, Jinfa Huang, Yuexiao Ma, Rongfang Luo, Yan Yang et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-03-17
+Summary: Omni-modal large language models (OLMs) redefine human-machine interaction by natively integrating audio, vision, and text. However, existing OLM benchmarks remain anchored to static, accuracy-centric tasks, leaving a critical gap in assessing social interactivity, the fundamental capacity to navigate dynamic cues in natural dialogues. To this end, we propose SocialOmni, a comprehensive benchmark ...
+
+--- [24] 2604.16348v1 ---
+Title: Beyond the Townhall: Spatial Anchoring and LLM Agents for Scalable Participatory Urban Planning
+Authors: Carina I Hausladen, Javier Argota Sánchez-Vaquerizo, Michael Siebenmann, Arthur Capozzi, Sachit Mahajan et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.CY
+Published: 2026-03-16
+Summary: Participatory urban planning is central to sustainable city-making, yet the technically demanding nature of such interventions often limits meaningful involvement by diverse publics. We introduce a scalable digital participation platform that embeds sustainability projects within a navigable digital twin. Citizens experience a guided virtual walkthrough with audio narration employing the method of...
+
+--- [25] 2602.12416v1 ---
+Title: Control Barrier Functions with Audio Risk Awareness for Robot Safe Navigation on Construction Sites
+Authors: Johannes Mootz, Reza Akhavian
+Primary cat: cs.RO | All cats: cs.RO, eess.SY
+Published: 2026-02-12
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio-visual+AND+abs%3Anavigation&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Construction automation increasingly requires autonomous mobile robots, yet robust autonomy remains challenging on construction sites. These environments are dynamic and often visually occluded, which complicates perception and navigation. In this context, valuable information from audio sources remains underutilized in most autonomy stacks. This work presents a control barrier function (CBF)-base...
+

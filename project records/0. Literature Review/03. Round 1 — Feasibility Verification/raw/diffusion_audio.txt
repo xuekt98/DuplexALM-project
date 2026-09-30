@@ -1,0 +1,142 @@
+--- [1] 2609.09102v1 ---
+Title: TILING I: Field-level Bayesian reconstruction of cosmological initial conditions during the epoch of reionization
+Authors: Nikolaos Triantafyllou, Andrei Mesinger, Steven Murray, Samuel Gagnon-Hartman
+Primary cat: astro-ph.CO | All cats: astro-ph.CO, astro-ph.GA
+Published: 2026-09-08
+Summary: Reconstructing the initial conditions (ICs) of the matter field for an observed volume gives a complete picture of that region's temporal evolution. IC reconstruction is common at low redshifts but largely unexplored during the epoch of reionization (EoR; $z\gtrsim 5$), partly due to difficulties modeling inhomogeneous cosmic radiation fields. Yet the EoR spans half the observable Universe, offeri...
+
+--- [2] 2609.09100v1 ---
+Title: Weak synchronisation for McKean--Vlasov SDEs
+Authors: Benjamin Gess, Rishabh S. Gvalani, Shanshan Hu
+Primary cat: math.PR | All cats: math.PR
+Published: 2026-09-08
+Summary: Synchronisation by noise for McKean--Vlasov stochastic differential equations is investigated. A transfer principle is introduced by which synchronisation by noise and diagonal mixing can be transferred from an associated limiting frozen-diffusion SDE to a genuinely law-dependent McKean--Vlasov SDE. The usefulness of this principle is demonstrated through an application to ensemble Kalman sampling...
+
+--- [3] 2609.09043v1 ---
+Title: Speed and stability of segregated waves in a pressure-based model of heterogeneous cell populations
+Authors: Carles Falcó, Rebecca M. Crossley, Martina Conte, Tommaso Lorenzi
+Primary cat: math.AP | All cats: math.AP, nlin.PS, q-bio.CB
+Published: 2026-09-08
+Summary: We consider a minimal pressure-based model of heterogeneous cell populations consisting of proliferative and non-proliferative cells with different mobilities. The model is formulated as a system of reaction--cross--diffusion equations describing the spatio-temporal dynamics of the cell densities. The model is known to admit one-dimensional travelling wave solutions with strictly segregated compon...
+
+--- [4] 2609.09009v1 ---
+Title: Let It Go or Learn to Self-Correct: Continuous Diffusion for Constrained Discrete Tasks
+Authors: Mariia Drozdova, Stéphane Liem Nguyen, François Fleuret
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Denoising Diffusion Probabilistic Models (DDPMs) generate samples by starting from noise and repeatedly denoising while keeping each update close to the current noisy state. This behavior is effective in many continuous domains, but its role is less clear for globally constrained discrete tasks, such as Sudoku, graph connectivity, Latin squares, and N-queens. In such settings, early discrete error...
+
+--- [5] 2609.08981v1 ---
+Title: Transformers as In-Context Samplers: From Closed-Form Diffusion to Estimation-Free Sampling
+Authors: Arman Adibi, Alireza Jafari, Mohammad Ghavamzadeh, Hadi Daneshmand
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, stat.AP, stat.CO, stat.ML
+Published: 2026-09-08
+Summary: A growing body of work establishes that large language models are not mere statistical memorizers, but are capable of in-context learning: performing inference at test time using only examples provided in the prompt, without any parameter updates. Prior theoretical work has shown that this capability extends to supervised learning tasks such as linear regression. We prove that in-context learning ...
+
+--- [6] 2609.08976v1 ---
+Title: Water, vacancies, and competing exchange interactions in Prussian blue analogues: a neutron diffraction study of field and dehydration-driven magnetic transitions
+Authors: N. S. Dhami, C. V. Colin, V. Nassif, O. Fabelo, T. Nait et al.
+Primary cat: cond-mat.mtrl-sci | All cats: cond-mat.mtrl-sci, cond-mat.other
+Published: 2026-09-08
+Summary: We report a neutron diffraction study of the structural and magnetic properties of a family of ferro- and ferrimagnetic Prussian blue analogues (PBAs), $A_4$[Fe(CN)$_6$]$_{2.7}$ ($A$ = Co, Mn, Ni), Rb$_2$Ni$_4$[Fe(CN)$_6$]$_{3.3}$, and Mn$_4$[Cr(CN)$_6$]$_{2.7}$, as a function of temperature (2--450~K) and applied magnetic field. All bimetallic compounds of the Fm$\overline{3}$m family exhibit a b...
+
+--- [7] 2609.08969v1 ---
+Title: Singular Turing bifurcations and spatial canard solutions in nonlinear reaction-diffusion systems
+Authors: Robert Jencks, Tasso J. Kaper, Theodore Vo
+Primary cat: math.DS | All cats: math.DS
+Published: 2026-09-08
+Summary: We study a general class of nonlinear reaction-diffusion equations that model pattern-forming systems. The class includes the Gierer-Meinhardt PDE, Brusselator model, and van der Pol PDE, as well as the Gray-Scott, Klausmeier, Lengyel-Epstein, Schnakenberg PDEs and others of activator-inhibitor type. In the limit in which the activator diffusivity is much smaller than that of the inhibitor, these ...
+
+--- [8] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [9] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [10] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [11] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [12] 2609.08872v1 ---
+Title: Strong convergence rates of tamed exponential Euler schemes for superlinear hyperbolic SPDEs
+Authors: Katharina Klioba
+Primary cat: math.NA | All cats: math.NA, math.AP, math.FA, math.PR
+Published: 2026-09-08
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+diffusion&max_results=20&sortBy=submittedDate&sortOrder=descending
+Summary: In this paper, we prove pathwise uniform convergence at rates up to $1/2$ for tamed exponential Euler schemes for semilinear hyperbolic stochastic evolution equations with superlinearly growing nonlinearities and multiplicative noise. We take the term hyperbolic to mean that the leading operator generates a contractive $C_0$-semigroup but no parabolic smoothing occurs. Under local Lipschitz, polyn...
+
+--- [13] 2609.08870v1 ---
+Title: Stochastic Processes as Non-Metric Geodesics in Information Geometry
+Authors: T. Koide, A. van de Venn
+Primary cat: cond-mat.stat-mech | All cats: cond-mat.stat-mech, math-ph
+Published: 2026-09-08
+Summary: We establish a one-to-one correspondence between geodesics associated with the one-parameter family of $α$-connections on the Gaussian statistical manifold and a class of continuous stochastic processes characterized by a time-independent noise intensity. We demonstrate that geodesics in expectation parameters naturally classify into three distinct geometric categories, among which the Boundary-co...
+
+--- [14] 2609.08788v1 ---
+Title: Adaptive Anisotropic Attention for Axis-Structured Signals
+Authors: Mahir Jain, Parshva Runwal, Aditya Ray Mishra, Arvasu Kulkarni, Sandeep Singh et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Dense self-attention treats all token pairs as equally plausible before learning, an interaction-isotropic prior that can be mismatched to structured signals. For structured, low signal-to-noise ratio (SNR) signals such as EEG, dependencies are organized along the electrode and time axes, and this uniform prior exposes each token to many irrelevant interactions. We introduce Adaptive Anisotropic A...
+
+--- [15] 2609.08780v1 ---
+Title: Structure-Informed Bayesian Inference of Anomalous Transport and Hidden Molecular Trapping in Amorphous Media
+Authors: Andrey Ananev, Maria Potapova, Nikolay Kondratyuk, Timur Vostroknutov, Aleksey Khlyupin
+Primary cat: physics.comp-ph | All cats: physics.comp-ph, cond-mat.soft, physics.chem-ph, stat.AP
+Published: 2026-09-08
+Summary: Molecular diffusion in fluctuating amorphous and macromolecular media governs key transport processes across soft-matter physics, energy storage, and biological membranes. Extracting localized trapping states from single-particle tracking trajectories remains a fundamental challenge; because thermal structural breathing continuously reconfigures pore boundaries, conventional geometric algorithms s...
+
+--- [16] 2609.08753v1 ---
+Title: A Two-Parameter Framework for the Diffuse Supernova Neutrino Background
+Authors: Cecilia Lunardini, Xingyun Yang
+Primary cat: astro-ph.HE | All cats: astro-ph.HE, hep-ph, nucl-th
+Published: 2026-09-08
+Summary: Following important experimental developments, tests of the Diffuse Supernova Neutrino Background (DSNB) are entering a new phase that might lead to a discovery. This motivates the development of simple and broadly applicable tools for comparing theoretical predictions and interpreting experimental results. We show that, over the energy range relevant to current detectors, the DSNB is well describ...
+
+--- [17] 2609.08732v1 ---
+Title: Shape optimization of light structures with general Hooke's laws
+Authors: Dimitrios Andreakis, Flaviana Iurlano, Filip Rindler
+Primary cat: math.AP | All cats: math.AP
+Published: 2026-09-08
+Summary: For the minimum-compliance shape optimization problem it was established recently [\textit{Duke Math.\ J.} 172 (2023), 43--103] that a sequence of approximately optimal shapes of exact volume \(\e\) converges to a limiting generalized shape, which is represented by a possibly diffuse probability measure, as \(\e \todown 0\). This generalized shape minimizes the so-called light-structures complianc...
+
+--- [18] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [19] 2609.08597v1 ---
+Title: The Hidden Cost of Alloying: Disorder-Driven Transport Collapse in TMDs
+Authors: Michele Pisarra, Clara Rebanal, Enrique Arévalo Rodríguez, Marc Meléndez, Elena Blundo et al.
+Primary cat: cond-mat.mtrl-sci | All cats: cond-mat.mtrl-sci
+Published: 2026-09-08
+Summary: Alloying in two dimensional semiconductors is widely used to tune bandgaps, yet its implications for charge and energy transport remain poorly understood. Here, we investigate MoS2xSe2(1-x) alloys as a model system to study the interplay between composition, thickness, and disorder. Optical transitions and valence band dispersions evolve continuously with both stoichiometry and number of layers, w...
+
+--- [20] 2609.08542v1 ---
+Title: Spatial Audio Coding Through Relative Room Impulse Response Estimation
+Authors: Nour Bouayed, Adrien Llave, Jérôme Daniel, Pascal Scalart
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Immersive virtual listening relies on spatial audio technologies such as Higher-Order Ambisonics (HOA), which represent sound scenes as multichannel signals. As the desired spatial resolution increases, so does the number of channels, making efficient compression essential for transmission over bandwidth-limited networks. Moreover, to facilitate deployment by network operators, the target bitrate ...
+

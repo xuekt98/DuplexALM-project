@@ -1,0 +1,44 @@
+# Total entries: 6
+# URL: https://export.arxiv.org/api/query?search_query=abs%3ANaturalSpeech&max_results=15&sortBy=submittedDate&sortOrder=descending
+--- [1] 2408.13893v2 ---
+Title: SimpleSpeech 2: Towards Simple and Efficient Text-to-Speech with Flow-based Scalar Latent Transformer Diffusion Models
+Authors: Dongchao Yang, Rongjie Huang, Yuanyuan Wang, Haohan Guo, Dading Chong et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2024-08-25
+Summary: Scaling Text-to-speech (TTS) to large-scale datasets has been demonstrated as an effective method for improving the diversity and naturalness of synthesized speech. At the high level, previous large-scale TTS models can be categorized into either Auto-regressive (AR) based (\textit{e.g.}, VALL-E) or Non-auto-regressive (NAR) based models (\textit{e.g.}, NaturalSpeech 2/3). Although these works dem...
+
+--- [2] 2406.18009v2 ---
+Title: E2 TTS: Embarrassingly Easy Fully Non-Autoregressive Zero-Shot TTS
+Authors: Sefik Emre Eskimez, Xiaofei Wang, Manthan Thakker, Canrun Li, Chung-Hsien Tsai et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2024-06-26
+Summary: This paper introduces Embarrassingly Easy Text-to-Speech (E2 TTS), a fully non-autoregressive zero-shot text-to-speech system that offers human-level naturalness and state-of-the-art speaker similarity and intelligibility. In the E2 TTS framework, the text input is converted into a character sequence with filler tokens. The flow-matching-based mel spectrogram generator is then trained based on the...
+
+--- [3] 2406.05763v3 ---
+Title: WenetSpeech4TTS: A 12,800-hour Mandarin TTS Corpus for Large Speech Generation Model Benchmark
+Authors: Linhan Ma, Dake Guo, Kun Song, Yuepeng Jiang, Shuai Wang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2024-06-09
+Summary: With the development of large text-to-speech (TTS) models and scale-up of the training data, state-of-the-art TTS systems have achieved impressive performance. In this paper, we present WenetSpeech4TTS, a multi-domain Mandarin corpus derived from the open-sourced WenetSpeech dataset. Tailored for the text-to-speech tasks, we refined WenetSpeech by adjusting segment boundaries, enhancing the audio ...
+
+--- [4] 2403.03100v3 ---
+Title: NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models
+Authors: Zeqian Ju, Yuancheng Wang, Kai Shen, Xu Tan, Detai Xin et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.LG, cs.SD
+Published: 2024-03-05
+Summary: While recent large-scale text-to-speech (TTS) models have achieved significant progress, they still fall short in speech quality, similarity, and prosody. Considering speech intricately encompasses various attributes (e.g., content, prosody, timbre, and acoustic details) that pose significant challenges for generation, a natural idea is to factorize speech into individual subspaces representing di...
+
+--- [5] 2304.09116v3 ---
+Title: NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers
+Authors: Kai Shen, Zeqian Ju, Xu Tan, Yanqing Liu, Yichong Leng et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.LG, cs.SD
+Published: 2023-04-18
+Summary: Scaling text-to-speech (TTS) to large-scale, multi-speaker, and in-the-wild datasets is important to capture the diversity in human speech such as speaker identities, prosodies, and styles (e.g., singing). Current large TTS systems usually quantize speech into discrete tokens and use language models to generate these tokens one by one, which suffer from unstable prosody, word skipping/repeating is...
+
+--- [6] 2205.04421v2 ---
+Title: NaturalSpeech: End-to-End Text to Speech Synthesis with Human-Level Quality
+Authors: Xu Tan, Jiawei Chen, Haohe Liu, Jian Cong, Chen Zhang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.LG, cs.SD
+Published: 2022-05-09
+Summary: Text to speech (TTS) has made rapid progress in both academia and industry in recent years. Some questions naturally arise that whether a TTS system can achieve human-level quality, how to define/judge that quality and how to achieve it. In this paper, we answer these questions by first defining the human-level quality based on the statistical significance of subjective measure and introducing app...
+

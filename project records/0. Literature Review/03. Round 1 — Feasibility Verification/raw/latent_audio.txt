@@ -1,0 +1,142 @@
+--- [1] 2609.09086v1 ---
+Title: Hierarchical Inference of the Supermassive Black Hole Binary Merger Rates from Joint Searches using Pulsar Timing Arrays
+Authors: Sharon Mary Tomson, Rutger van Haasteren, Boris Goncharov
+Primary cat: astro-ph.HE | All cats: astro-ph.HE, astro-ph.IM, gr-qc
+Published: 2026-09-08
+Summary: Gravitational-wave searches do more than identify individual sources - they provide a way to infer the underlying astrophysical populations that produce them. Currently, Pulsar Timing Arrays (PTAs) constrain the supermassive black-hole binary (SMBHB) merger-rate density through both the stochastic gravitational-wave background (SGWB) and searches for individual SMBHB signals. The latter implies co...
+
+--- [2] 2609.09076v1 ---
+Title: ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation
+Authors: Yiling Ma, Yilun Zhao, Sihong Wu, Ziyu Chen, Manasi Patwardhan et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-08
+Summary: As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions. We study this as Actionable Peer-review Generation and decompose it into two subtasks: diagnostic claim generation and revision suggestion generation. We introduce ActReview, a rebuttal-guided post-training framewo...
+
+--- [3] 2609.09021v1 ---
+Title: Linearly Constrained Generalized Linear Models with Applications in Origin-Destination Estimation
+Authors: Likun Chou, Luis Carvalho
+Primary cat: stat.ME | All cats: stat.ME
+Published: 2026-09-08
+Summary: We show that data censored by linear constraints can be fit within the generalized linear model (GLM) framework, recovering the expected latent counts together with their uncertainty in a single Fisher-scoring procedure. Our motivating application is origin-destination (OD) estimation in transportation studies, where the latent data are the OD trip demands and constraints are either origin and des...
+
+--- [4] 2609.09010v1 ---
+Title: A Joint 2D-3D Statistical Shape Model for Orthopedic Reconstruction
+Authors: Florence Dell'Aniello Picard, Pranav Poudel, Nairouz Shehata, Frédéric Lavoie, Herve Lombaert
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Three-dimensional femoral reconstruction from radiographs supports surgical planning, implant sizing, and post-operative follow-up, but remains ill-posed as X-ray projections discard depth information. Existing methods often incorporate a 3D statistical shape model (SSM) as a shape prior to guide reconstructions toward anatomically plausible shapes, relying on iterative 3D-to-2D projection matchin...
+
+--- [5] 2609.08992v1 ---
+Title: Physics-Informed Deep Learning for False Ventricular Tachycardia Alarm Reduction in the ICU
+Authors: Athanasios Papastathopoulos-Katsaros, Alexandra Stavrianidi, Zhandong Liu
+Primary cat: cs.LG | All cats: cs.LG, eess.SP
+Published: 2026-09-08
+Summary: False ventricular tachycardia (VT) alarms are a leading contributor to alarm fatigue in intensive care units. We propose a deep learning framework combining a 1D SE-ResNet with ICU-realistic data augmentations and a physics-informed auxiliary reconstruction task based on the three-element Windkessel hemodynamic model, implemented as a differentiable forward simulation. By requiring the network's l...
+
+--- [6] 2609.08977v1 ---
+Title: Omni Interaction Agent Technical Report
+Authors:  Orantqing, Shengpeng Ji, Junlong Tong, Jialong Zuo, Dongjie Fu et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.LG, cs.MM, cs.SD
+Published: 2026-09-08
+Summary: In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic capabilities within a single framework. In contrast to turn-based conventional paradigms, Gander continuously receives streaming inputs across multiple modalities, including video, speech, and text, enabling natural full-duplex interaction in both everyday conversations and complex ...
+
+--- [7] 2609.08956v1 ---
+Title: TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction
+Authors: Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin, Yu-Kuan Fu et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TAST...
+
+--- [8] 2609.08948v1 ---
+Title: Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection
+Authors: Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang, Nguyen Thi Thu Trang
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-09-08
+Summary: The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parall...
+
+--- [9] 2609.08936v1 ---
+Title: AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing
+Authors: Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.MM
+Published: 2026-09-08
+Summary: We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancem...
+
+--- [10] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [11] 2609.08899v1 ---
+Title: From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection
+Authors: Mengzhe Geng, Yujia Lu, Patrick Littell, Manuela Kunz, Xie Chen
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-08
+Summary: Speech deepfakes can mimic a speaker's voice convincingly enough to deceive listeners and automated systems. This has driven strong progress in speech deepfake detection, but most detectors still end with one score per utterance. That score is useful for ranking systems, yet it says little about why a borderline item should be trusted, deferred, or reviewed. Two utterances can fall in the same sco...
+
+--- [12] 2609.08879v1 ---
+Title: Medical AI Encodes a "Feeling of Error": Verifying Cancer Segmentation via Internal Concepts
+Authors: Mengmeng Ma, Yunxiang Peng, Tang Li, Lu Lin, Binsheng Zhao et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Cancer segmentation models can fail silently, generating plausible but incorrect masks that risk missed findings or unnecessary biopsies. A critical question arises: Do AI models "know" when they are wrong, and if so, can we use the signal to predict their own failures? Humans do have a "Feeling of Error" (FOE): a spontaneous sense of unease that flags a potential error during thinking. We investi...
+
+--- [13] 2609.08813v1 ---
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Alatent+audio&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: Dynamic Latent Space Modeling of Inhomogeneous Poisson Network Processes with Applications to International Relations
+Authors: Jie Jian, Owen G. Ward, Jiguo Cao
+Primary cat: stat.AP | All cats: stat.AP, stat.ME, stat.ML
+Published: 2026-09-08
+Summary: We study continuous-time relational event data, where time-stamped dyadic interactions reflect both individual node propensities and evolving relational proximity. We propose a dynamic latent space model for inhomogeneous Poisson processes, where event intensities depend on node-specific activity parameters and time-varying latent distances modeled via flexible B-splines. We prove model identifiab...
+
+--- [14] 2609.08796v1 ---
+Title: Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling
+Authors: Rx Fan, Zhan H
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-09-08
+Summary: Multi-agent traffic simulation seeks diverse, coordinated, and physically realistic futures from maps and observed history. Long-horizon closed-loop generation must reconcile multiple decision time scales while its context evolves with generated states. Existing methods often unfold long futures from the initial scene and resolve intent, interaction, and motion monolithically, weakening cross-scal...
+
+--- [15] 2609.08795v1 ---
+Title: Interpreting Dolphin Vocal Sequences via Multiple Sequence Alignment
+Authors: Daniel Kohlsdorf, Denise Herzing, Thad Starner
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-08
+Summary: Dolphin communication understanding is essential for uncovering the linguistic complexity and social structures of wild pods. We adapt the ClustalW bioinformatics algorithm to analyze continuous acoustic data, treating vocalizations as high-dimensional spectral feature vectors. By replacing discrete scoring with a continuous Gaussian kernel similarity measure, our framework generates Multiple Sequ...
+
+--- [16] 2609.08788v1 ---
+Title: Adaptive Anisotropic Attention for Axis-Structured Signals
+Authors: Mahir Jain, Parshva Runwal, Aditya Ray Mishra, Arvasu Kulkarni, Sandeep Singh et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-09-08
+Summary: Dense self-attention treats all token pairs as equally plausible before learning, an interaction-isotropic prior that can be mismatched to structured signals. For structured, low signal-to-noise ratio (SNR) signals such as EEG, dependencies are organized along the electrode and time axes, and this uniform prior exposes each token to many irrelevant interactions. We introduce Adaptive Anisotropic A...
+
+--- [17] 2609.08777v1 ---
+Title: AXS-Net: Interpretable Deep Unfolding for Hyperspectral Image Denoising via Spectral Basis Unmixing and Structured Noise Refinement
+Authors: Ziyi Guan, Jianping Zhang, Zheng Yang
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-08
+Summary: Hyperspectral images (HSIs) are often degraded by mixed noise, including band-dependent Gaussian perturbations and structured artifacts such as stripes, dead-lines, and impulse noise. Most deep denoisers regress the clean image directly, entangling signal and structured noise. We instead model HSI denoising as $\Y=\A\X+\Snoise+\Nnoise$, where $\A\X$ is a low-rank spectral-subspace (unmixing) recon...
+
+--- [18] 2609.08703v1 ---
+Title: TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context
+Authors: Fritz Cremer, Jonathan Cremer
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, cs.LG
+Published: 2026-09-08
+Summary: Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic s...
+
+--- [19] 2609.08692v1 ---
+Title: Global Divergence, Local Convergence: Representation Geometry in SSMs and Transformers
+Authors: Amit Ben-Artzy, Roy Schwartz
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-08
+Summary: Recent state-space models (SSMs) such as Mamba achieve language modeling performance comparable to transformers despite relying on fundamentally different architectures. This raises an important question: how do these structural differences influence the geometry and functional nature of their internal representations? We study this question through a multi-scale analysis of representations in tra...
+
+--- [20] 2609.08671v1 ---
+Title: Optimal estimation for Functional Linear Regression with Noisy Discretized Data
+Authors: Sixtine Sphabmixay
+Primary cat: stat.ML | All cats: stat.ML, cs.LG
+Published: 2026-09-08
+Summary: In this paper, we consider the scalar-on-function linear regression model under a realistic sampling scheme in which the functional covariates are observed on a regular grid and contaminated by additive noise. We propose a two-step estimation procedure: first, the underlying curves are reconstructed from the discrete noisy observations using a Fourier-based projection method; second, the slope fun...
+

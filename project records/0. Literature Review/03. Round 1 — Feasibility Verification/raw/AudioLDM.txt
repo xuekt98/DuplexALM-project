@@ -1,0 +1,107 @@
+--- [1] 2608.09331v1 ---
+Title: RAG-Audio: Retrieval-Augmented Generation for Faithful Brain-to-Audio Reconstruction
+Authors: Ambuj Mehrish, Sebastiano Vascon
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-08-10
+Summary: Brain-to-audio reconstruction is limited by \emph{prior domination}: when a pretrained generator is conditioned on a weak neural signal, it produces realistic but stimulus-inaccurate audio. We introduce RAG-Audio, which decodes fMRI into a semantic audio embedding, retrieves a matching real-audio exemplar, and initializes the frozen generator's sampling trajectory from that exemplar while retainin...
+
+--- [2] 2607.13330v1 ---
+Title: Efficient Text-to-Audio Generation via Pruning
+Authors: Arshdeep Singh, Yi Yuan, Yun Chen, Wenwu Wang, Mark D. Plumbley
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-07-14
+Summary: Diffusion-based text-to-audio generative models such as AudioLDM achieve high perceptual quality and strong semantic consistency; however, their practical deployment is hindered by the substantial computational cost of the U-Net denoising backbone. In this work, we apply model pruning to improve the computational efficiency of AudioLDM, a U-Net-based text-conditioned audio latent diffusion model. ...
+
+--- [3] 2607.10537v1 ---
+Title: Dance to Music Generation leveraging Pre-training with Unpaired data and Contrastive Alignment
+Authors: Ryota Kimura, Sangheon Park, Natalia Polouliakh, Taketo Akama
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2026-07-12
+Summary: Dance-to-music generation is a promising task for applications such as choreography support and automatic accompaniment, where temporal coordination between body movement and sound is essential. In particular, using human joint positions as the motion representation is attractive because they explicitly capture body dynamics while being lightweight, privacy-preserving, and easy to integrate with m...
+
+--- [4] 2511.08252v3 ---
+Title: Melodia: Training-Free Music Editing Guided by Attention Probing in Diffusion Models
+Authors: Yi Yang, Haowen Li, Tianxiang Li, Boyu Cao, Xiaohan Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-11-11
+Summary: Text-to-music generation technology is progressing rapidly, creating new opportunities for musical composition and editing. However, existing music editing methods often fail to preserve the source music's temporal structure, including melody and rhythm, when altering particular attributes like instrument, genre, and mood. To address this challenge, this paper conducts an in-depth probing analysis...
+
+--- [5] 2506.00736v1 ---
+Title: IMPACT: Iterative Mask-based Parallel Decoding for Text-to-Audio Generation with Diffusion Modeling
+Authors: Kuan-Po Huang, Shu-wen Yang, Huy Phan, Bo-Ru Lu, Byeonggeun Kim et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.SD
+Published: 2025-05-31
+Summary: Text-to-audio generation synthesizes realistic sounds or music given a natural language prompt. Diffusion-based frameworks, including the Tango and the AudioLDM series, represent the state-of-the-art in text-to-audio generation. Despite achieving high audio fidelity, they incur significant inference latency due to the slow diffusion sampling process. MAGNET, a mask-based model operating on discret...
+
+--- [6] 2412.06660v1 ---
+Title: MuMu-LLaMA: Multi-modal Music Understanding and Generation via Large Language Models
+Authors: Shansong Liu, Atin Sakkeer Hussain, Qilong Wu, Chenshuo Sun, Ying Shan
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2024-12-09
+Summary: Research on large language models has advanced significantly across text, speech, images, and videos. However, multi-modal music understanding and generation remain underexplored due to the lack of well-annotated datasets. To address this, we introduce a dataset with 167.69 hours of multi-modal data, including text, images, videos, and music annotations. Based on this dataset, we propose MuMu-LLaM...
+
+--- [7] 2410.04906v1 ---
+Title: Art2Mus: Bridging Visual Arts and Music through Cross-Modal Generation
+Authors: Ivan Rinaldi, Nicola Fanelli, Giovanna Castellano, Gennaro Vessio
+Primary cat: cs.MM | All cats: cs.MM, cs.CV, cs.SD, eess.AS
+Published: 2024-10-07
+Summary: Artificial Intelligence and generative models have revolutionized music creation, with many models leveraging textual or visual prompts for guidance. However, existing image-to-music models are limited to simple images, lacking the capability to generate music from complex digitized artworks. To address this gap, we introduce $\mathcal{A}\textit{rt2}\mathcal{M}\textit{us}$, a novel model designed ...
+
+--- [8] 2409.13894v1 ---
+Title: PTQ4ADM: Post-Training Quantization for Efficient Text Conditional Audio Diffusion Models
+Authors: Jayneel Vora, Aditya Krishnan, Nader Bouacida, Prabhu RV Shankar, Prasant Mohapatra
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2024-09-20
+Summary: Denoising diffusion models have emerged as state-of-the-art in generative tasks across image, audio, and video domains, producing high-quality, diverse, and contextually relevant data. However, their broader adoption is limited by high computational costs and large memory footprints. Post-training quantization (PTQ) offers a promising approach to mitigate these challenges by reducing model complex...
+
+--- [9] 2409.09381v1 ---
+Title: Text Prompt is Not Enough: Sound Event Enhanced Prompt Adapter for Target Style Audio Generation
+Authors: Chenxu Xiong, Ruibo Fu, Shuchen Shi, Zhengqi Wen, Jianhua Tao et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.SD
+Published: 2024-09-14
+Summary: Current mainstream audio generation methods primarily rely on simple text prompts, often failing to capture the nuanced details necessary for multi-style audio generation. To address this limitation, the Sound Event Enhanced Prompt Adapter is proposed. Unlike traditional static global style transfer, this method extracts style embedding through cross-attention between text and reference audio for ...
+
+--- [10] 2406.04683v1 ---
+Title: PPPR: Portable Plug-in Prompt Refiner for Text to Audio Generation
+Authors: Shuchen Shi, Ruibo Fu, Zhengqi Wen, Jianhua Tao, Tao Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2024-06-07
+Summary: Text-to-Audio (TTA) aims to generate audio that corresponds to the given text description, playing a crucial role in media production. The text descriptions in TTA datasets lack rich variations and diversity, resulting in a drop in TTA model performance when faced with complex text. To address this issue, we propose a method called Portable Plug-in Prompt Refiner, which utilizes rich knowledge abo...
+
+--- [11] 2403.12182v1 ---
+Title: Latent CLAP Loss for Better Foley Sound Synthesis
+Authors: Tornike Karchkhadze, Hassan Salami Kavaki, Mohammad Rasool Izadi, Bryce Irvin, Mikolaj Kegler et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2024-03-18
+Summary: Foley sound generation, the art of creating audio for multimedia, has recently seen notable advancements through text-conditioned latent diffusion models. These systems use multimodal text-audio representation models, such as Contrastive Language-Audio Pretraining (CLAP), whose objective is to map corresponding audio and text prompts into a joint embedding space. AudioLDM, a text-to-audio model, w...
+
+--- [12] 2311.11255v5 ---
+Title: M$^{2}$UGen: Multi-modal Music Understanding and Generation with the Power of Large Language Models
+Authors: Shansong Liu, Atin Sakkeer Hussain, Qilong Wu, Chenshuo Sun, Ying Shan
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2023-11-19
+Summary: The current landscape of research leveraging large language models (LLMs) is experiencing a surge. Many works harness the powerful reasoning capabilities of these models to comprehend various modalities, such as text, speech, images, videos, etc. They also utilize LLMs to understand human intention and generate desired outputs like images, videos, and music. However, research that combines both un...
+
+--- [13] 2309.09705v1 ---
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AAudioLDM&max_results=15&sortBy=submittedDate&sortOrder=descending
+Title: Synth-AC: Enhancing Audio Captioning with Synthetic Supervision
+Authors: Feiyang Xiao, Qiaoxi Zhu, Jian Guan, Xubo Liu, Haohe Liu et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2023-09-18
+Summary: Data-driven approaches hold promise for audio captioning. However, the development of audio captioning methods can be biased due to the limited availability and quality of text-audio data. This paper proposes a SynthAC framework, which leverages recent advances in audio generative models and commonly available text corpus to create synthetic text-audio pairs, thereby enhancing text-audio represent...
+
+--- [14] 2309.08051v2 ---
+Title: Retrieval-Augmented Text-to-Audio Generation
+Authors: Yi Yuan, Haohe Liu, Xubo Liu, Qiushi Huang, Mark D. Plumbley et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM, eess.AS
+Published: 2023-09-14
+Summary: Despite recent progress in text-to-audio (TTA) generation, we show that the state-of-the-art models, such as AudioLDM, trained on datasets with an imbalanced class distribution, such as AudioCaps, are biased in their generation performance. Specifically, they excel in generating common audio classes while underperforming in the rare ones, thus degrading the overall generation performance. We refer...
+
+--- [15] 2309.07314v1 ---
+Title: AudioSR: Versatile Audio Super-resolution at Scale
+Authors: Haohe Liu, Ke Chen, Qiao Tian, Wenwu Wang, Mark D. Plumbley
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM, eess.AS, eess.SP
+Published: 2023-09-13
+Summary: Audio super-resolution is a fundamental task that predicts high-frequency components for low-resolution audio, enhancing audio quality in digital applications. Previous methods have limitations such as the limited scope of audio types (e.g., music, speech) and specific bandwidth settings they can handle (e.g., 4kHz to 8kHz). In this paper, we introduce a diffusion-based generative model, AudioSR, ...
+

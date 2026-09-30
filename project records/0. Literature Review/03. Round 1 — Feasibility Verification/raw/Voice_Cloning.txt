@@ -1,0 +1,107 @@
+--- [1] 2609.03502v1 ---
+Title: Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech
+Authors: Kunat Pipatanakul, Potsawee Manakul, Warit Sirichotedumrong, Sittipong Sripaisarnmongkol, Pakorn Nathong et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-03
+Summary: In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus. We study a third route: using a large voice-cloning model as a programmable data source to turn a short voice reference (e.g., 15 seconds) into a compact fixed-voice student trained entirely on synthet...
+
+--- [2] 2608.27360v1 ---
+Title: Your Voice Cloning System is Secretly a Voice Anonymizer
+Authors: Romolo Muletta, Felix Matthias Saaro, Mark Cieliebak, Jan Deriu
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-27
+Summary: Speaker anonymization suppresses speaker-identifying attributes from speech while preserving linguistic content and quality. We propose repurposing XTTSv2, a multilingual voice cloning model trained on 27k hours of speech, for speaker anonymization without retraining. Our key insight is that XTTSv2's voice cloning capabilities preserve prosodic structure independently of speaker identity, enabling...
+
+--- [3] 2608.26517v1 ---
+Title: HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence
+Authors: Fei Ma, Zebang Cheng, Minghui Li, Hongbo Xu, Yuyong Tan et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-08-27
+Summary: Visual intelligence seeks to perceive, interpret, and synthesize the visual world and is central to modern computer vision. Human-centered visual intelligence is especially demanding because it studies people as expressive, socially situated subjects whose meaning is rarely conveyed by appearance alone. It couples vision with audio and language across four representative tasks: human emotion recog...
+
+--- [4] 2608.19527v1 ---
+Title: Does Listening Matter? Backchanneling and Nodding in AI Clone
+Authors: Koji Inoue, Kazushi Kato, Tatsuya Kawahara, Shunichi Kasahara
+Primary cat: cs.HC | All cats: cs.HC, cs.CL, cs.SD
+Published: 2026-08-20
+Summary: AI clones that imitate a specific person typically reproduce what the person says and how they sound, but not how they listen. We investigate whether adding multimodal listening behaviors gives such a clone more presence and authenticity. We integrated verbal backchannels and head nodding, driven by real-time prediction models, into an AI clone equipped with voice cloning and LLM-based responses. ...
+
+--- [5] 2608.18689v2 ---
+Title: Aslema at NADI 2026: Data Augmentation for Intent Recognition and Slot Filling
+Authors: Tajwaar Shafiq, Hunzalah Hassan Bhatti, Firoj Alam, Shammur Absar Chowdhury
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-08-19
+Summary: We present Aslema, our system for NADI 2026 Shared Task 5, which consists of two subtasks: intent recognition and slot filling. We evaluate four omni LLMs in a zero-shot setting and compare them with fine-tuned models. Our results show that fine-tuning consistently outperforms zero-shot inference. We further explore synthetic data augmentation by using an LLM to generate culturally grounded Tunisi...
+
+--- [6] 2608.17492v2 ---
+Title: FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations
+Authors: Feiyu Shen, Kun Xie, Yichen Wu, Ziqi Dai, Yichen Han et al.
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-18
+Summary: Recent continuous autoregressive TTS models operate directly on continuous speech representations, preserving rich acoustic details while leveraging the instruction-following capabilities of text LLMs. This paradigm opens new possibilities for voice cloning, instruction-controlled voice design, and speech editing, but remains susceptible to error accumulation during autoregressive generation. Exis...
+
+--- [7] 2608.15690v1 ---
+Title: Adding Voice Cloning to Text-to-Audio-Video Models with a Single Zero-Initialised Layer
+Authors: Ivan Mikheev, Viacheslav Vasilev, Anna Dmitrienko, Alexey Letunovskiy, Ivan Kirillov et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM
+Published: 2026-08-16
+Summary: Text-to-audio-video (T2AV) generation models produce a video and its soundtrack from a textual description, but offer no control over whose voice speaks in the output. We show that a base T2AV model can be turned into a voice-cloning model by adding a single zero-initialized linear layer on top of its audio backbone, fine-tuning for a comparatively short training schedule, and conditioning on a sh...
+
+--- [8] 2608.15411v1 ---
+Title: A survey of AI-generated voices and their detection
+Authors: Chengzhe Sun, Tianle Yang, Siwei Lyu
+Primary cat: cs.AI | All cats: cs.AI, cs.CV
+Published: 2026-08-15
+Summary: The ability of artificial intelligence (AI) models to generate highly realistic human voices has advanced rapidly. These technologies power accessibility tools, virtual assistants and creative applications, but they also enable harmful uses, including impersonation, fraud and disinformation. Recent incidents of voice cloning scams targeting businesses and political leaders underscore the urgent ne...
+
+--- [9] 2608.13613v1 ---
+Title: VoiceDesigner: Text-to-Voice Generation and Editing via Unified Diffusion Modeling and Data Augmentation
+Authors: Jiarui Hai, Karan Thakkar, Ke Chen, Yunyun Wang, Jiaqi Su et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.LG
+Published: 2026-08-12
+Summary: Recent breakthroughs in generative models have made text-to-voice generation (TTV) possible, enabling the synthesis of speech directly from textual voice descriptions. However, existing systems face two key challenges. First, they struggle to generate a diverse range of voices, spanning real-world human speakers and fictional characters. Second, they lack robust and flexible voice editing capabili...
+
+--- [10] 2608.11650v1 ---
+Title: Confucius4-TTS: Transcript-Free Cross-Lingual Zero-Shot TTS with a Learnable Speaker Encoder
+Authors: Huaxuan Wang, Huimin Wang, Ruiyu Zhang, Yingjie Li, Yitao Duan
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-08-12
+Summary: Recent advances in zero-shot text-to-speech (TTS) have substantially improved speech quality and voice cloning fidelity. However, many zero-shot TTS systems still depend on audio prompt transcripts at inference time. This dependency limits cross-lingual voice cloning, since in-the-wild reference audio is often untranscribed. In this technical report, we present Confucius4-TTS, a multilingual zero-...
+
+--- [11] 2608.11593v1 ---
+Title: Luna-TTS Family Technical Report
+Authors: Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-12
+Summary: Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language models, whose left-to-right decoding brings latency that grows with utterance length, error accumulation along the committed prefix, and an artificial generation order imposed on the Residual Vector Quantization (RVQ) token grid. We propose Luna-TTS Family, diffusion-language-model-based TTS systems pretrained on 1 mill...
+
+--- [12] 2608.11590v2 ---
+Title: CookVoice: Unified Framework for Style Controllable Multi-Modal Human Voice Generation
+Authors: Haowei Lou, Hye-Young Paik, Dai Jia, Kai Li, Lina Yao
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-08-12
+Summary: Human voice generation has made rapid progress in speech generation, singing voice generation, voice cloning, and voice editing. However, most existing systems are designed for specific tasks and often rely on task-dependent architectures, control signals, or autoregressive decoding, limiting fine-grained controllability and inference efficiency. In this paper, we propose CookVoice, a unified fram...
+
+--- [13] 2608.08638v2 ---
+Title: CuteTTS: Efficient and High-Quality Speech Synthesis via Autoregressive Modeling of Continuous Latents
+# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Avoice+AND+abs%3Acloning&max_results=15&sortBy=submittedDate&sortOrder=descending
+Authors: Yuqian Zhang, Yao Shi, Kexin Huang, Botian Jiang, Zhe Xu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL
+Published: 2026-08-09
+Summary: Zero-shot text-to-speech (TTS) now supports interactive assistants, personalized media, and accessibility tools. All TTS systems require faithful linguistic rendering, consistent speaker identity, and low-latency response. Yet compact streaming systems must preserve sufficient acoustic detail in a predictable low-rate latent sequence, while iterative diffusion sampling and classifier-free guidance...
+
+--- [14] 2608.08362v1 ---
+Title: CtrlSpeech: Coarse-to-Fine Control for Expressive Speech Synthesis
+Authors: Zhisheng Zheng, Xiaohang Sun, Zhu Liu, Caren Chen, Rohith Kumar et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.HC, cs.SD
+Published: 2026-08-08
+Summary: Recent Text-To-Speech (TTS) systems have achieved strong naturalness and zero-shot voice cloning performance, but fine-grained control of expressive speech at the word or phoneme level remains challenging. We propose CtrlSpeech, a controllable, expressive TTS framework with coarse-to-fine control. Built on the DiTAR architecture, CtrlSpeech combines global speaker conditioning with phone-aligned p...
+
+--- [15] 2608.06900v1 ---
+Title: MMAG: A Multi-Control Mixed Audio Generation Benchmark
+Authors: Zihao Zheng, Xuenan Xu, Jiahao Mei, Yixuan Li, Minghao Lv et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-07
+Summary: Recent audio generation systems have progressed from single-modality synthesis to generating complex acoustic scenes containing speech, music, and sound effects. Therefore, evaluating these models requires assessing multiple interacting capabilities, including semantic fidelity, speaker consistency, and temporal control, yet existing benchmarks focus on isolated domains or coarse-grained descripti...
+

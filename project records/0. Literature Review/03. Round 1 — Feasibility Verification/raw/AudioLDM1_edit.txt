@@ -1,0 +1,16 @@
+# Total entries: 2
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AAudioLDM+AND+abs%3Aedit&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [1] 2511.08252v3 ---
+Title: Melodia: Training-Free Music Editing Guided by Attention Probing in Diffusion Models
+Authors: Yi Yang, Haowen Li, Tianxiang Li, Boyu Cao, Xiaohan Zhang et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2025-11-11
+Summary: Text-to-music generation technology is progressing rapidly, creating new opportunities for musical composition and editing. However, existing music editing methods often fail to preserve the source music's temporal structure, including melody and rhythm, when altering particular attributes like instrument, genre, and mood. To address this challenge, this paper conducts an in-depth probing analysis...
+
+--- [2] 2412.06660v1 ---
+Title: MuMu-LLaMA: Multi-modal Music Understanding and Generation via Large Language Models
+Authors: Shansong Liu, Atin Sakkeer Hussain, Qilong Wu, Chenshuo Sun, Ying Shan
+Primary cat: cs.SD | All cats: cs.SD, cs.MM, eess.AS
+Published: 2024-12-09
+Summary: Research on large language models has advanced significantly across text, speech, images, and videos. However, multi-modal music understanding and generation remain underexplored due to the lack of well-annotated datasets. To address this, we introduce a dataset with 167.69 hours of multi-modal data, including text, images, videos, and music annotations. Based on this dataset, we propose MuMu-LLaM...
+

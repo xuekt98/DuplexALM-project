@@ -1,0 +1,177 @@
+--- [1] 2609.34247v1 ---
+Title: SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents
+Authors: Wenyi Yu, Siyin Wang, Terumi Chiba, Xianzhao Chen, Xiaohai Tian et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-28
+Summary: Full-duplex speech large language models (LLMs) enable low-latency, natural voice interaction. However, real-world agents must also use tools and perform deliberative reasoning-operations whose variable latency and computational cost conflict with the stringent timing requirements of real-time conversation. To reconcile these demands, we propose SALMONN-duo, an adaptive dual-system voice agent ins...
+
+--- [2] 2609.34223v1 ---
+Title: Uncovering Ordinal-Matching Bias in Audio-Visual LLMs
+Authors: Jihoo Jung, Youngjoon Jang, Hyebin Cho, Suho Yoo, Joon Son Chung
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-09-28
+Summary: This work aims to improve how audio-visual large language models (AVLLMs) associate speech with the correct visible speaker in multi-speaker scenes. We find that current AVLLMs frequently fail at this task, and analyze the nature of these failures. To this end, we construct a synthetic diagnostic dataset in which multiple visible speakers each utter a single word. Analysis on this corpus reveals a...
+
+--- [3] 2609.34138v1 ---
+Title: Word Similarity Datasets for Indian Languages: Annotation and Baseline Systems
+Authors: Syed S. Akhtar, Arihant Gupta, Avijit Vajpayee, Arjit Srivastava, M. Shrivastava
+Primary cat: cs.CL | All cats: cs.CL, cs.LG
+Published: 2026-09-28
+Summary: With the advent of word representations, word similarity tasks are becoming increasing popular as an evaluation metric for the quality of the representations. In this paper, we present manually annotated monolingual word similarity datasets of six Indian languages - Urdu, Telugu, Marathi, Punjabi, Tamil and Gujarati. These languages are most spoken Indian languages worldwide after Hindi and Bengal...
+
+--- [4] 2609.33443v1 ---
+Title: Context Spanning: A Communication Framework for Full-Duplex Speech Models and External LLM Backends
+Authors: Seonghyeon Go, Yongwoo Kim, Hyeonjin Cha, Jaeho Shin
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-27
+Summary: Full-duplex spoken dialogue models can listen and speak simultaneously like the real-time dynamics of human conversation. For natural dialogue, the ability to search for external information in real-time is also an important capability. Many models remain trapped in parametric knowledge, leaving them unable to access real-time information and tool execution. Furthermore, even when Large Language M...
+
+--- [5] 2609.33204v1 ---
+Title: Turning Speech Language Models into Multilingual Listeners
+Authors: Tolúlopé Ògúnrèmí, Dan Jurafsky, Chris Manning, Ahmet Üstün, Martijn Bartelds
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-27
+Summary: Speech Language Models (SLMs) that understand spoken language questions support only a few high-resource languages, limiting access to millions of people worldwide. This gap stems from the scarcity of multilingual speech instruction-tuning datasets. We present MULTISPEECHQA, a large-scale, synthetically generated and human-verified dataset comprising 9200 hours of 10.8 million spoken question-answ...
+
+--- [6] 2609.32569v1 ---
+Title: OmniSmartHome: A Multimodal Reasoning Benchmark for Smart-Home Agents
+Authors: Jihoo Jung, Suho Yoo, Jeongsoo Choi, Hyebin Cho, Tae Wook Haam et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-09-26
+Summary: Smart-home assistants are expected to handle diverse, realistic requests that arise in daily life. In such interactions, users often rely on the surrounding multimodal context-pointing at objects or referring to what they see or hear, leaving their requests underspecified in language alone. Existing smart-home benchmarks, however, express user requests solely through language, leaving context-depe...
+
+--- [7] 2609.32560v1 ---
+Title: How to Reduce Whisper Hallucination
+Authors: Husein Zolkepli
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-26
+Summary: Whisper is still what runs in production: one permissively licensed checkpoint, 99 languages, no per-language tuning. But it writes sentences nobody said. On 42 clips of pure room tone, whisper-large-v3 emits words on 61.9% of them and emits something on 100%. The usual response is to distil a student from Whisper pseudo-labels, filtering the hallucinations out of the corpus first, which deletes t...
+
+--- [8] 2609.32536v1 ---
+Title: Do Audio LLMs Listen Before They Act? Diagnosing Acoustic-Context Gating in Voice Agents
+Authors: Yanjie Zhang, Nanchen Hu, Yushi Sun
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.MM, eess.AS
+Published: 2026-09-26
+Summary: Audio language models can recognize spoken commands and invoke tools, but an agent must first decide whether the acoustic and conversational context warrants action. We introduce VGBench, a 1,018-item diagnostic benchmark for action-level addressedness across side-talk, self-talk, and speaker-switch scenarios. Each item uses a shared action space comprising silence, a tool call, and a natural-lang...
+
+--- [9] 2609.31967v1 ---
+Title: IndicFDB: Benchmarking Full-Duplex Voice Agents across Indian Languages
+Authors: Rajarshi Roy, Shobhit Banga, Jonathan Raiman, Supriya Paul, Bhaskar Singh et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-25
+Summary: Full-duplex voice agents must handle pauses, take turns, backchannel, and respond to user interruptions in real time. Full-Duplex-Bench evaluates these behaviors, but its English-only corpus and reliance on word-timestamped ASR and an English-prompted LLM judge make it difficult to extend to Indian languages. We introduce IndicFDB, which extends it to ten languages spoken in India with 12,350 samp...
+
+--- [10] 2609.31506v1 ---
+Title: Evaluating Cultural Awareness of LLMs for Haitian Creole
+Authors: Christelle Clervilsson, Yanzhu Guo
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-09-25
+Summary: Large language models (LLMs) exhibit substantial performance disparities between high- and low-resource languages. Beyond lower task performance, they often fail to capture the cultural norms and values of underrepresented communities. In this work, we present the first systematic evaluation of cultural awareness in LLMs for Haitian Creole, a language spoken by millions but severely underrepresent...
+
+--- [11] 2609.30227v1 ---
+Title: To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech
+Authors: Debajyoti Mazumder,  Mamta, Abhirama Subramanyam Penamakuri
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL, cs.SD
+Published: 2026-09-24
+Summary: Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directly from speech. We introduce VeriSpeak, a probe benchmark for studying speech-based fact verification in Large Audio Language Models (LALMs). VeriSpeak contains 3,879 spoken claims ...
+
+--- [12] 2609.30121v1 ---
+Title: What, When, and How: Audio Description as Constrained Global Optimization
+Authors: Igor Sterner, Mirella Lapata, Alex Lascarides, Frank Keller
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2026-09-24
+Summary: Audio Description (AD) makes movies accessible to blind and visually impaired audiences by narrating visual information in gaps between dialogue. Existing automatic AD systems largely treat generation as a local video-to-text problem, assuming that the content to describe and its temporal location are already provided. Realistic AD instead requires coupled decisions about what visual information i...
+
+--- [13] 2609.31759v1 ---
+Title: Acoustic domain shift in spoken language identification from systematic domain generalization evaluation to real-world application
+Authors: Francois Derrida, Raphaël Duroselle, Thomas Courtat, Jean-François Bonastre
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2026-09-23
+Summary: Domain Generalization (DG) aims to develop models that remain robust to conditions unseen during training. While DG has been systematically studied in computer vision through controlled benchmarks and diverse distribution shifts, its evaluation in spoken language recognition remains less structured. Existing speech datasets provide valuable benchmarks for robustness to real-world acoustic conditio...
+
+--- [14] 2609.27086v1 ---
+Title: NADI 2026: The Second Multidialectal Arabic Speech Processing Shared Task
+Authors: Peter Sullivan, Bashar Talafha, Ahmed Ashraf, Fethi Bougares, Haroun Elleuch et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-22
+Summary: NADI 2026 is the seventh edition of the Nuanced Arabic Dialect Identification (NADI) shared task series and the second dedicated to multidialectal Arabic speech processing. This edition comprises five tasks and eight subtasks spanning Automatic Speech Recognition (ASR), Spoken Dialect Identification (SDID), Text-to-Speech (TTS), Spoken Language Translation (SLT), and Spoken Language Understanding ...
+
+--- [15] 2609.26488v1 ---
+Title: Spoken Language Models that Think Aloud
+Authors: Junyi Ao, Kainan Peng, Mingbo Ma, Shun Zhang, Zhenyu Tang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2026-09-22
+Summary: While Chain-of-Thought (CoT) reasoning has improved the capability of language models, directly applying it to Spoken Language Models (SLMs) may introduce long silent intervals under the serial "think-then-speak" paradigm, disrupting real-time spoken interaction. To address this issue, we propose an asynchronous think-aloud framework for reasoning-based SLMs within the Thinker-Talker architecture....
+
+--- [16] 2609.31727v1 ---
+Title: The Ongiini-Eval-OW Benchmark: A Concept Paper for the Planned Benchmarking of Machine Translation and Large Language Models on Oshindonga and Oshikwanyama
+Authors: Sebastian Küpers
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-22
+Summary: Oshiwambo -- a cluster of mutually intelligible Bantu languages spoken by over a million people across northern Namibia and southern Angola, and the home language of roughly half of Namibian households -- has, to our knowledge, no published machine-translation evaluation benchmark. Major commercial services (Google Translate, DeepL, Microsoft Translator), open multilingual MT models (NLLB-200, MAD...
+
+--- [17] 2609.25176v2 ---
+Title: Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction
+Authors: Lujia Bao, Qian Chen, Luyao Cheng, Chong Deng, Yuxiang Kong et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.AI, cs.CL, cs.SD
+Published: 2026-09-21
+Summary: Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning with Multimodality and Multi-Teacher On-Policy Distillation (M$^{2}$-OPD) to transfer language capabilities and develop native aud...
+
+--- [18] 2609.24410v1 ---
+Title: End-to-end Jordanian dialect speech-to-text self-supervised learning framework
+Authors: Ali A. Safieh, Ibrahim Abu Alhaol, Rawan Ghnemat
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-21
+Summary: Speech-to-text engines are extremely needed nowadays for different applications, representing an essential enabler in human-robot interaction. Still, some languages suffer from the lack of labeled speech data, especially in the Arabic dialects or any low-resource languages. The need for a self-supervised training process and self-training using noisy training is proven to be one of the up-and-comi...
+
+--- [19] 2609.24267v1 ---
+Title: StreamTN: A Low-Latency Streaming Chinese Text Normalization Model for Streaming TTS in Dialogue Systems
+Authors: Wenhao Li, Jinrui Liang, Haoyu Zhang, Jingbin Hu, Xiaming Ren et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-21
+Summary: Text-to-Speech (TTS) is an essential module that provides spoken responses in a spoken dialogue system (SDS) centered on a large language model (LLM). To ensure accurate TTS synthesis, responses generated by an LLM must be converted into TTS-readable formats via a Text Normalization (TN) module, imposing strict low-latency requirements in real-time SDS scenarios. Existing TN solutions are largely ...
+
+--- [20] 2609.22536v1 ---
+Title: Cross-Dialect NER for Bangla Regional Dialects Using Leave-One-Dialect-Out Cross-Validation and Explainable AI
+Authors: Shamim Rahim Refat, Faika Fairuj Preotee, Shuvashis Sarker, Shifat Islam, Bidyarthi Paul et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-18
+Summary: Bangla, the seventh most spoken language in the world, exhibits significant regional dialectal diversity, with dialects such as Barishal, Chattogram, Sylhet, Noakhali, and Mymensingh differing in lexical, morphological, and syntactic characteristics. These variations pose substantial challenges for Named Entity Recognition (NER), limiting the generalization of models trained on Standard Bangla or ...
+
+--- [21] 2609.22452v1 ---
+Title: Vox-Infinity: Benchmarking the Limits of Long-Context Spoken Language Models
+Authors: Xize Cheng, Wenxu Jia, Chenyuhao Wen, Dongjie Fu, Zehan Wang et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.HC
+Published: 2026-09-18
+Summary: Long-context understanding remains a fundamental challenge for large language models, as excessively long inputs often lead models to forget salient information. This issue is even more pronounced in the speech domain, where audio, as a low-compression modality, requires substantially more embeddings than text to preserve both semantic content and acoustic cues. To address this challenge, we intro...
+
+--- [22] 2609.21676v1 ---
+Title: The Spoken Wikipedia Presentation Corpus
+Authors: Thomas Ranzenberger, Steffen Freisinger, Tobias Bocklet, Korbinian Riedhammer
+Primary cat: eess.AS | All cats: eess.AS, cs.CL, cs.MM, cs.SD
+Published: 2026-09-18
+Summary: We present the Spoken Wikipedia Presentation Corpus, an extension of the Spoken Wikipedia Corpora featuring LLM-generated slide decks for multimodal ASR. Slides are created from LLM-segmented sections using a hybrid pipeline that combines LLM-based content planning with rule-based design decisions. For each section, an LLM generates a slide title, bullet points, a takeaway message, and a visual de...
+
+--- [23] 2609.20995v1 ---
+Title: Voice-Light: A Full-Duplex Cascaded Voice Agent with Causal Turn-Taking and Speculative Generation
+Authors: Bertil Braun
+Primary cat: cs.SD | All cats: cs.SD, cs.CL, eess.AS
+Published: 2026-09-17
+Summary: Natural spoken interaction requires more than streaming ASR, language generation, and speech synthesis: a system must react to overlap without canceling on every acknowledgment, prepare a response before a turn is certain, and ensure canceled audio cannot enter conversation history. We present Voice-Light, a full-duplex cascaded voice agent that combines immediate acoustic onset, a causal adapter ...
+
+--- [24] 2609.19879v1 ---
+Title: VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering
+Authors: Bhavana Akkiraju, Ravi Sastry Kolluru, Sri Charan D, Srihari Bandarupalli, Santosh Kesiraju et al.
+Primary cat: cs.CL | All cats: cs.CL, eess.AS
+Published: 2026-09-17
+Summary: Question answering has advanced rapidly with large language models, but predominantly for high-resource languages, in both text and spoken settings. Spoken question answering (SQA) benchmark for Telugu remains unexplored, and the reliability of automatic evaluation in this setting remains unquantified. We introduce VākQA, a Telugu SQA benchmark of 2,001 factoid question-answer pairs across six dom...
+
+--- [25] 2609.18677v1 ---
+Title: Voice of Reason: Reinforcement Learning for Spoken Math
+Authors: Timothée Weisselberger, Edouard Graves, Alexandre Défossez
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-09-16
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aspoken+AND+abs%3Alanguage+AND+abs%3Amodel&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: Speech language models enable richer spoken interactions between humans and machines than cascaded systems, allowing access to paralinguistic information and lower latency. However, their accuracy on mathematical reasoning benchmarks has lagged behind those of text models. Reinforcement learning (RL) with verifiable rewards has been instrumental in extending text models' capabilities for solving c...
+

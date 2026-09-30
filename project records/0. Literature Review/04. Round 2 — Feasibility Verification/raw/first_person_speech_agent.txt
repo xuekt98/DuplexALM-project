@@ -1,0 +1,121 @@
+--- [1] 2608.12627v3 ---
+Title: EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory
+Authors: Le Zhang, Hao Chen, Vlad Roznyatovskiy, Jianzhong Zhang, Ke Sun
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.CL, cs.HC
+Published: 2026-08-12
+Summary: Long-horizon egocentric memory transforms continuous first-person video and audio into a searchable record of past experiences. We demonstrate two bottlenecks in existing systems: indices built from context-poor captions are unreliable for agentic search, while retrieval ignores a question's temporal intent. To address both bottlenecks, we introduce EgoCITE (Egocentric Context-augmented Indexing a...
+
+--- [2] 2608.10720v2 ---
+Title: Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence
+Authors: Haoyu Zhang, Zhipeng Li, Xiaoying Tang, Tianshu Yu, Yiwen Guo
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV
+Published: 2026-08-11
+Summary: Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, but a spoken answer still leaves the agent visually absent. We introduce \textbf{Ex-Omni-2D}, a framework that answers a multimodal query with coordinated text, personalized speech, and reference-conditioned video. The dialogue model first writes a structured \textit{Visual Thought Plan} (VTP) for scene, emo...
+
+--- [3] 2606.25632v1 ---
+Title: Staying In Character: Perspective-Bounded Memory For Book-Based Role-Playing Agents
+Authors: Xushuo Tang, Junhe Zhang, Zihan Yang, Yifu Tang, Sichao Li et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-24
+Summary: Recent LLM role-playing systems build character agents from novels by extracting characters, scenes, and relations. Yet long-narrative role-playing suffers from two failures: Factual Overreach, where shared retrieval or parametric memory lets a character use facts outside its perspective, and Stylistic Monotony, where profile descriptions flatten a character into a fixed voice. To address these fa...
+
+--- [4] 2605.06064v3 ---
+Title: PersonaGesture: Single-Reference Co-Speech Gesture Personalization for Unseen Speakers
+Authors: Xiangyue Zhang, Yiyi Cai, Kunhang Li, Kaixing Yang, You Zhou et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-07
+Summary: We propose PersonaGesture, a diffusion-based pipeline for single-reference co-speech gesture personalization of unseen speakers. Given target speech and one motion clip from a new speaker, the model must synthesize gestures that follow the new utterance while retaining speaker-specific pose choices, without per-speaker optimization. This setting is useful for avatars and virtual agents, but it is ...
+
+--- [5] 2604.11103v2 ---
+Title: ActorMind: Emulating Human Actor Reasoning for Speech Role-Playing
+Authors: Xi Chen, Wei Xue, Yike Guo
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-04-13
+Summary: Role-playing has garnered rising attention as it provides a strong foundation for human-machine interaction and facilitates sociological research. However, current work is confined to textual modalities, neglecting speech, which plays a predominant role in daily life, thus limiting genuine role-playing. To bridge this gap, we conceptualize and benchmark speech role-playing through ActorMindBench, ...
+
+--- [6] 2603.01104v1 ---
+Title: Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI
+Authors: Sicheng Yang, Yukai Huang, Weitong Cai, Shitong Sun, Fengyi Fang et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CV, cs.CY
+Published: 2026-03-01
+Summary: What if accessing the web did not require a screen, a stable desk, or even free hands? For people navigating crowded cities, living with low vision, or experiencing cognitive overload, smart glasses coupled with AI agents could turn the web into an always-on assistive layer over daily life. We present Egocentric Co-Pilot, a web-native neuro-symbolic framework that runs on smart glasses and uses a ...
+
+--- [7] 2511.06036v1 ---
+Title: Towards Human-AI-Robot Collaboration and AI-Agent based Digital Twins for Parkinson's Disease Management: Review and Outlook
+Authors: Hassan Hizeh, Rim Chighri, Muhammad Mahboob Ur Rahman, Mohamed A. Bahloul, Ali Muqaibel et al.
+Primary cat: eess.SP | All cats: eess.SP, cs.RO
+Published: 2025-11-08
+Summary: The current body of research on Parkinson's disease (PD) screening, monitoring, and management has evolved along two largely independent trajectories. The first research community focuses on multimodal sensing of PD-related biomarkers using noninvasive technologies such as inertial measurement units (IMUs), force/pressure insoles, electromyography (EMG), electroencephalography (EEG), speech and ac...
+
+--- [8] 2505.20277v2 ---
+Title: OmniCharacter: Towards Immersive Role-Playing Agents with Seamless Speech-Language Personality Interaction
+Authors: Haonan Zhang, Run Luo, Xiong Liu, Yuchuan Wu, Ting-En Lin et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.CV
+Published: 2025-05-26
+Summary: Role-Playing Agents (RPAs), benefiting from large language models, is an emerging interactive AI system that simulates roles or characters with diverse personalities. However, existing methods primarily focus on mimicking dialogues among roles in textual form, neglecting the role's voice traits (e.g., voice style and emotions) as playing a crucial effect in interaction, which tends to be more imme...
+
+--- [9] 2502.14892v1 ---
+Title: EgoSpeak: Learning When to Speak for Egocentric Conversational Agents in the Wild
+Authors: Junhyeok Kim, Min Soo Kim, Jiwan Chung, Jungbin Cho, Jisoo Kim et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2025-02-17
+Summary: Predicting when to initiate speech in real-world environments remains a fundamental challenge for conversational agents. We introduce EgoSpeak, a novel framework for real-time speech initiation prediction in egocentric streaming video. By modeling the conversation from the speaker's first-person viewpoint, EgoSpeak is tailored for human-like interactions in which a conversational agent must contin...
+
+--- [10] 2303.13548v1 ---
+Title: Hey Dona! Can you help me with student course registration?
+Authors: Vishesh Kalvakurthi, Aparna S. Varde, John Jenq
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.LG
+Published: 2023-03-21
+Summary: In this paper, we present a demo of an intelligent personal agent called Hey Dona (or just Dona) with virtual voice assistance in student course registration. It is a deployed project in the theme of AI for education. In this digital age with a myriad of smart devices, users often delegate tasks to agents. While pointing and clicking supersedes the erstwhile command-typing, modern devices allow us...
+
+--- [11] 2303.09438v1 ---
+Title: Trustera: A Live Conversation Redaction System
+Authors: Evandro Gouvêa, Ali Dadgar, Shahab Jalalvand, Rathi Chengalvarayan, Badrinath Jayakumar et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.SD, eess.AS
+Published: 2023-03-16
+Summary: Trustera, the first functional system that redacts personally identifiable information (PII) in real-time spoken conversations to remove agents' need to hear sensitive information while preserving the naturalness of live customer-agent conversations. As opposed to post-call redaction, audio masking starts as soon as the customer begins speaking to a PII entity. This significantly reduces the risk ...
+
+--- [12] 2210.06974v1 ---
+Title: Evaluating Data-Driven Co-Speech Gestures of Embodied Conversational Agents through Real-Time Interaction
+Authors: Yuan He, André Pereira, Taras Kucherenko
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2022-10-13
+Summary: Embodied Conversational Agents that make use of co-speech gestures can enhance human-machine interactions in many ways. In recent years, data-driven gesture generation approaches for ECAs have attracted considerable research attention, and related methods have continuously improved. Real-time interaction is typically used when researchers evaluate ECA systems that generate rule-based gestures. How...
+
+--- [13] 2208.01917v1 ---
+# Total entries: 17
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Afirst-person+AND+abs%3Aspeech+AND+abs%3Aagent&max_results=20&sortBy=submittedDate&sortOrder=descending
+Title: Zero-Shot Style Transfer for Gesture Animation driven by Text and Speech using Adversarial Disentanglement of Multimodal Style Encoding
+Authors: Mireille Fares, Michele Grimaldi, Catherine Pelachaud, Nicolas Obin
+Primary cat: cs.SD | All cats: cs.SD, cs.HC, cs.LG, eess.AS
+Published: 2022-08-03
+Summary: Modeling virtual agents with behavior style is one factor for personalizing human agent interaction. We propose an efficient yet effective machine learning approach to synthesize gestures driven by prosodic features and text in the style of different speakers including those unseen during training. Our model performs zero shot multimodal style transfer driven by multimodal data from the PATS datab...
+
+--- [14] 2102.09370v1 ---
+Title: A Study on the Manifestation of Trust in Speech
+Authors: Lara Gauder, Leonardo Pepino, Pablo Riera, Silvina Brussino, Jazmín Vidal et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.LG
+Published: 2021-02-09
+Summary: Research has shown that trust is an essential aspect of human-computer interaction directly determining the degree to which the person is willing to use a system. An automatic prediction of the level of trust that a user has on a certain system could be used to attempt to correct potential distrust by having the system take relevant actions like, for example, apologizing or explaining its decision...
+
+--- [15] 2010.06194v2 ---
+Title: Labeling the Phrases of a Conversational Agent with a Unique Personalized Vocabulary
+Authors: Naoki Wake, Machiko Sato, Kazuhiro Sasabuchi, Minako Nakamura, Katsushi Ikeuchi
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2020-10-13
+Summary: Mapping spoken text to gestures is an important research topic for robots with conversation capabilities. According to studies on human co-speech gestures, a reasonable solution for mapping is using a concept-based approach in which a text is first mapped to a semantic cluster (i.e., a concept) containing texts with similar meanings. Subsequently, each concept is mapped to a predefined gesture. By...
+
+--- [16] 2003.06186v1 ---
+Title: Developing a Personality Model for Speech-based Conversational Agents Using the Psycholexical Approach
+Authors: Sarah Theres Völkel, Ramona Schödel, Daniel Buschek, Clemens Stachl, Verena Winterhalter et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2020-03-13
+Summary: We present the first systematic analysis of personality dimensions developed specifically to describe the personality of speech-based conversational agents. Following the psycholexical approach from psychology, we first report on a new multi-method approach to collect potentially descriptive adjectives from 1) a free description task in an online survey (228 unique descriptors), 2) an interaction ...
+
+--- [17] 1804.04649v1 ---
+Title: Peer to Peer Hate: Hate Speech Instigators and Their Targets
+Authors: Mai ElSherief, Shirin Nilizadeh, Dana Nguyen, Giovanni Vigna, Elizabeth Belding
+Primary cat: cs.SI | All cats: cs.SI, cs.CY
+Published: 2018-04-12
+Summary: While social media has become an empowering agent to individual voices and freedom of expression, it also facilitates anti-social behaviors including online harassment, cyberbullying, and hate speech. In this paper, we present the first comparative study of hate speech instigators and target users on Twitter. Through a multi-step classification process, we curate a comprehensive hate speech datase...
+

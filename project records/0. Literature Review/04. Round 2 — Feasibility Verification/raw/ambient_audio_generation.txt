@@ -1,0 +1,142 @@
+--- [1] 2609.02474v1 ---
+Title: VAANI Noise Event Dataset: A curated spontaneous speech dataset annotated with timestamps for noise events
+Authors: Pavan Kumar J, Agneedh Basu, Pranav Bhat, Sujith Pulikodan, Suryansh Shukla et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-09-02
+Summary: Most public sound-event corpora are optimized either for general audio tagging or for clean speech separation, and comparatively few provide strong timestamped noise annotations layered directly on top of spontaneous, real-world speech. We present the VAANI Noise Event Timestamp Dataset, a derived annotation layer built on Project VAANI field recordings of spontaneous speech collected across 165 I...
+
+--- [2] 2608.15734v1 ---
+Title: CineDub: Scaling End-to-End Video Dubbing to Multi-Speaker Dialogues with Coherent Sound Effects
+Authors: Yusheng Dai, Kangdi Wang, Baolong Gao, Yuxuan Jiang, Weiqiang Wang et al.
+Primary cat: eess.AS | All cats: eess.AS, cs.MM, cs.SD
+Published: 2026-08-16
+Summary: Automatic video dubbing in the wild remains fundamentally limited by two competing constraints: hierarchical methods depend on brittle, multi-stage preprocessing pipelines that severely restrict data scalability and practical deployment, while holistic approaches operating on uncropped video suffer from weak temporal alignment and speaker-utterance ambiguity in multi-speaker settings. To overcome ...
+
+--- [3] 2607.15038v2 ---
+Title: Video = World + Event Stream
+Authors: Lianghua Huang, Zhi-Fan Wu, Yupeng Shi, Wei Wang, Mengyang Feng et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-07-16
+Summary: We present Wan-Streamer v0.3, which reframes our native-streaming interaction model under a single organizing view: a video is a world plus an event stream. The world is the persistent context in which a video unfolds, including the environment, scene, subjects, ambient acoustic conditions, voice characteristics, and other relatively stable conditions. The event stream is everything that changes o...
+
+--- [4] 2606.30491v1 ---
+Title: SIMAX: A Scalable and Interpretable Framework for Multi-Fidelity and Annotated Clinician-Patient Dialogue Simulation
+Authors: Zhuhan Bao, Rui Yang, Bohao Yang, Zhiyi Liu, Sicheng Shu et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-29
+Summary: Background. The widespread deployment of ambient digital scribes is driving large-scale capture of clinician-patient dialogues. Human coding of clinical communication data remains costly, inconsistent, and difficult to scale, motivating AI-driven communication coding systems. However, evaluating these systems requires real-world dialogues and human-coded labels, both hard to obtain at scale. Metho...
+
+--- [5] 2606.19325v1 ---
+Title: Reference-Driven Multi-Speaker Audio Scene Generation from In-the-Wild Priors
+Authors: Michael Finkelson, Daniel Segal, Eitan Richardson, Shahar Armon, Nani Goldring et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CV
+Published: 2026-06-17
+Summary: Existing multi-speaker dialogue systems bind speakers to utterances through structured supervision: per-turn tags, multi-stream transcriptions, or learnable speaker embeddings. These systems operate within speech-only pipelines that produce clean vocal sequences without the ambient texture of real conversations. We take a different approach. Our method, ScenA, conditions a text-to-audio flow-match...
+
+--- [6] 2606.09098v2 ---
+Title: HoliDubber: Holistic Video Dubbing for Complex Acoustic Scenes via Text-Guided Audio Synthesis
+Authors: Wenhao Guan, Yifan Duan, Junxi Liu, Yu Gu, Feng Dang et al.
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-06-08
+Summary: Video dubbing is a cornerstone of multimedia content creation, aiming to synthesize synchronized acoustic sequences for visual streams. While Text-to-Speech (TTS) and Text-to-Audio (TTA) generation have each achieved remarkable progress, existing dubbing systems remain confined to isolated speech synthesis without incorporating sound effects and ambient audio, forcing practitioners to rely on frag...
+
+--- [7] 2605.31329v1 ---
+Title: Improving acoustic drone detection generalization through pretraining and data augmentation
+Authors: Paul M. Reuter, Mattes Ohlenbusch, Christian Rollwage
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-05-29
+Summary: Detecting unauthorized UAV flights is critical for surveillance, security, and airspace management. Acoustic drone detection, which relies on the distinctive propeller and motor sounds of UAVs, provides a low-cost, passive solution that requires no line of sight. A central challenge is generalization: reliably distinguishing drone signatures from ambient noise across unseen recording setups, envir...
+
+--- [8] 2605.16545v2 ---
+Title: Symphony for Speech-to-Text: Supporting Real-Time Medical Voice Interfaces
+Authors: Arne Nix, Robert James, Lasse Borgholt, Anna B. Ekner, Lana Krumm et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.CL
+Published: 2026-05-15
+Summary: After decades of use in dictation and, more recently, ambient documentation, speech is emerging as a primary modality for interacting with technology and AI in healthcare. Yet medical speech recognition remains difficult: systems must capture specialized terminology, resolve contextual ambiguity, and render measurements, abbreviations, and clinical shorthand precisely. Existing solutions are typic...
+
+--- [9] 2605.12179v1 ---
+Title: SyncDPO: Enhancing Temporal Synchronization in Video-Audio Joint Generation via Preference Learning
+Authors: Xin Cheng, Xihua Wang, Ying Ba, Yuyue Wang, Kaisi Guan et al.
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-05-12
+Summary: Recent advancements in video-audio joint generation have achieved remarkable success in semantic correspondence. However, achieving precise temporal synchronization, which requires fine-grained alignment between audio events and their visual triggers, remains a challenging problem. The post-training method for joint generation is largely dominated by Supervised Fine-Tuning, but the commonly used M...
+
+--- [10] 2604.23860v1 ---
+Title: Exploring Audio Hallucination in Egocentric Video Understanding
+Authors: Ashish Seth, Xinhao Mei, Changsheng Zhao, Varun Nagaraja, Ernie Chang et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-04-26
+Summary: Egocentric videos provide a distinctive setting in which sound serves as crucial cues to understand user activities and surroundings, particularly when visual information is unstable or occluded due to continuous camera movement. State-of-the-art large audio-visual language models (AV-LLMs) can generate multimodal descriptions. However, we show in this work that they are prone to audio hallucinati...
+
+--- [11] 2606.09834v1 ---
+Title: Weather Synchronization in Digital Twin Environments for Shared VR Experience Using Commercial Metaverse Platforms
+Authors: Masanori Ibara, Yuichi Hiroi, Takushi Kamegai, Yusuke Masubuchi, Kazuki Matsutani et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-04-20
+Summary: Digital twin technology creates bidirectional synchronization between physical and virtual environments, yet current implementations fail to provide authentic environmental experiences that enhance user presence in shared virtual spaces. While digital twin environments using commercial metaverse platforms for IoT sensor data visualization have been proposed, translating environmental information i...
+
+--- [12] 2604.04348v1 ---
+Title: OmniSonic: Towards Universal and Holistic Audio Generation from Video and Text
+Authors: Weiguo Pian, Saksham Singh Kushwaha, Zhimin Chen, Shijian Deng, Kai Wang et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.CV, cs.MM
+Published: 2026-04-06
+Summary: In this paper, we propose Universal Holistic Audio Generation (UniHAGen), a task for synthesizing comprehensive auditory scenes that include both on-screen and off-screen sounds across diverse domains (e.g., ambient events, musical instruments, and human speech). Prior video-conditioned audio generation models typically focus on producing on-screen environmental sounds that correspond to visible s...
+
+# Total entries: 20
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aambient+AND+abs%3Aaudio+AND+abs%3Ageneration&max_results=20&sortBy=submittedDate&sortOrder=descending
+--- [13] 2603.28757v1 ---
+Title: SonoWorld: From One Image to a 3D Audio-Visual Scene
+Authors: Derong Jin, Xiyi Chen, Ming C. Lin, Ruohan Gao
+Primary cat: cs.CV | All cats: cs.CV, cs.MM, cs.SD
+Published: 2026-03-30
+Summary: Tremendous progress in visual scene generation now turns a single image into an explorable 3D world, yet immersion remains incomplete without sound. We introduce Image2AVScene, the task of generating a 3D audio-visual scene from a single image, and present SonoWorld, the first framework to tackle this challenge. From one image, our pipeline outpaints a 360° panorama, lifts it into a navigable 3D s...
+
+--- [14] 2602.12918v1 ---
+Title: Adding internal audio sensing to internal vision enables human-like in-hand fabric recognition with soft robotic fingertips
+Authors: Iris Andrussow, Jans Solano, Benjamin A. Richardson, Georg Martius, Katherine J. Kuchenbecker
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-02-13
+Summary: Distinguishing the feel of smooth silk from coarse cotton is a trivial everyday task for humans. When exploring such fabrics, fingertip skin senses both spatio-temporal force patterns and texture-induced vibrations that are integrated to form a haptic representation of the explored material. It is challenging to reproduce this rich, dynamic perceptual capability in robots because tactile sensors t...
+
+--- [15] 2602.08838v1 ---
+Title: Glow with the Flow: AI-Assisted Creation of Ambient Lightscapes for Music Videos
+Authors: Frederic Anthony Robinson, Vishnu Raj, David Cooper, Fan Du, David Gunawan
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2026-02-09
+Summary: Designed light is an established modality for live performance and music playback. Despite the growing availability of consumer smart lighting, the creation of designed light for music visualization remains limited to professional contexts due to time and skill constraints. To address this, we present an AI-assisted system for generating ambient light sequences for music videos. Informed by profes...
+
+--- [16] 2603.29893v1 ---
+Title: Perfecting Human-AI Interaction at Clinical Scale. Turning Production Signals into Safer, More Human Conversations
+Authors: Subhabrata Mukherjee, Markel Sanz Ausin, Kriti Aggarwal, Debajyoti Datta, Shanil Puri et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.AI, cs.CL, cs.MA
+Published: 2026-02-09
+Summary: Healthcare conversational AI agents shouldn't be optimized only for clean benchmark accuracy in production-first regime; they must be optimized for the lived reality of patient conversations, where audio is imperfect, intent is indirect, language shifts mid-call, and compliance hinges on how guidance is delivered. We present a production-validated framework grounded in real-time signals from 115M+...
+
+--- [17] 2602.01394v2 ---
+Title: SSNAPS: Audio-Visual Separation of Speech and Background Noise with Diffusion Inverse Sampling
+Authors: Yochai Yemini, Yoav Ellinson, Rami Ben-Ari, Sharon Gannot, Ethan Fetaya
+Primary cat: eess.AS | All cats: eess.AS, cs.LG, cs.SD
+Published: 2026-02-01
+Summary: This paper addresses the challenge of audio-visual single-microphone speech separation and enhancement in the presence of real-world environmental noise. Our approach is based on generative inverse sampling, where we model clean speech and ambient noise with dedicated diffusion priors and jointly leverage them to recover all underlying sources. To achieve this, reformulate a recent inverse sampler...
+
+--- [18] 2512.02515v1 ---
+Title: VibOmni: Towards Scalable Bone-conduction Speech Enhancement on Earables
+Authors: Lixing He, Yunqi Guo, Haozheng Hou, Zhenyu Yan
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2025-12-02
+Summary: Earables, such as True Wireless Stereo earphones and VR/AR headsets, are increasingly popular, yet their compact design poses challenges for robust voice-related applications like telecommunication and voice assistant interactions in noisy environments. Existing speech enhancement systems, reliant solely on omnidirectional microphones, struggle with ambient noise like competing speakers. To addres...
+
+--- [19] 2511.00289v1 ---
+Title: Investigating Search Among Physical and Virtual Objects Under Different Lighting Conditions
+Authors: You-Jin Kim, Radha Kumaran, Ehsan Sayyad, Anne Milner, Tom Bullock et al.
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-10-31
+Summary: By situating computer-generated content in the physical world, mobile augmented reality (AR) can support many tasks that involve effective search and inspection of physical environments. Currently, there is limited information regarding the viability of using AR in realistic wide-area outdoor environments and how AR experiences affect human behavior in these environments. Here, we conducted a wide...
+
+--- [20] 2510.22857v2 ---
+Title: Storycaster: An AI System for Immersive Room-Based Storytelling
+Authors: Naisha Agarwal, Judith Amores, Andrew D. Wilson
+Primary cat: cs.HC | All cats: cs.HC
+Published: 2025-10-26
+Summary: While Cave Automatic Virtual Environment (CAVE) systems have long enabled room-scale virtual reality and various kinds of interactivity, their content has largely remained predetermined. We present \textit{Storycaster}, a generative AI CAVE system that transforms physical rooms into responsive storytelling environments. Unlike headset-based VR, \textit{Storycaster} preserves spatial awareness, usi...
+

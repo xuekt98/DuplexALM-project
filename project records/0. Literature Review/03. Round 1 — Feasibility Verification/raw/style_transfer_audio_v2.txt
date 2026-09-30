@@ -1,0 +1,177 @@
+--- [1] 2608.28127v1 ---
+Title: Exploring the Design Space of Representation Learning for Audio Transformations
+Authors: Sungho Lee, Marco Martínez-Ramírez, Junghyun Koo, Wei-Hsiang Liao, Kyogu Lee et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-28
+Summary: Neural audio representation learning has enabled a range of content-oriented applications, but the resulting features remain limited for tasks involving audio processing. Furthermore, it is not obvious what processing-aware representations should capture: the processing itself, abstracted away from source content, or the processed audio that retains it. Existing approaches implicitly commit to one...
+
+--- [2] 2608.24707v1 ---
+Title: Lost in Speech: Trilingual Spoken Hallucination Detection Across Audio and Transcripts
+Authors: Meruyert Aristombayeva, Jason S. Lucas, Chaewan Chun, Dongwon Lee
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-25
+Summary: While text-based hallucination detection has been extensively studied, spoken hallucination detection remains largely unexplored, particularly for low-resource languages. We present the first multilingual spoken hallucination benchmark comprising 12,013 news samples across English, Russian, and Kazakh with controlled hallucinations of three types and three severity levels. Samples comprise origina...
+
+--- [3] 2608.10573v1 ---
+Title: Beyond Dry References: Learning Relative Audio Effects Representations via Contrastive Distance Learning
+Authors: Xinlu Liu, Huibin Lin, Weixing Wei, Zhenhai Yan
+Primary cat: cs.SD | All cats: cs.SD
+Published: 2026-08-11
+Summary: Audio effects (Fx) representation learning plays a key role in intelligent music production, including automatic mixing and Fx style transfer. Existing methods typically rely on dry or nearly dry references for effect modeling, yet truly unprocessed audio is rarely available in practice, as real recordings inevitably reflect the microphone, room acoustics, and preceding signal processing. Instead ...
+
+--- [4] 2608.03050v1 ---
+Title: Learning Music Style for Piano Arrangement Through Cross-Modal Bootstrapping
+Authors: Jingwei Zhao, Gus Xia, Ziyu Wang, Ye Wang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.MM, eess.AS
+Published: 2026-08-04
+Summary: What is music style? Though often described using text labels such as "swing," "classical," or "emotional," the real style remains implicit and hidden in concrete music examples. In this paper, we introduce a cross-modal framework that learns implicit music styles from raw audio and applies them to symbolic music generation. Inspired by BLIP-2, our model leverages a Querying Transformer (Q-Former)...
+
+--- [5] 2607.26541v1 ---
+Title: Prosody-driven Jailbreaks in Audio LLMs: A Controlled Study and Mechanistic Analysis
+Authors: Jiachen Qian, Junyu Li
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-07-29
+Summary: Audio-capable foundation models enable end-to-end spoken interaction, but they also introduce safety risks beyond transcript content. It remains unclear how much jailbreak capability can arise from matched-text variation in speech delivery rather than from lexical rewriting or broader style transfer. We study this question by holding transcript content fixed and varying six speech-delivery presets...
+
+--- [6] 2607.23531v1 ---
+Title: The JEPA Paradox in Language: The Geometry of Linguistic Alternatives
+Authors: Anh Trac Duc Dinh, Khang Nhat Hoang Vo
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-07-26
+Summary: Joint-Embedding Predictive Architectures (JEPAs) are effective for images, video, and audio, yet deterministic JEPA-style latent prediction has not become a standard objective for text encoders. We argue that this gap reflects a mismatch between squared-error latent prediction and the conditional structure of language. The key requirement is conditional concentration: given a context and target lo...
+
+--- [7] 2607.15634v2 ---
+Title: StemFX: Learning Mixing Style Representations via Autoregressive FX Chain Prediction on Source-Separated Stems
+Authors: Yuan-Chiao Cheng, Jui-Te Wu, Brian Chen, Yen-Tung Yeh, Yu-Hua Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-07-17
+Summary: Audio mixing style encompasses the artistic and technical decisions a mix engineer makes, including level balancing, spatialization, and the choice, ordering, and parameterization of audio effects (FX) on each stem. FX chains are a key determinant of this style, yet existing approaches to modeling them remain limited. Some operate on stereo mixtures without explicit per-stem FX chain modeling, oth...
+
+--- [8] 2608.20387v1 ---
+Title: Poly-InstructTTS: Learning In-the-Wild Expressive Speech Synthesis from Open-Ended Instructions
+Authors: Junhui Zhang, Qianhui Xu, Qingxiang Guo, Dawei Yang, Ling Miao et al.
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-06-30
+Summary: While recent text-to-speech (TTS) models achieve high naturalness, controlling fine-grained expression via natural-language instructions remains challenging. We introduce Poly- InstructTTS, which learns expressive speech from open-ended instructions using in-the-wild audiovisual data. We build a scalable multi-modal pipeline to construct a 1,000-hour instruction-annotated corpus covering 1,000+ fi...
+
+--- [9] 2606.25529v1 ---
+Title: STEB: A Speech-to-Speech Translation Expressiveness Benchmark for Evaluating Beyond Translation Fidelity
+Authors: Sitong Cheng, Weizhen Bian, Songjun Cao, Jin Li, Bei Liu et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-06-24
+Summary: Speech-to-speech translation (S2ST) should preserve not only lexical meaning, but also expressive attributes: emotion, scenario style (e.g., news reporting vs. dramatic dialogue), and nonverbal vocalizations (NVs). Moreover, collecting cross-lingual target speech that is both translation-faithful and expressively aligned with the source is difficult at scale, making reference-based evaluation impr...
+
+--- [10] 2606.08663v2 ---
+Title: Probing Token Spaces under Generator Shift in AI-Generated Music Detection
+Authors: Joonyong Park, Jungwoo Kim, Junyoung Koh, Yuki Saito
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-06-07
+Summary: AI-generated music detectors can appear robust on standard benchmark splits, yet their deployments require transfer to generator sources absent during training. We study this problem with source-restricted evaluation on \textsc{MoM-open}, an open reconstruction of MoM-CLAM that replaces the non-redistributable real corpus with FMA and MTG-Jamendo while preserving the fake-generator protocol. To is...
+
+--- [11] 2605.16578v3 ---
+Title: Voice "Cloning" is Style Transfer
+Authors: Kaitlyn Zhou, Federico Bianchi, Martijn Bartelds, Anna Pot, Yongchan Kwon et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.HC, cs.LG
+Published: 2026-05-15
+Summary: Artificially generated speech is increasingly embedded in everyday life. Voice cloning in particular enables applications where identity preservation is important, such as completing a recording, dubbing in a new language, or preserving the voices of individuals with speech loss. However, in our work, we find that despite the term, voice cloning does not faithfully ''clone'' an individual's voice....
+
+--- [12] 2605.10228v1 ---
+Title: FLARE: Full-Modality Long-Video Audiovisual Retrieval Benchmark with User-Simulated Queries
+Authors: Qijie You, Hao Liang, Mingrui Chen, Bohan Zeng, Meiyi Qiang et al.
+Primary cat: cs.MM | All cats: cs.MM
+Published: 2026-05-11
+Summary: As video becomes increasingly central to information dissemination and multimodal large language models (MLLMs) continue to advance, evaluating video retrieval has become increasingly important. In realistic search scenarios, this requires matching short user queries to long-form content using both visual and auditory evidence. Yet existing retrieval benchmarks are still dominated by short clips, ...
+
+--- [13] 2604.16615v1 ---
+Title: Beyond Feature Fusion: Contextual Bayesian PEFT for Multimodal Uncertainty Estimation
+Authors: Habibeh Naderi, Behrouz Haji Soleimani, Stan Matwin
+Primary cat: cs.LG | All cats: cs.LG, cs.AI
+Published: 2026-04-17
+Summary: We introduce CoCo-LoRA, a multimodal, uncertainty-aware parameter-efficient fine-tuning method for text prediction tasks accompanied by audio context. Existing PEFT approaches such as LoRA are efficient but typically deterministic, while recent Bayesian low-rank adapters model uncertainty in a lightweight way yet remain largely unimodal and condition uncertainty primarily on internal text features...
+
+--- [14] 2604.11917v1 ---
+Title: StreamMark: A Deep Learning-Based Semi-Fragile Audio Watermarking for Proactive Deepfake Detection
+Authors: Zhentao Liu, Milos Cernak
+Primary cat: eess.AS | All cats: eess.AS
+Published: 2026-04-13
+Summary: The rapid advancement of generative AI has made it increasingly challenging to distinguish between deepfake audio and authentic human speech. To overcome the limitations of passive detection methods, we propose StreamMark, a novel deep learning-based, semi-fragile audio watermarking system. StreamMark is designed to be robust against benign audio conversions that preserve semantic meaning (e.g., c...
+
+--- [15] 2604.02045v1 ---
+Title: BidirLM: From Text to Omnimodal Bidirectional Encoders by Adapting and Composing Causal LLMs
+Authors: Nicolas Boizard, Théo Deschamps-Berger, Hippolyte Gisserot-Boukhlef, Céline Hudelot, Pierre Colombo
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2026-04-02
+Summary: Transforming causal generative language models into bidirectional encoders offers a powerful alternative to BERT-style architectures. However, current approaches remain limited: they lack consensus on optimal training objectives, suffer from catastrophic forgetting at scale, and fail to flexibly integrate the vast ecosystem of specialized generative models. In this work, through systematic ablatio...
+
+--- [16] 2603.28554v3 ---
+Title: Hydra: Unifying Document Retrieval and Generation in a Single Vision-Language Model
+Authors: Athos Georgiou
+Primary cat: cs.CV | All cats: cs.CV, cs.AI, cs.IR
+Published: 2026-03-30
+Summary: Visual document understanding typically requires separate retrieval and generation models, doubling memory and system complexity. We present Hydra, a dual-head approach that provides both ColBERT-style late-interaction retrieval and autoregressive generation from a single vision-language model. A single LoRA adapter, trained only for retrieval, is toggled at inference: enabling it produces multi-v...
+
+--- [17] 2603.26840v1 ---
+Title: Dual-branch Graph Domain Adaptation for Cross-scenario Multi-modal Emotion Recognition
+Authors: Yuntao Shou, Jun Zhou, Tao Meng, Wei Ai, Keqin Li
+Primary cat: eess.AS | All cats: eess.AS, cs.AI
+Published: 2026-03-27
+Summary: Multimodal Emotion Recognition in Conversations (MERC) aims to predict speakers' emotional states in multi-turn dialogues through text, audio, and visual cues. In real-world settings, conversation scenarios differ significantly in speakers, topics, styles, and noise levels. Existing MERC methods generally neglect these cross-scenario variations, limiting their ability to transfer models trained on...
+
+--- [18] 2603.25870v1 ---
+Title: Speech-Synchronized Whiteboard Generation via VLM-Driven Structured Drawing Representations
+Authors: Suraj Prasad, Pinak Mahapatra
+Primary cat: cs.CV | All cats: cs.CV, cs.LG
+Published: 2026-03-26
+Summary: Creating whiteboard-style educational videos demands precise coordination between freehand illustrations and spoken narration, yet no existing method addresses this multimodal synchronization problem with structured, reproducible drawing representations. We present the first dataset of 24 paired Excalidraw demonstrations with narrated audio, where every drawing element carries millisecond-precisio...
+
+--- [19] 2603.06542v2 ---
+Title: RAMoEA-QA: Hierarchical Specialization for Robust Respiratory Audio Question Answering
+Authors: Gaia A. Bertolino, Yuwei Zhang, Tong Xia, Domenico Talia, Cecilia Mascolo
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-03-06
+Summary: Conversational generative AI is increasingly explored in healthcare, where models must integrate heterogeneous patient signals and support diverse interaction styles while producing clinically meaningful outputs. In respiratory care, non-invasive audio recordings captured with sensing devices offer a scalable route to screening and longitudinal monitoring, but heterogeneity is particularly acute: ...
+
+--- [20] 2602.16721v1 ---
+Title: Speech to Speech Synthesis for Voice Impersonation
+Authors: Bjorn Johnson, Jared Levy
+Primary cat: cs.SD | All cats: cs.SD, cs.LG, eess.AS
+Published: 2026-02-13
+Summary: Numerous models have shown great success in the fields of speech recognition as well as speech synthesis, but models for speech to speech processing have not been heavily explored. We propose Speech to Speech Synthesis Network (STSSN), a model based on current state of the art systems that fuses the two disciplines in order to perform effective speech to speech style transfer for the purpose of vo...
+
+--- [21] 2601.22501v1 ---
+Title: MIRRORTALK: Forging Personalized Avatars Via Disentangled Style and Hierarchical Motion Control
+Authors: Renjie Lu, Xulong Zhang, Xiaoyang Qu, Jianzong Wang, Shangfei Wang
+Primary cat: cs.CV | All cats: cs.CV, cs.SD
+Published: 2026-01-30
+Summary: Synthesizing personalized talking faces that uphold and highlight a speaker's unique style while maintaining lip-sync accuracy remains a significant challenge. A primary limitation of existing approaches is the intrinsic confounding of speaker-specific talking style and semantic content within facial motions, which prevents the faithful transfer of a speaker's unique persona to arbitrary speech. I...
+
+--- [22] 2601.20883v1 ---
+Title: VoxMorph: Scalable Zero-shot Voice Identity Morphing via Disentangled Embeddings
+Authors: Bharath Krishnamurthy, Ajita Rattani
+Primary cat: cs.SD | All cats: cs.SD, cs.CR, cs.LG, eess.AS
+Published: 2026-01-27
+Summary: Morphing techniques generate artificial biometric samples that combine features from multiple individuals, allowing each contributor to be verified against a single enrolled template. While extensively studied in face recognition, this vulnerability remains largely unexplored in voice biometrics. Prior work on voice morphing is computationally expensive, non-scalable, and limited to acoustically s...
+
+--- [23] 2601.17880v1 ---
+Title: Quran-MD: A Fine-Grained Multilingual Multimodal Dataset of the Quran
+Authors: Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam
+Primary cat: cs.CV | All cats: cs.CV
+Published: 2026-01-25
+Summary: We present Quran MD, a comprehensive multimodal dataset of the Quran that integrates textual, linguistic, and audio dimensions at the verse and word levels. For each verse (ayah), the dataset provides its original Arabic text, English translation, and phonetic transliteration. To capture the rich oral tradition of Quranic recitation, we include verse-level audio from 32 distinct reciters, reflecti...
+
+--- [24] 2601.01798v1 ---
+Title: VerLM: Explaining Face Verification Using Natural Language
+Authors: Syed Abdul Hannan, Hazim Bukhari, Thomas Cantalapiedra, Eman Ansar, Massa Baali et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-01-05
+Summary: Face verification systems have seen substantial advancements; however, they often lack transparency in their decision-making processes. In this paper, we introduce an innovative Vision-Language Model (VLM) for Face Verification, which not only accurately determines if two face images depict the same individual but also explicitly explains the rationale behind its decisions. Our model is uniquely t...
+
+--- [25] 2601.01294v2 ---
+Title: Diffusion Timbre Transfer Via Mutual Information Guided Inpainting
+Authors: Ching Ho Lee, Javier Nistal, Stefan Lattner, Marco Pasini, George Fazekas
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-01-03
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Astyle+AND+abs%3Atransfer+AND+abs%3Aaudio&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: We study timbre transfer as an inference-time editing problem for music audio. Starting from a strong pre-trained latent diffusion model, we introduce a lightweight procedure that requires no additional training: (i) a dimension-wise noise injection that targets latent channels most informative of instrument identity, and (ii) an early-step clamping mechanism that re-imposes the input's melodic an...
+

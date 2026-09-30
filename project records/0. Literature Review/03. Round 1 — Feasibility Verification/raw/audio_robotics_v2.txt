@@ -1,0 +1,177 @@
+--- [1] 2609.08920v1 ---
+Title: Remotely Detectable Keyed Communication through Motion
+Authors: Benjamin Chang, Michael Amir, Manon Flageat, Amanda Prorok
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-08
+Summary: Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote se...
+
+--- [2] 2609.07440v1 ---
+Title: Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer
+Authors: Koki Shoda, Jun Younes Louhi Kasahara, Aoba Koyanagi, Qi An, Atsushi Yamashita
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-09-07
+Summary: This paper proposes an open-set ego-noise separation framework for legged-robot audition via annotation-free adaptation and pretrained-model transfer. The framework removes robot-specific ego-noise while preserving environmental sounds whose classes are not specified in advance. Acoustic sensing provides cues about a robot's surroundings beyond the visual field, but walking-induced ego-noise from ...
+
+--- [3] 2609.06837v1 ---
+Title: BinauralVAE: Spatial Audio Reconstruction For World Models
+Authors: Luis Vitor Zerkowski, Luiz Velho
+Primary cat: cs.SD | All cats: cs.SD, cs.LG
+Published: 2026-09-06
+Summary: Embodied artificial intelligence has historically very much relied on visual perception, leading to a proliferation of multiple vision-centric world models. However, this reliance fails to capture spatial understanding in its entirety and can even present vulnerabilities in environments with visual occlusions, low-light conditions, or blackouts-scenarios, where acoustic information becomes a criti...
+
+--- [4] 2609.00648v1 ---
+Title: Human-robot conversation with multiple participants in noisy public spaces
+Authors: Divesh Lala, Yogeeswaran Muthukumaran, Vincent Fernandes, Kazushi Kato, Shota Fujiki et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.HC
+Published: 2026-09-01
+Summary: For noisy real-world environments such as those in open public spaces, spoken dialogue systems for both autonomous robots and avatars should be carefully designed to provide enhanced speech signals. These signals can be used either for speech recognition or, in the case of an avatar system, transmitted as clean speech to a remote operator. This work proposes an audio system that can be used for bo...
+
+--- [5] 2608.28693v1 ---
+Title: RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction
+Authors: Zifan Wang, Ziang Ren, Pengyang Shi, Zirui Wang, Chenghuai Lin et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-08-27
+Summary: Enabling humanoid robots to respond to human speech with synchronized and semantically meaningful gestures is fundamental to natural human-robot interaction. However, this task faces three critical barriers: the scarcity of semantically rich datasets, the "modality eclipse" where models ignore audio cues in favor of kinematic inertia, and the sim-to-real gap regarding physical safety. We propose R...
+
+--- [6] 2608.24639v1 ---
+Title: Investigating voiced and unvoiced regions of speech for audio deepfake detection
+Authors: Ganesh Sivaraman, Hemlata Tak, Elie Khoury
+Primary cat: eess.AS | All cats: eess.AS, eess.SP
+Published: 2026-08-25
+Summary: Deep neural network based deepfake detection systems have achieved high levels of accuracy on benchmark datasets and competitions. However, most models lack interpretability. It is challenging to extract reasoning from the network that can convince the human evaluator to trust the decision. Humans often rely on acoustic cues like unnatural pitch jitter, robotic intonation, acoustic artifacts, and ...
+
+--- [7] 2608.18661v1 ---
+Title: X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Text with Speech-State Inheritance
+Authors: Rime Wen, Zehan Liu, Shawn Qin, Lights Shi, Roy Gan et al.
+Primary cat: cs.CL | All cats: cs.CL
+Published: 2026-08-19
+Summary: Streaming text-to-speech is essential for low-latency spoken dialogue systems, yet many systems wait for sentence-level text and are therefore only pseudo-streaming. True token-level synthesis must generate speech from uncertain prefixes while maintaining perceptual continuity over an unbounded stream with bounded context. We present X2Streaming-TTS, a causal TTS framework that consumes asynchrono...
+
+--- [8] 2608.18401v1 ---
+Title: Multimodal Rapport Estimation in Real-World HRI
+Authors: Akihiro Sakuramoto, Takato Hayashi, Ryo Miyoshi, Yuki Okafuji, Shogo Okada
+Primary cat: cs.HC | All cats: cs.HC, cs.CL, cs.RO
+Published: 2026-08-19
+Summary: Evaluating interaction quality in real-world HRI is an important challenge. If interaction quality can be estimated reliably, the results can be used to improve dialogue strategies and ultimately enable robots to adapt their behavior autonomously. However, existing automatic evaluation methods have been developed primarily in controlled laboratory settings, and it remains unclear whether they can ...
+
+--- [9] 2607.26047v1 ---
+Title: S2A2: Audio-Visual Imitation Learning for Manipulation Tasks Using Acoustic Spatial Information
+Authors: Kaneyoshi Hiratsuka, Benjamin Yen, Ryosuke Kojima
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-28
+Summary: Acoustic information provides rich cues about object location, material properties, and changes caused by contact or motion. This paper introduces a new set of acoustic-aware manipulation tasks for imitation learning, in which robots must use auditory cues to determine manipulation targets. These tasks require sound source localization and identification for active exploration in robotic manipulat...
+
+--- [10] 2607.14182v1 ---
+Title: Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control
+Authors: J. M. A. Marcelo, M. Brienza, E. Bugli, L. Comito, D. Nardi et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.AI
+Published: 2026-07-15
+Summary: Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. However, most robotic performances remain based on pre-scripted sequences or externally triggered behaviors, limiting autonomy and responsiveness to dynamic environments. In this work, we introduce a novel multi-modal orchestration framework for semantic aud...
+
+--- [11] 2607.12787v2 ---
+Title: Do We Really Need Multimodal Emotion Language Models Larger Than 1B Parameters?
+Authors: Kaiwen Zheng, Junchen Fu, Wenhao Deng, Hu Han, Joemon M. Jose et al.
+Primary cat: cs.AI | All cats: cs.AI, cs.CL, cs.CV, cs.MM
+Published: 2026-07-14
+Summary: Recent advances in multimodal large language models (MLLMs) have significantly improved the performance of multimodal emotion recognition (MER) and enabled interpretable description generation by jointly modeling video, audio, and language, etc. However, these performance improvements are often accompanied by an increase in model parameter size (e.g, at least 7B), which simultaneously incurs high ...
+
+--- [12] 2607.11688v1 ---
+Title: Automated Synthesis of Facial Mechanisms for Conversational Animatronic Robots
+Authors: Zongzheng Zhang, Zi Lin, Jiawen Yang, Ziqiao Peng, Junyan Lao et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-13
+Summary: Animatronic faces are a central component of socially interactive robots, enabling rich nonverbal communication through facial articulation. However, state-of-the-art animatronic faces are typically tailored systems: each new facial geometry requires extensive manual mechanical redesign, making large-scale personalization prohibitively slow and costly. In this work, we pursue automated and scalabl...
+
+--- [13] 2607.11633v1 ---
+Title: Breaking the 15% Barrier: A Real-World Data-Driven System for Proactive Social Robot Triggered by User Nonverbal Cues
+Authors: Yuga Yano, Yuki Okafuji, Ryo Miyoshi, Sanae Yamashita, Yoshiki Ohira
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-07-13
+Summary: Service robots in retail stores increasingly rely on cascaded speech pipelines (STT-LLM-TTS), yet many customer-robot interactions are initiated or guided by nonverbal behaviors such as approaching, waving, pointing, or showing items. This paper studies such cues in a real-world store deployment with a teleoperated humanoid robot and shows that a non-negligible portion of robot turns are triggered...
+
+--- [14] 2607.07294v1 ---
+Title: Multimodal Voice Activity Projection for Turn-Taking in Social Robots with Voice-Activity-Related Pretrained Encoders
+Authors: Antonio Cano, Guillermo Pérez, Luis Merino, Randy Gomez
+Primary cat: cs.RO | All cats: cs.RO, cs.AI, cs.CL
+Published: 2026-07-08
+Summary: Turn-taking prediction is a key requirement for social robots involved in human-human interaction, particularly in mediator settings, where the robot must anticipate conversational dynamics rather than merely react to pauses. This work presents a Multimodal Voice Activity Projection (MM-VAP) framework that extends the original audio-only VAP formulation to synchronized audio-visual inputs while pr...
+
+--- [15] 2607.02680v1 ---
+Title: K9-Bench: Evaluating Multimodal LLMs on Canine-Centric Videos
+Authors: Khush Attarde, Yusuf Ali, Megha Thukral, Divye Bhutani, Thomas Ploetz et al.
+Primary cat: cs.CV | All cats: cs.CV, cs.AI
+Published: 2026-07-02
+Summary: MLLMs have shown strong zero-shot capabilities across diverse inputs such as across images, video, audio, and text. A crucial, yet underexplored, application of these models lies in understanding and modeling animal-centric scenarios. As animals are integral to millions of households, benchmarking next-generation AI models on pet-focused tasks, ranging from recognizing distress signals to enabling...
+
+--- [16] 2606.30988v3 ---
+Title: Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force
+Authors: Jaden Clark, Changhao Wang, Yihuai Gao, Seongheon Hong, Hojung Choi et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-29
+Summary: Robot manipulation often relies on sensory feedback beyond vision, particularly in contact-rich settings where force, tactile, or audio signals reveal interaction states that are not directly observable from images. However, these modalities are often hardware- and task-specific, and large-scale multisensory robot datasets remain scarce. As a result, it is impractical to pretrain policies with eve...
+
+--- [17] 2608.20379v1 ---
+Title: A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications
+Authors: Neel Mokaria, Rishie Raj, Dheeraj Baiju, Xiaoqian Shen, Shraman Pramanick et al.
+Primary cat: cs.AI | All cats: cs.AI
+Published: 2026-06-28
+Summary: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video...
+
+--- [18] 2606.28649v1 ---
+Title: RIPA: Sensory-Vector Prompt Injection Attacks on LLM-Controlled ROS 2 Robots
+Authors: Nima Dorzhiev
+Primary cat: cs.CR | All cats: cs.CR, cs.AI, cs.RO
+Published: 2026-06-26
+Summary: We present RIPA, the first systematic multi-channel empirical study of prompt injection attacks delivered through the sensory pipeline of a ROS 2-based LLM-controlled robotic system. Across 100 independent runs per injection variant on five LLMs spanning four model families and parameter scales from approximately 4B to approximately 284B (DeepSeek-V4-Flash, Llama-3-8B-Instruct-Lite, Llama-3.3-70B-...
+
+--- [19] 2606.27344v1 ---
+Title: VibeAct: Vibration to Actions for Contact-Rich Reactive Robot Dexterity
+Authors: Yuemin Mao, Uksang Yoo, Jean Oh, Jonathan Francis, Jeffrey Ichnowski
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-25
+Summary: Dexterous manipulation depends on contact events that are fast, local, and often visually occluded. Piezoelectric microphones offer a compact and high-bandwidth way to sense these interactions, but the resulting vibro-acoustic signals are difficult to simulate faithfully enough for end-to-end sim-to-real policy learning on dexterous robot hands. We propose VibeAct, a framework that bridges real vi...
+
+--- [20] 2606.22332v2 ---
+Title: Tactile Genesis: Exploring Tactile Sensors at Scale for Learning Dexterous Tasks
+Authors: Trinity Chung, Kashu Yamazaki, Dhruv Patel, Alexis Duburcq, Yiling Qiao et al.
+Primary cat: cs.RO | All cats: cs.RO
+Published: 2026-06-21
+Summary: Tactile sensing is critical for contact-rich dexterous manipulation, yet it remains unclear which tactile abstractions a policy needs and when richer tactile fields justify their hardware cost. This is hard to study empirically: each sensor effectively defines a new robot, and no lab can replicate the same learning experiment across all of them. We present Tactile Genesis, a GPU-parallel tactile s...
+
+--- [21] 2606.21372v1 ---
+Title: NAC: Neural Action Codec for Vision-Language-Action Models
+Authors: Ahad Jawaid, Yu Xiang
+Primary cat: cs.RO | All cats: cs.RO, cs.LG
+Published: 2026-06-19
+Summary: Vision-language-action (VLA) models rely on discrete action tokenizers to bridge continuous robot control and autoregressive sequence modeling, yet existing tokenizers often trade off between compression, latency, and downstream performance. We revisit this design through the lens of neural audio codecs-convolutional encoder-decoder architectures with residual vector quantization that serve as the...
+
+--- [22] 2606.17598v2 ---
+Title: MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation
+Authors: Xingyuming Liu, Ruichun Ma, Heyu Guo, Qixiu Li, Qingwen Yang et al.
+Primary cat: cs.RO | All cats: cs.RO, cs.CV
+Published: 2026-06-16
+Summary: Humans naturally leverage diverse sensing modalities to interact with the physical world, while most Vision-Language-Action (VLA) models for robotics rely solely on RGB observations. This limits their ability to perceive physical properties that are difficult or impossible to infer from RGB cameras, such as temperature, sound, or radar response. We present MuseVLA, an adaptive multimodal sensing V...
+
+--- [23] 2606.16731v2 ---
+Title: MuVAP: Multimodal Multiparty Voice Activity Projection for Turn-taking Prediction in the Wild
+Authors: Haotian Qi, Gabriel Skantze
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.HC
+Published: 2026-06-15
+Summary: Current multiparty turn-taking models often rely on complex microphone arrays or multi-camera setups, limiting their applicability in human-robot interaction scenarios. We introduce MuVAP, a causal multimodal framework that extends Voice Activity Projection by grounding acoustic predictions in face tracks, enabling speaker-aware turn-taking predictions from a monaural audio stream and a single cam...
+
+--- [24] 2606.13190v1 ---
+Title: Multi-Modal Multi-Agent Robotic Cognitive Alignment enabled by Non-Invasive Consumer Brain Computer Interfaces: A Proof of Concept Exploration
+Authors: Nataliya Kosmyna, Liz Jenkins, Anoop K. Sinha
+Primary cat: cs.RO | All cats: cs.RO, cs.HC
+Published: 2026-06-11
+Summary: While non-verbal behaviors and expressive movements are essential for natural human-robot interaction, existing methods often overlook a crucial element: the human's internal cognitive state. Frequently, proactive multi-agent systems can interrupt humans at inopportune moments, leading to cognitive overload and decreased task performance. This paper introduces a framework for generating "cognitive...
+
+--- [25] 2606.12688v2 ---
+Title: M*: A Modular, Extensible, Serving System for Multimodal Models
+Authors: Atindra Jha, Naomi Sagan, Keisuke Kamahori, Irmak Sivgin, Rohan Sanda et al.
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.DC
+Published: 2026-06-10
+# Total entries: 25
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Aaudio+AND+abs%3Arobotics&max_results=25&sortBy=submittedDate&sortOrder=descending
+Summary: We are entering a new era of composite model architectures that integrate diverse components such as vision encoders, language backbones, diffusion and flow heads, audio codecs, action generators, and world-model predictors. Such architectures underpin a broad class of multimodal models, including unified multimodal models, omni models, speech-language models, vision-language-action policies, and ...
+

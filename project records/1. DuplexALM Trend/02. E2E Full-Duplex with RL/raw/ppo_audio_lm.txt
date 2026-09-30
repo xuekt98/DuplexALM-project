@@ -1,0 +1,30 @@
+# Total entries: 4
+# URL: https://export.arxiv.org/api/query?search_query=abs%3Appo+AND+abs%3Aaudio+AND+abs%3Alanguage+AND+abs%3Amodel&max_results=25&sortBy=submittedDate&sortOrder=descending
+--- [1] 2603.13952v3 ---
+Title: LLM-Guided Reinforcement Learning for Audio-Visual Speech Enhancement
+Authors: Chih-Ning Chen, Jen-Cheng Hou, Hsin-Min Wang, Shao-Yi Chien, Yu Tsao et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-03-14
+Summary: In existing Audio-Visual Speech Enhancement (AVSE) methods, objectives such as Scale-Invariant Signal-to-Noise Ratio (SI-SNR) and Mean Squared Error (MSE) are widely used; however, their correlation with perceived speech quality is often suboptimal and provides limited interpretability for optimization. This work proposes a reinforcement learning-based AVSE framework with a Large Language Model (L...
+
+--- [2] 2512.00234v3 ---
+Title: OmniFusion: Simultaneous Multilingual Multimodal Translations via Modular Fusion
+Authors: Sai Koneru, Matthias Huck, Jan Niehues
+Primary cat: cs.CL | All cats: cs.CL, cs.AI
+Published: 2025-11-28
+Summary: There has been significant progress in open-source text-only translation large language models (LLMs) with better language coverage and quality. However, these models can be only used in cascaded pipelines for speech translation (ST), performing automatic speech recognition first followed by translation. This introduces additional latency, which is particularly critical in simultaneous ST (SimulST...
+
+--- [3] 2508.05011v1 ---
+Title: Towards Hallucination-Free Music: A Reinforcement Learning Preference Optimization Framework for Reliable Song Generation
+Authors: Huaicheng Zhang, Wei Tan, Guangzheng Li, Yixuan Zhang, Hangting Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-08-07
+Summary: Recent advances in audio-based generative language models have accelerated AI-driven lyric-to-song generation. However, these models frequently suffer from content hallucination, producing outputs misaligned with the input lyrics and undermining musical coherence. Current supervised fine-tuning (SFT) approaches, limited by passive label-fitting, exhibit constrained self-improvement and poor halluc...
+
+--- [4] 2408.13296v3 ---
+Title: The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs: An Exhaustive Review of Technologies, Research, Best Practices, Applied Research Challenges and Opportunities
+Authors: Venkatesh Balavadhani Parthasarathy, Ahtsham Zafar, Aafaq Khan, Arsalan Shahid
+Primary cat: cs.LG | All cats: cs.LG, cs.CL
+Published: 2024-08-23
+Summary: This report examines the fine-tuning of Large Language Models (LLMs), integrating theoretical insights with practical applications. It outlines the historical evolution of LLMs from traditional Natural Language Processing (NLP) models to their pivotal role in AI. A comparison of fine-tuning methodologies, including supervised, unsupervised, and instruction-based approaches, highlights their applic...
+

@@ -1,0 +1,107 @@
+--- [1] 2609.03584v2 ---
+Title: Local Chord Corruption Is Not Recognizer Replay: Structure-Matched Calibration for Chord-Conditioned Generation
+Authors: Weiwen Huang
+Primary cat: cs.SD | All cats: cs.SD, cs.MM
+Published: 2026-09-03
+Summary: Synthetic chord substitutions offer controlled tests of music generation, but their effects can differ from those of a complete recognized chord sequence. We propose structure-matched calibration, which constructs synthetic chord sequences that preserve the locations and harmonic relations of recognizer-induced changes. Paired generation measures how closely these sequences reproduce the response ...
+
+--- [2] 2608.29987v1 ---
+Title: How Well Do Generative Music Models Follow Emotion Conditioning?
+Authors: Morteza Heydari
+Primary cat: cs.SD | All cats: cs.SD, eess.AS
+Published: 2026-08-30
+Summary: Recent generative music models offer increasingly fine-grained control through text and audio conditioning, yet how faithfully they follow intended emotional cues remains an open question. We address this gap with a unified evaluation pipeline for emotion-following in generated music. Using all 1000 tracks in GTZAN, we extract semantic audio descriptions with DashengLM, an audio captioning model, ...
+
+--- [3] 2608.03433v1 ---
+Title: Cross-cultural evaluation of taste-sound correspondences in AI-generated music
+Authors: Matteo Spanio, Massimiliano Zampini, Luisa Torri, Riccardo Migliavada, Bruno Mesz et al.
+Primary cat: cs.HC | All cats: cs.HC, cs.SD
+Published: 2026-08-04
+Summary: Sonic seasoning research has shown that listeners attribute systematic gustatory and emotional meaning to sound, and text-to-music generative artificial intelligence has recently been used to render gustatory prompts as musical stimuli. Whether the taste-sound correspondences acquired by such models hold beyond the cultural context in which they were validated remains untested. We extended a singl...
+
+--- [4] 2605.30365v1 ---
+Title: Mental Damage: Caption Poisoning Attacks on Retrieval-Augmented Text-to-Music Generation
+Authors: Yizhu Wen, Shuhao Zhang, Nan Zhang, Long Cheng, Hanqing Guo
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2026-05-18
+Summary: Retrieval-augmented text-to-music (TTM) systems augment underspecified user prompts using captions retrieved from a music caption dataset. This design introduces an integrity dependency on the music knowledge database. We show that an attacker can poison the database by injecting a small number of crafted music captions, causing the system to retrieve malicious captions that bias prompt augmentati...
+
+--- [5] 2605.14765v1 ---
+Title: Persian MusicGen: A Large-Scale Dataset and Culturally-Aware Generative Model for Persian Music
+Authors: Mohammad Hossein Sameti, Diba Hadi Esfangereh, Sepehr Harfi Moridani, Leili Javidpour, Mahdieh Soleymani Baghshah
+Primary cat: cs.SD | All cats: cs.SD, cs.CL
+Published: 2026-05-14
+Summary: Persian music, with its unique tonalities, modal systems (Dastgah), and rhythmic structures, presents significant challenges for music generation models trained primarily on Western music. We address this gap by curating the first large-scale dataset of Persian songs, comprising over 900 hours high-quality audio samples across diverse sub-genres, including pop, traditional, and contemporary styles...
+
+--- [6] 2603.13824v2 ---
+Title: Evaluating Semantic Fragility in Text-to-Audio Generation Systems Under Controlled Prompt Perturbations
+Authors: Jiahui Wu
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-03-14
+Summary: Recent advances in text-to-audio generation enable models to translate natural-language descriptions into diverse musical output. However, the robustness of these systems under semantically equivalent prompt variations remains largely unexplored. Small linguistic changes may lead to substantial variation in generated audio, raising concerns about reliability in practical use. In this study, we eva...
+
+--- [7] 2602.02738v1 ---
+Title: When Noise Lowers The Loss: Rethinking Likelihood-Based Evaluation in Music Large Language Models
+Authors: Xiaosha Li, Chun Liu, Ziyu Wang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-02-02
+Summary: The rise of music large language models (LLMs) demands robust methods of evaluating output quality, especially in distinguishing high-quality compositions from "garbage music". Curiously, we observe that the standard cross-entropy loss -- a core training metric -- often decrease when models encounter systematically corrupted music, undermining its validity as a standalone quality indicator. To inv...
+
+--- [8] 2601.14786v1 ---
+Title: Training-Efficient Text-to-Music Generation with State-Space Modeling
+Authors: Wei-Jaw Lee, Fang-Chih Hsieh, Xuanjun Chen, Fang-Duo Tsai, Yi-Hsuan Yang
+Primary cat: cs.SD | All cats: cs.SD, cs.AI
+Published: 2026-01-21
+Summary: Recent advances in text-to-music generation (TTM) have yielded high-quality results, but often at the cost of extensive compute and the use of large proprietary internal data. To improve the affordability and openness of TTM training, an open-source generative model backbone that is more training- and data-efficient is needed. In this paper, we constrain the number of trainable parameters in the g...
+
+--- [9] 2601.14157v3 ---
+Title: ConceptCaps: a Distilled Concept Dataset for Interpretability in Music Models
+Authors: Bruno Sienkiewicz, Łukasz Neumann, Mateusz Modrzejewski
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG
+Published: 2026-01-20
+Summary: Concept-based interpretability methods like TCAV require clean, well-separated positive and negative examples for each concept. Existing music datasets lack this structure: tags are sparse, noisy, or ill-defined. We introduce ConceptCaps, a dataset of 21k music-caption-tags triplets with explicit labels from a 200-attribute taxonomy. Our pipeline separates semantic modeling from text generation: a...
+
+--- [10] 2510.19127v2 ---
+Title: Steering Autoregressive Music Generation with Recursive Feature Machines
+Authors: Daniel Zhao, Daniel Beaglehole, Taylor Berg-Kirkpatrick, Julian McAuley, Zachary Novack
+Primary cat: cs.LG | All cats: cs.LG, cs.AI, cs.SD, eess.AS
+Published: 2025-10-21
+Summary: Controllable music generation remains a significant challenge, with existing methods often requiring model retraining or introducing audible artifacts. We introduce MusicRFM, a framework that adapts Recursive Feature Machines (RFMs) to enable fine-grained, interpretable control over frozen, pre-trained music models by directly steering their internal activations. RFMs analyze a model's internal gr...
+
+--- [11] 2509.00914v1 ---
+Title: TinyMusician: On-Device Music Generation with Knowledge Distillation and Mixed Precision Quantization
+Authors: Hainan Wang, Mehdi Hosseinzadeh, Reza Rawassizadeh
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-08-31
+Summary: The success of the generative model has gained unprecedented attention in the music generation area. Transformer-based architectures have set new benchmarks for model performance. However, their practical adoption is hindered by some critical challenges: the demand for massive computational resources and inference time, due to their large number of parameters. These obstacles make them infeasible ...
+
+--- [12] 2509.00654v1 ---
+Title: The Name-Free Gap: Policy-Aware Stylistic Control in Music Generation
+Authors: Ashwin Nagarajan, Hao-Wen Dong
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS
+Published: 2025-08-31
+Summary: Text-to-music models capture broad attributes such as instrumentation or mood, but fine-grained stylistic control remains an open challenge. Existing stylization methods typically require retraining or specialized conditioning, which complicates reproducibility and limits policy compliance when artist names are restricted. We study whether lightweight, human-readable modifiers sampled from a large...
+
+--- [13] 2507.11096v1 ---
+Title: EditGen: Harnessing Cross-Attention Control for Instruction-Based Auto-Regressive Audio Editing
+Authors: Vassilis Sioros, Alexandros Potamianos, Giorgos Paraskevopoulos# Total entries: 15
+# URL: https://export.arxiv.org/api/query?search_query=abs%3AMusicGen&max_results=15&sortBy=submittedDate&sortOrder=descending
+
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-07-15
+Summary: In this study, we investigate leveraging cross-attention control for efficient audio editing within auto-regressive models. Inspired by image editing methodologies, we develop a Prompt-to-Prompt-like approach that guides edits through cross and self-attention mechanisms. Integrating a diffusion-based strategy, influenced by Auffusion, we extend the model's functionality to support refinement edits...
+
+--- [14] 2506.21298v2 ---
+Title: Exploring Adapter Design Tradeoffs for Low Resource Music Generation
+Authors: Atharva Mehta, Shivam Chauhan, Monojit Choudhury
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, cs.CL, cs.LG, cs.MM
+Published: 2025-06-26
+Summary: Fine-tuning large-scale music generation models, such as MusicGen and Mustango, is a computationally expensive process, often requiring updates to billions of parameters and, therefore, significant hardware resources. Parameter-Efficient Fine-Tuning (PEFT) techniques, particularly adapter-based methods, have emerged as a promising alternative, enabling adaptation with minimal trainable parameters ...
+
+--- [15] 2506.18729v2 ---
+Title: MuseControlLite: Multifunctional Music Generation with Lightweight Conditioners
+Authors: Fang-Duo Tsai, Shih-Lun Wu, Weijaw Lee, Sheng-Ping Yang, Bo-Rui Chen et al.
+Primary cat: cs.SD | All cats: cs.SD, cs.AI, eess.AS
+Published: 2025-06-23
+Summary: We propose MuseControlLite, a lightweight mechanism designed to fine-tune text-to-music generation models for precise conditioning using various time-varying musical attributes and reference audio signals. The key finding is that positional embeddings, which have been seldom used by text-to-music generation models in the conditioner for text conditions, are critical when the condition of interest ...
+
